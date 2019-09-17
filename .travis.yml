@@ -1,0 +1,43 @@
+# This will run on Travis' 'new' container-based infrastructure
+sudo: false
+
+# Blacklist
+branches:
+  only:
+    - master
+
+# Environment variables
+env:
+  global:
+    - GH_REPO_NAME: OpenFOAM-doc
+    - GH_REPO_REF: github.com/TimoLin/OpenFOAM-doc.git
+# Install dependencies
+addons:
+  apt:
+    packages:
+      - doxygen
+      - doxygen-doc
+      - doxygen-latex
+      - doxygen-gui
+      - graphviz
+
+# Build your code e.g. by calling make
+script:
+  - git checkout master
+  - git clone https://github.com/OpenFOAM/OpenFOAM-2.3.x
+  - cd OpenFOAM-2.3.x/doc
+  - source ./OpenFOAM-2.3.x/etc/bashrc
+  - ./Allwmake > doc.log 2>&1
+  - git add OpenFOAM-2.3.x/doc/*
+  - git commit -m "Deploy OF-2.3.x docs to Github Pages Travis build: ${TRAVIS_BUILD_NUMBER}" -m "Commit: ${TRAVIS_COMMIT}"
+  - git push --force "https://${GH_REPO_TOKEN}@${GH_REPO_REF}" > /dev/null 2>&1
+
+
+# Deploy using travis builtin GitHub Pages support
+deploy:
+  provider: pages
+  skip_cleanup: true
+  local_dir: $TRAVIS_BUILD_DIR/docs/html
+  github_token: $GITHUB_API_KEY
+  on:
+    branch: master
