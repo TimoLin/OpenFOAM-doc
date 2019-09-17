@@ -3,39 +3,39 @@ sudo: false
 
 # Blacklist
 branches:
-  only:
-    - master
+    only:
+        - master
 
 # Environment variables
 env:
-  global:
-    - GH_REPO_NAME: OpenFOAM-doc
-    - GH_REPO_REF: github.com/TimoLin/OpenFOAM-doc.git
+    global:
+        - GH_REPO_NAME: OpenFOAM-doc
+        - GH_REPO_REF: github.com/TimoLin/OpenFOAM-doc.git
 # Install dependencies
 addons:
-  apt:
-    packages:
-      - doxygen
-      - doxygen-doc
-      - doxygen-latex
-      - doxygen-gui
-      - graphviz
+    apt:
+        packages:
+            - doxygen
+            - doxygen-doc
+            - doxygen-latex
+            - doxygen-gui
+            - graphviz
 
 # Build your code e.g. by calling make
 script:
-  - cd OpenFOAM-2.3.x/doc
-  - source ./OpenFOAM-2.3.x/etc/bashrc
-  - ./Allwmake > doc.log 2>&1
-  - git add OpenFOAM-2.3.x/doc/*
-  - git commit -m "Deploy OF-2.3.x docs to Github Pages Travis build: ${TRAVIS_BUILD_NUMBER}" -m "Commit: ${TRAVIS_COMMIT}"
-  - git push --force "https://${GH_REPO_TOKEN}@${GH_REPO_REF}" > /dev/null 2>&1
+    - cd OpenFOAM-2.3.x/doc
+    - source ./OpenFOAM-2.3.x/etc/bashrc
+    - ./Allwmake > doc.log 2>&1
+    - git add OpenFOAM-2.3.x/doc/*
+    - git commit -m "Deploy OF-2.3.x docs to Github Pages Travis build"
+    - git push --force "https://${GH_REPO_TOKEN}@${GH_REPO_REF}" > /dev/null 2>&1
 
 
 # Deploy using travis builtin GitHub Pages support
 deploy:
-  provider: pages
-  skip_cleanup: true
-  local_dir: $TRAVIS_BUILD_DIR/OpenFOAM-2.3.x/doc/Doxygen/html
-  github_token: $GITHUB_API_KEY
-  on:
-    branch: master
+    provider: pages
+    skip_cleanup: true
+    local_dir: $TRAVIS_BUILD_DIR/OpenFOAM-2.3.x/doc/Doxygen/html
+    github_token: $GITHUB_API_KEY
+    on:
+        branch: master
