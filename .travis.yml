@@ -23,8 +23,8 @@ addons:
 
 # Build your code e.g. by calling make
 script:
-    - cd OpenFOAM-2.3.x/doc
     - source ./OpenFOAM-2.3.x/etc/bashrc
+    - cd OpenFOAM-2.3.x/doc
     - ./Allwmake > doc.log 2>&1
     - git add OpenFOAM-2.3.x/doc/*
     - git commit -m "Deploy OF-2.3.x docs to Github Pages Travis build"
