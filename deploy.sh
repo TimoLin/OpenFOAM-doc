@@ -2,7 +2,7 @@
 source ./OpenFOAM-2.3.x/etc/bashrc
 cd OpenFOAM-2.3.x/doc
 
-./Allwmake  &
+./Allwmake >/dev/null 2>&1 &
 
 # Constants
 RED='\033[0;31m'
