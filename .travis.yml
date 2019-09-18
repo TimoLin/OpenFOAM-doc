@@ -21,15 +21,10 @@ addons:
             - doxygen-gui
             - graphviz
 
-# Avoid time-out
-install:
-    - travis_wait 30 mvn install
-
 # Build your code e.g. by calling make
 script:
-    - source ./OpenFOAM-2.3.x/etc/bashrc
-    - cd OpenFOAM-2.3.x/doc
-    - ./Allwmake >doc.log 2>&1
+    - ./deploy.sh
+    - cd $TRAVIS_BUILD_DIR
     - git add OpenFOAM-2.3.x/doc/*
     - git commit -m "Deploy OF-2.3.x docs to Github Pages Travis build"
     - git push --force "https://${GH_REPO_TOKEN}@${GH_REPO_REF}" > /dev/null 2>&1
