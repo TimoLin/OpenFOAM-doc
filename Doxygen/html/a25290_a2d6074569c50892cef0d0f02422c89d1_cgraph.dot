@@ -1,0 +1,25 @@
+digraph "applyToSet"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node14 [label="applyToSet",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node14 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node14 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17 [label="fieldObject",height=0.2,width=0.4,color="black",URL="$a19001.html#a320cf83612cc3fb001166525cdb9670e"];
+  Node14 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 [label="Foam::IOobject::filePath",height=0.2,width=0.4,color="red",URL="$a26142.html#a698f54dd16f5ec2931aeff16fd4878c8",tooltip="Return complete path + object name if the file exists. "];
+  Node14 -> Node31 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node31 [label="Foam::IOobject::headerClassName",height=0.2,width=0.4,color="black",URL="$a26142.html#a9d4a861ecf42f443967c78742f73c362",tooltip="Return name of the class name read from header. "];
+  Node14 -> Node32 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node32 [label="Foam::IOobject::headerOk",height=0.2,width=0.4,color="black",URL="$a26142.html#a9d4879c850ce41d945ff77e788de3a23",tooltip="Read and check header info. "];
+  Node32 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14 -> Node33 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node33 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node14 -> Node34 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34 [label="Foam::fvMesh::time",height=0.2,width=0.4,color="red",URL="$a22766.html#a0d94096809fe3376b29a2a29ca11bb18",tooltip="Return the top-level database. "];
+  Node14 -> Node36 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node36 [label="Foam::Time::timeName",height=0.2,width=0.4,color="black",URL="$a26350.html#ad9d86fef6eca18797c786726cf925179",tooltip="Return time name of given scalar time. "];
+}

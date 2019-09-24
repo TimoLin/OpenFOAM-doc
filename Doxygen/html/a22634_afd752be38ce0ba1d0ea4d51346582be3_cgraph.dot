@@ -1,0 +1,14 @@
+digraph "weightedSum"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node42 [label="weightedSum",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node42 -> Node43 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node43 [label="map",height=0.2,width=0.4,color="black",URL="$a22634.html#a6f719d71f56ee9f97626c13b322ea4fe",tooltip="Return reference to the parallel distribution map. "];
+  Node42 -> Node44 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node44 [label="stencil",height=0.2,width=0.4,color="red",URL="$a22634.html#a411eaf3a58bffc0f951bec8db6ceeba6",tooltip="Return reference to the stencil. "];
+  Node42 -> Node49 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node49 [label="Foam::extendedCellToCell\lStencil::weightedSum",height=0.2,width=0.4,color="black",URL="$a22630.html#a4fad99194046a1700711cf8aabb92d3a",tooltip="Sum surface field contributions to create cell values. "];
+}

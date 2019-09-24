@@ -1,0 +1,19 @@
+digraph "rmap"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node99 [label="rmap",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node99 -> Node100 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node100 [label="autoMap",height=0.2,width=0.4,color="red",URL="$a30926.html#a0ab0c43ce90d756c88dd81e3d0a9eef5",tooltip="Map (and resize as needed) from self given a mapping object. "];
+  Node100 -> Node110 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node110 [label="Ustar",height=0.2,width=0.4,color="black",URL="$a30926.html#a164ad05c3eacffbd5bc38ccc163a680e",tooltip="Return friction velocity. "];
+  Node99 -> Node111 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node111 [label="Foam::incompressible\l::atmBoundaryLayerInletKFvPatch\lScalarField::rmap",height=0.2,width=0.4,color="red",URL="$a30934.html#a713277715ccc0a5ef466b0516d44731f",tooltip="Reverse map the given fvPatchField onto this fvPatchField. "];
+  Node99 -> Node112 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node112 [label="Foam::incompressible\l::atmBoundaryLayerInletEpsilon\lFvPatchScalarField::rmap",height=0.2,width=0.4,color="red",URL="$a30930.html#a713277715ccc0a5ef466b0516d44731f",tooltip="Reverse map the given fvPatchField onto this fvPatchField. "];
+  Node99 -> Node113 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node113 [label="Foam::incompressible\l::atmBoundaryLayerInletVelocity\lFvPatchVectorField::rmap",height=0.2,width=0.4,color="red",URL="$a30938.html#a4fe41b169c41bfcd4311c1d1e27a96ed",tooltip="Reverse map the given fvPatchField onto this fvPatchField. "];
+  Node99 -> Node110 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

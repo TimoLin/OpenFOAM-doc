@@ -1,0 +1,11 @@
+digraph "mutkRoughWallFunctionFvPatchScalarField"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node4 [label="mutkRoughWallFunctionFvPatch\lScalarField",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="mutkWallFunctionFvPatchScalar\lField",height=0.2,width=0.4,color="red",URL="$a30702.html",tooltip="This boundary condition provides a turbulent viscosity condition when using wall functions, based on turbulence kinetic energy. "];
+  Node8 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" Ks_\nCs_" ,fontname="FreeSans"];
+  Node8 [label="Field\< scalar \>",height=0.2,width=0.4,color="red",URL="$a26466.html"];
+}

@@ -1,0 +1,13 @@
+digraph "interfaceLevel"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1225 [label="interfaceLevel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1225 -> Node1226 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1226 [label="hasMeshLevel",height=0.2,width=0.4,color="red",URL="$a26970.html#ae71c14ad1163c83524888b4ff60063f9",tooltip="Do we have mesh for given level? "];
+  Node1226 -> Node1228 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1228 [label="size",height=0.2,width=0.4,color="red",URL="$a26970.html#a9facbf0a118d395c89884e45a5ca4e4b"];
+  Node1225 -> Node1228 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,28 @@
+digraph "setFeatureEdges"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2694 [label="setFeatureEdges",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2694 -> Node2695 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2695 [label="Foam::DynamicList::\lappend",height=0.2,width=0.4,color="black",URL="$a25890.html#a7b67b42af715604376ad63a681dee6d8",tooltip="Append an element at the end of the list. "];
+  Node2694 -> Node2696 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2696 [label="Foam::PrimitivePatch\l::edgeFaces",height=0.2,width=0.4,color="black",URL="$a27538.html#ad38ecd2902727a890ebd437731c271c8",tooltip="Return edge-face addressing. "];
+  Node2694 -> Node2697 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2697 [label="Foam::PrimitivePatch\l::edges",height=0.2,width=0.4,color="black",URL="$a27538.html#a21d764179912ddda5c6f95193c289846",tooltip="Return list of edges, address into LOCAL point list. "];
+  Node2694 -> Node2698 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2698 [label="Foam::edge::end",height=0.2,width=0.4,color="red",URL="$a27210.html#a5ac1c619caccdf5bcf8c3d58a409849f",tooltip="Return end vertex label. "];
+  Node2694 -> Node2700 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2700 [label="Foam::PrimitivePatch\l::faceNormals",height=0.2,width=0.4,color="black",URL="$a27538.html#ad96a54bba336ea57f59f0da350d3c265",tooltip="Return face normals for patch. "];
+  Node2694 -> Node2701 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2701 [label="mesh",height=0.2,width=0.4,color="red",URL="$a21430.html#a6d5e6463d124593c34d8d925916d41d7"];
+  Node2694 -> Node2745 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2745 [label="Foam::PrimitivePatch\l::points",height=0.2,width=0.4,color="black",URL="$a27538.html#aa3c7d968f31c88780c663876f64ef6a6",tooltip="Return reference to global points. "];
+  Node2694 -> Node2746 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2746 [label="Foam::List::setSize",height=0.2,width=0.4,color="black",URL="$a25694.html#aedb985ffeaf1bdbfeccc2a8730405703",tooltip="Reset size of List. "];
+  Node2694 -> Node2747 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2747 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node2694 -> Node2748 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2748 [label="Foam::edge::start",height=0.2,width=0.4,color="red",URL="$a27210.html#afe56bdd2031bbf8321e35e2330c0b990",tooltip="Return start vertex label. "];
+}

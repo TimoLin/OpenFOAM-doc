@@ -1,0 +1,42 @@
+digraph "clearOut"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node35033 [label="clearOut",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node35033 -> Node35034 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node35034 [label="Foam::fvMeshAdder::add",height=0.2,width=0.4,color="black",URL="$a21450.html#a279c8df949a7489a89a5f2c600e2e3ed",tooltip="Inplace add mesh to fvMesh. Maps all stored fields. Returns map. "];
+  Node35034 -> Node35035 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node35035 [label="Foam::fvMeshDistribute\l::distribute",height=0.2,width=0.4,color="red",URL="$a21454.html#acb11a389cf765470aea69d37a526cf1f",tooltip="Send cells to neighbours according to distribution. "];
+  Node35033 -> Node35045 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node35045 [label="Foam::autoLayerDriver\l::addLayers",height=0.2,width=0.4,color="red",URL="$a24610.html#a2654851d1ffedc26e8ff1424f7097ba6",tooltip="Add cell layers. "];
+  Node35033 -> Node35048 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node35048 [label="Foam::fvMeshTools::\laddPatch",height=0.2,width=0.4,color="red",URL="$a21458.html#a590f160ae7ad17fa6394045ac077b9bf",tooltip="Add patch. Inserts patch before all processor patches. "];
+  Node35033 -> Node35051 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node35051 [label="Foam::meshRefinement\l::appendPatch",height=0.2,width=0.4,color="red",URL="$a24662.html#afe45e132b7f6aa140c47d16ee3bc3cd5",tooltip="Helper:append patch to end of mesh. "];
+  Node35033 -> Node35055 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node35055 [label="Foam::meshRefinement\l::createBaffles",height=0.2,width=0.4,color="red",URL="$a24662.html#adf59ba1ba1060862e3274059692eea57",tooltip="Create baffle for every internal face where ownPatch != -1. "];
+  Node35055 -> Node35042 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node35042 [label="Foam::meshRefinement\l::mergeBaffles",height=0.2,width=0.4,color="red",URL="$a24662.html#aa959f1ef1377d3a4eaac5ff099280e50",tooltip="Merge baffles. Gets pairs of faces. "];
+  Node35033 -> Node35035 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node35033 -> Node35056 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node35056 [label="Foam::meshRefinement\l::dupNonManifoldPoints",height=0.2,width=0.4,color="black",URL="$a24662.html#a9dbc8bd1d38070053486014e911d03a1",tooltip="Find boundary points that connect to more than one cell. "];
+  Node35033 -> Node35057 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node35057 [label="Foam::extrudePatchMesh\l::extrudePatchMesh",height=0.2,width=0.4,color="red",URL="$a21446.html#ada5aee048de4d025b44660aca99d21a6",tooltip="Construct from mesh, patch and dictionary. "];
+  Node35033 -> Node35042 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node35033 -> Node35059 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node35059 [label="neighbour",height=0.2,width=0.4,color="red",URL="$a22766.html#aab1a7f2af09b33005a527e107c7b3fad",tooltip="Internal face neighbour. "];
+  Node35033 -> Node36410 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node36410 [label="readUpdate",height=0.2,width=0.4,color="red",URL="$a22766.html#a9d298b9dbcdbe96c85e7ea556233a8c2",tooltip="Update the mesh based on the mesh files saved in time. "];
+  Node35033 -> Node37061 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node37061 [label="removeFvBoundary",height=0.2,width=0.4,color="black",URL="$a22766.html#ac0182771afe06e7f2d7d52a627a0e16f",tooltip="Remove boundary patches. Warning: fvPatchFields hold ref to. "];
+  Node37061 -> Node35057 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node37061 -> Node35059 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node35033 -> Node37062 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node37062 [label="Foam::fvMeshTools::\lzeroPatchFields",height=0.2,width=0.4,color="black",URL="$a21458.html#a0a472e7f70e44cca96e2b8390de2354e",tooltip="Change patchField to zero on registered fields. "];
+  Node35033 -> Node35133 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node35133 [label="Foam::meshRefinement\l::zonify",height=0.2,width=0.4,color="red",URL="$a24662.html#a90cf965dfe02eb20f11a4a8c6035747f",tooltip="Put faces/cells into zones according to surface specification. "];
+  Node35033 -> Node37063 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node37063 [label="~fvMesh",height=0.2,width=0.4,color="black",URL="$a22766.html#a536cfe06fb411fe5bb3d5be0a44eb380",tooltip="Destructor. "];
+}

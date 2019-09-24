@@ -1,0 +1,18 @@
+digraph "src/OpenFOAM/db/IOstreams/Pstreams/PstreamBuffers.H"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node0 [label="src/OpenFOAM/db/IOstreams\l/Pstreams/PstreamBuffers.H",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="Pstream.H",height=0.2,width=0.4,color="black",URL="$a09134.html"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="UPstream.H",height=0.2,width=0.4,color="red",URL="$a09164.html"];
+  Node2 -> Node51 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node51 [label="DynamicList.H",height=0.2,width=0.4,color="red",URL="$a08633.html"];
+  Node1 -> Node51 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node0 -> Node51 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node0 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node0 -> Node26 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node26 [label="IOstream.H",height=0.2,width=0.4,color="red",URL="$a09086.html"];
+}

@@ -1,0 +1,18 @@
+digraph "surfMesh"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node15 [label="surfMesh",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node16 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16 [label="surfaceRegistry",height=0.2,width=0.4,color="red",URL="$a29690.html",tooltip="Wraps the normal objectRegistry with a local instance for surfaces. "];
+  Node26 -> Node16 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" defaultName\nprefix" ,fontname="FreeSans"];
+  Node26 [label="word",height=0.2,width=0.4,color="red",URL="$a28258.html",tooltip="A class for handling words, derived from string. "];
+  Node26 -> Node26 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" null" ,fontname="FreeSans"];
+  Node29 -> Node15 [dir="back",color="firebrick4",fontsize="10",style="solid",fontname="FreeSans"];
+  Node29 [label="MeshedSurfaceIOAllocator",height=0.2,width=0.4,color="black",URL="$a29578.html",tooltip="A helper class for storing points, faces and zones with IO capabilities. "];
+  Node30 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node30 [label="PrimitivePatch\< face,\l ::Foam::UList, ::Foam\l::SubField\< point \>, point \>",height=0.2,width=0.4,color="red",URL="$a27538.html"];
+  Node26 -> Node15 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" meshSubDir" ,fontname="FreeSans"];
+}

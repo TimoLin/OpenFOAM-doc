@@ -1,0 +1,18 @@
+digraph "T"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node6366 [label="T",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node6366 -> Node6367 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6367 [label="Foam::Field\< Foam::\lVector2D \>::NewCalculatedType",height=0.2,width=0.4,color="black",URL="$a26466.html#ae6bdf47436f49314cb0fc784144bf18f",tooltip="Return a pointer to a new calculatedFvPatchFieldField created on. "];
+  Node6366 -> Node6368 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6368 [label="Foam::localAxesRotation\l::transformTensor",height=0.2,width=0.4,color="black",URL="$a25002.html#a2e57ce7c0d419b85cb74a545eb0284fc",tooltip="Transform tensor sub-field using transformation tensorField. "];
+  Node6366 -> Node6369 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6369 [label="Foam::filmPyrolysisTemperature\lCoupledFvPatchScalarField\l::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a28986.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node6366 -> Node6371 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6371 [label="Foam::compressible\l::thermalBaffle1DFvPatchScalar\lField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a30790.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node6366 -> Node6373 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6373 [label="Foam::energyRegionCoupled\lFvPatchScalarField::updateInterface\lMatrix",height=0.2,width=0.4,color="red",URL="$a28962.html#a229dacc1f8a377bce8dc3abb2c98548e",tooltip="Update result field based on interface functionality. "];
+}

@@ -1,0 +1,23 @@
+digraph "correction"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node43 [label="correction",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node43 -> Node44 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node44 [label="Foam::fvMesh::boundary",height=0.2,width=0.4,color="black",URL="$a22766.html#a1fc8b179063cf5d6805da64ff1975126",tooltip="Return reference to boundary mesh. "];
+  Node43 -> Node45 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node45 [label="Foam::GeometricField\l::boundaryField",height=0.2,width=0.4,color="black",URL="$a22434.html#a3c6c1a789b48ea0c5e8bff64f9c14f2d",tooltip="Return reference to GeometricBoundaryField. "];
+  Node43 -> Node46 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node46 [label="Foam::primitiveMesh\l::cells",height=0.2,width=0.4,color="black",URL="$a27530.html#af19bf800d725a623c7b1d0101d65e7d3"];
+  Node43 -> Node47 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node47 [label="corrected",height=0.2,width=0.4,color="black",URL="$a23222.html#a09ea734bf81e6dc77b1347909d536fc1",tooltip="Return true if this scheme uses an explicit correction. "];
+  Node47 -> Node43 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node43 -> Node48 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node48 [label="Foam::isA",height=0.2,width=0.4,color="black",URL="$a21124.html#a7f38c7df863d37f5357047d27dab7711",tooltip="Check if a dynamic_cast to typeid is possible. "];
+  Node43 -> Node49 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node49 [label="Foam::primitiveMesh\l::isInternalFace",height=0.2,width=0.4,color="red",URL="$a27530.html#ae3e48ad9ec4c5132ec7d3d702ad17c9e",tooltip="Return true if given face label is internal to the mesh. "];
+  Node43 -> Node51 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node51 [label="Foam::surfaceInterpolation\lScheme::mesh",height=0.2,width=0.4,color="black",URL="$a23278.html#a470f06cfb9b6ee887cd85d63de275607",tooltip="Return mesh reference. "];
+}

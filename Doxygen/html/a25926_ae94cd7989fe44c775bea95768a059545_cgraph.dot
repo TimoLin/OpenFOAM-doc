@@ -1,0 +1,15 @@
+digraph "operator()"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="operator()",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="Foam::ListListOps::\lcombine",height=0.2,width=0.4,color="red",URL="$a21154.html#a73f1dd568843026daea0e589bd22dcdf",tooltip="Combines sublists into one big list. "];
+  Node0 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="Foam::ListListOps::\lcombineOffset",height=0.2,width=0.4,color="red",URL="$a21154.html#a20467f0f81b1b50361f0ca74657a8ef5",tooltip="Like combine but also offsets sublists based on passed sizes. "];
+  Node0 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="Foam::ListListOps::\lsubSizes",height=0.2,width=0.4,color="red",URL="$a21154.html#a9b8fc489be99b2de335a7555707c6203",tooltip="Gets sizes of sublists. "];
+  Node9 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,33 @@
+digraph "updateCoeffs"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node406 [label="updateCoeffs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node406 -> Node407 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node407 [label="Foam::TimeState::deltaTValue",height=0.2,width=0.4,color="black",URL="$a26362.html#aeb7fdbc18a6f908efa70a34e5688436c",tooltip="Return time step value. "];
+  Node406 -> Node408 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node408 [label="dimensionedInternalField",height=0.2,width=0.4,color="black",URL="$a38438.html#a942cd19121a46cdc649099eb27c74b18"];
+  Node406 -> Node409 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node409 [label="Foam::polyPatch::faceCentres",height=0.2,width=0.4,color="red",URL="$a27478.html#a7eedbc42527b683112bf222f221a714c",tooltip="Return face centres. "];
+  Node406 -> Node412 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node412 [label="Foam::fvPatch::magSf",height=0.2,width=0.4,color="red",URL="$a22870.html#a9a7c95d3e0cb6fd08cd82a30b92ec106",tooltip="Return face area magnitudes. "];
+  Node406 -> Node485 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node485 [label="Foam::fvc::meshPhi",height=0.2,width=0.4,color="red",URL="$a21134.html#a4de91c07f95262e698d486b45f6c2fe6"];
+  Node406 -> Node488 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node488 [label="Foam::polyMesh::moving",height=0.2,width=0.4,color="black",URL="$a27410.html#afa64275c1aa240283901d7afcb2f153d",tooltip="Is mesh moving. "];
+  Node406 -> Node489 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node489 [label="Foam::fvPatch::nf",height=0.2,width=0.4,color="red",URL="$a22870.html#ac630ebe09f4b9ad480cd839dd3978459",tooltip="Return face normals. "];
+  Node489 -> Node412 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node406 -> Node492 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node492 [label="Foam::polyMesh::oldPoints",height=0.2,width=0.4,color="red",URL="$a27410.html#a7db04d5fb2df0e34a2e616680cddea9a",tooltip="Return old points for mesh motion. "];
+  Node406 -> Node621 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node621 [label="Foam::Field::operator=",height=0.2,width=0.4,color="black",URL="$a26466.html#a4356fadebc9e59fb8189733d26c75605"];
+  Node406 -> Node781 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node781 [label="Foam::fvPatch::patch",height=0.2,width=0.4,color="black",URL="$a22870.html#a733fd433f94cab9899e34dcc9709333e",tooltip="Return the polyPatch. "];
+  Node406 -> Node782 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node782 [label="Foam::fvPatch::patchField",height=0.2,width=0.4,color="red",URL="$a22870.html#a491c39cea9b45bfa27a073eb55ac6de4",tooltip="Return the corresponding patchField of the named field. "];
+  Node406 -> Node593 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node593 [label="Foam::fvMesh::time",height=0.2,width=0.4,color="red",URL="$a22766.html#a0d94096809fe3376b29a2a29ca11bb18",tooltip="Return the top-level database. "];
+}

@@ -1,0 +1,20 @@
+digraph "phase"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node423 [label="phase",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node423 -> Node424 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node424 [label="Foam::CompositionModel\l\< Foam::ReactingCloud\l\< Foam::DsmcCloud \> \>::Cp",height=0.2,width=0.4,color="black",URL="$a23806.html#abbf0cc7a61c14ca28c66723091009378",tooltip="Return specific heat caoacity for the phase phaseI. "];
+  Node423 -> Node425 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node425 [label="Foam::CompositionModel\l\< Foam::ReactingCloud\l\< Foam::DsmcCloud \> \>::H",height=0.2,width=0.4,color="black",URL="$a23806.html#a3456c72367dc01eafe6d13ebc9f7b24d",tooltip="Return total enthalpy for the phase phaseI. "];
+  Node423 -> Node426 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node426 [label="Foam::CompositionModel\l\< Foam::ReactingCloud\l\< Foam::DsmcCloud \> \>::Hc",height=0.2,width=0.4,color="black",URL="$a23806.html#aa860f729f03d5c1473b01ab73f9ed6d9",tooltip="Return chemical enthalpy for the phase phaseI. "];
+  Node423 -> Node427 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node427 [label="Foam::CompositionModel\l\< Foam::ReactingCloud\l\< Foam::DsmcCloud \> \>::Hs",height=0.2,width=0.4,color="black",URL="$a23806.html#abfcdbe074fed774502a051ee464c1066",tooltip="Return sensible enthalpy for the phase phaseI. "];
+  Node423 -> Node428 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node428 [label="Foam::CompositionModel\l\< Foam::ReactingCloud\l\< Foam::DsmcCloud \> \>::L",height=0.2,width=0.4,color="black",URL="$a23806.html#a7f5e79720a0184ac989f0489f9db1287",tooltip="Return latent heat for the phase phaseI. "];
+  Node423 -> Node429 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node429 [label="Foam::CompositionModel\l\< Foam::ReactingCloud\l\< Foam::DsmcCloud \> \>::X",height=0.2,width=0.4,color="black",URL="$a23806.html#a0fee57b304872d1e533de61aaeb65ccb",tooltip="Return the list of phase phaseI volume fractions fractions. "];
+}

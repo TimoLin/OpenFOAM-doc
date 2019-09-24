@@ -1,0 +1,33 @@
+digraph "cellClosedness"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node311 [label="cellClosedness",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node311 -> Node312 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node312 [label="cmptMag",height=0.2,width=0.4,color="red",URL="$a12539.html#a9180528922650a6b9a3b302e27e621b9"];
+  Node312 -> Node335 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node335 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node311 -> Node352 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node352 [label="Foam::cmptSum",height=0.2,width=0.4,color="red",URL="$a21124.html#a856e2ab6c2bb530a1e314c9d4188f8f0"];
+  Node311 -> Node356 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node356 [label="faceConcavity",height=0.2,width=0.4,color="red",URL="$a27534.html#a10cc791bf86b406e9f23f80b34b8bf8d",tooltip="Generate face concavity field. Returns per face the (sin of the) "];
+  Node356 -> Node335 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node356 -> Node364 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node364 [label="Foam::max",height=0.2,width=0.4,color="black",URL="$a21124.html#ac993e906cf2774ae77e666bc24e81733"];
+  Node311 -> Node375 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node375 [label="Foam::primitiveMesh\l::faceNeighbour",height=0.2,width=0.4,color="black",URL="$a27530.html#acd9489a2ac1ec02451fef1f415386694",tooltip="Face face-neighbour addressing. "];
+  Node311 -> Node376 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node376 [label="Foam::primitiveMesh\l::faceOwner",height=0.2,width=0.4,color="black",URL="$a27530.html#a95a88187f795e30779aa3bac679d9bfc",tooltip="Face face-owner addresing. "];
+  Node311 -> Node335 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node311 -> Node364 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node311 -> Node377 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node377 [label="Foam::min",height=0.2,width=0.4,color="black",URL="$a21124.html#a253e112ad2d56d96230ff39ea7f442dc"];
+  Node311 -> Node368 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node368 [label="Foam::primitiveMesh\l::nCells",height=0.2,width=0.4,color="black",URL="$a27530.html#a13b94bdb0926552bf78ad5210a73a3d5"];
+  Node311 -> Node324 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node324 [label="Foam::pow",height=0.2,width=0.4,color="red",URL="$a21124.html#a7500c8e9d27a442adc75e287de074c7c"];
+  Node311 -> Node378 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node378 [label="Foam::List::setSize",height=0.2,width=0.4,color="black",URL="$a25694.html#aedb985ffeaf1bdbfeccc2a8730405703",tooltip="Reset size of List. "];
+}

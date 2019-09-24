@@ -1,0 +1,20 @@
+digraph "surfaceFormatsCore"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="surfaceFormatsCore",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="TRIsurfaceFormatCore",height=0.2,width=0.4,color="black",URL="$a29662.html",tooltip="Internal class used by the TRIsurfaceFormat. "];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="MeshedSurface\< Face \>",height=0.2,width=0.4,color="red",URL="$a29566.html",tooltip="A surface geometry mesh with zone information, not to be confused with the similarly named surfaceMes..."];
+  Node2 -> Node18 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< face \>" ,fontname="FreeSans"];
+  Node18 [label="MeshedSurface\< face \>",height=0.2,width=0.4,color="red",URL="$a29566.html"];
+  Node2 -> Node26 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< Foam::face \>" ,fontname="FreeSans"];
+  Node26 [label="MeshedSurface\< Foam\l::face \>",height=0.2,width=0.4,color="black",URL="$a29566.html"];
+  Node0 -> Node27 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node27 [label="MeshedSurfaceProxy\l\< Face \>",height=0.2,width=0.4,color="black",URL="$a29570.html",tooltip="A proxy for writing MeshedSurface, UnsortedMeshedSurface and surfMesh to various file formats..."];
+  Node0 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node0 -> Node26 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,12 @@
+digraph "comm"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1294 [label="comm",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1294 -> Node1295 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1295 [label="Foam::processorFvPatch\l::comm",height=0.2,width=0.4,color="red",URL="$a22826.html#ae666b18f9314ca62f7640cfa1ec40e54",tooltip="Return communicator used for comms. "];
+  Node1294 -> Node1297 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1297 [label="Foam::processorPointPatch\l::comm",height=0.2,width=0.4,color="black",URL="$a27294.html#a8bdf05e14c00281ba14f0e1e24c2dd58",tooltip="Return communicator used for communication. "];
+}

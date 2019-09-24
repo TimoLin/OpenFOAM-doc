@@ -1,0 +1,23 @@
+digraph "calcPointOrder"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node33835 [label="calcPointOrder",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node33835 -> Node33836 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node33836 [label="f",height=0.2,width=0.4,color="black",URL="$a17900.html#a888be93833ac7a23170555c69c690288"];
+  Node33835 -> Node33837 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node33837 [label="nInternalFaces",height=0.2,width=0.4,color="black",URL="$a27530.html#aa6c7965af1f30d16d9125deb981cbdb0"];
+  Node33835 -> Node33838 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node33838 [label="nInternalPoints",height=0.2,width=0.4,color="black",URL="$a27530.html#ae69bcc88fcb454265faa27180d19a493",tooltip="Points not on boundary. "];
+  Node33835 -> Node33839 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node33839 [label="reset",height=0.2,width=0.4,color="red",URL="$a27530.html#ac903a0172c5522dec15fd571f93bee47",tooltip="Reset this primitiveMesh given the primitive array sizes. "];
+  Node33839 -> Node33835 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node33839 -> Node33837 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node33839 -> Node33838 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node33835 -> Node33850 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node33850 [label="Foam::List::setSize",height=0.2,width=0.4,color="black",URL="$a25694.html#aedb985ffeaf1bdbfeccc2a8730405703",tooltip="Reset size of List. "];
+  Node33835 -> Node33851 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node33851 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+}

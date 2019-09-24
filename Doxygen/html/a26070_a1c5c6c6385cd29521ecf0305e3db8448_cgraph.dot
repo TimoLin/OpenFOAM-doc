@@ -1,0 +1,24 @@
+digraph "copyAndFilter"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node15 [label="copyAndFilter",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node15 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16 [label="Foam::exit",height=0.2,width=0.4,color="red",URL="$a21124.html#a06ca7250d8e89caf05243ec094843642"];
+  Node15 -> Node63 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node63 [label="Foam::ISstream::getLine",height=0.2,width=0.4,color="red",URL="$a26286.html#a94b82bd8f7d8cdaa83c9c70b7c919f78",tooltip="Raw, low-level getline into a string function. "];
+  Node15 -> Node45 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node45 [label="Foam::IOstream::good",height=0.2,width=0.4,color="black",URL="$a26226.html#abdcc7f96f487faadc7769afcf58fe992",tooltip="Return true if next operation might succeed. "];
+  Node15 -> Node65 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node65 [label="Foam::stringOps::inplace\lExpand",height=0.2,width=0.4,color="red",URL="$a21166.html#adf940b7b0788929e0e11ea44e7f9c1bb",tooltip="Inplace expand occurences of variables according to the mapping. "];
+  Node15 -> Node69 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node69 [label="Foam::OSstream::name",height=0.2,width=0.4,color="black",URL="$a26290.html#a41b2d01e5fd6e1bc71a895d8b8a86308",tooltip="Return the name of the stream. "];
+  Node15 -> Node36 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node36 [label="Foam::ISstream::name",height=0.2,width=0.4,color="black",URL="$a26286.html#a41b2d01e5fd6e1bc71a895d8b8a86308",tooltip="Return the name of the stream. "];
+  Node15 -> Node70 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node70 [label="resolveTemplates",height=0.2,width=0.4,color="red",URL="$a26070.html#a7056029919f25a2d23e9913df26223d9",tooltip="Resolve code-templates via the codeTemplateEnvName. "];
+  Node15 -> Node91 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node91 [label="Foam::OSstream::writeQuoted",height=0.2,width=0.4,color="red",URL="$a26290.html#a40c64d7f8975f303da0b0245c16fe906",tooltip="Write std::string surrounded by quotes. "];
+}

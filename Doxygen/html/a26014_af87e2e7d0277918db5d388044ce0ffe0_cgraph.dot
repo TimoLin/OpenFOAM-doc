@@ -1,0 +1,14 @@
+digraph "lookupEntryPtr"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node11559 [label="lookupEntryPtr",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node11559 -> Node11560 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11560 [label="lookupEntry",height=0.2,width=0.4,color="red",URL="$a26014.html#a89fbd35cd2ce3d28cb51982b3d903201",tooltip="Find and return an entry data stream if present otherwise error. "];
+  Node11560 -> Node11561 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11561 [label="lookupEntryPtr",height=0.2,width=0.4,color="black",URL="$a26014.html#a63ca8c5575e79a6e04b8a1e1c4c1d958",tooltip="Find and return an entry data stream pointer if present. "];
+  Node11561 -> Node11561 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11559 -> Node11561 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

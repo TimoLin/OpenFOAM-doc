@@ -1,0 +1,27 @@
+digraph "nFaces"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1245 [label="nFaces",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1245 -> Node1246 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1246 [label="agglomProcIDs",height=0.2,width=0.4,color="black",URL="$a26970.html#abc245514f799c4608476dab98263ae8f",tooltip="Set of processors to agglomerate. Element 0 is the. "];
+  Node1245 -> Node1247 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1247 [label="calculateRegionMaster",height=0.2,width=0.4,color="red",URL="$a26970.html#aed73fab74ec6a279e5d5c65139199b42",tooltip="Given fine to coarse processor map determine: "];
+  Node1245 -> Node1557 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1557 [label="Foam::fv::ff",height=0.2,width=0.4,color="red",URL="$a21133.html#ab38421d38a2395d0ae398d03fc20609c"];
+  Node1245 -> Node1574 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1574 [label="nPatchFaces",height=0.2,width=0.4,color="black",URL="$a26970.html#a9d89d659d19a959f1d27f57c2d634189",tooltip="Return number of coarse patch faces (before processor. "];
+  Node1245 -> Node1575 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1575 [label="procAgglomMap",height=0.2,width=0.4,color="black",URL="$a26970.html#a77ee696032979e20d75084d97be6b300",tooltip="Mapping from processor to agglomerated processor (global, all. "];
+  Node1575 -> Node1246 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1245 -> Node1576 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1576 [label="prolongField",height=0.2,width=0.4,color="black",URL="$a26970.html#a4181c6aa45d354741ae975dcab72e39b",tooltip="Prolong (interpolate by injection) cell field. "];
+  Node1245 -> Node1577 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1577 [label="restrictFaceField",height=0.2,width=0.4,color="red",URL="$a26970.html#aa72390fdc1317326421ff49be6af4ecb",tooltip="Restrict (integrate by summation) face field. "];
+  Node1577 -> Node1576 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1245 -> Node1578 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1578 [label="restrictField",height=0.2,width=0.4,color="red",URL="$a26970.html#a1859b2a6efbf2701dff3bcbf0b5d2a55",tooltip="Restrict (integrate by summation) cell field. "];
+  Node1578 -> Node1577 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

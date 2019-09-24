@@ -1,0 +1,22 @@
+digraph "GAMGAgglomeration"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node17 [label="GAMGAgglomeration",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node18 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 [label="MeshObject\< lduMesh,\l GeometricMeshObject,\l GAMGAgglomeration \>",height=0.2,width=0.4,color="red",URL="$a27138.html"];
+  Node36 -> Node17 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" procAgglomMap_\nprocFaceMap_\nprocBoundaryFaceMap\l_\nprocBoundaryMap\l_\nprocCellOffsets\l_\nagglomProcIDs\l_\nfaceFlipMap\l_\npatchFaceRestrict\lAddressing_\nfaceRestrictAddressing\l_\nnPatchFaces_\n..." ,fontname="FreeSans"];
+  Node36 [label="PtrList\< Foam::List \>",height=0.2,width=0.4,color="red",URL="$a25914.html"];
+  Node38 -> Node17 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" restrictAddressing_" ,fontname="FreeSans"];
+  Node38 [label="PtrList\< Foam::Field \>",height=0.2,width=0.4,color="red",URL="$a25914.html"];
+  Node39 -> Node17 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" procAgglomeratorPtr_" ,fontname="FreeSans"];
+  Node39 [label="autoPtr\< Foam::GAMGProcAgglomeration \>",height=0.2,width=0.4,color="red",URL="$a25958.html"];
+  Node41 -> Node17 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" nFaces_\nprocCommunicator\l_\nnCells_" ,fontname="FreeSans"];
+  Node41 [label="List\< label \>",height=0.2,width=0.4,color="red",URL="$a25694.html"];
+  Node45 -> Node17 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" meshInterfaces_" ,fontname="FreeSans"];
+  Node45 [label="UPtrList\< T \>",height=0.2,width=0.4,color="black",URL="$a25990.html",tooltip="A templated 1D list of pointers to objects of type <T>, where the size of the array is known and used..."];
+  Node46 -> Node17 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" meshLevels_" ,fontname="FreeSans"];
+  Node46 [label="PtrList\< Foam::lduPrimitive\lMesh \>",height=0.2,width=0.4,color="red",URL="$a25914.html"];
+}

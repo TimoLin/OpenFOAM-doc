@@ -1,0 +1,18 @@
+digraph "IOMap"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node318 [label="IOMap",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node318 -> Node319 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node319 [label="Foam::regIOobject::\lclose",height=0.2,width=0.4,color="red",URL="$a26334.html#a5ae591df94fc66ccb85cbb6565368bca",tooltip="Close Istream. "];
+  Node318 -> Node335 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node335 [label="Foam::IOobject::headerOk",height=0.2,width=0.4,color="red",URL="$a26142.html#a9d4879c850ce41d945ff77e788de3a23",tooltip="Read and check header info. "];
+  Node318 -> Node336 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node336 [label="Foam::IOobject::readOpt",height=0.2,width=0.4,color="black",URL="$a26142.html#a81b608e0b8d8e2a8f1bc927cd6076c59"];
+  Node318 -> Node337 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node337 [label="Foam::regIOobject::\lreadStream",height=0.2,width=0.4,color="red",URL="$a26334.html#a1cab0be4cd0a737bfcdd4e43a032d3fd",tooltip="Return Istream and check object type against that given. "];
+  Node318 -> Node635 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node635 [label="setSize",height=0.2,width=0.4,color="black",URL="$a17900.html#a6f8d72476baf295a054f72dfbc9c61c3"];
+}

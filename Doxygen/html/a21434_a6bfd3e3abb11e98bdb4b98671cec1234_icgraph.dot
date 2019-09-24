@@ -1,0 +1,26 @@
+digraph "start"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node27 [label="start",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node27 -> Node28 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node28 [label="Foam::boundaryMesh\l::addPatch",height=0.2,width=0.4,color="red",URL="$a21430.html#a09c4e5c8d34934fb4a87b7e358903ec2",tooltip="Add to back of patch list. "];
+  Node27 -> Node30 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node30 [label="Foam::boundaryMesh\l::changeFaces",height=0.2,width=0.4,color="red",URL="$a21430.html#aa3edbdb390a2b28fbb17a16562278186",tooltip="Recalculate face ordering and patches. Return old to new. "];
+  Node30 -> Node31 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node31 [label="Foam::boundaryMesh\l::changePatchType",height=0.2,width=0.4,color="red",URL="$a21430.html#ae598cc11969a83a0ecf2be3e967948dd",tooltip="Change patch. "];
+  Node31 -> Node32 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node32 [label="Foam::boundaryMesh\l::deletePatch",height=0.2,width=0.4,color="red",URL="$a21430.html#a35bae3d1fccc75f1edba03069229ce71",tooltip="Delete from patch list. "];
+  Node27 -> Node31 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node27 -> Node32 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node27 -> Node33 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node33 [label="Foam::boundaryMesh\l::read",height=0.2,width=0.4,color="red",URL="$a21430.html#ad75a6a0d6490bd22adad55646a22e51b",tooltip="Read from boundaryMesh of polyMesh. "];
+  Node27 -> Node34 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34 [label="Foam::boundaryMesh\l::readTriSurface",height=0.2,width=0.4,color="red",URL="$a21430.html#a2ee25ae613c57256a825ff088edc0839",tooltip="Read from triSurface. "];
+  Node27 -> Node35 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node35 [label="Foam::boundaryMesh\l::whichPatch",height=0.2,width=0.4,color="black",URL="$a21430.html#a7647d63c09350ee7cb21dc33c68b9ea4",tooltip="Get index of patch face is in. "];
+  Node27 -> Node36 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node36 [label="Foam::boundaryMesh\l::writeTriSurface",height=0.2,width=0.4,color="red",URL="$a21430.html#a0c63d9c1e5332d6903632f01589a53e5",tooltip="Write to file. "];
+}

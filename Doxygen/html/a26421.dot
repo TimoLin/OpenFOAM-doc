@@ -1,0 +1,28 @@
+digraph "FieldField&lt; Field, Type &gt;"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="FieldField\< Field,\l Type \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="refCount",height=0.2,width=0.4,color="black",URL="$a27094.html",tooltip="Reference counter for various OpenFOAM components. "];
+  Node2 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="PtrList\< Field\< Type \> \>",height=0.2,width=0.4,color="red",URL="$a25914.html"];
+  Node0 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="AveragingMethod\< Foam\l::Vector \>",height=0.2,width=0.4,color="black",URL="$a23898.html"];
+  Node0 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="AveragingMethod\< scalar \>",height=0.2,width=0.4,color="black",URL="$a23898.html"];
+  Node0 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="AveragingMethod\< Field,\l Type \>",height=0.2,width=0.4,color="red",URL="$a23898.html",tooltip="Base class for lagrangian averaging methods. "];
+  Node6 -> Node5 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< scalar \>" ,fontname="FreeSans"];
+  Node6 -> Node4 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< Foam::Vector \>" ,fontname="FreeSans"];
+  Node0 -> Node10 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< Foam::Field, scalar \>" ,fontname="FreeSans"];
+  Node10 [label="FieldField\< Foam::Field,\l scalar \>",height=0.2,width=0.4,color="black",URL="$a26422.html"];
+  Node0 -> Node11 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< Foam::Field, Type \>" ,fontname="FreeSans"];
+  Node11 [label="FieldField\< Foam::Field,\l Type \>",height=0.2,width=0.4,color="black",URL="$a26422.html"];
+  Node0 -> Node12 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< PatchField, Type \>" ,fontname="FreeSans"];
+  Node12 [label="FieldField\< PatchField,\l Type \>",height=0.2,width=0.4,color="red",URL="$a26422.html"];
+  Node0 -> Node16 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< Foam::Field, LUType \>" ,fontname="FreeSans"];
+  Node16 [label="FieldField\< Foam::Field,\l LUType \>",height=0.2,width=0.4,color="black",URL="$a26422.html"];
+}

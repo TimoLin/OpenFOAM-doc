@@ -1,0 +1,23 @@
+digraph "pow"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node69030 [label="pow",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node69030 -> Node69031 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node69031 [label="Foam::IOobject::db",height=0.2,width=0.4,color="black",URL="$a26142.html#a65cc75d9f80b1df5c3184fb2274a97f1",tooltip="Return the local objectRegistry. "];
+  Node69030 -> Node69032 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node69032 [label="Foam::DimensionedField\l::dimensions",height=0.2,width=0.4,color="black",URL="$a26390.html#a66989c1e0666e0d0c93a2056ce75599e",tooltip="Return dimensions. "];
+  Node69030 -> Node69033 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node69033 [label="Foam::IOobject::instance",height=0.2,width=0.4,color="black",URL="$a26142.html#acac6de003b420b848571b5064e50ed89"];
+  Node69030 -> Node69034 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node69034 [label="Foam::DimensionedField\l::mesh",height=0.2,width=0.4,color="black",URL="$a26390.html#a8f1110830348a1448a14ab5e3cf47e3b",tooltip="Return mesh. "];
+  Node69030 -> Node69035 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node69035 [label="Foam::dimensioned::name",height=0.2,width=0.4,color="black",URL="$a26366.html#ade4113569ef0db70665fded275a5e38e",tooltip="Return const reference to name. "];
+  Node69030 -> Node69036 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node69036 [label="Foam::IOobject::name",height=0.2,width=0.4,color="black",URL="$a26142.html#acc80e00a8ac919288fb55bd14cc88bf6",tooltip="Return name. "];
+  Node69030 -> Node69037 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node69037 [label="pow",height=0.2,width=0.4,color="red",URL="$a21124.html#a7500c8e9d27a442adc75e287de074c7c"];
+  Node69037 -> Node69035 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

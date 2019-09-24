@@ -1,0 +1,15 @@
+digraph "coupledPatchMeshEdges"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1870 [label="coupledPatchMeshEdges",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1870 -> Node1871 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1871 [label="coupledPatchMeshEdgeMap",height=0.2,width=0.4,color="red",URL="$a27334.html#a2f6ee4e92e95e61002bcee5f48240053",tooltip="Return map from mesh edges to coupledPatch edges. "];
+  Node1871 -> Node1872 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1872 [label="nTotalCells",height=0.2,width=0.4,color="red",URL="$a27334.html#af5f312e4d0bc5cbcc088e7c247d3a97a",tooltip="Return total number of cells in decomposed mesh. "];
+  Node1870 -> Node1872 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1870 -> Node1896 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1896 [label="Foam::syncTools::syncEdgeList",height=0.2,width=0.4,color="red",URL="$a27502.html#a5ed3e64d2ef89e3823674727ea1b3d58",tooltip="Synchronize values on all mesh edges. "];
+}

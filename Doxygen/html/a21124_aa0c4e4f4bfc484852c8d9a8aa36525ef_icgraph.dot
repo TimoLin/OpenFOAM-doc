@@ -1,0 +1,22 @@
+digraph "eigenValues"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node41123 [label="eigenValues",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node41123 -> Node41124 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node41124 [label="Foam::edgeCollapser\l::checkMeshQuality",height=0.2,width=0.4,color="red",URL="$a21642.html#a05c592dbdbe3fcc0728c2595750b5982",tooltip="Check mesh and mark points on faces in error. "];
+  Node41123 -> Node41128 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node41128 [label="Foam::molecule::constant\lProperties::constantProperties",height=0.2,width=0.4,color="black",URL="$a24394.html#a48f10350a2cae9811619cc14159099d6",tooltip="Construct from dictionary. "];
+  Node41123 -> Node41129 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node41129 [label="eigenValues",height=0.2,width=0.4,color="black",URL="$a21124.html#a357206ae080055c785ed89dfac4eb6e2"];
+  Node41123 -> Node41130 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node41130 [label="eigenVectors",height=0.2,width=0.4,color="black",URL="$a21124.html#a8c9e73d2a3e4751cc6c74e1d69ff3bc9"];
+  Node41123 -> Node41131 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node41131 [label="Foam::Lambda2::execute",height=0.2,width=0.4,color="red",URL="$a28890.html#a61af3e60b94ae3e748f6fbac1e794af7",tooltip="Execute, currently does nothing. "];
+  Node41123 -> Node41133 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node41133 [label="inv",height=0.2,width=0.4,color="black",URL="$a21124.html#ae6901356b0eebc94bc1d28338a284d6f"];
+  Node41123 -> Node41134 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node41134 [label="skew",height=0.2,width=0.4,color="black",URL="$a21124.html#a0df0a317d1f4aaceb3be76240669de45"];
+}

@@ -1,0 +1,26 @@
+digraph "checkMethod"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2791 [label="checkMethod",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2791 -> Node2792 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2792 [label="abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node2791 -> Node2835 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2835 [label="checkMethod",height=0.2,width=0.4,color="black",URL="$a21124.html#a656fbda275eb1aaf53a9b1df97a5743c"];
+  Node2835 -> Node2792 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2835 -> Node2836 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2836 [label="Foam::fvMatrix::dimensions",height=0.2,width=0.4,color="black",URL="$a22358.html#ae432f961c8f2aeef6aa64fbbed5e70ea"];
+  Node2835 -> Node2809 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2809 [label="endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node2835 -> Node2837 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2837 [label="Foam::fvMatrix::psi",height=0.2,width=0.4,color="black",URL="$a22358.html#a746a21ead7ed7561097637595338028c"];
+  Node2791 -> Node2838 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2838 [label="Foam::DimensionedField\l::dimensions",height=0.2,width=0.4,color="black",URL="$a26390.html#a66989c1e0666e0d0c93a2056ce75599e",tooltip="Return dimensions. "];
+  Node2791 -> Node2836 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2791 -> Node2809 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2791 -> Node2839 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2839 [label="Foam::IOobject::name",height=0.2,width=0.4,color="black",URL="$a26142.html#acc80e00a8ac919288fb55bd14cc88bf6",tooltip="Return name. "];
+  Node2791 -> Node2837 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

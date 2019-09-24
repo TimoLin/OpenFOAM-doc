@@ -1,0 +1,19 @@
+digraph "checkRefinementLevels"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node6265 [label="checkRefinementLevels",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node6265 -> Node6266 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6266 [label="checkMesh",height=0.2,width=0.4,color="red",URL="$a21654.html#a432ff341842268fa21b8363e6b2c45b9",tooltip="Debug: Check coupled mesh for correctness. "];
+  Node6266 -> Node6267 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6267 [label="hexRef8",height=0.2,width=0.4,color="black",URL="$a21654.html#a38c122950a32c54a78c49acb2637ac88",tooltip="Construct from mesh, read_if_present refinement data. "];
+  Node6266 -> Node6268 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6268 [label="level0EdgeLength",height=0.2,width=0.4,color="red",URL="$a21654.html#a5038ef57fdb5e24db3472bc037c5a270",tooltip="Typical edge length between unrefined points. "];
+  Node6265 -> Node6276 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6276 [label="getSplitPoints",height=0.2,width=0.4,color="black",URL="$a21654.html#ac55c740f15a44b2b3d141f3c4710abbd",tooltip="Return the points at the centre of top-level split cells. "];
+  Node6276 -> Node6268 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6265 -> Node6267 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6265 -> Node6268 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

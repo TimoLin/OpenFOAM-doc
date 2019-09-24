@@ -1,0 +1,45 @@
+digraph "checkFaceDotProduct"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node219 [label="checkFaceDotProduct",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node219 -> Node220 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node220 [label="Foam::acos",height=0.2,width=0.4,color="black",URL="$a21124.html#af1788b4e662ef398105742fd8bc861fc"];
+  Node219 -> Node221 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node221 [label="checkFacePyramids",height=0.2,width=0.4,color="red",URL="$a25146.html#ad90dd781f10ef81bbfefbe0b9b8fe46e"];
+  Node221 -> Node222 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node222 [label="Foam::primitiveMesh\l::faceOwner",height=0.2,width=0.4,color="black",URL="$a27530.html#a95a88187f795e30779aa3bac679d9bfc",tooltip="Face face-owner addresing. "];
+  Node221 -> Node223 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node223 [label="Foam::primitiveMesh\l::faceNeighbour",height=0.2,width=0.4,color="black",URL="$a27530.html#acd9489a2ac1ec02451fef1f415386694",tooltip="Face face-neighbour addressing. "];
+  Node221 -> Node225 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node225 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node221 -> Node228 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node228 [label="Foam::HashSet::insert",height=0.2,width=0.4,color="black",URL="$a25690.html#a49f0753d9652681fc3a81f59951a0ad7",tooltip="Insert a new entry. "];
+  Node221 -> Node229 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node229 [label="Foam::primitiveMesh\l::isInternalFace",height=0.2,width=0.4,color="red",URL="$a27530.html#ae3e48ad9ec4c5132ec7d3d702ad17c9e",tooltip="Return true if given face label is internal to the mesh. "];
+  Node221 -> Node231 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node231 [label="Foam::reduce",height=0.2,width=0.4,color="red",URL="$a21124.html#a7ffd6af4acc2eb9ba72ee296b5ecda23"];
+  Node231 -> Node225 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node219 -> Node307 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node307 [label="Foam::cos",height=0.2,width=0.4,color="black",URL="$a21124.html#aebb41a148f7cf44b63e12f69e487e49f"];
+  Node219 -> Node308 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node308 [label="d",height=0.2,width=0.4,color="black",URL="$a38951.html#aa182a9055736468dd160f12649a01fd1"];
+  Node219 -> Node293 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node293 [label="Foam::degToRad",height=0.2,width=0.4,color="red",URL="$a21124.html#af706f965be4d1457b0f1e7fade1c0118",tooltip="Conversion from degrees to radians. "];
+  Node219 -> Node225 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node219 -> Node223 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node219 -> Node222 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node219 -> Node228 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node219 -> Node229 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node219 -> Node248 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node248 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node219 -> Node299 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node299 [label="Foam::radToDeg",height=0.2,width=0.4,color="red",URL="$a21124.html#a43e249466ea923a1a1243c5f91fbd2d7",tooltip="Conversion from radians to degrees. "];
+  Node219 -> Node231 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node219 -> Node309 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node309 [label="s",height=0.2,width=0.4,color="black",URL="$a18905.html#abb9c4233033fad2ad0206cd4adad3b9f"];
+  Node219 -> Node234 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node234 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+}

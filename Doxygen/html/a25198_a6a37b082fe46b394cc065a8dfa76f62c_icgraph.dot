@@ -1,0 +1,15 @@
+digraph "findDuplicateFaces"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node188 [label="findDuplicateFaces",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node188 -> Node189 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node189 [label="Foam::meshRefinement\l::checkData",height=0.2,width=0.4,color="red",URL="$a24662.html#a2c4ac7a26c8a7aeb644c5d0f345f3f4e",tooltip="Debugging: check that all faces still obey start()>end() "];
+  Node188 -> Node195 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node195 [label="findDuplicateFacePairs",height=0.2,width=0.4,color="red",URL="$a25198.html#ada4b8f94bf6f76d8d4342d0d169ce358",tooltip="Helper routine to find all baffles (two boundary faces. "];
+  Node195 -> Node188 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node188 -> Node204 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node204 [label="localPointRegion",height=0.2,width=0.4,color="black",URL="$a25198.html#aaaaf7b9234714fbbfae57875f21ccdb1",tooltip="Construct from mesh and candidate points for duplication. "];
+}

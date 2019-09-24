@@ -1,0 +1,23 @@
+digraph "dir"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node6 [label="dir",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="Foam::plane::distance",height=0.2,width=0.4,color="red",URL="$a27570.html#a61fbf8f04b4768f4952b364ee7a9bc57",tooltip="Return distance from the given point to the plane. "];
+  Node7 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="Foam::plane::normalIntersect",height=0.2,width=0.4,color="red",URL="$a27570.html#a22a90e31bd05a5b4379d001a3975fc48",tooltip="Return cut coefficient for plane and line defined by. "];
+  Node6 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20 [label="Foam::plane::nearestPoint",height=0.2,width=0.4,color="black",URL="$a27570.html#ac5172e8300fdfc33a0ea3971445e4d7f",tooltip="Return nearest point in the plane for the given point. "];
+  Node6 -> Node21 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21 [label="Foam::plane::normal",height=0.2,width=0.4,color="black",URL="$a27570.html#a7561a676d5a3fa90384c444758baac4c",tooltip="Return plane normal. "];
+  Node6 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 -> Node22 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22 [label="Foam::plane::plane",height=0.2,width=0.4,color="red",URL="$a27570.html#a42438e62ad9f8e37cc87eff3131cea81",tooltip="Construct from normal vector through the origin. "];
+  Node6 -> Node66 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node66 [label="Foam::plane::planeCoeffs",height=0.2,width=0.4,color="red",URL="$a27570.html#a0be97f85c31739353583fde96945cd5c",tooltip="Return coefficients for the. "];
+  Node6 -> Node70 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node70 [label="refPoint",height=0.2,width=0.4,color="black",URL="$a27574.html#a04714af62a3181c279bd5c20e9f56840"];
+}

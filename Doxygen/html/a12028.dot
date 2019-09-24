@@ -1,0 +1,15 @@
+digraph "src/OpenFOAM/meshes/primitiveShapes/objectHit/objectHit.H"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node8 [label="src/OpenFOAM/meshes\l/primitiveShapes/objectHit\l/objectHit.H",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="src/dynamicMesh/slidingInterface\l/slidingInterface.H",height=0.2,width=0.4,color="red",URL="$a00878.html"];
+  Node8 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19 [label="src/OpenFOAM/interpolations\l/patchToPatchInterpolation\l/CalcPatchToPatchWeights.C",height=0.2,width=0.4,color="red",URL="$a10475.html"];
+  Node8 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21 [label="src/OpenFOAM/meshes\l/primitiveMesh/PrimitivePatch\l/PrimitivePatch.H",height=0.2,width=0.4,color="red",URL="$a11951.html"];
+  Node8 -> Node3349 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3349 [label="src/OpenFOAM/meshes\l/primitiveMesh/PrimitivePatch\l/PrimitivePatchProjectPoints.C",height=0.2,width=0.4,color="red",URL="$a11984.html",tooltip="For every point on the patch find the closest face on the target side. Return a target face label for..."];
+}

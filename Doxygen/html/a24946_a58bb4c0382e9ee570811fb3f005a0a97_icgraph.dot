@@ -1,0 +1,15 @@
+digraph "calcGeometry"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node544 [label="calcGeometry",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node544 -> Node545 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node545 [label="Foam::cyclicACMIPolyPatch\l::calcGeometry",height=0.2,width=0.4,color="red",URL="$a24926.html#a58bb4c0382e9ee570811fb3f005a0a97",tooltip="Calculate the patch geometry. "];
+  Node544 -> Node557 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node557 [label="clone",height=0.2,width=0.4,color="black",URL="$a24946.html#afff6d4f7511147e0c8a4b8a5448296ec",tooltip="Construct and return a clone, resetting the face list. "];
+  Node544 -> Node558 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node558 [label="reverseTransformDirection",height=0.2,width=0.4,color="red",URL="$a24946.html#a8eeca93ed553c7f59012a06b8e109a18",tooltip="Transform a patch-based direction from this side to nbr side. "];
+  Node558 -> Node557 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

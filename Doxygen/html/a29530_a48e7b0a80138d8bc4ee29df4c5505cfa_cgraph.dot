@@ -1,0 +1,14 @@
+digraph "updateAcceleration"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1539 [label="updateAcceleration",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1539 -> Node1540 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1540 [label="Foam::UPstream::master",height=0.2,width=0.4,color="red",URL="$a26270.html#a36af549940a0aae3733774649594489f",tooltip="Am I the master process. "];
+  Node1539 -> Node1542 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1542 [label="Foam::Pstream::scatter",height=0.2,width=0.4,color="red",URL="$a26250.html#a00bc7d5a0b660cfa53523561af48def2",tooltip="Scatter data. Distribute without modification. Reverse of gather. "];
+  Node1539 -> Node1555 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1555 [label="status",height=0.2,width=0.4,color="red",URL="$a29530.html#a2115458ac48deae383afcaddb33be5dd",tooltip="Report the status of the motion. "];
+}

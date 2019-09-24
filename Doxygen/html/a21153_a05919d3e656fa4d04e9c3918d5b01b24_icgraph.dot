@@ -1,0 +1,21 @@
+digraph "constrainDirection"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2886 [label="constrainDirection",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2886 -> Node2887 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2887 [label="Foam::KinematicParcel\l::calcVelocity",height=0.2,width=0.4,color="black",URL="$a23878.html#ad4b1064c43d78ec6b1e82eb57c3a1071"];
+  Node2886 -> Node2888 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2888 [label="constrainToMeshCentre",height=0.2,width=0.4,color="black",URL="$a21153.html#a7bfdf9a57d8ab0069eba3f72520eba20"];
+  Node2886 -> Node2889 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2889 [label="Foam::InjectionModel\l::inject",height=0.2,width=0.4,color="red",URL="$a24074.html#ad56021712258ad92961ed1dcb0941870",tooltip="Main injection loop. "];
+  Node2886 -> Node2891 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2891 [label="Foam::InjectionModel\l::injectSteadyState",height=0.2,width=0.4,color="red",URL="$a24074.html#a9c90fd504e4159250942be6d20db9095",tooltip="Main injection loop - steady-state. "];
+  Node2891 -> Node2889 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2886 -> Node2892 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2892 [label="Foam::DsmcParcel::move",height=0.2,width=0.4,color="red",URL="$a23690.html#a11bc6dce932dcca261959dab510eca54",tooltip="Move the parcel. "];
+  Node2886 -> Node2894 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2894 [label="Foam::ThermoSurfaceFilm\l::splashInteraction",height=0.2,width=0.4,color="red",URL="$a24374.html#a65079c6267ec7d21f7965e02a262d2d6",tooltip="Bai parcel splash interaction model. "];
+}

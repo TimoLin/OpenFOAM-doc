@@ -1,0 +1,11 @@
+digraph "BSplineEdge"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node4 [label="BSplineEdge",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="curvedEdge",height=0.2,width=0.4,color="red",URL="$a24738.html",tooltip="Define a curved edge that is parameterized for 0<lambda<1 between the start and end point..."];
+  Node13 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13 [label="BSpline",height=0.2,width=0.4,color="red",URL="$a24726.html",tooltip="An implementation of B-splines. "];
+}

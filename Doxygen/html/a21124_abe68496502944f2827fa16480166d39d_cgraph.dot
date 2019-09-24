@@ -1,0 +1,18 @@
+digraph "operator&gt;&gt;"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node7391 [label="operator\>\>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node7391 -> Node7392 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7392 [label="Foam::IOstream::check",height=0.2,width=0.4,color="red",URL="$a26226.html#a367eb3425fc4e8270e2aa961df8ac8a5",tooltip="Check IOstream status for given operation. "];
+  Node7391 -> Node7441 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7441 [label="Foam::gradingDescriptors\l::gradingDescriptors",height=0.2,width=0.4,color="black",URL="$a24766.html#acc90913302f9998ca8cc247b183323fd",tooltip="Default constructor. "];
+  Node7391 -> Node7442 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7442 [label="Foam::token::isNumber",height=0.2,width=0.4,color="red",URL="$a26306.html#a1680baf2428512b1a45060f52f3ade28"];
+  Node7391 -> Node7444 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7444 [label="Foam::token::number",height=0.2,width=0.4,color="red",URL="$a26306.html#a60dffa6c29647d1c83a9e00ecb7a703a"];
+  Node7391 -> Node7446 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7446 [label="Foam::Istream::putBack",height=0.2,width=0.4,color="red",URL="$a26234.html#af22e503b062298eef54e360dfc06d0b4",tooltip="Put back token. "];
+}

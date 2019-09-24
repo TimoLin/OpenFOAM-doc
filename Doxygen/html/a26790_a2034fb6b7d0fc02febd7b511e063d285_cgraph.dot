@@ -1,0 +1,18 @@
+digraph "sumDiag"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node888 [label="sumDiag",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node888 -> Node889 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node889 [label="Foam::diag",height=0.2,width=0.4,color="red",URL="$a21124.html#a8cdb0ba0633c91ed7041368519cd217c"];
+  Node888 -> Node894 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node894 [label="lower",height=0.2,width=0.4,color="red",URL="$a26790.html#aed8d4c3b9386a81ed7ff9f44cb736255"];
+  Node894 -> Node897 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node897 [label="Foam::UList::size",height=0.2,width=0.4,color="black",URL="$a25698.html#a47b3bf30da1eb3ab8076b5fbe00e0494",tooltip="Return the number of elements in the UList. "];
+  Node888 -> Node897 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node888 -> Node898 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node898 [label="upper",height=0.2,width=0.4,color="red",URL="$a26790.html#a53e005fd695b53bc8dd07c670f533b39"];
+  Node898 -> Node897 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

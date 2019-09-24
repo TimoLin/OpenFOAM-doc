@@ -1,0 +1,11 @@
+digraph "searchablePlane"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node5 [label="searchablePlane",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="searchableSurface",height=0.2,width=0.4,color="red",URL="$a25234.html",tooltip="Base class of (analytical or triangulated) surface. Encapsulates all the search routines. WIP. "];
+  Node14 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14 [label="plane",height=0.2,width=0.4,color="black",URL="$a27570.html",tooltip="Geometric class that creates a 2D plane and can return the intersection point between a line and the ..."];
+}

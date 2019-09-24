@@ -1,0 +1,15 @@
+digraph "read"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1682 [label="read",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1682 -> Node1683 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1683 [label="matrix",height=0.2,width=0.4,color="red",URL="$a26794.html#a3d8232936ba5c586fc9b603eb389a53d"];
+  Node1682 -> Node1686 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1686 [label="readControls",height=0.2,width=0.4,color="black",URL="$a26794.html#aa431c382ed4170712dab339fbfd87f5b",tooltip="Read the control parameters from the controlDict_. "];
+  Node1686 -> Node1682 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1682 -> Node1687 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1687 [label="Foam::LduMatrix::preconditioner\l::~preconditioner",height=0.2,width=0.4,color="black",URL="$a26802.html#a0b838a541b8ab8839ede94ac15798d15"];
+}

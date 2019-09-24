@@ -1,0 +1,44 @@
+digraph "isDict"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node12401 [label="isDict",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node12401 -> Node12402 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12402 [label="Foam::dictionary::add",height=0.2,width=0.4,color="red",URL="$a26014.html#ac2ddcab42322c8d8af5e5830ab4d431b",tooltip="Add a new entry. "];
+  Node12402 -> Node13422 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13422 [label="New",height=0.2,width=0.4,color="red",URL="$a26022.html#a8a226a546ec766d55192e65b55f87715",tooltip="Construct from Istream and insert into dictionary. "];
+  Node12402 -> Node17277 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17277 [label="Foam::dictionary::set",height=0.2,width=0.4,color="red",URL="$a26014.html#a8396ca7a6d20d7aeebc8b1ac9e18460b",tooltip="Assign a new entry, overwrite any existing entry. "];
+  Node17277 -> Node17281 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17281 [label="Foam::solution::upgradeSolverDict",height=0.2,width=0.4,color="red",URL="$a27078.html#aafb35d9c55b4a97e839ab61b4a0c7d52",tooltip="Update from older solver controls syntax. "];
+  Node12402 -> Node17281 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12401 -> Node13350 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13350 [label="Foam::coordinateSystem\l::coordinateSystem",height=0.2,width=0.4,color="black",URL="$a25010.html#a7fde428d3234bd6b457a8592f7e5dc01",tooltip="Construct from dictionary (default name) "];
+  Node12401 -> Node13804 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13804 [label="Foam::lduMatrix::smoother\l::getName",height=0.2,width=0.4,color="black",URL="$a26890.html#ac59fad692d6ce7568c8086fe89073005",tooltip="Find the smoother name (directly or from a sub-dictionary) "];
+  Node12401 -> Node13805 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13805 [label="Foam::lduMatrix::preconditioner\l::getName",height=0.2,width=0.4,color="red",URL="$a26894.html#ac59fad692d6ce7568c8086fe89073005",tooltip="Find the preconditioner name (directly or from a sub-dictionary) "];
+  Node12401 -> Node17308 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17308 [label="Foam::dictionary::isDict",height=0.2,width=0.4,color="red",URL="$a26014.html#aa4cc2aee9215f116e05032ce430e102a",tooltip="Check if entry is a sub-dictionary. "];
+  Node12401 -> Node13749 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13749 [label="Foam::dictionary::lookup\lScopedEntryPtr",height=0.2,width=0.4,color="red",URL="$a26014.html#aa0ed8374f3da864708de908037607551",tooltip="Find and return an entry data stream pointer if present. "];
+  Node13749 -> Node13749 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13749 -> Node13422 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12401 -> Node13422 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12401 -> Node13837 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13837 [label="Foam::lduMatrix::smoother::New",height=0.2,width=0.4,color="red",URL="$a26890.html#a8d5691dd7f25aa4a7f95ac1e786df099",tooltip="Return a new smoother. "];
+  Node13837 -> Node13804 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12401 -> Node13841 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13841 [label="Foam::lduMatrix::preconditioner::New",height=0.2,width=0.4,color="red",URL="$a26894.html#a10c523f8a576f467c2ebf477d43107b7",tooltip="Return a new preconditioner. "];
+  Node13841 -> Node13805 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12401 -> Node13690 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13690 [label="Foam::functionObjectList\l::read",height=0.2,width=0.4,color="red",URL="$a26126.html#af816873151ddb0126e98bb2f914d8ed5",tooltip="Read and set the function objects if their data have changed. "];
+  Node12401 -> Node12857 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12857 [label="Foam::GeometricField\l::GeometricBoundaryField\l::readField",height=0.2,width=0.4,color="black",URL="$a26514.html#a3b159706bf20959b4215e3c90e2cdb2f",tooltip="Read the boundary field. "];
+  Node12401 -> Node17277 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12401 -> Node13467 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13467 [label="Foam::debug::switchSet",height=0.2,width=0.4,color="red",URL="$a21163.html#a02428a7a9aa138cfe5550361a4f1de83",tooltip="Internal function to lookup a sub-dictionary from controlDict. "];
+  Node12401 -> Node17281 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

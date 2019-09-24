@@ -1,0 +1,12 @@
+digraph "add"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node18 [label="add",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node18 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19 [label="Foam::IsotropyModels\l::Stochastic::calculate",height=0.2,width=0.4,color="red",URL="$a24246.html#afe1d8348c24e6589bc7c0b3f689316a7",tooltip="Member Functions. "];
+  Node18 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21 [label="Foam::MPPICParcel::\lTrackingData::updateAverages",height=0.2,width=0.4,color="black",URL="$a23902.html#a0217ff96f5dc302a3e6794c11be2cbe4",tooltip="Update the MPPIC averages. "];
+}

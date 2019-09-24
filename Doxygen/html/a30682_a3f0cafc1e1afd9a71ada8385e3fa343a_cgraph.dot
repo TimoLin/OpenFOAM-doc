@@ -1,0 +1,18 @@
+digraph "manipulateMatrix"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2599 [label="manipulateMatrix",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2599 -> Node2600 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2600 [label="Foam::fvPatchField\l::manipulatedMatrix",height=0.2,width=0.4,color="red",URL="$a22354.html#a0b3668a915430282fc81f0f6499101f1",tooltip="Return true if the matrix has already been manipulated. "];
+  Node2599 -> Node2656 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2656 [label="Foam::fvPatchField\l::manipulateMatrix",height=0.2,width=0.4,color="black",URL="$a22354.html#a918a7a9b6883ae2da430decb238332e0",tooltip="Manipulate matrix. "];
+  Node2599 -> Node2657 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2657 [label="Foam::fvPatchField\l::patch",height=0.2,width=0.4,color="black",URL="$a22354.html#aca0923a4611f6166ffd8fa14d81864a4",tooltip="Return patch. "];
+  Node2599 -> Node2658 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2658 [label="Foam::fvPatchField\l::patchInternalField",height=0.2,width=0.4,color="black",URL="$a22354.html#a3b74a67629ed67899295ec63e8f9ae84",tooltip="Return internal field next to patch as patch field. "];
+  Node2599 -> Node2659 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2659 [label="Foam::fvMatrix::setValues",height=0.2,width=0.4,color="red",URL="$a22358.html#af485ea1c60422a3ac6a6b05660da9bc2",tooltip="Set solution in given cells to the specified values. "];
+}

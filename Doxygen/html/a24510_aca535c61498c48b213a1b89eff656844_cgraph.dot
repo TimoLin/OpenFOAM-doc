@@ -1,0 +1,40 @@
+digraph "operator()"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2 [label="operator()",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="Foam::solidParticle::d",height=0.2,width=0.4,color="black",URL="$a24502.html#a4021481c538e4f3a8507462ec520c077",tooltip="Return diameter. "];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="Foam::solidParticle\l::hitPatch",height=0.2,width=0.4,color="black",URL="$a24502.html#a4caf1bad861c1ac81a4479c6de40ec58",tooltip="Overridable function to handle the particle hitting a patch. "];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="Foam::solidParticle\l::hitProcessorPatch",height=0.2,width=0.4,color="black",URL="$a24502.html#a14f5c2f6515b821449df47a8dacccac9",tooltip="Overridable function to handle the particle hitting a. "];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="Foam::solidParticle\l::hitWallPatch",height=0.2,width=0.4,color="red",URL="$a24502.html#a83ddd4996e7a12d68168442c5f04ca72",tooltip="Overridable function to handle the particle hitting a wallPatch. "];
+  Node6 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 -> Node59 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node59 [label="Foam::solidParticle\l::move",height=0.2,width=0.4,color="red",URL="$a24502.html#aa3b793966d64802fdf262dd4d14d21ed",tooltip="Move. "];
+  Node59 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 -> Node74 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node74 [label="Foam::solidParticle\l::readFields",height=0.2,width=0.4,color="red",URL="$a24502.html#ac7cf0a4e59ebca835e0e428904eecb41"];
+  Node74 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node74 -> Node80 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node80 [label="Foam::solidParticle::U",height=0.2,width=0.4,color="black",URL="$a24502.html#a2da97b6a54ebcce689188d39a79ded21",tooltip="Return velocity. "];
+  Node2 -> Node81 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node81 [label="Foam::solidParticle\l::solidParticle",height=0.2,width=0.4,color="black",URL="$a24502.html#aeb331fe13ef769f090993b0969366a66",tooltip="Construct from components. "];
+  Node2 -> Node82 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node82 [label="Foam::T",height=0.2,width=0.4,color="red",URL="$a21124.html#ae57fda0abb14bb0944947c463c6e09d4"];
+  Node2 -> Node83 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node83 [label="Foam::solidParticle\l::transformProperties",height=0.2,width=0.4,color="red",URL="$a24502.html#a021e6438cfdab7a29053eb812cda8ea3",tooltip="Transform the physical properties of the particle. "];
+  Node2 -> Node80 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 -> Node86 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node86 [label="Foam::solidParticle\l::wallImpactDistance",height=0.2,width=0.4,color="black",URL="$a24502.html#ac5056b7935987d250b180043ff9665fc",tooltip="The nearest distance to a wall that. "];
+  Node2 -> Node87 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node87 [label="Foam::solidParticle\l::writeFields",height=0.2,width=0.4,color="red",URL="$a24502.html#ae8ec839877d43a55d64c270034768f28"];
+  Node87 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node87 -> Node80 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

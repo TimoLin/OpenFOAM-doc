@@ -1,0 +1,16 @@
+digraph "kappaEff"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node752 [label="kappaEff",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node752 -> Node753 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node753 [label="alphaSgs",height=0.2,width=0.4,color="black",URL="$a30634.html#af5d4984464a5421e96cf83571c0e7a96",tooltip="Return the SGS turbulent thermal diffusivity. "];
+  Node752 -> Node754 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node754 [label="boundaryField",height=0.2,width=0.4,color="black",URL="$a38171.html#add1ce21d07963eec9c9e492fa6bf5c4a"];
+  Node752 -> Node755 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node755 [label="Foam::basicThermo::\lkappaEff",height=0.2,width=0.4,color="black",URL="$a29734.html#a21fb150dfa30d738f07bb931152fde4f",tooltip="Effective thermal diffusivity for temperature. "];
+  Node752 -> Node756 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node756 [label="Foam::compressible\l::turbulenceModel::thermo",height=0.2,width=0.4,color="black",URL="$a30818.html#add0b7ef56f878b21b4dec428bb69592a",tooltip="Access function to thermophysical model. "];
+}

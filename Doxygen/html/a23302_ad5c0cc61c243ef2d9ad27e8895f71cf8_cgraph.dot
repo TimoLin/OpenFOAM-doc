@@ -1,0 +1,15 @@
+digraph "restrictAddressing"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node262 [label="restrictAddressing",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node262 -> Node263 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node263 [label="Foam::fv::ff",height=0.2,width=0.4,color="red",URL="$a21133.html#ab38421d38a2395d0ae398d03fc20609c"];
+  Node262 -> Node351 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node351 [label="prolongField",height=0.2,width=0.4,color="black",URL="$a23302.html#a0c690698eaa1a2bcaef9ee748579c99c",tooltip="Prolong (interpolate by injection) cell field. "];
+  Node262 -> Node352 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node352 [label="restrictField",height=0.2,width=0.4,color="red",URL="$a23302.html#a2673a24ec43856fb444dec003ae87527",tooltip="Restrict (integrate by summation) cell field. "];
+  Node352 -> Node351 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

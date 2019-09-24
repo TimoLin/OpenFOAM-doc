@@ -1,0 +1,42 @@
+digraph "calcGrad"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node384 [label="calcGrad",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node384 -> Node385 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node385 [label="Foam::fvMesh::boundary",height=0.2,width=0.4,color="black",URL="$a22766.html#a1fc8b179063cf5d6805da64ff1975126",tooltip="Return reference to boundary mesh. "];
+  Node384 -> Node386 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node386 [label="Foam::GeometricField\l::boundaryField",height=0.2,width=0.4,color="black",URL="$a22434.html#a3c6c1a789b48ea0c5e8bff64f9c14f2d",tooltip="Return reference to GeometricBoundaryField. "];
+  Node384 -> Node387 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node387 [label="Foam::fvMesh::C",height=0.2,width=0.4,color="black",URL="$a22766.html#a724799c6e3ba1bd41ad47529f330d066",tooltip="Return cell centres as volVectorField. "];
+  Node384 -> Node388 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node388 [label="Foam::fvMesh::Cf",height=0.2,width=0.4,color="black",URL="$a22766.html#a11a9dd92f5a5c5fbc76a8e09f1d1df54",tooltip="Return face centres as surfaceVectorField. "];
+  Node384 -> Node389 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node389 [label="Foam::fv::gaussGrad\l::correctBoundaryConditions",height=0.2,width=0.4,color="black",URL="$a22538.html#aa6d3a74b8886adafb27d4f82a4383e23",tooltip="Correct the boundary values of the gradient using the patchField. "];
+  Node389 -> Node386 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node389 -> Node390 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node390 [label="Foam::DimensionedField\l::mesh",height=0.2,width=0.4,color="black",URL="$a26390.html#a8f1110830348a1448a14ab5e3cf47e3b",tooltip="Return mesh. "];
+  Node384 -> Node391 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node391 [label="Foam::GeometricField\l::correctBoundaryConditions",height=0.2,width=0.4,color="black",URL="$a22434.html#acaf6878ef900e593c4b20812f1b567d6",tooltip="Correct boundary field. "];
+  Node384 -> Node392 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node392 [label="Foam::fvPatchField\l::coupled",height=0.2,width=0.4,color="black",URL="$a22354.html#a39c01db0e66d00fe0621a0c7e5fc4ead",tooltip="Return true if this patch field is coupled. "];
+  Node384 -> Node393 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node393 [label="Foam::fvPatchField\l::fixesValue",height=0.2,width=0.4,color="black",URL="$a22354.html#a0de932061a01f71d2b747c01a4d1a467",tooltip="Return true if this patch field fixes a value. "];
+  Node384 -> Node394 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node394 [label="Foam::fv::cellMDLimitedGrad\l::limitFace",height=0.2,width=0.4,color="red",URL="$a22566.html#a3f608394bf4848c7f7a79d9943e3d05b"];
+  Node384 -> Node403 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node403 [label="Foam::max",height=0.2,width=0.4,color="black",URL="$a21124.html#ac993e906cf2774ae77e666bc24e81733"];
+  Node384 -> Node390 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node384 -> Node404 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node404 [label="Foam::min",height=0.2,width=0.4,color="black",URL="$a21124.html#a253e112ad2d56d96230ff39ea7f442dc"];
+  Node384 -> Node405 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node405 [label="Foam::fvMesh::neighbour",height=0.2,width=0.4,color="red",URL="$a22766.html#aab1a7f2af09b33005a527e107c7b3fad",tooltip="Internal face neighbour. "];
+  Node405 -> Node387 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node405 -> Node388 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node384 -> Node417 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node417 [label="Foam::fvMesh::owner",height=0.2,width=0.4,color="red",URL="$a22766.html#a16e7eb254c4fd2d1d7ac4d5d71f6c9f9",tooltip="Internal face owner. "];
+  Node384 -> Node697 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node697 [label="Foam::fvPatchField\l::patchNeighbourField",height=0.2,width=0.4,color="red",URL="$a22354.html#a3eee7e8e27377d66dd0f20d3697d6b78",tooltip="Return patchField on the opposite patch of a coupled patch. "];
+}

@@ -1,0 +1,22 @@
+digraph "turbulenceModel"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node34 [label="turbulenceModel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node35 -> Node34 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node35 [label="IOdictionary",height=0.2,width=0.4,color="red",URL="$a26158.html",tooltip="IOdictionary is derived from dictionary and IOobject to give the dictionary automatic IO functionalit..."];
+  Node56 -> Node34 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mesh_" ,fontname="FreeSans"];
+  Node56 [label="fvMesh",height=0.2,width=0.4,color="red",URL="$a22766.html",tooltip="Mesh data needed to do the Finite Volume discretisation. "];
+  Node70 -> Node34 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" y_" ,fontname="FreeSans"];
+  Node70 [label="nearWallDist",height=0.2,width=0.4,color="red",URL="$a22882.html",tooltip="Distance calculation for cells with face on a wall. Searches pointNeighbours to find closest..."];
+  Node78 -> Node34 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" runTime_" ,fontname="FreeSans"];
+  Node78 [label="Time",height=0.2,width=0.4,color="red",URL="$a26350.html",tooltip="Class to control time during OpenFOAM simulations that is also the top-level objectRegistry. "];
+  Node61 -> Node78 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" controlDictName" ,fontname="FreeSans"];
+  Node61 [label="word",height=0.2,width=0.4,color="red",URL="$a28258.html",tooltip="A class for handling words, derived from string. "];
+  Node61 -> Node61 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" null" ,fontname="FreeSans"];
+  Node61 -> Node34 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" propertiesName" ,fontname="FreeSans"];
+  Node99 -> Node34 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" alphaRhoPhi_\nU_\nphi_" ,fontname="FreeSans"];
+  Node99 [label="GeometricField\< Type,\l PatchField, GeoMesh \>",height=0.2,width=0.4,color="red",URL="$a22434.html",tooltip="Generic GeometricField class. "];
+}

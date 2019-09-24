@@ -1,0 +1,38 @@
+digraph "upgradeSolverDict"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node59 [label="upgradeSolverDict",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node59 -> Node60 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node60 [label="Foam::dictionary::add",height=0.2,width=0.4,color="red",URL="$a26014.html#ac2ddcab42322c8d8af5e5830ab4d431b",tooltip="Add a new entry. "];
+  Node60 -> Node63 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node63 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node60 -> Node65 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node65 [label="Foam::entry::isDict",height=0.2,width=0.4,color="red",URL="$a26022.html#a33b200039e283c4ad4ad9a4756ffafd1",tooltip="Return true if this entry is a dictionary. "];
+  Node59 -> Node63 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node59 -> Node85 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node85 [label="Foam::IOstream::eof",height=0.2,width=0.4,color="black",URL="$a26226.html#af3418ac60d0d7a303478f29a387feb3c",tooltip="Return true if end of input seen. "];
+  Node59 -> Node65 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node59 -> Node103 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node103 [label="Foam::dictionary::lookup\lEntryPtr",height=0.2,width=0.4,color="black",URL="$a26014.html#a63ca8c5575e79a6e04b8a1e1c4c1d958",tooltip="Find and return an entry data stream pointer if present. "];
+  Node103 -> Node103 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node59 -> Node104 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node104 [label="Foam::UPstream::master",height=0.2,width=0.4,color="red",URL="$a26270.html#a36af549940a0aae3733774649594489f",tooltip="Am I the master process. "];
+  Node59 -> Node106 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node106 [label="Foam::name",height=0.2,width=0.4,color="red",URL="$a21124.html#adcb0df2bd4953cb6bb390272d8263c3a",tooltip="Return a string representation of a complex. "];
+  Node59 -> Node109 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node109 [label="Foam::dictionary::set",height=0.2,width=0.4,color="red",URL="$a26014.html#a8396ca7a6d20d7aeebc8b1ac9e18460b",tooltip="Assign a new entry, overwrite any existing entry. "];
+  Node109 -> Node60 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node109 -> Node65 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node109 -> Node103 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node59 -> Node112 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node112 [label="Foam::ICCG::solverDict",height=0.2,width=0.4,color="black",URL="$a27038.html#a7ff45fe57d4d335266093932680c1324",tooltip="Return the dictionary constructed from the components. "];
+  Node112 -> Node60 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node59 -> Node113 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node113 [label="Foam::BICCG::solverDict",height=0.2,width=0.4,color="black",URL="$a26954.html#a7ff45fe57d4d335266093932680c1324",tooltip="Return the dictionary constructed from the components. "];
+  Node113 -> Node60 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node59 -> Node114 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node114 [label="Foam::entry::stream",height=0.2,width=0.4,color="black",URL="$a26022.html#a3af18be98df6d673e0a40a4e38c350d1",tooltip="Return token stream if this entry is a primitive entry. "];
+}

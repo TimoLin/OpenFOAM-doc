@@ -1,0 +1,14 @@
+digraph "kappaEff"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1625 [label="kappaEff",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1625 -> Node1626 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1626 [label="dpdt",height=0.2,width=0.4,color="black",URL="$a29734.html#a0e4e637e8932a391cf4a45df07c3a170",tooltip="Should the dpdt term be included in the enthalpy equation. "];
+  Node1625 -> Node1627 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1627 [label="Foam::compressible\l::LESModel::kappaEff",height=0.2,width=0.4,color="black",URL="$a30634.html#ada88bb55eb3b72b0a8a68cdd009e2551",tooltip="Return the effective turbulent temperature diffusivity. "];
+  Node1625 -> Node1628 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1628 [label="Foam::compressible\l::RASModel::kappaEff",height=0.2,width=0.4,color="black",URL="$a30758.html#ada88bb55eb3b72b0a8a68cdd009e2551",tooltip="Return the effective turbulent temperature diffusivity. "];
+}

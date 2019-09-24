@@ -1,0 +1,24 @@
+digraph "compatibleRemoves"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node490 [label="compatibleRemoves",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node490 -> Node491 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node491 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node490 -> Node534 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node534 [label="Foam::List::append",height=0.2,width=0.4,color="black",URL="$a25694.html#a399dd2bf0d9a32016717dc90126f016b",tooltip="Append an element at the end of the list. "];
+  Node490 -> Node535 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node535 [label="Foam::min",height=0.2,width=0.4,color="black",URL="$a21124.html#a253e112ad2d56d96230ff39ea7f442dc"];
+  Node490 -> Node536 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node536 [label="setRefinement",height=0.2,width=0.4,color="red",URL="$a21702.html#aa64a3bc5eb9317256be6646095e690d9",tooltip="Play commands into polyTopoChange to remove faces. "];
+  Node536 -> Node491 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node536 -> Node559 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node559 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node490 -> Node574 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node574 [label="Foam::List::setSize",height=0.2,width=0.4,color="black",URL="$a25694.html#aedb985ffeaf1bdbfeccc2a8730405703",tooltip="Reset size of List. "];
+  Node490 -> Node559 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node490 -> Node590 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node590 [label="Foam::List::transfer",height=0.2,width=0.4,color="black",URL="$a25694.html#a25ad1d2084d16b234b0cf91c07e832c0",tooltip="Transfer the contents of the argument List into this list. "];
+}

@@ -1,0 +1,31 @@
+digraph "~singleStepReactingMixture"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node60 [label="~singleStepReactingMixture",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node60 -> Node61 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node61 [label="fres",height=0.2,width=0.4,color="black",URL="$a30154.html#a4ff6a58ecadd046f044dd96219305950",tooltip="Return the list of components residual. "];
+  Node60 -> Node62 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node62 [label="fresCorrect",height=0.2,width=0.4,color="red",URL="$a30154.html#a105d3612693f9a241191e881a344b5cf",tooltip="Calculates the residual for all components. "];
+  Node60 -> Node68 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node68 [label="fuelIndex",height=0.2,width=0.4,color="black",URL="$a30154.html#a7590e7671b9078ecc49a43c4ec081e41",tooltip="Return the fuel specie index. "];
+  Node60 -> Node69 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node69 [label="inertIndex",height=0.2,width=0.4,color="black",URL="$a30154.html#a4ffdc1a3b408c9d4c0131acd4a73609d",tooltip="Return the inert specie index. "];
+  Node60 -> Node70 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node70 [label="qFuel",height=0.2,width=0.4,color="black",URL="$a30154.html#ad5b6f9cb5a28c0d11658e587537df894",tooltip="Return the heat of combustion [J/Kg]. "];
+  Node60 -> Node71 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node71 [label="read",height=0.2,width=0.4,color="black",URL="$a30154.html#aa9b8764750bd9ff67ca32b6551dc7847",tooltip="Read dictionary. "];
+  Node60 -> Node72 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node72 [label="s",height=0.2,width=0.4,color="black",URL="$a30154.html#ab1dd10d16affdab9e6b9c2b0b9011791",tooltip="Return the Stoichiometric oxygen-fuel mass ratio. "];
+  Node60 -> Node73 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node73 [label="specieProd",height=0.2,width=0.4,color="black",URL="$a30154.html#a03f88a21ff3572b69a85f2920ad60734",tooltip="Return the list to indicate if specie is produced/consumed. "];
+  Node60 -> Node74 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node74 [label="specieStoichCoeffs",height=0.2,width=0.4,color="black",URL="$a30154.html#aa15ff1056c085170e63e8133b649c466",tooltip="Return the stoichiometric coefficient for the reaction. "];
+  Node74 -> Node61 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node60 -> Node75 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node75 [label="stoicRatio",height=0.2,width=0.4,color="black",URL="$a30154.html#a908425badbf8650f25ef2951d1d1fa29",tooltip="Return the stoichiometric air-fuel mass ratio. "];
+  Node60 -> Node76 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node76 [label="Yprod0",height=0.2,width=0.4,color="black",URL="$a30154.html#ac97a51da2a3c9a3d59d457ed88cc010a",tooltip="Return the list of products mass concentrations. "];
+}

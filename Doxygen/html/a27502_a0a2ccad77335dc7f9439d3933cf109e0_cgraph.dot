@@ -1,0 +1,27 @@
+digraph "swapFaceList"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node6622 [label="swapFaceList",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node6622 -> Node6623 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6623 [label="Foam::primitiveMesh\l::nFaces",height=0.2,width=0.4,color="black",URL="$a27530.html#abe602c985a3c9ffa67176e969e77ca6f"];
+  Node6622 -> Node6624 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6624 [label="Foam::primitiveMesh\l::nInternalFaces",height=0.2,width=0.4,color="black",URL="$a27530.html#aa6c7965af1f30d16d9125deb981cbdb0"];
+  Node6622 -> Node6625 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6625 [label="swapBoundaryCellList",height=0.2,width=0.4,color="red",URL="$a27502.html#ac509eef6db47b0b87366229f2fb017f9",tooltip="Swap to obtain neighbour cell values for all boundary faces. "];
+  Node6625 -> Node6623 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6625 -> Node6624 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6625 -> Node6622 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6622 -> Node6752 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6752 [label="swapBoundaryCellPositions",height=0.2,width=0.4,color="red",URL="$a27502.html#ae4912a4e02f0383f73363598c8cea12f",tooltip="Swap to obtain neighbour cell positions for all boundary faces. "];
+  Node6752 -> Node6623 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6752 -> Node6624 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6622 -> Node6683 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6683 [label="syncBoundaryFaceList",height=0.2,width=0.4,color="red",URL="$a27502.html#a1885668646afb3cf257512c56daa9b2f",tooltip="Synchronize values on boundary faces only. "];
+  Node6683 -> Node6623 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6683 -> Node6624 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6622 -> Node6753 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6753 [label="syncPointMap",height=0.2,width=0.4,color="red",URL="$a27502.html#a08bdf5c6403dd4367d1714c3d5b4145d",tooltip="Synchronize values on selected points. "];
+}

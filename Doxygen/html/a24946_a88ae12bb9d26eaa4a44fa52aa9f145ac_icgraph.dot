@@ -1,0 +1,16 @@
+digraph "neighbPatch"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node865 [label="neighbPatch",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node865 -> Node866 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node866 [label="clone",height=0.2,width=0.4,color="black",URL="$a24946.html#afff6d4f7511147e0c8a4b8a5448296ec",tooltip="Construct and return a clone, resetting the face list. "];
+  Node865 -> Node867 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node867 [label="Foam::particle::hitCyclic\lAMIPatch",height=0.2,width=0.4,color="red",URL="$a23586.html#abaea6c8eb54b7d822b150b9aef01f181",tooltip="Overridable function to handle the particle hitting a cyclicAMIPatch. "];
+  Node865 -> Node874 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node874 [label="Foam::combine::operator()",height=0.2,width=0.4,color="black",URL="$a24810.html#aa5387b4bb395a2cc76e4ff25f8d0f43f"];
+  Node865 -> Node875 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node875 [label="Foam::cyclicACMIPointPatch\lField::swapAddSeparated",height=0.2,width=0.4,color="red",URL="$a24922.html#a3aae157a027e0aa964e285d768f7ec86",tooltip="Complete swap of patch point values and add to local values. "];
+}

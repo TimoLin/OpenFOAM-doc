@@ -1,0 +1,14 @@
+digraph "name"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node7 [label="name",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="Foam::mappedPatchBase\l::coupleGroup",height=0.2,width=0.4,color="red",URL="$a25094.html#af88c3cd9a50c63614dcf917cc9356878",tooltip="PatchGroup (only if NEARESTPATCHFACE) "];
+  Node7 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13 [label="findOtherPatchID",height=0.2,width=0.4,color="black",URL="$a27118.html#ad9923dc54c3f477bbb3e5dee3b09ea3b",tooltip="Find other patch and region. Returns index of patch and sets. "];
+  Node7 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14 [label="write",height=0.2,width=0.4,color="red",URL="$a27118.html#a293fdfec8bdfbd5c3913ab4c9f3454ff",tooltip="Write the data as a dictionary. "];
+}

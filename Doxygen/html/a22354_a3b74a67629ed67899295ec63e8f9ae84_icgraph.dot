@@ -1,0 +1,48 @@
+digraph "patchInternalField"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1342 [label="patchInternalField",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1342 -> Node1343 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1343 [label="Foam::isoSurface::adaptPatch\lFields",height=0.2,width=0.4,color="black",URL="$a29346.html#a1f3e6ea9cc829d5a8fb0f0bb735cc434"];
+  Node1342 -> Node1344 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1344 [label="Foam::compressible\l::mutURoughWallFunctionFvPatch\lScalarField::calcMut",height=0.2,width=0.4,color="black",URL="$a30710.html#a4556308ace319e9b6f84ab3f887a601c",tooltip="Calculate the turbulence viscosity. "];
+  Node1342 -> Node1345 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1345 [label="Foam::incompressible\l::nutUTabulatedWallFunction\lFvPatchScalarField::calcNut",height=0.2,width=0.4,color="black",URL="$a30998.html#a770ef88c60cd370e9d4eacc46f774f07",tooltip="Calculate the turbulence viscosity. "];
+  Node1342 -> Node1346 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1346 [label="Foam::incompressible\l::nutUSpaldingWallFunctionFv\lPatchScalarField::calcUTau",height=0.2,width=0.4,color="red",URL="$a30994.html#a24807ec3405a761fb6380573614a3040",tooltip="Calculate the friction velocity. "];
+  Node1342 -> Node1350 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1350 [label="Foam::compressible\l::mutUSpaldingWallFunction\lFvPatchScalarField::calcUTau",height=0.2,width=0.4,color="red",URL="$a30714.html#a24807ec3405a761fb6380573614a3040",tooltip="Calculate the friction velocity. "];
+  Node1342 -> Node1354 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1354 [label="Foam::compressible\l::epsilonWallFunctionFvPatch\lScalarField::createAveragingWeights",height=0.2,width=0.4,color="red",URL="$a30682.html#a7e3f26a2eb2d1d475fca3c80c5fa26f0",tooltip="Create the averaging weights for cells which are bounded by. "];
+  Node1342 -> Node1357 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1357 [label="Foam::compressible\l::omegaWallFunctionFvPatch\lScalarField::createAveragingWeights",height=0.2,width=0.4,color="red",URL="$a30726.html#a7e3f26a2eb2d1d475fca3c80c5fa26f0",tooltip="Create the averaging weights for cells which are bounded by. "];
+  Node1342 -> Node1360 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1360 [label="Foam::compressible\l::epsilonWallFunctionFvPatch\lScalarField::epsilonWallFunction\lFvPatchScalarField",height=0.2,width=0.4,color="black",URL="$a30682.html#a82aded9843475070853e25b4d3109872",tooltip="Construct from patch, internal field and dictionary. "];
+  Node1342 -> Node1361 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1361 [label="Foam::compressible\l::epsilonWallFunctionFvPatch\lScalarField::manipulateMatrix",height=0.2,width=0.4,color="red",URL="$a30682.html#a3f0cafc1e1afd9a71ada8385e3fa343a",tooltip="Manipulate matrix. "];
+  Node1342 -> Node1363 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1363 [label="Foam::compressible\l::omegaWallFunctionFvPatch\lScalarField::manipulateMatrix",height=0.2,width=0.4,color="red",URL="$a30726.html#a3f0cafc1e1afd9a71ada8385e3fa343a",tooltip="Manipulate matrix. "];
+  Node1342 -> Node1365 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1365 [label="Foam::meshToMesh::mapSrc\lToTgt",height=0.2,width=0.4,color="black",URL="$a29254.html#aa52304bfe65a07b28d83a1ba9a735b0d",tooltip="Interpolate a field with a defined operation. Values. "];
+  Node1342 -> Node1366 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1366 [label="Foam::meshToMesh::mapTgt\lToSrc",height=0.2,width=0.4,color="black",URL="$a29254.html#aac80084ba0ad35909f0979860566cdfd",tooltip="Interpolate a field with a defined operation. Values. "];
+  Node1342 -> Node1367 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1367 [label="Foam::compressible\l::omegaWallFunctionFvPatch\lScalarField::omegaWallFunctionFv\lPatchScalarField",height=0.2,width=0.4,color="black",URL="$a30726.html#ada7b2c53a2f3c6a4823b40ca462403eb",tooltip="Construct from patch, internal field and dictionary. "];
+  Node1342 -> Node1368 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1368 [label="snGrad",height=0.2,width=0.4,color="black",URL="$a22354.html#a26fa471eaa9fecd4e463df35f74e68e3",tooltip="Return patch-normal gradient for coupled-patches. "];
+  Node1342 -> Node1369 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1369 [label="Foam::dynamicAlphaContact\lAngleFvPatchScalarField::theta",height=0.2,width=0.4,color="red",URL="$a30538.html#adb6a61a8ff08b20d8bb17c0fdebbf96c",tooltip="Evaluate and return dynamic contact-angle. "];
+  Node1342 -> Node1372 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1372 [label="Foam::externalCoupledTemperature\lMixedFvPatchScalarField::transferData",height=0.2,width=0.4,color="red",URL="$a30778.html#aaead10f96672ca2a1e5c291111cebf1e",tooltip="Transfer data for external source. "];
+  Node1342 -> Node1376 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1376 [label="Foam::mappedFixedInternal\lValueFvPatchField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a22166.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node1342 -> Node1378 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1378 [label="Foam::compressible\l::alphatJayatillekeWallFunction\lFvPatchScalarField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a30670.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node1342 -> Node1380 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1380 [label="Foam::regionSizeDistribution\l::write",height=0.2,width=0.4,color="red",URL="$a28766.html#aac759501cf6c7895a70eecbef0226ae1",tooltip="Calculate the regionSizeDistribution and write. "];
+  Node1342 -> Node1382 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1382 [label="Foam::incompressible\l::nutUTabulatedWallFunction\lFvPatchScalarField::yPlus",height=0.2,width=0.4,color="red",URL="$a30998.html#a0de83d05eb8aabc5f8cf747584ef03c3",tooltip="Calculate and return the yPlus at the boundary. "];
+}

@@ -1,0 +1,46 @@
+digraph "sweep"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node20248 [label="sweep",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node20248 -> Node20249 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20249 [label="Foam::List::append",height=0.2,width=0.4,color="black",URL="$a25694.html#a399dd2bf0d9a32016717dc90126f016b",tooltip="Append an element at the end of the list. "];
+  Node20248 -> Node20250 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20250 [label="Foam::GeometricField\l::boundaryField",height=0.2,width=0.4,color="black",URL="$a22434.html#a3c6c1a789b48ea0c5e8bff64f9c14f2d",tooltip="Return reference to GeometricBoundaryField. "];
+  Node20248 -> Node20251 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20251 [label="Foam::polyMesh::boundaryMesh",height=0.2,width=0.4,color="black",URL="$a27410.html#a9f2b68c134340291eda6197f47f25484",tooltip="Return boundary mesh. "];
+  Node20248 -> Node20252 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20252 [label="Foam::GeometricField\l::correctBoundaryConditions",height=0.2,width=0.4,color="black",URL="$a22434.html#acaf6878ef900e593c4b20812f1b567d6",tooltip="Correct boundary field. "];
+  Node20248 -> Node20253 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20253 [label="Foam::polyPatch::coupled",height=0.2,width=0.4,color="black",URL="$a27478.html#a39c01db0e66d00fe0621a0c7e5fc4ead",tooltip="Return true if this patch is geometrically coupled (i.e. faces and. "];
+  Node20248 -> Node20254 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20254 [label="Foam::FaceCellWave\l::data",height=0.2,width=0.4,color="black",URL="$a24814.html#a3cb51c6d7125aa51349080ee9eeba567",tooltip="Additional data to be passed into container. "];
+  Node20248 -> Node20255 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20255 [label="Foam::primitiveMesh\l::faceCentres",height=0.2,width=0.4,color="red",URL="$a27530.html#a3319847c9ee813a5398d011b08de25a4"];
+  Node20248 -> Node20309 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20309 [label="Foam::polyMesh::faceOwner",height=0.2,width=0.4,color="black",URL="$a27410.html#a57752b49bfee23ca1944c3fb0493974f",tooltip="Return face owner. "];
+  Node20248 -> Node20310 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20310 [label="Foam::FaceCellWave\l::iterate",height=0.2,width=0.4,color="red",URL="$a24814.html#a8f898fd0e592fd902741616e1f087497",tooltip="Iterate until no changes or maxIter reached. Returns actual. "];
+  Node20248 -> Node20303 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20303 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node20248 -> Node20311 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20311 [label="Foam::max",height=0.2,width=0.4,color="black",URL="$a21124.html#ac993e906cf2774ae77e666bc24e81733"];
+  Node20248 -> Node20312 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20312 [label="Foam::DimensionedField\l::mesh",height=0.2,width=0.4,color="black",URL="$a26390.html#a8f1110830348a1448a14ab5e3cf47e3b",tooltip="Return mesh. "];
+  Node20248 -> Node20313 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20313 [label="Foam::primitiveMesh\l::nCells",height=0.2,width=0.4,color="black",URL="$a27530.html#a13b94bdb0926552bf78ad5210a73a3d5"];
+  Node20248 -> Node20314 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20314 [label="Foam::fvMesh::neighbour",height=0.2,width=0.4,color="red",URL="$a22766.html#aab1a7f2af09b33005a527e107c7b3fad",tooltip="Internal face neighbour. "];
+  Node20248 -> Node20307 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20307 [label="Foam::primitiveMesh\l::nFaces",height=0.2,width=0.4,color="black",URL="$a27530.html#abe602c985a3c9ffa67176e969e77ca6f"];
+  Node20248 -> Node20327 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20327 [label="Foam::fvMesh::owner",height=0.2,width=0.4,color="red",URL="$a22766.html#a16e7eb254c4fd2d1d7ac4d5d71f6c9f9",tooltip="Internal face owner. "];
+  Node20248 -> Node20557 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20557 [label="Foam::FaceCellWave\l::setFaceInfo",height=0.2,width=0.4,color="red",URL="$a24814.html#a4dfc64d9c6a80650006ac5ab728f95b0",tooltip="Set initial changed faces. "];
+  Node20557 -> Node20571 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20571 [label="Foam::polyPatch::start",height=0.2,width=0.4,color="red",URL="$a27478.html#a6bfd3e3abb11e98bdb4b98671cec1234",tooltip="Return start label of this patch in the polyMesh face list. "];
+  Node20571 -> Node20253 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20248 -> Node20571 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

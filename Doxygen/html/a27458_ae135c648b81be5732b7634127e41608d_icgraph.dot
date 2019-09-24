@@ -1,0 +1,12 @@
+digraph "forwardT"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1752 [label="forwardT",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1752 -> Node1753 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1753 [label="Foam::processorCyclicFvPatch\l::forwardT",height=0.2,width=0.4,color="red",URL="$a22830.html#ae135c648b81be5732b7634127e41608d",tooltip="Return face transformation tensor. "];
+  Node1752 -> Node1755 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1755 [label="Foam::processorCyclicPoint\lPatchField::swapAddSeparated",height=0.2,width=0.4,color="red",URL="$a26602.html#a3aae157a027e0aa964e285d768f7ec86",tooltip="Complete swap of patch point values and add to local values. "];
+}

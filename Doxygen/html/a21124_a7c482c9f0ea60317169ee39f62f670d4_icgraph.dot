@@ -1,0 +1,27 @@
+digraph "mode"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node93355 [label="mode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node93355 -> Node93356 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node93356 [label="exists",height=0.2,width=0.4,color="red",URL="$a21124.html#a361e3374754d656658e0dc4a8310ce32",tooltip="Does the name exist (as DIRECTORY or FILE) in the file system? "];
+  Node93355 -> Node93384 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node93384 [label="Foam::mappedPatchBase\l::findSamples",height=0.2,width=0.4,color="red",URL="$a25094.html#a5b45dd96de2566fe120ce82fd632868c",tooltip="Find cells/faces containing samples. "];
+  Node93355 -> Node93387 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node93387 [label="isDir",height=0.2,width=0.4,color="red",URL="$a21124.html#a9c9cf5d33b9c5961f835aefe5d860c5a",tooltip="Does the name exist as a DIRECTORY in the file system? "];
+  Node93355 -> Node95494 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node95494 [label="isFile",height=0.2,width=0.4,color="red",URL="$a21124.html#a1cf13d004cf482571af182540a8d1526",tooltip="Does the name exist as a FILE in the file system? "];
+  Node95494 -> Node93356 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node93355 -> Node95507 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node95507 [label="mkDir",height=0.2,width=0.4,color="red",URL="$a21124.html#a2ae410f2311adf94d66451b7423fdf4e",tooltip="Make a directory and return an error if it could not be created. "];
+  Node93355 -> Node94100 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node94100 [label="Foam::fieldMinMax::name",height=0.2,width=0.4,color="black",URL="$a28718.html#a754ce9966caae1ee331378bf4a87269b",tooltip="Return name of the set of field min/max. "];
+  Node93355 -> Node95608 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node95608 [label="Foam::ParticleCollector\l::ParticleCollector",height=0.2,width=0.4,color="red",URL="$a23982.html#a7e033a5ad0d811a2692f6ae9237f85e6",tooltip="Construct from dictionary. "];
+  Node93355 -> Node94677 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node94677 [label="Foam::sampledPatchInternal\lField::sampledPatchInternalField",height=0.2,width=0.4,color="black",URL="$a29370.html#a3aee63f01712c7a45299253ce06e5b1d",tooltip="Construct from dictionary. "];
+  Node93355 -> Node95610 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node95610 [label="type",height=0.2,width=0.4,color="red",URL="$a21124.html#aec48583af672626378f501eb9fc32cd1",tooltip="Return the file type: DIRECTORY or FILE. "];
+}

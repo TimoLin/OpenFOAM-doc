@@ -1,0 +1,20 @@
+digraph "criteriaSatisfied"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node629 [label="criteriaSatisfied",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node629 -> Node630 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node630 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node629 -> Node632 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node632 [label="Foam::UList::first",height=0.2,width=0.4,color="black",URL="$a25698.html#a1c9828bc3de9502754d944c95a2ce0d9",tooltip="Return the first element of the list. "];
+  Node629 -> Node633 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node633 [label="forAllConstIter",height=0.2,width=0.4,color="red",URL="$a38141.html#ae21e2836509b0fa7f7cedf6493b11b09"];
+  Node629 -> Node933 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node933 [label="Foam::SolverPerformance\l::initialResidual",height=0.2,width=0.4,color="black",URL="$a26810.html#aa934099b8c3787257b11a24bbfc10042",tooltip="Return initial residual. "];
+  Node629 -> Node934 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node934 [label="Foam::UList::last",height=0.2,width=0.4,color="black",URL="$a25698.html#aef07c02ea1c27bdb5906043b399e0ff0",tooltip="Return the last element of the list. "];
+  Node629 -> Node935 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node935 [label="Foam::fvc::relative",height=0.2,width=0.4,color="red",URL="$a21134.html#a5e4ab9141a668cb1182ffd7176f0bc41",tooltip="Return the given absolute flux in relative form. "];
+}

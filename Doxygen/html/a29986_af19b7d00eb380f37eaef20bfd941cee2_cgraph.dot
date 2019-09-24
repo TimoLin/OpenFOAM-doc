@@ -1,0 +1,24 @@
+digraph "~solidProperties"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node16 [label="~solidProperties",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node16 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17 [label="Cp",height=0.2,width=0.4,color="black",URL="$a29986.html#a0038fb392022aa13d08ff2674ecaf3e7",tooltip="Specific heat capacity [J/(kg.K)]. "];
+  Node16 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 [label="emissivity",height=0.2,width=0.4,color="black",URL="$a29986.html#ada6c356c3b71b8f42f80e6168a774b77",tooltip="Emissivity []. "];
+  Node16 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19 [label="Hf",height=0.2,width=0.4,color="black",URL="$a29986.html#a113e99ca349d5be715352be08f008f90",tooltip="Heat of formation [J/kg]. "];
+  Node16 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20 [label="Hs",height=0.2,width=0.4,color="black",URL="$a29986.html#a456496d3e3bb9387facc31efdbffe90d",tooltip="Sensible enthalpy - reference to Tstd [J/kg]. "];
+  Node16 -> Node21 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21 [label="K",height=0.2,width=0.4,color="black",URL="$a29986.html#a4e363136dc4be7e0a50d74e4403eb097",tooltip="Thermal conductivity [W/(m.K)]. "];
+  Node16 -> Node22 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22 [label="rho",height=0.2,width=0.4,color="black",URL="$a29986.html#a92b5c020a533d9f974e6ddc84050be6c",tooltip="Density [kg/m3]. "];
+  Node16 -> Node23 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23 [label="Foam::T",height=0.2,width=0.4,color="red",URL="$a21124.html#ae57fda0abb14bb0944947c463c6e09d4"];
+  Node16 -> Node28 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node28 [label="writeData",height=0.2,width=0.4,color="black",URL="$a29986.html#a4a9a5e81ef203c89a365d47f0acc39b9",tooltip="Write the solidProperties properties. "];
+}

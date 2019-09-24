@@ -1,0 +1,23 @@
+digraph "setState"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node73 [label="setState",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node73 -> Node74 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node74 [label="Foam::ISstream::get",height=0.2,width=0.4,color="red",URL="$a26286.html#a220617e016d0f94cdc18c09879020f5c",tooltip="Raw, low-level get character function. "];
+  Node73 -> Node76 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node76 [label="Foam::ISstream::getLine",height=0.2,width=0.4,color="red",URL="$a26286.html#a94b82bd8f7d8cdaa83c9c70b7c919f78",tooltip="Raw, low-level getline into a string function. "];
+  Node73 -> Node124 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node124 [label="Foam::OFstream::OFstream",height=0.2,width=0.4,color="black",URL="$a26190.html#a96b00a76820113a7c7ece8af0541d9e2",tooltip="Construct from pathname. "];
+  Node73 -> Node125 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node125 [label="Foam::ISstream::putback",height=0.2,width=0.4,color="red",URL="$a26286.html#aa685529cedb07a4b339c5a87c84b597a",tooltip="Raw, low-level putback character function. "];
+  Node125 -> Node126 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node126 [label="Foam::ISstream::read",height=0.2,width=0.4,color="red",URL="$a26286.html#a3d4b02e5b143d1a4ba9a5b34f11b4ed1",tooltip="Return next token from stream. "];
+  Node73 -> Node126 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node73 -> Node127 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node127 [label="Foam::OSstream::write",height=0.2,width=0.4,color="black",URL="$a26290.html#ab2f5598b4b95c3e980071b92457e8d90",tooltip="Write character. "];
+  Node73 -> Node128 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node128 [label="Foam::OSstream::writeQuoted",height=0.2,width=0.4,color="red",URL="$a26290.html#a40c64d7f8975f303da0b0245c16fe906",tooltip="Write std::string surrounded by quotes. "];
+}

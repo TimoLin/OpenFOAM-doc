@@ -1,0 +1,23 @@
+digraph "absorbInteraction"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node759 [label="absorbInteraction",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node759 -> Node760 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node760 [label="Foam::regionModels\l::surfaceFilmModels\l::surfaceFilmModel::addSources",height=0.2,width=0.4,color="black",URL="$a29178.html#aae7df79f040d138f3be3f9a1cc846d04",tooltip="External hook to add sources to the film. "];
+  Node759 -> Node761 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node761 [label="bounceInteraction",height=0.2,width=0.4,color="red",URL="$a24374.html#a0cf6772021aec5a35902919bda4c9171",tooltip="Bounce parcel (flip parcel normal velocity) "];
+  Node761 -> Node762 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node762 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node761 -> Node764 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node764 [label="Foam::PrimitivePatch\l::faceNormals",height=0.2,width=0.4,color="black",URL="$a27538.html#ad96a54bba336ea57f59f0da350d3c265",tooltip="Return face normals for patch. "];
+  Node761 -> Node765 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node765 [label="Foam::patchIdentifier\l::index",height=0.2,width=0.4,color="black",URL="$a27122.html#a4a438520bb14406481732edc13c119c7",tooltip="Return the index of this patch in the boundaryMesh. "];
+  Node759 -> Node762 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node759 -> Node764 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node759 -> Node765 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node759 -> Node779 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node779 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+}

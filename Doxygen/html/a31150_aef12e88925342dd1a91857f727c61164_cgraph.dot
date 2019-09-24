@@ -1,0 +1,16 @@
+digraph "~compressibleTurbulenceModel"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2 [label="~compressibleTurbulenceModel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="devRhoReff",height=0.2,width=0.4,color="black",URL="$a31150.html#a496050215c3d9dae5f127566bef25f44",tooltip="Return the effective stress tensor including the laminar stress. "];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="divDevRhoReff",height=0.2,width=0.4,color="black",URL="$a31150.html#a5aa856f58a20c92df9b763ee10543d7a",tooltip="Return the source term for the momentum equation. "];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="phi",height=0.2,width=0.4,color="red",URL="$a31150.html#acc92e3df4edea382ecf752c53b88a7b3",tooltip="Return the volumetric flux field. "];
+  Node2 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="Foam::turbulenceModel::U",height=0.2,width=0.4,color="black",URL="$a31314.html#a536d168d7b335fe81f506f232b5b4872",tooltip="Access function to velocity field. "];
+}

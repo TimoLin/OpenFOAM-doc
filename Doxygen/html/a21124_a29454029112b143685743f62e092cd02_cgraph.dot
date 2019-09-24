@@ -1,0 +1,19 @@
+digraph "inv"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node124881 [label="inv",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node124881 -> Node124882 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node124882 [label="conjugate",height=0.2,width=0.4,color="red",URL="$a21124.html#ad09d60e9d059b4444d1c703dd7f19ea5",tooltip="Return the conjugate of the given quaternion. "];
+  Node124881 -> Node124886 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node124886 [label="Foam::quaternion::invTransform",height=0.2,width=0.4,color="red",URL="$a28130.html#aee0060723827f8272f2f50aaaf57c1eb",tooltip="Rotate the given vector anti-clockwise. "];
+  Node124886 -> Node124882 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node124881 -> Node124887 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node124887 [label="Foam::septernion::r",height=0.2,width=0.4,color="black",URL="$a28182.html#a3f654a0f851ca1874a91504ca2e31ba4"];
+  Node124881 -> Node124888 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node124888 [label="Foam::septernion::septernion",height=0.2,width=0.4,color="black",URL="$a28182.html#ab15a66f0258e115ba50165b7a707eece",tooltip="Construct null. "];
+  Node124881 -> Node124889 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node124889 [label="Foam::septernion::t",height=0.2,width=0.4,color="black",URL="$a28182.html#ac90b4495e032d0efeb603179edc4cb8c"];
+}

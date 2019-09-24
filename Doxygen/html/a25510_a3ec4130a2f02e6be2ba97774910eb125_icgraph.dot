@@ -1,0 +1,23 @@
+digraph "setFromStatus"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1683 [label="setFromStatus",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1683 -> Node1684 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1684 [label="findFeatures",height=0.2,width=0.4,color="red",URL="$a25510.html#a104ad1549afa89b0b6ae590fda99816a",tooltip="Find feature edges using provided included angle. "];
+  Node1684 -> Node1685 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1685 [label="nInternalEdges",height=0.2,width=0.4,color="red",URL="$a25510.html#ac3a114a989f593d0844725f0e2364537",tooltip="Return number of internal edges. "];
+  Node1683 -> Node1685 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1683 -> Node1689 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1689 [label="surfaceFeatures",height=0.2,width=0.4,color="black",URL="$a25510.html#ad37c6263cbba065fbffe29e843e18245",tooltip="Construct from pointField and edgeList (edgeMesh) "];
+  Node1683 -> Node1690 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1690 [label="toStatus",height=0.2,width=0.4,color="black",URL="$a25510.html#a903220b6d4c4eda32870588734489185",tooltip="From member feature edges to status per edge. "];
+  Node1690 -> Node1685 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1690 -> Node1691 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1691 [label="trimFeatures",height=0.2,width=0.4,color="red",URL="$a25510.html#af640d0750bcc401bc012c69e60b809a8",tooltip="Delete small sets of edges. Edges are stringed up and any. "];
+  Node1691 -> Node1684 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1691 -> Node1685 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1683 -> Node1691 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

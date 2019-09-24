@@ -1,0 +1,15 @@
+digraph "patchSchedule"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node389 [label="patchSchedule",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node389 -> Node390 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node390 [label="gather",height=0.2,width=0.4,color="red",URL="$a27134.html#ad7514c3eec68fa18c472b5dfe1c2b5a4",tooltip="Gather meshes from other processors onto procIDs[0]. "];
+  Node389 -> Node489 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node489 [label="mesh",height=0.2,width=0.4,color="black",URL="$a27134.html#a9c4639b7b258f78d7ce0096917642bbd",tooltip="Select either mesh0 (meshI is 0) or otherMeshes[meshI-1]. "];
+  Node489 -> Node390 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node389 -> Node490 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node490 [label="nonBlockingSchedule",height=0.2,width=0.4,color="black",URL="$a27134.html#a9856d5e3d415f6c0261848570a110e61",tooltip="Get non-scheduled send/receive schedule. "];
+}

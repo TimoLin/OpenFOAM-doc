@@ -1,0 +1,27 @@
+digraph "findElements"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node82 [label="findElements",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node82 -> Node83 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node83 [label="Foam::primitiveMesh\l::cellCentres",height=0.2,width=0.4,color="red",URL="$a27530.html#a7300aee2989c6ec70e39436816461902"];
+  Node82 -> Node144 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node144 [label="Foam::primitiveMesh\l::cells",height=0.2,width=0.4,color="black",URL="$a27530.html#af19bf800d725a623c7b1d0101d65e7d3"];
+  Node82 -> Node93 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node93 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node82 -> Node139 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node139 [label="Foam::primitiveMesh\l::faceCentres",height=0.2,width=0.4,color="red",URL="$a27530.html#a3319847c9ee813a5398d011b08de25a4"];
+  Node82 -> Node145 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node145 [label="Foam::polyMesh::findCell",height=0.2,width=0.4,color="red",URL="$a27410.html#a9ed562792df1c0cdb8d582e5cefdc716",tooltip="Find cell enclosing this location (-1 if not in mesh) "];
+  Node82 -> Node133 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node133 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node82 -> Node197 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node197 [label="Foam::UPstream::master",height=0.2,width=0.4,color="red",URL="$a26270.html#a36af549940a0aae3733774649594489f",tooltip="Am I the master process. "];
+  Node82 -> Node185 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node185 [label="Foam::UPstream::myProcNo",height=0.2,width=0.4,color="black",URL="$a26270.html#afc74d89573de32a3032c916f8cdd1733",tooltip="Number of this process (starting from masterNo() = 0) "];
+  Node82 -> Node182 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node182 [label="Foam::reduce",height=0.2,width=0.4,color="red",URL="$a21124.html#a7ffd6af4acc2eb9ba72ee296b5ecda23"];
+  Node182 -> Node93 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,15 @@
+digraph "expand"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node66 [label="expand",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node66 -> Node67 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node67 [label="getVariable",height=0.2,width=0.4,color="red",URL="$a21166.html#a0b683838814d3a93044a72f190d693ed",tooltip="Get dictionary or (optionally) environment variable. "];
+  Node66 -> Node375 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node375 [label="inplaceExpand",height=0.2,width=0.4,color="red",URL="$a21166.html#adf940b7b0788929e0e11ea44e7f9c1bb",tooltip="Inplace expand occurences of variables according to the mapping. "];
+  Node375 -> Node377 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node377 [label="s",height=0.2,width=0.4,color="black",URL="$a18905.html#abb9c4233033fad2ad0206cd4adad3b9f"];
+  Node66 -> Node377 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

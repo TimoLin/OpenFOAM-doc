@@ -1,0 +1,22 @@
+digraph "cmptMag"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3541 [label="cmptMag",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3541 -> Node3542 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3542 [label="Foam::CentredFitSnGradData\l::calcFit",height=0.2,width=0.4,color="black",URL="$a22586.html#a41361d5f8c5e64ad06c0a3a5883201af",tooltip="Calculate the fit for the specified face and set the coefficients. "];
+  Node3541 -> Node3543 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3543 [label="Foam::FitData\< CentredFit\lSnGradData\< Polynomial\l \>, extendedCentredCellToFaceStencil,\l Polynomial \>::calcFit",height=0.2,width=0.4,color="black",URL="$a23170.html#a8f269524f4ee2469cadc4d3e7a2e9859",tooltip="Calculate the fit for the specified face and set the coefficients. "];
+  Node3541 -> Node3544 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3544 [label="Foam::primitiveMeshTools\l::cellClosedness",height=0.2,width=0.4,color="red",URL="$a27534.html#a14b7d320d846c69e1e404e9937f5d63c",tooltip="Generate cell openness and cell ascpect ratio field. "];
+  Node3541 -> Node3577 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3577 [label="Foam::primitiveMesh\l::checkClosedBoundary",height=0.2,width=0.4,color="red",URL="$a27530.html#a930bca98a0d534f2dc0f0d0c550011a6",tooltip="Check boundary for closedness. "];
+  Node3541 -> Node3584 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3584 [label="Foam::PBiCICG::solve",height=0.2,width=0.4,color="red",URL="$a26838.html#af2a8369a85a8532bb0c9d431c0b6e7ff",tooltip="Solve the matrix with this solver. "];
+  Node3541 -> Node3586 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3586 [label="Foam::PCICG::solve",height=0.2,width=0.4,color="red",URL="$a26842.html#af2a8369a85a8532bb0c9d431c0b6e7ff",tooltip="Solve the matrix with this solver. "];
+  Node3541 -> Node3588 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3588 [label="Foam::LduMatrix::sumMagOffDiag",height=0.2,width=0.4,color="red",URL="$a26790.html#a9024362e5a350ff08d2738cd97133fe3"];
+}

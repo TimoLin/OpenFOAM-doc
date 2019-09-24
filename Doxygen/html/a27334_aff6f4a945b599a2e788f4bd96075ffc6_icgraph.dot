@@ -1,0 +1,13 @@
+digraph "globalPointNumbering"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2364 [label="globalPointNumbering",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2364 -> Node2365 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2365 [label="mergePoints",height=0.2,width=0.4,color="red",URL="$a27334.html#aa4df94c65c44d0e38bcd229cd913f042",tooltip="Helper for merging (collocated!) mesh point data. "];
+  Node2365 -> Node2379 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2379 [label="nTotalCells",height=0.2,width=0.4,color="red",URL="$a27334.html#af5f312e4d0bc5cbcc088e7c247d3a97a",tooltip="Return total number of cells in decomposed mesh. "];
+  Node2364 -> Node2379 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

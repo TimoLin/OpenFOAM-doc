@@ -1,0 +1,19 @@
+digraph "p"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node31 [label="p",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node31 -> Node32 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node32 [label="autoMap",height=0.2,width=0.4,color="black",URL="$a30546.html#a0ab0c43ce90d756c88dd81e3d0a9eef5",tooltip="Map (and resize as needed) from self given a mapping object. "];
+  Node32 -> Node33 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node33 [label="rmap",height=0.2,width=0.4,color="black",URL="$a30546.html#a713277715ccc0a5ef466b0516d44731f",tooltip="Reverse map the given fvPatchField onto this fvPatchField. "];
+  Node33 -> Node33 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node31 -> Node33 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node31 -> Node34 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34 [label="updateCoeffs",height=0.2,width=0.4,color="red",URL="$a30546.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node34 -> Node37 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node37 [label="write",height=0.2,width=0.4,color="red",URL="$a30546.html#a293fdfec8bdfbd5c3913ab4c9f3454ff",tooltip="Write. "];
+  Node31 -> Node37 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

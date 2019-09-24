@@ -1,0 +1,11 @@
+digraph "surfaceZonesInfo"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node1 [label="surfaceZonesInfo",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" faceZoneTypeNames" ,fontname="FreeSans"];
+  Node2 [label="NamedEnum\< faceZoneType, 3 \>",height=0.2,width=0.4,color="red",URL="$a25998.html"];
+  Node7 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" areaSelectionAlgoNames" ,fontname="FreeSans"];
+  Node7 [label="NamedEnum\< areaSelection\lAlgo, 4 \>",height=0.2,width=0.4,color="red",URL="$a25998.html"];
+}

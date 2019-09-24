@@ -1,0 +1,18 @@
+digraph "erase"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3 [label="erase",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="Foam::HashTable\< Foam\l::phase *\>::erase",height=0.2,width=0.4,color="black",URL="$a25702.html#a12d8ea138d4886b42bc135cd082652c7",tooltip="Erase a hashedEntry specified by given iterator. "];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="Foam::HashSet\< Foam\l::word \>::operator-=",height=0.2,width=0.4,color="black",URL="$a25690.html#a08b55f42a6365714799ae9b045878343",tooltip="Remove entries listed in the given HashSet from this HashSet. "];
+  Node3 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="Foam::HashSet\< Foam\l::word \>::operator^=",height=0.2,width=0.4,color="black",URL="$a25690.html#a4fd03bcfb5feb558a4403a63a9c2c44d",tooltip="Only retain unique entries (xor) "];
+  Node3 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="Foam::HashSet\< Foam\l::word \>::operator\|=",height=0.2,width=0.4,color="black",URL="$a25690.html#aa1bc79c8911396b130ba2f9fb192b2e1",tooltip="Combine entries from HashSets. "];
+  Node3 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="Foam::HashPtrTable\l\< ThermoType \>::remove",height=0.2,width=0.4,color="black",URL="$a25686.html#ae0ff5ad9f41dfc292434f1674777cb57",tooltip="Remove and return the pointer specified by given iterator. "];
+}

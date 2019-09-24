@@ -1,0 +1,30 @@
+digraph "write"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2380 [label="write",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2380 -> Node2381 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2381 [label="Foam::polyMesh::boundaryMesh",height=0.2,width=0.4,color="black",URL="$a27410.html#a9f2b68c134340291eda6197f47f25484",tooltip="Return boundary mesh. "];
+  Node2380 -> Node2382 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2382 [label="Foam::dictionary::lookup",height=0.2,width=0.4,color="red",URL="$a26014.html#a6a0727fa523e48977e27348663def509",tooltip="Find and return an entry data stream. "];
+  Node2380 -> Node2684 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2684 [label="Foam::compressible\l::makePatchTypeField",height=0.2,width=0.4,color="black",URL="$a21173.html#ab1c25a3141d2f250aa615d7356265628"];
+  Node2380 -> Node2685 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2685 [label="Foam::polyBoundaryMesh\l::mesh",height=0.2,width=0.4,color="red",URL="$a27402.html#ae78c91f8ff731c07ccc4351d9fe861ba",tooltip="Return the mesh reference. "];
+  Node2380 -> Node2764 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2764 [label="Foam::fvMesh::name",height=0.2,width=0.4,color="black",URL="$a22766.html#acc80e00a8ac919288fb55bd14cc88bf6",tooltip="Return reference to name. "];
+  Node2380 -> Node2765 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2765 [label="Foam::readBool",height=0.2,width=0.4,color="black",URL="$a21124.html#a128e6922f1b49f939c43266d8ad70ab8"];
+  Node2380 -> Node2624 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2624 [label="Foam::readScalar",height=0.2,width=0.4,color="black",URL="$a21124.html#a828d57f6d9b9806c086a3f840a147115",tooltip="Read whole of buf as a scalar. Return true if succesful. "];
+  Node2380 -> Node2599 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2599 [label="Foam::dictionary::subDict",height=0.2,width=0.4,color="red",URL="$a26014.html#aaa26b5f2da6aff5a6a59af5407f1bf59",tooltip="Find and return a sub-dictionary. "];
+  Node2380 -> Node2766 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2766 [label="Foam::compressible\l::turbulentTemperatureRadCoupled\lMixedFvPatchScalarField::write",height=0.2,width=0.4,color="red",URL="$a30806.html#a293fdfec8bdfbd5c3913ab4c9f3454ff",tooltip="Write. "];
+  Node2766 -> Node2524 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2524 [label="Foam::Ostream::writeKeyword",height=0.2,width=0.4,color="red",URL="$a26238.html#a3c58b2bb9174ea3c4a5fa58095d1290e",tooltip="Write the keyword followed by an appropriate indentation. "];
+  Node2766 -> Node2684 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2380 -> Node2524 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

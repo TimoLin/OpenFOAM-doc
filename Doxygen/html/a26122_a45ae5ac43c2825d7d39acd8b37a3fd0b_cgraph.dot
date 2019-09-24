@@ -1,0 +1,13 @@
+digraph "charWidth"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1861 [label="charWidth",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1861 -> Node1862 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1862 [label="Foam::IOstream::defaultPrecision",height=0.2,width=0.4,color="black",URL="$a26226.html#a90f508fef73438f120430ecacd3a603b",tooltip="Return the default precision. "];
+  Node1861 -> Node1863 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1863 [label="writeCommented",height=0.2,width=0.4,color="red",URL="$a26122.html#aa95016de4648a20980e42fb08415ef18",tooltip="Write a commented string to stream. "];
+  Node1863 -> Node1861 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,32 @@
+digraph "tree"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node70 [label="tree",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node70 -> Node71 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node71 [label="calcInside",height=0.2,width=0.4,color="red",URL="$a25530.html#a4014a90e0f0782c8e77cc0f682305a2f",tooltip="Calculate for each searchPoint inside/outside status. "];
+  Node71 -> Node70 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node70 -> Node77 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node77 [label="findLine",height=0.2,width=0.4,color="red",URL="$a25530.html#a9a2507891d1eabd4513fc05da267158f"];
+  Node77 -> Node93 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node93 [label="nearest",height=0.2,width=0.4,color="red",URL="$a25530.html#a3a96dab9a48956014f4a324b1bbc263d",tooltip="Calculate nearest point on surface for single searchPoint. Returns. "];
+  Node93 -> Node94 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node94 [label="findNearest",height=0.2,width=0.4,color="red",URL="$a25530.html#af5a3600f2733be5044e5a922676eb346"];
+  Node94 -> Node71 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node70 -> Node97 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node97 [label="findLineAll",height=0.2,width=0.4,color="red",URL="$a25530.html#a34032d135c7ca49c692751bb148727f6",tooltip="Calculate all intersections from start to end. "];
+  Node97 -> Node100 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node100 [label="findLineAny",height=0.2,width=0.4,color="red",URL="$a25530.html#a9d3dd2d4f8a82670f84a4fd9356b2512"];
+  Node100 -> Node77 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node70 -> Node100 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node70 -> Node94 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node70 -> Node101 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node101 [label="Foam::distributedTriSurface\lMesh::findNearest",height=0.2,width=0.4,color="red",URL="$a28642.html#ac968e745f1a4294205a3cf4936755409"];
+  Node70 -> Node103 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node103 [label="Foam::triSurfaceMesh\l::getVolumeType",height=0.2,width=0.4,color="red",URL="$a25258.html#a1d3ba31549036f01425643d189858d2a",tooltip="Determine type (inside/outside/mixed) for point. unknown if. "];
+  Node70 -> Node93 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node70 -> Node106 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node106 [label="Foam::triSurfaceMesh\l::overlaps",height=0.2,width=0.4,color="red",URL="$a25258.html#a3551e1f2a2837eb8b79493199f8e89f8",tooltip="Does any part of the surface overlap the supplied bound box? "];
+}

@@ -1,0 +1,14 @@
+digraph "ThermoParcel"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ThermoParcel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="calcHeatTransfer",height=0.2,width=0.4,color="black",URL="$a23938.html#a912c03534941aba308684d8402b6d205"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="clone",height=0.2,width=0.4,color="black",URL="$a23938.html#a88a017e32aa61e1eff25854e439a5feb",tooltip="Construct and return a (basic particle) clone. "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="Foam::ThermoParcel\l::constantProperties\l::constantProperties",height=0.2,width=0.4,color="black",URL="$a23942.html#a50a319ad2996242d838c8e84106123b7",tooltip="Construct from dictionary. "];
+}

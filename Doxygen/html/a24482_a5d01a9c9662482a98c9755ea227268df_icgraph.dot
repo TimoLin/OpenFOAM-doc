@@ -1,0 +1,16 @@
+digraph "read"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node328 [label="read",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node328 -> Node329 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node329 [label="Foam::tetherPotentials\l::harmonicSpring::read",height=0.2,width=0.4,color="red",URL="$a24486.html#a90f63ba9be6a6529eed861f28787f825",tooltip="Read dictionary. "];
+  Node328 -> Node331 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node331 [label="Foam::tetherPotentials\l::restrainedHarmonicSpring::read",height=0.2,width=0.4,color="red",URL="$a24494.html#a90f63ba9be6a6529eed861f28787f825",tooltip="Read dictionary. "];
+  Node328 -> Node334 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node334 [label="Foam::tetherPotentials\l::pitchForkRing::read",height=0.2,width=0.4,color="red",URL="$a24490.html#a90f63ba9be6a6529eed861f28787f825",tooltip="Read dictionary. "];
+  Node328 -> Node336 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node336 [label="tetherPotentialProperties",height=0.2,width=0.4,color="black",URL="$a24482.html#ac400674ef0df77a1f4d79bc9b892e89e"];
+}

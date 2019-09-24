@@ -1,0 +1,16 @@
+digraph "equipartitionInternalEnergy"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node125 [label="equipartitionInternalEnergy",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node125 -> Node126 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node126 [label="Foam::MaxwellianThermal\l::correct",height=0.2,width=0.4,color="red",URL="$a23726.html#a881dca43d304d4d744b6e48dac4439b1",tooltip="Apply wall correction. "];
+  Node125 -> Node128 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node128 [label="Foam::MixedDiffuseSpecular\l::correct",height=0.2,width=0.4,color="red",URL="$a23730.html#a881dca43d304d4d744b6e48dac4439b1",tooltip="Apply wall correction. "];
+  Node125 -> Node130 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node130 [label="Foam::DsmcCloud\< DsmcParcel\l\< ParcelType \> \>::equipartition\lLinearVelocity",height=0.2,width=0.4,color="black",URL="$a23686.html#a5488dcba09b3b0f37f0b24c4cae10422",tooltip="Generate a random velocity sampled from the Maxwellian speed. "];
+  Node125 -> Node131 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node131 [label="Foam::FreeStream::inflow",height=0.2,width=0.4,color="black",URL="$a23718.html#a84e6a7b742df4fcb240fff3040770a0b",tooltip="Introduce particles. "];
+}

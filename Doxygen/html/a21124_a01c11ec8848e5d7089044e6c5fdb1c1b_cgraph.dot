@@ -1,0 +1,19 @@
+digraph "findStrings"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node126204 [label="findStrings",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node126204 -> Node126205 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node126205 [label="findMatchingStrings",height=0.2,width=0.4,color="black",URL="$a21124.html#a6f0e89537651a4173e2955ba9c521839",tooltip="Return list indices for matching strings. "];
+  Node126204 -> Node126206 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node126206 [label="invert",height=0.2,width=0.4,color="red",URL="$a21124.html#a327595a4510d001734d50819f3ee744d",tooltip="Invert one-to-one map. Unmapped elements will be -1. "];
+  Node126204 -> Node126252 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node126252 [label="subsetMatchingStrings",height=0.2,width=0.4,color="red",URL="$a21124.html#a4bc482f054b2f98d550002d8bf1856ea",tooltip="Extract elements of StringList when regular expression matches. "];
+  Node126252 -> Node126206 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node126204 -> Node126254 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node126254 [label="subsetStrings",height=0.2,width=0.4,color="black",URL="$a21124.html#a5a46554aee491a72b7261cd81220d121",tooltip="Extract elements of StringList when regular expression matches. "];
+  Node126254 -> Node126252 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node126254 -> Node126206 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

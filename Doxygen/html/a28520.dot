@@ -1,0 +1,13 @@
+digraph "fileMonitorWatcher"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node1 [label="fileMonitorWatcher",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" lastMod_" ,fontname="FreeSans"];
+  Node2 [label="DynamicList\< time_t \>",height=0.2,width=0.4,color="red",URL="$a25890.html"];
+  Node7 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" dirWatches_" ,fontname="FreeSans"];
+  Node7 [label="DynamicList\< label \>",height=0.2,width=0.4,color="red",URL="$a25890.html"];
+  Node11 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" dirFiles_" ,fontname="FreeSans"];
+  Node11 [label="DynamicList\< Foam::\lfileName \>",height=0.2,width=0.4,color="red",URL="$a25890.html"];
+}

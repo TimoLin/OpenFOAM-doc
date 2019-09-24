@@ -1,0 +1,46 @@
+digraph "psi"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1716 [label="psi",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1716 -> Node1717 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1717 [label="Foam::MRFZone::addCoriolis",height=0.2,width=0.4,color="black",URL="$a21898.html#a65a51223bc0f8e1c7fac165e111699c8",tooltip="Add the Coriolis force contribution to the momentum equation. "];
+  Node1716 -> Node1718 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1718 [label="Foam::fv::MRFSource\l::addSup",height=0.2,width=0.4,color="red",URL="$a23470.html#a921ab0aacd899760d7f4a2ec0b0241bd",tooltip="Vector. "];
+  Node1716 -> Node1721 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1721 [label="Foam::fv::explicitPorosity\lSource::addSup",height=0.2,width=0.4,color="red",URL="$a23466.html#a921ab0aacd899760d7f4a2ec0b0241bd",tooltip="Add implicit contribution to momentum equation. "];
+  Node1716 -> Node1725 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1725 [label="Foam::fv::interRegionExplicit\lPorositySource::addSup",height=0.2,width=0.4,color="red",URL="$a23534.html#a921ab0aacd899760d7f4a2ec0b0241bd",tooltip="Vector. "];
+  Node1716 -> Node1728 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1728 [label="Foam::fv::radialActuation\lDiskSource::addSup",height=0.2,width=0.4,color="red",URL="$a23478.html#a921ab0aacd899760d7f4a2ec0b0241bd",tooltip="Source term to momentum equation. "];
+  Node1716 -> Node1731 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1731 [label="Foam::fv::interRegionHeat\lTransferModel::addSup",height=0.2,width=0.4,color="red",URL="$a23542.html#a9c3a3fc9e70c143a42b667f4c9485ec3",tooltip="Source term to energy equation. "];
+  Node1716 -> Node1733 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1733 [label="Foam::fv::SemiImplicitSource\l::addSup",height=0.2,width=0.4,color="red",URL="$a23530.html#a1ee48a8055fa0cf69ffb5ed424c93bb5",tooltip="Add explicit contribution to equation. "];
+  Node1716 -> Node1736 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1736 [label="Foam::fv::actuationDiskSource\l::addSup",height=0.2,width=0.4,color="red",URL="$a23458.html#a921ab0aacd899760d7f4a2ec0b0241bd",tooltip="Source term to momentum equation. "];
+  Node1716 -> Node1739 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1739 [label="Foam::fv::rotorDiskSource\l::addSup",height=0.2,width=0.4,color="red",URL="$a23502.html#a921ab0aacd899760d7f4a2ec0b0241bd",tooltip="Source term to momentum equation. "];
+  Node1716 -> Node1741 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1741 [label="Foam::fv::solidification\lMeltingSource::addSup",height=0.2,width=0.4,color="black",URL="$a23522.html#a921ab0aacd899760d7f4a2ec0b0241bd",tooltip="Add implicit contribution to momentum equation. "];
+  Node1716 -> Node1742 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1742 [label="Foam::fv::effectivenessHeat\lExchangerSource::addSup",height=0.2,width=0.4,color="black",URL="$a23462.html#a42e5220cac26493394efed2c2c8b4ccd",tooltip="Scalar. "];
+  Node1716 -> Node1743 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1743 [label="Foam::checkMethod",height=0.2,width=0.4,color="red",URL="$a21124.html#a656fbda275eb1aaf53a9b1df97a5743c"];
+  Node1716 -> Node1755 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1755 [label="Foam::fv::optionList\l::constrain",height=0.2,width=0.4,color="red",URL="$a23454.html#ab41c286bca1d06f1df7ae33c4f45b1bd",tooltip="Apply constraints to equation. "];
+  Node1716 -> Node1757 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1757 [label="Foam::porosityModels\l::fixedCoeff::correct",height=0.2,width=0.4,color="red",URL="$a21910.html#acc340a84624d8d339207b5073d6929c7",tooltip="Add resistance. "];
+  Node1716 -> Node1761 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1761 [label="Foam::porosityModels\l::powerLaw::correct",height=0.2,width=0.4,color="red",URL="$a21930.html#acc340a84624d8d339207b5073d6929c7",tooltip="Add resistance. "];
+  Node1716 -> Node1765 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1765 [label="Foam::porosityModels\l::DarcyForchheimer::correct",height=0.2,width=0.4,color="red",URL="$a21906.html#acc340a84624d8d339207b5073d6929c7",tooltip="Add resistance. "];
+  Node1716 -> Node1769 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1769 [label="operator+=",height=0.2,width=0.4,color="black",URL="$a22358.html#a068ac5b673ee8cfe221d58322608e929"];
+  Node1716 -> Node1770 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1770 [label="operator-=",height=0.2,width=0.4,color="black",URL="$a22358.html#aa5a9389392a6933ee13349ad831be9b3"];
+  Node1716 -> Node1771 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1771 [label="Foam::fv::fixedTemperature\lConstraint::setValue",height=0.2,width=0.4,color="red",URL="$a23430.html#a14a2a47dd256cb0c8b14bd4efe1fef04",tooltip="Scalar. "];
+}

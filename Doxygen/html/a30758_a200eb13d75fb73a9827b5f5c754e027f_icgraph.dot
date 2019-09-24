@@ -1,0 +1,26 @@
+digraph "coeffDict"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node670 [label="coeffDict",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node670 -> Node671 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node671 [label="Foam::compressible\l::RASModels::kEpsilon::read",height=0.2,width=0.4,color="red",URL="$a30734.html#af816873151ddb0126e98bb2f914d8ed5",tooltip="Read RASProperties dictionary. "];
+  Node670 -> Node673 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node673 [label="Foam::compressible\l::RASModels::RNGkEpsilon::read",height=0.2,width=0.4,color="red",URL="$a30766.html#af816873151ddb0126e98bb2f914d8ed5",tooltip="Read RASProperties dictionary. "];
+  Node670 -> Node675 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node675 [label="Foam::compressible\l::RASModels::LRR::read",height=0.2,width=0.4,color="red",URL="$a30754.html#af816873151ddb0126e98bb2f914d8ed5",tooltip="Read RASProperties dictionary. "];
+  Node670 -> Node677 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node677 [label="Foam::compressible\l::RASModels::LaunderSharma\lKE::read",height=0.2,width=0.4,color="red",URL="$a30750.html#af816873151ddb0126e98bb2f914d8ed5",tooltip="Read RASProperties dictionary. "];
+  Node670 -> Node679 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node679 [label="Foam::compressible\l::RASModels::realizableKE::read",height=0.2,width=0.4,color="red",URL="$a30762.html#af816873151ddb0126e98bb2f914d8ed5",tooltip="Read RASProperties dictionary. "];
+  Node670 -> Node681 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node681 [label="Foam::compressible\l::RASModels::LaunderGibson\lRSTM::read",height=0.2,width=0.4,color="red",URL="$a30746.html#af816873151ddb0126e98bb2f914d8ed5",tooltip="Read RASProperties dictionary. "];
+  Node670 -> Node683 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node683 [label="Foam::compressible\l::RASModels::SpalartAllmaras::read",height=0.2,width=0.4,color="red",URL="$a30770.html#af816873151ddb0126e98bb2f914d8ed5",tooltip="Read RASProperties dictionary. "];
+  Node670 -> Node685 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node685 [label="Foam::compressible\l::RASModels::v2f::read",height=0.2,width=0.4,color="red",URL="$a30774.html#af816873151ddb0126e98bb2f914d8ed5",tooltip="Read RASProperties dictionary. "];
+  Node670 -> Node687 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node687 [label="Foam::compressible\l::RASModels::kOmegaSST::read",height=0.2,width=0.4,color="red",URL="$a30738.html#af816873151ddb0126e98bb2f914d8ed5",tooltip="Read RASProperties dictionary. "];
+}

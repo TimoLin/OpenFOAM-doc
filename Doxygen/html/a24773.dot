@@ -1,0 +1,19 @@
+digraph "extrudeModel"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node0 [label="extrudeModel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="linearDirection",height=0.2,width=0.4,color="black",URL="$a24778.html",tooltip="Extrudes by transforming points in a specified direction by a given distance. "];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="linearNormal",height=0.2,width=0.4,color="red",URL="$a24782.html",tooltip="Extrudes by transforming points normal to the surface by a given distance. "];
+  Node0 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="linearRadial",height=0.2,width=0.4,color="black",URL="$a24786.html"];
+  Node0 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="radial",height=0.2,width=0.4,color="black",URL="$a24794.html"];
+  Node0 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="sector",height=0.2,width=0.4,color="red",URL="$a24798.html",tooltip="Extrudes by rotating a surface around an axis. "];
+  Node0 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="sigmaRadial",height=0.2,width=0.4,color="black",URL="$a24802.html"];
+}

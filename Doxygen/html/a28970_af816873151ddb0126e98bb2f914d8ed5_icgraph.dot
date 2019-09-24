@@ -1,0 +1,14 @@
+digraph "read"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node145 [label="read",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node145 -> Node146 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node146 [label="pyrolysisModel",height=0.2,width=0.4,color="black",URL="$a28970.html#af84a1d1703d751de42df245fe67d499c",tooltip="Construct from type name and mesh. "];
+  Node145 -> Node147 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node147 [label="Foam::regionModels\l::pyrolysisModels::noPyrolysis::read",height=0.2,width=0.4,color="black",URL="$a28966.html#af816873151ddb0126e98bb2f914d8ed5",tooltip="Read control parameters from dictionary. "];
+  Node145 -> Node148 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node148 [label="Foam::regionModels\l::pyrolysisModels::reacting\lOneDim::read",height=0.2,width=0.4,color="red",URL="$a28978.html#af816873151ddb0126e98bb2f914d8ed5",tooltip="Read control parameters from dictionary. "];
+}

@@ -1,0 +1,32 @@
+digraph "clone"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node88 [label="clone",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node88 -> Node89 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node89 [label="calculate",height=0.2,width=0.4,color="red",URL="$a24318.html#a031f0e209049424f72315c7da79fb3b7",tooltip="Update model. "];
+  Node89 -> Node90 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node90 [label="Foam::T",height=0.2,width=0.4,color="red",URL="$a21124.html#ae57fda0abb14bb0944947c463c6e09d4"];
+  Node89 -> Node104 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node104 [label="dh",height=0.2,width=0.4,color="red",URL="$a24318.html#a4f97d9ee39e3791d7344e0aaad64e01c",tooltip="Return the enthalpy per unit mass. "];
+  Node104 -> Node90 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node104 -> Node147 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node147 [label="Tvap",height=0.2,width=0.4,color="black",URL="$a24318.html#a50c3869999c33a16d9937f0b54cb4be1",tooltip="Return vapourisation temperature. "];
+  Node147 -> Node148 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node148 [label="TMax",height=0.2,width=0.4,color="black",URL="$a24318.html#aa0509e5ab7fe874804ba540203210e25",tooltip="Return maximum/limiting temperature. "];
+  Node88 -> Node149 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node149 [label="d",height=0.2,width=0.4,color="black",URL="$a38951.html#aa182a9055736468dd160f12649a01fd1"];
+  Node88 -> Node104 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node88 -> Node150 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node150 [label="Pr",height=0.2,width=0.4,color="black",URL="$a39152.html#a1db7a9e58e450e6ddc830a30f0674a02"];
+  Node88 -> Node151 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node151 [label="Foam::Re",height=0.2,width=0.4,color="red",URL="$a21124.html#affa366970bcbe0f7ccf7c85557a3e12b"];
+  Node88 -> Node90 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node88 -> Node148 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node88 -> Node147 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node88 -> Node154 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node154 [label="~LiquidEvaporationBoil",height=0.2,width=0.4,color="black",URL="$a24318.html#a3d4ee5bf6b8dcd3180e6950a7a7c897f",tooltip="Destructor. "];
+  Node154 -> Node89 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,14 @@
+digraph "d2dt2"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2020 [label="d2dt2",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2020 -> Node2021 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2021 [label="Foam::DimensionedField\l::mesh",height=0.2,width=0.4,color="black",URL="$a26390.html#a8f1110830348a1448a14ab5e3cf47e3b",tooltip="Return mesh. "];
+  Node2020 -> Node2022 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2022 [label="Foam::IOobject::name",height=0.2,width=0.4,color="black",URL="$a26142.html#acc80e00a8ac919288fb55bd14cc88bf6",tooltip="Return name. "];
+  Node2020 -> Node2023 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2023 [label="Foam::fv::d2dt2Scheme::New",height=0.2,width=0.4,color="red",URL="$a22454.html#a60670b82e2875dd4e0c98fa8d4198272",tooltip="Return a pointer to a new d2dt2Scheme created on freestore. "];
+}

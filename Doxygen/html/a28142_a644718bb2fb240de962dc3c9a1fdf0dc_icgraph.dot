@@ -1,0 +1,14 @@
+digraph "empty"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node20 [label="empty",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node20 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21 [label="Foam::labelRanges::add",height=0.2,width=0.4,color="black",URL="$a28154.html#a2a9b5231256cea35a9d3851f2d1bb9fc",tooltip="Add the range to the list. "];
+  Node20 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22 [label="Foam::labelRange::less\l::operator()",height=0.2,width=0.4,color="black",URL="$a28146.html#ac344b0e40533f879d3f038d772980a2a"];
+  Node20 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23 [label="Foam::labelRanges::\lremove",height=0.2,width=0.4,color="black",URL="$a28154.html#a713ced0be5e5ce1895a1e90110661c4a",tooltip="Remove the range from the list. "];
+}

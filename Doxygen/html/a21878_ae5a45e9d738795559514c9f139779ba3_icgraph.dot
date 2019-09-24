@@ -1,0 +1,16 @@
+digraph "write"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node62 [label="write",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node62 -> Node63 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node63 [label="Foam::vtkSetWriter\l::write",height=0.2,width=0.4,color="red",URL="$a21874.html#ae25e717f0b4f16f583638020a1a090ec",tooltip="General entry point for writing. "];
+  Node62 -> Node66 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node66 [label="Foam::writer\< Foam\l::SphericalTensor \>\l::write",height=0.2,width=0.4,color="black",URL="$a21878.html#a7c4c2a453afa033743768a6a0f7b6f72",tooltip="General entry point for writing. "];
+  Node62 -> Node67 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node67 [label="Foam::writer\< Foam\l::SphericalTensor \>\l::writeSeparator",height=0.2,width=0.4,color="black",URL="$a21878.html#a6bfc2c80cd2a287044b53f2ec1b2c80b",tooltip="Writes a separator. Used by write functions. "];
+  Node62 -> Node68 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node68 [label="Foam::writer\< Foam\l::SphericalTensor \>\l::~writer",height=0.2,width=0.4,color="black",URL="$a21878.html#a2e0de285f1a0cb791773dcfbd44bba0b",tooltip="Destructor. "];
+}

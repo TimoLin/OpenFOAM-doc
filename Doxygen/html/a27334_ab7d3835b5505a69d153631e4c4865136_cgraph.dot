@@ -1,0 +1,29 @@
+digraph "sharedPoints"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1300 [label="sharedPoints",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1300 -> Node1301 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1301 [label="Foam::UPstream::firstSlave",height=0.2,width=0.4,color="black",URL="$a26270.html#acf61876860b10a79aff95e52dd0c533f",tooltip="Process index of first slave. "];
+  Node1300 -> Node1302 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1302 [label="Foam::UPstream::lastSlave",height=0.2,width=0.4,color="red",URL="$a26270.html#a6ba6de79b96f3b7f2d987b2b657f47e1",tooltip="Process index of last slave. "];
+  Node1300 -> Node1307 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1307 [label="Foam::UPstream::master",height=0.2,width=0.4,color="black",URL="$a26270.html#a36af549940a0aae3733774649594489f",tooltip="Am I the master process. "];
+  Node1307 -> Node1308 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1308 [label="Foam::UPstream::masterNo",height=0.2,width=0.4,color="black",URL="$a26270.html#a30260fa445b5e3e14a9042269664adde",tooltip="Process index of the master. "];
+  Node1300 -> Node1308 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1300 -> Node1309 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1309 [label="nGlobalPoints",height=0.2,width=0.4,color="black",URL="$a27334.html#a4f31040418dad56bff9ad0ed9dbf5db7",tooltip="Return number of globally shared points. "];
+  Node1300 -> Node1310 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1310 [label="pointLabels",height=0.2,width=0.4,color="black",URL="$a17900.html#aafc97bd3a6facab0b236019a6f5210ce"];
+  Node1300 -> Node1311 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1311 [label="Foam::polyMesh::points",height=0.2,width=0.4,color="red",URL="$a27410.html#ac44123fc1265297c41a43c3b62fdb4c2",tooltip="Return raw points. "];
+  Node1300 -> Node1355 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1355 [label="sharedPointAddr",height=0.2,width=0.4,color="black",URL="$a27334.html#a0dc2a71943c873f0761413d42cf39255",tooltip="Return addressing into the complete globally shared points. "];
+  Node1300 -> Node1356 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1356 [label="sharedPointLabels",height=0.2,width=0.4,color="black",URL="$a27334.html#a7ea06a0f94bf7c119a76af3be79bfec2",tooltip="Return indices of local points that are globally shared. "];
+  Node1300 -> Node1304 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1304 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+}

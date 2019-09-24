@@ -1,0 +1,12 @@
+digraph "calcFit"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node22 [label="calcFit",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node22 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23 [label="Foam::FitData\< CentredFit\lSnGradData\< Polynomial\l \>, extendedCentredCellToFaceStencil,\l Polynomial \>::findFaceDirs",height=0.2,width=0.4,color="black",URL="$a23170.html#afea6c3ae5bba0eddf3f321b3c56ecfba",tooltip="Find the normal direction (i) and j and k directions for face faci. "];
+  Node22 -> Node24 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node24 [label="Foam::FitData\< CentredFit\lSnGradData\< Polynomial\l \>, extendedCentredCellToFaceStencil,\l Polynomial \>::linearCorrection",height=0.2,width=0.4,color="black",URL="$a23170.html#aadadac2486cd4678aa6d4d67a69510f8"];
+}

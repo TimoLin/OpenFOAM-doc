@@ -1,0 +1,24 @@
+digraph "Ct2"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node396 [label="Ct2",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node396 -> Node397 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node397 [label="beta",height=0.2,width=0.4,color="black",URL="$a39152.html#a8c8c91fc032b25dcc9e3d971fac17272"];
+  Node396 -> Node398 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node398 [label="Foam::twoPhaseSystem\l::drag",height=0.2,width=0.4,color="black",URL="$a32386.html#acf64aff7136c575353488f9f6d926062",tooltip="Return the drag model for the supplied phase. "];
+  Node396 -> Node399 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node399 [label="Foam::exp",height=0.2,width=0.4,color="black",URL="$a21124.html#a12bca6c677fcf0977532179c3cb9bb89"];
+  Node396 -> Node400 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node400 [label="Foam::dragModel::K",height=0.2,width=0.4,color="black",URL="$a32006.html#a7dd95bf8813a9cae5ae8692d2a640fca",tooltip="the dragfunction K used in the momentum eq. "];
+  Node396 -> Node401 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node401 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node396 -> Node402 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node402 [label="Foam::twoPhaseSystem\l::otherPhase",height=0.2,width=0.4,color="black",URL="$a32386.html#a21dba21eddc0728483db4760c08b11c6",tooltip="Return the phase not given as an argument. "];
+  Node396 -> Node403 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node403 [label="Foam::sqr",height=0.2,width=0.4,color="red",URL="$a21124.html#a277dc11c581d53826ab5090b08f3b17b"];
+  Node396 -> Node407 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node407 [label="Foam::sqrt",height=0.2,width=0.4,color="red",URL="$a21124.html#a8616bd62eebf2342a80222fecb1bda71"];
+}

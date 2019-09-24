@@ -1,0 +1,14 @@
+digraph "write"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node409 [label="write",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node409 -> Node410 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node410 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node409 -> Node453 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node453 [label="Foam::IOstream::format",height=0.2,width=0.4,color="black",URL="$a26226.html#a33bbef3587114a06f7bdc0b91ba57ed9",tooltip="Return current stream format. "];
+  Node409 -> Node454 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node454 [label="Foam::IOstream::setState",height=0.2,width=0.4,color="black",URL="$a26226.html#a51188247e01c19b4d92ee8c9f3774b8e",tooltip="Set stream state. "];
+}

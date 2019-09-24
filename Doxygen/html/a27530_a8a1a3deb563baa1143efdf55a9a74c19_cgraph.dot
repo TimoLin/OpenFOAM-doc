@@ -1,0 +1,12 @@
+digraph "~primitiveMesh"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4 [label="~primitiveMesh",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="calcPointOrder",height=0.2,width=0.4,color="red",URL="$a27530.html#a156c0fd56f1beafef1b3e451cbc7cfa1",tooltip="Helper function to calculate point ordering. Returns true. "];
+  Node4 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12 [label="clearOut",height=0.2,width=0.4,color="red",URL="$a27530.html#af320697688df08f1438d37a86bcaf25d",tooltip="Clear all geometry and addressing unnecessary for CFD. "];
+}

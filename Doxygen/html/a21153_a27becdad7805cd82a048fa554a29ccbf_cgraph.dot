@@ -1,0 +1,18 @@
+digraph "otherCell"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2060 [label="otherCell",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2060 -> Node2061 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2061 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node2060 -> Node2104 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2104 [label="Foam::primitiveMesh\l::faceNeighbour",height=0.2,width=0.4,color="black",URL="$a27530.html#acd9489a2ac1ec02451fef1f415386694",tooltip="Face face-neighbour addressing. "];
+  Node2060 -> Node2105 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2105 [label="Foam::primitiveMesh\l::faceOwner",height=0.2,width=0.4,color="black",URL="$a27530.html#a95a88187f795e30779aa3bac679d9bfc",tooltip="Face face-owner addresing. "];
+  Node2060 -> Node2106 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2106 [label="Foam::primitiveMesh\l::isInternalFace",height=0.2,width=0.4,color="red",URL="$a27530.html#ae3e48ad9ec4c5132ec7d3d702ad17c9e",tooltip="Return true if given face label is internal to the mesh. "];
+  Node2060 -> Node2108 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2108 [label="walkFace",height=0.2,width=0.4,color="red",URL="$a21153.html#a7a612dbf101c056ee4e4f2a0f812c278",tooltip="Returns label of edge nEdges away from startEdge (in the direction. "];
+}

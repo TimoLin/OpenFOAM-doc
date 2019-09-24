@@ -1,0 +1,12 @@
+digraph "faces"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node57 [label="faces",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node57 -> Node58 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node58 [label="collapsedFaces",height=0.2,width=0.4,color="red",URL="$a27206.html#aee6f55767562b112afa7d2d78d37e22d",tooltip="Collapsed faces of this cell. "];
+  Node57 -> Node60 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node60 [label="meshFaces",height=0.2,width=0.4,color="red",URL="$a27206.html#a3d200b633b6afc3aa7f34b693b4ff573",tooltip="Mesh face labels of this cell (in order of model) "];
+}

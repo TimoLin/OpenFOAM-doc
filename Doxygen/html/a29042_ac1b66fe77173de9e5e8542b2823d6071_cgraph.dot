@@ -1,0 +1,38 @@
+digraph "info"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4877 [label="info",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4877 -> Node4878 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4878 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node4877 -> Node4880 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4880 [label="Foam::gMax",height=0.2,width=0.4,color="black",URL="$a21124.html#ae8d631fb8e841947408bb711abfb1e67"];
+  Node4877 -> Node4881 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4881 [label="Foam::gMin",height=0.2,width=0.4,color="black",URL="$a21124.html#aca330ee6cfe7d602300dbc5905f8c9f6"];
+  Node4877 -> Node4882 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4882 [label="Foam::gSum",height=0.2,width=0.4,color="black",URL="$a21124.html#a11b1ebb4c53ad062332767d75ca96328"];
+  Node4877 -> Node4883 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4883 [label="Foam::indent",height=0.2,width=0.4,color="red",URL="$a21124.html#ae297c57ea5b952a8bc9e4f30f7ea8701",tooltip="Indent stream. "];
+  Node4877 -> Node4885 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4885 [label="Foam::regionModels\l::surfaceFilmModels\l::injectionModelList::info",height=0.2,width=0.4,color="red",URL="$a29106.html#a535c2aef67becff77ed292ab0eceb44c",tooltip="Provide some info. "];
+  Node4885 -> Node4878 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4885 -> Node4883 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4885 -> Node4962 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4962 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node4877 -> Node4982 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4982 [label="Foam::GeometricField\l::internalField",height=0.2,width=0.4,color="black",URL="$a22434.html#a9536140d36d69bbac40496f6b817aa0a",tooltip="Return internal field. "];
+  Node4877 -> Node4962 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4877 -> Node4983 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4983 [label="Foam::regionModels\l::singleLayerRegion\l::magSf",height=0.2,width=0.4,color="red",URL="$a29018.html#a731a7fa3f5bd4f856355b52d64f38d1a",tooltip="Return the face area magnitudes / [m2]. "];
+  Node4877 -> Node4984 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4984 [label="Foam::regionModels\l::regionModel::outputProperties",height=0.2,width=0.4,color="red",URL="$a28998.html#adec676154bcf91a502be115e6bf5137c",tooltip="Return const access to the output properties dictionary. "];
+  Node4877 -> Node4888 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4888 [label="Foam::dictionary::readIf\lPresent",height=0.2,width=0.4,color="red",URL="$a26014.html#ad4bd008e6ee208313f2c3a963ee1170d",tooltip="Find an entry if present, and assign to T. "];
+  Node4888 -> Node4878 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4877 -> Node4938 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4938 [label="Foam::returnReduce",height=0.2,width=0.4,color="red",URL="$a21124.html#a8d528a67d2a9c6fe4fb94bc86872624b"];
+  Node4877 -> Node4985 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4985 [label="Foam::type",height=0.2,width=0.4,color="red",URL="$a21124.html#aec48583af672626378f501eb9fc32cd1",tooltip="Return the file type: DIRECTORY or FILE. "];
+}

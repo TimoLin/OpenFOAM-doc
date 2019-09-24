@@ -1,0 +1,16 @@
+digraph "curvatureSeparation"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4 [label="curvatureSeparation",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="injectionModel",height=0.2,width=0.4,color="red",URL="$a29102.html",tooltip="Base class for film injection models, handling mass transfer from the film. "];
+  Node82 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" gradNHat_" ,fontname="FreeSans"];
+  Node82 [label="GeometricField\< tensor,\l fvPatchField, volMesh \>",height=0.2,width=0.4,color="red",URL="$a22434.html"];
+  Node91 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" definedPatchRadii_" ,fontname="FreeSans"];
+  Node91 [label="List\< Foam::Tuple2\l\< label, scalar \> \>",height=0.2,width=0.4,color="red",URL="$a25694.html"];
+  Node93 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" gHat_" ,fontname="FreeSans"];
+  Node93 [label="Vector\< scalar \>",height=0.2,width=0.4,color="red",URL="$a28442.html"];
+}

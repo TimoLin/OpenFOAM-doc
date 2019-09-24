@@ -1,0 +1,23 @@
+digraph "src/finiteVolume/fvMesh/fvPatches/basic/coupled/coupledFvPatch.H"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node163 [label="src/finiteVolume/fvMesh\l/fvPatches/basic/coupled\l/coupledFvPatch.H",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node163 -> Node164 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node164 [label="src/finiteVolume/fields\l/fvPatchFields/basic/coupled\l/coupledFvPatchField.H",height=0.2,width=0.4,color="red",URL="$a01433.html"];
+  Node163 -> Node246 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node246 [label="src/finiteVolume/fields\l/fvsPatchFields/basic\l/coupled/coupledFvsPatchField.H",height=0.2,width=0.4,color="red",URL="$a02501.html"];
+  Node163 -> Node278 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node278 [label="src/finiteVolume/fvMesh\l/fvPatches/basic/coupled\l/coupledFvPatch.C",height=0.2,width=0.4,color="black",URL="$a03569.html"];
+  Node163 -> Node279 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node279 [label="src/finiteVolume/fvMesh\l/fvPatches/constraint\l/cyclic/cyclicFvPatch.H",height=0.2,width=0.4,color="red",URL="$a03584.html"];
+  Node163 -> Node287 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node287 [label="src/finiteVolume/fvMesh\l/fvPatches/constraint\l/cyclicACMI/cyclicACMIFvPatch.H",height=0.2,width=0.4,color="red",URL="$a03590.html"];
+  Node163 -> Node289 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node289 [label="src/finiteVolume/fvMesh\l/fvPatches/constraint\l/cyclicAMI/cyclicAMIFvPatch.H",height=0.2,width=0.4,color="red",URL="$a03596.html"];
+  Node163 -> Node292 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node292 [label="src/finiteVolume/fvMesh\l/fvPatches/constraint\l/processor/processorFvPatch.H",height=0.2,width=0.4,color="red",URL="$a03620.html"];
+  Node163 -> Node297 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node297 [label="src/finiteVolume/interpolation\l/surfaceInterpolation/surfaceInterpolation\l/surfaceInterpolation.C",height=0.2,width=0.4,color="black",URL="$a04310.html",tooltip="Cell to face interpolation scheme. Included in fvMesh. "];
+}

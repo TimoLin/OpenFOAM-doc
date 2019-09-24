@@ -1,0 +1,12 @@
+digraph "gamma"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node53 [label="gamma",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node53 -> Node54 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node54 [label="Foam::heThermo\< BasicSolid\lThermo, MixtureType \>::Cv",height=0.2,width=0.4,color="black",URL="$a29762.html#ae9f240d1fdcd382115a0bb96bd18da5c",tooltip="Heat capacity at constant volume [J/kg/K]. "];
+  Node53 -> Node55 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node55 [label="Foam::heThermo\< BasicSolid\lThermo, MixtureType \>::he",height=0.2,width=0.4,color="black",URL="$a29762.html#a51e4b78e8fa1d1a773486d834cb2be8e",tooltip="Enthalpy/Internal energy [J/kg]. "];
+}

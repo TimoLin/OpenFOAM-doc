@@ -1,0 +1,22 @@
+digraph "nMaxVertPerFace"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node322 [label="nMaxVertPerFace",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node322 -> Node323 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node323 [label="faceHashValue",height=0.2,width=0.4,color="black",URL="$a27194.html#a67b1097ff99018fcd2c7843ecdfcdbde",tooltip="Hash value of all face sizes of this shape. Can be used for. "];
+  Node323 -> Node324 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node324 [label="faceSizeMatch",height=0.2,width=0.4,color="red",URL="$a27194.html#a003c9de305b3558bc1aaa1492dbba3a3",tooltip="Check whether number of face sizes match the shape. "];
+  Node322 -> Node324 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node322 -> Node326 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node326 [label="isA",height=0.2,width=0.4,color="red",URL="$a27194.html#acd2adf1fc5f522ebdfcfdad416351c14",tooltip="Exact match. Uses faceSizeMatch. "];
+  Node326 -> Node327 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node327 [label="matchShape",height=0.2,width=0.4,color="red",URL="$a27194.html#a1f0feccca7c36016d7745d9f9d196b6d",tooltip="Low level shape recognition. Return true if matches. "];
+  Node327 -> Node324 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node322 -> Node640 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node640 [label="matches",height=0.2,width=0.4,color="red",URL="$a27194.html#aaf80614ee28c6bfadb117557442c1bed",tooltip="Like isA but also constructs a cellShape (if shape matches) "];
+  Node640 -> Node327 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node322 -> Node327 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

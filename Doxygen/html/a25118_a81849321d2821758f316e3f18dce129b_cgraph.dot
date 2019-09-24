@@ -1,0 +1,36 @@
+digraph "decompMode"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node220 [label="decompMode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node220 -> Node221 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node221 [label="boundaryTree",height=0.2,width=0.4,color="red",URL="$a25118.html#a388fb4d39f97b837f32ecf4ac809a4d3",tooltip="Get (demand driven) reference to octree holding all. "];
+  Node220 -> Node234 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node234 [label="cellTree",height=0.2,width=0.4,color="red",URL="$a25118.html#ac6c5bd053e8332171655f8ef67dbe917",tooltip="Get (demand driven) reference to octree holding all cells. "];
+  Node234 -> Node235 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node235 [label="findNearestCell",height=0.2,width=0.4,color="black",URL="$a25118.html#a6a2a951a7fd9cffdb2a139e0d33ca0cd",tooltip="Find nearest cell in terms of cell centre. "];
+  Node235 -> Node236 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node236 [label="findNearestFace",height=0.2,width=0.4,color="black",URL="$a25118.html#a9455bf4347774a4f5989a99640a0d61e"];
+  Node236 -> Node237 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node237 [label="findCell",height=0.2,width=0.4,color="black",URL="$a25118.html#a9783cdd4d986e1f0571d096acac89d57",tooltip="Find cell containing location. "];
+  Node237 -> Node238 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node238 [label="findNearestBoundaryFace",height=0.2,width=0.4,color="red",URL="$a25118.html#a142f534ff97796d704d77aee66ce5279",tooltip="Find nearest boundary face. "];
+  Node238 -> Node264 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node264 [label="intersection",height=0.2,width=0.4,color="red",URL="$a25118.html#a3545d06adf8ef8a3a836f3943138cd41",tooltip="Find first intersection of boundary in segment [pStart, pEnd]. "];
+  Node264 -> Node266 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node266 [label="intersections",height=0.2,width=0.4,color="red",URL="$a25118.html#a65e0e8fe8652ef5a550714155f183668",tooltip="Find all intersections of boundary within segment pStart .. pEnd. "];
+  Node220 -> Node315 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node315 [label="clearOut",height=0.2,width=0.4,color="black",URL="$a25118.html#af320697688df08f1438d37a86bcaf25d",tooltip="delete all storage "];
+  Node220 -> Node316 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node316 [label="correct",height=0.2,width=0.4,color="black",URL="$a25118.html#a3ae44b28050c3aa494c1d8e18cf618c1",tooltip="Correct for mesh geom/topo changes. "];
+  Node220 -> Node237 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node220 -> Node238 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node220 -> Node235 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node220 -> Node236 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node220 -> Node264 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node220 -> Node266 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node220 -> Node317 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node317 [label="isInside",height=0.2,width=0.4,color="black",URL="$a25118.html#a60ca4cb3032fb7a121b68e9f162da28e",tooltip="Determine inside/outside status. "];
+}

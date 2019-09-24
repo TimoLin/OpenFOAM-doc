@@ -1,0 +1,29 @@
+digraph "clone"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node17 [label="clone",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node17 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 [label="New",height=0.2,width=0.4,color="red",URL="$a23970.html#af25787013bf40a9493b9fbec6e610254",tooltip="Selector. "];
+  Node17 -> Node66 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node66 [label="outputDir",height=0.2,width=0.4,color="black",URL="$a23970.html#a892e7909e1304d4dffa7b1fc95dd9e82",tooltip="Return the output path. "];
+  Node17 -> Node67 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node67 [label="outputTimeDir",height=0.2,width=0.4,color="red",URL="$a23970.html#a0b9943fddddfd53c60faf94761fe431e",tooltip="Return the output time path. "];
+  Node17 -> Node71 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node71 [label="postEvolve",height=0.2,width=0.4,color="red",URL="$a23970.html#a0bf23f36eb3424966e359419a566eb0a",tooltip="Post-evolve hook. "];
+  Node71 -> Node73 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node73 [label="postMove",height=0.2,width=0.4,color="black",URL="$a23970.html#a1f4d7944e1528833539972e8c26eb3d8",tooltip="Post-move hook. "];
+  Node73 -> Node74 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node74 [label="postPatch",height=0.2,width=0.4,color="black",URL="$a23970.html#ad462aa91e411226ac26247aa37fc4a36",tooltip="Post-patch hook. "];
+  Node74 -> Node75 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node75 [label="postFace",height=0.2,width=0.4,color="black",URL="$a23970.html#a262a0f4a32337cb32391e28609ebf297",tooltip="Post-face hook. "];
+  Node17 -> Node75 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17 -> Node73 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17 -> Node74 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17 -> Node76 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node76 [label="preEvolve",height=0.2,width=0.4,color="black",URL="$a23970.html#acc0c9e165d2cf19698ab1a7672a29ab6",tooltip="Pre-evolve hook. "];
+  Node17 -> Node77 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node77 [label="~CloudFunctionObject",height=0.2,width=0.4,color="black",URL="$a23970.html#a86acea5b5954422ed75a09e7a0927ae1",tooltip="Destructor. "];
+}

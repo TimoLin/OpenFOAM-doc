@@ -1,0 +1,15 @@
+digraph "optimisationSwitches"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2314 [label="optimisationSwitches",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2314 -> Node2315 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2315 [label="Foam::NamedEnum\< direction\lType, 3 \>::names",height=0.2,width=0.4,color="black",URL="$a25998.html#a7350da3a0edd92cd11e6c479c9967dc8"];
+  Node2314 -> Node2316 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2316 [label="optimisationSwitch",height=0.2,width=0.4,color="red",URL="$a21163.html#a941b7b97be4a01c2b9ea971db69f36cf",tooltip="Lookup optimisation switch or add default value. "];
+  Node2316 -> Node2317 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2317 [label="Foam::UPstream::procNo",height=0.2,width=0.4,color="black",URL="$a26270.html#a72945ee17b0501f700a4931b599cde3e",tooltip="Return processor number in communicator (given processor number. "];
+  Node2314 -> Node2317 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

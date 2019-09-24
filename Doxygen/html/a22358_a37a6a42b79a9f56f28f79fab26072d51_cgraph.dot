@@ -1,0 +1,25 @@
+digraph "H1"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node5464 [label="H1",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node5464 -> Node5465 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5465 [label="addToInternalField",height=0.2,width=0.4,color="red",URL="$a22358.html#a0f132acacbe8eae0783f79f7f83d4a7f",tooltip="Add patch contribution to internal field. "];
+  Node5465 -> Node5509 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5509 [label="Foam::List\< Type \>\l::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node5464 -> Node5511 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5511 [label="Foam::component",height=0.2,width=0.4,color="red",URL="$a21124.html#a38788135ad21a6daaf3af2a761b33508"];
+  Node5464 -> Node5513 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5513 [label="Foam::fvPatchField\l::coupled",height=0.2,width=0.4,color="black",URL="$a22354.html#a39c01db0e66d00fe0621a0c7e5fc4ead",tooltip="Return true if this patch field is coupled. "];
+  Node5464 -> Node5514 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5514 [label="flux",height=0.2,width=0.4,color="red",URL="$a22358.html#a08a0042554e1fad1421e103a8edfc3f4",tooltip="Return the face-flux field from the matrix. "];
+  Node5464 -> Node5520 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5520 [label="Foam::lduMatrix::H1",height=0.2,width=0.4,color="red",URL="$a26882.html#a090039c15b52321e7a7a6a90c0a29bbe"];
+  Node5520 -> Node5521 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5521 [label="Foam::lduMatrix::lduAddr",height=0.2,width=0.4,color="red",URL="$a26882.html#a9b4176b96c4c508a072b5c69fb71b861",tooltip="Return the LDU addressing. "];
+  Node5520 -> Node5509 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5464 -> Node5521 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5464 -> Node5509 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

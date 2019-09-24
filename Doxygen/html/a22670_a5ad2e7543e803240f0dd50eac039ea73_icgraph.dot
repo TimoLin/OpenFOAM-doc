@@ -1,0 +1,14 @@
+digraph "collectData"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node94 [label="collectData",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node94 -> Node95 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node95 [label="Foam::extendedCentredCell\lToFaceStencil::collectData",height=0.2,width=0.4,color="red",URL="$a22674.html#ab00d7f17ec3e649fcb4d3a317102aa24",tooltip="Use map to get the data into stencil order. "];
+  Node94 -> Node106 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node106 [label="Foam::extendedCentredCell\lToCellStencil::collectData",height=0.2,width=0.4,color="red",URL="$a22634.html#aeb99ab86ad7ce7ba05ced96c2f1c03c7",tooltip="Use map to get the data into stencil order. "];
+  Node94 -> Node110 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node110 [label="Foam::extendedUpwindCell\lToFaceStencil::extendedUpwind\lCellToFaceStencil",height=0.2,width=0.4,color="black",URL="$a22678.html#ad67ed491462f15bb971c7700bfa99a5f",tooltip="Construct from mesh and uncompacted centred face stencil. "];
+}

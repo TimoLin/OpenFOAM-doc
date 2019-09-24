@@ -1,0 +1,18 @@
+digraph "write"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node294 [label="write",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node294 -> Node295 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node295 [label="Foam::IOstream::check",height=0.2,width=0.4,color="red",URL="$a26226.html#a367eb3425fc4e8270e2aa961df8ac8a5",tooltip="Check IOstream status for given operation. "];
+  Node295 -> Node297 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node297 [label="Foam::exit",height=0.2,width=0.4,color="red",URL="$a21124.html#a06ca7250d8e89caf05243ec094843642"];
+  Node295 -> Node343 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node343 [label="Foam::IOstream::name",height=0.2,width=0.4,color="black",URL="$a26226.html#a41b2d01e5fd6e1bc71a895d8b8a86308",tooltip="Return the name of the stream. "];
+  Node294 -> Node297 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node294 -> Node333 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node333 [label="Foam::IOstream::good",height=0.2,width=0.4,color="black",URL="$a26226.html#abdcc7f96f487faadc7769afcf58fe992",tooltip="Return true if next operation might succeed. "];
+  Node294 -> Node343 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

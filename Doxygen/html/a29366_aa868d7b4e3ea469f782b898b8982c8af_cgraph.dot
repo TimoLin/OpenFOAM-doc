@@ -1,0 +1,16 @@
+digraph "faces"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node894 [label="faces",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node894 -> Node895 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node895 [label="Foam::MeshedSurface\l\< face \>::faces",height=0.2,width=0.4,color="black",URL="$a29566.html#a16c6d36f7c961d037a44e5c235d9aa15",tooltip="Return const access to the faces. "];
+  Node894 -> Node896 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node896 [label="Foam::sampledSurface\l::interpolate",height=0.2,width=0.4,color="red",URL="$a29378.html#acb5e25bbcf94f482a6b194cfbde024fb",tooltip="interpolation requested for surface "];
+  Node894 -> Node929 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node929 [label="print",height=0.2,width=0.4,color="red",URL="$a29366.html#aa61247f481294e0822e293753513bd29",tooltip="Write. "];
+  Node894 -> Node934 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node934 [label="sample",height=0.2,width=0.4,color="black",URL="$a29366.html#a91509d55a51a19994e76119c24ed1d47",tooltip="Sample field on surface. "];
+}

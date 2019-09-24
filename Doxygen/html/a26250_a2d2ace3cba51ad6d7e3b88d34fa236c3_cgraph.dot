@@ -1,0 +1,31 @@
+digraph "exchange"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4768 [label="exchange",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4768 -> Node4769 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4769 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node4768 -> Node4812 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4812 [label="Foam::combineReduce",height=0.2,width=0.4,color="red",URL="$a21124.html#af09dedba9f523ce6a02baaa029393764"];
+  Node4768 -> Node4816 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4816 [label="Foam::UPstream::myProcNo",height=0.2,width=0.4,color="black",URL="$a26270.html#afc74d89573de32a3032c916f8cdd1733",tooltip="Number of this process (starting from masterNo() = 0) "];
+  Node4768 -> Node4817 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4817 [label="Foam::UPstream::nProcs",height=0.2,width=0.4,color="black",URL="$a26270.html#aada0e04d8127eda8ee95be0772754a4f",tooltip="Number of processes in parallel run. "];
+  Node4817 -> Node4818 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4818 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node4768 -> Node4827 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4827 [label="Foam::UPstream::nRequests",height=0.2,width=0.4,color="black",URL="$a26270.html#a85d3ef750354c4fb119608680f4e857f",tooltip="Get number of outstanding requests. "];
+  Node4768 -> Node4819 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4819 [label="Foam::UIPstream::read",height=0.2,width=0.4,color="black",URL="$a26258.html#a732980587e5b9c409ae433d73ca8698e",tooltip="Read into given buffer from given processor and return the. "];
+  Node4768 -> Node4828 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4828 [label="Foam::List::setSize",height=0.2,width=0.4,color="black",URL="$a25694.html#aedb985ffeaf1bdbfeccc2a8730405703",tooltip="Reset size of List. "];
+  Node4768 -> Node4818 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4768 -> Node4820 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4820 [label="Foam::T",height=0.2,width=0.4,color="red",URL="$a21124.html#ae57fda0abb14bb0944947c463c6e09d4"];
+  Node4768 -> Node4829 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4829 [label="Foam::UPstream::waitRequests",height=0.2,width=0.4,color="black",URL="$a26270.html#abed3ff74e2b43482349dd8be25901d3e",tooltip="Wait until all requests (from start onwards) have finished. "];
+  Node4768 -> Node4825 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4825 [label="Foam::UOPstream::write",height=0.2,width=0.4,color="black",URL="$a26262.html#a0efefd773fa79fc3b687978f9e1ee9ba",tooltip="Write given buffer to given processor. "];
+}

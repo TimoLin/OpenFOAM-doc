@@ -1,0 +1,15 @@
+digraph "getRegion"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node519 [label="getRegion",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node519 -> Node520 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node520 [label="getNormal",height=0.2,width=0.4,color="red",URL="$a25254.html#a2ebf98ae4f41351b6ac7c8a77fdbbb69",tooltip="From a set of points and indices get the normal. "];
+  Node520 -> Node521 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node521 [label="surface",height=0.2,width=0.4,color="black",URL="$a25254.html#a98530557a54cd0deaf0f9b36a57ab181"];
+  Node519 -> Node528 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node528 [label="Foam::searchableSurface\l::getRegion",height=0.2,width=0.4,color="black",URL="$a25234.html#a08a437fdcf019de7941dbee87d35a56e",tooltip="From a set of points and indices get the region. "];
+  Node519 -> Node521 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

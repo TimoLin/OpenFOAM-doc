@@ -1,0 +1,12 @@
+digraph "optimisationSwitch"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2467 [label="optimisationSwitch",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2467 -> Node2468 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2468 [label="Foam::dictionary::lookup\lOrAddDefault",height=0.2,width=0.4,color="red",URL="$a26014.html#aadafaae6847668979f5ce540f62d6e62",tooltip="Find and return a T, if not found return the given. "];
+  Node2467 -> Node2474 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2474 [label="optimisationSwitches",height=0.2,width=0.4,color="red",URL="$a21163.html#a620a08d8265bd23ada1f1f0a575c721b",tooltip="The OptimisationSwitches sub-dictionary in the central controlDict. "];
+}

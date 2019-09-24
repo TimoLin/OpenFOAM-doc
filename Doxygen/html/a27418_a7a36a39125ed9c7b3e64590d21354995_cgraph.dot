@@ -1,0 +1,28 @@
+digraph "findBasePoint"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node222 [label="findBasePoint",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node222 -> Node223 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node223 [label="Foam::primitiveMesh\l::cellCentres",height=0.2,width=0.4,color="red",URL="$a27530.html#a7300aee2989c6ec70e39436816461902"];
+  Node222 -> Node278 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node278 [label="f",height=0.2,width=0.4,color="black",URL="$a17900.html#a888be93833ac7a23170555c69c690288"];
+  Node222 -> Node284 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node284 [label="Foam::polyMesh::faceOwner",height=0.2,width=0.4,color="black",URL="$a27410.html#a57752b49bfee23ca1944c3fb0493974f",tooltip="Return face owner. "];
+  Node222 -> Node285 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node285 [label="Foam::polyMesh::faces",height=0.2,width=0.4,color="red",URL="$a27410.html#a431c0a24765f0bb6d32f6a03ce0e9b57",tooltip="Return raw faces. "];
+  Node222 -> Node286 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node286 [label="findFaceBasePts",height=0.2,width=0.4,color="red",URL="$a27418.html#a3336759b0c761efa929d4adf95831754",tooltip="Find a suitable base point for each face for decomposition. "];
+  Node286 -> Node284 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node286 -> Node223 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node286 -> Node285 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node286 -> Node280 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node280 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node222 -> Node293 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node293 [label="Foam::polyMesh::points",height=0.2,width=0.4,color="red",URL="$a27410.html#ac44123fc1265297c41a43c3b62fdb4c2",tooltip="Return raw points. "];
+  Node222 -> Node328 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node328 [label="Foam::tetrahedron::\lquality",height=0.2,width=0.4,color="red",URL="$a27586.html#ae80c3d154fae380e1f49e4c032d8a981",tooltip="Return quality: Ratio of tetrahedron and circum-sphere. "];
+  Node222 -> Node280 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

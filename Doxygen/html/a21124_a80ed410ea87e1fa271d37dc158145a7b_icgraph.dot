@@ -1,0 +1,17 @@
+digraph "writeUnitSetPtr_"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node54110 [label="writeUnitSetPtr_",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node54110 -> Node54111 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node54111 [label="Foam::addDimensionSetsTo\lDebug::readData",height=0.2,width=0.4,color="black",URL="$a26378.html#a27acfcce377f5e7a42aa7545b6601208",tooltip="Read. "];
+  Node54110 -> Node54112 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node54112 [label="unitSet",height=0.2,width=0.4,color="red",URL="$a21124.html#ab291fd4325ded310ef6d2212e126b39e",tooltip="Set of all dimensions. "];
+  Node54112 -> Node54114 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node54114 [label="writeUnitSet",height=0.2,width=0.4,color="red",URL="$a21124.html#aae7ac4176d791b3e835562c8f33b9b3e",tooltip="Set of units. "];
+  Node54110 -> Node54114 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node54110 -> Node54126 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node54126 [label="Foam::addDimensionSetsTo\lDebug::~addDimensionSetsToDebug",height=0.2,width=0.4,color="black",URL="$a26378.html#a063cc2dd4df56987561c7d82197b2841"];
+}

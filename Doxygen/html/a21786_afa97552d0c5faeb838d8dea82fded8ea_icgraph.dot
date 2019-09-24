@@ -1,0 +1,12 @@
+digraph "edgeTreesByType"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node850 [label="edgeTreesByType",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node850 -> Node851 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node851 [label="allNearestFeatureEdges",height=0.2,width=0.4,color="red",URL="$a21786.html#ad565473714b81c35a16d8bf059101ea7",tooltip="Find all the feature edges within searchDistSqr of sample. "];
+  Node850 -> Node853 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node853 [label="nearestFeatureEdgeByType",height=0.2,width=0.4,color="red",URL="$a21786.html#aefc9fd869a5dd0a26f26446eb61784b9",tooltip="Find the nearest point on each type of feature edge. "];
+}

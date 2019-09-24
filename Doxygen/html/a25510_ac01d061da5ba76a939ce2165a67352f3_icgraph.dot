@@ -1,0 +1,14 @@
+digraph "nearestFeatEdge"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2762 [label="nearestFeatEdge",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2762 -> Node2763 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2763 [label="nearestSurfEdge",height=0.2,width=0.4,color="black",URL="$a25510.html#a730a3cbbb390e79cc03a3f3deb361a0d",tooltip="Find nearest surface edge (out of selectedEdges) for each. "];
+  Node2762 -> Node2764 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2764 [label="nInternalEdges",height=0.2,width=0.4,color="red",URL="$a25510.html#ac3a114a989f593d0844725f0e2364537",tooltip="Return number of internal edges. "];
+  Node2762 -> Node2767 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2767 [label="surfaceFeatures",height=0.2,width=0.4,color="black",URL="$a25510.html#ad37c6263cbba065fbffe29e843e18245",tooltip="Construct from pointField and edgeList (edgeMesh) "];
+}

@@ -1,0 +1,24 @@
+digraph "clone"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1155 [label="clone",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1155 -> Node1156 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1156 [label="G",height=0.2,width=0.4,color="red",URL="$a30726.html#ad35ace611250c5f497f21747c0920fec",tooltip="Return non-const access to the master&#39;s G field. "];
+  Node1156 -> Node1156 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1155 -> Node1234 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1234 [label="manipulateMatrix",height=0.2,width=0.4,color="red",URL="$a30726.html#a3f0cafc1e1afd9a71ada8385e3fa343a",tooltip="Manipulate matrix. "];
+  Node1155 -> Node1233 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1233 [label="omega",height=0.2,width=0.4,color="red",URL="$a30726.html#a0a19ade47a22371d23b806d6b945dc4a",tooltip="Return non-const access to the master&#39;s omega field. "];
+  Node1233 -> Node1233 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1155 -> Node1173 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1173 [label="omegaWallFunctionFvPatch\lScalarField",height=0.2,width=0.4,color="red",URL="$a30726.html#a26075cd96383142b2b7e83a130df61b0",tooltip="Construct from patch and internal field. "];
+  Node1155 -> Node1531 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1531 [label="updateCoeffs",height=0.2,width=0.4,color="red",URL="$a30726.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node1531 -> Node1156 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1531 -> Node1233 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1155 -> Node1582 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1582 [label="write",height=0.2,width=0.4,color="red",URL="$a30726.html#a293fdfec8bdfbd5c3913ab4c9f3454ff",tooltip="Write. "];
+}

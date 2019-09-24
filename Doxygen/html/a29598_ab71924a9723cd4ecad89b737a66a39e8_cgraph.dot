@@ -1,0 +1,42 @@
+digraph "write"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node161 [label="write",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node161 -> Node162 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node162 [label="Foam::PrimitivePatch\l\< Face, ::Foam::List,\l pointField, point \>::edges",height=0.2,width=0.4,color="red",URL="$a27538.html#a21d764179912ddda5c6f95193c289846",tooltip="Return list of edges, address into LOCAL point list. "];
+  Node161 -> Node164 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node164 [label="Foam::UList::end",height=0.2,width=0.4,color="black",URL="$a25698.html#acf5102a998ffca93da588563e2af7413",tooltip="Return an iterator to end traversing the UList. "];
+  Node161 -> Node165 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node165 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node161 -> Node167 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node167 [label="Foam::exit",height=0.2,width=0.4,color="red",URL="$a21124.html#a06ca7250d8e89caf05243ec094843642"];
+  Node161 -> Node212 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node212 [label="Foam::PrimitivePatch\l\< Face, ::Foam::List,\l pointField, point \>::\lfaceEdges",height=0.2,width=0.4,color="red",URL="$a27538.html#adbfcf489a527a07c33d684834faace79",tooltip="Return face-edge addressing. "];
+  Node161 -> Node214 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node214 [label="Foam::MeshedSurface\l::faces",height=0.2,width=0.4,color="black",URL="$a29566.html#a16c6d36f7c961d037a44e5c235d9aa15",tooltip="Return const access to the faces. "];
+  Node161 -> Node202 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node202 [label="Foam::IOstream::good",height=0.2,width=0.4,color="black",URL="$a26226.html#abdcc7f96f487faadc7769afcf58fe992",tooltip="Return true if next operation might succeed. "];
+  Node161 -> Node215 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node215 [label="Foam::PrimitivePatch\l\< Face, ::Foam::List,\l pointField, point \>::\lmeshPoints",height=0.2,width=0.4,color="red",URL="$a27538.html#a52e3a457780fe74b31d39dc046bce1d8",tooltip="Return labelList of mesh points in patch. They are constructed. "];
+  Node161 -> Node217 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node217 [label="Foam::PrimitivePatch\l\< Face, ::Foam::List,\l pointField, point \>::\lnEdges",height=0.2,width=0.4,color="red",URL="$a27538.html#a086513bcff1a3f1684e1a3879dd90deb",tooltip="Return number of edges in patch. "];
+  Node217 -> Node162 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node217 -> Node218 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node218 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node161 -> Node219 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node219 [label="Foam::PrimitivePatch\l\< Face, ::Foam::List,\l pointField, point \>::\lpoints",height=0.2,width=0.4,color="black",URL="$a27538.html#aa3c7d968f31c88780c663876f64ef6a6",tooltip="Return reference to global points. "];
+  Node161 -> Node218 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node161 -> Node220 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node220 [label="Foam::MeshedSurface\l::size",height=0.2,width=0.4,color="black",URL="$a29566.html#a9facbf0a118d395c89884e45a5ca4e4b",tooltip="The surface size is the number of faces. "];
+  Node161 -> Node221 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node221 [label="Foam::MeshedSurface\l::surfZones",height=0.2,width=0.4,color="black",URL="$a29566.html#a14a75381fb0e82fa2fdf4b3aff01a96a",tooltip="Const access to the surface zones. "];
+  Node161 -> Node222 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node222 [label="Foam::Vector::x",height=0.2,width=0.4,color="black",URL="$a28442.html#a63327976e5a8359700064a02ae22548e"];
+  Node161 -> Node223 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node223 [label="Foam::Vector::y",height=0.2,width=0.4,color="black",URL="$a28442.html#a1ee865f676fbac703a49c6654dd3ad74"];
+  Node161 -> Node224 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node224 [label="Foam::Vector::z",height=0.2,width=0.4,color="black",URL="$a28442.html#a1c8320b15610de211ec70ef966581423"];
+}

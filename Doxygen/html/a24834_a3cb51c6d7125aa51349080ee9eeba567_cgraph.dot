@@ -1,0 +1,25 @@
+digraph "data"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node132 [label="data",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node132 -> Node133 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node133 [label="edgeToFace",height=0.2,width=0.4,color="red",URL="$a24834.html#a07f8a8889b2251ab012810f2e7f566ef",tooltip="Propagate from edge to face. Returns total number of faces. "];
+  Node133 -> Node196 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node196 [label="iterate",height=0.2,width=0.4,color="red",URL="$a24834.html#a8f898fd0e592fd902741616e1f087497",tooltip="Iterate until no changes or maxIter reached. Returns actual. "];
+  Node132 -> Node197 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node197 [label="faceToEdge",height=0.2,width=0.4,color="red",URL="$a24834.html#ad6a1fc993c3879902693105ef9b059fa",tooltip="Propagate from face to edge. Returns total number of edges. "];
+  Node197 -> Node133 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node132 -> Node198 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node198 [label="getUnsetEdges",height=0.2,width=0.4,color="black",URL="$a24834.html#ad85bd05fcb01cae4b33f535ccdec5826"];
+  Node198 -> Node199 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node199 [label="getUnsetFaces",height=0.2,width=0.4,color="black",URL="$a24834.html#a7954b9f70b2629040f42b91e27358eb2",tooltip="Get number of unvisited faces, i.e. faces that were not (yet) "];
+  Node199 -> Node200 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node200 [label="setEdgeInfo",height=0.2,width=0.4,color="red",URL="$a24834.html#a9f94fe55440c4e0ceb1bf951f62b6ce7",tooltip="Copy initial data into allEdgeInfo_. "];
+  Node200 -> Node197 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node132 -> Node199 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node132 -> Node196 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node132 -> Node200 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

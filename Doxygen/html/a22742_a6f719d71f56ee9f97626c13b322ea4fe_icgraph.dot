@@ -1,0 +1,15 @@
+digraph "map"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4 [label="map",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="collectData",height=0.2,width=0.4,color="red",URL="$a22742.html#a5f920bc48d308d18299070816443ed28",tooltip="Use map to get the data into stencil order. "];
+  Node4 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="compact",height=0.2,width=0.4,color="red",URL="$a22742.html#a043cdfc194924194e381a986c229569e",tooltip="After removing elements from the stencil adapt the schedule (map). "];
+  Node4 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="weightedSum",height=0.2,width=0.4,color="black",URL="$a22742.html#abd69234b1e2ffa6934e095483d625558",tooltip="Sum surface field contributions to create cell values. "];
+  Node7 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

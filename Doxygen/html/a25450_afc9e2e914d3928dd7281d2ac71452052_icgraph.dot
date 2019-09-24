@@ -1,0 +1,38 @@
+digraph "updateSet"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2194 [label="updateSet",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2194 -> Node2195 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2195 [label="addSet",height=0.2,width=0.4,color="black",URL="$a25450.html#aac9372868e32f2c7de8b956890f035c2",tooltip="Add elements present in set. "];
+  Node2195 -> Node2196 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2196 [label="flipMap",height=0.2,width=0.4,color="black",URL="$a25450.html#a996e4df6a09881dbc50a7e1af0c65424"];
+  Node2194 -> Node2197 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2197 [label="Foam::searchableSurfaceTo\lFaceZone::applyToSet",height=0.2,width=0.4,color="red",URL="$a25386.html#a2d6074569c50892cef0d0f02422c89d1"];
+  Node2194 -> Node2200 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2200 [label="Foam::faceZoneToFaceZone\l::applyToSet",height=0.2,width=0.4,color="red",URL="$a25382.html#a2d6074569c50892cef0d0f02422c89d1"];
+  Node2194 -> Node2203 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2203 [label="Foam::setToFaceZone\l::applyToSet",height=0.2,width=0.4,color="red",URL="$a25398.html#a2d6074569c50892cef0d0f02422c89d1"];
+  Node2194 -> Node2206 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2206 [label="Foam::setAndNormalToFace\lZone::applyToSet",height=0.2,width=0.4,color="red",URL="$a25390.html#a2d6074569c50892cef0d0f02422c89d1"];
+  Node2194 -> Node2209 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2209 [label="Foam::setsToFaceZone\l::applyToSet",height=0.2,width=0.4,color="red",URL="$a25394.html#a2d6074569c50892cef0d0f02422c89d1"];
+  Node2194 -> Node2212 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2212 [label="deleteSet",height=0.2,width=0.4,color="black",URL="$a25450.html#a839cd96efb75b9c2926af738ca9657a6",tooltip="Delete elements present in set. "];
+  Node2212 -> Node2196 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2194 -> Node2213 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2213 [label="faceZoneSet",height=0.2,width=0.4,color="red",URL="$a25450.html#ace6e4b16ad35bf8903c38685a92d7789",tooltip="Construct from objectRegistry and name. "];
+  Node2213 -> Node2194 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2194 -> Node2196 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2194 -> Node2215 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2215 [label="invert",height=0.2,width=0.4,color="black",URL="$a25450.html#a35fb7dbde3f7be406451bf0a8eb57d2e",tooltip="Invert contents. (insert all members 0..maxLen-1 which were not in. "];
+  Node2215 -> Node2196 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2194 -> Node2216 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2216 [label="subset",height=0.2,width=0.4,color="black",URL="$a25450.html#aca3bc27ef071fc2fccd797b459d8d979",tooltip="Subset contents. Only elements present in both sets remain. "];
+  Node2216 -> Node2196 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2194 -> Node2217 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2217 [label="updateMesh",height=0.2,width=0.4,color="black",URL="$a25450.html#ac7d581e56f61ad4d997421e3a7470d42",tooltip="Update any stored data for new labels. "];
+  Node2217 -> Node2196 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

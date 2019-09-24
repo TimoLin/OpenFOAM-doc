@@ -1,0 +1,15 @@
+digraph "neighbEdges"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1024 [label="neighbEdges",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1024 -> Node1025 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1025 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node1024 -> Node1068 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1068 [label="initOrder",height=0.2,width=0.4,color="red",URL="$a27454.html#a644d6229ea284692666de14387870409",tooltip="Initialize ordering for primitivePatch. Does not. "];
+  Node1068 -> Node1071 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1071 [label="Foam::name",height=0.2,width=0.4,color="red",URL="$a21124.html#adcb0df2bd4953cb6bb390272d8263c3a",tooltip="Return a string representation of a complex. "];
+  Node1024 -> Node1071 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

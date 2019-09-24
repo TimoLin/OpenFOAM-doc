@@ -1,0 +1,16 @@
+digraph "write"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node128 [label="write",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node128 -> Node129 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node129 [label="canWriteType",height=0.2,width=0.4,color="red",URL="$a29570.html#a97b4b9e1eceb26c001734f4bb5a75c33",tooltip="Can this file format type be written via MeshedSurfaceProxy? "];
+  Node128 -> Node136 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node136 [label="write",height=0.2,width=0.4,color="black",URL="$a29570.html#a01c3b83ec613ee5baee3f67a188e98b1",tooltip="Generic write routine. Chooses writer based on extension. "];
+  Node128 -> Node137 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node137 [label="Foam::UnsortedMeshedSurface\l::write",height=0.2,width=0.4,color="black",URL="$a29574.html#a03ad3ee4a132dfc225aebe1d58914ad9",tooltip="Write to database. "];
+  Node128 -> Node138 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node138 [label="Foam::MeshedSurface\l\< Foam::face \>::write",height=0.2,width=0.4,color="black",URL="$a29566.html#a03ad3ee4a132dfc225aebe1d58914ad9",tooltip="Write to database. "];
+}

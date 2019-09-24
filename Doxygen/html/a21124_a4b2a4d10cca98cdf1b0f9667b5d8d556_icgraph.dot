@@ -1,0 +1,18 @@
+digraph "cmptMin"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node64645 [label="cmptMin",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node64645 -> Node64646 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node64646 [label="cmptMax",height=0.2,width=0.4,color="black",URL="$a21124.html#a166c54171ddabeb4e17660f14c3c033f"];
+  Node64645 -> Node64647 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node64647 [label="cmptMin",height=0.2,width=0.4,color="black",URL="$a21124.html#a575b34538838eacc339ad5a51b3d8f2f"];
+  Node64645 -> Node64648 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node64648 [label="Foam::pointEdgeCollapse\l::collapsePriority",height=0.2,width=0.4,color="black",URL="$a21670.html#a3f88990dbc3b11973450b513144e26d9"];
+  Node64645 -> Node64649 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node64649 [label="Foam::boundBox::minDim",height=0.2,width=0.4,color="black",URL="$a27102.html#a93a594df55d2426c0ebe65fb8f2ebd2d",tooltip="Smallest length/height/width dimension. "];
+  Node64645 -> Node64650 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node64650 [label="Foam::fvMatrix::relax",height=0.2,width=0.4,color="red",URL="$a22358.html#a06343b944c91a56352ebf646011c212e",tooltip="Relax matrix (for steady-state solution). "];
+}

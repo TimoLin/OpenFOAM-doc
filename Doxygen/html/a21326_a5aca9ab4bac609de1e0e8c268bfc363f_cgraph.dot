@@ -1,0 +1,26 @@
+digraph "mesh"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node331 [label="mesh",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node331 -> Node332 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node332 [label="Foam::TimePaths::constant",height=0.2,width=0.4,color="red",URL="$a26354.html#ab16cfc6e7be33ff5683a856ae077433c",tooltip="Return constant name. "];
+  Node331 -> Node334 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node334 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node331 -> Node336 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node336 [label="readGeometry",height=0.2,width=0.4,color="black",URL="$a21326.html#a755bcf2c5528ad20b324f92b38b500cc",tooltip="Subclasses are required to supply this information. "];
+  Node331 -> Node337 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node337 [label="Foam::objectRegistry\l::time",height=0.2,width=0.4,color="black",URL="$a26326.html#a0d94096809fe3376b29a2a29ca11bb18",tooltip="Return time. "];
+  Node331 -> Node338 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node338 [label="warnDuplicates",height=0.2,width=0.4,color="red",URL="$a21326.html#a2638db035b2a192cbe57e864292f2823",tooltip="Warn about repeated names. "];
+  Node338 -> Node332 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node338 -> Node334 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node338 -> Node337 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node331 -> Node654 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node654 [label="writeMesh",height=0.2,width=0.4,color="red",URL="$a21326.html#a8cf37a82791cedec0e4111345c4f8eb9",tooltip="Write mesh. "];
+  Node654 -> Node334 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node331 -> Node697 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node697 [label="Foam::xferMove",height=0.2,width=0.4,color="black",URL="$a21124.html#ae3ad39ee5ad896e6d3c0f137ecd12abb"];
+}

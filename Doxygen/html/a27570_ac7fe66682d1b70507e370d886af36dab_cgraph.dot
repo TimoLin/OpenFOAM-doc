@@ -1,0 +1,22 @@
+digraph "planeIntersect"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node699 [label="planeIntersect",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node699 -> Node700 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node700 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node699 -> Node701 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node701 [label="normal",height=0.2,width=0.4,color="black",URL="$a27570.html#a7561a676d5a3fa90384c444758baac4c",tooltip="Return plane normal. "];
+  Node699 -> Node702 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node702 [label="planePlaneIntersect",height=0.2,width=0.4,color="red",URL="$a27570.html#acf90d23d7099eab3f7e4e6f76f25738c",tooltip="Return the cutting point between this plane and two other planes. "];
+  Node699 -> Node711 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node711 [label="refPoint",height=0.2,width=0.4,color="black",URL="$a27570.html#a7223767562e3dabf175946fb83a13237",tooltip="Return or return plane base point. "];
+  Node699 -> Node704 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node704 [label="Foam::Vector::x",height=0.2,width=0.4,color="black",URL="$a28442.html#a63327976e5a8359700064a02ae22548e"];
+  Node699 -> Node705 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node705 [label="Foam::Vector::y",height=0.2,width=0.4,color="black",URL="$a28442.html#a1ee865f676fbac703a49c6654dd3ad74"];
+  Node699 -> Node706 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node706 [label="Foam::Vector::z",height=0.2,width=0.4,color="black",URL="$a28442.html#a1c8320b15610de211ec70ef966581423"];
+}

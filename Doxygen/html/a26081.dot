@@ -1,0 +1,13 @@
+digraph "error"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node0 [label="error",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="exception",height=0.2,width=0.4,color="grey75"];
+  Node2 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="messageStream",height=0.2,width=0.4,color="black",URL="$a26098.html",tooltip="Class to handle messaging in a simple, consistent stream-based manner. "];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="IOerror",height=0.2,width=0.4,color="black",URL="$a26086.html",tooltip="Report an I/O error. "];
+}

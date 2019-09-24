@@ -1,0 +1,28 @@
+digraph "faceCentres"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2962 [label="faceCentres",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2962 -> Node2963 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2963 [label="Foam::symmetryPlanePolyPatch\l::calcGeometry",height=0.2,width=0.4,color="black",URL="$a27466.html#a58bb4c0382e9ee570811fb3f005a0a97",tooltip="Calculate the patch geometry. "];
+  Node2962 -> Node2964 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2964 [label="Foam::wedgePolyPatch\l::calcGeometry",height=0.2,width=0.4,color="black",URL="$a27470.html#a58bb4c0382e9ee570811fb3f005a0a97",tooltip="Calculate the patch geometry. "];
+  Node2962 -> Node2965 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2965 [label="Foam::cyclicPolyPatch\l::calcTransforms",height=0.2,width=0.4,color="black",URL="$a27434.html#afb48497736bbafb1fbb000cd218d1779",tooltip="Recalculate the transformation tensors. "];
+  Node2962 -> Node2966 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2966 [label="Foam::processorPolyPatch\l::initOrder",height=0.2,width=0.4,color="red",URL="$a27454.html#a644d6229ea284692666de14387870409",tooltip="Initialize ordering for primitivePatch. Does not. "];
+  Node2962 -> Node2974 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2974 [label="Foam::PrimitivePatch\l\< Face, ::Foam::List,\l pointField, point \>::\lisInternalEdge",height=0.2,width=0.4,color="black",URL="$a27538.html#ac2458a175e66b555e443539d6c726e06",tooltip="Is internal edge? "];
+  Node2962 -> Node2975 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2975 [label="Foam::meshRefinement\l::mergeBaffles",height=0.2,width=0.4,color="red",URL="$a24662.html#aa959f1ef1377d3a4eaac5ff099280e50",tooltip="Merge baffles. Gets pairs of faces. "];
+  Node2962 -> Node2980 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2980 [label="Foam::listPlusEqOp\l::operator()",height=0.2,width=0.4,color="black",URL="$a24626.html#a2bca5855a51bffee2f0fe2aacc4aba10"];
+  Node2962 -> Node2981 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2981 [label="Foam::processorPolyPatch\l::order",height=0.2,width=0.4,color="red",URL="$a27454.html#aa9533329384a73e819a040bcde1b4b3d",tooltip="Return new ordering for primitivePatch. "];
+  Node2962 -> Node2984 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2984 [label="Foam::patchEdgeFaceInfo\l::updateFace",height=0.2,width=0.4,color="red",URL="$a24822.html#a8491b413a9dfaa188a8670906626b784",tooltip="Influence of edge on face. "];
+  Node2962 -> Node2986 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2986 [label="Foam::PrimitivePatch\l\< Face, ::Foam::List,\l pointField, point \>::\lwhichPoint",height=0.2,width=0.4,color="black",URL="$a27538.html#aace943c3eb823df6cbbf5e90d92eeec3",tooltip="Given a global point index, return the local point index. "];
+}

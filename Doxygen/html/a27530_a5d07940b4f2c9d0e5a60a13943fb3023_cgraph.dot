@@ -1,0 +1,24 @@
+digraph "edgeCells"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node53055 [label="edgeCells",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node53055 -> Node53056 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node53056 [label="Foam::DynamicList::\lappend",height=0.2,width=0.4,color="black",URL="$a25890.html#a7b67b42af715604376ad63a681dee6d8",tooltip="Append an element at the end of the list. "];
+  Node53055 -> Node53057 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node53057 [label="Foam::DynamicList::\lclear",height=0.2,width=0.4,color="black",URL="$a25890.html#ac8bb3912a3ce86b15842e79d0b421204",tooltip="Clear the addressed list, i.e. set the size to zero. "];
+  Node53055 -> Node53058 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node53058 [label="edgeCells",height=0.2,width=0.4,color="red",URL="$a27530.html#addd6d1fd65f617ff40cde4479560c2c3"];
+  Node53055 -> Node53118 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node53118 [label="edgeFaces",height=0.2,width=0.4,color="red",URL="$a27530.html#ad38ecd2902727a890ebd437731c271c8"];
+  Node53055 -> Node53125 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node53125 [label="faceNeighbour",height=0.2,width=0.4,color="black",URL="$a27530.html#acd9489a2ac1ec02451fef1f415386694",tooltip="Face face-neighbour addressing. "];
+  Node53055 -> Node53126 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node53126 [label="faceOwner",height=0.2,width=0.4,color="black",URL="$a27530.html#a95a88187f795e30779aa3bac679d9bfc",tooltip="Face face-owner addresing. "];
+  Node53055 -> Node53127 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node53127 [label="hasEdgeCells",height=0.2,width=0.4,color="black",URL="$a27530.html#ae0a7fac763e0e874c6d9a088c9d5124a"];
+  Node53055 -> Node53128 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node53128 [label="isInternalFace",height=0.2,width=0.4,color="red",URL="$a27530.html#ae3e48ad9ec4c5132ec7d3d702ad17c9e",tooltip="Return true if given face label is internal to the mesh. "];
+}

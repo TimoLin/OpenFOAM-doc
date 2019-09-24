@@ -1,0 +1,22 @@
+digraph "updateCoeffs"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node42 [label="updateCoeffs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node42 -> Node43 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node43 [label="Foam::pointPatchField\l\< vector \>::dimensionedInternal\lField",height=0.2,width=0.4,color="black",URL="$a22946.html#ab736cefcc694e7c262ad4d1dabcd5e79",tooltip="Return dimensioned internal field reference. "];
+  Node42 -> Node44 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node44 [label="Foam::Field::operator=",height=0.2,width=0.4,color="black",URL="$a26466.html#a4356fadebc9e59fb8189733d26c75605"];
+  Node42 -> Node45 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node45 [label="Foam::sin",height=0.2,width=0.4,color="black",URL="$a21124.html#a4517d680df5510934705011b30dcefa6"];
+  Node42 -> Node46 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node46 [label="Foam::objectRegistry\l::time",height=0.2,width=0.4,color="black",URL="$a26326.html#a0d94096809fe3376b29a2a29ca11bb18",tooltip="Return time. "];
+  Node42 -> Node47 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node47 [label="Foam::valuePointPatchField\l::updateCoeffs",height=0.2,width=0.4,color="black",URL="$a26574.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node42 -> Node48 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node48 [label="Foam::pointPatchField\l\< vector \>::updated",height=0.2,width=0.4,color="red",URL="$a22946.html#adb515d6ca9be66613efaaeb72c9709db",tooltip="Return true if the boundary condition has already been updated. "];
+  Node42 -> Node53 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node53 [label="Foam::dimensioned::\lvalue",height=0.2,width=0.4,color="black",URL="$a26366.html#a7948200a26c85fc3a83ffa510a91d668",tooltip="Return const reference to value. "];
+}

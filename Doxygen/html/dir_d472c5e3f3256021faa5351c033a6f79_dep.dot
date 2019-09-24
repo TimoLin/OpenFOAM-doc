@@ -1,0 +1,16 @@
+digraph "applications/utilities/postProcessing/graphics/PV4Readers/PV4blockMeshReader" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="FreeSans"];
+  edge [ labelfontsize="10", labelfontname="FreeSans"];
+  subgraph clusterdir_7445db1dd3b961be4e301530f5439804 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="PV4Readers" fontname="FreeSans", fontsize="10", URL="dir_7445db1dd3b961be4e301530f5439804.html"]
+  subgraph clusterdir_d472c5e3f3256021faa5351c033a6f79 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_d472c5e3f3256021faa5351c033a6f79.html"];
+    dir_d472c5e3f3256021faa5351c033a6f79 [shape=plaintext label="PV4blockMeshReader"];
+    dir_42cc03973713714a9bc4e6b45bf650f0 [shape=box label="vtkPV4blockMesh" color="black" fillcolor="white" style="filled" URL="dir_42cc03973713714a9bc4e6b45bf650f0.html"];
+  }
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_42cc03973713714a9bc4e6b45bf650f0->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="5", labeldistance=1.5 headhref="dir_000476_000577.html"];
+}

@@ -1,0 +1,16 @@
+digraph "normalIntersect"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node584 [label="normalIntersect",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node584 -> Node585 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node585 [label="Foam::plane::ray::dir",height=0.2,width=0.4,color="red",URL="$a27574.html#ad2023bddcdb17ed0bab38b38e764822f"];
+  Node585 -> Node632 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node632 [label="Foam::plane::ray::refPoint",height=0.2,width=0.4,color="black",URL="$a27574.html#a04714af62a3181c279bd5c20e9f56840"];
+  Node585 -> Node639 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node639 [label="normalIntersect",height=0.2,width=0.4,color="red",URL="$a27570.html#a22a90e31bd05a5b4379d001a3975fc48",tooltip="Return cut coefficient for plane and line defined by. "];
+  Node584 -> Node639 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node584 -> Node632 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

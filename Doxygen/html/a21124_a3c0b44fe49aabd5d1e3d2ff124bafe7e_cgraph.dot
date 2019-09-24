@@ -1,0 +1,16 @@
+digraph "pow"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node50643 [label="pow",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node50643 -> Node50644 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node50644 [label="abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node50643 -> Node50687 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node50687 [label="Foam::dimensionSet\l::dimensionless",height=0.2,width=0.4,color="black",URL="$a26370.html#abfca824f6f787b2201b4de0a47bf46ef",tooltip="Return true if it is dimensionless. "];
+  Node50643 -> Node50688 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node50688 [label="Foam::dimensioned::\ldimensions",height=0.2,width=0.4,color="black",URL="$a26366.html#a512673c2674ca2d38885f1bb5f6994fb",tooltip="Return const reference to dimensions. "];
+  Node50643 -> Node50661 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node50661 [label="endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+}

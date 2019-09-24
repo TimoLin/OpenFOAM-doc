@@ -1,0 +1,31 @@
+digraph "calcYPlus"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node19 [label="calcYPlus",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node19 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20 [label="dimensionedInternalField",height=0.2,width=0.4,color="black",URL="$a38438.html#a942cd19121a46cdc649099eb27c74b18"];
+  Node19 -> Node21 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21 [label="Foam::IOobject::groupName",height=0.2,width=0.4,color="black",URL="$a26142.html#ad5705e6da2a025ad75b4cf5d748d7d30"];
+  Node19 -> Node22 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22 [label="Foam::log",height=0.2,width=0.4,color="black",URL="$a21124.html#a6e89590da9859ad497977e08f110d4b5"];
+  Node19 -> Node23 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node19 -> Node24 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node24 [label="Foam::max",height=0.2,width=0.4,color="black",URL="$a21124.html#ac993e906cf2774ae77e666bc24e81733"];
+  Node19 -> Node25 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node25 [label="Foam::turbulenceModel::nu",height=0.2,width=0.4,color="black",URL="$a31314.html#ad5f81fcd6f7d0ddad1a5fe2a8f08bb3f",tooltip="Return the laminar viscosity. "];
+  Node19 -> Node26 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node26 [label="nutUWallFunctionFvPatchScalar\lField",height=0.2,width=0.4,color="black",URL="$a31286.html#a44bdd38ae517d7121ca24637453e8de5",tooltip="Construct from patch and internal field. "];
+  Node19 -> Node27 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node27 [label="Foam::turbulenceModel::y",height=0.2,width=0.4,color="red",URL="$a31314.html#a152c527a6b3137685b03893a7a3a73eb",tooltip="Return the near wall distances. "];
+  Node27 -> Node25 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19 -> Node385 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node385 [label="yPlus",height=0.2,width=0.4,color="red",URL="$a31286.html#a0de83d05eb8aabc5f8cf747584ef03c3",tooltip="Calculate and return the yPlus at the boundary. "];
+  Node385 -> Node21 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node385 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node385 -> Node23 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node385 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

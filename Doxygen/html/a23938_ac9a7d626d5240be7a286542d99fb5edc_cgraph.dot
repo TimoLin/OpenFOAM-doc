@@ -1,0 +1,14 @@
+digraph "ThermoParcel"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node7 [label="ThermoParcel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="Foam::IOstream::check",height=0.2,width=0.4,color="red",URL="$a26226.html#a367eb3425fc4e8270e2aa961df8ac8a5",tooltip="Check IOstream status for given operation. "];
+  Node7 -> Node57 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node57 [label="Foam::IOstream::format",height=0.2,width=0.4,color="black",URL="$a26226.html#a33bbef3587114a06f7bdc0b91ba57ed9",tooltip="Return current stream format. "];
+  Node7 -> Node58 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node58 [label="Foam::Istream::read",height=0.2,width=0.4,color="black",URL="$a26234.html#a89057c9d9e24ba872ccb8546086498ec",tooltip="Return next token from stream. "];
+}

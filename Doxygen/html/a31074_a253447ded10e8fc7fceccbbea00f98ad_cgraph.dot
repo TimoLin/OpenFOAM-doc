@@ -1,0 +1,17 @@
+digraph "nuEff"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node712 [label="nuEff",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node712 -> Node713 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node713 [label="correct",height=0.2,width=0.4,color="red",URL="$a31074.html#a3ae44b28050c3aa494c1d8e18cf618c1",tooltip="Solve the turbulence equations and correct the turbulence viscosity. "];
+  Node712 -> Node1065 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1065 [label="Foam::incompressible\l::turbulenceModel::nu",height=0.2,width=0.4,color="red",URL="$a31102.html#aa739f3daeda1884fecc84f2b36a24021",tooltip="Return the laminar viscosity. "];
+  Node1065 -> Node1067 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1067 [label="Foam::incompressible\l::turbulenceModel::nut",height=0.2,width=0.4,color="black",URL="$a31102.html#a172707e93d70ead6d609ebf6138e46d9",tooltip="Return the turbulence viscosity. "];
+  Node712 -> Node1067 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node712 -> Node1076 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1076 [label="read",height=0.2,width=0.4,color="red",URL="$a31074.html#af816873151ddb0126e98bb2f914d8ed5",tooltip="Read RASProperties dictionary. "];
+}

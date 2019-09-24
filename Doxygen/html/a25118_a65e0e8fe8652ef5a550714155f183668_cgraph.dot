@@ -1,0 +1,22 @@
+digraph "intersections"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node861 [label="intersections",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node861 -> Node862 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node862 [label="Foam::DynamicList::\lappend",height=0.2,width=0.4,color="black",URL="$a25890.html#a7b67b42af715604376ad63a681dee6d8",tooltip="Append an element at the end of the list. "];
+  Node861 -> Node863 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node863 [label="Foam::PointIndexHit::hit",height=0.2,width=0.4,color="black",URL="$a27566.html#aee8dc30bf27cefe419b15f96e594c155",tooltip="Is there a hit. "];
+  Node861 -> Node864 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node864 [label="Foam::PointIndexHit\l::hitPoint",height=0.2,width=0.4,color="red",URL="$a27566.html#a0350feff966a8bc8833a84ca454f1e5e",tooltip="Return hit point. "];
+  Node861 -> Node908 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node908 [label="Foam::PointIndexHit\l::index",height=0.2,width=0.4,color="black",URL="$a27566.html#a4a438520bb14406481732edc13c119c7",tooltip="Return index. "];
+  Node861 -> Node909 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node909 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node861 -> Node910 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node910 [label="Foam::DynamicList::\lshrink",height=0.2,width=0.4,color="black",URL="$a25890.html#a88964e734acd91f096c914d0cc5a6e75",tooltip="Shrink the allocated space to the number of elements used. "];
+  Node861 -> Node911 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node911 [label="Foam::sqrt",height=0.2,width=0.4,color="red",URL="$a21124.html#a8616bd62eebf2342a80222fecb1bda71"];
+}

@@ -1,0 +1,13 @@
+digraph "heThermo&lt; BasicThermo, MixtureType &gt;"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node9 [label="heThermo\< BasicThermo,\l MixtureType \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node10 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="BasicThermo",height=0.2,width=0.4,color="grey75"];
+  Node11 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="MixtureType",height=0.2,width=0.4,color="grey75"];
+  Node12 -> Node9 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" he_" ,fontname="FreeSans"];
+  Node12 [label="GeometricField\< scalar,\l fvPatchField, volMesh \>",height=0.2,width=0.4,color="red",URL="$a22434.html"];
+}

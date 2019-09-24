@@ -1,0 +1,16 @@
+digraph "patchField"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1557 [label="patchField",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1557 -> Node1558 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1558 [label="patchInternalField",height=0.2,width=0.4,color="black",URL="$a22870.html#a6acf4f0903a5af15274e07d1b31e274f",tooltip="Return given internal field next to patch as patch field. "];
+  Node1557 -> Node1559 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1559 [label="patchSlice",height=0.2,width=0.4,color="black",URL="$a22870.html#abafaae120d11327175dacc1109283746",tooltip="Slice list to patch. "];
+  Node1557 -> Node1560 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1560 [label="Foam::movingWallVelocity\lFvPatchVectorField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a22186.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node1557 -> Node1562 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1562 [label="Foam::porousBafflePressure\lFvPatchField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a30826.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+}

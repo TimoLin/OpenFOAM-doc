@@ -1,0 +1,21 @@
+digraph "toPrimary"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1617 [label="toPrimary",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1617 -> Node1618 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1618 [label="Foam::SurfaceFilmModel\l\< Foam::KinematicCloud\l\< CloudType \> \>::cacheFilmFields",height=0.2,width=0.4,color="black",URL="$a23778.html#a7b1f5e291b5fcc2c999e62871d73d418",tooltip="Cache the film fields in preparation for injection. "];
+  Node1617 -> Node1619 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1619 [label="Foam::ThermoSurfaceFilm\l::cacheFilmFields",height=0.2,width=0.4,color="red",URL="$a24374.html#a7b1f5e291b5fcc2c999e62871d73d418",tooltip="Cache the film fields in preparation for injection. "];
+  Node1617 -> Node1623 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1623 [label="mapRegionPatchInternalField",height=0.2,width=0.4,color="black",URL="$a28998.html#a65cb6f14307ecf47f35f1f7e60e8da17"];
+  Node1617 -> Node1624 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1624 [label="Foam::regionModels\l::surfaceFilmModels\l::thermoSingleLayer::Srho",height=0.2,width=0.4,color="red",URL="$a29182.html#a0fd34d9be91b7ae55aec9d00e630b9b6",tooltip="Return total mass source - Eulerian phase only. "];
+  Node1617 -> Node1626 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1626 [label="toRegion",height=0.2,width=0.4,color="black",URL="$a28998.html#ab8a36c74a68dd829699b84bab8923ed1",tooltip="Convert a primary region field to the local region. "];
+  Node1626 -> Node1617 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1617 -> Node1627 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1627 [label="Foam::filmPyrolysisRadiative\lCoupledMixedFvPatchScalarField\l::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a28982.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+}

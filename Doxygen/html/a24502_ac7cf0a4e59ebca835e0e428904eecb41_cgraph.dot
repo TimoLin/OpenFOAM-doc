@@ -1,0 +1,23 @@
+digraph "readFields"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node336 [label="readFields",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node336 -> Node337 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node337 [label="Foam::Cloud::checkFieldIOobject",height=0.2,width=0.4,color="black",URL="$a23562.html#a354ac3d5592a996cb2ed69f23e874528",tooltip="Check lagrangian data field. "];
+  Node336 -> Node338 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node338 [label="d",height=0.2,width=0.4,color="black",URL="$a24502.html#a4021481c538e4f3a8507462ec520c077",tooltip="Return diameter. "];
+  Node336 -> Node339 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node339 [label="Foam::Cloud::fieldIOobject",height=0.2,width=0.4,color="black",URL="$a23562.html#a96931e0eb11f9d9cd97e964e030a2c34",tooltip="Helper to construct IOobject for field and current time. "];
+  Node336 -> Node340 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node340 [label="Foam::particle::readFields",height=0.2,width=0.4,color="red",URL="$a23586.html#ae1118a08fed2fe58c47d9142f0f131af",tooltip="Read the fields associated with the owner cloud. "];
+  Node340 -> Node337 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node340 -> Node339 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node340 -> Node342 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node342 [label="Foam::Cloud::size",height=0.2,width=0.4,color="black",URL="$a23562.html#a9facbf0a118d395c89884e45a5ca4e4b"];
+  Node336 -> Node342 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node336 -> Node343 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node343 [label="U",height=0.2,width=0.4,color="black",URL="$a24502.html#a2da97b6a54ebcce689188d39a79ded21",tooltip="Return velocity. "];
+}

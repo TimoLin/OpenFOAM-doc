@@ -1,0 +1,14 @@
+digraph "write"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node60 [label="write",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node60 -> Node61 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node61 [label="index",height=0.2,width=0.4,color="black",URL="$a29714.html#a4a438520bb14406481732edc13c119c7",tooltip="Return the index of this zone in the surface mesh. "];
+  Node60 -> Node62 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node62 [label="Foam::operator\<\<",height=0.2,width=0.4,color="black",URL="$a21124.html#a92d5e6eeab41f4ef2b99eb8647c4220c"];
+  Node60 -> Node63 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node63 [label="Foam::surfZone::writeDict",height=0.2,width=0.4,color="red",URL="$a29706.html#a99e013320e2bb0118f0c2857a9193f62",tooltip="Write dictionary. "];
+}

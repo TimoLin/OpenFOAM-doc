@@ -1,0 +1,14 @@
+digraph "caseConstant"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node311 [label="caseConstant",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node311 -> Node312 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node312 [label="constant",height=0.2,width=0.4,color="red",URL="$a26354.html#ab16cfc6e7be33ff5683a856ae077433c",tooltip="Return constant name. "];
+  Node312 -> Node311 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node312 -> Node371 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node371 [label="Foam::meshRefinement\l::write",height=0.2,width=0.4,color="red",URL="$a24662.html#ad48b7b943e88478c15879659cce7aebc",tooltip="Write mesh and all data. "];
+  Node311 -> Node371 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,36 @@
+digraph "intersects"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node185 [label="intersects",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node185 -> Node186 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node186 [label="faceBits",height=0.2,width=0.4,color="black",URL="$a27618.html#a3e87b1def66dc04558390da0d76d2657",tooltip="Code position of point on bounding box faces. "];
+  Node186 -> Node187 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node187 [label="Foam::Vector::x",height=0.2,width=0.4,color="black",URL="$a28442.html#a63327976e5a8359700064a02ae22548e"];
+  Node186 -> Node188 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node188 [label="Foam::boundBox::min",height=0.2,width=0.4,color="black",URL="$a27102.html#a41bea928bbb72b904d07db28570b07bd",tooltip="Minimum describing the bounding box. "];
+  Node186 -> Node189 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node189 [label="Foam::boundBox::max",height=0.2,width=0.4,color="black",URL="$a27102.html#a43279cd20862e64a21c8c82ee6c2441b",tooltip="Maximum describing the bounding box. "];
+  Node186 -> Node190 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node190 [label="Foam::Vector::y",height=0.2,width=0.4,color="black",URL="$a28442.html#a1ee865f676fbac703a49c6654dd3ad74"];
+  Node186 -> Node191 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node191 [label="Foam::Vector::z",height=0.2,width=0.4,color="black",URL="$a28442.html#a1c8320b15610de211ec70ef966581423"];
+  Node185 -> Node192 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node192 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node185 -> Node189 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node185 -> Node188 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node185 -> Node193 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node193 [label="posBits",height=0.2,width=0.4,color="red",URL="$a27618.html#ae64b0d004f8da0a95f2458df4be20b12",tooltip="Position of point relative to bounding box. "];
+  Node193 -> Node187 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node193 -> Node188 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node193 -> Node189 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node193 -> Node190 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node193 -> Node191 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node185 -> Node195 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node195 [label="s",height=0.2,width=0.4,color="black",URL="$a18905.html#abb9c4233033fad2ad0206cd4adad3b9f"];
+  Node185 -> Node187 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node185 -> Node190 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node185 -> Node191 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

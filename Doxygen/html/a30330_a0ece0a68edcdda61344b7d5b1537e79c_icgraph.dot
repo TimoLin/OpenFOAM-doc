@@ -1,0 +1,19 @@
+digraph "kr"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node974 [label="kr",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node974 -> Node975 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node975 [label="Foam::chemistryModel\l::jacobian",height=0.2,width=0.4,color="red",URL="$a29794.html#afb9c61fc8f348168d75404b1a34ed937",tooltip="Calculate the Jacobian of the system. "];
+  Node974 -> Node978 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node978 [label="kf",height=0.2,width=0.4,color="red",URL="$a30330.html#ae5cd124c004fbe29669769d275a8b321",tooltip="Forward rate constant. "];
+  Node978 -> Node975 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node978 -> Node977 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node977 [label="Foam::chemistryModel\l::omega",height=0.2,width=0.4,color="black",URL="$a29794.html#a9d7c91decc146d7a59cf80c830b4b596",tooltip="Return the reaction rate for reaction r and the reference. "];
+  Node978 -> Node984 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node984 [label="~Reaction",height=0.2,width=0.4,color="black",URL="$a30330.html#ac3b086991383b38bb29c0d07a837745a",tooltip="Destructor. "];
+  Node974 -> Node977 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node974 -> Node984 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

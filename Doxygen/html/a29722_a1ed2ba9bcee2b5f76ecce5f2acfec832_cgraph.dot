@@ -1,0 +1,13 @@
+digraph "~Chung"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2 [label="~Chung",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="correct",height=0.2,width=0.4,color="red",URL="$a29722.html#a3ae44b28050c3aa494c1d8e18cf618c1",tooltip="Correct the Chung compressibility. "];
+  Node3 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="read",height=0.2,width=0.4,color="red",URL="$a29722.html#a3a64ab9d5be1c13ec93e1d26e24cdaed",tooltip="Read transportProperties dictionary. "];
+  Node2 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

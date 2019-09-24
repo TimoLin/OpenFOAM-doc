@@ -1,0 +1,24 @@
+digraph "markMergeEdges"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2853 [label="markMergeEdges",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2853 -> Node2854 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2854 [label="Foam::removePoints\l::countPointUsage",height=0.2,width=0.4,color="red",URL="$a21722.html#a1ebf47520484c4d57ed98c8e41db43d9",tooltip="Mark in pointCanBeDeleted the points that can be deleted. "];
+  Node2854 -> Node2861 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2861 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node2854 -> Node2864 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2864 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node2853 -> Node3263 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3263 [label="Foam::primitiveMesh\l::edges",height=0.2,width=0.4,color="black",URL="$a27530.html#a21d764179912ddda5c6f95193c289846",tooltip="Return mesh edges. Uses calcEdges. "];
+  Node2853 -> Node2861 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2853 -> Node3264 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3264 [label="markSmallSliverFaces",height=0.2,width=0.4,color="red",URL="$a21642.html#a125de0783a7e5c9a95769e9a2c93c05c",tooltip="Find small faces and sliver faces in the mesh and mark the. "];
+  Node2853 -> Node3268 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3268 [label="Foam::primitiveMesh\l::pointEdges",height=0.2,width=0.4,color="black",URL="$a27530.html#a219060536b044c749e6178283665d632"];
+  Node2853 -> Node3009 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3009 [label="Foam::polyMesh::points",height=0.2,width=0.4,color="red",URL="$a27410.html#ac44123fc1265297c41a43c3b62fdb4c2",tooltip="Return raw points. "];
+  Node2853 -> Node2864 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

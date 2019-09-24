@@ -1,0 +1,18 @@
+digraph "overlaps"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node111 [label="overlaps",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node111 -> Node112 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node112 [label="Foam::boundBox::max",height=0.2,width=0.4,color="black",URL="$a27102.html#a43279cd20862e64a21c8c82ee6c2441b",tooltip="Maximum describing the bounding box. "];
+  Node111 -> Node113 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node113 [label="Foam::boundBox::min",height=0.2,width=0.4,color="black",URL="$a27102.html#a41bea928bbb72b904d07db28570b07bd",tooltip="Minimum describing the bounding box. "];
+  Node111 -> Node114 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node114 [label="Foam::Vector::x",height=0.2,width=0.4,color="black",URL="$a28442.html#a63327976e5a8359700064a02ae22548e"];
+  Node111 -> Node115 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node115 [label="Foam::Vector::y",height=0.2,width=0.4,color="black",URL="$a28442.html#a1ee865f676fbac703a49c6654dd3ad74"];
+  Node111 -> Node116 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node116 [label="Foam::Vector::z",height=0.2,width=0.4,color="black",URL="$a28442.html#a1c8320b15610de211ec70ef966581423"];
+}

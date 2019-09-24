@@ -1,0 +1,33 @@
+digraph "n"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node18 [label="n",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node18 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19 [label="Foam::LUBacksubstitute",height=0.2,width=0.4,color="red",URL="$a21124.html#a3a4fbcdd330a7cdba4ce12676ad9cb3e",tooltip="LU back-substitution with given source, returning the solution. "];
+  Node19 -> Node32 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node32 [label="Foam::LUsolve",height=0.2,width=0.4,color="red",URL="$a21124.html#ad36ff051a76f2291e79751842332871c",tooltip="Solve the matrix using LU decomposition with pivoting. "];
+  Node18 -> Node54 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node54 [label="Foam::LUDecompose",height=0.2,width=0.4,color="black",URL="$a21124.html#ad665fab9e1a6b0c886e5005d39fc1af3",tooltip="LU decompose the matrix with pivoting. "];
+  Node18 -> Node32 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 -> Node55 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node55 [label="Foam::Matrix\< Rectangular\lMatrix\< Type \>, Type \>\l::Matrix",height=0.2,width=0.4,color="black",URL="$a26774.html#aa92976d4353b6683c4f4b1b50a536502",tooltip="Construct from Istream. "];
+  Node18 -> Node56 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node56 [label="Foam::max",height=0.2,width=0.4,color="black",URL="$a21124.html#a12ed0493c6b1028ae58fabcd62b20b7b"];
+  Node18 -> Node57 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node57 [label="Foam::min",height=0.2,width=0.4,color="black",URL="$a21124.html#a399fe89326ac3847eb60c74f6e6d36ef"];
+  Node18 -> Node58 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node58 [label="Foam::multiply",height=0.2,width=0.4,color="black",URL="$a21124.html#a12e46174b3d8380b4197ad746dfde9ea"];
+  Node18 -> Node59 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node59 [label="Foam::operator*",height=0.2,width=0.4,color="black",URL="$a21124.html#aa595e0aafd0dbd4c24d20f688d91d7be"];
+  Node18 -> Node60 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node60 [label="Foam::operator+",height=0.2,width=0.4,color="black",URL="$a21124.html#a59522bdfe133fb54b8f74c2fb63e6b3c"];
+  Node18 -> Node61 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node61 [label="Foam::operator-",height=0.2,width=0.4,color="black",URL="$a21124.html#a9bc146ea0a60043bd872f2fdf705f644"];
+  Node18 -> Node62 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node62 [label="Foam::solve",height=0.2,width=0.4,color="black",URL="$a21124.html#ab7b4ceba772da118ccaa05c8195d7776",tooltip="Solve the matrix using Gaussian elimination with pivoting,. "];
+  Node18 -> Node63 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node63 [label="Foam::SVD::SVD",height=0.2,width=0.4,color="black",URL="$a27070.html#a940b7544844440cd3405fc856a6d9d42",tooltip="Construct from a rectangular Matrix. "];
+}

@@ -1,0 +1,12 @@
+digraph "kSource"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node103 [label="kSource",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node103 -> Node104 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node104 [label="Foam::turbulenceModel::k",height=0.2,width=0.4,color="black",URL="$a31314.html#a513c40f9ed37e2baed10984c3c4c57a9",tooltip="Return the turbulence kinetic energy. "];
+  Node103 -> Node105 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node105 [label="Foam::fvm::Sp",height=0.2,width=0.4,color="black",URL="$a21135.html#a67e0938495ebeac7ad57361957720554"];
+}

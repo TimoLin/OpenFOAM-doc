@@ -1,0 +1,16 @@
+digraph "valueInternalCoeffs"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1250 [label="valueInternalCoeffs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1250 -> Node1251 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1251 [label="dimensionedInternalField",height=0.2,width=0.4,color="black",URL="$a38438.html#a942cd19121a46cdc649099eb27c74b18"];
+  Node1250 -> Node1252 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1252 [label="Foam::exit",height=0.2,width=0.4,color="red",URL="$a21124.html#a06ca7250d8e89caf05243ec094843642"];
+  Node1250 -> Node1299 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1299 [label="valueBoundaryCoeffs",height=0.2,width=0.4,color="black",URL="$a23554.html#a9b2e6c272ac0cf09dbfe76b65cc668da",tooltip="Return the matrix source coefficients corresponding to the. "];
+  Node1299 -> Node1251 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1299 -> Node1252 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,15 @@
+digraph "src/thermophysicalModels/thermophysicalFunctions/APIfunctions/APIdiffCoefFunc" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="FreeSans"];
+  edge [ labelfontsize="10", labelfontname="FreeSans"];
+  subgraph clusterdir_071e34f41869cf02bd6a81114c4b3698 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="APIfunctions" fontname="FreeSans", fontsize="10", URL="dir_071e34f41869cf02bd6a81114c4b3698.html"]
+  dir_9b7d440d5e62a367feb83022d67b47f6 [shape=box, label="APIdiffCoefFunc", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_9b7d440d5e62a367feb83022d67b47f6.html"];
+  }
+  dir_8ba6b14d4a4773e38073436dada23915 [shape=box label="thermophysicalFunction" URL="dir_8ba6b14d4a4773e38073436dada23915.html"];
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8 [shape=box label="OpenFOAM" color="red" URL="dir_c5473ff19b20e6ec4dfe5c310b3778a8.html"];
+  dir_8ba6b14d4a4773e38073436dada23915->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="8", labeldistance=1.5 headhref="dir_002773_001732.html"];
+  dir_9b7d440d5e62a367feb83022d67b47f6->dir_8ba6b14d4a4773e38073436dada23915 [headlabel="1", labeldistance=1.5 headhref="dir_002762_002773.html"];
+  dir_9b7d440d5e62a367feb83022d67b47f6->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="1", labeldistance=1.5 headhref="dir_002762_001732.html"];
+}

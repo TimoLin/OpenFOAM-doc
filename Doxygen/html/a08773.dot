@@ -1,0 +1,28 @@
+digraph "src/OpenFOAM/containers/Lists/UPtrList/UPtrList.H"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node49 [label="src/OpenFOAM/containers\l/Lists/UPtrList/UPtrList.H",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node49 -> Node50 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node50 [label="src/finiteVolume/fvMatrices\l/solvers/MULES/MULES.H",height=0.2,width=0.4,color="red",URL="$a03320.html",tooltip="MULES: Multidimensional universal limiter for explicit solution. "];
+  Node49 -> Node59 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node59 [label="src/mesh/autoMesh/autoHex\lMesh/refinementSurfaces\l/refinementSurfaces.C",height=0.2,width=0.4,color="black",URL="$a06953.html"];
+  Node49 -> Node60 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node60 [label="src/meshTools/cellDist\l/patchWave/patchDataWave.H",height=0.2,width=0.4,color="red",URL="$a07439.html"];
+  Node49 -> Node63 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node63 [label="src/meshTools/searchable\lSurface/searchableSurfaceCollection.H",height=0.2,width=0.4,color="red",URL="$a07826.html"];
+  Node49 -> Node65 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node65 [label="src/meshTools/searchable\lSurface/searchableSurfaceWith\lGaps.H",height=0.2,width=0.4,color="red",URL="$a07844.html"];
+  Node49 -> Node67 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node67 [label="src/OpenFOAM/containers\l/Lists/UPtrList/UPtrList.C",height=0.2,width=0.4,color="black",URL="$a08768.html"];
+  Node49 -> Node68 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node68 [label="src/OpenFOAM/containers\l/Lists/UPtrList/UPtrListIO.C",height=0.2,width=0.4,color="black",URL="$a08777.html"];
+  Node68 -> Node67 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node49 -> Node69 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node69 [label="src/OpenFOAM/matrices\l/LduMatrix/LduMatrix\l/LduInterfaceField/LduInterface\lFieldPtrsList.H",height=0.2,width=0.4,color="red",URL="$a10526.html",tooltip="List of coupled interface fields to be used in coupling. "];
+  Node49 -> Node1797 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1797 [label="src/OpenFOAM/matrices\l/lduMatrix/lduAddressing\l/lduInterface/lduInterfacePtrsList.H",height=0.2,width=0.4,color="red",URL="$a10655.html"];
+  Node49 -> Node2240 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2240 [label="src/OpenFOAM/matrices\l/lduMatrix/lduAddressing\l/lduInterfaceFields/lduInterface\lField/lduInterfaceFieldPtrsList.H",height=0.2,width=0.4,color="red",URL="$a10679.html"];
+}

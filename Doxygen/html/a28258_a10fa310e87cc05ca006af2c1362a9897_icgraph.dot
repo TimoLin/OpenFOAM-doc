@@ -1,0 +1,12 @@
+digraph "operator="
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node23 [label="operator=",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node23 -> Node24 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node24 [label="Foam::keyType::operator=",height=0.2,width=0.4,color="black",URL="$a28238.html#a7154ce491ef2b5cf1babe7fbc4fe82ac",tooltip="Assign as word, not as non regular expression. "];
+  Node23 -> Node25 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node25 [label="Foam::wordRe::operator=",height=0.2,width=0.4,color="black",URL="$a28262.html#a0204ef739ed83a3a26b5cb80bdedac49",tooltip="Copy word, never a regular expression. "];
+}

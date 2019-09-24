@@ -1,0 +1,27 @@
+digraph "exit"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node5404 [label="exit",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node5404 -> Node5405 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5405 [label="abort",height=0.2,width=0.4,color="red",URL="$a26082.html#ac54f53dc342019e8db34f4aa581a5792",tooltip="Abort : used to stop code for fatal errors. "];
+  Node5405 -> Node5406 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5406 [label="Foam::dictionary::add",height=0.2,width=0.4,color="red",URL="$a26014.html#ac2ddcab42322c8d8af5e5830ab4d431b",tooltip="Add a new entry. "];
+  Node5406 -> Node5409 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5409 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node5405 -> Node5409 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5405 -> Node5429 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5429 [label="Foam::UPstream::parRun",height=0.2,width=0.4,color="black",URL="$a26270.html#adbb27f04b5705440fb8b09f278059011",tooltip="Is this a parallel run? "];
+  Node5405 -> Node5431 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5431 [label="Foam::OStringStream\l::rewind",height=0.2,width=0.4,color="red",URL="$a26302.html#ab8734e666421c9fe3b6380a818c6c727",tooltip="Rewind the OStringStream. "];
+  Node5404 -> Node5406 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5404 -> Node5409 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5404 -> Node5448 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5448 [label="Foam::JobInfo::exit",height=0.2,width=0.4,color="red",URL="$a26686.html#a358d2e2397ca11ccd17553e3c40e7901"];
+  Node5404 -> Node5449 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5449 [label="Foam::UPstream::exit",height=0.2,width=0.4,color="black",URL="$a26270.html#ae47c265fa613291440b2a64c005f26e0",tooltip="Exit program. "];
+  Node5404 -> Node5429 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5404 -> Node5431 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

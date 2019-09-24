@@ -1,0 +1,21 @@
+digraph "readAveragingProperties"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node528 [label="readAveragingProperties",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node528 -> Node529 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node529 [label="fieldAverage",height=0.2,width=0.4,color="black",URL="$a28706.html#a452f5c75510fbb7501323a3b96aba478",tooltip="Disallow default bitwise copy construct. "];
+  Node528 -> Node530 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node530 [label="Foam::dictionary::found",height=0.2,width=0.4,color="red",URL="$a26014.html#adcd3d5d43253006ef145e56b43025d28",tooltip="Search dictionary for given keyword. "];
+  Node530 -> Node530 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node528 -> Node532 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node532 [label="Foam::IOobject::headerOk",height=0.2,width=0.4,color="red",URL="$a26142.html#a9d4879c850ce41d945ff77e788de3a23",tooltip="Read and check header info. "];
+  Node528 -> Node535 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node535 [label="propsDict",height=0.2,width=0.4,color="black",URL="$a38933.html#ae47a500ef44e8688e953e95d79a10b7b"];
+  Node528 -> Node536 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node536 [label="Foam::readScalar",height=0.2,width=0.4,color="black",URL="$a21124.html#a828d57f6d9b9806c086a3f840a147115",tooltip="Read whole of buf as a scalar. Return true if succesful. "];
+  Node528 -> Node537 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node537 [label="Foam::dictionary::subDict",height=0.2,width=0.4,color="red",URL="$a26014.html#aaa26b5f2da6aff5a6a59af5407f1bf59",tooltip="Find and return a sub-dictionary. "];
+}

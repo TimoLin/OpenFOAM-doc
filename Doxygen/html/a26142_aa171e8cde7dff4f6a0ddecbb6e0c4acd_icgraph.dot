@@ -1,0 +1,20 @@
+digraph "group"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node14455 [label="group",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node14455 -> Node14456 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14456 [label="Foam::porosityModels\l::DarcyForchheimer::correct",height=0.2,width=0.4,color="red",URL="$a21906.html#acc340a84624d8d339207b5073d6929c7",tooltip="Add resistance. "];
+  Node14455 -> Node14460 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14460 [label="groupName",height=0.2,width=0.4,color="black",URL="$a26142.html#af89f932e2cb18ab109b4988d4ca85e4a"];
+  Node14455 -> Node14461 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14461 [label="Foam::LESModel::New",height=0.2,width=0.4,color="red",URL="$a31214.html#a0e29eca4c0af7352ec0a454c985dfece",tooltip="Return a reference to the selected LES model. "];
+  Node14455 -> Node14463 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14463 [label="Foam::RASModel\< PhaseCompressible\lTurbulenceModel\< phaseModel\l \> \>::New",height=0.2,width=0.4,color="black",URL="$a31306.html#a8c206abb12d5349d3c8e098ccbb31de0",tooltip="Return a reference to the selected RAS model. "];
+  Node14455 -> Node14464 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14464 [label="Foam::TurbulenceModel\l\< volScalarField, geometric\lOneField, incompressibleTurbulence\lModel, TransportModel \>::TurbulenceModel",height=0.2,width=0.4,color="black",URL="$a31310.html#a5ac876188792e5bb3a8a73e46d77fd33",tooltip="Construct. "];
+  Node14455 -> Node14465 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14465 [label="writeOpt",height=0.2,width=0.4,color="black",URL="$a26142.html#a63d205cb682f018b67bf8193545ffe85"];
+}

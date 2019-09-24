@@ -1,0 +1,12 @@
+digraph "randomPoint"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node169 [label="randomPoint",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node169 -> Node170 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node170 [label="Foam::FreeStream::inflow",height=0.2,width=0.4,color="black",URL="$a23718.html#a84e6a7b742df4fcb240fff3040770a0b",tooltip="Introduce particles. "];
+  Node169 -> Node171 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node171 [label="Foam::patchInjectionBase\l::setPositionAndCell",height=0.2,width=0.4,color="red",URL="$a24102.html#a2be87394634fdebc9510fbd86c3814d4",tooltip="Set the injection position and owner cell, tetFace and tetPt. "];
+}

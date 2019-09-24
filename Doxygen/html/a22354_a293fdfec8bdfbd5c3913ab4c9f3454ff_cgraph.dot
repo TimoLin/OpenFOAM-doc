@@ -1,0 +1,15 @@
+digraph "write"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2065 [label="write",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2065 -> Node2066 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2066 [label="Foam::type",height=0.2,width=0.4,color="red",URL="$a21124.html#aec48583af672626378f501eb9fc32cd1",tooltip="Return the file type: DIRECTORY or FILE. "];
+  Node2065 -> Node2072 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2072 [label="writeEntryIfDifferent",height=0.2,width=0.4,color="black",URL="$a22354.html#a23a62a1f637a5b9e0e52777511ccc95a",tooltip="Helper function to write the keyword and entry only if the. "];
+  Node2072 -> Node2073 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2073 [label="Foam::Ostream::writeKeyword",height=0.2,width=0.4,color="red",URL="$a26238.html#a3c58b2bb9174ea3c4a5fa58095d1290e",tooltip="Write the keyword followed by an appropriate indentation. "];
+  Node2065 -> Node2073 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

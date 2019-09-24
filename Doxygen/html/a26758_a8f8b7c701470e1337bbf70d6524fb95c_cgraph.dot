@@ -1,0 +1,12 @@
+digraph "~splineInterpolationWeights"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node11 [label="~splineInterpolationWeights",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12 [label="integrationWeights",height=0.2,width=0.4,color="black",URL="$a26758.html#a8d4e8e066854c196d94d2fd0f36d4625",tooltip="Calculate weights and indices to calculate integrand of t1..t2. "];
+  Node11 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13 [label="valueWeights",height=0.2,width=0.4,color="red",URL="$a26758.html#af5a583ed770fba7cf1e0c968f80ac48e",tooltip="Calculate weights and indices to calculate t from samples. "];
+}

@@ -1,0 +1,30 @@
+digraph "clone"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node9 [label="clone",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="idGas",height=0.2,width=0.4,color="black",URL="$a24302.html#ad2ca84f7489479c006afb022a67c8379",tooltip="Gas id. "];
+  Node9 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="idLiquid",height=0.2,width=0.4,color="black",URL="$a24302.html#adecc05637c0ece9f3db097804b686c53",tooltip="Liquid id. "];
+  Node9 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12 [label="idSolid",height=0.2,width=0.4,color="black",URL="$a24302.html#aec857bbc90dc99433ffaa6f8c7459b0f",tooltip="Solid id. "];
+  Node9 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13 [label="YGas0",height=0.2,width=0.4,color="black",URL="$a24302.html#ae1ee2f8f1cb09157aca3c10da6e9ac79",tooltip="Return the list of gas mass fractions. "];
+  Node9 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14 [label="YGasTot0",height=0.2,width=0.4,color="black",URL="$a24302.html#ac61b35159d723577ee76b15dd8a2fc97",tooltip="Return the total gas mass fraction. "];
+  Node9 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15 [label="YLiquid0",height=0.2,width=0.4,color="black",URL="$a24302.html#aba99c78a51228224dd8923f6a19bf3e9",tooltip="Return the list of liquid mass fractions. "];
+  Node9 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16 [label="YLiquidTot0",height=0.2,width=0.4,color="black",URL="$a24302.html#a673da71239d2fd460458566c0224c90a",tooltip="Return the total liquid mass fraction. "];
+  Node9 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17 [label="YMixture0",height=0.2,width=0.4,color="black",URL="$a24302.html#a237a3f76bed4e97fcc659459ddec3684",tooltip="Return the list of mixture mass fractions. "];
+  Node9 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 [label="YSolid0",height=0.2,width=0.4,color="black",URL="$a24302.html#a6af8c16d274fbb433d22dedc27c1201a",tooltip="Return the list of solid mass fractions. "];
+  Node9 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19 [label="YSolidTot0",height=0.2,width=0.4,color="black",URL="$a24302.html#a2b177ed67f81dcdcb7f53bb972423089",tooltip="Return the total solid mass fraction. "];
+  Node9 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20 [label="~SinglePhaseMixture",height=0.2,width=0.4,color="black",URL="$a24302.html#aad80248521a0eccfc1e22b11e36219f9",tooltip="Destructor. "];
+}

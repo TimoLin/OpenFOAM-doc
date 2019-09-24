@@ -1,0 +1,30 @@
+digraph "typeName"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node133 [label="typeName",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node133 -> Node134 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node134 [label="alphah",height=0.2,width=0.4,color="black",URL="$a30394.html#aa3d16e0f36b6c7f0e4c8fdd59878d31f",tooltip="Thermal diffusivity of enthalpy [kg/ms]. "];
+  Node134 -> Node135 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node135 [label="mu",height=0.2,width=0.4,color="black",URL="$a30394.html#a156c9bed463e921bb2ef8c7cbfb7fdc9",tooltip="Dynamic viscosity [kg/ms]. "];
+  Node135 -> Node136 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node136 [label="kappa",height=0.2,width=0.4,color="black",URL="$a30394.html#a5466ad2fbb533099dd54880c87ad1928",tooltip="Thermal conductivity [W/mK]. "];
+  Node136 -> Node135 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node136 -> Node134 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node133 -> Node136 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node133 -> Node135 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node133 -> Node137 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node137 [label="operator*=",height=0.2,width=0.4,color="red",URL="$a30394.html#aef726b4d6a3f9ec2cfe3b98f714a1427"];
+  Node133 -> Node140 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node140 [label="operator+=",height=0.2,width=0.4,color="red",URL="$a30394.html#a3e244e90e603b9933fa162a2cc304c9a"];
+  Node133 -> Node141 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node141 [label="operator-=",height=0.2,width=0.4,color="red",URL="$a30394.html#a19412753ca6399766232b1e5b57940c1"];
+  Node133 -> Node142 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node142 [label="operator=",height=0.2,width=0.4,color="black",URL="$a30394.html#a31cc7668be95f5e5f74f210f5a510790"];
+  Node133 -> Node143 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node143 [label="Foam::T",height=0.2,width=0.4,color="red",URL="$a21124.html#ae57fda0abb14bb0944947c463c6e09d4"];
+  Node133 -> Node148 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node148 [label="write",height=0.2,width=0.4,color="black",URL="$a30394.html#a78cec3e4ecac4a89a3ad8d38f2ad21f5",tooltip="Write to Ostream. "];
+}

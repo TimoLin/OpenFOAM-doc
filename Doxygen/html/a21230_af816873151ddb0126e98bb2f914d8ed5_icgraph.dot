@@ -1,0 +1,12 @@
+digraph "read"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node159 [label="read",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node159 -> Node160 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node160 [label="Foam::combustionModels\l::psiCombustionModel::read",height=0.2,width=0.4,color="black",URL="$a21274.html#af816873151ddb0126e98bb2f914d8ed5",tooltip="Update properties from given dictionary. "];
+  Node159 -> Node161 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node161 [label="Foam::combustionModels\l::rhoCombustionModel::read",height=0.2,width=0.4,color="black",URL="$a21286.html#af816873151ddb0126e98bb2f914d8ed5",tooltip="Update properties from given dictionary. "];
+}

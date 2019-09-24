@@ -1,0 +1,23 @@
+digraph "getParallelEdges"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3100 [label="getParallelEdges",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3100 -> Node3101 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3101 [label="Foam::primitiveMesh\l::edges",height=0.2,width=0.4,color="black",URL="$a27530.html#a21d764179912ddda5c6f95193c289846",tooltip="Return mesh edges. Uses calcEdges. "];
+  Node3100 -> Node3102 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3102 [label="edgeToCutDir",height=0.2,width=0.4,color="red",URL="$a21153.html#aaae026ffd1b269c8a220c6bb1bc95fa7",tooltip="Given edge on hex find all &#39;parallel&#39; (i.e. non-connected) "];
+  Node3102 -> Node3154 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3154 [label="otherFace",height=0.2,width=0.4,color="red",URL="$a21153.html#a38973075afca54f6ee816cab3b8bff7e",tooltip="Return face on cell using edgeI but not faceI. Throws error. "];
+  Node3102 -> Node3101 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3102 -> Node3292 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3292 [label="Foam::UList::end",height=0.2,width=0.4,color="black",URL="$a25698.html#acf5102a998ffca93da588563e2af7413",tooltip="Return an iterator to end traversing the UList. "];
+  Node3102 -> Node3189 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3189 [label="walkFace",height=0.2,width=0.4,color="red",URL="$a21153.html#a7a612dbf101c056ee4e4f2a0f812c278",tooltip="Returns label of edge nEdges away from startEdge (in the direction. "];
+  Node3189 -> Node3101 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3100 -> Node3292 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3100 -> Node3154 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3100 -> Node3189 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

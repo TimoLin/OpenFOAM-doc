@@ -1,0 +1,21 @@
+digraph "src/OpenFOAM/global/debug/debug.C"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node0 [label="src/OpenFOAM/global\l/debug/debug.C",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="debug.H",height=0.2,width=0.4,color="black",URL="$a10256.html"];
+  Node0 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="dictionary.H",height=0.2,width=0.4,color="red",URL="$a08804.html"];
+  Node0 -> Node72 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node72 [label="IFstream.H",height=0.2,width=0.4,color="red",URL="$a09059.html"];
+  Node0 -> Node76 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node76 [label="OSspecific.H",height=0.2,width=0.4,color="red",URL="$a10370.html",tooltip="Functions used by OpenFOAM that are specific to POSIX compliant operating systems and need to be repl..."];
+  Node0 -> Node32 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node32 [label="Ostream.H",height=0.2,width=0.4,color="red",URL="$a09098.html"];
+  Node0 -> Node80 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node80 [label="demandDrivenData.H",height=0.2,width=0.4,color="black",URL="$a10367.html",tooltip="Template functions to aid in the implementation of demand driven data. "];
+  Node0 -> Node81 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node81 [label="simpleObjectRegistry.H",height=0.2,width=0.4,color="red",URL="$a10259.html"];
+}

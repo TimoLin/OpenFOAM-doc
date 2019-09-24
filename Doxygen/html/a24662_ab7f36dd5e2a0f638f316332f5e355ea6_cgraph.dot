@@ -1,0 +1,16 @@
+digraph "getMasterPoints"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node16053 [label="getMasterPoints",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node16053 -> Node16054 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16054 [label="getMasterEdges",height=0.2,width=0.4,color="red",URL="$a24662.html#ab5eff13c92babee0ba0af3caec1d7e87",tooltip="Determine master edge for subset of edges. If coupled. "];
+  Node16054 -> Node16055 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16055 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node16053 -> Node16055 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16053 -> Node16132 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16132 [label="Foam::syncTools::syncPointList",height=0.2,width=0.4,color="red",URL="$a27502.html#a197ed77a9101bdfb37253bd3f507c017",tooltip="Synchronize values on all mesh points. "];
+  Node16132 -> Node16055 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

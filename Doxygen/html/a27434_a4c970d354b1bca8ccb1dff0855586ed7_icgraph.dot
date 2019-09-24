@@ -1,0 +1,13 @@
+digraph "coupledEdges"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2217 [label="coupledEdges",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2217 -> Node2218 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2218 [label="neighbPatch",height=0.2,width=0.4,color="red",URL="$a27434.html#a25d2f0ac438fefb7307d924d17ae6248"];
+  Node2218 -> Node2433 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2433 [label="Foam::syncTools::syncEdgeMap",height=0.2,width=0.4,color="red",URL="$a27502.html#a154ac086463b8d7a0eed8c4539d3ab73",tooltip="Synchronize values on selected edges. "];
+  Node2217 -> Node2433 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

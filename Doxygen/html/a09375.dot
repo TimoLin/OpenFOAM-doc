@@ -1,0 +1,17 @@
+digraph "src/OpenFOAM/dimensionedTypes/dimensionedType/dimensionedType.H"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node0 [label="src/OpenFOAM/dimensioned\lTypes/dimensionedType\l/dimensionedType.H",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="word.H",height=0.2,width=0.4,color="red",URL="$a12662.html"];
+  Node0 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13 [label="direction.H",height=0.2,width=0.4,color="red",URL="$a12209.html",tooltip="Direction is an integer type used to represent the Cartesian directions etc. Currently it is a typede..."];
+  Node0 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14 [label="dimensionSet.H",height=0.2,width=0.4,color="red",URL="$a09386.html"];
+  Node0 -> Node50 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node50 [label="VectorSpace.H",height=0.2,width=0.4,color="red",URL="$a12863.html"];
+  Node50 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node50 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

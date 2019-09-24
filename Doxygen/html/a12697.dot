@@ -1,0 +1,29 @@
+digraph "src/OpenFOAM/primitives/Swap/Swap.H"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node1 [label="src/OpenFOAM/primitives\l/Swap/Swap.H",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="src/meshTools/AMIInterpolation\l/patches/cyclicACMI/cyclicACMIPoint\lPatchField/cyclicACMIPointPatchField.C",height=0.2,width=0.4,color="black",URL="$a07346.html"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="src/meshTools/AMIInterpolation\l/patches/cyclicAMI/cyclicAMIPointPatch\lField/cyclicAMIPointPatchField.C",height=0.2,width=0.4,color="black",URL="$a07388.html"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="src/OpenFOAM/containers\l/Lists/UList/UListI.H",height=0.2,width=0.4,color="red",URL="$a08762.html"];
+  Node1 -> Node2716 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2716 [label="src/OpenFOAM/fields\l/pointPatchFields/constraint\l/cyclic/cyclicPointPatchField.C",height=0.2,width=0.4,color="black",URL="$a09965.html"];
+  Node1 -> Node4640 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4640 [label="src/OpenFOAM/matrices\l/scalarMatrices/scalarMatrices\lTemplates.C",height=0.2,width=0.4,color="black",URL="$a11027.html"];
+  Node1 -> Node5417 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5417 [label="src/OpenFOAM/meshes\l/meshShapes/edge/edgeI.H",height=0.2,width=0.4,color="red",URL="$a11303.html"];
+  Node1 -> Node2950 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2950 [label="src/OpenFOAM/meshes\l/meshShapes/face/face.C",height=0.2,width=0.4,color="black",URL="$a11318.html"];
+  Node1 -> Node3135 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3135 [label="src/OpenFOAM/meshes\l/meshShapes/triFace\l/triFaceI.H",height=0.2,width=0.4,color="red",URL="$a11369.html"];
+  Node1 -> Node3084 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3084 [label="applications/utilities\l/mesh/generation/foamyHexMesh\l/conformalVoronoiMesh/conformalVoronoi\lMesh/indexedCell/indexedCell.H",height=0.2,width=0.4,color="red",URL="$a18224.html"];
+  Node1 -> Node5418 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5418 [label="applications/utilities\l/postProcessing/graphics\l/PV3Readers/PV3FoamReader\l/vtkPV3Foam/vtkOpenFOAMTupleRemap.H",height=0.2,width=0.4,color="red",URL="$a38927.html"];
+  Node1 -> Node5421 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5421 [label="applications/utilities\l/postProcessing/graphics\l/PV4Readers/PV4FoamReader\l/vtkPV4Foam/vtkOpenFOAMTupleRemap.H",height=0.2,width=0.4,color="red",URL="$a38930.html"];
+}

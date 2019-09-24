@@ -1,0 +1,35 @@
+digraph "calcBoxPointNormals"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3 [label="calcBoxPointNormals",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node3 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="Foam::PrimitivePatch\l::faceNormals",height=0.2,width=0.4,color="black",URL="$a27538.html#ad96a54bba336ea57f59f0da350d3c265",tooltip="Return face normals for patch. "];
+  Node3 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node3 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="Foam::PrimitivePatch\l::meshPoints",height=0.2,width=0.4,color="black",URL="$a27538.html#a52e3a457780fe74b31d39dc046bce1d8",tooltip="Return labelList of mesh points in patch. They are constructed. "];
+  Node3 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="normEdgeVec",height=0.2,width=0.4,color="red",URL="$a21153.html#a7fcaaaefc5bc2d460742d9a452091d8b",tooltip="Normalized edge vector. "];
+  Node9 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16 [label="Foam::PrimitivePatch\l::nPoints",height=0.2,width=0.4,color="black",URL="$a27538.html#a1c886a784a597459dbf2d9470798e9dd",tooltip="Return number of points supporting patch faces. "];
+  Node3 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17 [label="Foam::PrimitivePatch\l::pointFaces",height=0.2,width=0.4,color="black",URL="$a27538.html#acc347dd5dd3557af888ac3dd86d90d22",tooltip="Return point-face addressing. "];
+  Node3 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 [label="Foam::PrimitivePatch\l::pointNormals",height=0.2,width=0.4,color="black",URL="$a27538.html#a46bfb38a95e334058a19c3d37c3ed070",tooltip="Return point normals for patch. "];
+  Node3 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19 [label="Foam::PrimitivePatch\l::points",height=0.2,width=0.4,color="black",URL="$a27538.html#aa3c7d968f31c88780c663876f64ef6a6",tooltip="Return reference to global points. "];
+  Node3 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20 [label="visNormal",height=0.2,width=0.4,color="black",URL="$a21153.html#a9de71c14b05e746ff1ba20f30a5f9a05",tooltip="Check if n is in same direction as normals of all faceLabels. "];
+  Node3 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13 [label="Foam::Vector::x",height=0.2,width=0.4,color="black",URL="$a28442.html#a63327976e5a8359700064a02ae22548e"];
+  Node3 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14 [label="Foam::Vector::y",height=0.2,width=0.4,color="black",URL="$a28442.html#a1ee865f676fbac703a49c6654dd3ad74"];
+  Node3 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15 [label="Foam::Vector::z",height=0.2,width=0.4,color="black",URL="$a28442.html#a1c8320b15610de211ec70ef966581423"];
+}

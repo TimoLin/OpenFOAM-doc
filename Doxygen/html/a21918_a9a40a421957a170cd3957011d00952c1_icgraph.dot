@@ -1,0 +1,16 @@
+digraph "New"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node680 [label="New",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node680 -> Node681 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node681 [label="Foam::fv::explicitPorosity\lSource::explicitPorositySource",height=0.2,width=0.4,color="black",URL="$a23466.html#a19cc387c2bc3a1cea3bb7c9cf6ecda63",tooltip="Construct from components. "];
+  Node680 -> Node682 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node682 [label="Foam::fv::interRegionExplicit\lPorositySource::initialise",height=0.2,width=0.4,color="black",URL="$a23534.html#a18abf8b19283101238a77c9e6865b673",tooltip="Initialise. "];
+  Node680 -> Node683 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node683 [label="Foam::porosityModel\l::iNew::operator()",height=0.2,width=0.4,color="black",URL="$a21922.html#aad80947cf7029ef329606d2b1ebe3939"];
+  Node680 -> Node684 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node684 [label="Foam::porosityModelList\l::reset",height=0.2,width=0.4,color="black",URL="$a21926.html#a08d5e47664d164c806dc4d18a7d139aa",tooltip="Reset the source list. "];
+}

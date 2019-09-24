@@ -1,0 +1,19 @@
+digraph "procNo"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node137 [label="procNo",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node137 -> Node138 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node138 [label="baseProcNo",height=0.2,width=0.4,color="red",URL="$a26270.html#afd48a2b11255cc392b5873ea401c8884",tooltip="Return physical processor number (i.e. processor number in. "];
+  Node137 -> Node141 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node141 [label="Foam::dictionary::lookup",height=0.2,width=0.4,color="red",URL="$a26014.html#a6a0727fa523e48977e27348663def509",tooltip="Find and return an entry data stream. "];
+  Node137 -> Node443 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node443 [label="Foam::debug::optimisation\lSwitch",height=0.2,width=0.4,color="red",URL="$a21163.html#a941b7b97be4a01c2b9ea971db69f36cf",tooltip="Lookup optimisation switch or add default value. "];
+  Node443 -> Node444 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node444 [label="Foam::debug::optimisation\lSwitches",height=0.2,width=0.4,color="red",URL="$a21163.html#a620a08d8265bd23ada1f1f0a575c721b",tooltip="The OptimisationSwitches sub-dictionary in the central controlDict. "];
+  Node137 -> Node444 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node137 -> Node447 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node447 [label="Foam::registerOptSwitchWithName",height=0.2,width=0.4,color="black",URL="$a21124.html#a2d49666e3b14c458486880247f623934"];
+}

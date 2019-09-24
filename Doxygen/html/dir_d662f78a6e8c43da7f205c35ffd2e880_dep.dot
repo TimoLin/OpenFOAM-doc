@@ -1,0 +1,19 @@
+digraph "src/thermophysicalModels/properties/solidMixtureProperties" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="FreeSans"];
+  edge [ labelfontsize="10", labelfontname="FreeSans"];
+  subgraph clusterdir_3c6632b74bf580b06326716f3509fb55 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="properties" fontname="FreeSans", fontsize="10", URL="dir_3c6632b74bf580b06326716f3509fb55.html"]
+  subgraph clusterdir_d662f78a6e8c43da7f205c35ffd2e880 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_d662f78a6e8c43da7f205c35ffd2e880.html"];
+    dir_d662f78a6e8c43da7f205c35ffd2e880 [shape=plaintext label="solidMixtureProperties"];
+    dir_cd3f5c37b7e2398ba0a04117af2a1b7e [shape=box label="solidMixtureProperties" color="black" fillcolor="white" style="filled" URL="dir_cd3f5c37b7e2398ba0a04117af2a1b7e.html"];
+  }
+  }
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8 [shape=box label="OpenFOAM" color="red" URL="dir_c5473ff19b20e6ec4dfe5c310b3778a8.html"];
+  dir_dd1bf505e0565c4860d8b471d05004b2 [shape=box label="solidProperties" color="red" URL="dir_dd1bf505e0565c4860d8b471d05004b2.html"];
+  dir_cd3f5c37b7e2398ba0a04117af2a1b7e->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="3", labeldistance=1.5 headhref="dir_002625_001732.html"];
+  dir_cd3f5c37b7e2398ba0a04117af2a1b7e->dir_dd1bf505e0565c4860d8b471d05004b2 [headlabel="1", labeldistance=1.5 headhref="dir_002625_002626.html"];
+  dir_dd1bf505e0565c4860d8b471d05004b2->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="8", labeldistance=1.5 headhref="dir_002626_001732.html"];
+}

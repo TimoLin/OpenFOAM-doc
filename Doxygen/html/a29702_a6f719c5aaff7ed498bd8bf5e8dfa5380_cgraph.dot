@@ -1,0 +1,15 @@
+digraph "updateRefs"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node551 [label="updateRefs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node551 -> Node552 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node552 [label="resetPrimitives",height=0.2,width=0.4,color="red",URL="$a29702.html#a69d99407efb36c53fe7e84981a4828df",tooltip="Reset mesh primitive data. "];
+  Node552 -> Node551 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node551 -> Node564 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node564 [label="updateFacesRef",height=0.2,width=0.4,color="red",URL="$a29702.html#af39711fff65cd9c05a11aa5725252dac",tooltip="Update references to storedFaces. "];
+  Node551 -> Node567 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node567 [label="updatePointsRef",height=0.2,width=0.4,color="red",URL="$a29702.html#a04625629155b5d11981c378c6f954592",tooltip="Update references to storedPoints. "];
+}

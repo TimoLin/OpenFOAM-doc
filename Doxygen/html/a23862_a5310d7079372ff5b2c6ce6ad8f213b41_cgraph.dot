@@ -1,0 +1,32 @@
+digraph "operator()"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2 [label="operator()",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="Foam::CollidingParcel\l::angularMomentum",height=0.2,width=0.4,color="black",URL="$a23854.html#a49dddb2367c5987bb2e00af96763bacb",tooltip="Return const access to angular momentum. "];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="Foam::CollidingParcel\l::collisionRecords",height=0.2,width=0.4,color="black",URL="$a23854.html#adbb8436aaaae8f8380e861f2977ecc8e",tooltip="Return const access to the collision records. "];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="Foam::CollidingParcel::f",height=0.2,width=0.4,color="black",URL="$a23854.html#a8655146931a3161c8babe94251fcfa7c",tooltip="Return const access to force. "];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="Foam::CollidingParcel\l::move",height=0.2,width=0.4,color="red",URL="$a23854.html#a11bc6dce932dcca261959dab510eca54",tooltip="Move the parcel. "];
+  Node2 -> Node50 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node50 [label="Foam::CollidingParcel\l::omega",height=0.2,width=0.4,color="black",URL="$a23854.html#a82d25f29aa98277a0f9e7db54a5f7eee",tooltip="Particle angular velocity. "];
+  Node2 -> Node51 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node51 [label="Foam::CollidingParcel\l::readFields",height=0.2,width=0.4,color="red",URL="$a23854.html#ae1118a08fed2fe58c47d9142f0f131af",tooltip="Read. "];
+  Node2 -> Node58 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node58 [label="Foam::T",height=0.2,width=0.4,color="red",URL="$a21124.html#ae57fda0abb14bb0944947c463c6e09d4"];
+  Node2 -> Node63 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node63 [label="Foam::CollidingParcel\l::torque",height=0.2,width=0.4,color="black",URL="$a23854.html#a93694b542bde90226de3ea0520d43d19",tooltip="Return const access to torque. "];
+  Node2 -> Node64 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node64 [label="Foam::CollidingParcel\l::transformProperties",height=0.2,width=0.4,color="red",URL="$a23854.html#a021e6438cfdab7a29053eb812cda8ea3",tooltip="Transform the physical properties of the particle. "];
+  Node2 -> Node66 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node66 [label="Foam::CollidingParcel\l::writeFields",height=0.2,width=0.4,color="red",URL="$a23854.html#a906eddb9c2a5710c531a5a57276cc18e",tooltip="Write. "];
+  Node66 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node66 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node66 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node66 -> Node63 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

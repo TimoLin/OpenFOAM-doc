@@ -1,0 +1,17 @@
+digraph "timeName"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node17294 [label="timeName",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node17294 -> Node17295 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17295 [label="readDict",height=0.2,width=0.4,color="red",URL="$a26350.html#a09f8bbb748b599cf713fa2e07ec7e0b4",tooltip="Read the control dictionary and set the write controls etc. "];
+  Node17294 -> Node17299 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17299 [label="runTimeModifiable",height=0.2,width=0.4,color="black",URL="$a26350.html#a6b0d82b6a40b7f9c7627d6ccffd54c82",tooltip="Supports re-reading. "];
+  Node17294 -> Node19318 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19318 [label="timePath",height=0.2,width=0.4,color="red",URL="$a26350.html#ad4bbb93e8932e4bae50c44277d2b15fd",tooltip="Return current time path. "];
+  Node17294 -> Node19192 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19192 [label="writeObject",height=0.2,width=0.4,color="red",URL="$a26350.html#ad29090f3bdbff43fd95fa2d856219b5f",tooltip="Write using given format, version and compression. "];
+  Node19192 -> Node17299 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

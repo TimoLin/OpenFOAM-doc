@@ -1,0 +1,17 @@
+digraph "inplaceSubset"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node9332 [label="inplaceSubset",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node9332 -> Node9333 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9333 [label="abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node9332 -> Node9376 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9376 [label="Foam::UList::size",height=0.2,width=0.4,color="black",URL="$a25698.html#a47b3bf30da1eb3ab8076b5fbe00e0494",tooltip="Return the number of elements in the UList. "];
+  Node9332 -> Node9377 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9377 [label="subset",height=0.2,width=0.4,color="black",URL="$a21124.html#af053f0dfbaeb31c38d85eb32efcd00d1",tooltip="Extract elements of List when select is a certain value. "];
+  Node9377 -> Node9333 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9377 -> Node9332 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9377 -> Node9376 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

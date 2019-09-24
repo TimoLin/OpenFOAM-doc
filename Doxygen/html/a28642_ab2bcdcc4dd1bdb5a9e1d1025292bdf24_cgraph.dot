@@ -1,0 +1,24 @@
+digraph "getRegion"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2703 [label="getRegion",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2703 -> Node2704 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2704 [label="getNormal",height=0.2,width=0.4,color="red",URL="$a28642.html#aa9abdb9ffe5f3cb1c2992ccb3bcc9e48",tooltip="From a set of points and indices get the normal. "];
+  Node2704 -> Node2705 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2705 [label="Foam::UPstream::parRun",height=0.2,width=0.4,color="black",URL="$a26270.html#adbb27f04b5705440fb8b09f278059011",tooltip="Is this a parallel run? "];
+  Node2704 -> Node2710 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2710 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node2704 -> Node2709 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2709 [label="Foam::List::setSize",height=0.2,width=0.4,color="black",URL="$a25694.html#aedb985ffeaf1bdbfeccc2a8730405703",tooltip="Reset size of List. "];
+  Node2704 -> Node2713 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2713 [label="Foam::mapDistribute\l::reverseDistribute",height=0.2,width=0.4,color="red",URL="$a27362.html#af4843479bbb5ce26fab0dbefd525c410",tooltip="Reverse distribute data using default commsType. "];
+  Node2703 -> Node3081 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3081 [label="Foam::UList::operator[]",height=0.2,width=0.4,color="black",URL="$a25698.html#a851e28f7788bbc82f5a4aa9f0efdefe4",tooltip="Return element of UList. "];
+  Node2703 -> Node2705 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2703 -> Node2713 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2703 -> Node2709 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2703 -> Node2710 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

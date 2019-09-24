@@ -1,0 +1,22 @@
+digraph "rmap"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node44 [label="rmap",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node44 -> Node45 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node45 [label="Foam::valuePointPatchField\l\< vector \>::autoMap",height=0.2,width=0.4,color="black",URL="$a26574.html#a29ce2a7cdc96cffba66b33b9ab1355a4",tooltip="Map (and resize as needed) from self given a mapping object. "];
+  Node44 -> Node46 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node46 [label="Foam::oscillatingVelocity\lPointPatchVectorField::rmap",height=0.2,width=0.4,color="red",URL="$a23406.html#aab3d2f411d5ceff80ad8f9839885b8cc",tooltip="Reverse map the given pointPatchField onto this pointPatchField. "];
+  Node44 -> Node50 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node50 [label="Foam::angularOscillating\lVelocityPointPatchVectorField::rmap",height=0.2,width=0.4,color="red",URL="$a23398.html#aab3d2f411d5ceff80ad8f9839885b8cc",tooltip="Reverse map the given pointPatchField onto this pointPatchField. "];
+  Node44 -> Node54 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node54 [label="Foam::angularOscillating\lDisplacementPointPatchVector\lField::rmap",height=0.2,width=0.4,color="red",URL="$a23394.html#aab3d2f411d5ceff80ad8f9839885b8cc",tooltip="Reverse map the given pointPatchField onto this pointPatchField. "];
+  Node44 -> Node58 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node58 [label="Foam::uncoupledSixDoFRigid\lBodyDisplacementPointPatchVector\lField::rmap",height=0.2,width=0.4,color="red",URL="$a29474.html#aab3d2f411d5ceff80ad8f9839885b8cc",tooltip="Reverse map the given pointPatchField onto this pointPatchField. "];
+  Node44 -> Node62 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node62 [label="Foam::sixDoFRigidBodyDisplacement\lPointPatchVectorField::rmap",height=0.2,width=0.4,color="red",URL="$a29470.html#aab3d2f411d5ceff80ad8f9839885b8cc",tooltip="Reverse map the given pointPatchField onto this pointPatchField. "];
+  Node44 -> Node66 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node66 [label="Foam::valuePointPatchField\l\< vector \>::size",height=0.2,width=0.4,color="black",URL="$a26574.html#a9facbf0a118d395c89884e45a5ca4e4b",tooltip="Return size. "];
+}

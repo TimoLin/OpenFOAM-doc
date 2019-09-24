@@ -1,0 +1,24 @@
+digraph "~LeastSquaresVectors"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2 [label="~LeastSquaresVectors",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="Foam::fvMesh::C",height=0.2,width=0.4,color="black",URL="$a22766.html#a724799c6e3ba1bd41ad47529f330d066",tooltip="Return cell centres as volVectorField. "];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="Foam::extendedCentredCell\lToCellStencil::collectData",height=0.2,width=0.4,color="red",URL="$a22634.html#aeb99ab86ad7ce7ba05ced96c2f1c03c7",tooltip="Use map to get the data into stencil order. "];
+  Node2 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node2 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14 [label="Foam::polyMesh::geometricD",height=0.2,width=0.4,color="red",URL="$a27410.html#afeb0c5ec9cb10317d78597051a1bead2",tooltip="Return the vector of geometric directions in mesh. "];
+  Node2 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16 [label="inv",height=0.2,width=0.4,color="red",URL="$a12539.html#a051a9cc73ad6012d849cfcbc7507acde"];
+  Node2 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 [label="magSqr",height=0.2,width=0.4,color="red",URL="$a12539.html#ab0cd33eb018a643a64ca545601530791"];
+  Node2 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node2 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20 [label="sqr",height=0.2,width=0.4,color="red",URL="$a12539.html#a557bbac590ed5ce51116be69fe4faa96"];
+}

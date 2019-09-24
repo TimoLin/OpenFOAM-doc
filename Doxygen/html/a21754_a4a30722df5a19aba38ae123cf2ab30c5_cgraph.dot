@@ -1,0 +1,18 @@
+digraph "mergePoints"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node784 [label="mergePoints",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node784 -> Node785 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node785 [label="forAllConstIter",height=0.2,width=0.4,color="red",URL="$a38141.html#ae21e2836509b0fa7f7cedf6493b11b09"];
+  Node784 -> Node1087 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1087 [label="Foam::mergePoints",height=0.2,width=0.4,color="black",URL="$a21124.html#a91cf82266e8f08da4a95ebafddc2f61d",tooltip="Sorts and merges points. All points closer than/equal mergeTol get merged. "];
+  Node784 -> Node844 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node844 [label="Foam::List::setSize",height=0.2,width=0.4,color="black",URL="$a25694.html#aedb985ffeaf1bdbfeccc2a8730405703",tooltip="Reset size of List. "];
+  Node784 -> Node874 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node874 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node784 -> Node1088 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1088 [label="Foam::List::transfer",height=0.2,width=0.4,color="black",URL="$a25694.html#a25ad1d2084d16b234b0cf91c07e832c0",tooltip="Transfer the contents of the argument List into this list. "];
+}

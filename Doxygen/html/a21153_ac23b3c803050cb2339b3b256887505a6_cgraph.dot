@@ -1,0 +1,18 @@
+digraph "findEdge"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node816 [label="findEdge",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node816 -> Node817 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node817 [label="Foam::primitiveMesh\l::edges",height=0.2,width=0.4,color="black",URL="$a27530.html#a21d764179912ddda5c6f95193c289846",tooltip="Return mesh edges. Uses calcEdges. "];
+  Node816 -> Node818 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node818 [label="Foam::edge::end",height=0.2,width=0.4,color="red",URL="$a27210.html#a5ac1c619caccdf5bcf8c3d58a409849f",tooltip="Return end vertex label. "];
+  Node816 -> Node820 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node820 [label="getSharedEdge",height=0.2,width=0.4,color="red",URL="$a21153.html#a3de615b659fcc994b0d7f17ffb51f599",tooltip="Return edge shared by two faces. Throws error if no edge found. "];
+  Node816 -> Node829 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node829 [label="Foam::primitiveMesh\l::pointEdges",height=0.2,width=0.4,color="black",URL="$a27530.html#a219060536b044c749e6178283665d632"];
+  Node816 -> Node896 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node896 [label="Foam::edge::start",height=0.2,width=0.4,color="red",URL="$a27210.html#afe56bdd2031bbf8321e35e2330c0b990",tooltip="Return start vertex label. "];
+}

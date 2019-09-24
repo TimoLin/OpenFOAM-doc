@@ -1,0 +1,46 @@
+digraph "nextLabel"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node240 [label="nextLabel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node240 -> Node241 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node241 [label="Foam::polyMeshGeometry\l::affectedCells",height=0.2,width=0.4,color="red",URL="$a21562.html#af5a651dc1cbf2df9601f576420a0cc3c",tooltip="Helper function: get affected cells from faces. "];
+  Node240 -> Node245 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node245 [label="Foam::polyMeshGeometry\l::checkFaceFlatness",height=0.2,width=0.4,color="red",URL="$a21562.html#acb7df07bcf27aac10bd53d646096cdec",tooltip="Area of faces v.s. sum of triangle areas. "];
+  Node245 -> Node246 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node246 [label="Foam::polyMeshGeometry\l::checkTriangleTwist",height=0.2,width=0.4,color="red",URL="$a21562.html#a1cffc7219859f1b1b9ed8a96be57f242",tooltip="Consecutive triangle (from face-centre decomposition) normals. "];
+  Node246 -> Node247 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node247 [label="Foam::polyMeshGeometry\l::checkFaceTwist",height=0.2,width=0.4,color="red",URL="$a21562.html#a1d15f5f7fdae54e4c34b03a0462cd535",tooltip="Triangle (from face-centre decomposition) normal v.s. "];
+  Node240 -> Node268 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node268 [label="Foam::polyMeshTetDecomposition\l::checkFaceTets",height=0.2,width=0.4,color="red",URL="$a27418.html#a73ef5247a1e78210c08a4a9ef6222e9f",tooltip="Check face-decomposition tet volume. "];
+  Node268 -> Node437 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node437 [label="Foam::wallBoundedStreamLine\l::read",height=0.2,width=0.4,color="red",URL="$a28806.html#aa9b8764750bd9ff67ca32b6551dc7847",tooltip="Read the field average data. "];
+  Node240 -> Node439 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node439 [label="Foam::primitiveMeshGeometry\l::checkFaceTwist",height=0.2,width=0.4,color="red",URL="$a25146.html#a024a05dbc6d84c1506e13b255ee71518"];
+  Node240 -> Node247 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node240 -> Node246 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node240 -> Node277 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node277 [label="Foam::wallBoundedParticle\l::crossEdgeConnectedFace",height=0.2,width=0.4,color="red",URL="$a28794.html#ae3ca85ef7356d8ad9e37b4e50cb786ce",tooltip="Check if inside current tet. "];
+  Node277 -> Node278 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node278 [label="Foam::wallBoundedParticle\l::currentEdge",height=0.2,width=0.4,color="red",URL="$a28794.html#a7ef8e84a420737548b1c746cef447b26",tooltip="Construct current edge. "];
+  Node240 -> Node278 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node240 -> Node449 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node449 [label="Foam::primitiveMesh\l::faceEdges",height=0.2,width=0.4,color="black",URL="$a27530.html#af9a5126a3f71ac85ea1e7883b2fadc15",tooltip="faceEdges using pointFaces, edges, pointEdges "];
+  Node240 -> Node450 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node450 [label="Foam::combineFaces\l::getOutsideFace",height=0.2,width=0.4,color="red",URL="$a21634.html#af695da5d6484dda0cf20307778b302f0",tooltip="Gets outside of patch as a face (in mesh point labels) "];
+  Node240 -> Node454 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node454 [label="Foam::meshTriangulation\l::meshTriangulation",height=0.2,width=0.4,color="black",URL="$a30558.html#adc26bbba53e9c1d772cb4c2807351802",tooltip="Construct from selected mesh cell and region number to be used. "];
+  Node240 -> Node290 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node290 [label="Foam::NamedEnum\< direction\lType, 3 \>::names",height=0.2,width=0.4,color="black",URL="$a25998.html#a7350da3a0edd92cd11e6c479c9967dc8"];
+  Node240 -> Node332 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node332 [label="Foam::polyMesh::pointInCell",height=0.2,width=0.4,color="red",URL="$a27410.html#a0867f30df00643909280245ea9f26310",tooltip="Is the point in the cell. "];
+  Node240 -> Node437 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node240 -> Node455 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node455 [label="Foam::edgeFaceCirculator\l::setCanonical",height=0.2,width=0.4,color="red",URL="$a25022.html#a9fe0f5513339c480e64660f5f36514c2",tooltip="Set edge to a unique state so different ones can be compared. "];
+  Node240 -> Node458 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node458 [label="Foam::boundaryCutter\l::setRefinement",height=0.2,width=0.4,color="red",URL="$a21498.html#ae6930353f029f71d7726d9992c9538f9",tooltip="Do actual cutting with cut description. Inserts mesh changes. "];
+  Node240 -> Node271 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node271 [label="Foam::tetDecomposer\l::setRefinement",height=0.2,width=0.4,color="red",URL="$a21726.html#aeb1123afb6f39d7eb332698e53fc5610",tooltip="Insert all changes into meshMod to convert the polyMesh into. "];
+}

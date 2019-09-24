@@ -1,0 +1,21 @@
+digraph "getEdgeFaces"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1570 [label="getEdgeFaces",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1570 -> Node1571 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1571 [label="Foam::hexCellLooper::cut",height=0.2,width=0.4,color="red",URL="$a21478.html#a3d6305b93327dbf1434bf2c8362a3a3e",tooltip="Create cut along circumference of cellI. Gets current mesh cuts. "];
+  Node1571 -> Node1572 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1572 [label="Foam::topoCellLooper::cut",height=0.2,width=0.4,color="red",URL="$a21482.html#a3d6305b93327dbf1434bf2c8362a3a3e",tooltip="Create cut along circumference of cellI. Gets current mesh cuts. "];
+  Node1570 -> Node1572 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1570 -> Node1575 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1575 [label="Foam::directionInfo\l::edgeToFaceIndex",height=0.2,width=0.4,color="red",URL="$a21486.html#ae91026257717a2d46454adf53e72da4d",tooltip="Given edge on hex cell find corresponding edge on face. Is either. "];
+  Node1570 -> Node1588 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1588 [label="getSharedFace",height=0.2,width=0.4,color="red",URL="$a21153.html#a8550e28a800fded0b2d9dcdce6a6c4f6",tooltip="Return face shared by two cells. Throws error if none found. "];
+  Node1570 -> Node1593 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1593 [label="Foam::cellLooper::getVert\lFacesNonEdge",height=0.2,width=0.4,color="red",URL="$a21470.html#a0cf36eaabe014e03f3d71a1be2b98154",tooltip="Get faces (on cell) connected to vertI which are not using edgeI. "];
+  Node1570 -> Node1596 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1596 [label="otherFace",height=0.2,width=0.4,color="red",URL="$a21153.html#a38973075afca54f6ee816cab3b8bff7e",tooltip="Return face on cell using edgeI but not faceI. Throws error. "];
+}

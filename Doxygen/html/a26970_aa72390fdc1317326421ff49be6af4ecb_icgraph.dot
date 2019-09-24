@@ -1,0 +1,13 @@
+digraph "restrictFaceField"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1684 [label="restrictFaceField",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1684 -> Node1685 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1685 [label="nFaces",height=0.2,width=0.4,color="red",URL="$a26970.html#afb7f337f99c970a8e63778e3fddc909c",tooltip="Return number of coarse faces (before processor agglomeration) "];
+  Node1684 -> Node1687 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1687 [label="restrictField",height=0.2,width=0.4,color="red",URL="$a26970.html#a1859b2a6efbf2701dff3bcbf0b5d2a55",tooltip="Restrict (integrate by summation) cell field. "];
+  Node1687 -> Node1685 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

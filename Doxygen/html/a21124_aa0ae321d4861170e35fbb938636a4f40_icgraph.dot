@@ -1,0 +1,48 @@
+digraph "pow4"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node34804 [label="pow4",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node34804 -> Node34805 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34805 [label="atan2",height=0.2,width=0.4,color="black",URL="$a21124.html#a9d45ac659e1f4191f75f0fe34ad7f596"];
+  Node34804 -> Node34806 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34806 [label="Foam::radiation::blackBody\lEmission::blackBodyEmission",height=0.2,width=0.4,color="black",URL="$a30018.html#a3d50fc488ddebf49bcebd662eabbe9f4",tooltip="Construct from components. "];
+  Node34804 -> Node34807 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34807 [label="Foam::ReactingParcel\l::calc",height=0.2,width=0.4,color="red",URL="$a23922.html#a1c2aa9de8e2381d1a7be78bd687fd255",tooltip="Update parcel properties over the time interval. "];
+  Node34804 -> Node34814 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34814 [label="Foam::ReactingMultiphase\lParcel::calc",height=0.2,width=0.4,color="red",URL="$a23910.html#a1c2aa9de8e2381d1a7be78bd687fd255",tooltip="Update parcel properties over the time interval. "];
+  Node34804 -> Node34819 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34819 [label="Foam::ThermoParcel\l::calc",height=0.2,width=0.4,color="red",URL="$a23938.html#a1c2aa9de8e2381d1a7be78bd687fd255",tooltip="Update parcel properties over the time interval. "];
+  Node34804 -> Node34824 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34824 [label="Foam::targetCoeffTrim\l::calcCoeffs",height=0.2,width=0.4,color="black",URL="$a23514.html#a63212d8ba3282f63525eaae844e24ed4"];
+  Node34804 -> Node34825 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34825 [label="Foam::ThermoParcel\l::calcHeatTransfer",height=0.2,width=0.4,color="black",URL="$a23938.html#a912c03534941aba308684d8402b6d205"];
+  Node34804 -> Node34826 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34826 [label="Foam::radiation::P1\l::calculate",height=0.2,width=0.4,color="black",URL="$a30038.html#afe1d8348c24e6589bc7c0b3f689316a7",tooltip="Solve radiation equation(s) "];
+  Node34804 -> Node34827 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34827 [label="Foam::radiation::blackBody\lEmission::EbDeltaLambdaT",height=0.2,width=0.4,color="red",URL="$a30018.html#a571ad865605e339dc20b3f3a7e520542",tooltip="Integral energy at T from lambda1 to lambda2. "];
+  Node34804 -> Node34831 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34831 [label="Foam::incompressible\l::LESModels::kOmegaSSTSAS::F1",height=0.2,width=0.4,color="red",URL="$a30866.html#a312d02f8c5b337f556b9e7388dbffdf9"];
+  Node34804 -> Node34833 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34833 [label="Foam::compressible\l::RASModels::kOmegaSST::F1",height=0.2,width=0.4,color="red",URL="$a30738.html#a312d02f8c5b337f556b9e7388dbffdf9"];
+  Node34804 -> Node34836 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34836 [label="Foam::compressible\l::RASModels::kOmegaSST::F3",height=0.2,width=0.4,color="red",URL="$a30738.html#affbf03d0b7d23966e52280586ff3e312"];
+  Node34804 -> Node34840 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34840 [label="Foam::radiation::viewFactor::Rp",height=0.2,width=0.4,color="black",URL="$a30046.html#a5fb6b554befc96ff8d2018a8dd5fe35f",tooltip="Source term component (for power of T^4) "];
+  Node34804 -> Node34841 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34841 [label="stabilise",height=0.2,width=0.4,color="black",URL="$a21124.html#a0f54b8f830b5ec7eb36ed5ccda6d7b1e"];
+  Node34804 -> Node34842 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34842 [label="Foam::ETAB::update",height=0.2,width=0.4,color="red",URL="$a24558.html#af86a08f997bc779309ec7d00e914e292",tooltip="update the parcel properties "];
+  Node34804 -> Node34845 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34845 [label="Foam::radiation::greyDiffusive\lRadiationMixedFvPatchScalarField\l::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a29990.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node34804 -> Node34848 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34848 [label="Foam::MarshakRadiationFv\lPatchScalarField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a29998.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node34804 -> Node34850 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34850 [label="Foam::compressible\l::RASModels::v2WallFunction\lFvPatchScalarField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a30730.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node34804 -> Node34852 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34852 [label="Foam::MarshakRadiationFixed\lTemperatureFvPatchScalarField\l::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a30002.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node34804 -> Node34854 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34854 [label="Foam::radiation::wideBand\lDiffusiveRadiationMixedFvPatch\lScalarField::wideBandDiffusiveRadiation\lMixedFvPatchScalarField",height=0.2,width=0.4,color="black",URL="$a30010.html#a9846c9d4f33eec86b40b657c29402c97",tooltip="Construct from patch, internal field and dictionary. "];
+}

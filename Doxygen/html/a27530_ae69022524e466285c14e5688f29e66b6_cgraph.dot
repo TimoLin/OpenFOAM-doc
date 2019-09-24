@@ -1,0 +1,18 @@
+digraph "calcFaceCentresAndAreas"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node23 [label="calcFaceCentresAndAreas",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node23 -> Node24 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node24 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node23 -> Node32 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node32 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node23 -> Node67 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node67 [label="makeFaceCentresAndAreas",height=0.2,width=0.4,color="red",URL="$a27530.html#a4925b70eed5a8306297759fcf4afa008"];
+  Node23 -> Node74 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node74 [label="nFaces",height=0.2,width=0.4,color="black",URL="$a27530.html#abe602c985a3c9ffa67176e969e77ca6f"];
+  Node23 -> Node75 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node75 [label="points",height=0.2,width=0.4,color="black",URL="$a27530.html#ad0e408ab3f867b58e419eb1cd8c2dbb6",tooltip="Return mesh points. "];
+}

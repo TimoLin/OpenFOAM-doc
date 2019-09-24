@@ -1,0 +1,15 @@
+digraph "baseMesh"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node819 [label="baseMesh",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node819 -> Node820 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node820 [label="Foam::fvMeshDistribute\l::printFieldInfo",height=0.2,width=0.4,color="black",URL="$a21454.html#ac01a969a7e9466cbdca2475c4c0bd9c2",tooltip="Print some field info. "];
+  Node819 -> Node821 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node821 [label="setCellSubset",height=0.2,width=0.4,color="red",URL="$a22790.html#a7007bf1daafcf75caa93fdb67143236e",tooltip="Set the subset. Create \"oldInternalFaces\" patch for exposed. "];
+  Node819 -> Node823 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node823 [label="setLargeCellSubset",height=0.2,width=0.4,color="red",URL="$a22790.html#aa5aecd31ebb23c10811eb60949808165",tooltip="Set the subset from all cells with region == currentRegion. "];
+  Node823 -> Node821 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

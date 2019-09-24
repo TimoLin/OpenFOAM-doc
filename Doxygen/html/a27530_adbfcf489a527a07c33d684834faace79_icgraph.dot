@@ -1,0 +1,40 @@
+digraph "faceEdges"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node34561 [label="faceEdges",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node34561 -> Node34562 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34562 [label="cellEdges",height=0.2,width=0.4,color="black",URL="$a27530.html#aa8f3c979c238982d15fd48beb8c76ca9",tooltip="cellEdges using cells, pointFaces, edges, pointEdges "];
+  Node34561 -> Node34563 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34563 [label="Foam::edgeCollapser\l::consistentCollapse",height=0.2,width=0.4,color="red",URL="$a21642.html#a7e2bf473b4c7a583afaf66ea4927f247",tooltip="Ensure that the collapse is parallel consistent and update. "];
+  Node34561 -> Node34566 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34566 [label="Foam::meshRefinement\l::createZoneBaffles",height=0.2,width=0.4,color="red",URL="$a24662.html#a79af0bcc267d8fda8b3f4e683cac915b",tooltip="Create baffles for faces straddling zoned surfaces. Return. "];
+  Node34561 -> Node34569 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34569 [label="edgeFaces",height=0.2,width=0.4,color="red",URL="$a27530.html#ad38ecd2902727a890ebd437731c271c8"];
+  Node34569 -> Node34622 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34622 [label="Foam::cellCuts::nonAnchor\lPoints",height=0.2,width=0.4,color="red",URL="$a21466.html#a99cdc1288c329f2654ead522706957a6",tooltip="Invert anchor point selection. "];
+  Node34569 -> Node34630 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34630 [label="Foam::boundaryMesh\l::patchNames",height=0.2,width=0.4,color="red",URL="$a21430.html#a3a56710ba8cff5664a002b134c75d5bd",tooltip="Get names of patches. "];
+  Node34569 -> Node34632 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34632 [label="Foam::faceCollapser\l::setRefinement",height=0.2,width=0.4,color="red",URL="$a21646.html#a4eb4757ecb940ebe87d1e45559d1bad1",tooltip="Collapse faces along endpoints. Play commands into. "];
+  Node34561 -> Node34636 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34636 [label="Foam::meshTools::edgeOnFace",height=0.2,width=0.4,color="red",URL="$a21153.html#adcce7d0cc5aff478051549e5c83de2bd",tooltip="Is edge used by face. "];
+  Node34561 -> Node34643 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34643 [label="faceEdges",height=0.2,width=0.4,color="black",URL="$a27530.html#af9a5126a3f71ac85ea1e7883b2fadc15",tooltip="faceEdges using pointFaces, edges, pointEdges "];
+  Node34561 -> Node34641 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34641 [label="Foam::cellLooper::getFirst\lVertEdge",height=0.2,width=0.4,color="red",URL="$a21470.html#af3d3d3a80954ac6570f46456be204225",tooltip="Get first edge connected to vertI and on faceI. "];
+  Node34561 -> Node34606 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34606 [label="Foam::meshTools::getSharedEdge",height=0.2,width=0.4,color="red",URL="$a21153.html#a3de615b659fcc994b0d7f17ffb51f599",tooltip="Return edge shared by two faces. Throws error if no edge found. "];
+  Node34561 -> Node34640 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34640 [label="Foam::cellLooper::getVert\lEdgesNonFace",height=0.2,width=0.4,color="black",URL="$a21470.html#a0a167d658711bc2b8e9765d06ffd167c",tooltip="Get edges (on cell) connected to vertI which are not on faceI. "];
+  Node34640 -> Node34641 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34561 -> Node34622 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34561 -> Node34630 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34561 -> Node34632 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34561 -> Node34597 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34597 [label="Foam::directionInfo\l::updateCell",height=0.2,width=0.4,color="red",URL="$a21486.html#a590b938e5b9283bf1d9f095803dba398",tooltip="Influence of neighbouring face. "];
+  Node34561 -> Node34616 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34616 [label="Foam::meshTools::walkFace",height=0.2,width=0.4,color="red",URL="$a21153.html#a7a612dbf101c056ee4e4f2a0f812c278",tooltip="Returns label of edge nEdges away from startEdge (in the direction. "];
+}

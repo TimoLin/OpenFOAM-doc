@@ -1,0 +1,16 @@
+digraph "reduce"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node28354 [label="reduce",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node28354 -> Node28355 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node28355 [label="endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node28354 -> Node28357 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node28357 [label="Foam::Pstream::gather",height=0.2,width=0.4,color="red",URL="$a26250.html#ac820bc187d8204d9063ce1f77dcf87da",tooltip="Gather data. Apply bop to combine Value. "];
+  Node28354 -> Node28370 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node28370 [label="Foam::error::printStack",height=0.2,width=0.4,color="black",URL="$a26082.html#a7fb27e884553ce565d0ea6276a111e0e",tooltip="Helper function to print a stack. "];
+  Node28354 -> Node28371 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node28371 [label="Foam::Pstream::scatter",height=0.2,width=0.4,color="red",URL="$a26250.html#a00bc7d5a0b660cfa53523561af48def2",tooltip="Scatter data. Distribute without modification. Reverse of gather. "];
+}

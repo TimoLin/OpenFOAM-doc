@@ -1,0 +1,12 @@
+digraph "featurePointNormals"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node781 [label="featurePointNormals",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node781 -> Node782 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node782 [label="add",height=0.2,width=0.4,color="black",URL="$a21786.html#af07e0aa40a7a71b92a74dd6b77a44ad3",tooltip="Add extendedEdgeMesh. No filtering of duplicates. "];
+  Node781 -> Node783 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node783 [label="flipNormals",height=0.2,width=0.4,color="black",URL="$a21786.html#ace7a4ec5b5de12179b1d4194ea408066",tooltip="Flip normals. All concave become convex, all internal external. "];
+}

@@ -1,0 +1,24 @@
+digraph "checkBadFaces"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node555 [label="checkBadFaces",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node555 -> Node556 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node556 [label="Foam::motionSmootherAlgo\l::checkMesh",height=0.2,width=0.4,color="red",URL="$a21550.html#afbe9420d4dac86e78be8408bd5475536",tooltip="Check mesh with mesh settings in dict. Collects incorrect faces. "];
+  Node556 -> Node558 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node558 [label="Foam::primitiveMesh\l::nFaces",height=0.2,width=0.4,color="black",URL="$a27530.html#abe602c985a3c9ffa67176e969e77ca6f"];
+  Node555 -> Node559 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node559 [label="checkMeshQuality",height=0.2,width=0.4,color="red",URL="$a21642.html#a05c592dbdbe3fcc0728c2595750b5982",tooltip="Check mesh and mark points on faces in error. "];
+  Node559 -> Node555 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node559 -> Node660 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node660 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node559 -> Node566 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node566 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node555 -> Node566 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node555 -> Node669 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node669 [label="Foam::primitiveMesh\l::faceAreas",height=0.2,width=0.4,color="red",URL="$a27530.html#adefd042a02b5fa7ab8ab95063a631420"];
+  Node555 -> Node660 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node555 -> Node558 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

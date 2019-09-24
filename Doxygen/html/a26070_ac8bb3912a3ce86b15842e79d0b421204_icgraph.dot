@@ -1,0 +1,16 @@
+digraph "clear"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node726 [label="clear",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node726 -> Node727 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node727 [label="codeDirName",height=0.2,width=0.4,color="black",URL="$a26070.html#a03583b008e55aa52fecb01f0df03b665",tooltip="Return the code-dirname. "];
+  Node726 -> Node728 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node728 [label="dynamicCode",height=0.2,width=0.4,color="black",URL="$a26070.html#a1ce54c276aa72dae2253b664a2a77471",tooltip="Construct for a specified code name and code directory name. "];
+  Node726 -> Node729 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node729 [label="reset",height=0.2,width=0.4,color="black",URL="$a26070.html#a5fe40a6007c13edae2b46c47d7a0c3c7",tooltip="Clear files and reset variables to specified context. "];
+  Node729 -> Node726 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node729 -> Node727 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

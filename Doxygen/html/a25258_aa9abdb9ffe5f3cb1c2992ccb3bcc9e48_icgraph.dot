@@ -1,0 +1,15 @@
+digraph "getNormal"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2115 [label="getNormal",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2115 -> Node2116 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2116 [label="Foam::distributedTriSurface\lMesh::getNormal",height=0.2,width=0.4,color="red",URL="$a28642.html#aa9abdb9ffe5f3cb1c2992ccb3bcc9e48",tooltip="From a set of points and indices get the normal. "];
+  Node2115 -> Node2122 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2122 [label="getRegion",height=0.2,width=0.4,color="red",URL="$a25258.html#ab2bcdcc4dd1bdb5a9e1d1025292bdf24",tooltip="From a set of points and indices get the region. "];
+  Node2122 -> Node2127 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2127 [label="size",height=0.2,width=0.4,color="red",URL="$a25258.html#a03bc1200aac252c4d3e18657d700b71c",tooltip="Range of local indices that can be returned. "];
+  Node2115 -> Node2127 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,19 @@
+digraph "~STLsurfaceFormat"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node68 [label="~STLsurfaceFormat",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node68 -> Node69 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node69 [label="read",height=0.2,width=0.4,color="red",URL="$a29642.html#a464ebd67acbdff0014d4dae69e3ec4be",tooltip="Read from file. "];
+  Node69 -> Node79 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node79 [label="writeAscii",height=0.2,width=0.4,color="red",URL="$a29642.html#a9ed2139058d6a7dca0edb4f9c88e6599",tooltip="Write surface mesh components by proxy (as ASCII) "];
+  Node79 -> Node134 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node134 [label="writeBinary",height=0.2,width=0.4,color="red",URL="$a29642.html#a3c9f7310b853c8ab0e75e5f2db117e7c",tooltip="Write surface mesh components by proxy (as BINARY) "];
+  Node134 -> Node79 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node68 -> Node135 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node135 [label="write",height=0.2,width=0.4,color="red",URL="$a29642.html#a2a1e1394d9dd8932b738248c123a267f",tooltip="Write surface mesh components by proxy. "];
+  Node68 -> Node79 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node68 -> Node134 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

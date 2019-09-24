@@ -1,0 +1,30 @@
+digraph "extendedEdgeMesh"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node5 [label="extendedEdgeMesh",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="edgeMesh",height=0.2,width=0.4,color="red",URL="$a21754.html",tooltip="Points connected by edges. "];
+  Node11 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" featurePointNormals\l_\nfeaturePointEdges\l_\nedgeNormals_\nnormalDirections_" ,fontname="FreeSans"];
+  Node11 [label="List\< labelList \>",height=0.2,width=0.4,color="red",URL="$a25694.html"];
+  Node15 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" edgeStatusNames_" ,fontname="FreeSans"];
+  Node15 [label="NamedEnum\< edgeStatus, 6 \>",height=0.2,width=0.4,color="red",URL="$a25998.html"];
+  Node20 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" edgeTree_" ,fontname="FreeSans"];
+  Node20 [label="autoPtr\< Foam::indexedOctree\l\< Foam::treeDataEdge \> \>",height=0.2,width=0.4,color="red",URL="$a25958.html"];
+  Node22 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" pointTree_" ,fontname="FreeSans"];
+  Node22 [label="autoPtr\< Foam::indexedOctree\l\< Foam::treeDataPoint \> \>",height=0.2,width=0.4,color="red",URL="$a25958.html"];
+  Node23 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" normalVolumeTypes_" ,fontname="FreeSans"];
+  Node23 [label="List\< sideVolumeType \>",height=0.2,width=0.4,color="red",URL="$a25694.html"];
+  Node25 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" regionEdges_" ,fontname="FreeSans"];
+  Node25 [label="List\< label \>",height=0.2,width=0.4,color="red",URL="$a25694.html"];
+  Node27 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" pointStatusNames_" ,fontname="FreeSans"];
+  Node27 [label="NamedEnum\< pointStatus, 4 \>",height=0.2,width=0.4,color="red",URL="$a25998.html"];
+  Node28 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" edgeTreesByType_" ,fontname="FreeSans"];
+  Node28 [label="PtrList\< Foam::indexedOctree\l\< Foam::treeDataEdge \> \>",height=0.2,width=0.4,color="red",URL="$a25914.html"];
+  Node30 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" edgeDirections_\nnormals_" ,fontname="FreeSans"];
+  Node30 [label="Field\< vector \>",height=0.2,width=0.4,color="red",URL="$a26466.html"];
+  Node38 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" sideVolumeTypeNames_" ,fontname="FreeSans"];
+  Node38 [label="NamedEnum\< sideVolumeType, 4 \>",height=0.2,width=0.4,color="red",URL="$a25998.html"];
+}

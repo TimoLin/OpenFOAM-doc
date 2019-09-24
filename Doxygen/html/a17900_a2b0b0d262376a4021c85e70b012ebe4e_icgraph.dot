@@ -1,0 +1,32 @@
+digraph "patchNames"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3224 [label="patchNames",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3224 -> Node3225 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3225 [label="Foam::polyBoundaryMesh\l::checkDefinition",height=0.2,width=0.4,color="red",URL="$a27402.html#a039ec44911bfb8cd28ffd27a600e6fc5",tooltip="Check boundary definition. Return true if in error. "];
+  Node3225 -> Node3226 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3226 [label="Foam::polyBoundaryMesh\l::mesh",height=0.2,width=0.4,color="red",URL="$a27402.html#ae78c91f8ff731c07ccc4351d9fe861ba",tooltip="Return the mesh reference. "];
+  Node3226 -> Node3306 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3306 [label="Foam::compressible\l::thermalBaffleFvPatchScalar\lField::rmap",height=0.2,width=0.4,color="red",URL="$a29186.html#a713277715ccc0a5ef466b0516d44731f",tooltip="Reverse map the given fvPatchField onto this fvPatchField. "];
+  Node3224 -> Node3339 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3339 [label="Foam::extrudePatchMesh\l::extrudePatchMesh",height=0.2,width=0.4,color="red",URL="$a21446.html#ada5aee048de4d025b44660aca99d21a6",tooltip="Construct from mesh, patch and dictionary. "];
+  Node3224 -> Node3552 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3552 [label="forAll",height=0.2,width=0.4,color="black",URL="$a17900.html#aed2e7fb0cc5e714d9c26e3ea39f2dc88"];
+  Node3224 -> Node3553 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3553 [label="if",height=0.2,width=0.4,color="black",URL="$a17900.html#ad0f5714c80a40fa804039f31f12ea6ad"];
+  Node3224 -> Node3554 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3554 [label="Foam::cellDistFuncs\l::mesh",height=0.2,width=0.4,color="red",URL="$a24958.html#ae78c91f8ff731c07ccc4351d9fe861ba",tooltip="Access mesh. "];
+  Node3224 -> Node3226 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3224 -> Node3564 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3564 [label="Foam::regionModels\l::surfaceFilmModels\l::patchInjection::patchInjection",height=0.2,width=0.4,color="black",URL="$a29110.html#a152b740d187e325136f51f50c9b798ab",tooltip="Construct from surface film model. "];
+  Node3224 -> Node3565 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3565 [label="Foam::sampledPatchInternal\lField::print",height=0.2,width=0.4,color="black",URL="$a29370.html#aa61247f481294e0822e293753513bd29",tooltip="Write. "];
+  Node3224 -> Node3566 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3566 [label="Foam::sampledPatch\l::print",height=0.2,width=0.4,color="red",URL="$a29366.html#aa61247f481294e0822e293753513bd29",tooltip="Write. "];
+  Node3224 -> Node3306 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3224 -> Node3568 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3568 [label="Foam::fvMeshSubset\l::setLargeCellSubset",height=0.2,width=0.4,color="red",URL="$a22790.html#aa5aecd31ebb23c10811eb60949808165",tooltip="Set the subset from all cells with region == currentRegion. "];
+}

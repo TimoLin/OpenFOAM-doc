@@ -1,0 +1,19 @@
+digraph "patchInternalField"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node69 [label="patchInternalField",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node69 -> Node70 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node70 [label="Foam::surfaceSlipDisplacement\lPointPatchVectorField::evaluate",height=0.2,width=0.4,color="red",URL="$a23414.html#a3b59c070ab0408e3bbb21927540159f4",tooltip="Update the patch field. "];
+  Node69 -> Node74 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node74 [label="Foam::valuePointPatchField\l\< vector \>::operator=",height=0.2,width=0.4,color="black",URL="$a26574.html#a592aebbe6d3fe759f378a22eb0db9257"];
+  Node69 -> Node75 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node75 [label="Foam::valuePointPatchField\l\< vector \>::operator==",height=0.2,width=0.4,color="black",URL="$a26574.html#a4e7759ad5838b077325ea18e08b17612"];
+  Node69 -> Node69 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node69 -> Node76 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node76 [label="Foam::pointConstraints\l::setPatchFields",height=0.2,width=0.4,color="red",URL="$a23282.html#a1b6bb2c50c9e39688aa71d2263865d68",tooltip="Helper: set patchField values from internal values (on. "];
+  Node69 -> Node88 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node88 [label="Foam::pointPatchField\l\< vector \>::updated",height=0.2,width=0.4,color="red",URL="$a22946.html#adb515d6ca9be66613efaaeb72c9709db",tooltip="Return true if the boundary condition has already been updated. "];
+}

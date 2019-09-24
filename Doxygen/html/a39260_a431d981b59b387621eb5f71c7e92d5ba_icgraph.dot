@@ -1,0 +1,36 @@
+digraph "solve"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node14 [label="solve",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node14 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15 [label="Foam::MPPICCloud\< Foam\l::DsmcCloud \>::evolve",height=0.2,width=0.4,color="black",URL="$a23802.html#a9e3bb886209d951167cd385c1ffe0b00",tooltip="Evolve the cloud. "];
+  Node14 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16 [label="Foam::CollidingCloud\l\< Foam::DsmcCloud \>::\levolve",height=0.2,width=0.4,color="black",URL="$a23758.html#a9e3bb886209d951167cd385c1ffe0b00",tooltip="Evolve the cloud. "];
+  Node14 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17 [label="Foam::SprayCloud\< Foam\l::DsmcCloud \>::evolve",height=0.2,width=0.4,color="black",URL="$a24530.html#a9e3bb886209d951167cd385c1ffe0b00",tooltip="Evolve the spray (inject, move) "];
+  Node14 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 [label="Foam::ReactingMultiphase\lCloud\< Foam::DsmcCloud\l \>::evolve",height=0.2,width=0.4,color="black",URL="$a23826.html#a9e3bb886209d951167cd385c1ffe0b00",tooltip="Evolve the cloud. "];
+  Node14 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19 [label="Foam::ReactingCloud\l\< Foam::DsmcCloud \>\l::evolve",height=0.2,width=0.4,color="black",URL="$a23814.html#a9e3bb886209d951167cd385c1ffe0b00",tooltip="Evolve the cloud. "];
+  Node14 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20 [label="Foam::ThermoCloud\<\l Foam::DsmcCloud \>::\levolve",height=0.2,width=0.4,color="black",URL="$a23834.html#a9e3bb886209d951167cd385c1ffe0b00",tooltip="Evolve the cloud. "];
+  Node14 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21 [label="Foam::KinematicCloud\l\< Foam::DsmcCloud \>::\levolve",height=0.2,width=0.4,color="black",URL="$a23786.html#a9e3bb886209d951167cd385c1ffe0b00",tooltip="Evolve the cloud. "];
+  Node14 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22 [label="for",height=0.2,width=0.4,color="black",URL="$a38537.html#ae9610aff8f04c828f9db802f66a18f67"];
+  Node14 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23 [label="if",height=0.2,width=0.4,color="black",URL="$a38366.html#a5cfa46c5a5f5268b0c52864fef203093"];
+  Node14 -> Node24 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node24 [label="Foam::solve",height=0.2,width=0.4,color="black",URL="$a21124.html#af9a575dd87051254018f142ea9c62e99",tooltip="Solve the matrix using Gaussian elimination with pivoting. "];
+  Node14 -> Node25 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node25 [label="Foam::adaptiveSolver\l::solve",height=0.2,width=0.4,color="black",URL="$a25546.html#aeb9e6cd4e188d528af3e09fd232b29c9",tooltip="Solve the ODE system and the update the state. "];
+  Node14 -> Node26 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node26 [label="Foam::pyrolysisChemistry\lModel::solve",height=0.2,width=0.4,color="red",URL="$a30190.html#a31a5d606a34dbbf8ec6f2ac655eaee9a",tooltip="Solve the reaction system for the given time step. "];
+  Node14 -> Node34 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34 [label="Foam::chemistryModel\l::solve",height=0.2,width=0.4,color="black",URL="$a29794.html#a5a238790ca04b91ae25f6e3f06d3b640"];
+  Node14 -> Node35 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node35 [label="Foam::fvMatrix::solveSegregated",height=0.2,width=0.4,color="red",URL="$a22358.html#a8946f39b00e81fb5741058ddf6e05dbf",tooltip="Solve segregated returning the solution statistics. "];
+}

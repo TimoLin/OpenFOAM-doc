@@ -1,0 +1,12 @@
+digraph "ownedByRegistry"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1087 [label="ownedByRegistry",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1087 -> Node1088 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1088 [label="Foam::objectRegistry\l::checkOut",height=0.2,width=0.4,color="red",URL="$a26326.html#a0b55f69ea0e88182692871ec13dc62db",tooltip="Remove an regIOobject from registry. "];
+  Node1087 -> Node1131 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1131 [label="Foam::removeRegisteredObject\l::execute",height=0.2,width=0.4,color="red",URL="$a28850.html#a61af3e60b94ae3e748f6fbac1e794af7",tooltip="Execute, currently does nothing. "];
+}

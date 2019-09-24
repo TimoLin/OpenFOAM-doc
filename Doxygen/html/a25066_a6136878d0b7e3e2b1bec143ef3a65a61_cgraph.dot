@@ -1,0 +1,14 @@
+digraph "overlaps"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node312 [label="overlaps",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node312 -> Node313 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node313 [label="Foam::PointHit::distance",height=0.2,width=0.4,color="black",URL="$a27558.html#a288a3ea8e3ee215a5e12afc1002ed4e6",tooltip="Return distance to hit. "];
+  Node312 -> Node314 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node314 [label="Foam::face::nearestPoint",height=0.2,width=0.4,color="red",URL="$a27218.html#a63a61f4d0eca714a14157cf1dc9b1366",tooltip="Return nearest point to face. "];
+  Node312 -> Node329 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node329 [label="sqr",height=0.2,width=0.4,color="red",URL="$a12539.html#a557bbac590ed5ce51116be69fe4faa96"];
+}

@@ -1,0 +1,16 @@
+digraph "setTime"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node12 [label="setTime",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node12 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13 [label="Foam::Time::operator++",height=0.2,width=0.4,color="red",URL="$a26350.html#ad29d9fc6ef635c14c2d255bd9958d1bb",tooltip="Prefix increment,. "];
+  Node12 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15 [label="Foam::Time::setControls",height=0.2,width=0.4,color="black",URL="$a26350.html#a8e7c44db2e98bebfcc1a22d512cd7b34",tooltip="Set the controls from the current controlDict. "];
+  Node12 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16 [label="Foam::Time::setTime",height=0.2,width=0.4,color="black",URL="$a26350.html#a1f00adf66c87c2aa3887e08f970a719a",tooltip="Reset the time and time-index. "];
+  Node12 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17 [label="Foam::Time::subCycle",height=0.2,width=0.4,color="red",URL="$a26350.html#adb9bf2f1908500d320fc80b25d8e9b76",tooltip="Set time to sub-cycle for the given number of steps. "];
+}

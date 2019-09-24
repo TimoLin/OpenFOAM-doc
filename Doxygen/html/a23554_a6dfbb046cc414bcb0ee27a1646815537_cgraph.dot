@@ -1,0 +1,25 @@
+digraph "clone"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node828 [label="clone",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node828 -> Node829 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node829 [label="autoMap",height=0.2,width=0.4,color="black",URL="$a23554.html#a0ab0c43ce90d756c88dd81e3d0a9eef5",tooltip="Map (and resize as needed) from self given a mapping object. "];
+  Node829 -> Node830 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node830 [label="rmap",height=0.2,width=0.4,color="black",URL="$a23554.html#abe233fd0f00c5f2012c2a8f57f20f5cb",tooltip="Reverse map the given fvPatchField onto this fvPatchField. "];
+  Node830 -> Node831 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node831 [label="valueInternalCoeffs",height=0.2,width=0.4,color="red",URL="$a23554.html#a541ce5c2450b431429d4b4833b66761f",tooltip="Return the matrix diagonal coefficients corresponding to the. "];
+  Node831 -> Node880 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node880 [label="valueBoundaryCoeffs",height=0.2,width=0.4,color="red",URL="$a23554.html#a9b2e6c272ac0cf09dbfe76b65cc668da",tooltip="Return the matrix source coefficients corresponding to the. "];
+  Node828 -> Node881 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node881 [label="gradientBoundaryCoeffs",height=0.2,width=0.4,color="red",URL="$a23554.html#a82aaa73cc69fe46d94d900ae1fc1a68d",tooltip="Return the matrix source coefficients corresponding to the. "];
+  Node828 -> Node882 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node882 [label="gradientInternalCoeffs",height=0.2,width=0.4,color="red",URL="$a23554.html#a3190133c49936e7f0fb70c588951402f",tooltip="Return the matrix diagonal coefficients corresponding to the. "];
+  Node828 -> Node830 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node828 -> Node880 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node828 -> Node831 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node828 -> Node883 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node883 [label="write",height=0.2,width=0.4,color="red",URL="$a23554.html#a293fdfec8bdfbd5c3913ab4c9f3454ff",tooltip="Write. "];
+}

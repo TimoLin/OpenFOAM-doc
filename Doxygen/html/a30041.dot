@@ -1,0 +1,19 @@
+digraph "radiationModel"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node0 [label="radiationModel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="IOdictionary",height=0.2,width=0.4,color="red",URL="$a26158.html",tooltip="IOdictionary is derived from dictionary and IOobject to give the dictionary automatic IO functionalit..."];
+  Node0 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17 [label="fvDOM",height=0.2,width=0.4,color="black",URL="$a30022.html",tooltip="Finite Volume Discrete Ordinates Method. Solves the RTE equation for n directions in a participating ..."];
+  Node0 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 [label="noRadiation",height=0.2,width=0.4,color="black",URL="$a30030.html",tooltip="No radiation - does nothing to energy equation source terms (returns zeros) "];
+  Node0 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19 [label="opaqueSolid",height=0.2,width=0.4,color="black",URL="$a30034.html",tooltip="Radiation for solid opaque solids - does nothing to energy equation source terms (returns zeros) but ..."];
+  Node0 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20 [label="P1",height=0.2,width=0.4,color="black",URL="$a30038.html",tooltip="Works well for combustion applications where optical thickness, tau is large, i.e. tau = a*L > 3 (L = distance between objects) "];
+  Node0 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21 [label="viewFactor",height=0.2,width=0.4,color="black",URL="$a30046.html",tooltip="View factor radiation model. The system solved is: C q = b where: Cij = deltaij/Ej - (1/Ej - 1)Fij q ..."];
+}

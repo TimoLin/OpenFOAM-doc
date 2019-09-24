@@ -1,0 +1,21 @@
+digraph "localSize"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node128 [label="localSize",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node128 -> Node129 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node129 [label="Foam::createShellMesh\l::calcPointRegions",height=0.2,width=0.4,color="red",URL="$a21442.html#abd09fd2558d9fc41e9a503ce2976fe5f",tooltip="Helper: calculate point regions. The point region is the. "];
+  Node129 -> Node132 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node132 [label="Foam::minEqOp\< labelPair\l \>::operator()",height=0.2,width=0.4,color="black",URL="$a21438.html#a5110bdded347caa6365e4d10554dfc32"];
+  Node128 -> Node134 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node134 [label="globalIndex",height=0.2,width=0.4,color="black",URL="$a27330.html#a39ebbeaca6850dfbcf3f8c2d7305feb9",tooltip="Construct from local max size. Does communication with default. "];
+  Node128 -> Node135 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node135 [label="Foam::regionSplit::\lnLocalRegions",height=0.2,width=0.4,color="red",URL="$a25202.html#a256dfb18a95d3d943cf23cdecda88064",tooltip="Return local number of regions. "];
+  Node128 -> Node132 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node128 -> Node137 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node137 [label="Foam::KinematicCloud\l\< Foam::DsmcCloud \>::\lpenetration",height=0.2,width=0.4,color="black",URL="$a23786.html#acabb7d90e498b652e912de7feeedf590",tooltip="Penetration for fraction [0-1] of the current total mass. "];
+  Node128 -> Node138 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node138 [label="Foam::mapDistribute\l::printLayout",height=0.2,width=0.4,color="red",URL="$a27362.html#a354c270fcad8f00ba2bf069b0f68a729",tooltip="Debug: print layout. Can only be used on maps with sorted. "];
+}

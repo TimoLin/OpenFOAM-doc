@@ -1,0 +1,16 @@
+digraph "solutionControl"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node4 [label="solutionControl",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="IOobject",height=0.2,width=0.4,color="black",URL="$a26142.html",tooltip="IOobject defines the attributes of an object for which implicit objectRegistry management is supporte..."];
+  Node6 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mesh_" ,fontname="FreeSans"];
+  Node6 [label="fvMesh",height=0.2,width=0.4,color="red",URL="$a22766.html",tooltip="Mesh data needed to do the Finite Volume discretisation. "];
+  Node17 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" algorithmName_" ,fontname="FreeSans"];
+  Node17 [label="word",height=0.2,width=0.4,color="red",URL="$a28258.html",tooltip="A class for handling words, derived from string. "];
+  Node17 -> Node17 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" null" ,fontname="FreeSans"];
+  Node40 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" residualControl_" ,fontname="FreeSans"];
+  Node40 [label="List\< Foam::solutionControl\l::fieldData \>",height=0.2,width=0.4,color="red",URL="$a25694.html"];
+}

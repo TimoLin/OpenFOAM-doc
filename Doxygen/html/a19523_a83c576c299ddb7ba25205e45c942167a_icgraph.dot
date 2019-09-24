@@ -1,0 +1,22 @@
+digraph "resize"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node21 [label="resize",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node21 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22 [label="Foam::fileName::clean",height=0.2,width=0.4,color="red",URL="$a28234.html#a128b48326f706cdc6ecf2644993c020c",tooltip="Cleanup file name. "];
+  Node21 -> Node27 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node27 [label="Foam::HashTable\< Foam\l::phase *\>::clearStorage",height=0.2,width=0.4,color="black",URL="$a25702.html#a77e7fd5aa3adf14be9cbcd6e670f7843",tooltip="Clear the table entries and the table itself. "];
+  Node21 -> Node28 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node28 [label="Foam::HashTable\< Foam\l::phase *\>::operator=",height=0.2,width=0.4,color="black",URL="$a25702.html#ab08fb00d67b7f3aeca707447df8580c5",tooltip="Assignment. "];
+  Node21 -> Node29 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node29 [label="Foam::string::removeRepeated",height=0.2,width=0.4,color="red",URL="$a28250.html#ad0e6d864723bb4f80c63c129a6d596dd",tooltip="Remove repeated characters returning true if string changed. "];
+  Node21 -> Node32 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node32 [label="Foam::string::removeTrailing",height=0.2,width=0.4,color="red",URL="$a28250.html#a430ddc9da137170d3f881c8d753dcd15",tooltip="Remove trailing character returning true if string changed. "];
+  Node21 -> Node34 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34 [label="Foam::HashTable\< Foam\l::phase *\>::shrink",height=0.2,width=0.4,color="black",URL="$a25702.html#a14dbce2ca2fb7da194a2bbc0628fdfed",tooltip="Shrink the allocated table to approx. twice number of elements. "];
+  Node21 -> Node35 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node35 [label="Foam::HashTable\< Foam\l::phase *\>::sortedToc",height=0.2,width=0.4,color="black",URL="$a25702.html#a00e373a2c0d6161c4bcdc4453c1bb35e",tooltip="Return the table of contents as a sorted list. "];
+}

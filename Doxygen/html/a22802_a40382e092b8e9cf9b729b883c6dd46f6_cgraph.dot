@@ -1,0 +1,12 @@
+digraph "makeWeights"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2 [label="makeWeights",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="Foam::coupledFvPatch\l::delta",height=0.2,width=0.4,color="black",URL="$a22794.html#af28a1b7920549c636b63713ee2365216",tooltip="Return delta (P to N) vectors across coupled patch. "];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="Foam::fvPatch::nf",height=0.2,width=0.4,color="red",URL="$a22870.html#ac630ebe09f4b9ad480cd839dd3978459",tooltip="Return face normals. "];
+}

@@ -1,0 +1,16 @@
+digraph "clear"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node14 [label="clear",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node14 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15 [label="Foam::labelRanges::add",height=0.2,width=0.4,color="black",URL="$a28154.html#a2a9b5231256cea35a9d3851f2d1bb9fc",tooltip="Add the range to the list. "];
+  Node14 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16 [label="labelRange",height=0.2,width=0.4,color="black",URL="$a28142.html#a105537662caf77ace8c19235176e9229",tooltip="Construct a range. "];
+  Node14 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17 [label="Foam::labelRange::less\l::operator()",height=0.2,width=0.4,color="black",URL="$a28146.html#ac344b0e40533f879d3f038d772980a2a"];
+  Node14 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 [label="Foam::operator\>\>",height=0.2,width=0.4,color="black",URL="$a21124.html#aa75e194580396c023b609dcfcb5397a2"];
+}

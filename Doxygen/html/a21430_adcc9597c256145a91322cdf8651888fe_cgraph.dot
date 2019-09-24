@@ -1,0 +1,15 @@
+digraph "getNTris"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2851 [label="getNTris",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2851 -> Node2852 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2852 [label="getNTris",height=0.2,width=0.4,color="red",URL="$a21430.html#ab52907085a976b41dedbf27be10de6e9",tooltip="Simple triangulation of face subset. Returns number of triangles. "];
+  Node2851 -> Node2900 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2900 [label="Foam::List::setSize",height=0.2,width=0.4,color="black",URL="$a25694.html#aedb985ffeaf1bdbfeccc2a8730405703",tooltip="Reset size of List. "];
+  Node2851 -> Node2901 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2901 [label="triangulate",height=0.2,width=0.4,color="red",URL="$a21430.html#a4ab09278dde78b929027adabb6ff3fe6",tooltip="Simple triangulation of face subset. TotalNTris is total number. "];
+  Node2901 -> Node2900 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

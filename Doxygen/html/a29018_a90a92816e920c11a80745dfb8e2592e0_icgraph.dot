@@ -1,0 +1,25 @@
+digraph "nHat"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node102 [label="nHat",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node102 -> Node103 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node103 [label="Foam::regionModels\l::surfaceFilmModels\l::kinematicSingleLayer\l::gNorm",height=0.2,width=0.4,color="red",URL="$a29042.html#ae720bea81bebe78c60ee7313f4e0927c",tooltip="Return the gravity normal-to-patch component contribution. "];
+  Node103 -> Node104 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node104 [label="Foam::regionModels\l::surfaceFilmModels\l::kinematicSingleLayer::gTan",height=0.2,width=0.4,color="black",URL="$a29042.html#a1c0012d17f873c2db13bc2113d177055",tooltip="Return the gravity tangential component contributions. "];
+  Node104 -> Node105 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node105 [label="Foam::regionModels\l::surfaceFilmModels\l::kinematicSingleLayer\l::solveMomentum",height=0.2,width=0.4,color="red",URL="$a29042.html#aaba5d5ef7ac2693c87b0b31a7605f178",tooltip="Solve for film velocity. "];
+  Node105 -> Node106 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node106 [label="Foam::regionModels\l::surfaceFilmModels\l::kinematicSingleLayer\l::updateSurfaceVelocities",height=0.2,width=0.4,color="red",URL="$a29042.html#a22134deef2f1f598fae44f744a1e7962",tooltip="Update film surface velocities. "];
+  Node104 -> Node109 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node109 [label="Foam::regionModels\l::surfaceFilmModels\l::kinematicSingleLayer\l::solveThickness",height=0.2,width=0.4,color="red",URL="$a29042.html#a38ccae6e6751502d71d2490fca96a516",tooltip="Solve coupled velocity-thickness equations. "];
+  Node109 -> Node105 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node102 -> Node111 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node111 [label="Foam::regionModels\l::surfaceFilmModels\l::kinematicSingleLayer\l::gNormClipped",height=0.2,width=0.4,color="red",URL="$a29042.html#a02d206df7ce7e235814b5f0bd2f8668d",tooltip="Return the gravity normal-to-patch component contribution. "];
+  Node102 -> Node104 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node102 -> Node105 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node102 -> Node109 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node102 -> Node106 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

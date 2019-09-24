@@ -1,0 +1,22 @@
+digraph "matchTolerance"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node682 [label="matchTolerance",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node682 -> Node683 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node683 [label="calcFaceTol",height=0.2,width=0.4,color="red",URL="$a27426.html#ad3d3e65f39a047092bc000d938b3adf1",tooltip="Calculate typical tolerance per face. Is currently max distance. "];
+  Node682 -> Node712 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node712 [label="calcGeometry",height=0.2,width=0.4,color="black",URL="$a27426.html#a3a90e31db0e575e691c86486f1e5295d",tooltip="Calculate the patch geometry. "];
+  Node682 -> Node713 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node713 [label="Foam::polyPatch::faceCentres",height=0.2,width=0.4,color="red",URL="$a27478.html#a7eedbc42527b683112bf222f221a714c",tooltip="Return face centres. "];
+  Node682 -> Node716 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node716 [label="initOrder",height=0.2,width=0.4,color="black",URL="$a27426.html#acb09d70ad6514d0bc27703e3c12ae85d",tooltip="Initialize ordering for primitivePatch. Does not. "];
+  Node682 -> Node717 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node717 [label="order",height=0.2,width=0.4,color="black",URL="$a27426.html#a49b34d8abf7430977d0a0efafac7d4cd",tooltip="Return new ordering for primitivePatch. "];
+  Node682 -> Node718 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node718 [label="Foam::PrimitivePatch\l::points",height=0.2,width=0.4,color="black",URL="$a27538.html#aa3c7d968f31c88780c663876f64ef6a6",tooltip="Return reference to global points. "];
+  Node682 -> Node719 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node719 [label="write",height=0.2,width=0.4,color="red",URL="$a27426.html#a293fdfec8bdfbd5c3913ab4c9f3454ff",tooltip="Write the polyPatch data as a dictionary. "];
+}

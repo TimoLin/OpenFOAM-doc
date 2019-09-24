@@ -1,0 +1,20 @@
+digraph "cellSizeFunction"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node19 [label="cellSizeFunction",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node20 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20 [label="dictionary",height=0.2,width=0.4,color="red",URL="$a26014.html",tooltip="A list of keyword definitions, which are a keyword followed by any number of values (e..."];
+  Node20 -> Node20 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" null" ,fontname="FreeSans"];
+  Node33 -> Node19 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" surface_" ,fontname="FreeSans"];
+  Node33 [label="searchableSurface",height=0.2,width=0.4,color="red",URL="$a25234.html",tooltip="Base class of (analytical or triangulated) surface. Encapsulates all the search routines. WIP. "];
+  Node41 -> Node19 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" regionIndices_" ,fontname="FreeSans"];
+  Node41 [label="List\< T \>",height=0.2,width=0.4,color="red",URL="$a25694.html",tooltip="A 1D array of objects of type <T>, where the size of the vector is known and used for subscript bound..."];
+  Node20 -> Node19 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" coeffsDict_" ,fontname="FreeSans"];
+  Node43 -> Node19 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" surfaceCellSize_" ,fontname="FreeSans"];
+  Node43 [label="Field\< scalar \>",height=0.2,width=0.4,color="red",URL="$a26466.html"];
+  Node51 -> Node19 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" surfaceCellSizeFunction_" ,fontname="FreeSans"];
+  Node51 [label="autoPtr\< Foam::surfaceCell\lSizeFunction \>",height=0.2,width=0.4,color="red",URL="$a25958.html"];
+}

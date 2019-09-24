@@ -1,0 +1,27 @@
+digraph "containmentSphere"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node576 [label="containmentSphere",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node576 -> Node577 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node577 [label="gradNiSquared",height=0.2,width=0.4,color="red",URL="$a27586.html#aeb1390eea0564e0b0193dc043ee61913",tooltip="Fill buffer with shape function products. "];
+  Node577 -> Node579 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node579 [label="magSqr",height=0.2,width=0.4,color="red",URL="$a12539.html#ab0cd33eb018a643a64ca545601530791"];
+  Node576 -> Node579 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node576 -> Node585 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node585 [label="Foam::magSqr",height=0.2,width=0.4,color="black",URL="$a21124.html#ae6fff2c6981e6d9618aa5038e69def6e"];
+  Node576 -> Node586 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node586 [label="Foam::PointHit::rawPoint",height=0.2,width=0.4,color="black",URL="$a27558.html#a479a270e3db1518fd61b8a756455786b",tooltip="Return point with no checking. "];
+  Node576 -> Node587 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node587 [label="Foam::PointHit::setDistance",height=0.2,width=0.4,color="black",URL="$a27558.html#a14790d638ec1616229076c4aed712b09"];
+  Node576 -> Node588 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node588 [label="Foam::PointHit::setHit",height=0.2,width=0.4,color="black",URL="$a27558.html#af857bf9136ee4938a5de88d60b75b706"];
+  Node576 -> Node589 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node589 [label="Foam::PointHit::setMiss",height=0.2,width=0.4,color="black",URL="$a27558.html#aed721b61555f524fcafed97d1a4cd9f6"];
+  Node576 -> Node590 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node590 [label="Foam::PointHit::setPoint",height=0.2,width=0.4,color="black",URL="$a27558.html#a06197856d3e9d1625db3f88c38dc522a"];
+  Node576 -> Node591 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node591 [label="Foam::sqrt",height=0.2,width=0.4,color="red",URL="$a21124.html#a8616bd62eebf2342a80222fecb1bda71"];
+}

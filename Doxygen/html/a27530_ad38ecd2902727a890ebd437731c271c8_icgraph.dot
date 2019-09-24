@@ -1,0 +1,30 @@
+digraph "edgeFaces"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node34399 [label="edgeFaces",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node34399 -> Node34400 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34400 [label="Foam::polyDualMesh\l::calcFeatures",height=0.2,width=0.4,color="red",URL="$a21354.html#a9462253b504fad04ae7194f1f17469c8",tooltip="Helper function to create feature edges and points based on. "];
+  Node34399 -> Node34402 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34402 [label="Foam::addPatchCellLayer\l::calcSidePatch",height=0.2,width=0.4,color="red",URL="$a21626.html#a25346f181e6f56df9a1839ff94eea581",tooltip="Boundary edges get extruded into boundary faces. Determine patch. "];
+  Node34399 -> Node34410 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34410 [label="edgeCells",height=0.2,width=0.4,color="black",URL="$a27530.html#a5d07940b4f2c9d0e5a60a13943fb3023",tooltip="edgeCells using pointFaces, edges, pointEdges "];
+  Node34399 -> Node34411 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34411 [label="edgeFaces",height=0.2,width=0.4,color="black",URL="$a27530.html#ad873263059fd0b4758b0994795a01f0f",tooltip="edgeFaces using pointFaces, edges, pointEdges "];
+  Node34399 -> Node34412 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34412 [label="Foam::meshTools::getEdge\lFaces",height=0.2,width=0.4,color="red",URL="$a21153.html#a49c5d70e15e6496b848e2012ea176128",tooltip="Get faces on cell using edgeI. Throws error if no two found. "];
+  Node34399 -> Node34452 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34452 [label="Foam::cellCuts::nonAnchor\lPoints",height=0.2,width=0.4,color="red",URL="$a21466.html#a99cdc1288c329f2654ead522706957a6",tooltip="Invert anchor point selection. "];
+  Node34399 -> Node34460 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34460 [label="Foam::boundaryMesh\l::patchNames",height=0.2,width=0.4,color="red",URL="$a21430.html#a3a56710ba8cff5664a002b134c75d5bd",tooltip="Get names of patches. "];
+  Node34399 -> Node34462 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34462 [label="Foam::faceCollapser\l::setRefinement",height=0.2,width=0.4,color="red",URL="$a21646.html#a4eb4757ecb940ebe87d1e45559d1bad1",tooltip="Collapse faces along endpoints. Play commands into. "];
+  Node34399 -> Node34464 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34464 [label="Foam::boundaryCutter\l::setRefinement",height=0.2,width=0.4,color="red",URL="$a21498.html#ae6930353f029f71d7726d9992c9538f9",tooltip="Do actual cutting with cut description. Inserts mesh changes. "];
+  Node34399 -> Node34454 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34454 [label="Foam::meshCutAndRemove\l::setRefinement",height=0.2,width=0.4,color="red",URL="$a21502.html#a5b289474e53287a9460c322f12434dec",tooltip="Do actual cutting with cut description. Inserts mesh changes. "];
+  Node34399 -> Node34456 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34456 [label="Foam::meshCutter::setRefinement",height=0.2,width=0.4,color="red",URL="$a21506.html#ad6964ecaeb84631835d8a4e51bf706bb",tooltip="Do actual cutting with cut description. Inserts mesh changes. "];
+}

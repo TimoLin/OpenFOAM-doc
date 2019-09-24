@@ -1,0 +1,15 @@
+digraph "hitPatch"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node632 [label="hitPatch",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node632 -> Node633 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node633 [label="hitWallPatch",height=0.2,width=0.4,color="red",URL="$a28794.html#a2f016956a18640904586b7df825867c8",tooltip="Overridable function to handle the particle hitting a wallPatch. "];
+  Node633 -> Node634 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node634 [label="Foam::wallBoundedParticle\l::TrackingData\< Cloud\<\l wallBoundedStreamLineParticle\l \> \>::TrackingData",height=0.2,width=0.4,color="black",URL="$a28798.html#a6314a22146c220ef091a623801dc2b2d"];
+  Node632 -> Node634 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node632 -> Node640 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node640 [label="trackToEdge",height=0.2,width=0.4,color="black",URL="$a28794.html#aff365968e28acf42244334b7c926dee6",tooltip="Track particle to a given position and returns 1.0 if the. "];
+}

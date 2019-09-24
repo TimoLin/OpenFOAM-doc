@@ -1,0 +1,32 @@
+digraph "mappedPatchBase"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node6 [label="mappedPatchBase",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node7 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" AMIPtr_" ,fontname="FreeSans"];
+  Node7 [label="autoPtr\< Foam::AMIInterpolation \>",height=0.2,width=0.4,color="red",URL="$a25958.html"];
+  Node9 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mapPtr_" ,fontname="FreeSans"];
+  Node9 [label="autoPtr\< Foam::mapDistribute \>",height=0.2,width=0.4,color="red",URL="$a25958.html"];
+  Node10 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" offsetModeNames_" ,fontname="FreeSans"];
+  Node10 [label="NamedEnum\< offsetMode, 3 \>",height=0.2,width=0.4,color="red",URL="$a25998.html"];
+  Node15 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" surfPtr_" ,fontname="FreeSans"];
+  Node15 [label="autoPtr\< Foam::searchable\lSurface \>",height=0.2,width=0.4,color="red",URL="$a25958.html"];
+  Node16 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" surfDict_" ,fontname="FreeSans"];
+  Node16 [label="dictionary",height=0.2,width=0.4,color="red",URL="$a26014.html",tooltip="A list of keyword definitions, which are a keyword followed by any number of values (e..."];
+  Node16 -> Node16 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" null" ,fontname="FreeSans"];
+  Node29 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" sampleModeNames_" ,fontname="FreeSans"];
+  Node29 [label="NamedEnum\< sampleMode, 6 \>",height=0.2,width=0.4,color="red",URL="$a25998.html"];
+  Node30 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" coupleGroup_" ,fontname="FreeSans"];
+  Node30 [label="coupleGroupIdentifier",height=0.2,width=0.4,color="black",URL="$a27118.html",tooltip="Encapsulates using patchGroups to specify coupled patch. "];
+  Node31 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" offsets_" ,fontname="FreeSans"];
+  Node31 [label="Field\< vector \>",height=0.2,width=0.4,color="red",URL="$a26466.html"];
+  Node41 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" offset_" ,fontname="FreeSans"];
+  Node41 [label="Vector\< scalar \>",height=0.2,width=0.4,color="red",URL="$a28442.html"];
+  Node47 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" sampleRegion_\nsamplePatch_" ,fontname="FreeSans"];
+  Node47 [label="word",height=0.2,width=0.4,color="red",URL="$a28258.html",tooltip="A class for handling words, derived from string. "];
+  Node47 -> Node47 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" null" ,fontname="FreeSans"];
+  Node50 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" patch_" ,fontname="FreeSans"];
+  Node50 [label="polyPatch",height=0.2,width=0.4,color="red",URL="$a27478.html",tooltip="A patch is a list of labels that address the faces in the global face list. "];
+}

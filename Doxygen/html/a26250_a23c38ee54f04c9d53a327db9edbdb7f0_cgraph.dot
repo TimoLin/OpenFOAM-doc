@@ -1,0 +1,29 @@
+digraph "scatterList"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4501 [label="scatterList",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4501 -> Node4502 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4502 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node4501 -> Node4545 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4545 [label="Foam::UPstream::commsStruct\l::above",height=0.2,width=0.4,color="black",URL="$a26274.html#a553c64427f0c4f6000d961214723c14f"];
+  Node4501 -> Node4546 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4546 [label="Foam::UPstream::commsStruct\l::allNotBelow",height=0.2,width=0.4,color="red",URL="$a26274.html#a19bad5da060b5dbeb03e500b7f54fa28"];
+  Node4501 -> Node4548 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4548 [label="Foam::UPstream::commsStruct\l::below",height=0.2,width=0.4,color="black",URL="$a26274.html#afd4ae114527b9c925ffff2c2fe1341dd"];
+  Node4501 -> Node4510 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4510 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node4501 -> Node4551 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4551 [label="Foam::UPstream::myProcNo",height=0.2,width=0.4,color="black",URL="$a26270.html#afc74d89573de32a3032c916f8cdd1733",tooltip="Number of this process (starting from masterNo() = 0) "];
+  Node4501 -> Node4552 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4552 [label="Foam::UPstream::nProcs",height=0.2,width=0.4,color="black",URL="$a26270.html#aada0e04d8127eda8ee95be0772754a4f",tooltip="Number of processes in parallel run. "];
+  Node4552 -> Node4553 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4553 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node4501 -> Node4554 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4554 [label="Foam::UIPstream::read",height=0.2,width=0.4,color="black",URL="$a26258.html#a732980587e5b9c409ae433d73ca8698e",tooltip="Read into given buffer from given processor and return the. "];
+  Node4501 -> Node4553 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4501 -> Node4555 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4555 [label="Foam::UOPstream::write",height=0.2,width=0.4,color="black",URL="$a26262.html#a0efefd773fa79fc3b687978f9e1ee9ba",tooltip="Write given buffer to given processor. "];
+}

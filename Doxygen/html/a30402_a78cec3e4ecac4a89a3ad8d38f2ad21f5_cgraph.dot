@@ -1,0 +1,25 @@
+digraph "write"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node176 [label="write",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node176 -> Node177 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node177 [label="Foam::dictionary::add",height=0.2,width=0.4,color="red",URL="$a26014.html#ac2ddcab42322c8d8af5e5830ab4d431b",tooltip="Add a new entry. "];
+  Node177 -> Node180 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node180 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node176 -> Node220 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node220 [label="Foam::decrIndent",height=0.2,width=0.4,color="red",URL="$a21124.html#a1c3a44e035fae1cd9d5a4a60a7e1c32b",tooltip="Decrement the indent level. "];
+  Node176 -> Node222 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node222 [label="Foam::dictionaryName\l::dictName",height=0.2,width=0.4,color="red",URL="$a26010.html#a1294668acf090a15a78e04c1c22a048c",tooltip="Return the local dictionary name (final part of scoped name) "];
+  Node176 -> Node180 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node176 -> Node224 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node224 [label="Foam::incrIndent",height=0.2,width=0.4,color="red",URL="$a21124.html#a5baff2b2334a238271b33f039e5dde5c",tooltip="Increment the indent level. "];
+  Node176 -> Node233 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node233 [label="Foam::indent",height=0.2,width=0.4,color="red",URL="$a21124.html#ae297c57ea5b952a8bc9e4f30f7ea8701",tooltip="Indent stream. "];
+  Node176 -> Node234 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node234 [label="Foam::specie::name",height=0.2,width=0.4,color="black",URL="$a30350.html#a51ae053ef677d6c2d35ce01b46089706",tooltip="Name. "];
+  Node176 -> Node235 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node235 [label="write",height=0.2,width=0.4,color="black",URL="$a19709.html#a8f30b3c2179b03a7acf273e9dea43342"];
+}

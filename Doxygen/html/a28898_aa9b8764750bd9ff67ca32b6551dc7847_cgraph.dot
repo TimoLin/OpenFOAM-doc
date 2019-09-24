@@ -1,0 +1,21 @@
+digraph "read"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node322 [label="read",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node322 -> Node323 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node323 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node322 -> Node325 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node325 [label="Foam::dictionary::lookup",height=0.2,width=0.4,color="red",URL="$a26014.html#a6a0727fa523e48977e27348663def509",tooltip="Find and return an entry data stream. "];
+  Node322 -> Node433 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node433 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node322 -> Node625 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node625 [label="Foam::magSqr",height=0.2,width=0.4,color="black",URL="$a21124.html#ae6fff2c6981e6d9618aa5038e69def6e"];
+  Node322 -> Node545 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node545 [label="Foam::dictionary::readIf\lPresent",height=0.2,width=0.4,color="red",URL="$a26014.html#ad4bd008e6ee208313f2c3a963ee1170d",tooltip="Find an entry if present, and assign to T. "];
+  Node545 -> Node323 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node322 -> Node464 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node464 [label="Foam::type",height=0.2,width=0.4,color="red",URL="$a21124.html#aec48583af672626378f501eb9fc32cd1",tooltip="Return the file type: DIRECTORY or FILE. "];
+}

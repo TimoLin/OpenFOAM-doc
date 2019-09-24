@@ -1,0 +1,38 @@
+digraph "masterNo"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node8152 [label="masterNo",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node8152 -> Node8153 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8153 [label="Foam::simpleGeomDecomp\l::decompose",height=0.2,width=0.4,color="red",URL="$a28622.html#affc7e024c15a126f3e6a126610c85ef9",tooltip="Like decompose but with uniform weights on the points. "];
+  Node8152 -> Node8157 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8157 [label="Foam::LUscalarMatrix\l::LUscalarMatrix",height=0.2,width=0.4,color="black",URL="$a27054.html#aebab11f1a492c2f8e5e99c3e138253ce",tooltip="Construct from lduMatrix and perform LU decomposition. "];
+  Node8152 -> Node8158 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8158 [label="master",height=0.2,width=0.4,color="red",URL="$a26270.html#a36af549940a0aae3733774649594489f",tooltip="Am I the master process. "];
+  Node8158 -> Node8697 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8697 [label="Foam::argList::parse",height=0.2,width=0.4,color="red",URL="$a26662.html#a00aad68f835a5c0bcb8920505bb0bd10",tooltip="Parse. "];
+  Node8158 -> Node8157 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8158 -> Node10251 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10251 [label="Foam::LUscalarMatrix\l::solve",height=0.2,width=0.4,color="black",URL="$a27054.html#a54fd4ebdeb504badbc4a4423f5825a25"];
+  Node8158 -> Node9816 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9816 [label="Foam::minEqOp\< labelPair\l \>::operator()",height=0.2,width=0.4,color="black",URL="$a21438.html#a5110bdded347caa6365e4d10554dfc32"];
+  Node8158 -> Node10254 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10254 [label="Foam::globalMeshData\l::sharedPoints",height=0.2,width=0.4,color="red",URL="$a27334.html#ab7d3835b5505a69d153631e4c4865136",tooltip="Collect coordinates of shared points on all processors. "];
+  Node8158 -> Node10258 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10258 [label="Foam::mapDistribute\l::schedule",height=0.2,width=0.4,color="black",URL="$a27362.html#a9cc13a36c2333e556e0751aacb5e75fb",tooltip="Calculate a schedule. See above. "];
+  Node8158 -> Node9896 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9896 [label="Foam::syncTools::syncPointMap",height=0.2,width=0.4,color="red",URL="$a27502.html#a08bdf5c6403dd4367d1714c3d5b4145d",tooltip="Synchronize values on selected points. "];
+  Node8158 -> Node9893 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9893 [label="Foam::syncTools::syncEdgeMap",height=0.2,width=0.4,color="red",URL="$a27502.html#a154ac086463b8d7a0eed8c4539d3ab73",tooltip="Synchronize values on selected edges. "];
+  Node9893 -> Node9896 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8158 -> Node8153 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8152 -> Node9816 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8152 -> Node8697 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8152 -> Node10258 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8152 -> Node10254 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8152 -> Node10251 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8152 -> Node9893 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8152 -> Node9896 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,35 @@
+digraph "sortedEdgeFaces"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node492 [label="sortedEdgeFaces",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node492 -> Node493 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node493 [label="Foam::PrimitivePatch\l::edgeFaces",height=0.2,width=0.4,color="black",URL="$a27538.html#ad38ecd2902727a890ebd437731c271c8",tooltip="Return edge-face addressing. "];
+  Node492 -> Node494 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node494 [label="Foam::PrimitivePatch\l::edges",height=0.2,width=0.4,color="black",URL="$a27538.html#a21d764179912ddda5c6f95193c289846",tooltip="Return list of edges, address into LOCAL point list. "];
+  Node492 -> Node495 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node495 [label="f",height=0.2,width=0.4,color="black",URL="$a17900.html#a888be93833ac7a23170555c69c690288"];
+  Node492 -> Node496 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node496 [label="Foam::SortableList\l::indices",height=0.2,width=0.4,color="black",URL="$a25918.html#a28bce53bb8731da2b5f7a7cfb9ae2167",tooltip="Return the list of sorted indices. Updated every sort. "];
+  Node492 -> Node497 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node497 [label="Foam::PrimitivePatch\l::localFaces",height=0.2,width=0.4,color="black",URL="$a27538.html#aa4bd29e9c9de3d53e26aa2bf2e803c60",tooltip="Return patch faces addressing into local point list. "];
+  Node492 -> Node498 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node498 [label="Foam::PrimitivePatch\l::localPoints",height=0.2,width=0.4,color="black",URL="$a27538.html#aca6c65ee2831bb6795149af7635640a2",tooltip="Return pointField of points in patch. "];
+  Node492 -> Node499 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node499 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node492 -> Node500 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node500 [label="Foam::max",height=0.2,width=0.4,color="black",URL="$a21124.html#ac993e906cf2774ae77e666bc24e81733"];
+  Node492 -> Node501 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node501 [label="Foam::pseudoAngle",height=0.2,width=0.4,color="red",URL="$a21124.html#aa9ca3552ea22ee09d1a028d177954ed0",tooltip="Estimate angle of vec in coordinate system (e0, e1, e0^e1). "];
+  Node492 -> Node505 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node505 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node492 -> Node506 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node506 [label="Foam::SortableList\l::sort",height=0.2,width=0.4,color="red",URL="$a25918.html#a47fdc9eea42b6975cdc835bb2e08810e",tooltip="(stable) sort the list (if changed after construction time) "];
+  Node492 -> Node511 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node511 [label="Foam::edge::start",height=0.2,width=0.4,color="red",URL="$a27210.html#afe56bdd2031bbf8321e35e2330c0b990",tooltip="Return start vertex label. "];
+  Node492 -> Node513 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node513 [label="Foam::edge::vec",height=0.2,width=0.4,color="red",URL="$a27210.html#a72eb1bfd9e030458c6f7f33202ea5b4f",tooltip="Return the vector (end - start) "];
+  Node513 -> Node511 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

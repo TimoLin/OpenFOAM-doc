@@ -1,0 +1,19 @@
+digraph "src/thermophysicalModels/solidSpecie/include/solidThermoPhysicsTypes.H"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node102 [label="src/thermophysicalModels\l/solidSpecie/include/solidThermo\lPhysicsTypes.H",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node102 -> Node103 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node103 [label="src/thermophysicalModels\l/reactionThermo/chemistryReaders\l/chemistryReader/makeChemistryReaders.C",height=0.2,width=0.4,color="black",URL="$a16118.html"];
+  Node102 -> Node104 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node104 [label="src/thermophysicalModels\l/solidChemistryModel/basicSolid\lChemistryModel/basicSolidChemistryModels.C",height=0.2,width=0.4,color="black",URL="$a16268.html",tooltip="Creates solid chemistry model instances templated on the type of solid thermodynamics. "];
+  Node102 -> Node105 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node105 [label="src/thermophysicalModels\l/solidChemistryModel/solidChemistry\lSolver/makeSolidChemistrySolvers.C",height=0.2,width=0.4,color="black",URL="$a16292.html"];
+  Node102 -> Node106 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node106 [label="src/thermophysicalModels\l/solidSpecie/reaction/reactions\l/makeSolidReactions.C",height=0.2,width=0.4,color="black",URL="$a16310.html"];
+  Node102 -> Node107 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node107 [label="src/thermophysicalModels\l/solidThermo/solidThermo\l/solidThermos.C",height=0.2,width=0.4,color="black",URL="$a16385.html"];
+  Node102 -> Node108 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node108 [label="src/turbulenceModels\l/compressible/turbulenceModel\l/derivedFvPatchFields/thermalBaffle1\lD/thermalBaffle1DFvPatchScalarFields.H",height=0.2,width=0.4,color="red",URL="$a17339.html"];
+}

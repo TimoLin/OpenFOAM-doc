@@ -1,0 +1,12 @@
+digraph "basicThermo"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="basicThermo",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="basicThermo",height=0.2,width=0.4,color="black",URL="$a29734.html#a3d41a279b81658eb9051ea632fb01300",tooltip="Construct from mesh and phase name. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="lookupOrConstruct",height=0.2,width=0.4,color="red",URL="$a29734.html#a87ac5880655544b9077eaef70a54ad8e"];
+}

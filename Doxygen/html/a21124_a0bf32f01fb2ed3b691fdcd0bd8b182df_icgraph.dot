@@ -1,0 +1,20 @@
+digraph "erfc"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node39149 [label="erfc",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node39149 -> Node39150 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node39150 [label="atan2",height=0.2,width=0.4,color="black",URL="$a21124.html#a9d45ac659e1f4191f75f0fe34ad7f596"];
+  Node39149 -> Node39151 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node39151 [label="cmptMag",height=0.2,width=0.4,color="red",URL="$a12539.html#a9180528922650a6b9a3b302e27e621b9"];
+  Node39149 -> Node39206 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node39206 [label="Foam::incompressible\l::LESModels::spectEddyVisc::k",height=0.2,width=0.4,color="red",URL="$a30918.html#a2e01d66cd4db498fd5e869ea66925978",tooltip="Return SGS kinetic energy. "];
+  Node39149 -> Node39208 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node39208 [label="stabilise",height=0.2,width=0.4,color="black",URL="$a21124.html#a0f54b8f830b5ec7eb36ed5ccda6d7b1e"];
+  Node39149 -> Node39209 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node39209 [label="sumProd",height=0.2,width=0.4,color="black",URL="$a21124.html#a5b480f6156c25bef4de87d86094e87ea"];
+  Node39149 -> Node39210 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node39210 [label="Foam::pairPotentials\l::dampedCoulomb::unscaledEnergy",height=0.2,width=0.4,color="red",URL="$a24454.html#a83578b87f1b5c24f33e63b3327599dff"];
+}

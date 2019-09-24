@@ -1,0 +1,31 @@
+digraph "syncEdgePositions"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node9164 [label="syncEdgePositions",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node9164 -> Node9165 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9165 [label="getInternalOrCoupledFaces",height=0.2,width=0.4,color="red",URL="$a27502.html#a8fd72dca30a47f2a04181c7be9a8ce84",tooltip="Get per face whether it is internal or coupled. "];
+  Node9164 -> Node9177 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9177 [label="getInternalOrMasterFaces",height=0.2,width=0.4,color="red",URL="$a27502.html#a974774e844482a638469208c3e1d93b2",tooltip="Get per face whether it is internal or a master of a. "];
+  Node9177 -> Node9165 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9164 -> Node9178 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9178 [label="getMasterEdges",height=0.2,width=0.4,color="red",URL="$a27502.html#a96d0f41e2ad80738744f967818ff34a2",tooltip="Get per edge whether it is uncoupled or a master of a. "];
+  Node9164 -> Node9185 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9185 [label="getMasterFaces",height=0.2,width=0.4,color="red",URL="$a27502.html#a46e7fd91866d97d6f21c35b1a892f0c4",tooltip="Get per face whether it is uncoupled or a master of a. "];
+  Node9185 -> Node9177 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9164 -> Node9187 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9187 [label="getMasterPoints",height=0.2,width=0.4,color="red",URL="$a27502.html#a38f15a35a2b2379333eee9b98b9a1e67",tooltip="Get per point whether it is uncoupled or a master of a. "];
+  Node9164 -> Node9189 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9189 [label="swapFaceList",height=0.2,width=0.4,color="red",URL="$a27502.html#a0a2ccad77335dc7f9439d3933cf109e0",tooltip="Swap coupled face values. "];
+  Node9164 -> Node9549 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9549 [label="syncEdgeList",height=0.2,width=0.4,color="red",URL="$a27502.html#a5ed3e64d2ef89e3823674727ea1b3d58",tooltip="Synchronize values on all mesh edges. "];
+  Node9164 -> Node9544 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9544 [label="syncEdgeMap",height=0.2,width=0.4,color="red",URL="$a27502.html#a154ac086463b8d7a0eed8c4539d3ab73",tooltip="Synchronize values on selected edges. "];
+  Node9544 -> Node9547 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9547 [label="syncPointList",height=0.2,width=0.4,color="red",URL="$a27502.html#a197ed77a9101bdfb37253bd3f507c017",tooltip="Synchronize values on all mesh points. "];
+  Node9164 -> Node9303 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9303 [label="syncFaceList",height=0.2,width=0.4,color="red",URL="$a27502.html#abed40ebf1b90b365509600f5e7b004b7",tooltip="Synchronize values on all mesh faces. "];
+  Node9164 -> Node9547 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

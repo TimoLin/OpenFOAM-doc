@@ -1,0 +1,25 @@
+digraph "dot"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node66498 [label="dot",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node66498 -> Node66499 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node66499 [label="Foam::LduMatrix::Amul",height=0.2,width=0.4,color="red",URL="$a26790.html#a0ae6a36cacfe73d022cc0ce2dba2badc",tooltip="Matrix multiplication. "];
+  Node66498 -> Node66507 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node66507 [label="dot",height=0.2,width=0.4,color="black",URL="$a21124.html#a6f894ffeb91384db5e98c5125382e700"];
+  Node66498 -> Node66508 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node66508 [label="Foam::fileName::name",height=0.2,width=0.4,color="black",URL="$a28234.html#a898666c1264ffb1f989103067c7698a4",tooltip="Return file name, optionally without extension. "];
+  Node66498 -> Node66509 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node66509 [label="Foam::LduMatrix::residual",height=0.2,width=0.4,color="red",URL="$a26790.html#aaaa355e50d6957bc3b75c0fe58e26b0f"];
+  Node66509 -> Node66510 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node66510 [label="Foam::LduMatrix::sumA",height=0.2,width=0.4,color="red",URL="$a26790.html#a1bd736a26fe993cc4fd7257f1f62c2a8",tooltip="Sum the coefficients on each row of the matrix. "];
+  Node66510 -> Node66511 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node66511 [label="Foam::LduMatrix::Tmul",height=0.2,width=0.4,color="red",URL="$a26790.html#aeb94c1ff072ce41940bf013d4b6c5a79",tooltip="Matrix transpose multiplication. "];
+  Node66511 -> Node66499 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node66498 -> Node66510 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node66498 -> Node66511 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node66498 -> Node66512 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node66512 [label="transformFieldMask\l\< symmTensor \>",height=0.2,width=0.4,color="black",URL="$a21124.html#a6b63177aaf6ff87cb4d4c6e69df5c9ca"];
+}

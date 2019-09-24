@@ -1,0 +1,15 @@
+digraph "checkFaceDotProduct"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node310 [label="checkFaceDotProduct",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node310 -> Node311 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node311 [label="cellVolumes",height=0.2,width=0.4,color="black",URL="$a25146.html#abead6b42c36ac9c1a86fb2707b304a2f"];
+  Node310 -> Node312 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node312 [label="checkCellDeterminant",height=0.2,width=0.4,color="red",URL="$a25146.html#a86702a579f7fe69fb82f0933e27edabd"];
+  Node312 -> Node311 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node310 -> Node319 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node319 [label="correct",height=0.2,width=0.4,color="black",URL="$a25146.html#aeed5a518f187ef6c2eec874ebcf8df29",tooltip="Recalculate on selected faces. Recalculates cell properties. "];
+}

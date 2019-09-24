@@ -1,0 +1,16 @@
+digraph "faceOnCell"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node682 [label="faceOnCell",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node682 -> Node683 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node683 [label="Foam::primitiveMesh\l::faceNeighbour",height=0.2,width=0.4,color="black",URL="$a27530.html#acd9489a2ac1ec02451fef1f415386694",tooltip="Face face-neighbour addressing. "];
+  Node682 -> Node684 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node684 [label="Foam::primitiveMesh\l::faceOwner",height=0.2,width=0.4,color="black",URL="$a27530.html#a95a88187f795e30779aa3bac679d9bfc",tooltip="Face face-owner addresing. "];
+  Node682 -> Node685 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node685 [label="findEdge",height=0.2,width=0.4,color="black",URL="$a21153.html#a503ac13f2a78e2ef3c8630ae73a4c0fd",tooltip="Return edge among candidates that uses the two vertices. "];
+  Node682 -> Node686 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node686 [label="Foam::primitiveMesh\l::isInternalFace",height=0.2,width=0.4,color="red",URL="$a27530.html#ae3e48ad9ec4c5132ec7d3d702ad17c9e",tooltip="Return true if given face label is internal to the mesh. "];
+}

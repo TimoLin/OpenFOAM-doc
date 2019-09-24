@@ -1,0 +1,20 @@
+digraph "cellReduce"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1329 [label="cellReduce",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1329 -> Node1330 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1330 [label="Foam::DimensionedField\l::dimensions",height=0.2,width=0.4,color="black",URL="$a26390.html#a66989c1e0666e0d0c93a2056ce75599e",tooltip="Return dimensions. "];
+  Node1329 -> Node1331 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1331 [label="Foam::IOobject::instance",height=0.2,width=0.4,color="black",URL="$a26142.html#acac6de003b420b848571b5064e50ed89"];
+  Node1329 -> Node1332 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1332 [label="Foam::DimensionedField\l::mesh",height=0.2,width=0.4,color="black",URL="$a26390.html#a8f1110830348a1448a14ab5e3cf47e3b",tooltip="Return mesh. "];
+  Node1329 -> Node1333 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1333 [label="Foam::IOobject::name",height=0.2,width=0.4,color="black",URL="$a26142.html#acc80e00a8ac919288fb55bd14cc88bf6",tooltip="Return name. "];
+  Node1329 -> Node1334 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1334 [label="Foam::fvMesh::neighbour",height=0.2,width=0.4,color="red",URL="$a22766.html#aab1a7f2af09b33005a527e107c7b3fad",tooltip="Internal face neighbour. "];
+  Node1329 -> Node1350 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1350 [label="Foam::fvMesh::owner",height=0.2,width=0.4,color="red",URL="$a22766.html#a16e7eb254c4fd2d1d7ac4d5d71f6c9f9",tooltip="Internal face owner. "];
+}

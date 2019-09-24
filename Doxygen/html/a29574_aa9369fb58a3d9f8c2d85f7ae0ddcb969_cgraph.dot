@@ -1,0 +1,15 @@
+digraph "canRead"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node484 [label="canRead",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node484 -> Node485 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node485 [label="Foam::fileName::ext",height=0.2,width=0.4,color="black",URL="$a28234.html#aa9025b0a516ed5b621e9afd6c493da4d",tooltip="Return file name extension (part after last .) "];
+  Node484 -> Node486 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node486 [label="Foam::fileName::lessExt",height=0.2,width=0.4,color="black",URL="$a28234.html#a6807d1f6ee241b17aec7652ecce48f6e",tooltip="Return file name without extension (part before last .) "];
+  Node484 -> Node487 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node487 [label="write",height=0.2,width=0.4,color="red",URL="$a29574.html#a8eea7f3ea6f24bb7a37ee7ef16a1ad10",tooltip="Write to file. "];
+  Node487 -> Node485 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

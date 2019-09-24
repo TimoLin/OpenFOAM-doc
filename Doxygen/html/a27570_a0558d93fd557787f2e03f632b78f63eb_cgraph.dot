@@ -1,0 +1,14 @@
+digraph "mirror"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node738 [label="mirror",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node738 -> Node739 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node739 [label="distance",height=0.2,width=0.4,color="red",URL="$a27570.html#a61fbf8f04b4768f4952b364ee7a9bc57",tooltip="Return distance from the given point to the plane. "];
+  Node738 -> Node752 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node752 [label="nearestPoint",height=0.2,width=0.4,color="black",URL="$a27570.html#ac5172e8300fdfc33a0ea3971445e4d7f",tooltip="Return nearest point in the plane for the given point. "];
+  Node738 -> Node753 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node753 [label="normal",height=0.2,width=0.4,color="black",URL="$a27570.html#a7561a676d5a3fa90384c444758baac4c",tooltip="Return plane normal. "];
+}

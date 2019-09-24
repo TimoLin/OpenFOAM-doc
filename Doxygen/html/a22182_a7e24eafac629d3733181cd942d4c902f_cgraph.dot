@@ -1,0 +1,35 @@
+digraph "updateCoeffs"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node552 [label="updateCoeffs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node552 -> Node553 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node553 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node552 -> Node596 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node596 [label="Foam::GeometricField\l::boundaryField",height=0.2,width=0.4,color="black",URL="$a22434.html#a3c6c1a789b48ea0c5e8bff64f9c14f2d",tooltip="Return reference to GeometricBoundaryField. "];
+  Node552 -> Node597 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node597 [label="dimensionedInternalField",height=0.2,width=0.4,color="black",URL="$a38438.html#a942cd19121a46cdc649099eb27c74b18"];
+  Node552 -> Node598 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node598 [label="Foam::mappedPatchBase\l::distribute",height=0.2,width=0.4,color="red",URL="$a25094.html#abc1fef854aa7627739504e6f5408dd79",tooltip="Wrapper around map/interpolate data distribution. "];
+  Node552 -> Node897 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node897 [label="Foam::mappedPatchBase\l::mode",height=0.2,width=0.4,color="black",URL="$a25094.html#a01c92e5d02d7a3b1b3bf93f7607bd6a8",tooltip="What to sample. "];
+  Node552 -> Node780 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node780 [label="Foam::UPstream::msgType",height=0.2,width=0.4,color="black",URL="$a26270.html#ae5b8fe6652f6320aa6c7f5c44b6f01b7",tooltip="Message tag of standard messages. "];
+  Node552 -> Node898 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node898 [label="Foam::operator==",height=0.2,width=0.4,color="black",URL="$a21124.html#a28a45d2e3cca6152b024de57575abbf1"];
+  Node552 -> Node899 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node899 [label="Foam::fvPatchField\l::patch",height=0.2,width=0.4,color="black",URL="$a22354.html#aca0923a4611f6166ffd8fa14d81864a4",tooltip="Return patch. "];
+  Node552 -> Node900 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node900 [label="Foam::mappedPatchBase\l::sampleMesh",height=0.2,width=0.4,color="red",URL="$a25094.html#a75f4352dcd205ea34f90ada907f95091",tooltip="Get the region mesh. "];
+  Node552 -> Node973 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node973 [label="Foam::mappedPatchBase\l::samplePatch",height=0.2,width=0.4,color="red",URL="$a25094.html#abeba9683e79bef1963ffd8abdd6aa59f",tooltip="Patch (only if NEARESTPATCHFACE) "];
+  Node973 -> Node900 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node552 -> Node975 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node975 [label="Foam::fvPatch::start",height=0.2,width=0.4,color="red",URL="$a22870.html#a6bfd3e3abb11e98bdb4b98671cec1234",tooltip="Return start label of this patch in the polyMesh face list. "];
+  Node552 -> Node875 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node875 [label="Foam::List::transfer",height=0.2,width=0.4,color="black",URL="$a25694.html#a25ad1d2084d16b234b0cf91c07e832c0",tooltip="Transfer the contents of the argument List into this list. "];
+  Node552 -> Node976 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node976 [label="write",height=0.2,width=0.4,color="red",URL="$a22182.html#a293fdfec8bdfbd5c3913ab4c9f3454ff",tooltip="Write. "];
+}

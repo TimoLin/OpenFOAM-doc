@@ -1,0 +1,13 @@
+digraph "Hanning"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node240 [label="Hanning",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node240 -> Node241 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node241 [label="meanPf",height=0.2,width=0.4,color="red",URL="$a28950.html#a0d534c0b9b0519990e73472559a8e08a",tooltip="Return the multi-window mean fft of the complete pressure data. "];
+  Node240 -> Node243 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node243 [label="RMSmeanPf",height=0.2,width=0.4,color="black",URL="$a28950.html#a546d78f5a9dae70a0800a2a220370628",tooltip="Return the multi-window RMS mean fft of the complete pressure data. "];
+  Node243 -> Node241 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

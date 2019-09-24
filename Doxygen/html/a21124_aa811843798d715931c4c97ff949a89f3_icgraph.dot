@@ -1,0 +1,22 @@
+digraph "getEnv"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node82631 [label="getEnv",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node82631 -> Node82632 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node82632 [label="Foam::fileName::caseName",height=0.2,width=0.4,color="red",URL="$a28234.html#a292efb0bc1cca4508df69142020aa88e",tooltip="Return file name (part beyond last /), subsitute for FOAM_CASE. "];
+  Node82631 -> Node82636 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node82636 [label="Foam::argList::displayDoc",height=0.2,width=0.4,color="red",URL="$a26662.html#a9b27b732ab8af61a9511f20b6d3c5abc",tooltip="Display documentation in browser. "];
+  Node82631 -> Node82641 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node82641 [label="findEtcFiles",height=0.2,width=0.4,color="red",URL="$a21124.html#aab73bb2c46692e2e11dd7364556cd3c5",tooltip="Search for files from user/group/shipped directories. "];
+  Node82631 -> Node84019 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node84019 [label="Foam::stringOps::getVariable",height=0.2,width=0.4,color="red",URL="$a21166.html#a0b683838814d3a93044a72f190d693ed",tooltip="Get dictionary or (optionally) environment variable. "];
+  Node82631 -> Node84686 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node84686 [label="Foam::stringOps::inplace\lExpand",height=0.2,width=0.4,color="black",URL="$a21166.html#acf28515a524dac1a611d026b20698fb6",tooltip="Expand initial tildes and all occurences of environment variables. "];
+  Node82631 -> Node84687 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node84687 [label="Foam::JobInfo::JobInfo",height=0.2,width=0.4,color="black",URL="$a26686.html#a37755ec761ec7d5d5d4b23a980f78097",tooltip="Construct null. "];
+  Node82631 -> Node84678 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node84678 [label="Foam::dynamicCode::\lresolveTemplates",height=0.2,width=0.4,color="red",URL="$a26070.html#a7056029919f25a2d23e9913df26223d9",tooltip="Resolve code-templates via the codeTemplateEnvName. "];
+}

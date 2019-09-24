@@ -1,0 +1,24 @@
+digraph "src/lagrangian/intermediate/parcels/Templates/ThermoParcel/ThermoParcel.H"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node379 [label="src/lagrangian/intermediate\l/parcels/Templates/ThermoParcel\l/ThermoParcel.H",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node379 -> Node380 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node380 [label="src/lagrangian/coalCombustion\l/coalParcel/coalParcel.H",height=0.2,width=0.4,color="red",URL="$a04925.html"];
+  Node379 -> Node385 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node385 [label="src/lagrangian/intermediate\l/clouds/Templates/ThermoCloud\l/ThermoCloud.C",height=0.2,width=0.4,color="black",URL="$a05234.html"];
+  Node379 -> Node386 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node386 [label="src/lagrangian/intermediate\l/parcels/derived/basicReactingMultiphase\lParcel/basicReactingMultiphaseParcel.H",height=0.2,width=0.4,color="red",URL="$a05297.html"];
+  Node379 -> Node391 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node391 [label="src/lagrangian/intermediate\l/parcels/derived/basicReactingParcel\l/basicReactingParcel.H",height=0.2,width=0.4,color="red",URL="$a05306.html"];
+  Node379 -> Node396 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node396 [label="src/lagrangian/intermediate\l/parcels/derived/basicThermoParcel\l/basicThermoParcel.H",height=0.2,width=0.4,color="red",URL="$a05315.html"];
+  Node379 -> Node401 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node401 [label="src/lagrangian/intermediate\l/parcels/Templates/ThermoParcel\l/ThermoParcel.C",height=0.2,width=0.4,color="black",URL="$a05495.html"];
+  Node379 -> Node402 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node402 [label="src/lagrangian/intermediate\l/parcels/Templates/ThermoParcel\l/ThermoParcelIO.C",height=0.2,width=0.4,color="black",URL="$a05504.html"];
+  Node402 -> Node401 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node379 -> Node403 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node403 [label="src/lagrangian/spray\l/parcels/derived/basicSpray\lParcel/basicSprayParcel.H",height=0.2,width=0.4,color="red",URL="$a06665.html"];
+}

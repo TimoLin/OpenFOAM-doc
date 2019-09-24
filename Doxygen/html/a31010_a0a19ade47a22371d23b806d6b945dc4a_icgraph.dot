@@ -1,0 +1,24 @@
+digraph "omega"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3608 [label="omega",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3608 -> Node3609 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3609 [label="clone",height=0.2,width=0.4,color="black",URL="$a31010.html#a617bc55e78cf53196df9217431e5aa96",tooltip="Construct and return a clone setting internal field reference. "];
+  Node3608 -> Node3610 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3610 [label="createAveragingWeights",height=0.2,width=0.4,color="black",URL="$a31010.html#a7e3f26a2eb2d1d475fca3c80c5fa26f0",tooltip="Create the averaging weights for cells which are bounded by. "];
+  Node3610 -> Node3611 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3611 [label="updateCoeffs",height=0.2,width=0.4,color="black",URL="$a31010.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node3611 -> Node3609 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3608 -> Node3608 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3608 -> Node3612 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3612 [label="omegaPatch",height=0.2,width=0.4,color="red",URL="$a31010.html#a79d87e78d8123da67dab9da2d9d522fe",tooltip="Helper function to return non-const access to an omega patch. "];
+  Node3612 -> Node3608 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3612 -> Node3615 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3615 [label="setMaster",height=0.2,width=0.4,color="black",URL="$a31010.html#af62f4355fcee4da87dbdf3b365d3d73a",tooltip="Set the master patch - master is responsible for updating all. "];
+  Node3615 -> Node3611 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3608 -> Node3615 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3608 -> Node3611 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,14 @@
+digraph "primitiveEntry"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="primitiveEntry",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="clone",height=0.2,width=0.4,color="black",URL="$a26058.html#aab683a72cbb8a1b8291804fcbc80182a",tooltip="Construct on freestore as copy with reference to the. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="primitiveEntry",height=0.2,width=0.4,color="black",URL="$a26058.html#afc7b8d8a6e52cf005199947fafe27f71",tooltip="Construct from keyword and a single token. "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="read",height=0.2,width=0.4,color="red",URL="$a26058.html#aec631c08ab1cd21bac04fbc797c9c5fb",tooltip="Read tokens from the given stream. "];
+}

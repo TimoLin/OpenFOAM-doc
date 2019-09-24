@@ -1,0 +1,17 @@
+digraph "patchSchedule"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4397 [label="patchSchedule",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4397 -> Node4398 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4398 [label="Foam::lduPrimitiveMesh\l::gather",height=0.2,width=0.4,color="red",URL="$a27134.html#ad7514c3eec68fa18c472b5dfe1c2b5a4",tooltip="Gather meshes from other processors onto procIDs[0]. "];
+  Node4397 -> Node4402 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4402 [label="Foam::LduMatrix::patchSchedule",height=0.2,width=0.4,color="black",URL="$a26790.html#a073c4059b610f8e1c1aee75fb7b074ab",tooltip="Return the patch evaluation schedule. "];
+  Node4397 -> Node4403 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4403 [label="Foam::lduMatrix::patchSchedule",height=0.2,width=0.4,color="black",URL="$a26882.html#a073c4059b610f8e1c1aee75fb7b074ab",tooltip="Return the patch evaluation schedule. "];
+  Node4397 -> Node4404 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4404 [label="size",height=0.2,width=0.4,color="red",URL="$a26850.html#a9facbf0a118d395c89884e45a5ca4e4b",tooltip="Return number of equations. "];
+  Node4404 -> Node4398 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

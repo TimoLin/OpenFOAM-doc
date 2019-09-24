@@ -1,0 +1,17 @@
+digraph "resetFaces"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node92 [label="resetFaces",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node92 -> Node93 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node93 [label="clear",height=0.2,width=0.4,color="black",URL="$a29578.html#ac8bb3912a3ce86b15842e79d0b421204",tooltip="Clear primitive data (points, faces and zones) "];
+  Node93 -> Node94 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node94 [label="storedIOZones",height=0.2,width=0.4,color="black",URL="$a29578.html#a972f60e0798727429cb548eefa49b2fc",tooltip="Const access to the zones. "];
+  Node92 -> Node95 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node95 [label="reset",height=0.2,width=0.4,color="red",URL="$a29578.html#a842a098d8cca88c47805764884aaff61",tooltip="Reset primitive data (points, faces and zones) "];
+  Node95 -> Node92 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node95 -> Node94 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node92 -> Node94 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,26 @@
+digraph "clone"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node33 [label="clone",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node33 -> Node34 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34 [label="cellZone",height=0.2,width=0.4,color="black",URL="$a27506.html#a065dd8b7f8b509e67046206bc17725f4",tooltip="Disallow default bitwise copy construct. "];
+  Node33 -> Node35 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node35 [label="checkDefinition",height=0.2,width=0.4,color="red",URL="$a27506.html#a039ec44911bfb8cd28ffd27a600e6fc5",tooltip="Check zone definition. Return true if in error. "];
+  Node33 -> Node37 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node37 [label="checkParallelSync",height=0.2,width=0.4,color="black",URL="$a27506.html#a55d74b0e2c07d92d28ada2af695e5193",tooltip="Check whether zone is synchronised across coupled boundaries. Return. "];
+  Node33 -> Node38 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node38 [label="New",height=0.2,width=0.4,color="red",URL="$a27506.html#a5a2384fe44f4e1c8abe5c7c8cfdb8edd",tooltip="Return a pointer to a new cell zone. "];
+  Node33 -> Node341 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node341 [label="operator=",height=0.2,width=0.4,color="red",URL="$a27506.html#a0970ee6238e5f73261c5fd48dd10a355",tooltip="Assign to zone, clearing demand-driven data. "];
+  Node33 -> Node343 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node343 [label="whichCell",height=0.2,width=0.4,color="red",URL="$a27506.html#a418d9fe22a1d4510b2790d22658190f4",tooltip="Helper function to re-direct to zone::localID(...) "];
+  Node33 -> Node349 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node349 [label="writeDict",height=0.2,width=0.4,color="red",URL="$a27506.html#a99e013320e2bb0118f0c2857a9193f62",tooltip="Write dictionary. "];
+  Node33 -> Node350 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node350 [label="zoneMesh",height=0.2,width=0.4,color="black",URL="$a27506.html#aa222bedbc9396f97fda1d86989d9cc78",tooltip="Return zoneMesh reference. "];
+  Node33 -> Node351 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node351 [label="~cellZone",height=0.2,width=0.4,color="black",URL="$a27506.html#ab7b7e804d508506527fd3334511c9364",tooltip="Destructor. "];
+}

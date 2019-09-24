@@ -1,0 +1,43 @@
+digraph "transformStart"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node477 [label="transformStart",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node477 -> Node478 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node478 [label="compact",height=0.2,width=0.4,color="red",URL="$a27362.html#ae425c08cfe8d1064cfa183af3b1fdfe4",tooltip="Compact maps. Gets per field a bool whether it is used (locally) "];
+  Node477 -> Node491 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node491 [label="constructSize",height=0.2,width=0.4,color="black",URL="$a27362.html#aafa5c5eaac08986c309d43bb80c2ab1f",tooltip="Constructed data size. "];
+  Node477 -> Node492 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node492 [label="distribute",height=0.2,width=0.4,color="red",URL="$a27362.html#a33e0f8481eb68bf011731ec98e8f7c65",tooltip="Distribute data. Note:schedule only used for Pstream::scheduled. "];
+  Node477 -> Node538 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node538 [label="fld",height=0.2,width=0.4,color="black",URL="$a18899.html#a378472d1f8b33eeefbda63a947476c8c"];
+  Node477 -> Node539 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node539 [label="Foam::UPstream::msgType",height=0.2,width=0.4,color="black",URL="$a26270.html#ae5b8fe6652f6320aa6c7f5c44b6f01b7",tooltip="Message tag of standard messages. "];
+  Node477 -> Node540 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node540 [label="printLayout",height=0.2,width=0.4,color="red",URL="$a27362.html#a354c270fcad8f00ba2bf069b0f68a729",tooltip="Debug: print layout. Can only be used on maps with sorted. "];
+  Node477 -> Node558 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node558 [label="receive",height=0.2,width=0.4,color="red",URL="$a27362.html#ada43f4fefe9a0c9f51d583ed2c753441",tooltip="Do all receives using PstreamBuffers. "];
+  Node558 -> Node492 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node477 -> Node560 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node560 [label="renumber",height=0.2,width=0.4,color="red",URL="$a27362.html#a47982060bb4a510a889e78fccf36e513",tooltip="Helper for construct from globalIndex. Renumbers element. "];
+  Node477 -> Node561 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node561 [label="reverseDistribute",height=0.2,width=0.4,color="black",URL="$a27362.html#af4843479bbb5ce26fab0dbefd525c410",tooltip="Reverse distribute data using default commsType. "];
+  Node561 -> Node492 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node561 -> Node562 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node562 [label="schedule",height=0.2,width=0.4,color="red",URL="$a27362.html#a254cd11d9ff94cd14064be383685247e",tooltip="Return a schedule. Demand driven. See above. "];
+  Node562 -> Node539 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node477 -> Node562 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node477 -> Node563 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node563 [label="send",height=0.2,width=0.4,color="red",URL="$a27362.html#a9f63e6d5292f4b45c0faf1b863262595",tooltip="Do all sends using PstreamBuffers. "];
+  Node477 -> Node564 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node564 [label="Foam::T",height=0.2,width=0.4,color="red",URL="$a21124.html#ae57fda0abb14bb0944947c463c6e09d4"];
+  Node477 -> Node569 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node569 [label="transfer",height=0.2,width=0.4,color="red",URL="$a27362.html#af64d854813069b200f47b4a3dcba4d9b",tooltip="Transfer the contents of the argument and annul the argument. "];
+  Node477 -> Node570 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node570 [label="whichTransform",height=0.2,width=0.4,color="red",URL="$a27362.html#a0772f98ea84f7c9e56a8fb32f405a8cb",tooltip="Find transform from transformElements. "];
+  Node477 -> Node571 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node571 [label="xfer",height=0.2,width=0.4,color="red",URL="$a27362.html#aa06becfc3664361f898aa510ee48fe99",tooltip="Transfer contents to the Xfer container. "];
+  Node571 -> Node560 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,26 @@
+digraph "printMeshInfo"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node16251 [label="printMeshInfo",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node16251 -> Node16252 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16252 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node16251 -> Node16254 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16254 [label="Foam::syncTools::getMaster\lFaces",height=0.2,width=0.4,color="red",URL="$a27502.html#a46e7fd91866d97d6f21c35b1a892f0c4",tooltip="Get per face whether it is uncoupled or a master of a. "];
+  Node16251 -> Node16269 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16269 [label="Foam::syncTools::getMaster\lPoints",height=0.2,width=0.4,color="red",URL="$a27502.html#a38f15a35a2b2379333eee9b98b9a1e67",tooltip="Get per point whether it is uncoupled or a master of a. "];
+  Node16251 -> Node16272 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16272 [label="Foam::gMax",height=0.2,width=0.4,color="black",URL="$a21124.html#ae8d631fb8e841947408bb711abfb1e67"];
+  Node16251 -> Node16273 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16273 [label="Foam::Pstream::listCombine\lGather",height=0.2,width=0.4,color="red",URL="$a26250.html#a8c0e5044dc4a942cf62b06797c3a743f"];
+  Node16273 -> Node16252 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16251 -> Node16283 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16283 [label="Foam::Pstream::listCombine\lScatter",height=0.2,width=0.4,color="red",URL="$a26250.html#adfd4915b68ab7181dccb847976286e56",tooltip="Scatter data. Reverse of combineGather. "];
+  Node16283 -> Node16252 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16251 -> Node16284 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16284 [label="Foam::globalMeshData\l::nTotalCells",height=0.2,width=0.4,color="red",URL="$a27334.html#af5f312e4d0bc5cbcc088e7c247d3a97a",tooltip="Return total number of cells in decomposed mesh. "];
+  Node16251 -> Node16493 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16493 [label="Foam::returnReduce",height=0.2,width=0.4,color="red",URL="$a21124.html#a8d528a67d2a9c6fe4fb94bc86872624b"];
+}

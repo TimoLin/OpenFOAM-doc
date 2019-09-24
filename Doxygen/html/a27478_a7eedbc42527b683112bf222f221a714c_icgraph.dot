@@ -1,0 +1,28 @@
+digraph "faceCentres"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node5172 [label="faceCentres",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node5172 -> Node5173 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5173 [label="Foam::cyclicAMIPolyPatch\l::calcTransforms",height=0.2,width=0.4,color="black",URL="$a24946.html#afb48497736bbafb1fbb000cd218d1779",tooltip="Recalculate the transformation tensors. "];
+  Node5172 -> Node5174 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5174 [label="Foam::cyclicPolyPatch\l::calcTransforms",height=0.2,width=0.4,color="black",URL="$a27434.html#afb48497736bbafb1fbb000cd218d1779",tooltip="Recalculate the transformation tensors. "];
+  Node5172 -> Node5175 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5175 [label="Foam::inverseFaceDistance\lDiffusivity::correct",height=0.2,width=0.4,color="black",URL="$a23362.html#a3ae44b28050c3aa494c1d8e18cf618c1",tooltip="Correct the motion diffusivity. "];
+  Node5172 -> Node5176 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5176 [label="Foam::FreeStream::inflow",height=0.2,width=0.4,color="black",URL="$a23718.html#a84e6a7b742df4fcb240fff3040770a0b",tooltip="Introduce particles. "];
+  Node5172 -> Node5177 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5177 [label="Foam::coupledPolyPatch\l::matchTolerance",height=0.2,width=0.4,color="black",URL="$a27426.html#a2f3a8c0c89ae294d198e5109369c06e8"];
+  Node5172 -> Node5178 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5178 [label="Foam::NamedEnum\< direction\lType, 3 \>::names",height=0.2,width=0.4,color="black",URL="$a25998.html#a7350da3a0edd92cd11e6c479c9967dc8"];
+  Node5172 -> Node5179 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5179 [label="patchSlice",height=0.2,width=0.4,color="black",URL="$a27478.html#a2fbab44ddac097399a42d4aeebccf3a0",tooltip="Slice Field to patch. "];
+  Node5172 -> Node5180 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5180 [label="Foam::forces::read",height=0.2,width=0.4,color="red",URL="$a28830.html#aa9b8764750bd9ff67ca32b6551dc7847",tooltip="Read the forces data. "];
+  Node5172 -> Node5183 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5183 [label="Foam::FaceCellWave\l::setFaceInfo",height=0.2,width=0.4,color="red",URL="$a24814.html#a4dfc64d9c6a80650006ac5ab728f95b0",tooltip="Set initial changed faces. "];
+  Node5172 -> Node5216 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5216 [label="Foam::movingWallVelocity\lFvPatchVectorField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a22186.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+}

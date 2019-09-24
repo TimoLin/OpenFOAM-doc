@@ -1,0 +1,41 @@
+digraph "findNearestRegionEdge"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node491 [label="findNearestRegionEdge",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node491 -> Node492 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node492 [label="Foam::treeDataEdge\l::edges",height=0.2,width=0.4,color="black",URL="$a25030.html#ac8d2a6c5ee06c3249c346595d7ecb470"];
+  Node491 -> Node493 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node493 [label="findNearestPoint",height=0.2,width=0.4,color="black",URL="$a24682.html#a02ca0be1e44c1ac479b2f0a1e82bada5",tooltip="Find nearest feature point. Sets. "];
+  Node493 -> Node494 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node494 [label="Foam::List::setSize",height=0.2,width=0.4,color="black",URL="$a25694.html#aedb985ffeaf1bdbfeccc2a8730405703",tooltip="Reset size of List. "];
+  Node493 -> Node495 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node495 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node493 -> Node496 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node496 [label="Foam::indexedOctree\l::shapes",height=0.2,width=0.4,color="black",URL="$a25026.html#a018ca10cf68431d68c860ee380d4b4be",tooltip="Reference to shape. "];
+  Node493 -> Node497 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node497 [label="Foam::magSqr",height=0.2,width=0.4,color="black",URL="$a21124.html#ae6fff2c6981e6d9618aa5038e69def6e"];
+  Node493 -> Node498 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node498 [label="Foam::PointIndexHit::hit",height=0.2,width=0.4,color="black",URL="$a27566.html#aee8dc30bf27cefe419b15f96e594c155",tooltip="Is there a hit. "];
+  Node493 -> Node499 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node499 [label="Foam::PointIndexHit\l::hitPoint",height=0.2,width=0.4,color="red",URL="$a27566.html#a0350feff966a8bc8833a84ca454f1e5e",tooltip="Return hit point. "];
+  Node493 -> Node543 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node543 [label="Foam::PointIndexHit\l::index",height=0.2,width=0.4,color="black",URL="$a27566.html#a4a438520bb14406481732edc13c119c7",tooltip="Return index. "];
+  Node491 -> Node498 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node491 -> Node499 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node491 -> Node543 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node491 -> Node544 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node544 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node491 -> Node497 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node491 -> Node545 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node545 [label="Foam::treeDataEdge\l::points",height=0.2,width=0.4,color="black",URL="$a25030.html#afb6c3bde245ae6ea91f1c538da59f8fc"];
+  Node491 -> Node546 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node546 [label="regionEdgeTrees",height=0.2,width=0.4,color="red",URL="$a24682.html#a8b10e1c25153aef632c6fea885ce9bf0"];
+  Node546 -> Node544 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node546 -> Node495 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node491 -> Node494 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node491 -> Node496 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node491 -> Node495 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

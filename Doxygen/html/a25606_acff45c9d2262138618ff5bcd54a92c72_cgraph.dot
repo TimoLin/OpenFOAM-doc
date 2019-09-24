@@ -1,0 +1,14 @@
+digraph "~ODESystem"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2 [label="~ODESystem",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="derivatives",height=0.2,width=0.4,color="black",URL="$a25606.html#ace3a2c5d7e8dfc90926fb5d1ae2e6786",tooltip="Calculate the derivatives in dydx. "];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="jacobian",height=0.2,width=0.4,color="black",URL="$a25606.html#a2ac73d58c3f008beaafc51f4684ed4d2",tooltip="Calculate the Jacobian of the system. "];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="nEqns",height=0.2,width=0.4,color="black",URL="$a25606.html#ad222c0b30411db6db0ad341c8bc238ee",tooltip="Return the number of equations in the system. "];
+}

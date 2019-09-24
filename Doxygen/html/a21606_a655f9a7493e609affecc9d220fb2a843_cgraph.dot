@@ -1,0 +1,43 @@
+digraph "attach"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node417 [label="attach",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node417 -> Node418 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node418 [label="Foam::polyMesh::addPatches",height=0.2,width=0.4,color="red",URL="$a27410.html#a6527fc99a1c5861553e2b107c6d9170f",tooltip="Add boundary patches. "];
+  Node418 -> Node419 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node419 [label="Foam::polyMesh::boundaryMesh",height=0.2,width=0.4,color="black",URL="$a27410.html#a9f2b68c134340291eda6197f47f25484",tooltip="Return boundary mesh. "];
+  Node417 -> Node419 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node417 -> Node499 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node499 [label="Foam::polyTopoChanger\l::changeMesh",height=0.2,width=0.4,color="red",URL="$a21734.html#ab42e5233705f618d6994589102b1103c"];
+  Node417 -> Node529 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node529 [label="Foam::primitiveMesh\l::checkMesh",height=0.2,width=0.4,color="red",URL="$a27530.html#a4a517558d80c6f18d499768cb53b45c3",tooltip="Check mesh for correctness. Returns false for no error. "];
+  Node529 -> Node438 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node438 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node417 -> Node817 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node817 [label="Foam::IOobject::clone",height=0.2,width=0.4,color="red",URL="$a26142.html#a2586aa9ac4b54cdfc2bb9ed7780d4602",tooltip="Clone. "];
+  Node417 -> Node438 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node417 -> Node819 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node819 [label="Foam::polyMesh::facesInstance",height=0.2,width=0.4,color="red",URL="$a27410.html#a10996bb0856e3630cd8cfb5a803e00fa",tooltip="Return the current instance directory for faces. "];
+  Node417 -> Node820 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node820 [label="Foam::polyMesh::movePoints",height=0.2,width=0.4,color="red",URL="$a27410.html#a3693c648bea2e99054cbbb75d4bf4e4d",tooltip="Move points, returns volumes swept by faces in motion. "];
+  Node820 -> Node438 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node820 -> Node825 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node825 [label="Foam::polyMesh::oldPoints",height=0.2,width=0.4,color="red",URL="$a27410.html#a7db04d5fb2df0e34a2e616680cddea9a",tooltip="Return old points for mesh motion. "];
+  Node825 -> Node438 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node825 -> Node820 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node417 -> Node476 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node476 [label="Foam::IOobject::name",height=0.2,width=0.4,color="black",URL="$a26142.html#acc80e00a8ac919288fb55bd14cc88bf6",tooltip="Return name. "];
+  Node417 -> Node825 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node417 -> Node741 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node741 [label="Foam::polyMesh::removeBoundary",height=0.2,width=0.4,color="red",URL="$a27410.html#acc2134c36adb97b988d5efc383a7f9f0",tooltip="Remove boundary patches. "];
+  Node741 -> Node438 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node417 -> Node525 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node525 [label="Foam::polyMesh::setInstance",height=0.2,width=0.4,color="red",URL="$a27410.html#add9813891a074bebd77384af1717b0bf",tooltip="Set the instance for mesh files. "];
+  Node525 -> Node438 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node417 -> Node478 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node478 [label="Foam::PtrList::size",height=0.2,width=0.4,color="black",URL="$a25914.html#a47b3bf30da1eb3ab8076b5fbe00e0494",tooltip="Return the number of elements in the PtrList. "];
+  Node417 -> Node478 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

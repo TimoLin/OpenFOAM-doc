@@ -1,0 +1,14 @@
+digraph "compile"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node47 [label="compile",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node47 -> Node48 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node48 [label="operator=",height=0.2,width=0.4,color="black",URL="$a28262.html#a395cc696a27ba5686e78fb76ff0e1ad9",tooltip="Assign copy. "];
+  Node47 -> Node49 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node49 [label="set",height=0.2,width=0.4,color="black",URL="$a28262.html#aa41bd0b113384704d1a0947db7cf1e8e",tooltip="Copy string, auto-test for regular expression or other options. "];
+  Node47 -> Node50 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node50 [label="wordRe",height=0.2,width=0.4,color="black",URL="$a28262.html#a3974b6185c34f92afc76e88412829cda",tooltip="Construct as copy. "];
+}

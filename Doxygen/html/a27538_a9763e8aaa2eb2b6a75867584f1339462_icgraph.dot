@@ -1,0 +1,12 @@
+digraph "checkPointManifold"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3101 [label="checkPointManifold",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3101 -> Node3102 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3102 [label="Foam::PrimitivePatch\l\< Face, ::Foam::List,\l pointField, point \>::\lcheckTopology",height=0.2,width=0.4,color="black",URL="$a27538.html#a4e678863ae6dc5c8c4268492898db970",tooltip="Check surface formed by patch for manifoldness (see above). "];
+  Node3101 -> Node3103 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3103 [label="Foam::PrimitivePatch\l\< Face, ::Foam::List,\l pointField, point \>::\lisInternalEdge",height=0.2,width=0.4,color="black",URL="$a27538.html#ac2458a175e66b555e443539d6c726e06",tooltip="Is internal edge? "];
+}

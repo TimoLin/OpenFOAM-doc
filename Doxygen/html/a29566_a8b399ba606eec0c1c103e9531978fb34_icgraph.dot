@@ -1,0 +1,12 @@
+digraph "read"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node291 [label="read",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node291 -> Node292 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node292 [label="Foam::MeshedSurface\l\< Foam::face \>::faces",height=0.2,width=0.4,color="black",URL="$a29566.html#a16c6d36f7c961d037a44e5c235d9aa15",tooltip="Return const access to the faces. "];
+  Node291 -> Node293 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node293 [label="Foam::MeshedSurface\l\< Foam::face \>::read",height=0.2,width=0.4,color="black",URL="$a29566.html#a464ebd67acbdff0014d4dae69e3ec4be",tooltip="Read from file. Chooses reader based on detected extension. "];
+}

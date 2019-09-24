@@ -1,0 +1,14 @@
+digraph "~Ostream"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2 [label="~Ostream",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="indent",height=0.2,width=0.4,color="black",URL="$a26238.html#a6f9f89f73f75f7dec4546766148b60d7",tooltip="Add indentation characters. "];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="write",height=0.2,width=0.4,color="black",URL="$a26238.html#a81a19ad9e4098b4701cc8bab9a59d78b",tooltip="Write next token to stream. "];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="writeQuoted",height=0.2,width=0.4,color="black",URL="$a26238.html#ada06b875ab0eb5bd3cd138515de8a8e7",tooltip="Write std::string surrounded by quotes. "];
+}

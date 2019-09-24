@@ -1,0 +1,26 @@
+digraph "gather"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node431 [label="gather",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node431 -> Node432 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node432 [label="Foam::UList::begin",height=0.2,width=0.4,color="black",URL="$a25698.html#a8a0643ef7f391465066f7f07d45ce934",tooltip="Return an iterator to begin traversing the UList. "];
+  Node431 -> Node433 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node433 [label="Foam::UList::byteSize",height=0.2,width=0.4,color="black",URL="$a25698.html#aa36dfadb2f396fa2a5d2827775598eae",tooltip="Return the binary size in number of characters of the UList. "];
+  Node431 -> Node434 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node434 [label="Foam::exit",height=0.2,width=0.4,color="red",URL="$a21124.html#a06ca7250d8e89caf05243ec094843642"];
+  Node431 -> Node481 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node481 [label="fld",height=0.2,width=0.4,color="black",URL="$a18899.html#a378472d1f8b33eeefbda63a947476c8c"];
+  Node431 -> Node482 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node482 [label="Foam::UList::last",height=0.2,width=0.4,color="black",URL="$a25698.html#aef07c02ea1c27bdb5906043b399e0ff0",tooltip="Return the last element of the list. "];
+  Node431 -> Node483 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node483 [label="Foam::List::setSize",height=0.2,width=0.4,color="black",URL="$a25694.html#aedb985ffeaf1bdbfeccc2a8730405703",tooltip="Reset size of List. "];
+  Node431 -> Node484 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node484 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node431 -> Node485 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node485 [label="Foam::UList::size",height=0.2,width=0.4,color="black",URL="$a25698.html#a47b3bf30da1eb3ab8076b5fbe00e0494",tooltip="Return the number of elements in the UList. "];
+  Node431 -> Node486 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node486 [label="write",height=0.2,width=0.4,color="black",URL="$a19709.html#a8f30b3c2179b03a7acf273e9dea43342"];
+}

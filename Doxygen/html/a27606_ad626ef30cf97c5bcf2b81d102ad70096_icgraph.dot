@@ -1,0 +1,25 @@
+digraph "normal"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node71 [label="normal",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node71 -> Node72 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node72 [label="Foam::particle::hitWallFaces",height=0.2,width=0.4,color="black",URL="$a23586.html#abf78981c0a99e9f135ebc37efcfd1544"];
+  Node72 -> Node73 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node73 [label="Foam::particle::trackToFace",height=0.2,width=0.4,color="black",URL="$a23586.html#a843767f232f5b61884dcd757558591e0"];
+  Node71 -> Node74 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node74 [label="Foam::solidParticle\l::hitWallPatch",height=0.2,width=0.4,color="red",URL="$a24502.html#a83ddd4996e7a12d68168442c5f04ca72",tooltip="Overridable function to handle the particle hitting a wallPatch. "];
+  Node71 -> Node79 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node79 [label="Foam::particle::normal",height=0.2,width=0.4,color="red",URL="$a23586.html#ad626ef30cf97c5bcf2b81d102ad70096",tooltip="Return the normal of the tri on tetFaceI_ for the. "];
+  Node71 -> Node91 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node91 [label="Foam::particle::oldNormal",height=0.2,width=0.4,color="red",URL="$a23586.html#a103a5d52bb7895466021f23678821b40",tooltip="Return the normal of the tri on tetFaceI_ for the. "];
+  Node71 -> Node92 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node92 [label="Foam::KinematicCloud\l\< Foam::DsmcCloud \>::\lpatchData",height=0.2,width=0.4,color="black",URL="$a23786.html#a2eff1b00206c129426b7d92f21f50ed7",tooltip="Calculate the patch normal and velocity to interact with,. "];
+  Node71 -> Node93 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node93 [label="Foam::polyMesh::pointInCell",height=0.2,width=0.4,color="red",URL="$a27410.html#a0867f30df00643909280245ea9f26310",tooltip="Is the point in the cell. "];
+  Node71 -> Node122 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node122 [label="Foam::wallBoundedParticle\l::trackToEdge",height=0.2,width=0.4,color="black",URL="$a28794.html#aff365968e28acf42244334b7c926dee6",tooltip="Track particle to a given position and returns 1.0 if the. "];
+  Node71 -> Node73 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

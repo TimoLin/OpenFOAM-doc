@@ -1,0 +1,17 @@
+digraph "constrain"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node570 [label="constrain",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node570 -> Node571 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node571 [label="constrainCorners",height=0.2,width=0.4,color="red",URL="$a23282.html#ac76c88ff18a78925cf0fcc2eec75af40",tooltip="Apply patch-patch constraints only. "];
+  Node571 -> Node574 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node574 [label="patchPatchPointConstraints",height=0.2,width=0.4,color="black",URL="$a23282.html#a874c77b203d051476f7319bfbb329829",tooltip="Actual constraints. "];
+  Node570 -> Node583 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node583 [label="Foam::volPointInterpolation\l::interpolateBoundaryField",height=0.2,width=0.4,color="black",URL="$a23286.html#a936aa4b556cdd4187b15465740bae64c",tooltip="Interpolate boundary with constraints/boundary conditions. "];
+  Node570 -> Node574 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node570 -> Node584 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node584 [label="Foam::sixDoFRigidBodyMotion\lSolver::sixDoFRigidBodyMotionSolver",height=0.2,width=0.4,color="black",URL="$a29550.html#a2b573e859751656bf3a214555cf1976e",tooltip="Construct from polyMesh and IOdictionary. "];
+}

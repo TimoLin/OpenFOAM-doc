@@ -1,0 +1,17 @@
+digraph "markSmallSliverFaces"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3274 [label="markSmallSliverFaces",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3274 -> Node3275 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3275 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node3274 -> Node3318 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3318 [label="Foam::polyMesh::faces",height=0.2,width=0.4,color="black",URL="$a27410.html#a431c0a24765f0bb6d32f6a03ce0e9b57",tooltip="Return raw faces. "];
+  Node3318 -> Node3275 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3274 -> Node3319 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3319 [label="markFaceZoneEdges",height=0.2,width=0.4,color="red",URL="$a21642.html#a594c5cf69d26318aad10cda77036b4f6",tooltip="Marks edges in the faceZone indirectPatchFaces for collapse. "];
+  Node3319 -> Node3318 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3319 -> Node3275 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,13 @@
+digraph "ping"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node107336 [label="ping",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node107336 -> Node107337 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node107337 [label="fdClose",height=0.2,width=0.4,color="black",URL="$a21124.html#a629de249b9daed92c3aa9d16fee30ffb",tooltip="Close file descriptor. "];
+  Node107337 -> Node107336 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node107336 -> Node107338 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node107338 [label="ping",height=0.2,width=0.4,color="black",URL="$a21124.html#a5713ff782923026cd214e4541e13fa55",tooltip="Check if machine is up by pinging port 22 (ssh) and 222 (rsh) "];
+}

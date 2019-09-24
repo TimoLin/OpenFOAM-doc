@@ -1,0 +1,28 @@
+digraph "surfaceNormal"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2471 [label="surfaceNormal",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2471 -> Node2472 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2472 [label="Foam::PrimitivePatch\l::edgeFaces",height=0.2,width=0.4,color="black",URL="$a27538.html#ad38ecd2902727a890ebd437731c271c8",tooltip="Return edge-face addressing. "];
+  Node2471 -> Node2473 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2473 [label="edgeSide",height=0.2,width=0.4,color="red",URL="$a25538.html#adca72845b60fd86c4bae9917d9eb8350",tooltip="if nearest point is on edgeI, determine on which side of surface "];
+  Node2473 -> Node2472 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2473 -> Node2475 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2475 [label="Foam::PrimitivePatch\l::faceNormals",height=0.2,width=0.4,color="black",URL="$a27538.html#ad96a54bba336ea57f59f0da350d3c265",tooltip="Return face normals for patch. "];
+  Node2471 -> Node2485 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2485 [label="Foam::PrimitivePatch\l::faceEdges",height=0.2,width=0.4,color="black",URL="$a27538.html#adbfcf489a527a07c33d684834faace79",tooltip="Return face-edge addressing. "];
+  Node2471 -> Node2475 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2471 -> Node2486 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2486 [label="Foam::PrimitivePatch\l::localFaces",height=0.2,width=0.4,color="black",URL="$a27538.html#aa4bd29e9c9de3d53e26aa2bf2e803c60",tooltip="Return patch faces addressing into local point list. "];
+  Node2471 -> Node2480 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2480 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node2471 -> Node2478 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2478 [label="Foam::triFace::nearestPoint\lClassify",height=0.2,width=0.4,color="red",URL="$a27234.html#a94aa7d4e98f5642842fb33f26888524f",tooltip="Return nearest point to face and classify it: "];
+  Node2471 -> Node2884 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2884 [label="Foam::PrimitivePatch\l::pointNormals",height=0.2,width=0.4,color="black",URL="$a27538.html#a46bfb38a95e334058a19c3d37c3ed070",tooltip="Return point normals for patch. "];
+  Node2471 -> Node2477 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2477 [label="Foam::PrimitivePatch\l::points",height=0.2,width=0.4,color="black",URL="$a27538.html#aa3c7d968f31c88780c663876f64ef6a6",tooltip="Return reference to global points. "];
+}

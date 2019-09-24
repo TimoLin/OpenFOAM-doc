@@ -1,0 +1,45 @@
+digraph "updateCoeffs"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3616 [label="updateCoeffs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3616 -> Node3617 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3617 [label="calculateTurbulenceFields",height=0.2,width=0.4,color="red",URL="$a31010.html#ad354b2bce4bd90afc465c2dff69b24d6",tooltip="Main driver to calculate the turbulence fields. "];
+  Node3617 -> Node3620 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3620 [label="Foam::fvPatch::faceCells",height=0.2,width=0.4,color="red",URL="$a22870.html#afbfac825732ef2770fff4261b4e930e9",tooltip="Return faceCells. "];
+  Node3617 -> Node3991 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3991 [label="Foam::fvPatchField\l::patch",height=0.2,width=0.4,color="black",URL="$a22354.html#aca0923a4611f6166ffd8fa14d81864a4",tooltip="Return patch. "];
+  Node3616 -> Node4001 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4001 [label="createAveragingWeights",height=0.2,width=0.4,color="red",URL="$a31010.html#a7e3f26a2eb2d1d475fca3c80c5fa26f0",tooltip="Create the averaging weights for cells which are bounded by. "];
+  Node4001 -> Node3999 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3999 [label="Foam::fvPatchField\l::dimensionedInternalField",height=0.2,width=0.4,color="black",URL="$a22354.html#a1067b719c3281eb98ffda55196ca2033",tooltip="Return dimensioned internal field reference. "];
+  Node4001 -> Node4000 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4000 [label="omega",height=0.2,width=0.4,color="red",URL="$a31010.html#a0a19ade47a22371d23b806d6b945dc4a",tooltip="Return non-const access to the master&#39;s omega field. "];
+  Node4000 -> Node4000 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4000 -> Node3991 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3616 -> Node4004 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4004 [label="Foam::fvPatchField::db",height=0.2,width=0.4,color="black",URL="$a22354.html#a65cc75d9f80b1df5c3184fb2274a97f1",tooltip="Return local objectRegistry. "];
+  Node3616 -> Node3999 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3616 -> Node3620 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3616 -> Node4005 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4005 [label="G",height=0.2,width=0.4,color="red",URL="$a31010.html#ad35ace611250c5f497f21747c0920fec",tooltip="Return non-const access to the master&#39;s G field. "];
+  Node4005 -> Node4005 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4005 -> Node3991 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3616 -> Node4006 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4006 [label="Foam::incompressible\l::turbulenceModel::GName",height=0.2,width=0.4,color="red",URL="$a31102.html#a530c14556551704a03baa28ac70a78a0",tooltip="Helper function to return the nam eof the turbulence G field. "];
+  Node3616 -> Node4007 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4007 [label="Foam::objectRegistry\l::lookupObject",height=0.2,width=0.4,color="red",URL="$a26326.html#a8b49296f8410366342c524250612c2aa",tooltip="Lookup and return the object of the given Type. "];
+  Node4007 -> Node4007 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3616 -> Node4000 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3616 -> Node3991 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3616 -> Node4008 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4008 [label="setMaster",height=0.2,width=0.4,color="red",URL="$a31010.html#af62f4355fcee4da87dbdf3b365d3d73a",tooltip="Set the master patch - master is responsible for updating all. "];
+  Node4008 -> Node3999 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4008 -> Node4000 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3616 -> Node4011 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4011 [label="Foam::fvPatchField\l::updateCoeffs",height=0.2,width=0.4,color="black",URL="$a22354.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node3616 -> Node4012 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4012 [label="Foam::fvPatchField\l::updated",height=0.2,width=0.4,color="black",URL="$a22354.html#adb515d6ca9be66613efaaeb72c9709db",tooltip="Return true if the boundary condition has already been updated. "];
+}

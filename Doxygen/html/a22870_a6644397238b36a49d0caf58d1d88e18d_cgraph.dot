@@ -1,0 +1,18 @@
+digraph "Cn"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node882 [label="Cn",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node882 -> Node883 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node883 [label="boundaryMesh",height=0.2,width=0.4,color="black",URL="$a22870.html#adeb163bcd9dd47dcdc4a8f2ccf1c53eb",tooltip="Return boundaryMesh reference. "];
+  Node882 -> Node884 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node884 [label="Foam::primitiveMesh\l::cellCentres",height=0.2,width=0.4,color="red",URL="$a27530.html#a7300aee2989c6ec70e39436816461902"];
+  Node882 -> Node945 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node945 [label="faceCells",height=0.2,width=0.4,color="red",URL="$a22870.html#afbfac825732ef2770fff4261b4e930e9",tooltip="Return faceCells. "];
+  Node882 -> Node949 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node949 [label="Foam::fvBoundaryMesh\l::mesh",height=0.2,width=0.4,color="red",URL="$a22762.html#a470f06cfb9b6ee887cd85d63de275607",tooltip="Return the mesh reference. "];
+  Node882 -> Node973 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node973 [label="size",height=0.2,width=0.4,color="black",URL="$a22870.html#a03bc1200aac252c4d3e18657d700b71c",tooltip="Return size. "];
+}

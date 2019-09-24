@@ -1,0 +1,27 @@
+digraph "owner"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node11 [label="owner",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12 [label="Foam::InjectionModel\l::averageParcelMass",height=0.2,width=0.4,color="red",URL="$a24074.html#a8d6e9910b3b4ee07b11d7637b97348e2",tooltip="Return the average parcel mass over the injection period. "];
+  Node11 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14 [label="Foam::Rebound::correct",height=0.2,width=0.4,color="red",URL="$a24190.html#aa1b559cf24cdec3d37b45e290079352d",tooltip="Apply velocity correction. "];
+  Node11 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17 [label="Foam::InjectionModel\l::inject",height=0.2,width=0.4,color="red",URL="$a24074.html#ad56021712258ad92961ed1dcb0941870",tooltip="Main injection loop. "];
+  Node11 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 [label="Foam::InjectionModel\l::injectSteadyState",height=0.2,width=0.4,color="red",URL="$a24074.html#a9c90fd504e4159250942be6d20db9095",tooltip="Main injection loop - steady-state. "];
+  Node18 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19 [label="Foam::CloudFunctionObject\l::outputTimeDir",height=0.2,width=0.4,color="red",URL="$a23970.html#a0b9943fddddfd53c60faf94761fe431e",tooltip="Return the output time path. "];
+  Node11 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21 [label="Foam::CloudFunctionObject\l::postEvolve",height=0.2,width=0.4,color="red",URL="$a23970.html#a0bf23f36eb3424966e359419a566eb0a",tooltip="Post-evolve hook. "];
+  Node11 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22 [label="Foam::ReitzKHRT::update",height=0.2,width=0.4,color="red",URL="$a24574.html#af86a08f997bc779309ec7d00e914e292",tooltip="update the parcel diameter "];
+  Node11 -> Node25 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node25 [label="Foam::TAB::update",height=0.2,width=0.4,color="red",URL="$a24582.html#af86a08f997bc779309ec7d00e914e292",tooltip="update the parcel diameter "];
+  Node11 -> Node28 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node28 [label="Foam::SHF::update",height=0.2,width=0.4,color="red",URL="$a24578.html#af86a08f997bc779309ec7d00e914e292",tooltip="update the parcel properties "];
+}

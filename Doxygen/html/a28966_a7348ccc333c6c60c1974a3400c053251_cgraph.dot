@@ -1,0 +1,12 @@
+digraph "noPyrolysis"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node318 [label="noPyrolysis",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node318 -> Node319 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node319 [label="Foam::regionModels\l::regionModel::active",height=0.2,width=0.4,color="black",URL="$a28998.html#a998c631709408c55c1c86b8202e618f8",tooltip="Return the active flag. "];
+  Node318 -> Node320 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node320 [label="constructThermoChemistry",height=0.2,width=0.4,color="red",URL="$a28966.html#abd58fd9dbd7f833fdd872682b18d2ca6",tooltip="Reset solidChemistryModel and solidThermo pointers. "];
+}

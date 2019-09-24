@@ -1,0 +1,21 @@
+digraph "triangulate"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2913 [label="triangulate",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2913 -> Node2914 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2914 [label="f",height=0.2,width=0.4,color="black",URL="$a17900.html#a888be93833ac7a23170555c69c690288"];
+  Node2913 -> Node2915 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2915 [label="getNPoints",height=0.2,width=0.4,color="red",URL="$a21430.html#aa7e0e0713c6c7f896c9f291b43461702",tooltip="Number of points used in face subset. "];
+  Node2915 -> Node2916 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2916 [label="mesh",height=0.2,width=0.4,color="red",URL="$a21430.html#a6d5e6463d124593c34d8d925916d41d7"];
+  Node2913 -> Node2916 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2913 -> Node2965 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2965 [label="Foam::face::nTriangles",height=0.2,width=0.4,color="red",URL="$a27218.html#ab82447e0cf16c46d3855de6a5d4ffda8",tooltip="Number of triangles after splitting. "];
+  Node2913 -> Node2963 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2963 [label="Foam::List::setSize",height=0.2,width=0.4,color="black",URL="$a25694.html#aedb985ffeaf1bdbfeccc2a8730405703",tooltip="Reset size of List. "];
+  Node2913 -> Node2968 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2968 [label="Foam::face::triangles",height=0.2,width=0.4,color="red",URL="$a27218.html#a1fd94ce8c25a3a8b555070a903a99dfb",tooltip="Split into triangles using existing points. "];
+}

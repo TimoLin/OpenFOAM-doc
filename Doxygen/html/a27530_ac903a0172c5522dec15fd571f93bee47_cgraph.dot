@@ -1,0 +1,29 @@
+digraph "reset"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node16480 [label="reset",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node16480 -> Node16481 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16481 [label="calcPointOrder",height=0.2,width=0.4,color="red",URL="$a27530.html#a156c0fd56f1beafef1b3e451cbc7cfa1",tooltip="Helper function to calculate point ordering. Returns true. "];
+  Node16481 -> Node16485 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16485 [label="nInternalPoints",height=0.2,width=0.4,color="black",URL="$a27530.html#ae69bcc88fcb454265faa27180d19a493",tooltip="Points not on boundary. "];
+  Node16481 -> Node16486 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16486 [label="nInternalFaces",height=0.2,width=0.4,color="black",URL="$a27530.html#aa6c7965af1f30d16d9125deb981cbdb0"];
+  Node16481 -> Node16480 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16480 -> Node16487 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16487 [label="clearOut",height=0.2,width=0.4,color="red",URL="$a27530.html#af320697688df08f1438d37a86bcaf25d",tooltip="Clear all geometry and addressing unnecessary for CFD. "];
+  Node16480 -> Node16489 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16489 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node16480 -> Node16493 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16493 [label="faces",height=0.2,width=0.4,color="black",URL="$a27530.html#a3669b3b29537f3a55bbd2ffa8c749f41",tooltip="Return faces. "];
+  Node16480 -> Node16494 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16494 [label="nCells",height=0.2,width=0.4,color="black",URL="$a27530.html#a13b94bdb0926552bf78ad5210a73a3d5"];
+  Node16480 -> Node16495 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16495 [label="nFaces",height=0.2,width=0.4,color="black",URL="$a27530.html#abe602c985a3c9ffa67176e969e77ca6f"];
+  Node16480 -> Node16486 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16480 -> Node16485 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16480 -> Node16496 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16496 [label="nPoints",height=0.2,width=0.4,color="black",URL="$a27530.html#a1c886a784a597459dbf2d9470798e9dd"];
+}

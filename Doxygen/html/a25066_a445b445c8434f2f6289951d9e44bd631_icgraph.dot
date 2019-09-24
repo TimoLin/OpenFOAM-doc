@@ -1,0 +1,16 @@
+digraph "patch"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node218 [label="patch",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node218 -> Node219 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node219 [label="findIntersection",height=0.2,width=0.4,color="black",URL="$a25066.html#a210153d7c41d79965657a6f10acedba1",tooltip="Helper: find intersection of line with shapes. "];
+  Node219 -> Node220 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node220 [label="Foam::treeDataPrimitivePatch\l::findSelfIntersectOp::operator()",height=0.2,width=0.4,color="black",URL="$a25082.html#adafae2aaf723502ccff1ff68a21fcdc0",tooltip="Calculate intersection of face with edge of patch. Excludes. "];
+  Node219 -> Node218 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node218 -> Node221 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node221 [label="Foam::treeDataPrimitivePatch\l::findNearestOp::operator()",height=0.2,width=0.4,color="black",URL="$a25070.html#a56fe641bda80b32b2b431bf3fd615ced"];
+  Node218 -> Node220 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

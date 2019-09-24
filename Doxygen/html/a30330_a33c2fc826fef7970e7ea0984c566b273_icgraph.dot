@@ -1,0 +1,16 @@
+digraph "Reaction"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Reaction",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="Foam::Reaction::iNew\l::operator()",height=0.2,width=0.4,color="black",URL="$a30338.html#a2bd1dc4328df823d9cd0ed302469b9d9"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="Reaction",height=0.2,width=0.4,color="black",URL="$a30330.html#ae8c4c9841c036a9140d53aae8d7a7816",tooltip="Construct from Istream. "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="reactionStrRight",height=0.2,width=0.4,color="red",URL="$a30330.html#ae6eadad1f618fb531436d39e9f156bfe",tooltip="Return string representation of the right of the reaction. "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="setLRhs",height=0.2,width=0.4,color="red",URL="$a30330.html#a5ff69c41b3345ee1f99e8bf85967b433",tooltip="Construct the left- and right-hand-side reaction coefficients. "];
+}

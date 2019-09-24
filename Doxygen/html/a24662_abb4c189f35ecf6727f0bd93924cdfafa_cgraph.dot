@@ -1,0 +1,25 @@
+digraph "splitMeshRegions"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node11427 [label="splitMeshRegions",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node11427 -> Node11428 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11428 [label="Foam::List::append",height=0.2,width=0.4,color="black",URL="$a25694.html#a399dd2bf0d9a32016717dc90126f016b",tooltip="Append an element at the end of the list. "];
+  Node11427 -> Node11429 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11429 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node11427 -> Node11431 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11431 [label="Foam::exit",height=0.2,width=0.4,color="red",URL="$a21124.html#a06ca7250d8e89caf05243ec094843642"];
+  Node11427 -> Node11476 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11476 [label="Foam::removeCells::\lgetExposedFaces",height=0.2,width=0.4,color="red",URL="$a21698.html#af7d0a466fd22f2b7991edb7423dde021",tooltip="Get labels of exposed faces. "];
+  Node11476 -> Node11428 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11427 -> Node11520 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11520 [label="Foam::reduce",height=0.2,width=0.4,color="red",URL="$a21124.html#a7ffd6af4acc2eb9ba72ee296b5ecda23"];
+  Node11520 -> Node11429 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11427 -> Node11862 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11862 [label="Foam::returnReduce",height=0.2,width=0.4,color="red",URL="$a21124.html#a8d528a67d2a9c6fe4fb94bc86872624b"];
+  Node11862 -> Node11520 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11427 -> Node11523 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11523 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+}

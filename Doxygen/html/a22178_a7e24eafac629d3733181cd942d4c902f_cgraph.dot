@@ -1,0 +1,42 @@
+digraph "updateCoeffs"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node491 [label="updateCoeffs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node491 -> Node492 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node492 [label="boundary",height=0.2,width=0.4,color="black",URL="$a17900.html#a658027ecaee450b6533bd8d019d2c1f5"];
+  Node491 -> Node493 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node493 [label="dimensionedInternalField",height=0.2,width=0.4,color="black",URL="$a38438.html#a942cd19121a46cdc649099eb27c74b18"];
+  Node491 -> Node494 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node494 [label="Foam::DimensionedField\l::dimensions",height=0.2,width=0.4,color="black",URL="$a26390.html#a66989c1e0666e0d0c93a2056ce75599e",tooltip="Return dimensions. "];
+  Node491 -> Node495 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node495 [label="Foam::mappedPatchBase\l::distribute",height=0.2,width=0.4,color="red",URL="$a25094.html#abc1fef854aa7627739504e6f5408dd79",tooltip="Wrapper around map/interpolate data distribution. "];
+  Node491 -> Node507 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node507 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node491 -> Node498 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node498 [label="Foam::exit",height=0.2,width=0.4,color="red",URL="$a21124.html#a06ca7250d8e89caf05243ec094843642"];
+  Node491 -> Node825 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node825 [label="Foam::gSum",height=0.2,width=0.4,color="black",URL="$a21124.html#a11b1ebb4c53ad062332767d75ca96328"];
+  Node491 -> Node838 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node838 [label="Foam::patchIdentifier\l::index",height=0.2,width=0.4,color="black",URL="$a27122.html#a4a438520bb14406481732edc13c119c7",tooltip="Return the index of this patch in the boundaryMesh. "];
+  Node491 -> Node839 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node839 [label="Foam::fvPatch::lookupPatch\lField",height=0.2,width=0.4,color="red",URL="$a22870.html#af277a21566a73b296d908601f43917be",tooltip="Lookup and return the patchField of the named field from the. "];
+  Node491 -> Node724 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node724 [label="Foam::UPstream::msgType",height=0.2,width=0.4,color="black",URL="$a26270.html#ae5b8fe6652f6320aa6c7f5c44b6f01b7",tooltip="Message tag of standard messages. "];
+  Node491 -> Node841 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node841 [label="Foam::fvPatch::name",height=0.2,width=0.4,color="red",URL="$a22870.html#acc80e00a8ac919288fb55bd14cc88bf6",tooltip="Return name. "];
+  Node491 -> Node843 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node843 [label="Foam::operator==",height=0.2,width=0.4,color="black",URL="$a21124.html#a28a45d2e3cca6152b024de57575abbf1"];
+  Node491 -> Node844 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node844 [label="Foam::mappedPatchBase\l::sampleMesh",height=0.2,width=0.4,color="red",URL="$a25094.html#a75f4352dcd205ea34f90ada907f95091",tooltip="Get the region mesh. "];
+  Node491 -> Node916 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node916 [label="Foam::mappedPatchBase\l::samplePolyPatch",height=0.2,width=0.4,color="red",URL="$a25094.html#a8f81235fc833f4500edd224fb8ecd146",tooltip="Get the patch on the region. "];
+  Node916 -> Node507 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node916 -> Node498 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node491 -> Node954 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node954 [label="Foam::fvPatchField\l::updateCoeffs",height=0.2,width=0.4,color="black",URL="$a22354.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node491 -> Node955 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node955 [label="write",height=0.2,width=0.4,color="red",URL="$a22178.html#a293fdfec8bdfbd5c3913ab4c9f3454ff",tooltip="Write. "];
+}

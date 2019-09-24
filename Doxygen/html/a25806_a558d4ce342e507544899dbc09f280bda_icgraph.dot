@@ -1,0 +1,16 @@
+digraph "replace"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node7221 [label="replace",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node7221 -> Node7222 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7222 [label="Foam::dictionary::add",height=0.2,width=0.4,color="red",URL="$a26014.html#ac2ddcab42322c8d8af5e5830ab4d431b",tooltip="Add a new entry. "];
+  Node7221 -> Node7397 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7397 [label="Foam::dictionary::change\lKeyword",height=0.2,width=0.4,color="red",URL="$a26014.html#a6ced7250af2093b404dd4ec1058ec44d",tooltip="Change the keyword for an entry,. "];
+  Node7221 -> Node12130 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12130 [label="remove",height=0.2,width=0.4,color="red",URL="$a25806.html#a261132ea9ca45a3412fc3388d66a99a0",tooltip="Remove and return element. "];
+  Node7221 -> Node12132 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12132 [label="replace",height=0.2,width=0.4,color="black",URL="$a25806.html#ab105b26525e5066cf7f23792773f8923",tooltip="Replace oldIter with newLink and return element. "];
+}

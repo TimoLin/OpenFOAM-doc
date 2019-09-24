@@ -1,0 +1,15 @@
+digraph "reset"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node16497 [label="reset",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node16497 -> Node16498 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16498 [label="calcPointOrder",height=0.2,width=0.4,color="red",URL="$a27530.html#a156c0fd56f1beafef1b3e451cbc7cfa1",tooltip="Helper function to calculate point ordering. Returns true. "];
+  Node16498 -> Node16497 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16497 -> Node16500 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16500 [label="Foam::streamLine::read",height=0.2,width=0.4,color="red",URL="$a28770.html#aa9b8764750bd9ff67ca32b6551dc7847",tooltip="Read the field average data. "];
+  Node16497 -> Node16502 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16502 [label="reset",height=0.2,width=0.4,color="black",URL="$a27530.html#a04c67765e3456d7e4791dc5e311c0e29",tooltip="Reset this primitiveMesh given the primitive array sizes and cells. "];
+}

@@ -1,0 +1,18 @@
+digraph "~MRFSource"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4 [label="~MRFSource",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="addSup",height=0.2,width=0.4,color="red",URL="$a23470.html#a921ab0aacd899760d7f4a2ec0b0241bd",tooltip="Vector. "];
+  Node4 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="makeAbsolute",height=0.2,width=0.4,color="black",URL="$a23470.html#a92bfad8516557c6427ff62f0527b72c8",tooltip="Make the given relative flux absolute. "];
+  Node4 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="makeRelative",height=0.2,width=0.4,color="black",URL="$a23470.html#a74e1af9d681f0b73e712e182b0e8a9d9",tooltip="Make the given absolute flux relative. "];
+  Node4 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="read",height=0.2,width=0.4,color="red",URL="$a23470.html#a6ce0c64db98eb6144d363dbfc86104eb",tooltip="Read dictionary. "];
+  Node4 -> Node314 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node314 [label="writeData",height=0.2,width=0.4,color="red",URL="$a23470.html#aba86aa54ec0b10ddd48ce308a3c6d3b2",tooltip="Write data. "];
+}

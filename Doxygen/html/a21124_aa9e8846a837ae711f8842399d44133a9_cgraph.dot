@@ -1,0 +1,20 @@
+digraph "operator&lt;&lt;"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node12353 [label="operator\<\<",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node12353 -> Node12354 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12354 [label="endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node12353 -> Node12356 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12356 [label="Foam::error::functionName",height=0.2,width=0.4,color="black",URL="$a26082.html#a766cd6bf57c8f60839a8d04eab0bdf14"];
+  Node12353 -> Node12357 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12357 [label="Foam::error::message",height=0.2,width=0.4,color="red",URL="$a26082.html#a7a908eb9ec123d3834738a86049c9860"];
+  Node12353 -> Node12360 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12360 [label="Foam::error::sourceFileLine\lNumber",height=0.2,width=0.4,color="black",URL="$a26082.html#afc15d9e726f7bcd039a0f4279168e24d"];
+  Node12353 -> Node12361 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12361 [label="Foam::error::sourceFileName",height=0.2,width=0.4,color="black",URL="$a26082.html#a33d9bc75452bb66d0c307b2df3b90ff2"];
+  Node12353 -> Node12362 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12362 [label="Foam::messageStream\l::title",height=0.2,width=0.4,color="black",URL="$a26098.html#af1858b5fd0890a8148472712a4280164",tooltip="Return the title of this error type. "];
+}

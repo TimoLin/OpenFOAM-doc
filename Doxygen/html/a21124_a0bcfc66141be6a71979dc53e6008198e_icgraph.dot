@@ -1,0 +1,20 @@
+digraph "distance"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node77837 [label="distance",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node77837 -> Node77838 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node77838 [label="Foam::KinematicCloud\l\< Foam::DsmcCloud \>::\lpenetration",height=0.2,width=0.4,color="black",URL="$a23786.html#acabb7d90e498b652e912de7feeedf590",tooltip="Penetration for fraction [0-1] of the current total mass. "];
+  Node77837 -> Node77839 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node77839 [label="Foam::sampledPatchInternal\lField::sampledPatchInternalField",height=0.2,width=0.4,color="black",URL="$a29370.html#a3aee63f01712c7a45299253ce06e5b1d",tooltip="Construct from dictionary. "];
+  Node77837 -> Node77840 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node77840 [label="stepBackwardsToNextPoint",height=0.2,width=0.4,color="black",URL="$a21124.html#a370957775203c2fb236711441d778273"];
+  Node77840 -> Node77841 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node77841 [label="stepForwardsToNextPoint",height=0.2,width=0.4,color="black",URL="$a21124.html#af4d31a25cf140f175475f9115eba0c96"];
+  Node77841 -> Node77837 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node77837 -> Node77841 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node77837 -> Node77842 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node77842 [label="Foam::inverseDistanceDiffusivity\l::~inverseDistanceDiffusivity",height=0.2,width=0.4,color="black",URL="$a23358.html#aaa8429e8a747765108bf6f3704df2816",tooltip="Destructor. "];
+}

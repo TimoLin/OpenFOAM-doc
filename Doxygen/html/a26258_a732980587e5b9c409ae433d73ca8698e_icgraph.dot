@@ -1,0 +1,40 @@
+digraph "read"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node18 [label="read",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node18 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19 [label="Foam::Pstream::combineGather",height=0.2,width=0.4,color="red",URL="$a26250.html#aedeba5b3a63f833796d48d904dc39b63"];
+  Node18 -> Node47 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node47 [label="Foam::Pstream::combineScatter",height=0.2,width=0.4,color="red",URL="$a26250.html#a2eea2c110e936c30c8f66b7326c69be5",tooltip="Scatter data. Reverse of combineGather. "];
+  Node18 -> Node49 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node49 [label="Foam::mapDistribute\l::compact",height=0.2,width=0.4,color="red",URL="$a27362.html#ae425c08cfe8d1064cfa183af3b1fdfe4",tooltip="Compact maps. Gets per field a bool whether it is used (locally) "];
+  Node18 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21 [label="Foam::Pstream::exchange",height=0.2,width=0.4,color="red",URL="$a26250.html#a2d2ace3cba51ad6d7e3b88d34fa236c3",tooltip="Exchange data. Sends sendData, receives into recvData, sets. "];
+  Node18 -> Node52 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node52 [label="flags",height=0.2,width=0.4,color="black",URL="$a26258.html#a03ad359247e17b29c93563d7bf4e33c9",tooltip="Return flags of output stream. "];
+  Node18 -> Node53 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node53 [label="Foam::Pstream::gather",height=0.2,width=0.4,color="red",URL="$a26250.html#ac820bc187d8204d9063ce1f77dcf87da",tooltip="Gather data. Apply bop to combine Value. "];
+  Node18 -> Node1256 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1256 [label="Foam::Pstream::gatherList",height=0.2,width=0.4,color="red",URL="$a26250.html#afbdf64fb42cd760690d51a9a321792d9",tooltip="Gather data but keep individual values separate. "];
+  Node18 -> Node1286 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1286 [label="Foam::processorFvPatchField\l::initInterfaceMatrixUpdate",height=0.2,width=0.4,color="black",URL="$a22038.html#a421f0c89534a9702f2667a36006413f3",tooltip="Initialise neighbour matrix update. "];
+  Node18 -> Node1287 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1287 [label="Foam::processorGAMGInterface\lField::initInterfaceMatrixUpdate",height=0.2,width=0.4,color="red",URL="$a27018.html#a4aa231b00ad3efb2f5543ec242689eb2",tooltip="Initialise neighbour matrix update. "];
+  Node18 -> Node1290 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1290 [label="Foam::Pstream::listCombine\lGather",height=0.2,width=0.4,color="red",URL="$a26250.html#a8c0e5044dc4a942cf62b06797c3a743f"];
+  Node18 -> Node1300 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1300 [label="Foam::Pstream::listCombine\lScatter",height=0.2,width=0.4,color="red",URL="$a26250.html#adfd4915b68ab7181dccb847976286e56",tooltip="Scatter data. Reverse of combineGather. "];
+  Node18 -> Node1302 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1302 [label="read",height=0.2,width=0.4,color="black",URL="$a26258.html#a3d4b02e5b143d1a4ba9a5b34f11b4ed1",tooltip="Return next token from stream. "];
+  Node18 -> Node1303 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1303 [label="Foam::Pstream::scatter",height=0.2,width=0.4,color="red",URL="$a26250.html#a00bc7d5a0b660cfa53523561af48def2",tooltip="Scatter data. Distribute without modification. Reverse of gather. "];
+  Node18 -> Node2589 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2589 [label="Foam::Pstream::scatterList",height=0.2,width=0.4,color="red",URL="$a26250.html#a23c38ee54f04c9d53a327db9edbdb7f0",tooltip="Scatter data. Reverse of gatherList. "];
+  Node18 -> Node2591 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2591 [label="Foam::LUscalarMatrix\l::solve",height=0.2,width=0.4,color="black",URL="$a27054.html#a54fd4ebdeb504badbc4a4423f5825a25"];
+  Node18 -> Node2592 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2592 [label="UIPstream",height=0.2,width=0.4,color="black",URL="$a26258.html#a0fdf275f5028a1cccec3571388bd13be",tooltip="Construct given buffers. "];
+}

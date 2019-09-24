@@ -1,0 +1,18 @@
+digraph "XiModel"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4 [label="XiModel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node5 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" Xi_" ,fontname="FreeSans"];
+  Node5 [label="GeometricField\< scalar,\l fvPatchField, volMesh \>",height=0.2,width=0.4,color="red",URL="$a22434.html"];
+  Node21 -> Node5 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< scalar, fvPatchField,\l volMesh \>" ,fontname="FreeSans"];
+  Node21 [label="GeometricField\< Type,\l PatchField, GeoMesh \>",height=0.2,width=0.4,color="red",URL="$a22434.html",tooltip="Generic GeometricField class. "];
+  Node23 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" thermo_" ,fontname="FreeSans"];
+  Node23 [label="psiuReactionThermo",height=0.2,width=0.4,color="red",URL="$a30174.html",tooltip="Foam::psiuReactionThermo. "];
+  Node29 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" XiModelCoeffs_" ,fontname="FreeSans"];
+  Node29 [label="dictionary",height=0.2,width=0.4,color="red",URL="$a26014.html",tooltip="A list of keyword definitions, which are a keyword followed by any number of values (e..."];
+  Node29 -> Node29 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" null" ,fontname="FreeSans"];
+  Node21 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" rho_\nSu_\nb_\nphi_" ,fontname="FreeSans"];
+}

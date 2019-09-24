@@ -1,0 +1,29 @@
+digraph "checkSizes"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node995 [label="checkSizes",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node995 -> Node996 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node996 [label="Foam::searchableSurface\l::bounds",height=0.2,width=0.4,color="black",URL="$a25234.html#af0b8fd78dbff2bbd5d76f5c2e8569fbe",tooltip="Return const reference to boundBox. "];
+  Node995 -> Node997 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node997 [label="checkIntersection",height=0.2,width=0.4,color="red",URL="$a25246.html#ae7d93eca00dfd746fe60a26feb44fbcc",tooltip="Do surfaces self-intersect or intersect others. "];
+  Node997 -> Node998 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node998 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node997 -> Node1000 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1000 [label="operator[]",height=0.2,width=0.4,color="red",URL="$a25246.html#a7688f42df60462606ca8fa3ac04c8679",tooltip="Return const reference to searchableSurface by name. "];
+  Node1000 -> Node998 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node997 -> Node1065 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1065 [label="names",height=0.2,width=0.4,color="black",URL="$a25246.html#a27d373299f0deccc315cf7b63994d8f9"];
+  Node997 -> Node1077 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1077 [label="Foam::returnReduce",height=0.2,width=0.4,color="red",URL="$a21124.html#a8d528a67d2a9c6fe4fb94bc86872624b"];
+  Node995 -> Node998 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node995 -> Node1125 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1125 [label="Foam::boundBox::mag",height=0.2,width=0.4,color="red",URL="$a27102.html#a9b53370021569e27db1ddfb33196232f",tooltip="The magnitude of the bounding box span. "];
+  Node995 -> Node1065 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node995 -> Node1000 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node995 -> Node1077 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node995 -> Node1101 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1101 [label="Foam::PtrList\< searchable\lSurface \>::size",height=0.2,width=0.4,color="black",URL="$a25914.html#a47b3bf30da1eb3ab8076b5fbe00e0494",tooltip="Return the number of elements in the PtrList. "];
+}

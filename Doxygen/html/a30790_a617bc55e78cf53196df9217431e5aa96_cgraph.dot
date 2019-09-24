@@ -1,0 +1,20 @@
+digraph "clone"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node366 [label="clone",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node366 -> Node367 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node367 [label="autoMap",height=0.2,width=0.4,color="black",URL="$a30790.html#a0ab0c43ce90d756c88dd81e3d0a9eef5",tooltip="Map (and resize as needed) from self given a mapping object. "];
+  Node367 -> Node368 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node368 [label="rmap",height=0.2,width=0.4,color="black",URL="$a30790.html#a713277715ccc0a5ef466b0516d44731f",tooltip="Reverse map the given fvPatchField onto this fvPatchField. "];
+  Node368 -> Node368 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node366 -> Node368 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node366 -> Node369 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node369 [label="thermalBaffle1DFvPatchScalar\lField",height=0.2,width=0.4,color="black",URL="$a30790.html#aeb5a482f08e04f74295b63f2aa4385f2",tooltip="Construct from patch and internal field. "];
+  Node366 -> Node370 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node370 [label="updateCoeffs",height=0.2,width=0.4,color="red",URL="$a30790.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node366 -> Node719 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node719 [label="write",height=0.2,width=0.4,color="red",URL="$a30790.html#a293fdfec8bdfbd5c3913ab4c9f3454ff",tooltip="Write. "];
+}

@@ -1,0 +1,24 @@
+digraph "avgCellCentres"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2596 [label="avgCellCentres",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2596 -> Node2597 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2597 [label="Foam::primitiveMesh\l::cellCentres",height=0.2,width=0.4,color="red",URL="$a27530.html#a7300aee2989c6ec70e39436816461902"];
+  Node2596 -> Node2658 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2658 [label="detectNearSurfaces",height=0.2,width=0.4,color="red",URL="$a24622.html#a03198aa35e22c16271a36768040a8c11",tooltip="Per patch point override displacement if in gap situation. "];
+  Node2658 -> Node2660 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2660 [label="Foam::PrimitivePatch\l::meshPoints",height=0.2,width=0.4,color="black",URL="$a27538.html#a52e3a457780fe74b31d39dc046bce1d8",tooltip="Return labelList of mesh points in patch. They are constructed. "];
+  Node2596 -> Node3096 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3096 [label="Foam::polyMesh::faceOwner",height=0.2,width=0.4,color="black",URL="$a27410.html#a57752b49bfee23ca1944c3fb0493974f",tooltip="Return face owner. "];
+  Node2596 -> Node2660 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2596 -> Node3097 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3097 [label="Foam::PrimitivePatch\l::pointFaces",height=0.2,width=0.4,color="black",URL="$a27538.html#acc347dd5dd3557af888ac3dd86d90d22",tooltip="Return point-face addressing. "];
+  Node2596 -> Node2654 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2654 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node2596 -> Node2673 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2673 [label="Foam::syncTools::syncPointList",height=0.2,width=0.4,color="red",URL="$a27502.html#a197ed77a9101bdfb37253bd3f507c017",tooltip="Synchronize values on all mesh points. "];
+  Node2673 -> Node2654 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

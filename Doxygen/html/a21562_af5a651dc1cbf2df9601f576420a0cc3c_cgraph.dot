@@ -1,0 +1,34 @@
+digraph "affectedCells"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1123 [label="affectedCells",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1123 -> Node1124 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1124 [label="Foam::acos",height=0.2,width=0.4,color="black",URL="$a21124.html#af1788b4e662ef398105742fd8bc861fc"];
+  Node1123 -> Node1125 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1125 [label="d",height=0.2,width=0.4,color="black",URL="$a38951.html#aa182a9055736468dd160f12649a01fd1"];
+  Node1123 -> Node1126 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1126 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node1123 -> Node1128 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1128 [label="Foam::polyMesh::faceNeighbour",height=0.2,width=0.4,color="black",URL="$a27410.html#a9fb57b52c700ed61f09ada65412d13e3",tooltip="Return face neighbour. "];
+  Node1123 -> Node1129 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1129 [label="Foam::polyMesh::faceOwner",height=0.2,width=0.4,color="black",URL="$a27410.html#a57752b49bfee23ca1944c3fb0493974f",tooltip="Return face owner. "];
+  Node1123 -> Node1130 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1130 [label="Foam::polyMesh::faces",height=0.2,width=0.4,color="red",URL="$a27410.html#a431c0a24765f0bb6d32f6a03ce0e9b57",tooltip="Return raw faces. "];
+  Node1123 -> Node1172 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1172 [label="Foam::HashSet::insert",height=0.2,width=0.4,color="black",URL="$a25690.html#a49f0753d9652681fc3a81f59951a0ad7",tooltip="Insert a new entry. "];
+  Node1123 -> Node1173 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1173 [label="Foam::primitiveMesh\l::isInternalFace",height=0.2,width=0.4,color="red",URL="$a27530.html#ae3e48ad9ec4c5132ec7d3d702ad17c9e",tooltip="Return true if given face label is internal to the mesh. "];
+  Node1123 -> Node1175 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1175 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node1123 -> Node1176 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1176 [label="Foam::face::nextLabel",height=0.2,width=0.4,color="red",URL="$a27218.html#a8d8ab7da5fc0315042faf1b6dcf64f4a",tooltip="Next vertex on face. "];
+  Node1123 -> Node1179 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1179 [label="Foam::radToDeg",height=0.2,width=0.4,color="red",URL="$a21124.html#a43e249466ea923a1a1243c5f91fbd2d7",tooltip="Conversion from radians to degrees. "];
+  Node1123 -> Node1181 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1181 [label="s",height=0.2,width=0.4,color="black",URL="$a18905.html#abb9c4233033fad2ad0206cd4adad3b9f"];
+  Node1123 -> Node1182 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1182 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+}

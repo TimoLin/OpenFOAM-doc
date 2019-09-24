@@ -1,0 +1,14 @@
+digraph "omega"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3224 [label="omega",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3224 -> Node3224 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3224 -> Node3225 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3225 [label="omegaPatch",height=0.2,width=0.4,color="red",URL="$a31010.html#a79d87e78d8123da67dab9da2d9d522fe",tooltip="Helper function to return non-const access to an omega patch. "];
+  Node3225 -> Node3224 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3224 -> Node3600 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3600 [label="Foam::fvPatchField\l::patch",height=0.2,width=0.4,color="black",URL="$a22354.html#aca0923a4611f6166ffd8fa14d81864a4",tooltip="Return patch. "];
+}

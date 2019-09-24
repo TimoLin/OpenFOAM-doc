@@ -1,0 +1,28 @@
+digraph "clearStorage"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node436 [label="clearStorage",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node436 -> Node437 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node437 [label="Foam::polyTopoChange\l::changeMesh",height=0.2,width=0.4,color="red",URL="$a21678.html#a1b105b13373ba9f1c7685f873b250cf2",tooltip="Inplace changes mesh without change of patches. "];
+  Node436 -> Node506 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node506 [label="Foam::polyTopoChange\l::clear",height=0.2,width=0.4,color="red",URL="$a21678.html#ac8bb3912a3ce86b15842e79d0b421204",tooltip="Clear all storage. "];
+  Node436 -> Node556 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node556 [label="Foam::refinementHistory\l::compact",height=0.2,width=0.4,color="red",URL="$a21690.html#a043cdfc194924194e381a986c229569e",tooltip="Compact splitCells_. Removes all freeSplitCells_ elements. "];
+  Node556 -> Node564 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node564 [label="Foam::refinementHistory\l::writeData",height=0.2,width=0.4,color="red",URL="$a21690.html#a25900c366cb0a98321899fde6c66dab7",tooltip="WriteData function required for regIOobject write operation. "];
+  Node436 -> Node565 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node565 [label="Foam::polyTopoChange\l::makeMesh",height=0.2,width=0.4,color="red",URL="$a21678.html#a53cd346c4116b75d2e9540d07c212149",tooltip="Create new mesh with old mesh patches. "];
+  Node565 -> Node437 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node436 -> Node566 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node566 [label="Foam::fileFormats::\lNASedgeFormat::read",height=0.2,width=0.4,color="red",URL="$a21770.html#a464ebd67acbdff0014d4dae69e3ec4be",tooltip="Read from a file. "];
+  Node436 -> Node569 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node569 [label="Foam::fileFormats::\lNASsurfaceFormat::read",height=0.2,width=0.4,color="red",URL="$a29602.html#a464ebd67acbdff0014d4dae69e3ec4be",tooltip="Read from a file. "];
+  Node436 -> Node572 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node572 [label="Foam::List\< functionObject\l *\>::transfer",height=0.2,width=0.4,color="black",URL="$a25694.html#a34794c2764b2d8c8a89cc382a070da2d",tooltip="Transfer the contents of the argument List into this list. "];
+  Node436 -> Node564 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node436 -> Node573 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node573 [label="Foam::UIPstream::~UIPstream",height=0.2,width=0.4,color="black",URL="$a26258.html#a17a7ee4841c706feefb3043d692e3bcf",tooltip="Destructor. "];
+}

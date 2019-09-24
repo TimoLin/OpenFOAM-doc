@@ -1,0 +1,22 @@
+digraph "neighbPatchID"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node914 [label="neighbPatchID",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node914 -> Node915 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node915 [label="clone",height=0.2,width=0.4,color="black",URL="$a27434.html#afff6d4f7511147e0c8a4b8a5448296ec",tooltip="Construct and return a clone, resetting the face list. "];
+  Node914 -> Node916 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node916 [label="Foam::cyclicFvPatch\l::neighbFvPatch",height=0.2,width=0.4,color="black",URL="$a22802.html#a8333a6458623a5ee635e6d1739c98820"];
+  Node914 -> Node917 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node917 [label="Foam::cyclicFvPatch\l::neighbPatch",height=0.2,width=0.4,color="black",URL="$a22802.html#a6698a1a46aed8e9e61b92b465e881e70",tooltip="Return processor number. "];
+  Node914 -> Node918 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node918 [label="Foam::cyclicPointPatch\l::neighbPatch",height=0.2,width=0.4,color="red",URL="$a27278.html#a1d205ae1145f95d5c515085aaf734049",tooltip="Return neighbour point patch. "];
+  Node914 -> Node923 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node923 [label="neighbPatch",height=0.2,width=0.4,color="red",URL="$a27434.html#a25d2f0ac438fefb7307d924d17ae6248"];
+  Node914 -> Node1171 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1171 [label="Foam::cyclicFvPatch\l::neighbPatchID",height=0.2,width=0.4,color="black",URL="$a22802.html#a5e6024547ab7c53848c8bbe7b0a634ba",tooltip="Return neighbour. "];
+  Node914 -> Node1172 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1172 [label="owner",height=0.2,width=0.4,color="red",URL="$a27434.html#a357c5e37e5d7c583fa172625b8c11009",tooltip="Does this side own the patch ? "];
+}

@@ -1,0 +1,12 @@
+digraph "solverRelativeTolerance"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node920 [label="solverRelativeTolerance",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node920 -> Node921 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node921 [label="Foam::dictionary::lookup",height=0.2,width=0.4,color="red",URL="$a26014.html#a6a0727fa523e48977e27348663def509",tooltip="Find and return an entry data stream. "];
+  Node920 -> Node1163 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1163 [label="Foam::readScalar",height=0.2,width=0.4,color="black",URL="$a21124.html#a828d57f6d9b9806c086a3f840a147115",tooltip="Read whole of buf as a scalar. Return true if succesful. "];
+}

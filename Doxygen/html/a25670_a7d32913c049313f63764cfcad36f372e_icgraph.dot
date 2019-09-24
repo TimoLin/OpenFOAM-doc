@@ -1,0 +1,21 @@
+digraph "append"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2053 [label="append",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2053 -> Node2054 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2054 [label="Foam::debug::addDebugObject",height=0.2,width=0.4,color="black",URL="$a21163.html#a307a33df4deaa694b8fd7ed242607880",tooltip="Register debug switch read/write object. "];
+  Node2053 -> Node2055 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2055 [label="Foam::debug::addDimensioned\lConstantObject",height=0.2,width=0.4,color="black",URL="$a21163.html#a46c11e0dcbba357092670dd61708df2f",tooltip="Register DimensionedConstant read/write object. "];
+  Node2055 -> Node2056 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2056 [label="Foam::debug::addDimension\lSetObject",height=0.2,width=0.4,color="black",URL="$a21163.html#adb0730a701b776bca83bf4dd31461c65",tooltip="Register DimensionSets read/write object. "];
+  Node2056 -> Node2057 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2057 [label="Foam::debug::addOptimisation\lObject",height=0.2,width=0.4,color="black",URL="$a21163.html#a6eddc51e7248c6785ecaabc32e065f4e",tooltip="Register optimisation switch read/write object. "];
+  Node2057 -> Node2058 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2058 [label="Foam::debug::addInfoObject",height=0.2,width=0.4,color="black",URL="$a21163.html#a8bf3573cf4a04bd59eb73ab3630f2026",tooltip="Register info switch read/write object. "];
+  Node2053 -> Node2056 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2053 -> Node2058 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2053 -> Node2057 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

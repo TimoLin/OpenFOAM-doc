@@ -1,0 +1,18 @@
+digraph "singleStepReactingMixture&lt; ThermoType &gt;"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node13 [label="singleStepReactingMixture\l\< ThermoType \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node14 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14 [label="reactingMixture\< ThermoType \>",height=0.2,width=0.4,color="red",URL="$a30150.html",tooltip="Foam::reactingMixture. "];
+  Node24 -> Node13 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" fres_" ,fontname="FreeSans"];
+  Node24 [label="PtrList\< Foam::Geometric\lField \>",height=0.2,width=0.4,color="red",URL="$a25914.html"];
+  Node28 -> Node13 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" specieStoichCoeffs\l_\nYprod0_" ,fontname="FreeSans"];
+  Node28 [label="List\< scalar \>",height=0.2,width=0.4,color="red",URL="$a25694.html"];
+  Node30 -> Node13 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" specieProd_" ,fontname="FreeSans"];
+  Node30 [label="List\< int \>",height=0.2,width=0.4,color="red",URL="$a25694.html"];
+  Node32 -> Node13 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" stoicRatio_\nqFuel_\ns_" ,fontname="FreeSans"];
+  Node32 [label="dimensioned\< scalar \>",height=0.2,width=0.4,color="red",URL="$a26366.html"];
+}

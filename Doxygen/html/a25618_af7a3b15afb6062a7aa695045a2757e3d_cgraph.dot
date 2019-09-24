@@ -1,0 +1,40 @@
+digraph "findNearest"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node60 [label="findNearest",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node60 -> Node61 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node61 [label="Foam::treeBoundBox\l::contains",height=0.2,width=0.4,color="black",URL="$a27618.html#aa96ed9af340918c3eda38f16e1d3ff80",tooltip="Contains point (inside or on edge) and moving in direction. "];
+  Node61 -> Node62 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node62 [label="Foam::boundBox::min",height=0.2,width=0.4,color="black",URL="$a27102.html#a41bea928bbb72b904d07db28570b07bd",tooltip="Minimum describing the bounding box. "];
+  Node61 -> Node63 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node63 [label="Foam::boundBox::max",height=0.2,width=0.4,color="black",URL="$a27102.html#a43279cd20862e64a21c8c82ee6c2441b",tooltip="Maximum describing the bounding box. "];
+  Node60 -> Node64 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node64 [label="Foam::PointHit::distance",height=0.2,width=0.4,color="black",URL="$a27558.html#a288a3ea8e3ee215a5e12afc1002ed4e6",tooltip="Return distance to hit. "];
+  Node60 -> Node65 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node65 [label="Foam::line::end",height=0.2,width=0.4,color="black",URL="$a27550.html#a2c98aa18669f9e2463339c6c4254654d",tooltip="Return second vertex. "];
+  Node60 -> Node66 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node66 [label="Foam::magSqr",height=0.2,width=0.4,color="black",URL="$a21124.html#ae6fff2c6981e6d9618aa5038e69def6e"];
+  Node60 -> Node63 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node60 -> Node67 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node67 [label="Foam::max",height=0.2,width=0.4,color="black",URL="$a21124.html#ac993e906cf2774ae77e666bc24e81733"];
+  Node60 -> Node62 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node60 -> Node68 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node68 [label="Foam::min",height=0.2,width=0.4,color="black",URL="$a21124.html#a253e112ad2d56d96230ff39ea7f442dc"];
+  Node60 -> Node69 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node69 [label="Foam::line::nearestDist",height=0.2,width=0.4,color="red",URL="$a27550.html#a0ab00eab07060abff696ebe967f3fce0",tooltip="Return nearest distance to line from a given point. "];
+  Node60 -> Node72 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node72 [label="Foam::PointHit::rawPoint",height=0.2,width=0.4,color="black",URL="$a27558.html#a479a270e3db1518fd61b8a756455786b",tooltip="Return point with no checking. "];
+  Node60 -> Node73 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node73 [label="Foam::sqr",height=0.2,width=0.4,color="red",URL="$a21124.html#a277dc11c581d53826ab5090b08f3b17b"];
+  Node60 -> Node77 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node77 [label="Foam::line::start",height=0.2,width=0.4,color="black",URL="$a27550.html#a049c862e6cf686ab64fd3e9cb34736e6",tooltip="Return first vertex. "];
+  Node60 -> Node78 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node78 [label="Foam::Vector::x",height=0.2,width=0.4,color="black",URL="$a28442.html#a63327976e5a8359700064a02ae22548e"];
+  Node60 -> Node79 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node79 [label="Foam::Vector::y",height=0.2,width=0.4,color="black",URL="$a28442.html#a1ee865f676fbac703a49c6654dd3ad74"];
+  Node60 -> Node80 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node80 [label="Foam::Vector::z",height=0.2,width=0.4,color="black",URL="$a28442.html#a1c8320b15610de211ec70ef966581423"];
+}

@@ -1,0 +1,13 @@
+digraph "gradientBoundaryCoeffs"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node303 [label="gradientBoundaryCoeffs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node303 -> Node304 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node304 [label="cyclicACMIPatch",height=0.2,width=0.4,color="black",URL="$a22010.html#a9fd5d26cb4c738b5b9afdf8544523658",tooltip="Return local reference cast into the cyclic AMI patch. "];
+  Node303 -> Node305 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node305 [label="gradientInternalCoeffs",height=0.2,width=0.4,color="red",URL="$a22010.html#a3190133c49936e7f0fb70c588951402f",tooltip="Return the matrix diagonal coefficients corresponding to the. "];
+  Node305 -> Node304 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

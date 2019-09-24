@@ -1,0 +1,27 @@
+digraph "correctAfterParallelTransfer"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4411 [label="correctAfterParallelTransfer",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4411 -> Node4412 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4412 [label="Foam::polyPatch::faceCells",height=0.2,width=0.4,color="red",URL="$a27478.html#afbfac825732ef2770fff4261b4e930e9",tooltip="Return face-cell addressing. "];
+  Node4411 -> Node4415 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4415 [label="Foam::coupledPolyPatch\l::forwardT",height=0.2,width=0.4,color="black",URL="$a27426.html#ae135c648b81be5732b7634127e41608d",tooltip="Return face transformation tensor. "];
+  Node4411 -> Node4416 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4416 [label="Foam::coupledPolyPatch\l::parallel",height=0.2,width=0.4,color="red",URL="$a27426.html#a6f2ad23016ecf05385032d2ea2fea27d",tooltip="Are the cyclic planes parallel. "];
+  Node4411 -> Node4418 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4418 [label="s",height=0.2,width=0.4,color="black",URL="$a18905.html#abb9c4233033fad2ad0206cd4adad3b9f"];
+  Node4411 -> Node4419 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4419 [label="Foam::coupledPolyPatch\l::separated",height=0.2,width=0.4,color="black",URL="$a27426.html#a6b412b0f0250badc8106cec72d6b875c",tooltip="Are the planes separated. "];
+  Node4419 -> Node4420 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4420 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node4411 -> Node4421 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4421 [label="Foam::coupledPolyPatch\l::separation",height=0.2,width=0.4,color="black",URL="$a27426.html#aa19aef17b000bba8d3a1b010b34af485",tooltip="If the planes are separated the separation vector. "];
+  Node4411 -> Node4420 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4411 -> Node4422 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4422 [label="Foam::polyPatch::start",height=0.2,width=0.4,color="red",URL="$a27478.html#a6bfd3e3abb11e98bdb4b98671cec1234",tooltip="Return start label of this patch in the polyMesh face list. "];
+  Node4411 -> Node4428 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4428 [label="Foam::coupledPolyPatch\l::transformPosition",height=0.2,width=0.4,color="black",URL="$a27426.html#ae6bb2311dc8e8a40d173da6b765014b8",tooltip="Transform a patch-based position from other side to this side. "];
+}

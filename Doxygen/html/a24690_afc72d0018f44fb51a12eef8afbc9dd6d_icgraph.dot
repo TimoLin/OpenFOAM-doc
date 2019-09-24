@@ -1,0 +1,16 @@
+digraph "getClosedNamedSurfaces"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1066 [label="getClosedNamedSurfaces",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1066 -> Node1067 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1067 [label="faceType",height=0.2,width=0.4,color="black",URL="$a24690.html#a7f6d29fa7b92a7be3b719672c3c9508d",tooltip="How to handle face of surfaces with a faceZone. "];
+  Node1066 -> Node1068 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1068 [label="getNamedSurfaces",height=0.2,width=0.4,color="red",URL="$a24690.html#a59d8871cd9c916017046af1f0a57c60f",tooltip="Get indices of named surfaces (surfaces with faceZoneName) "];
+  Node1068 -> Node1067 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1068 -> Node1087 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1087 [label="Foam::meshRefinement\l::zonify",height=0.2,width=0.4,color="red",URL="$a24662.html#a90cf965dfe02eb20f11a4a8c6035747f",tooltip="Put faces/cells into zones according to surface specification. "];
+  Node1066 -> Node1087 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

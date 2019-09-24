@@ -1,0 +1,20 @@
+digraph "transformTensor"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1630 [label="transformTensor",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1630 -> Node1631 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1631 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node1630 -> Node1674 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1674 [label="Rtr",height=0.2,width=0.4,color="black",URL="$a25002.html#a98af29cd35a80984f48576083d9a0f72",tooltip="Return global-to-local transformation tensor. "];
+  Node1630 -> Node1675 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1675 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node1630 -> Node1676 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1676 [label="Foam::Field::T",height=0.2,width=0.4,color="black",URL="$a26466.html#a37a96fe10c781a2f21c882b4d95a2deb",tooltip="Return the field transpose (only defined for second rank tensors) "];
+  Node1630 -> Node1677 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1677 [label="transformVector",height=0.2,width=0.4,color="red",URL="$a25002.html#a1699bd870864e7f8c22acd8ad1e7212f",tooltip="Transform vectorField using transformation tensorField and return. "];
+  Node1677 -> Node1675 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1677 -> Node1631 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,24 @@
+digraph "updateCoeffs"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node98 [label="updateCoeffs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node98 -> Node99 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node99 [label="dimensionedInternalField",height=0.2,width=0.4,color="black",URL="$a38438.html#a942cd19121a46cdc649099eb27c74b18"];
+  Node98 -> Node100 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node100 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node98 -> Node102 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node102 [label="Foam::gAverage",height=0.2,width=0.4,color="red",URL="$a21124.html#ab45e56189711a2e5cdd381a0e2b6cc5c"];
+  Node102 -> Node100 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node102 -> Node103 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node103 [label="Foam::gSum",height=0.2,width=0.4,color="black",URL="$a21124.html#a11b1ebb4c53ad062332767d75ca96328"];
+  Node98 -> Node121 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node121 [label="Foam::gMax",height=0.2,width=0.4,color="black",URL="$a21124.html#ae8d631fb8e841947408bb711abfb1e67"];
+  Node98 -> Node122 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node122 [label="Foam::gMin",height=0.2,width=0.4,color="black",URL="$a21124.html#aca330ee6cfe7d602300dbc5905f8c9f6"];
+  Node98 -> Node103 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node98 -> Node123 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node123 [label="write",height=0.2,width=0.4,color="red",URL="$a29994.html#a293fdfec8bdfbd5c3913ab4c9f3454ff",tooltip="Write. "];
+}

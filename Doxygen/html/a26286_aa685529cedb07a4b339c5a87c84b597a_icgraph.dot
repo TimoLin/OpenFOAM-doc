@@ -1,0 +1,13 @@
+digraph "putback"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node5055 [label="putback",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node5055 -> Node5056 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5056 [label="read",height=0.2,width=0.4,color="black",URL="$a26286.html#a3d4b02e5b143d1a4ba9a5b34f11b4ed1",tooltip="Return next token from stream. "];
+  Node5056 -> Node5057 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5057 [label="~ISstream",height=0.2,width=0.4,color="black",URL="$a26286.html#a21b8ba1166b04e2ab823fcabfd94fede",tooltip="Destructor. "];
+  Node5055 -> Node5057 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

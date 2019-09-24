@@ -1,0 +1,21 @@
+digraph "src/OpenFOAM/primitives/triad/triad.H"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node56 [label="src/OpenFOAM/primitives\l/triad/triad.H",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node56 -> Node57 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node57 [label="src/meshTools/meshTools\l/meshTools.H",height=0.2,width=0.4,color="red",URL="$a07670.html"];
+  Node56 -> Node140 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node140 [label="src/OpenFOAM/fields\l/Fields/fieldTypes.H",height=0.2,width=0.4,color="red",URL="$a09608.html",tooltip="Include the header files for all the primitive types that Fields are instantiated for..."];
+  Node56 -> Node4329 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4329 [label="src/OpenFOAM/fields\l/Fields/triadField/triadField.H",height=0.2,width=0.4,color="red",URL="$a09749.html"];
+  Node56 -> Node4333 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4333 [label="src/OpenFOAM/primitives\l/triad/triad.C",height=0.2,width=0.4,color="black",URL="$a12782.html"];
+  Node56 -> Node135 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node135 [label="applications/utilities\l/mesh/generation/foamyHexMesh\l/conformalVoronoiMesh/cellShapeControl\l/cellShapeControlMesh/cellShapeControlMesh.H",height=0.2,width=0.4,color="red",URL="$a18062.html"];
+  Node56 -> Node122 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node122 [label="applications/utilities\l/mesh/generation/foamyHexMesh\l/conformalVoronoiMesh/cellShapeControl\l/cellSizeAndAlignmentControl/searchableSurface\lControl/searchableSurfaceControl.H",height=0.2,width=0.4,color="black",URL="$a18089.html"];
+  Node56 -> Node4334 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4334 [label="applications/utilities\l/mesh/generation/foamyHexMesh\l/conformalVoronoiMesh/conformalVoronoi\lMesh/indexedVertex/indexedVertex.H",height=0.2,width=0.4,color="black",URL="$a38843.html"];
+}

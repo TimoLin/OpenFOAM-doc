@@ -1,0 +1,14 @@
+digraph "operator/="
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node21049 [label="operator/=",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node21049 -> Node21050 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21050 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node21049 -> Node21093 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21093 [label="Foam::Field::operator/=",height=0.2,width=0.4,color="black",URL="$a26466.html#ab334888f03b7630e5ffaa22d0d9f9248"];
+  Node21049 -> Node21094 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21094 [label="patch",height=0.2,width=0.4,color="black",URL="$a22426.html#aca0923a4611f6166ffd8fa14d81864a4",tooltip="Return patch. "];
+}

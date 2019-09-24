@@ -1,0 +1,13 @@
+digraph "postFace"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node153 [label="postFace",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node153 -> Node154 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node154 [label="clone",height=0.2,width=0.4,color="black",URL="$a23970.html#ac06f60505978b74330f728e176449866",tooltip="Construct and return a clone. "];
+  Node153 -> Node155 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node155 [label="postPatch",height=0.2,width=0.4,color="red",URL="$a23970.html#ad462aa91e411226ac26247aa37fc4a36",tooltip="Post-patch hook. "];
+  Node155 -> Node154 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,13 @@
+digraph "removeSplitFaces"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2547 [label="removeSplitFaces",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2547 -> Node2548 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2548 [label="faceRemover",height=0.2,width=0.4,color="black",URL="$a21518.html#a115637e185196eb4aa709b72f59137cd"];
+  Node2547 -> Node2549 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2549 [label="getAddedCells",height=0.2,width=0.4,color="black",URL="$a21518.html#ab5ebffca83676b163aefa40518831e37",tooltip="Like getSplitFaces but returns map from original to added cell. "];
+  Node2549 -> Node2548 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

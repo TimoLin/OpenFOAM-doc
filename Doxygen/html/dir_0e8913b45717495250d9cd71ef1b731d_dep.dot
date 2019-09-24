@@ -1,0 +1,15 @@
+digraph "src/thermophysicalModels/reactionThermo/mixtures/veryInhomogeneousMixture" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="FreeSans"];
+  edge [ labelfontsize="10", labelfontname="FreeSans"];
+  subgraph clusterdir_4c3899116fa10d6c6748b991d6c665d1 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="mixtures" fontname="FreeSans", fontsize="10", URL="dir_4c3899116fa10d6c6748b991d6c665d1.html"]
+  dir_0e8913b45717495250d9cd71ef1b731d [shape=box, label="veryInhomogeneousMixture", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_0e8913b45717495250d9cd71ef1b731d.html"];
+  }
+  dir_9bd15774b555cf7259a6fa18f99fe99b [shape=box label="finiteVolume" color="red" URL="dir_9bd15774b555cf7259a6fa18f99fe99b.html"];
+  dir_432a0680e4fd34ccdcdfb0d368a0c5d1 [shape=box label="basicMultiComponentMixture" URL="dir_432a0680e4fd34ccdcdfb0d368a0c5d1.html"];
+  dir_432a0680e4fd34ccdcdfb0d368a0c5d1->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="1", labeldistance=1.5 headhref="dir_002677_000749.html"];
+  dir_0e8913b45717495250d9cd71ef1b731d->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="1", labeldistance=1.5 headhref="dir_002685_000749.html"];
+  dir_0e8913b45717495250d9cd71ef1b731d->dir_432a0680e4fd34ccdcdfb0d368a0c5d1 [headlabel="1", labeldistance=1.5 headhref="dir_002685_002677.html"];
+}

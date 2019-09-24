@@ -1,0 +1,13 @@
+digraph "read"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node189 [label="read",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node189 -> Node190 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node190 [label="clone",height=0.2,width=0.4,color="black",URL="$a21394.html#a722fe8888a6a89517f707178d155124c",tooltip="Construct and return a clone. "];
+  Node189 -> Node191 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node191 [label="transformation",height=0.2,width=0.4,color="black",URL="$a21394.html#aa399caab3cd107de02ea674d7d25ed72",tooltip="Return the solid-body motion transformation septernion. "];
+  Node191 -> Node190 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

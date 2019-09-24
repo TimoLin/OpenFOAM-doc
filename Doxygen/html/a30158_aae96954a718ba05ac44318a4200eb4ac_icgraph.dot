@@ -1,0 +1,13 @@
+digraph "Es"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node190 [label="Es",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node190 -> Node191 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node191 [label="S",height=0.2,width=0.4,color="red",URL="$a30158.html#ada69396dc2ec891c657bb77ee8d83652",tooltip="Entropy [J/(kg K)]. "];
+  Node191 -> Node200 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node200 [label="~SpecieMixture",height=0.2,width=0.4,color="black",URL="$a30158.html#a149d8c2fb446e76144898dd6cadef2de",tooltip="Destructor. "];
+  Node190 -> Node200 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

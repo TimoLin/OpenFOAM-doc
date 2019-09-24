@@ -1,0 +1,13 @@
+digraph "resetPrimitives"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2230 [label="resetPrimitives",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2230 -> Node2231 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2231 [label="surfZones",height=0.2,width=0.4,color="red",URL="$a29702.html#ac9d5ad1a3400361b0cf661628bd78549",tooltip="Return surface zones. "];
+  Node2230 -> Node2234 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2234 [label="updateRefs",height=0.2,width=0.4,color="red",URL="$a29702.html#a6f719c5aaff7ed498bd8bf5e8dfa5380",tooltip="Update references to storedPoints/storedFaces. "];
+  Node2234 -> Node2230 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

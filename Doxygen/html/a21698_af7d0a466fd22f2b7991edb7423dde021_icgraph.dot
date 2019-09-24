@@ -1,0 +1,16 @@
+digraph "getExposedFaces"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node992 [label="getExposedFaces",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node992 -> Node993 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node993 [label="Foam::fvMeshDistribute\l::printCoupleInfo",height=0.2,width=0.4,color="red",URL="$a21454.html#a0b2e9e5ba94679bbc5d807ecf02687e2",tooltip="Print some info on coupling data. "];
+  Node992 -> Node1005 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1005 [label="removeCells",height=0.2,width=0.4,color="black",URL="$a21698.html#a809438fc5de47e053ed361a5e01aaf83",tooltip="Construct from mesh. syncPar: do parallel synchronization. "];
+  Node992 -> Node1006 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1006 [label="Foam::meshRefinement\l::splitMesh",height=0.2,width=0.4,color="red",URL="$a24662.html#a08f4ea0b833b94c474aa41d492a55d31",tooltip="Split off (with optional buffer layers) unreachable areas. "];
+  Node992 -> Node1007 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1007 [label="Foam::meshRefinement\l::splitMeshRegions",height=0.2,width=0.4,color="red",URL="$a24662.html#abb4c189f35ecf6727f0bd93924cdfafa",tooltip="Split mesh. Keep part containing point. "];
+}

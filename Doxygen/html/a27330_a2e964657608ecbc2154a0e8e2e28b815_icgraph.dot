@@ -1,0 +1,12 @@
+digraph "scatter"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node723 [label="scatter",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node723 -> Node724 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node724 [label="gather",height=0.2,width=0.4,color="black",URL="$a27330.html#a85c8c6104245c495c267fd39c2ae7440",tooltip="Inplace collect data in processor order on master. "];
+  Node723 -> Node725 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node725 [label="scatter",height=0.2,width=0.4,color="black",URL="$a27330.html#accc981829ee703722c144769b31c2674",tooltip="Distribute data in processor order. Requires fld to be sized! "];
+}

@@ -1,0 +1,12 @@
+digraph "subCycle"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node36231 [label="subCycle",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node36231 -> Node36232 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node36232 [label="prevTimeState",height=0.2,width=0.4,color="red",URL="$a26350.html#a138041e78b81df1eee147266c7470a96",tooltip="Return previous TimeState if time is being sub-cycled. "];
+  Node36231 -> Node38255 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node38255 [label="Foam::subCycleTime\l::subCycleTime",height=0.2,width=0.4,color="black",URL="$a26346.html#a9292beb034fa59451acfa464e50cfceb",tooltip="Construct from original time and number of sub-cycles. "];
+}

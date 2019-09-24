@@ -1,0 +1,16 @@
+digraph "names"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2759 [label="names",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2759 -> Node2760 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2760 [label="dbDir",height=0.2,width=0.4,color="red",URL="$a26326.html#a9ecd132f79c64a2676e2ec906c864653",tooltip="Local directory path of this objectRegistry relative to the time. "];
+  Node2759 -> Node2783 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2783 [label="Foam::fvMeshDistribute\l::distribute",height=0.2,width=0.4,color="red",URL="$a21454.html#acb11a389cf765470aea69d37a526cf1f",tooltip="Send cells to neighbours according to distribution. "];
+  Node2759 -> Node2793 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2793 [label="names",height=0.2,width=0.4,color="black",URL="$a26326.html#a6f7fd9db8e7aa2e44b1a585dd558f734"];
+  Node2759 -> Node2794 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2794 [label="Foam::vtkUnstructuredReader\l::printFieldStats",height=0.2,width=0.4,color="red",URL="$a21890.html#aa807adab28415ed004efd7467d9a021e",tooltip="Debug: print contents of objectRegistry. "];
+}

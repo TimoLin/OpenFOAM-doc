@@ -1,0 +1,19 @@
+digraph "patchSlice"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4271 [label="patchSlice",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4271 -> Node4272 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4272 [label="faceAreas",height=0.2,width=0.4,color="red",URL="$a27478.html#a129c714af51a28e963f5f445235715b9",tooltip="Return face normals. "];
+  Node4271 -> Node4302 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4302 [label="faceCells",height=0.2,width=0.4,color="red",URL="$a27478.html#afbfac825732ef2770fff4261b4e930e9",tooltip="Return face-cell addressing. "];
+  Node4271 -> Node4909 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4909 [label="faceCentres",height=0.2,width=0.4,color="red",URL="$a27478.html#a7eedbc42527b683112bf222f221a714c",tooltip="Return face centres. "];
+  Node4909 -> Node4387 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4387 [label="Foam::FaceCellWave\l::setFaceInfo",height=0.2,width=0.4,color="red",URL="$a24814.html#a4dfc64d9c6a80650006ac5ab728f95b0",tooltip="Set initial changed faces. "];
+  Node4271 -> Node4576 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4576 [label="Foam::isoSurface::isoSurface",height=0.2,width=0.4,color="black",URL="$a29346.html#a2d3f6322d0523951b389b2245851396f",tooltip="Construct from cell values and point values. Uses boundaryField. "];
+  Node4271 -> Node4387 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

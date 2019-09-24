@@ -1,0 +1,35 @@
+digraph "calcPhaseChange"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node65 [label="calcPhaseChange",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node65 -> Node66 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node66 [label="Foam::subModelBase\l::active",height=0.2,width=0.4,color="black",URL="$a28266.html#ad9735e23cb0888fb98e1c5893aecff7e",tooltip="Return the model &#39;active&#39; status - default active = true. "];
+  Node65 -> Node67 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node67 [label="Foam::PhaseChangeModel\l::addToPhaseChangeMass",height=0.2,width=0.4,color="black",URL="$a23810.html#a7bf8f9c4483809f4414165dd5694b3bc",tooltip="Add to phase change mass. "];
+  Node65 -> Node68 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node68 [label="Foam::PhaseChangeModel\l::calculate",height=0.2,width=0.4,color="black",URL="$a23810.html#a031f0e209049424f72315c7da79fb3b7",tooltip="Update model. "];
+  Node65 -> Node69 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node69 [label="Foam::CompositionModel\l::carrier",height=0.2,width=0.4,color="black",URL="$a23806.html#a2260ad95f8a442cc428618661191f3e9",tooltip="Return the carrier components (wrapper function) "];
+  Node65 -> Node70 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node70 [label="Foam::PhaseChangeModel::dh",height=0.2,width=0.4,color="black",URL="$a23810.html#a4f97d9ee39e3791d7344e0aaad64e01c",tooltip="Return the enthalpy per unit mass. "];
+  Node65 -> Node71 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node71 [label="Foam::CompositionModel\l::globalIds",height=0.2,width=0.4,color="black",URL="$a23806.html#aa48a18e81e5a659486251e8a97a0d5bc",tooltip="Return global ids of for phase phaseI. "];
+  Node65 -> Node72 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node72 [label="Foam::CompositionModel\l::liquids",height=0.2,width=0.4,color="black",URL="$a23806.html#a03638032f60c2f702e8e3a9fd53f9952",tooltip="Return the global (additional) liquids. "];
+  Node65 -> Node73 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node73 [label="Foam::CompositionModel\l::localToGlobalCarrierId",height=0.2,width=0.4,color="black",URL="$a23806.html#ab8b47d9835e5616d9665ab8050b891c5",tooltip="Return global carrier id of component given local id. "];
+  Node65 -> Node74 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node74 [label="Foam::min",height=0.2,width=0.4,color="black",URL="$a21124.html#a253e112ad2d56d96230ff39ea7f442dc"];
+  Node65 -> Node75 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node75 [label="Foam::sum",height=0.2,width=0.4,color="black",URL="$a21124.html#a3d8733143aad0e03b300186ab4bef137"];
+  Node65 -> Node76 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node76 [label="Foam::PhaseChangeModel\l::TMax",height=0.2,width=0.4,color="black",URL="$a23810.html#aa0509e5ab7fe874804ba540203210e25",tooltip="Return maximum/limiting temperature. "];
+  Node65 -> Node77 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node77 [label="Foam::PhaseChangeModel\l::Tvap",height=0.2,width=0.4,color="black",URL="$a23810.html#a50c3869999c33a16d9937f0b54cb4be1",tooltip="Return vapourisation temperature. "];
+  Node65 -> Node78 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node78 [label="updateMassFraction",height=0.2,width=0.4,color="red",URL="$a23922.html#a8324007872aeb6145966e887b53a3602",tooltip="Update mass fraction. "];
+  Node78 -> Node75 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

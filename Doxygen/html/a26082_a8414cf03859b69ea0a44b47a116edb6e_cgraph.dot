@@ -1,0 +1,15 @@
+digraph "error"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node48 [label="error",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node48 -> Node49 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node49 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node48 -> Node51 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node51 [label="exit",height=0.2,width=0.4,color="red",URL="$a26082.html#a8e05d3ad7f8730ff9a8bab5360fd7854",tooltip="Exit : can be called for any error to exit program. "];
+  Node51 -> Node49 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node48 -> Node79 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node79 [label="Foam::IOstream::good",height=0.2,width=0.4,color="black",URL="$a26226.html#abdcc7f96f487faadc7769afcf58fe992",tooltip="Return true if next operation might succeed. "];
+}

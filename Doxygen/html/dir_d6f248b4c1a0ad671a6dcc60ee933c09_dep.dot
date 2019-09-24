@@ -1,0 +1,24 @@
+digraph "src/OpenFOAM/matrices/lduMatrix/solvers/GAMG/GAMGProcAgglomerations/masterCoarsestGAMGProcAgglomeration" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="FreeSans"];
+  edge [ labelfontsize="10", labelfontname="FreeSans"];
+  subgraph clusterdir_e29b5ea92f1450a27f449a4b2bdeb476 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="GAMGProcAgglomerations" fontname="FreeSans", fontsize="10", URL="dir_e29b5ea92f1450a27f449a4b2bdeb476.html"]
+  dir_d6f248b4c1a0ad671a6dcc60ee933c09 [shape=box, label="masterCoarsestGAMGProcAgglomeration", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_d6f248b4c1a0ad671a6dcc60ee933c09.html"];
+  }
+  dir_19d0872053bde092be81d7fe3f56cbf7 [shape=box label="containers" color="red" URL="dir_19d0872053bde092be81d7fe3f56cbf7.html"];
+  dir_63c634f7a7cfd679ac26c67fb30fc32f [shape=box label="db" color="red" URL="dir_63c634f7a7cfd679ac26c67fb30fc32f.html"];
+  dir_a924fc5b9b02d4bfaf9b6fb6bcc671ab [shape=box label="GAMGAgglomerations" color="red" URL="dir_a924fc5b9b02d4bfaf9b6fb6bcc671ab.html"];
+  dir_2b2cbd6f594ace38cc4e761ea843eebc [shape=box label="GAMGProcAgglomeration" URL="dir_2b2cbd6f594ace38cc4e761ea843eebc.html"];
+  dir_19d0872053bde092be81d7fe3f56cbf7->dir_63c634f7a7cfd679ac26c67fb30fc32f [headlabel="62", labeldistance=1.5 headhref="dir_001737_001787.html"];
+  dir_63c634f7a7cfd679ac26c67fb30fc32f->dir_19d0872053bde092be81d7fe3f56cbf7 [headlabel="35", labeldistance=1.5 headhref="dir_001787_001737.html"];
+  dir_a924fc5b9b02d4bfaf9b6fb6bcc671ab->dir_63c634f7a7cfd679ac26c67fb30fc32f [headlabel="5", labeldistance=1.5 headhref="dir_002014_001787.html"];
+  dir_a924fc5b9b02d4bfaf9b6fb6bcc671ab->dir_2b2cbd6f594ace38cc4e761ea843eebc [headlabel="1", labeldistance=1.5 headhref="dir_002014_002021.html"];
+  dir_2b2cbd6f594ace38cc4e761ea843eebc->dir_63c634f7a7cfd679ac26c67fb30fc32f [headlabel="1", labeldistance=1.5 headhref="dir_002021_001787.html"];
+  dir_2b2cbd6f594ace38cc4e761ea843eebc->dir_a924fc5b9b02d4bfaf9b6fb6bcc671ab [headlabel="1", labeldistance=1.5 headhref="dir_002021_002014.html"];
+  dir_d6f248b4c1a0ad671a6dcc60ee933c09->dir_19d0872053bde092be81d7fe3f56cbf7 [headlabel="1", labeldistance=1.5 headhref="dir_002023_001737.html"];
+  dir_d6f248b4c1a0ad671a6dcc60ee933c09->dir_63c634f7a7cfd679ac26c67fb30fc32f [headlabel="1", labeldistance=1.5 headhref="dir_002023_001787.html"];
+  dir_d6f248b4c1a0ad671a6dcc60ee933c09->dir_a924fc5b9b02d4bfaf9b6fb6bcc671ab [headlabel="1", labeldistance=1.5 headhref="dir_002023_002014.html"];
+  dir_d6f248b4c1a0ad671a6dcc60ee933c09->dir_2b2cbd6f594ace38cc4e761ea843eebc [headlabel="1", labeldistance=1.5 headhref="dir_002023_002021.html"];
+}

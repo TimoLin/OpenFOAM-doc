@@ -1,0 +1,12 @@
+digraph "operator&gt;&gt;"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node256 [label="operator\>\>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node256 -> Node257 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node257 [label="Foam::IOstream::check",height=0.2,width=0.4,color="red",URL="$a26226.html#a367eb3425fc4e8270e2aa961df8ac8a5",tooltip="Check IOstream status for given operation. "];
+  Node256 -> Node306 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node306 [label="Foam::fileFormats::\ledgeMeshFormat::read",height=0.2,width=0.4,color="red",URL="$a21758.html#a22c713e4cb4d8f5a7c987c659e74ed80",tooltip="Read edgeMesh components from stream. "];
+}

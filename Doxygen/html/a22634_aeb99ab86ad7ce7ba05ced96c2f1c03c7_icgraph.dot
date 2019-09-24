@@ -1,0 +1,13 @@
+digraph "collectData"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node38 [label="collectData",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node38 -> Node39 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node39 [label="stencil",height=0.2,width=0.4,color="red",URL="$a22634.html#a411eaf3a58bffc0f951bec8db6ceeba6",tooltip="Return reference to the stencil. "];
+  Node39 -> Node38 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node38 -> Node41 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node41 [label="Foam::fv::LeastSquaresVectors\l::~LeastSquaresVectors",height=0.2,width=0.4,color="black",URL="$a22550.html#aac47ed174a5c3750295cc7d84ed52f55",tooltip="Destructor. "];
+}

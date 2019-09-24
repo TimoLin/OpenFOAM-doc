@@ -1,0 +1,24 @@
+digraph "sort"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node338 [label="sort",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node338 -> Node339 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node339 [label="Foam::triSurface::checkEdges",height=0.2,width=0.4,color="red",URL="$a30598.html#a90f5f9407a227d55df8fa9120de9f122",tooltip="Check triply (or more) connected edges. "];
+  Node338 -> Node342 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node342 [label="Foam::searchableBox\l::findNearestOnEdge",height=0.2,width=0.4,color="red",URL="$a25210.html#a945928aebbefd2d65c7cd3807020bb93",tooltip="Calculate nearest point on edge. "];
+  Node338 -> Node345 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node345 [label="indices",height=0.2,width=0.4,color="black",URL="$a25918.html#af7f267d40dff46ea35f042a1480b1442",tooltip="Return non-const access to the sorted indices. Updated every sort. "];
+  Node338 -> Node346 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node346 [label="Foam::triangleFuncs\l::intersect",height=0.2,width=0.4,color="black",URL="$a25522.html#a366aada8f77bed49087f5c97d30087b2",tooltip="Do triangles intersect. Return bool and set intersection segment. "];
+  Node338 -> Node347 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node347 [label="Foam::KinematicCloud\l\< Foam::DsmcCloud \>::\lpenetration",height=0.2,width=0.4,color="black",URL="$a23786.html#acabb7d90e498b652e912de7feeedf590",tooltip="Penetration for fraction [0-1] of the current total mass. "];
+  Node338 -> Node348 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node348 [label="Foam::faceCollapser\l::setRefinement",height=0.2,width=0.4,color="red",URL="$a21646.html#a4eb4757ecb940ebe87d1e45559d1bad1",tooltip="Collapse faces along endpoints. Play commands into. "];
+  Node338 -> Node350 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node350 [label="SortableList",height=0.2,width=0.4,color="black",URL="$a25918.html#ad466e8c0626f812225262613f1372919",tooltip="Construct from UList, sorting immediately. "];
+  Node338 -> Node351 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node351 [label="Foam::PatchTools::sorted\lEdgeFaces",height=0.2,width=0.4,color="black",URL="$a27526.html#a6f45385fbdbafd55b359508624f4e84f"];
+}

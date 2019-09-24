@@ -1,0 +1,14 @@
+digraph "gSumProd"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node67285 [label="gSumProd",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node67285 -> Node67286 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node67286 [label="Foam::PBiCCCG::solve",height=0.2,width=0.4,color="red",URL="$a26834.html#af2a8369a85a8532bb0c9d431c0b6e7ff",tooltip="Solve the matrix with this solver. "];
+  Node67285 -> Node67289 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node67289 [label="Foam::PCG::solve",height=0.2,width=0.4,color="red",URL="$a27046.html#ad38597d099f9905e3f399b01af791bcb",tooltip="Solve the matrix with this solver. "];
+  Node67285 -> Node67293 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node67293 [label="Foam::PBiCG::solve",height=0.2,width=0.4,color="red",URL="$a27042.html#ad38597d099f9905e3f399b01af791bcb",tooltip="Solve the matrix with this solver. "];
+}

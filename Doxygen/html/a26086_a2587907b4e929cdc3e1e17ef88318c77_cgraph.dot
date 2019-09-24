@@ -1,0 +1,31 @@
+digraph "SafeFatalIOError"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node211 [label="SafeFatalIOError",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node211 -> Node212 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node212 [label="Foam::dictionary::add",height=0.2,width=0.4,color="red",URL="$a26014.html#ac2ddcab42322c8d8af5e5830ab4d431b",tooltip="Add a new entry. "];
+  Node212 -> Node215 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node215 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node211 -> Node215 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node211 -> Node255 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node255 [label="Foam::exit",height=0.2,width=0.4,color="red",URL="$a21124.html#a06ca7250d8e89caf05243ec094843642"];
+  Node211 -> Node259 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node259 [label="exit",height=0.2,width=0.4,color="red",URL="$a26086.html#a8e05d3ad7f8730ff9a8bab5360fd7854",tooltip="Exit : can be called for any error to exit program. "];
+  Node259 -> Node212 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node259 -> Node215 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node211 -> Node261 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node261 [label="ioEndLineNumber",height=0.2,width=0.4,color="red",URL="$a26086.html#a8f31741a5497f159f1ec818e54db905e"];
+  Node211 -> Node265 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node265 [label="ioFileName",height=0.2,width=0.4,color="black",URL="$a26086.html#a2134f7c0f761f6ae819a8dda4ebb942f"];
+  Node211 -> Node266 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node266 [label="ioStartLineNumber",height=0.2,width=0.4,color="black",URL="$a26086.html#ab215316bd355d5aebabd958d32803697"];
+  Node211 -> Node238 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node238 [label="Foam::IOstream::lineNumber",height=0.2,width=0.4,color="black",URL="$a26226.html#a2bca2e504df91006cb4a2b09ba1ac409",tooltip="Return current stream line number. "];
+  Node211 -> Node267 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node267 [label="Foam::IOstream::name",height=0.2,width=0.4,color="black",URL="$a26226.html#a41b2d01e5fd6e1bc71a895d8b8a86308",tooltip="Return the name of the stream. "];
+  Node211 -> Node268 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node268 [label="Foam::dictionary::remove",height=0.2,width=0.4,color="red",URL="$a26014.html#aa376b367f7f3c648100361392fe85942",tooltip="Remove an entry specified by keyword. "];
+}

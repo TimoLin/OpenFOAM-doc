@@ -1,0 +1,14 @@
+digraph "fixed"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node21338 [label="fixed",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node21338 -> Node21339 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21339 [label="Foam::stringOps::getVariable",height=0.2,width=0.4,color="red",URL="$a21166.html#a0b683838814d3a93044a72f190d693ed",tooltip="Get dictionary or (optionally) environment variable. "];
+  Node21338 -> Node21342 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21342 [label="Foam::stringOps::inplace\lExpand",height=0.2,width=0.4,color="black",URL="$a21166.html#a26c5056d5b559d872fdd2aeaf16b9097",tooltip="Inplace expand occurences of variables according to the dictionary. "];
+  Node21338 -> Node21343 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21343 [label="Foam::IOstream::versionNumber::str",height=0.2,width=0.4,color="red",URL="$a26230.html#a42576ec0b836ed2aa0b5322ca8459202",tooltip="Return the versionNumber as a character string. "];
+}

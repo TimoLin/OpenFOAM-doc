@@ -1,0 +1,39 @@
+digraph "src/thermophysicalModels/basic/basicThermo/basicThermo.H"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node301 [label="src/thermophysicalModels\l/basic/basicThermo/basicThermo.H",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node301 -> Node302 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node302 [label="src/fvOptions/constraints\l/derived/fixedTemperatureConstraint\l/fixedTemperatureConstraint.C",height=0.2,width=0.4,color="black",URL="$a04580.html"];
+  Node301 -> Node303 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node303 [label="src/fvOptions/constraints\l/derived/temperatureLimitsConstraint\l/temperatureLimitsConstraint.C",height=0.2,width=0.4,color="black",URL="$a04586.html"];
+  Node301 -> Node304 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node304 [label="src/fvOptions/sources\l/derived/effectivenessHeatExchanger\lSource/effectivenessHeatExchangerSource.C",height=0.2,width=0.4,color="black",URL="$a04646.html"];
+  Node301 -> Node305 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node305 [label="src/fvOptions/sources\l/derived/solidificationMelting\lSource/solidificationMeltingSource.C",height=0.2,width=0.4,color="black",URL="$a04745.html"];
+  Node301 -> Node306 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node306 [label="src/fvOptions/sources\l/interRegion/interRegionHeat\lTransferModel/interRegionHeatTransfer\lModel/interRegionHeatTransferModel.C",height=0.2,width=0.4,color="black",URL="$a04796.html"];
+  Node301 -> Node307 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node307 [label="src/regionCoupled/derived\lFvPatchFields/energyRegionCoupled\l/energyRegionCoupledFvPatchScalarField.H",height=0.2,width=0.4,color="red",URL="$a14021.html"];
+  Node301 -> Node309 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node309 [label="src/thermophysicalModels\l/basic/basicThermo/basicThermo.C",height=0.2,width=0.4,color="black",URL="$a15383.html"];
+  Node301 -> Node310 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node310 [label="src/thermophysicalModels\l/basic/basicThermo/basicThermo\lTemplates.C",height=0.2,width=0.4,color="black",URL="$a15389.html"];
+  Node301 -> Node311 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node311 [label="src/thermophysicalModels\l/basic/derivedFvPatchFields\l/energyJump/energyJump/energyJumpFv\lPatchScalarField.C",height=0.2,width=0.4,color="black",URL="$a15395.html"];
+  Node301 -> Node312 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node312 [label="src/thermophysicalModels\l/basic/derivedFvPatchFields\l/energyJump/energyJumpAMI\l/energyJumpAMIFvPatchScalarField.C",height=0.2,width=0.4,color="black",URL="$a15401.html"];
+  Node301 -> Node313 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node313 [label="src/thermophysicalModels\l/basic/derivedFvPatchFields\l/fixedEnergy/fixedEnergyFvPatchScalar\lField.C",height=0.2,width=0.4,color="black",URL="$a15407.html"];
+  Node301 -> Node314 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node314 [label="src/thermophysicalModels\l/basic/derivedFvPatchFields\l/gradientEnergy/gradientEnergyFvPatch\lScalarField.C",height=0.2,width=0.4,color="black",URL="$a15413.html"];
+  Node301 -> Node315 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node315 [label="src/thermophysicalModels\l/basic/derivedFvPatchFields\l/mixedEnergy/mixedEnergyFvPatchScalar\lField.C",height=0.2,width=0.4,color="black",URL="$a15419.html"];
+  Node301 -> Node316 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node316 [label="src/thermophysicalModels\l/basic/fluidThermo/fluidThermo.H",height=0.2,width=0.4,color="red",URL="$a15428.html"];
+  Node301 -> Node589 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node589 [label="src/thermophysicalModels\l/chemistryModel/chemistryModel\l/basicChemistryModel/basicChemistryModel\lTemplates.C",height=0.2,width=0.4,color="black",URL="$a15491.html"];
+  Node301 -> Node590 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node590 [label="src/thermophysicalModels\l/solidThermo/solidThermo\l/solidThermo.H",height=0.2,width=0.4,color="red",URL="$a16382.html"];
+}

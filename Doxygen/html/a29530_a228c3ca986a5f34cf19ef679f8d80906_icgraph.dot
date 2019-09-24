@@ -1,0 +1,16 @@
+digraph "orientation"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node730 [label="orientation",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node730 -> Node731 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node731 [label="Foam::sixDoFRigidBodyMotion\lRestraints::sphericalAngularSpring\l::restrain",height=0.2,width=0.4,color="red",URL="$a29522.html#a5a33f13a3b2e956e9be8cfaffc87a34b",tooltip="Calculate the restraint position, force and moment. "];
+  Node730 -> Node735 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node735 [label="Foam::sixDoFRigidBodyMotion\lRestraints::linearAxialAngularSpring\l::restrain",height=0.2,width=0.4,color="red",URL="$a29502.html#a5a33f13a3b2e956e9be8cfaffc87a34b",tooltip="Calculate the restraint position, force and moment. "];
+  Node730 -> Node739 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node739 [label="Foam::sixDoFRigidBodyMotion\lRestraints::tabulatedAxialAngular\lSpring::restrain",height=0.2,width=0.4,color="red",URL="$a29526.html#a5a33f13a3b2e956e9be8cfaffc87a34b",tooltip="Calculate the restraint position, force and moment. "];
+  Node730 -> Node743 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node743 [label="status",height=0.2,width=0.4,color="red",URL="$a29530.html#a2115458ac48deae383afcaddb33be5dd",tooltip="Report the status of the motion. "];
+}

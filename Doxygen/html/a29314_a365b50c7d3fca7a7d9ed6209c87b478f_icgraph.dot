@@ -1,0 +1,12 @@
+digraph "sampledSet"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="sampledSet",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="Foam::sampledSet::iNew\l::operator()",height=0.2,width=0.4,color="black",URL="$a29318.html#a3f6c9b2bdc7d7ff1521e9d459c261391"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="setSamples",height=0.2,width=0.4,color="red",URL="$a29314.html#acb984a3c88d0c4b2b4f6980a929bdebc",tooltip="Sets sample data. "];
+}

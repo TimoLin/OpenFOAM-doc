@@ -1,0 +1,14 @@
+digraph "ReactingMultiphaseParcel"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ReactingMultiphaseParcel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="calcSurfaceReactions",height=0.2,width=0.4,color="red",URL="$a23910.html#ad02f46785301a7290b6293d1688c06a5",tooltip="Calculate surface reactions. "];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="clone",height=0.2,width=0.4,color="black",URL="$a23910.html#a88a017e32aa61e1eff25854e439a5feb",tooltip="Construct and return a (basic particle) clone. "];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="Foam::ReactingMultiphase\lParcel::constantProperties\l::constantProperties",height=0.2,width=0.4,color="black",URL="$a23914.html#a50a319ad2996242d838c8e84106123b7",tooltip="Construct from dictionary. "];
+}

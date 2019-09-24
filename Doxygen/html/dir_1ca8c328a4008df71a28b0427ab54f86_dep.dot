@@ -1,0 +1,21 @@
+digraph "src/OpenFOAM/fields/pointPatchFields/basic/coupled" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="FreeSans"];
+  edge [ labelfontsize="10", labelfontname="FreeSans"];
+  subgraph clusterdir_6a30703e73af3ba7ed84ebe53ffd3e12 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="basic" fontname="FreeSans", fontsize="10", URL="dir_6a30703e73af3ba7ed84ebe53ffd3e12.html"]
+  dir_1ca8c328a4008df71a28b0427ab54f86 [shape=box, label="coupled", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_1ca8c328a4008df71a28b0427ab54f86.html"];
+  }
+  dir_7d364942a13d3ce50f6681364b448a98 [shape=box label="Fields" color="red" URL="dir_7d364942a13d3ce50f6681364b448a98.html"];
+  dir_aa2423979fb45fc41c393a5db370ab21 [shape=box label="meshes" color="red" URL="dir_aa2423979fb45fc41c393a5db370ab21.html"];
+  dir_17a9bfb76e5e1dbc9e2e32285df4aeb8 [shape=box label="pointPatchField" color="red" URL="dir_17a9bfb76e5e1dbc9e2e32285df4aeb8.html"];
+  dir_7d364942a13d3ce50f6681364b448a98->dir_aa2423979fb45fc41c393a5db370ab21 [headlabel="1", labeldistance=1.5 headhref="dir_001873_002059.html"];
+  dir_aa2423979fb45fc41c393a5db370ab21->dir_7d364942a13d3ce50f6681364b448a98 [headlabel="30", labeldistance=1.5 headhref="dir_002059_001873.html"];
+  dir_aa2423979fb45fc41c393a5db370ab21->dir_17a9bfb76e5e1dbc9e2e32285df4aeb8 [headlabel="8", labeldistance=1.5 headhref="dir_002059_001928.html"];
+  dir_1ca8c328a4008df71a28b0427ab54f86->dir_7d364942a13d3ce50f6681364b448a98 [headlabel="1", labeldistance=1.5 headhref="dir_001908_001873.html"];
+  dir_1ca8c328a4008df71a28b0427ab54f86->dir_aa2423979fb45fc41c393a5db370ab21 [headlabel="2", labeldistance=1.5 headhref="dir_001908_002059.html"];
+  dir_1ca8c328a4008df71a28b0427ab54f86->dir_17a9bfb76e5e1dbc9e2e32285df4aeb8 [headlabel="1", labeldistance=1.5 headhref="dir_001908_001928.html"];
+  dir_17a9bfb76e5e1dbc9e2e32285df4aeb8->dir_7d364942a13d3ce50f6681364b448a98 [headlabel="5", labeldistance=1.5 headhref="dir_001928_001873.html"];
+  dir_17a9bfb76e5e1dbc9e2e32285df4aeb8->dir_aa2423979fb45fc41c393a5db370ab21 [headlabel="2", labeldistance=1.5 headhref="dir_001928_002059.html"];
+}

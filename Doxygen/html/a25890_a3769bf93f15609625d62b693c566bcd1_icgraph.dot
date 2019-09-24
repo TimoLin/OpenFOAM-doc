@@ -1,0 +1,41 @@
+digraph "setCapacity"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node21 [label="setCapacity",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node21 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22 [label="Foam::polyTopoChange\l::addMesh",height=0.2,width=0.4,color="red",URL="$a21678.html#a1f97630a2e6369203b99c1d1d1c3cff3",tooltip="Add all points/faces/cells of mesh. Additional offset for patch. "];
+  Node21 -> Node26 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node26 [label="Foam::DynamicList\<\l Foam::List\< int \> \>\l::capacity",height=0.2,width=0.4,color="black",URL="$a25890.html#a564a7790acc7ff1a57a1f32759f7a58a",tooltip="Size of the underlying storage. "];
+  Node21 -> Node27 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node27 [label="Foam::primitiveMesh\l::cellEdges",height=0.2,width=0.4,color="black",URL="$a27530.html#aa8f3c979c238982d15fd48beb8c76ca9",tooltip="cellEdges using cells, pointFaces, edges, pointEdges "];
+  Node21 -> Node28 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node28 [label="Foam::primitiveMesh\l::cellPoints",height=0.2,width=0.4,color="black",URL="$a27530.html#a1c13020694d048dc396cd4b8662de467",tooltip="cellPoints using cells "];
+  Node21 -> Node29 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node29 [label="Foam::mapDistribute\l::distribute",height=0.2,width=0.4,color="black",URL="$a27362.html#a2e6c96f73d361ba683f7f8800a448151",tooltip="Distribute data using default commsType. "];
+  Node21 -> Node30 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node30 [label="Foam::primitiveMesh\l::faceEdges",height=0.2,width=0.4,color="black",URL="$a27530.html#af9a5126a3f71ac85ea1e7883b2fadc15",tooltip="faceEdges using pointFaces, edges, pointEdges "];
+  Node21 -> Node31 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node31 [label="Foam::fileMonitorWatcher\l::fileMonitorWatcher",height=0.2,width=0.4,color="black",URL="$a28522.html#a18d7181a4c61ca76508010cad4eae123",tooltip="initialise inotify "];
+  Node21 -> Node32 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node32 [label="Foam::polyBoundaryMesh\l::findIndices",height=0.2,width=0.4,color="red",URL="$a27402.html#a3e15652c7db41cd0638d8a95cc9075e5",tooltip="Return patch indices for all matches. Optionally matches patchGroups. "];
+  Node21 -> Node183 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node183 [label="Foam::primitiveMesh\l::pointPoints",height=0.2,width=0.4,color="black",URL="$a27530.html#a934d2a22a229b43067995d81d8422bb9",tooltip="pointPoints using edges, pointEdges "];
+  Node21 -> Node184 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node184 [label="Foam::Pstream::Pstream",height=0.2,width=0.4,color="black",URL="$a26250.html#a2b31c5d4673e1c7d7366b8b6bf47830d",tooltip="Construct given optional buffer size. "];
+  Node21 -> Node185 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node185 [label="Foam::autoSnapDriver\l::repatchToSurface",height=0.2,width=0.4,color="red",URL="$a24622.html#abf0c9c836463b6164ef331dce238b2fa",tooltip="Repatch faces according to surface nearest the face centre. "];
+  Node21 -> Node196 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node196 [label="Foam::surfaceFeatures\l::selectFeatureEdges",height=0.2,width=0.4,color="red",URL="$a25510.html#a264fb63fc64f4f9c94b42cafc8822897",tooltip="Helper function: select a subset of featureEdges_. "];
+  Node21 -> Node199 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node199 [label="Foam::polyTopoChange\l::setCapacity",height=0.2,width=0.4,color="red",URL="$a21678.html#a63533ab96a36c8fc3ca51bf8a0622e36",tooltip="Explicitly pre-size the dynamic storage for expected mesh. "];
+  Node199 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21 -> Node200 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node200 [label="Foam::PatchTools::sorted\lPointEdges",height=0.2,width=0.4,color="black",URL="$a27526.html#ade266c84d472629a66d2ec0f9c8f2ff9"];
+  Node21 -> Node201 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node201 [label="Foam::extendedEdgeMesh\l::sortPointsAndEdges",height=0.2,width=0.4,color="red",URL="$a21786.html#a35042787bb1f37f3e2695d3b48e313b0"];
+  Node21 -> Node203 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node203 [label="Foam::fileFormats::\lTRIsurfaceFormatCore\l::~TRIsurfaceFormatCore",height=0.2,width=0.4,color="black",URL="$a29662.html#a64bd067a14995862f35de33edc1a719d",tooltip="Destructor. "];
+}

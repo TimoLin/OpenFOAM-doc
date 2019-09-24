@@ -1,0 +1,36 @@
+digraph "yz"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node152 [label="yz",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node152 -> Node153 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node153 [label="Foam::cof",height=0.2,width=0.4,color="black",URL="$a21124.html#aba11e623225195f0c7e66326ad667863",tooltip="Return the cofactor symmetric tensor of a symmetric tensor. "];
+  Node152 -> Node154 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node154 [label="Foam::det",height=0.2,width=0.4,color="black",URL="$a21124.html#a7a7d427803e13e2d25077375a0d8ee06",tooltip="Return the determinant of a symmetric tensor. "];
+  Node152 -> Node155 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node155 [label="Foam::inv",height=0.2,width=0.4,color="black",URL="$a21124.html#ac6cce89d9430d6a8a200c00aca98cb7c",tooltip="Return the inverse of a symmetric tensor give the determinant. "];
+  Node152 -> Node156 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node156 [label="Foam::invariantII",height=0.2,width=0.4,color="black",URL="$a21124.html#a9bcc9c04ae69d1aaf3371fd6393887e4",tooltip="Return the 2nd invariant of a symmetric tensor. "];
+  Node152 -> Node157 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node157 [label="Foam::magSqr",height=0.2,width=0.4,color="black",URL="$a21124.html#ab396daf9c75d7e637299970b85d46699"];
+  Node152 -> Node158 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node158 [label="Foam::operator &",height=0.2,width=0.4,color="black",URL="$a21124.html#a9850d19d9e51704761075694164dacbc",tooltip="Inner-product between two symmetric tensors. "];
+  Node152 -> Node159 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node159 [label="Foam::operator &&",height=0.2,width=0.4,color="black",URL="$a21124.html#affc36a37666281f483f45aa2723da375",tooltip="Double-dot-product between a symmetric tensor and a symmetric tensor. "];
+  Node152 -> Node160 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node160 [label="Foam::operator*",height=0.2,width=0.4,color="black",URL="$a21124.html#ab06add5d4ff3c6d00b2e036f5cc90eaa",tooltip="Hodge Dual operator (tensor -> vector) "];
+  Node152 -> Node161 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node161 [label="Foam::operator+",height=0.2,width=0.4,color="black",URL="$a21124.html#a6cb3dc56c718ed391b74d817f8d49367"];
+  Node152 -> Node162 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node162 [label="Foam::operator-",height=0.2,width=0.4,color="black",URL="$a21124.html#a98d691ddfb52c15ee9e02a863709f7b2"];
+  Node152 -> Node163 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node163 [label="Foam::Tensor\< scalar\l \>::operator=",height=0.2,width=0.4,color="black",URL="$a27634.html#a524fa973dba20cdfa6bc3be3195494a1",tooltip="Assign to a SymmTensor. "];
+  Node152 -> Node164 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node164 [label="Foam::Tensor\< scalar\l \>::Tensor",height=0.2,width=0.4,color="black",URL="$a27634.html#a7334545f6b9895a242bca7a95a928276",tooltip="Construct given SymmTensor. "];
+  Node152 -> Node165 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node165 [label="Foam::transform",height=0.2,width=0.4,color="black",URL="$a21124.html#a2398526b38a4e70fd5c67cbfd9139fc0"];
+  Node152 -> Node166 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node166 [label="Foam::dxSurfaceWriter\l::writeData",height=0.2,width=0.4,color="black",URL="$a29410.html#acb257dd0f2e708e03f47a7aeb42021ed"];
+}

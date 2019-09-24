@@ -1,0 +1,48 @@
+digraph "checkFaceTets"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node667 [label="checkFaceTets",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node667 -> Node668 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node668 [label="Foam::polyMesh::boundaryMesh",height=0.2,width=0.4,color="black",URL="$a27410.html#a9f2b68c134340291eda6197f47f25484",tooltip="Return boundary mesh. "];
+  Node667 -> Node669 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node669 [label="Foam::primitiveMesh\l::cellCentres",height=0.2,width=0.4,color="red",URL="$a27530.html#a7300aee2989c6ec70e39436816461902"];
+  Node667 -> Node671 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node671 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node667 -> Node724 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node724 [label="f",height=0.2,width=0.4,color="black",URL="$a17900.html#a888be93833ac7a23170555c69c690288"];
+  Node667 -> Node719 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node719 [label="Foam::primitiveMesh\l::faceCentres",height=0.2,width=0.4,color="red",URL="$a27530.html#a3319847c9ee813a5398d011b08de25a4"];
+  Node667 -> Node730 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node730 [label="Foam::polyMesh::faceNeighbour",height=0.2,width=0.4,color="black",URL="$a27410.html#a9fb57b52c700ed61f09ada65412d13e3",tooltip="Return face neighbour. "];
+  Node667 -> Node731 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node731 [label="Foam::polyMesh::faceOwner",height=0.2,width=0.4,color="black",URL="$a27410.html#a57752b49bfee23ca1944c3fb0493974f",tooltip="Return face owner. "];
+  Node667 -> Node732 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node732 [label="Foam::polyMesh::faces",height=0.2,width=0.4,color="red",URL="$a27410.html#a431c0a24765f0bb6d32f6a03ce0e9b57",tooltip="Return raw faces. "];
+  Node667 -> Node733 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node733 [label="faceTetIndices",height=0.2,width=0.4,color="red",URL="$a27418.html#ac928a304995a9b54928d97ec634a6270",tooltip="Return the tet decomposition of the given face, with. "];
+  Node733 -> Node732 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node733 -> Node731 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node733 -> Node724 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node733 -> Node671 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node667 -> Node754 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node754 [label="Foam::HashSet::insert",height=0.2,width=0.4,color="black",URL="$a25690.html#a49f0753d9652681fc3a81f59951a0ad7",tooltip="Insert a new entry. "];
+  Node667 -> Node755 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node755 [label="Foam::primitiveMesh\l::isInternalFace",height=0.2,width=0.4,color="black",URL="$a27530.html#ae3e48ad9ec4c5132ec7d3d702ad17c9e",tooltip="Return true if given face label is internal to the mesh. "];
+  Node755 -> Node736 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node736 [label="Foam::primitiveMesh\l::nInternalFaces",height=0.2,width=0.4,color="black",URL="$a27530.html#aa6c7965af1f30d16d9125deb981cbdb0"];
+  Node667 -> Node756 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node756 [label="Foam::face::nextLabel",height=0.2,width=0.4,color="red",URL="$a27218.html#a8d8ab7da5fc0315042faf1b6dcf64f4a",tooltip="Next vertex on face. "];
+  Node667 -> Node721 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node721 [label="Foam::primitiveMesh\l::nFaces",height=0.2,width=0.4,color="black",URL="$a27530.html#abe602c985a3c9ffa67176e969e77ca6f"];
+  Node667 -> Node736 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node667 -> Node738 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node738 [label="Foam::polyBoundaryMesh\l::patchID",height=0.2,width=0.4,color="black",URL="$a27402.html#abd25b8071ecc034dbbf6772347ed9ce1",tooltip="Per boundary face label the patch index. "];
+  Node667 -> Node752 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node752 [label="Foam::polyMesh::points",height=0.2,width=0.4,color="red",URL="$a27410.html#ac44123fc1265297c41a43c3b62fdb4c2",tooltip="Return raw points. "];
+  Node667 -> Node758 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node758 [label="Foam::reduce",height=0.2,width=0.4,color="red",URL="$a21124.html#a7ffd6af4acc2eb9ba72ee296b5ecda23"];
+  Node758 -> Node671 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

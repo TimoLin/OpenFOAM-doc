@@ -1,0 +1,36 @@
+digraph "option"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="option",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="actuationDiskSource",height=0.2,width=0.4,color="red",URL="$a23458.html",tooltip="Actuation disk source. "];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="CodedSource\< Type \>",height=0.2,width=0.4,color="black",URL="$a23526.html"];
+  Node0 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="effectivenessHeatExchanger\lSource",height=0.2,width=0.4,color="black",URL="$a23462.html",tooltip="Heat exchanger source model, in which the heat exchanger is defined as a selection of cells..."];
+  Node0 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="explicitPorositySource",height=0.2,width=0.4,color="black",URL="$a23466.html",tooltip="Explicit porosity source. "];
+  Node0 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="ExplicitSetValue\< Type \>",height=0.2,width=0.4,color="black",URL="$a23438.html"];
+  Node0 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="fixedTemperatureConstraint",height=0.2,width=0.4,color="black",URL="$a23430.html",tooltip="Fixed temperature equation constraint. "];
+  Node0 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="interRegionExplicitPorosity\lSource",height=0.2,width=0.4,color="black",URL="$a23534.html",tooltip="Inter-region explicit porosity source. "];
+  Node0 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="interRegionHeatTransferModel",height=0.2,width=0.4,color="red",URL="$a23542.html",tooltip="Base class for inter region heat exchange. The derived classes must provide the heat transfer coeffis..."];
+  Node0 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13 [label="MRFSource",height=0.2,width=0.4,color="black",URL="$a23470.html",tooltip="Multiple Reference Frame (MRF) source. "];
+  Node0 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14 [label="pressureGradientExplicit\lSource",height=0.2,width=0.4,color="black",URL="$a23474.html",tooltip="Creates a pressure gradient source. "];
+  Node0 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15 [label="rotorDiskSource",height=0.2,width=0.4,color="black",URL="$a23502.html",tooltip="Cell based momemtum source. "];
+  Node0 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16 [label="SemiImplicitSource\l\< Type \>",height=0.2,width=0.4,color="black",URL="$a23530.html",tooltip="Semi-implicit source, described using an input dictionary. The injection rate coefficients are specif..."];
+  Node0 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17 [label="solidificationMeltingSource",height=0.2,width=0.4,color="black",URL="$a23522.html",tooltip="This source is designed to model the effect of solidification and melting processes, e.g. windhield defrosting. The phase change occurs at the melting temperature, Tmelt. "];
+  Node0 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 [label="temperatureLimitsConstraint",height=0.2,width=0.4,color="black",URL="$a23434.html",tooltip="Constraint for temperature to apply limits between minimum and maximum values. "];
+}

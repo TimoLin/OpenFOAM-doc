@@ -1,0 +1,42 @@
+digraph "syncPointList"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1438 [label="syncPointList",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1438 -> Node1439 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1439 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node1438 -> Node1482 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1482 [label="Foam::globalMeshData\l::coupledPatch",height=0.2,width=0.4,color="red",URL="$a27334.html#adbf1d40edb1a4d9d7175cc03028a82e7",tooltip="Return patch of all coupled faces. "];
+  Node1438 -> Node1495 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1495 [label="Foam::HashTableCore::end",height=0.2,width=0.4,color="red",URL="$a25706.html#a540580a296c0ff351686ceb4f27b6fe6",tooltip="iteratorEnd set to beyond the end of any HashTable "];
+  Node1438 -> Node1503 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1503 [label="Foam::HashTable::find",height=0.2,width=0.4,color="black",URL="$a25702.html#a76b2c74ebd9f33fa9f76261b027ffc11",tooltip="Find and return an iterator set at the hashedEntry. "];
+  Node1438 -> Node1504 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1504 [label="Foam::polyMesh::globalData",height=0.2,width=0.4,color="red",URL="$a27410.html#a5e9cb8eb9e52843d336386b13423d19c",tooltip="Return parallel info. "];
+  Node1438 -> Node1505 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1505 [label="Foam::globalMeshData\l::globalPointSlaves",height=0.2,width=0.4,color="black",URL="$a27334.html#abd6bb511169e3569e1a9b3e6aa050e4f"];
+  Node1438 -> Node1506 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1506 [label="Foam::globalMeshData\l::globalPointSlavesMap",height=0.2,width=0.4,color="black",URL="$a27334.html#a747bfe0f5583f76d7691018964bf660e"];
+  Node1438 -> Node1507 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1507 [label="Foam::globalMeshData\l::globalPointTransformedSlaves",height=0.2,width=0.4,color="black",URL="$a27334.html#ada74699f61ecc1bf6e786fac6a0d0284"];
+  Node1438 -> Node1508 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1508 [label="Foam::globalMeshData\l::globalTransforms",height=0.2,width=0.4,color="black",URL="$a27334.html#ac9bc896b4902c5873e7314dcc15477c8",tooltip="Global transforms numbering. "];
+  Node1438 -> Node1509 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1509 [label="Foam::PrimitivePatch\l::meshPointMap",height=0.2,width=0.4,color="black",URL="$a27538.html#a4bfdf4cb7ea71c49e0131cb6358eacf7",tooltip="Mesh point map. Given the global point index find its. "];
+  Node1438 -> Node1510 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1510 [label="Foam::PrimitivePatch\l::nPoints",height=0.2,width=0.4,color="black",URL="$a27538.html#a1c886a784a597459dbf2d9470798e9dd",tooltip="Return number of points supporting patch faces. "];
+  Node1438 -> Node1511 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1511 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node1438 -> Node1512 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1512 [label="Foam::globalMeshData\l::syncData",height=0.2,width=0.4,color="red",URL="$a27334.html#a81fffc5ec4bfe50dd3ba0a3ca38ee2f1",tooltip="Helper: synchronise data with transforms. "];
+  Node1512 -> Node1511 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1438 -> Node1522 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1522 [label="syncEdgeList",height=0.2,width=0.4,color="red",URL="$a27502.html#a5ed3e64d2ef89e3823674727ea1b3d58",tooltip="Synchronize values on all mesh edges. "];
+  Node1522 -> Node1511 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1522 -> Node1439 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1522 -> Node1504 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1522 -> Node1508 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1522 -> Node1512 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

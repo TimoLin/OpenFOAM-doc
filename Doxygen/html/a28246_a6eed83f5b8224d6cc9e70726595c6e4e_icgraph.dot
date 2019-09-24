@@ -1,0 +1,14 @@
+digraph "match"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node10 [label="match",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="Foam::findStrings",height=0.2,width=0.4,color="red",URL="$a21124.html#a24d78dbd0055269ca2a05f27a1edebff",tooltip="Return true if string matches one of the regular expressions. "];
+  Node10 -> Node392 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node392 [label="Foam::IOobjectList\l::lookup",height=0.2,width=0.4,color="black",URL="$a26146.html#ad98a7f7acf75190c4553ef82ee46c9cc",tooltip="Return the list for all IOobects whose name matches name. "];
+  Node10 -> Node393 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node393 [label="operator()",height=0.2,width=0.4,color="black",URL="$a28246.html#a44b04b5d395a2d203d719655ba21f882",tooltip="Return underlying list of wordRe. "];
+}

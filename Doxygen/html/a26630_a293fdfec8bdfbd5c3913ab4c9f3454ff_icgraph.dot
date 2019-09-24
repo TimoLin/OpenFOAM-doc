@@ -1,0 +1,13 @@
+digraph "write"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node38 [label="write",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node38 -> Node39 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node39 [label="timeSeries",height=0.2,width=0.4,color="black",URL="$a26630.html#aee9a7ec0ed7091cfa46cf2d939ab5268",tooltip="Return the time series used. "];
+  Node38 -> Node40 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node40 [label="updateCoeffs",height=0.2,width=0.4,color="black",URL="$a26630.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node40 -> Node39 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

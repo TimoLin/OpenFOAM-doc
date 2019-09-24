@@ -1,0 +1,21 @@
+digraph "~repatchPolyTopoChanger"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node497 [label="~repatchPolyTopoChanger",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node497 -> Node498 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node498 [label="changeAnchorPoint",height=0.2,width=0.4,color="red",URL="$a21738.html#a085eccc1946391439db822d350f1702e",tooltip="Change anchor point (zero&#39;th point of face) for a boundary face. "];
+  Node497 -> Node989 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node989 [label="changePatches",height=0.2,width=0.4,color="red",URL="$a21738.html#aa67aec33e2b6e0a922126e09b3ba042a",tooltip="Change patches. "];
+  Node989 -> Node990 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node990 [label="changePatchID",height=0.2,width=0.4,color="red",URL="$a21738.html#a0e422d65d38d06483bef5c596b607eb2",tooltip="Change patch ID for a boundary face. Note: patchID should be in new. "];
+  Node990 -> Node991 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node991 [label="setFaceZone",height=0.2,width=0.4,color="red",URL="$a21738.html#af008e8e6eeeba35744ac133ae9d95bbc",tooltip="Set zone ID for a face. "];
+  Node991 -> Node498 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node497 -> Node990 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node497 -> Node993 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node993 [label="repatch",height=0.2,width=0.4,color="red",URL="$a21738.html#a9d4545d6f0ad7f447a237b10f3f67be0",tooltip="Re-patch the mesh. "];
+  Node497 -> Node991 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,18 @@
+digraph "faceFaces"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1343 [label="faceFaces",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1343 -> Node1344 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1344 [label="Foam::pairPatchAgglomeration\l::agglomerate",height=0.2,width=0.4,color="black",URL="$a23302.html#a8a7e2d0d92c331c4f8b11e23e849f739",tooltip="Agglomerate patch. "];
+  Node1343 -> Node1345 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1345 [label="Foam::PrimitivePatch\l\< Face, ::Foam::List,\l pointField, point \>::\lboundaryPoints",height=0.2,width=0.4,color="black",URL="$a27538.html#aba640bb77ef6cad63d5e791718fe3732",tooltip="Return list of boundary points,. "];
+  Node1343 -> Node1346 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1346 [label="Foam::triSurfaceMesh\l::getNormal",height=0.2,width=0.4,color="red",URL="$a25258.html#aa9abdb9ffe5f3cb1c2992ccb3bcc9e48",tooltip="From a set of points and indices get the normal. "];
+  Node1343 -> Node1366 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1366 [label="Foam::cellDistFuncs\l::getPointNeighbours",height=0.2,width=0.4,color="red",URL="$a24958.html#a1545ea42673856bbee81ec441629ab19",tooltip="Get faces sharing point with face on patch. "];
+  Node1343 -> Node1376 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1376 [label="Foam::PrimitivePatch\l\< Face, ::Foam::List,\l pointField, point \>::\lisInternalEdge",height=0.2,width=0.4,color="black",URL="$a27538.html#ac2458a175e66b555e443539d6c726e06",tooltip="Is internal edge? "];
+}

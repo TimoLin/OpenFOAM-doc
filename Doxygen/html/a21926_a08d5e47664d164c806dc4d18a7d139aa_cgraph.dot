@@ -1,0 +1,16 @@
+digraph "reset"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node11 [label="reset",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12 [label="forAllConstIter",height=0.2,width=0.4,color="red",URL="$a38141.html#ae21e2836509b0fa7f7cedf6493b11b09"];
+  Node11 -> Node193 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node193 [label="Foam::name",height=0.2,width=0.4,color="red",URL="$a21124.html#adcb0df2bd4953cb6bb390272d8263c3a",tooltip="Return a string representation of a complex. "];
+  Node11 -> Node314 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node314 [label="Foam::porosityModel::New",height=0.2,width=0.4,color="red",URL="$a21918.html#a9a40a421957a170cd3957011d00952c1",tooltip="Selector. "];
+  Node11 -> Node172 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node172 [label="Foam::PtrList::setSize",height=0.2,width=0.4,color="black",URL="$a25914.html#aedb985ffeaf1bdbfeccc2a8730405703",tooltip="Reset size of PtrList. If extending the PtrList, new entries are. "];
+}

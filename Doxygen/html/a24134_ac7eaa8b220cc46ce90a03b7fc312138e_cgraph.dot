@@ -1,0 +1,20 @@
+digraph "clone"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node12 [label="clone",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13 [label="cacheFields",height=0.2,width=0.4,color="red",URL="$a24134.html#a6005414ac27ae3e0b5a783ba216c1906",tooltip="Cache fields. "];
+  Node13 -> Node24 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node24 [label="calcCoupled",height=0.2,width=0.4,color="red",URL="$a24134.html#afaf626ee39da50a44d12588b5cb987d9",tooltip="Calculate the non-coupled force. "];
+  Node24 -> Node25 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node25 [label="curlUcInterp",height=0.2,width=0.4,color="red",URL="$a24134.html#a56ba3e1b8981d3d8394d4f2af2370be0",tooltip="Return the curl of the carrier phase velocity interpolator. "];
+  Node12 -> Node24 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12 -> Node25 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12 -> Node72 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node72 [label="Foam::Re",height=0.2,width=0.4,color="red",URL="$a21124.html#affa366970bcbe0f7ccf7c85557a3e12b"];
+  Node12 -> Node75 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node75 [label="~LiftForce",height=0.2,width=0.4,color="black",URL="$a24134.html#a9a0751a59f2fdfc6c1631a2acf4dd441",tooltip="Destructor. "];
+}

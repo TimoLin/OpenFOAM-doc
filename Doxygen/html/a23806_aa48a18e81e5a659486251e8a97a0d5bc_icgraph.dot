@@ -1,0 +1,14 @@
+digraph "globalIds"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node75 [label="globalIds",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node75 -> Node76 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node76 [label="Foam::ReactingParcel\l::calcPhaseChange",height=0.2,width=0.4,color="black",URL="$a23922.html#a623a7991bedba1b8b242d4af39643a14",tooltip="Calculate Phase change. "];
+  Node75 -> Node77 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node77 [label="Foam::CompositionModel\l\< Foam::ReactingCloud\l\< Foam::DsmcCloud \> \>::clone",height=0.2,width=0.4,color="black",URL="$a23806.html#a978beb1d8454ca481790660427b9b37c",tooltip="Construct and return a clone. "];
+  Node75 -> Node78 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node78 [label="Foam::CompositionModel\l\< Foam::ReactingCloud\l\< Foam::DsmcCloud \> \>::\lglobalId",height=0.2,width=0.4,color="black",URL="$a23806.html#ad68008a4efe754675c8c52d3a25b3521",tooltip="Return global id of component cmptName in phase phaseI. "];
+}

@@ -1,0 +1,19 @@
+digraph "findIntersection"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node332 [label="findIntersection",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node332 -> Node333 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node333 [label="Foam::PointHit::distance",height=0.2,width=0.4,color="black",URL="$a27558.html#a288a3ea8e3ee215a5e12afc1002ed4e6",tooltip="Return distance to hit. "];
+  Node332 -> Node334 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node334 [label="Foam::PointHit::hit",height=0.2,width=0.4,color="black",URL="$a27558.html#aee8dc30bf27cefe419b15f96e594c155",tooltip="Is there a hit. "];
+  Node332 -> Node335 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node335 [label="Foam::PointHit::hitPoint",height=0.2,width=0.4,color="black",URL="$a27558.html#a0350feff966a8bc8833a84ca454f1e5e",tooltip="Return hit point. "];
+  Node332 -> Node336 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node336 [label="patch",height=0.2,width=0.4,color="red",URL="$a25066.html#a445b445c8434f2f6289951d9e44bd631",tooltip="Return access to the underlying patch. "];
+  Node336 -> Node332 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node332 -> Node402 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node402 [label="Foam::treeBoundBox\l::posBits",height=0.2,width=0.4,color="red",URL="$a27618.html#ae64b0d004f8da0a95f2458df4be20b12",tooltip="Position of point relative to bounding box. "];
+}

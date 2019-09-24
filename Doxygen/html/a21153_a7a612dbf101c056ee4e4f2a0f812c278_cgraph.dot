@@ -1,0 +1,18 @@
+digraph "walkFace"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2285 [label="walkFace",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2285 -> Node2286 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2286 [label="constrainToMeshCentre",height=0.2,width=0.4,color="red",URL="$a21153.html#a26700ec74f3fbbdd3e210599cbaf2073",tooltip="Set the constrained components of position to mesh centre. "];
+  Node2285 -> Node2441 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2441 [label="Foam::primitiveMesh\l::edges",height=0.2,width=0.4,color="black",URL="$a27530.html#a21d764179912ddda5c6f95193c289846",tooltip="Return mesh edges. Uses calcEdges. "];
+  Node2285 -> Node2442 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2442 [label="Foam::primitiveMesh\l::faceEdges",height=0.2,width=0.4,color="red",URL="$a27530.html#adbfcf489a527a07c33d684834faace79"];
+  Node2442 -> Node2441 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2285 -> Node2448 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2448 [label="otherEdge",height=0.2,width=0.4,color="red",URL="$a21153.html#ae03c08ba46f970c3b70bfdd6fccdf664",tooltip="Return label of other edge (out of candidates edgeLabels) "];
+  Node2448 -> Node2441 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

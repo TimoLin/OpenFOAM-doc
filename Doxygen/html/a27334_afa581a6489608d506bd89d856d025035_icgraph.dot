@@ -1,0 +1,16 @@
+digraph "globalEdgeSlaves"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2879 [label="globalEdgeSlaves",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2879 -> Node2880 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2880 [label="Foam::PatchTools::edgeNormals",height=0.2,width=0.4,color="black",URL="$a27526.html#a48f55bbbe3632b208e3f15dc9ca17103"];
+  Node2879 -> Node2881 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2881 [label="nTotalCells",height=0.2,width=0.4,color="red",URL="$a27334.html#af5f312e4d0bc5cbcc088e7c247d3a97a",tooltip="Return total number of cells in decomposed mesh. "];
+  Node2879 -> Node2904 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2904 [label="Foam::minEqOp\< labelPair\l \>::operator()",height=0.2,width=0.4,color="black",URL="$a21438.html#a5110bdded347caa6365e4d10554dfc32"];
+  Node2879 -> Node2905 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2905 [label="Foam::syncTools::syncEdgeList",height=0.2,width=0.4,color="red",URL="$a27502.html#a5ed3e64d2ef89e3823674727ea1b3d58",tooltip="Synchronize values on all mesh edges. "];
+}

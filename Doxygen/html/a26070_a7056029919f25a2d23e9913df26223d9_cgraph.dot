@@ -1,0 +1,18 @@
+digraph "resolveTemplates"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node100 [label="resolveTemplates",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node100 -> Node101 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node101 [label="Foam::DynamicList::\lappend",height=0.2,width=0.4,color="black",URL="$a25890.html#a7b67b42af715604376ad63a681dee6d8",tooltip="Append an element at the end of the list. "];
+  Node100 -> Node102 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node102 [label="Foam::findEtcFile",height=0.2,width=0.4,color="red",URL="$a21124.html#a64e4ef2dd826f43aabfdda9dcd8ba711",tooltip="Search for a file using findEtcFiles. "];
+  Node100 -> Node153 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node153 [label="Foam::getEnv",height=0.2,width=0.4,color="red",URL="$a21124.html#aa811843798d715931c4c97ff949a89f3",tooltip="Return environment variable of given name. "];
+  Node100 -> Node157 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node157 [label="Foam::isDir",height=0.2,width=0.4,color="red",URL="$a21124.html#a9c9cf5d33b9c5961f835aefe5d860c5a",tooltip="Does the name exist as a DIRECTORY in the file system? "];
+  Node100 -> Node163 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node163 [label="Foam::isFile",height=0.2,width=0.4,color="red",URL="$a21124.html#a1cf13d004cf482571af182540a8d1526",tooltip="Does the name exist as a FILE in the file system? "];
+}

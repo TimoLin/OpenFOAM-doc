@@ -1,0 +1,41 @@
+digraph "setDisplacementPatchFields"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node143 [label="setDisplacementPatchFields",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node143 -> Node144 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node144 [label="Foam::globalMeshData\l::coupledPatch",height=0.2,width=0.4,color="red",URL="$a27334.html#adbf1d40edb1a4d9d7175cc03028a82e7",tooltip="Return patch of all coupled faces. "];
+  Node144 -> Node147 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node147 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node144 -> Node191 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node191 [label="Foam::polyMesh::points",height=0.2,width=0.4,color="red",URL="$a27410.html#ac44123fc1265297c41a43c3b62fdb4c2",tooltip="Return raw points. "];
+  Node143 -> Node200 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node200 [label="Foam::IOobject::db",height=0.2,width=0.4,color="black",URL="$a26142.html#a65cc75d9f80b1df5c3184fb2274a97f1",tooltip="Return the local objectRegistry. "];
+  Node143 -> Node147 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node143 -> Node201 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node201 [label="Foam::polyMesh::globalData",height=0.2,width=0.4,color="black",URL="$a27410.html#a5e9cb8eb9e52843d336386b13423d19c",tooltip="Return parallel info. "];
+  Node201 -> Node147 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node143 -> Node202 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node202 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node143 -> Node203 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node203 [label="Foam::DimensionedField\l::mesh",height=0.2,width=0.4,color="black",URL="$a26390.html#a8f1110830348a1448a14ab5e3cf47e3b",tooltip="Return mesh. "];
+  Node143 -> Node204 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node204 [label="mesh",height=0.2,width=0.4,color="black",URL="$a21550.html#a458b970a506d9f4c727dae3f97d98e2a",tooltip="Reference to mesh. "];
+  Node143 -> Node205 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node205 [label="Foam::PrimitivePatch\l::meshPoints",height=0.2,width=0.4,color="black",URL="$a27538.html#a52e3a457780fe74b31d39dc046bce1d8",tooltip="Return labelList of mesh points in patch. They are constructed. "];
+  Node143 -> Node206 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node206 [label="Foam::OSstream::name",height=0.2,width=0.4,color="black",URL="$a26290.html#a41b2d01e5fd6e1bc71a895d8b8a86308",tooltip="Return the name of the stream. "];
+  Node143 -> Node207 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node207 [label="Foam::IOobject::path",height=0.2,width=0.4,color="black",URL="$a26142.html#abe7b9078c8e7356c6131b70a8f729372",tooltip="Return complete path. "];
+  Node143 -> Node191 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node143 -> Node208 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node208 [label="setDisplacement",height=0.2,width=0.4,color="black",URL="$a21550.html#a856c4be9adaf4b4ade6db576a3d833bf",tooltip="Set displacement field from displacement on patch points. "];
+  Node143 -> Node209 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node209 [label="Foam::syncTools::syncPointList",height=0.2,width=0.4,color="red",URL="$a27502.html#a197ed77a9101bdfb37253bd3f507c017",tooltip="Synchronize values on all mesh points. "];
+  Node209 -> Node201 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node143 -> Node213 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node213 [label="Foam::meshTools::writeOBJ",height=0.2,width=0.4,color="red",URL="$a21153.html#afd76c6ccc8ee4a5957f0232218167c17",tooltip="Write obj representation of point. "];
+  Node213 -> Node147 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

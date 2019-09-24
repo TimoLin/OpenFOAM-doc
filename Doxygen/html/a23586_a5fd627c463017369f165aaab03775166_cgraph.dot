@@ -1,0 +1,19 @@
+digraph "hitSymmetryPlanePatch"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2881 [label="hitSymmetryPlanePatch",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2881 -> Node2882 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2882 [label="hitSymmetryPatch",height=0.2,width=0.4,color="red",URL="$a23586.html#a232d12f07f45b23a1cf401bb83d5c234",tooltip="Overridable function to handle the particle hitting a. "];
+  Node2882 -> Node2883 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2883 [label="normal",height=0.2,width=0.4,color="red",URL="$a23586.html#ad626ef30cf97c5bcf2b81d102ad70096",tooltip="Return the normal of the tri on tetFaceI_ for the. "];
+  Node2882 -> Node2933 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2933 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node2882 -> Node2934 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2934 [label="transformProperties",height=0.2,width=0.4,color="black",URL="$a23586.html#a021e6438cfdab7a29053eb812cda8ea3",tooltip="Transform the physical properties of the particle. "];
+  Node2881 -> Node2933 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2881 -> Node2883 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2881 -> Node2934 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

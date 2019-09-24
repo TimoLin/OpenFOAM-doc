@@ -1,0 +1,15 @@
+digraph "getMisAlignedEdge"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node387 [label="getMisAlignedEdge",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node387 -> Node388 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node388 [label="Foam::primitiveMesh\l::cellEdges",height=0.2,width=0.4,color="black",URL="$a27530.html#a29ec14ff1e343af734485c48f0cf7856"];
+  Node387 -> Node389 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node389 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node387 -> Node390 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node390 [label="Foam::meshTools::normEdgeVec",height=0.2,width=0.4,color="red",URL="$a21153.html#a7fcaaaefc5bc2d460742d9a452091d8b",tooltip="Normalized edge vector. "];
+  Node390 -> Node389 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

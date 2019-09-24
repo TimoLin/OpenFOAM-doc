@@ -1,0 +1,21 @@
+digraph "relativeVelocityModel"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3 [label="relativeVelocityModel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" rhod_\nrhoc_" ,fontname="FreeSans"];
+  Node4 [label="dimensioned\< Type \>",height=0.2,width=0.4,color="black",URL="$a26366.html",tooltip="Generic dimensioned Type class. "];
+  Node5 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mixture_" ,fontname="FreeSans"];
+  Node5 [label="incompressibleTwoPhaseInteracting\lMixture",height=0.2,width=0.4,color="red",URL="$a31942.html",tooltip="A two-phase incompressible transportModel for interacting phases requiring the direct evaluation of t..."];
+  Node38 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" U_\nphi_" ,fontname="FreeSans"];
+  Node38 [label="GeometricField\< Type,\l PatchField, GeoMesh \>",height=0.2,width=0.4,color="red",URL="$a22434.html",tooltip="Generic GeometricField class. "];
+  Node47 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" Udm_" ,fontname="FreeSans"];
+  Node47 [label="GeometricField\< vector,\l fvPatchField, volMesh \>",height=0.2,width=0.4,color="red",URL="$a22434.html"];
+  Node38 -> Node47 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< vector, fvPatchField,\l volMesh \>" ,fontname="FreeSans"];
+  Node38 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" alphad_\nalphac_" ,fontname="FreeSans"];
+  Node40 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" continuousPhaseName_" ,fontname="FreeSans"];
+  Node40 [label="word",height=0.2,width=0.4,color="red",URL="$a28258.html",tooltip="A class for handling words, derived from string. "];
+  Node40 -> Node40 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" null" ,fontname="FreeSans"];
+}

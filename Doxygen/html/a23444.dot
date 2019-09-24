@@ -1,0 +1,28 @@
+digraph "option"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node19 [label="option",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node20 -> Node19 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mesh_" ,fontname="FreeSans"];
+  Node20 [label="fvMesh",height=0.2,width=0.4,color="red",URL="$a22766.html",tooltip="Mesh data needed to do the Finite Volume discretisation. "];
+  Node55 -> Node19 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" selectionModeTypeNames_" ,fontname="FreeSans"];
+  Node55 [label="NamedEnum\< selectionMode\lType, 5 \>",height=0.2,width=0.4,color="red",URL="$a25998.html"];
+  Node39 -> Node19 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" coeffs_\ndict_" ,fontname="FreeSans"];
+  Node39 [label="dictionary",height=0.2,width=0.4,color="red",URL="$a26014.html",tooltip="A list of keyword definitions, which are a keyword followed by any number of values (e..."];
+  Node39 -> Node39 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" null" ,fontname="FreeSans"];
+  Node56 -> Node19 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" cells_" ,fontname="FreeSans"];
+  Node56 [label="List\< label \>",height=0.2,width=0.4,color="red",URL="$a25694.html"];
+  Node60 -> Node19 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" applied_" ,fontname="FreeSans"];
+  Node60 [label="List\< bool \>",height=0.2,width=0.4,color="red",URL="$a25694.html"];
+  Node62 -> Node19 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" fieldNames_" ,fontname="FreeSans"];
+  Node62 [label="List\< word \>",height=0.2,width=0.4,color="red",URL="$a25694.html"];
+  Node64 -> Node19 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" points_" ,fontname="FreeSans"];
+  Node64 [label="List\< Foam::Vector \>",height=0.2,width=0.4,color="red",URL="$a25694.html"];
+  Node66 -> Node19 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" meshInterpPtr_" ,fontname="FreeSans"];
+  Node66 [label="autoPtr\< Foam::meshToMesh \>",height=0.2,width=0.4,color="red",URL="$a25958.html"];
+  Node32 -> Node19 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" modelType_\nnbrRegionName_\ncellSetName_\nname_" ,fontname="FreeSans"];
+  Node32 [label="word",height=0.2,width=0.4,color="red",URL="$a28258.html",tooltip="A class for handling words, derived from string. "];
+  Node32 -> Node32 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" null" ,fontname="FreeSans"];
+}

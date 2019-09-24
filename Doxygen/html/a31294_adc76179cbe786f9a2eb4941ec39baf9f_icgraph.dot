@@ -1,0 +1,21 @@
+digraph "omegaPatch"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1489 [label="omegaPatch",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1489 -> Node1490 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1490 [label="calculateTurbulenceFields",height=0.2,width=0.4,color="red",URL="$a31294.html#ad354b2bce4bd90afc465c2dff69b24d6",tooltip="Main driver to calculate the turbulence fields. "];
+  Node1490 -> Node1489 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1489 -> Node1493 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1493 [label="G",height=0.2,width=0.4,color="red",URL="$a31294.html#ad35ace611250c5f497f21747c0920fec",tooltip="Return non-const access to the master&#39;s G field. "];
+  Node1493 -> Node1493 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1489 -> Node1494 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1494 [label="omega",height=0.2,width=0.4,color="red",URL="$a31294.html#a0a19ade47a22371d23b806d6b945dc4a",tooltip="Return non-const access to the master&#39;s omega field. "];
+  Node1494 -> Node1495 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1495 [label="setMaster",height=0.2,width=0.4,color="red",URL="$a31294.html#af62f4355fcee4da87dbdf3b365d3d73a",tooltip="Set the master patch - master is responsible for updating all. "];
+  Node1494 -> Node1489 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1494 -> Node1494 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1489 -> Node1495 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

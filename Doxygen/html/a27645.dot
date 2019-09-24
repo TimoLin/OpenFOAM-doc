@@ -1,0 +1,11 @@
+digraph "DiagTensor&lt; Cmpt &gt;"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node0 [label="DiagTensor\< Cmpt \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="VectorSpace\< DiagTensor\l\< Cmpt \>, Cmpt, 3 \>",height=0.2,width=0.4,color="red",URL="$a28490.html"];
+  Node0 -> Node3 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< scalar \>" ,fontname="FreeSans"];
+  Node3 [label="DiagTensor\< scalar \>",height=0.2,width=0.4,color="black",URL="$a27646.html"];
+}

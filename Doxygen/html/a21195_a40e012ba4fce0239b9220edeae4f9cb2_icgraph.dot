@@ -1,0 +1,14 @@
+digraph "radAngleBetween"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node195 [label="radAngleBetween",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node195 -> Node196 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node196 [label="cosPhi",height=0.2,width=0.4,color="red",URL="$a21195.html#a044bf851e38a97159c6db0f489a67522",tooltip="Calculate angle between a and b in radians. "];
+  Node196 -> Node195 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node195 -> Node281 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node281 [label="degAngleBetween",height=0.2,width=0.4,color="black",URL="$a21195.html#ab61850ec0c8c961db8657838aac07d2d",tooltip="Calculate angle between a and b in degrees. "];
+  Node281 -> Node195 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

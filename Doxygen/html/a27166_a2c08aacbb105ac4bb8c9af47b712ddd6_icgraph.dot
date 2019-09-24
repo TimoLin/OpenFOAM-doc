@@ -1,0 +1,22 @@
+digraph "calcLocalFaces"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node732 [label="calcLocalFaces",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node732 -> Node733 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node733 [label="cellMatcher",height=0.2,width=0.4,color="black",URL="$a27166.html#aa1860036de0658c9f12854621cdaa273",tooltip="Construct given mesh and shape factors. "];
+  Node732 -> Node734 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node734 [label="Foam::wedgeMatcher\l::matchShape",height=0.2,width=0.4,color="red",URL="$a27194.html#a1f0feccca7c36016d7745d9f9d196b6d",tooltip="Low level shape recognition. Return true if matches. "];
+  Node732 -> Node740 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node740 [label="Foam::tetWedgeMatcher\l::matchShape",height=0.2,width=0.4,color="red",URL="$a27190.html#a1f0feccca7c36016d7745d9f9d196b6d",tooltip="Low level shape recognition. Return true if matches. "];
+  Node732 -> Node746 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node746 [label="Foam::tetMatcher::matchShape",height=0.2,width=0.4,color="red",URL="$a27186.html#a1f0feccca7c36016d7745d9f9d196b6d",tooltip="Low level shape recognition. Return true if matches. "];
+  Node732 -> Node753 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node753 [label="Foam::pyrMatcher::matchShape",height=0.2,width=0.4,color="red",URL="$a27182.html#a1f0feccca7c36016d7745d9f9d196b6d",tooltip="Low level shape recognition. Return true if matches. "];
+  Node732 -> Node759 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node759 [label="Foam::prismMatcher\l::matchShape",height=0.2,width=0.4,color="red",URL="$a27178.html#a1f0feccca7c36016d7745d9f9d196b6d",tooltip="Low level shape recognition. Return true if matches. "];
+  Node732 -> Node765 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node765 [label="Foam::hexMatcher::matchShape",height=0.2,width=0.4,color="red",URL="$a27174.html#a1f0feccca7c36016d7745d9f9d196b6d",tooltip="Low level shape recognition. Return true if matches. "];
+}

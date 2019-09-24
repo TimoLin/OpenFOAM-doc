@@ -1,0 +1,12 @@
+digraph "rewind"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node308 [label="rewind",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node308 -> Node309 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node309 [label="Foam::fv::gaussConvection\lScheme::gaussConvectionScheme",height=0.2,width=0.4,color="black",URL="$a22446.html#aa9b19c02f50dec0beb32417f7df60761",tooltip="Construct from flux and Istream. "];
+  Node308 -> Node310 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node310 [label="~Istream",height=0.2,width=0.4,color="black",URL="$a26234.html#a226136d8d835f90dbae0127398f6dbc1",tooltip="Destructor. "];
+}

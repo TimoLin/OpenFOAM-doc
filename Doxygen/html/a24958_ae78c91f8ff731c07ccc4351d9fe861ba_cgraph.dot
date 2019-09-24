@@ -1,0 +1,40 @@
+digraph "mesh"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node5 [label="mesh",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="correctBoundaryFaceCells",height=0.2,width=0.4,color="red",URL="$a24958.html#a41c7905c77a33266536507702e329e13",tooltip="Correct all cells connected to boundary (via face). Sets values in. "];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="maxPatchSize",height=0.2,width=0.4,color="red",URL="$a24958.html#a0161218fe2eda8d48db7b5b5091c974f",tooltip="Size of largest patch (out of supplied subset of patches) "];
+  Node7 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="sumPatchSize",height=0.2,width=0.4,color="red",URL="$a24958.html#a1368fbba0d932ccedb4b2a8e41b9791c",tooltip="Sum of patch sizes (out of supplied subset of patches). "];
+  Node11 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 -> Node75 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node75 [label="getPointNeighbours",height=0.2,width=0.4,color="red",URL="$a24958.html#a1545ea42673856bbee81ec441629ab19",tooltip="Get faces sharing point with face on patch. "];
+  Node75 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 -> Node88 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node88 [label="smallestDist",height=0.2,width=0.4,color="red",URL="$a24958.html#a42e4d807adb6607b99662c1e5c8ed419",tooltip="Calculate smallest true distance (and face index) "];
+  Node88 -> Node90 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node90 [label="nWallFaces",height=0.2,width=0.4,color="black",URL="$a20186.html#ace3ce457d57f6aa80fad527f34d117c8"];
+  Node88 -> Node75 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 -> Node93 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node93 [label="correctBoundaryPointCells",height=0.2,width=0.4,color="red",URL="$a24958.html#ae4ed6e24a4dba014836260aece8f8ead",tooltip="Correct all cells connected to wall (via point). Sets values in. "];
+  Node93 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node93 -> Node88 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 -> Node93 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 -> Node96 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node96 [label="getPatchIDs",height=0.2,width=0.4,color="black",URL="$a24958.html#a2f500a134735ec0cd0ab62dc65c144f3",tooltip="Get patchIDs of/derived off certain type (e.g. &#39;processorPolyPatch&#39;) "];
+  Node5 -> Node75 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 -> Node90 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 -> Node97 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node97 [label="patchNames",height=0.2,width=0.4,color="black",URL="$a17900.html#a2b0b0d262376a4021c85e70b012ebe4e"];
+  Node5 -> Node88 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

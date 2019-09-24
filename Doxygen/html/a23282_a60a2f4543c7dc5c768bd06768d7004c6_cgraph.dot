@@ -1,0 +1,27 @@
+digraph "syncUntransformedData"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node429 [label="syncUntransformedData",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node429 -> Node430 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node430 [label="Foam::mapDistribute\l::constructSize",height=0.2,width=0.4,color="black",URL="$a27362.html#aafa5c5eaac08986c309d43bb80c2ab1f",tooltip="Constructed data size. "];
+  Node429 -> Node431 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node431 [label="Foam::globalMeshData\l::coupledPatch",height=0.2,width=0.4,color="red",URL="$a27334.html#adbf1d40edb1a4d9d7175cc03028a82e7",tooltip="Return patch of all coupled faces. "];
+  Node429 -> Node487 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node487 [label="Foam::mapDistribute\l::distribute",height=0.2,width=0.4,color="red",URL="$a27362.html#a33e0f8481eb68bf011731ec98e8f7c65",tooltip="Distribute data. Note:schedule only used for Pstream::scheduled. "];
+  Node429 -> Node494 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node494 [label="Foam::globalMeshData\l::globalCoPointSlaves",height=0.2,width=0.4,color="black",URL="$a27334.html#aa5db81c664ee36aaa53618a57e0a0940"];
+  Node429 -> Node495 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node495 [label="Foam::globalMeshData\l::globalCoPointSlavesMap",height=0.2,width=0.4,color="red",URL="$a27334.html#a0b3a352a1bd504592c367a64ba7659f7"];
+  Node429 -> Node507 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node507 [label="Foam::polyMesh::globalData",height=0.2,width=0.4,color="red",URL="$a27410.html#a5e9cb8eb9e52843d336386b13423d19c",tooltip="Return parallel info. "];
+  Node429 -> Node498 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node498 [label="Foam::PrimitivePatch\l::meshPoints",height=0.2,width=0.4,color="black",URL="$a27538.html#a52e3a457780fe74b31d39dc046bce1d8",tooltip="Return labelList of mesh points in patch. They are constructed. "];
+  Node429 -> Node501 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node501 [label="Foam::mapDistribute\l::reverseDistribute",height=0.2,width=0.4,color="red",URL="$a27362.html#af4843479bbb5ce26fab0dbefd525c410",tooltip="Reverse distribute data using default commsType. "];
+  Node501 -> Node487 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node429 -> Node508 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node508 [label="setPatchFields",height=0.2,width=0.4,color="red",URL="$a23282.html#a1b6bb2c50c9e39688aa71d2263865d68",tooltip="Helper: set patchField values from internal values (on. "];
+}

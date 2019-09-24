@@ -1,0 +1,23 @@
+digraph "operator+="
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node31 [label="operator+=",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node31 -> Node32 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node32 [label="Foam::vtkPV3Readers\l::AddToBlock",height=0.2,width=0.4,color="red",URL="$a21198.html#a7cdc02b6bb650c025fc7b6cca670a484",tooltip="Convenience method use to convert the readers from VTK 5. "];
+  Node32 -> Node36 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node36 [label="Foam::vtkPV3Readers\l::GetDataSetFromBlock",height=0.2,width=0.4,color="red",URL="$a21198.html#a92ccdd864d49d9305bfc04fb6546855f",tooltip="Convenience method use to convert the readers from VTK 5. "];
+  Node36 -> Node37 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node37 [label="Foam::vtkPV3Readers\l::GetNumberOfDataSets",height=0.2,width=0.4,color="red",URL="$a21198.html#abd4ff20abe85d7b6ad557f087ed28262",tooltip="Convenience method use to convert the readers from VTK 5. "];
+  Node37 -> Node38 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node38 [label="Foam::vtkPV3Readers\l::getSelected",height=0.2,width=0.4,color="red",URL="$a21198.html#adae6486219c77725d52a3061e66066ef",tooltip="Retrieve the current selections as a wordHashSet. "];
+  Node31 -> Node36 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node31 -> Node37 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node31 -> Node38 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node31 -> Node41 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node41 [label="Foam::vtkPV3Readers\l::getSelectedArrayEntries",height=0.2,width=0.4,color="black",URL="$a21198.html#a454280c43f625fea13f94875786a31fb",tooltip="Retrieve the current selections. "];
+  Node31 -> Node42 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node42 [label="Foam::vtkPV3Readers\l::setSelectedArrayEntries",height=0.2,width=0.4,color="black",URL="$a21198.html#a6cc08e371732714bf9b5875f3fb837a1",tooltip="Set selection(s) "];
+}

@@ -1,0 +1,39 @@
+digraph "set"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node35 [label="set",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node35 -> Node36 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node36 [label="Foam::dynamicRefineFvMesh\l::calculateProtectedCells",height=0.2,width=0.4,color="red",URL="$a21370.html#accc0b203ae4eb1d37740e95bf57708fa",tooltip="Calculate cells that cannot be refined since would trigger. "];
+  Node35 -> Node38 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node38 [label="Foam::dynamicRefineFvMesh\l::checkEightAnchorPoints",height=0.2,width=0.4,color="black",URL="$a21370.html#abd5518970980c5edd8e9a031088e3b4a",tooltip="Check all cells have 8 anchor points. "];
+  Node38 -> Node39 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node39 [label="Foam::dynamicRefineFvMesh\l::dynamicRefineFvMesh",height=0.2,width=0.4,color="black",URL="$a21370.html#adb7d4548e6fcf38f86bf13798cef53eb",tooltip="Construct from IOobject. "];
+  Node38 -> Node40 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node40 [label="Foam::dynamicRefineFvMesh\l::extendMarkedCells",height=0.2,width=0.4,color="red",URL="$a21370.html#a0fa8db52d776305520bffcf32aef39a3",tooltip="Extend markedCell with cell-face-cell. "];
+  Node35 -> Node48 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node48 [label="Foam::hexRef8::consistent\lRefinement",height=0.2,width=0.4,color="red",URL="$a21654.html#ae0e017f6d6cf5b2b9edf14177593128e",tooltip="Given valid mesh and current cell level and proposed. "];
+  Node35 -> Node51 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node51 [label="Foam::hexRef8::consistent\lSlowRefinement2",height=0.2,width=0.4,color="red",URL="$a21654.html#aeb8716163dcd0280ef71a13d2f7814a8",tooltip="Like consistentSlowRefinement but uses different meshWave. "];
+  Node35 -> Node39 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node35 -> Node40 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node35 -> Node53 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node53 [label="Foam::hexRef8::getAnchor\lLevel",height=0.2,width=0.4,color="red",URL="$a21654.html#aed49cb175362b037d69517422f320332",tooltip="Gets level such that the face has four points <= level. "];
+  Node35 -> Node55 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node55 [label="Foam::fileFormats::\lNASedgeFormat::read",height=0.2,width=0.4,color="red",URL="$a21770.html#a464ebd67acbdff0014d4dae69e3ec4be",tooltip="Read from a file. "];
+  Node35 -> Node58 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node58 [label="Foam::fileFormats::\lSTARCDedgeFormat::read",height=0.2,width=0.4,color="red",URL="$a21778.html#a464ebd67acbdff0014d4dae69e3ec4be",tooltip="Read from file. "];
+  Node35 -> Node61 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node61 [label="Foam::dynamicRefineFvMesh\l::refine",height=0.2,width=0.4,color="red",URL="$a21370.html#a4cc059364e8fc86931758f25f0503d7e",tooltip="Refine cells. Update mesh and fields. "];
+  Node35 -> Node43 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node43 [label="Foam::dynamicRefineFvMesh\l::selectRefineCandidates",height=0.2,width=0.4,color="red",URL="$a21370.html#a1920807804c8e5202ddc28d3983f6dd1",tooltip="Select candidate cells for refinement. "];
+  Node35 -> Node63 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node63 [label="subsetIndices",height=0.2,width=0.4,color="black",URL="$a25934.html#a8b2d108f63573712c183d737db3917a8"];
+  Node35 -> Node64 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node64 [label="Foam::dynamicRefineFvMesh\l::unrefine",height=0.2,width=0.4,color="red",URL="$a21370.html#adade44a7507ea6fc270d918b362ca6c1",tooltip="Unrefine cells. Gets passed in centre points of cells to combine. "];
+  Node64 -> Node61 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node35 -> Node65 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node65 [label="Foam::triSurface::writeStats",height=0.2,width=0.4,color="red",URL="$a30598.html#a9dcc5076c83a26b069fbc8106a14c7ec",tooltip="Write some statistics. "];
+}

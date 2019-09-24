@@ -1,0 +1,22 @@
+digraph "applications/utilities/miscellaneous" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="FreeSans"];
+  edge [ labelfontsize="10", labelfontname="FreeSans"];
+  subgraph clusterdir_a740ba71acc8f57051af57c325cf1aa6 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="utilities" fontname="FreeSans", fontsize="10", URL="dir_a740ba71acc8f57051af57c325cf1aa6.html"]
+  subgraph clusterdir_3210494cbdf79b7f44b411965daadab0 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_3210494cbdf79b7f44b411965daadab0.html"];
+    dir_3210494cbdf79b7f44b411965daadab0 [shape=plaintext label="miscellaneous"];
+    dir_04a7a207cca8701ad5a2f440ef0192e8 [shape=box label="expandDictionary" color="black" fillcolor="white" style="filled" URL="dir_04a7a207cca8701ad5a2f440ef0192e8.html"];
+    dir_7a5b4347bdb97df5a9e2e838ba0dd4c6 [shape=box label="foamDebugSwitches" color="black" fillcolor="white" style="filled" URL="dir_7a5b4347bdb97df5a9e2e838ba0dd4c6.html"];
+    dir_2020bc9d02c2226b7cafa9649829dc89 [shape=box label="foamFormatConvert" color="black" fillcolor="white" style="filled" URL="dir_2020bc9d02c2226b7cafa9649829dc89.html"];
+    dir_e9b197d08dffbad36b1bd7288f9a5cd0 [shape=box label="foamHelp" color="red" fillcolor="white" style="filled" URL="dir_e9b197d08dffbad36b1bd7288f9a5cd0.html"];
+    dir_292be267ffe6626011d4ce73921420b6 [shape=box label="foamInfoExec" color="black" fillcolor="white" style="filled" URL="dir_292be267ffe6626011d4ce73921420b6.html"];
+    dir_eaf807ee741540255625ab4a69dd4a84 [shape=box label="patchSummary" color="black" fillcolor="white" style="filled" URL="dir_eaf807ee741540255625ab4a69dd4a84.html"];
+  }
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_eaf807ee741540255625ab4a69dd4a84->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="2", labeldistance=1.5 headhref="dir_000454_000577.html"];
+  dir_e9b197d08dffbad36b1bd7288f9a5cd0->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="6", labeldistance=1.5 headhref="dir_000447_000577.html"];
+}

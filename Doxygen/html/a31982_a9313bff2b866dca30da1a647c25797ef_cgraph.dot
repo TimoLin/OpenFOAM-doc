@@ -1,0 +1,14 @@
+digraph "sigma"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node10 [label="sigma",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="Foam::incompressibleThree\lPhaseMixture::alpha2",height=0.2,width=0.4,color="black",URL="$a31978.html#ab7cb8250a26af4d7de58f0f85351fc1e"];
+  Node10 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12 [label="Foam::incompressibleThree\lPhaseMixture::alpha3",height=0.2,width=0.4,color="black",URL="$a31978.html#a98090c46a01a3b296066d574745e1bd6"];
+  Node10 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13 [label="Foam::max",height=0.2,width=0.4,color="black",URL="$a21124.html#ac993e906cf2774ae77e666bc24e81733"];
+}

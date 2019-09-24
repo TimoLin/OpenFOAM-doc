@@ -1,0 +1,15 @@
+digraph "operator[]"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node706 [label="operator[]",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node706 -> Node707 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node707 [label="mesh",height=0.2,width=0.4,color="red",URL="$a22762.html#a470f06cfb9b6ee887cd85d63de275607",tooltip="Return the mesh reference. "];
+  Node706 -> Node760 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node760 [label="movePoints",height=0.2,width=0.4,color="red",URL="$a22762.html#a6515a3b20e9603401422337166c347f2",tooltip="Correct patches after moving points. "];
+  Node760 -> Node707 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node706 -> Node776 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node776 [label="operator[]",height=0.2,width=0.4,color="black",URL="$a22762.html#a66b1fceb519609bb1efff6ccd5fa12c7",tooltip="Return reference to fvPatch by name. "];
+}

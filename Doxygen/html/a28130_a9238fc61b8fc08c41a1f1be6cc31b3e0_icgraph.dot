@@ -1,0 +1,14 @@
+digraph "transform"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node180 [label="transform",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node180 -> Node181 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node181 [label="Foam::operator*",height=0.2,width=0.4,color="black",URL="$a21124.html#a18deb08b65428d63d876c7feb680721c"];
+  Node180 -> Node182 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node182 [label="Foam::septernion::operator*=",height=0.2,width=0.4,color="black",URL="$a28182.html#a25df5e11aa286b67883f4025496729ab"];
+  Node180 -> Node183 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node183 [label="Foam::septernion::transform",height=0.2,width=0.4,color="red",URL="$a28182.html#a9238fc61b8fc08c41a1f1be6cc31b3e0",tooltip="Transform the given vector. "];
+}

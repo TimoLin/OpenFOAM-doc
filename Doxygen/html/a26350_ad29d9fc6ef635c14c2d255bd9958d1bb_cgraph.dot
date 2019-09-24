@@ -1,0 +1,22 @@
+digraph "operator++"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node40318 [label="operator++",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node40318 -> Node40319 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node40319 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node40318 -> Node40321 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node40321 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node40318 -> Node40322 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node40322 [label="Foam::dimensioned\<\l scalar \>::name",height=0.2,width=0.4,color="black",URL="$a26366.html#ade4113569ef0db70665fded275a5e38e",tooltip="Return const reference to name. "];
+  Node40318 -> Node40323 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node40323 [label="Foam::reduce",height=0.2,width=0.4,color="red",URL="$a21124.html#a7ffd6af4acc2eb9ba72ee296b5ecda23"];
+  Node40323 -> Node40319 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node40318 -> Node40338 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node40338 [label="Foam::returnReduce",height=0.2,width=0.4,color="red",URL="$a21124.html#a8d528a67d2a9c6fe4fb94bc86872624b"];
+  Node40338 -> Node40323 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node40318 -> Node40342 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node40342 [label="setTime",height=0.2,width=0.4,color="black",URL="$a19511.html#a816df966b520a602e15efe7f91d6110a"];
+}

@@ -1,0 +1,13 @@
+digraph "integrate"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node332 [label="integrate",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node332 -> Node333 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node333 [label="clone",height=0.2,width=0.4,color="black",URL="$a27650.html#acd55b60f901f29af8277113adcfd9a7d",tooltip="Construct and return a clone. "];
+  Node332 -> Node334 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node334 [label="value",height=0.2,width=0.4,color="black",URL="$a27650.html#a8ac81035103f1c1f4da3244ff0d0bf46",tooltip="Return constant value. "];
+  Node334 -> Node333 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

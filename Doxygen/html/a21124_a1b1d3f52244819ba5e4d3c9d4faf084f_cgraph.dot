@@ -1,0 +1,14 @@
+digraph "LUsolve"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node110925 [label="LUsolve",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node110925 -> Node110926 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node110926 [label="LUBacksubstitute",height=0.2,width=0.4,color="red",URL="$a21124.html#a3a4fbcdd330a7cdba4ce12676ad9cb3e",tooltip="LU back-substitution with given source, returning the solution. "];
+  Node110925 -> Node110929 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node110929 [label="LUDecompose",height=0.2,width=0.4,color="red",URL="$a21124.html#a4c90a8a26de44c9bed71aef2138ce997",tooltip="LU decompose the matrix with pivoting. "];
+  Node110925 -> Node110931 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node110931 [label="multiply",height=0.2,width=0.4,color="black",URL="$a21124.html#ae81fb61e7069664388dff10a96a30486"];
+}

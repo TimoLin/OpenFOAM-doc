@@ -1,0 +1,14 @@
+digraph "distribute"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4358 [label="distribute",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4358 -> Node4359 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4359 [label="globalSize",height=0.2,width=0.4,color="black",URL="$a28642.html#ac5f772f3178732f6a128f36aac0212fd",tooltip="Range of global indices that can be returned. "];
+  Node4358 -> Node4360 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4360 [label="overlappingSurface",height=0.2,width=0.4,color="red",URL="$a28642.html#a2c6f811e1c5a7dce8df93f593380e3b6",tooltip="Subset the part of surface that is overlapping bounds. "];
+  Node4360 -> Node4358 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4360 -> Node4359 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

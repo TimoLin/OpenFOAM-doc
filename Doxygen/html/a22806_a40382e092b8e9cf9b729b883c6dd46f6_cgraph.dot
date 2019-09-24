@@ -1,0 +1,19 @@
+digraph "makeWeights"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node111 [label="makeWeights",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node111 -> Node112 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node112 [label="Foam::coupledFvPatch\l::delta",height=0.2,width=0.4,color="black",URL="$a22794.html#af28a1b7920549c636b63713ee2365216",tooltip="Return delta (P to N) vectors across coupled patch. "];
+  Node111 -> Node113 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node113 [label="Foam::fvPatch::delta",height=0.2,width=0.4,color="red",URL="$a22870.html#a8c83ba56d8c5964b15844718d953be71",tooltip="Return cell-centre to face-centre vector. "];
+  Node113 -> Node114 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node114 [label="Foam::fvPatch::nf",height=0.2,width=0.4,color="red",URL="$a22870.html#ac630ebe09f4b9ad480cd839dd3978459",tooltip="Return face normals. "];
+  Node111 -> Node216 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node216 [label="Foam::interpolate",height=0.2,width=0.4,color="red",URL="$a21124.html#aba5fff183ec42758b0944abeabec41ea"];
+  Node111 -> Node227 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node227 [label="Foam::fvPatch::makeWeights",height=0.2,width=0.4,color="black",URL="$a22870.html#a40382e092b8e9cf9b729b883c6dd46f6",tooltip="Make patch weighting factors. "];
+  Node111 -> Node114 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

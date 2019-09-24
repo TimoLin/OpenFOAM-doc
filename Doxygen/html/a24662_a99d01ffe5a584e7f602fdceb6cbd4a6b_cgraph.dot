@@ -1,0 +1,23 @@
+digraph "meshedPatches"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node10300 [label="meshedPatches",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node10300 -> Node10301 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10301 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node10300 -> Node10344 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10344 [label="Foam::List::append",height=0.2,width=0.4,color="black",URL="$a25694.html#a399dd2bf0d9a32016717dc90126f016b",tooltip="Append an element at the end of the list. "];
+  Node10300 -> Node10345 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10345 [label="Foam::polyPatch::constraintType",height=0.2,width=0.4,color="black",URL="$a27478.html#a94d41891ba1cc56cdc7b1b2e76107c02",tooltip="Return true if the given type is a constraint type. "];
+  Node10300 -> Node10309 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10309 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node10300 -> Node10346 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10346 [label="Foam::polyBoundaryMesh\l::findPatchID",height=0.2,width=0.4,color="red",URL="$a27402.html#ac89fe0aab9fe12bd4f0d3807495fe72b",tooltip="Find patch index given a name. "];
+  Node10346 -> Node10309 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10300 -> Node10350 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10350 [label="Foam::polyBoundaryMesh\l::names",height=0.2,width=0.4,color="red",URL="$a27402.html#ada6aa4fc7adb36994dc5e27d319a3acc",tooltip="Return a list of patch names. "];
+  Node10300 -> Node10352 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10352 [label="Foam::type",height=0.2,width=0.4,color="red",URL="$a21124.html#aec48583af672626378f501eb9fc32cd1",tooltip="Return the file type: DIRECTORY or FILE. "];
+}

@@ -1,0 +1,24 @@
+digraph "curVelocity"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node311 [label="curVelocity",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node311 -> Node312 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node312 [label="curLift",height=0.2,width=0.4,color="black",URL="$a21826.html#a7139238b07334e8eee7c1148602182e6",tooltip="Return current lift. "];
+  Node312 -> Node313 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node313 [label="lift",height=0.2,width=0.4,color="red",URL="$a21826.html#a3f2011ba1a4551db1639dcc7f6be1586",tooltip="Return valve lift given crank angle in degrees. "];
+  Node312 -> Node367 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node367 [label="Foam::max",height=0.2,width=0.4,color="black",URL="$a21124.html#ac993e906cf2774ae77e666bc24e81733"];
+  Node312 -> Node368 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node368 [label="Foam::engineTime::theta",height=0.2,width=0.4,color="red",URL="$a21822.html#a28b051b96687a7eee0cd444bc2def93a",tooltip="Return current crank-angle. "];
+  Node311 -> Node371 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node371 [label="Foam::engineTime::deltaTheta",height=0.2,width=0.4,color="red",URL="$a21822.html#ab414d86c9a9465ee1eb8c01a77d80094",tooltip="Return crank-angle increment. "];
+  Node371 -> Node372 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node372 [label="Foam::TimeState::deltaTValue",height=0.2,width=0.4,color="black",URL="$a26362.html#aeb7fdbc18a6f908efa70a34e5688436c",tooltip="Return time step value. "];
+  Node311 -> Node372 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node311 -> Node313 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node311 -> Node367 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node311 -> Node368 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

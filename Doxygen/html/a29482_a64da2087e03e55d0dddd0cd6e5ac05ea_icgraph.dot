@@ -1,0 +1,13 @@
+digraph "read"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node352 [label="read",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node352 -> Node353 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node353 [label="clone",height=0.2,width=0.4,color="black",URL="$a29482.html#a1ba6f72dda3e0a59b115784933135bd2",tooltip="Construct and return a clone. "];
+  Node352 -> Node354 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node354 [label="constrainRotation",height=0.2,width=0.4,color="red",URL="$a29482.html#a5ed0f908100ee6c7a1b91fb87f4dad36",tooltip="Apply and accumulate rotational constraints. "];
+  Node354 -> Node353 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

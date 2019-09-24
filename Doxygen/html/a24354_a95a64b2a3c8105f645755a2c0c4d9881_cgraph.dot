@@ -1,0 +1,19 @@
+digraph "clone"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node9 [label="clone",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="active",height=0.2,width=0.4,color="black",URL="$a24354.html#ad9735e23cb0888fb98e1c5893aecff7e",tooltip="Flag to indicate whether model activates devolatisation model. "];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="calculate",height=0.2,width=0.4,color="black",URL="$a24354.html#ab36dcb98739391d3c7b2a2e2a4f44be8",tooltip="Update surface reactions. "];
+  Node9 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12 [label="d",height=0.2,width=0.4,color="black",URL="$a38951.html#aa182a9055736468dd160f12649a01fd1"];
+  Node9 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13 [label="Foam::T",height=0.2,width=0.4,color="red",URL="$a21124.html#ae57fda0abb14bb0944947c463c6e09d4"];
+  Node9 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 [label="~NoSurfaceReaction",height=0.2,width=0.4,color="black",URL="$a24354.html#a88f766abafc07cd5a58c9652bd79adb9",tooltip="Destructor. "];
+}

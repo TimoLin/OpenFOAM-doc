@@ -1,0 +1,44 @@
+digraph "str"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node9 [label="str",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="Foam::addressToWord",height=0.2,width=0.4,color="red",URL="$a21124.html#ad7cab5df78dcb95246d42f2e290b9fac"];
+  Node9 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15 [label="Foam::commSchedule\l::commSchedule",height=0.2,width=0.4,color="black",URL="$a27610.html#a1437bad1028054476a2c9d03fab24a7e",tooltip="Construct from wanted communication. Wanted communication is between. "];
+  Node9 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16 [label="Foam::GAMGSolver::GAMGSolver",height=0.2,width=0.4,color="black",URL="$a27002.html#aa0bdfcc22c05f62778e77b175b6fdd66",tooltip="Construct from lduMatrix and solver controls. "];
+  Node9 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17 [label="Foam::stringOps::getVariable",height=0.2,width=0.4,color="red",URL="$a21166.html#a0b683838814d3a93044a72f190d693ed",tooltip="Get dictionary or (optionally) environment variable. "];
+  Node9 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20 [label="Foam::stringOps::inplace\lExpand",height=0.2,width=0.4,color="black",URL="$a21166.html#a26c5056d5b559d872fdd2aeaf16b9097",tooltip="Inplace expand occurences of variables according to the dictionary. "];
+  Node9 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21 [label="Foam::error::message",height=0.2,width=0.4,color="red",URL="$a26082.html#a7a908eb9ec123d3834738a86049c9860"];
+  Node9 -> Node24 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node24 [label="Foam::name",height=0.2,width=0.4,color="black",URL="$a21124.html#a8be9167a2a1446ac75fbf8a6f04cbcd8",tooltip="Return a string representation of a vectorTensorTransform. "];
+  Node9 -> Node25 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node25 [label="Foam::entry::operator==",height=0.2,width=0.4,color="red",URL="$a26022.html#afbfbeb5e00453226336c29171393a425"];
+  Node9 -> Node4736 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4736 [label="Foam::blockMesh::patchDicts",height=0.2,width=0.4,color="red",URL="$a24718.html#af6880a93f658f649f4c5094d7cb42533",tooltip="Get patch information from the topology mesh. "];
+  Node9 -> Node4923 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4923 [label="Foam::PatchPostProcessing\l::postPatch",height=0.2,width=0.4,color="red",URL="$a23998.html#a77147582d9be96def68967af52d9784b",tooltip="Post-patch hook. "];
+  Node9 -> Node4926 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4926 [label="Foam::primitiveEntry\l::primitiveEntry",height=0.2,width=0.4,color="black",URL="$a26058.html#a83251b51b65ce18f877fadb0aac3b83e",tooltip="Construct from keyword and a T. "];
+  Node9 -> Node4927 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4927 [label="Foam::Reaction::reaction\lStrRight",height=0.2,width=0.4,color="red",URL="$a30330.html#ae6eadad1f618fb531436d39e9f156bfe",tooltip="Return string representation of the right of the reaction. "];
+  Node9 -> Node1166 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1166 [label="Foam::Time::readDict",height=0.2,width=0.4,color="red",URL="$a26350.html#a09f8bbb748b599cf713fa2e07ec7e0b4",tooltip="Read the control dictionary and set the write controls etc. "];
+  Node9 -> Node4929 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4929 [label="Foam::codedFixedValueFvPatch\lField::redirectPatchField",height=0.2,width=0.4,color="red",URL="$a22070.html#aa2f4e5fad735124043cda4179172a049",tooltip="Get reference to the underlying patch. "];
+  Node9 -> Node4931 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4931 [label="Foam::codedFixedValuePoint\lPatchField::redirectPatchField",height=0.2,width=0.4,color="red",URL="$a26618.html#a3a621541c6fc5b2cbc938e66c1a47e35",tooltip="Get reference to the underlying patch. "];
+  Node9 -> Node4933 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4933 [label="Foam::codedMixedFvPatchField\l::redirectPatchField",height=0.2,width=0.4,color="red",URL="$a22074.html#abd8007bf122206f47b5fd8d5829fbafe",tooltip="Get reference to the underlying patchField. "];
+  Node9 -> Node2085 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2085 [label="Foam::dictionary::tokens",height=0.2,width=0.4,color="black",URL="$a26014.html#a750a435f12fbafbec679a0e43d845846",tooltip="Return the dictionary as a list of tokens. "];
+  Node9 -> Node4935 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4935 [label="Foam::solidReaction\l::write",height=0.2,width=0.4,color="red",URL="$a30202.html#a293fdfec8bdfbd5c3913ab4c9f3454ff",tooltip="Write. "];
+}

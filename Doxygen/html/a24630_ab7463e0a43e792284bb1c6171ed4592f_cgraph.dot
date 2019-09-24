@@ -1,0 +1,19 @@
+digraph "meshShrinker"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node453 [label="meshShrinker",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node453 -> Node454 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node454 [label="expansionRatio",height=0.2,width=0.4,color="red",URL="$a24630.html#acf17ba8644df8cad8ebd2acd9ea653d4"];
+  Node454 -> Node456 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node456 [label="firstLayerThickness",height=0.2,width=0.4,color="black",URL="$a24630.html#aa56983fc2d89f7b2005602405090fe2e",tooltip="Wanted thickness of the layer nearest to the wall. "];
+  Node453 -> Node459 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node459 [label="finalLayerThicknessRatio",height=0.2,width=0.4,color="red",URL="$a24630.html#a0daf64082d13da98739f34f4a0b5e866",tooltip="Determine ratio of final layer thickness to. "];
+  Node459 -> Node454 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node453 -> Node456 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node453 -> Node465 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node465 [label="layerThickness",height=0.2,width=0.4,color="red",URL="$a24630.html#a8ef599a7b0b1a220b3704456c0eab91a",tooltip="Determine overall thickness. Uses two of the four parameters. "];
+  Node465 -> Node454 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

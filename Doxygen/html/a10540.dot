@@ -1,0 +1,38 @@
+digraph "src/OpenFOAM/matrices/LduMatrix/LduMatrix/LduMatrix.H"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node130 [label="src/OpenFOAM/matrices\l/LduMatrix/LduMatrix\l/LduMatrix.H",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node130 -> Node131 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node131 [label="src/finiteVolume/fvMatrices\l/fvMatrix/fvMatrixSolve.C",height=0.2,width=0.4,color="red",URL="$a03284.html"];
+  Node130 -> Node133 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node133 [label="src/OpenFOAM/matrices\l/LduMatrix/LduMatrix\l/lduMatrices.C",height=0.2,width=0.4,color="black",URL="$a10532.html"];
+  Node130 -> Node134 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node134 [label="src/OpenFOAM/matrices\l/LduMatrix/LduMatrix\l/LduMatrixATmul.C",height=0.2,width=0.4,color="red",URL="$a10541.html"];
+  Node130 -> Node136 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node136 [label="src/OpenFOAM/matrices\l/LduMatrix/LduMatrix\l/LduMatrixUpdateMatrixInterfaces.C",height=0.2,width=0.4,color="red",URL="$a10559.html"];
+  Node130 -> Node137 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node137 [label="src/OpenFOAM/matrices\l/LduMatrix/LduMatrix\l/LduMatrixPreconditioner.C",height=0.2,width=0.4,color="red",URL="$a10550.html"];
+  Node130 -> Node138 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node138 [label="src/OpenFOAM/matrices\l/LduMatrix/LduMatrix\l/LduMatrixSmoother.C",height=0.2,width=0.4,color="red",URL="$a10553.html"];
+  Node130 -> Node139 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node139 [label="src/OpenFOAM/matrices\l/LduMatrix/LduMatrix\l/LduMatrixSolver.C",height=0.2,width=0.4,color="red",URL="$a10556.html"];
+  Node130 -> Node140 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node140 [label="src/OpenFOAM/matrices\l/LduMatrix/Preconditioners\l/DiagonalPreconditioner/Diagonal\lPreconditioner.H",height=0.2,width=0.4,color="red",URL="$a10577.html"];
+  Node130 -> Node143 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node143 [label="src/OpenFOAM/matrices\l/LduMatrix/Preconditioners\l/DILUPreconditioner/TDILUPreconditioner.H",height=0.2,width=0.4,color="red",URL="$a10583.html"];
+  Node130 -> Node145 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node145 [label="src/OpenFOAM/matrices\l/LduMatrix/Preconditioners\l/NoPreconditioner/NoPreconditioner.H",height=0.2,width=0.4,color="red",URL="$a10592.html"];
+  Node130 -> Node147 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node147 [label="src/OpenFOAM/matrices\l/LduMatrix/Smoothers\l/GaussSeidel/TGaussSeidelSmoother.H",height=0.2,width=0.4,color="red",URL="$a10598.html"];
+  Node130 -> Node150 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node150 [label="src/OpenFOAM/matrices\l/LduMatrix/Solvers/Diagonal\lSolver/DiagonalSolver.H",height=0.2,width=0.4,color="red",URL="$a10607.html"];
+  Node150 -> Node139 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node130 -> Node152 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node152 [label="src/OpenFOAM/matrices\l/LduMatrix/Solvers/PBiCCCG\l/PBiCCCG.H",height=0.2,width=0.4,color="red",URL="$a10616.html"];
+  Node130 -> Node155 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node155 [label="src/OpenFOAM/matrices\l/LduMatrix/Solvers/PBiCICG\l/PBiCICG.H",height=0.2,width=0.4,color="red",URL="$a10622.html"];
+  Node130 -> Node157 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node157 [label="src/OpenFOAM/matrices\l/LduMatrix/Solvers/PCICG\l/PCICG.H",height=0.2,width=0.4,color="red",URL="$a10628.html"];
+}

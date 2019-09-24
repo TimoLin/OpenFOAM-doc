@@ -1,0 +1,20 @@
+digraph "src/lagrangian/intermediate/parcels/Templates/ReactingParcel/ReactingParcel.H"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node379 [label="src/lagrangian/intermediate\l/parcels/Templates/ReactingParcel\l/ReactingParcel.H",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node379 -> Node380 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node380 [label="src/lagrangian/coalCombustion\l/coalParcel/coalParcel.H",height=0.2,width=0.4,color="red",URL="$a04925.html"];
+  Node379 -> Node385 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node385 [label="src/lagrangian/intermediate\l/parcels/derived/basicReactingMultiphase\lParcel/basicReactingMultiphaseParcel.H",height=0.2,width=0.4,color="red",URL="$a05297.html"];
+  Node379 -> Node390 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node390 [label="src/lagrangian/intermediate\l/parcels/derived/basicReactingParcel\l/basicReactingParcel.H",height=0.2,width=0.4,color="red",URL="$a05306.html"];
+  Node379 -> Node395 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node395 [label="src/lagrangian/intermediate\l/parcels/Templates/ReactingParcel\l/ReactingParcel.C",height=0.2,width=0.4,color="black",URL="$a05480.html"];
+  Node379 -> Node396 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node396 [label="src/lagrangian/intermediate\l/parcels/Templates/ReactingParcel\l/ReactingParcelIO.C",height=0.2,width=0.4,color="black",URL="$a05489.html"];
+  Node396 -> Node395 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node379 -> Node397 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node397 [label="src/lagrangian/spray\l/parcels/derived/basicSpray\lParcel/basicSprayParcel.H",height=0.2,width=0.4,color="red",URL="$a06665.html"];
+}

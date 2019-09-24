@@ -1,0 +1,16 @@
+digraph "mergePoints"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3584 [label="mergePoints",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3584 -> Node3585 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3585 [label="globalCoPointSlavesMap",height=0.2,width=0.4,color="red",URL="$a27334.html#a0b3a352a1bd504592c367a64ba7659f7"];
+  Node3585 -> Node3584 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3585 -> Node3586 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3586 [label="nTotalCells",height=0.2,width=0.4,color="red",URL="$a27334.html#af5f312e4d0bc5cbcc088e7c247d3a97a",tooltip="Return total number of cells in decomposed mesh. "];
+  Node3584 -> Node3586 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3584 -> Node3620 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3620 [label="Foam::FacePostProcessing\l::write",height=0.2,width=0.4,color="black",URL="$a23978.html#aac759501cf6c7895a70eecbef0226ae1",tooltip="Write post-processing info. "];
+}

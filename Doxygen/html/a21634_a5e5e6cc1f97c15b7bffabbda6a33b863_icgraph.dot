@@ -1,0 +1,17 @@
+digraph "setUnrefinement"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3641 [label="setUnrefinement",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3641 -> Node3642 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3642 [label="Foam::meshRefinement\l::mergePatchFacesUndo",height=0.2,width=0.4,color="red",URL="$a24662.html#a46abeca243f55035145fe45edc956bef",tooltip="Merge coplanar faces. preserveFaces is != -1 for faces. "];
+  Node3641 -> Node3644 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3644 [label="savedPointLabels",height=0.2,width=0.4,color="black",URL="$a21634.html#a19bca402414892496a540bdb28ab348e",tooltip="If undoable: set of original point labels of stored points. "];
+  Node3644 -> Node3642 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3641 -> Node3645 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3645 [label="updateMesh",height=0.2,width=0.4,color="black",URL="$a21634.html#ad57565956fd4064299f4bd3c4eebb1d4",tooltip="Force recalculation of locally stored data on topological change. "];
+  Node3645 -> Node3642 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3645 -> Node3644 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

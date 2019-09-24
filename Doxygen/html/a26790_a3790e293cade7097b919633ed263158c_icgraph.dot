@@ -1,0 +1,20 @@
+digraph "source"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node412 [label="source",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node412 -> Node413 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node413 [label="interfaces",height=0.2,width=0.4,color="black",URL="$a26790.html#a3bc837bc8fa422e71f82026c5c2eeccb",tooltip="Return interfaces. "];
+  Node412 -> Node414 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node414 [label="interfacesLower",height=0.2,width=0.4,color="black",URL="$a26790.html#a8bdc243b4fb8710b30d82f14dcae1e1c"];
+  Node412 -> Node415 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node415 [label="operator+=",height=0.2,width=0.4,color="red",URL="$a26790.html#a67cb5e721083def89a8775562081caeb"];
+  Node412 -> Node417 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node417 [label="operator-=",height=0.2,width=0.4,color="red",URL="$a26790.html#ade231ee3b05d977629dbaeeb2c538dae"];
+  Node412 -> Node421 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node421 [label="operator=",height=0.2,width=0.4,color="red",URL="$a26790.html#a855e48a9b4e9d4ea44f93b8120b41905"];
+  Node412 -> Node422 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node422 [label="Foam::TGaussSeidelSmoother\l::smooth",height=0.2,width=0.4,color="red",URL="$a26826.html#a2727a700fb0cafd8fb6b7e04f558fca7",tooltip="Smooth for the given number of sweeps. "];
+}

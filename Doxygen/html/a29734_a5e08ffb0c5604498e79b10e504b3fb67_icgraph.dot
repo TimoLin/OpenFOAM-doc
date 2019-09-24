@@ -1,0 +1,22 @@
+digraph "lookupThermo"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node659 [label="lookupThermo",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node659 -> Node660 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node660 [label="phasePropertyName",height=0.2,width=0.4,color="black",URL="$a29734.html#a5d1edb9297e509e2525d2739e3609461"];
+  Node659 -> Node661 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node661 [label="Foam::mixedEnergyFvPatch\lScalarField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a29754.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node659 -> Node663 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node663 [label="Foam::energyJumpAMIFvPatch\lScalarField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a29742.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients. "];
+  Node659 -> Node665 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node665 [label="Foam::energyJumpFvPatchScalar\lField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a29738.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients. "];
+  Node659 -> Node667 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node667 [label="Foam::fixedEnergyFvPatch\lScalarField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a29746.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node659 -> Node669 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node669 [label="Foam::gradientEnergyFvPatch\lScalarField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a29750.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node659 -> Node671 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node671 [label="~basicThermo",height=0.2,width=0.4,color="black",URL="$a29734.html#ad48dbf3272eee73b8e99604abd47db27",tooltip="Destructor. "];
+}

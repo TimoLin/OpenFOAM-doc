@@ -1,0 +1,13 @@
+digraph "correct"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node386 [label="correct",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node386 -> Node387 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node387 [label="dict",height=0.2,width=0.4,color="black",URL="$a30050.html#a19650e729ef6a0899b8fbe25f5238728",tooltip="Reference to the dictionary. "];
+  Node386 -> Node388 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node388 [label="isGrey",height=0.2,width=0.4,color="black",URL="$a30050.html#a1be36e75e69adae65b65f7186ea65b65",tooltip="Flag for whether the absorption/emission is for a grey gas. "];
+  Node388 -> Node387 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

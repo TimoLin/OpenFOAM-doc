@@ -1,0 +1,16 @@
+digraph "read"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node118 [label="read",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node118 -> Node119 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node119 [label="Foam::exit",height=0.2,width=0.4,color="red",URL="$a21124.html#a06ca7250d8e89caf05243ec094843642"];
+  Node118 -> Node156 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node156 [label="Foam::IOstream::good",height=0.2,width=0.4,color="black",URL="$a26226.html#abdcc7f96f487faadc7769afcf58fe992",tooltip="Return true if next operation might succeed. "];
+  Node118 -> Node166 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node166 [label="Foam::MeshedSurface\l::transcribe",height=0.2,width=0.4,color="black",URL="$a29566.html#a2421a74b7037fa2e703e56321c0f1d7e",tooltip="Transfer points/zones and transcribe face -> triFace. "];
+  Node118 -> Node167 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node167 [label="Foam::xferMove",height=0.2,width=0.4,color="black",URL="$a21124.html#ae3ad39ee5ad896e6d3c0f137ecd12abb"];
+}

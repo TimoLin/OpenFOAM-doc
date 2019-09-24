@@ -1,0 +1,22 @@
+digraph "setRefinement"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node70 [label="setRefinement",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node70 -> Node71 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node71 [label="Foam::polyMesh::boundaryMesh",height=0.2,width=0.4,color="black",URL="$a27410.html#a9f2b68c134340291eda6197f47f25484",tooltip="Return boundary mesh. "];
+  Node70 -> Node72 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node72 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node70 -> Node74 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node74 [label="Foam::polyMesh::faces",height=0.2,width=0.4,color="red",URL="$a27410.html#a431c0a24765f0bb6d32f6a03ce0e9b57",tooltip="Return raw faces. "];
+  Node70 -> Node116 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node116 [label="Foam::identity",height=0.2,width=0.4,color="black",URL="$a21124.html#a36af96cb841435845fffb4fe69208490",tooltip="Create identity map (map[i] == i) of given length. "];
+  Node70 -> Node117 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node117 [label="Foam::name",height=0.2,width=0.4,color="red",URL="$a21124.html#adcb0df2bd4953cb6bb390272d8263c3a",tooltip="Return a string representation of a complex. "];
+  Node70 -> Node120 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node120 [label="Foam::polyMesh::points",height=0.2,width=0.4,color="red",URL="$a27410.html#ac44123fc1265297c41a43c3b62fdb4c2",tooltip="Return raw points. "];
+  Node70 -> Node121 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node121 [label="Foam::polyPatch::start",height=0.2,width=0.4,color="red",URL="$a27478.html#a6bfd3e3abb11e98bdb4b98671cec1234",tooltip="Return start label of this patch in the polyMesh face list. "];
+}

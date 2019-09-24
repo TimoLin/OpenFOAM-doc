@@ -1,0 +1,22 @@
+digraph "markZone"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node25 [label="markZone",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node25 -> Node26 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node26 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node25 -> Node69 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node69 [label="Foam::List::append",height=0.2,width=0.4,color="black",URL="$a25694.html#a399dd2bf0d9a32016717dc90126f016b",tooltip="Append an element at the end of the list. "];
+  Node25 -> Node70 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node70 [label="Foam::PrimitivePatch\l::edgeFaces",height=0.2,width=0.4,color="black",URL="$a27538.html#ad38ecd2902727a890ebd437731c271c8",tooltip="Return edge-face addressing. "];
+  Node25 -> Node71 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node71 [label="Foam::PrimitivePatch\l::faceEdges",height=0.2,width=0.4,color="black",URL="$a27538.html#adbfcf489a527a07c33d684834faace79",tooltip="Return face-edge addressing. "];
+  Node25 -> Node72 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node72 [label="markZones",height=0.2,width=0.4,color="black",URL="$a27526.html#a1588f8b32e536d312c8e21fd1885ec68",tooltip="Size and fills faceZone with zone of face. "];
+  Node25 -> Node73 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node73 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node25 -> Node74 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node74 [label="Foam::List::transfer",height=0.2,width=0.4,color="black",URL="$a25694.html#a25ad1d2084d16b234b0cf91c07e832c0",tooltip="Transfer the contents of the argument List into this list. "];
+}

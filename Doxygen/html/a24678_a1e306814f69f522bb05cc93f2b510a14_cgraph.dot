@@ -1,0 +1,22 @@
+digraph "updateFace"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node110 [label="updateFace",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node110 -> Node111 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node111 [label="Foam::face::edgeDirection",height=0.2,width=0.4,color="red",URL="$a27218.html#a51c97b3c3d8a48cca8b5b5de600af185",tooltip="Return the edge direction on the face. "];
+  Node110 -> Node117 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node117 [label="Foam::PrimitivePatch\l::edges",height=0.2,width=0.4,color="black",URL="$a27538.html#a21d764179912ddda5c6f95193c289846",tooltip="Return list of edges, address into LOCAL point list. "];
+  Node110 -> Node118 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node118 [label="equal",height=0.2,width=0.4,color="red",URL="$a24678.html#ac12fc0ab2ab5e0bb31041643b816fa0d",tooltip="Same (like operator==) "];
+  Node110 -> Node121 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node121 [label="f",height=0.2,width=0.4,color="black",URL="$a17900.html#a888be93833ac7a23170555c69c690288"];
+  Node110 -> Node122 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node122 [label="flip",height=0.2,width=0.4,color="black",URL="$a24678.html#a126cb0362ae2e7935520fb27343bad31",tooltip="Reverse orientation. "];
+  Node110 -> Node123 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node123 [label="Foam::PrimitivePatch\l::localFaces",height=0.2,width=0.4,color="black",URL="$a27538.html#aa4bd29e9c9de3d53e26aa2bf2e803c60",tooltip="Return patch faces addressing into local point list. "];
+  Node110 -> Node124 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node124 [label="valid",height=0.2,width=0.4,color="red",URL="$a24678.html#aa4ad85c1548bba1f67ef9566c82f7baa",tooltip="Check whether origin has been changed at all or. "];
+}

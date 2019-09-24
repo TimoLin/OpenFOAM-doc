@@ -1,0 +1,16 @@
+digraph "operator++"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node141 [label="operator++",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node141 -> Node142 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node142 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node141 -> Node185 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node185 [label="Foam::primitiveMesh\l::faceNeighbour",height=0.2,width=0.4,color="black",URL="$a27530.html#acd9489a2ac1ec02451fef1f415386694",tooltip="Face face-neighbour addressing. "];
+  Node141 -> Node186 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node186 [label="Foam::primitiveMesh\l::faceOwner",height=0.2,width=0.4,color="black",URL="$a27530.html#a95a88187f795e30779aa3bac679d9bfc",tooltip="Face face-owner addresing. "];
+  Node141 -> Node187 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node187 [label="Foam::primitiveMesh\l::isInternalFace",height=0.2,width=0.4,color="red",URL="$a27530.html#ae3e48ad9ec4c5132ec7d3d702ad17c9e",tooltip="Return true if given face label is internal to the mesh. "];
+}

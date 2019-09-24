@@ -1,0 +1,12 @@
+digraph "combineReduce"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node28307 [label="combineReduce",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node28307 -> Node28308 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node28308 [label="Foam::Pstream::exchange",height=0.2,width=0.4,color="red",URL="$a26250.html#a2d2ace3cba51ad6d7e3b88d34fa236c3",tooltip="Exchange data. Sends sendData, receives into recvData, sets. "];
+  Node28307 -> Node28310 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node28310 [label="Foam::globalMeshData\l::geometricSharedPoints",height=0.2,width=0.4,color="red",URL="$a27334.html#a409137bf10693cd921aed0a5a75fed10",tooltip="Like sharedPoints but keeps cyclic points separate. "];
+}

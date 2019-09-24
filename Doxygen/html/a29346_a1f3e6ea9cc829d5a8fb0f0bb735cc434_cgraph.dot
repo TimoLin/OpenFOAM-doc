@@ -1,0 +1,44 @@
+digraph "adaptPatchFields"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node38 [label="adaptPatchFields",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node38 -> Node39 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node39 [label="Foam::DynamicList::\lappend",height=0.2,width=0.4,color="black",URL="$a25890.html#a7b67b42af715604376ad63a681dee6d8",tooltip="Append an element at the end of the list. "];
+  Node38 -> Node40 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node40 [label="Foam::fvMesh::boundary",height=0.2,width=0.4,color="black",URL="$a22766.html#a1fc8b179063cf5d6805da64ff1975126",tooltip="Return reference to boundary mesh. "];
+  Node38 -> Node41 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node41 [label="Foam::GeometricField\l::boundaryField",height=0.2,width=0.4,color="black",URL="$a22434.html#a3c6c1a789b48ea0c5e8bff64f9c14f2d",tooltip="Return reference to GeometricBoundaryField. "];
+  Node38 -> Node42 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node42 [label="Foam::polyMesh::boundaryMesh",height=0.2,width=0.4,color="black",URL="$a27410.html#a9f2b68c134340291eda6197f47f25484",tooltip="Return boundary mesh. "];
+  Node38 -> Node43 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node43 [label="d",height=0.2,width=0.4,color="black",URL="$a38951.html#aa182a9055736468dd160f12649a01fd1"];
+  Node38 -> Node44 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node44 [label="Foam::IOobject::db",height=0.2,width=0.4,color="black",URL="$a26142.html#a65cc75d9f80b1df5c3184fb2274a97f1",tooltip="Return the local objectRegistry. "];
+  Node38 -> Node45 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node45 [label="f",height=0.2,width=0.4,color="black",URL="$a17900.html#a888be93833ac7a23170555c69c690288"];
+  Node38 -> Node46 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node46 [label="Foam::IOobject::instance",height=0.2,width=0.4,color="black",URL="$a26142.html#acac6de003b420b848571b5064e50ed89"];
+  Node38 -> Node47 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node47 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node38 -> Node48 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node48 [label="Foam::DimensionedField\l::mesh",height=0.2,width=0.4,color="black",URL="$a26390.html#a8f1110830348a1448a14ab5e3cf47e3b",tooltip="Return mesh. "];
+  Node38 -> Node49 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node49 [label="Foam::IOobject::name",height=0.2,width=0.4,color="black",URL="$a26142.html#acc80e00a8ac919288fb55bd14cc88bf6",tooltip="Return name. "];
+  Node38 -> Node50 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node50 [label="Foam::fvPatchField\l::patchInternalField",height=0.2,width=0.4,color="black",URL="$a22354.html#a3b74a67629ed67899295ec63e8f9ae84",tooltip="Return internal field next to patch as patch field. "];
+  Node38 -> Node51 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node51 [label="Foam::fvPatchField\l::patchNeighbourField",height=0.2,width=0.4,color="red",URL="$a22354.html#a3eee7e8e27377d66dd0f20d3697d6b78",tooltip="Return patchField on the opposite patch of a coupled patch. "];
+  Node38 -> Node63 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node63 [label="Foam::PrimitivePatch\l\< labelledTri, ::Foam\l::List, pointField, point\l \>::points",height=0.2,width=0.4,color="black",URL="$a27538.html#aa3c7d968f31c88780c663876f64ef6a6",tooltip="Return reference to global points. "];
+  Node38 -> Node64 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node64 [label="s",height=0.2,width=0.4,color="black",URL="$a18905.html#abb9c4233033fad2ad0206cd4adad3b9f"];
+  Node38 -> Node65 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node65 [label="Foam::List\< Type \>\l::setSize",height=0.2,width=0.4,color="black",URL="$a25694.html#aedb985ffeaf1bdbfeccc2a8730405703",tooltip="Reset size of List. "];
+  Node38 -> Node66 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node66 [label="Foam::UList::size",height=0.2,width=0.4,color="black",URL="$a25698.html#a47b3bf30da1eb3ab8076b5fbe00e0494",tooltip="Return the number of elements in the UList. "];
+  Node38 -> Node67 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node67 [label="Foam::surfaceInterpolation\l::weights",height=0.2,width=0.4,color="black",URL="$a23274.html#aa70c1bfa29f7a80ca05603f89f3a6bd5",tooltip="Return reference to linear difference weighting factors. "];
+}

@@ -1,0 +1,15 @@
+digraph "mag"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node992 [label="mag",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node992 -> Node993 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node993 [label="centre",height=0.2,width=0.4,color="red",URL="$a27198.html#a52ad19d0c241f60db9a8a34608bf2f66",tooltip="Vector centroid. "];
+  Node993 -> Node995 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node995 [label="clone",height=0.2,width=0.4,color="black",URL="$a27198.html#a965f7dda1b12ecbb8985f8019b255ba8",tooltip="Return clone. "];
+  Node992 -> Node995 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node992 -> Node996 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node996 [label="Foam::cellShape::mag",height=0.2,width=0.4,color="black",URL="$a27206.html#a4e7462523832986fec7cf4e862ccc6fd",tooltip="Scalar magnitude. "];
+}

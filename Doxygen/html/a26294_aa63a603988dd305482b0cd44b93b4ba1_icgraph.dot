@@ -1,0 +1,14 @@
+digraph "prefix"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3 [label="prefix",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="Foam::NamedEnum\< direction\lType, 3 \>::names",height=0.2,width=0.4,color="black",URL="$a25998.html#a7350da3a0edd92cd11e6c479c9967dc8"];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="Foam::dynamicIndexedOctree\l\< Foam::dynamicTreeDataPoint\l \>::print",height=0.2,width=0.4,color="black",URL="$a25610.html#a81fbb9bc9c192a1f28c352f8b9538568",tooltip="Print tree. Either print all indices (printContent = true) or. "];
+  Node3 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="Foam::indexedOctree\l\< Foam::treeDataFace\l \>::print",height=0.2,width=0.4,color="black",URL="$a25026.html#a81fbb9bc9c192a1f28c352f8b9538568",tooltip="Print tree. Either print all indices (printContent = true) or. "];
+}

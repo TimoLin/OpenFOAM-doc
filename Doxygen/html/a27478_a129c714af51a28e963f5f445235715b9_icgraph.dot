@@ -1,0 +1,30 @@
+digraph "faceAreas"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node5221 [label="faceAreas",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node5221 -> Node5222 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5222 [label="Foam::DsmcParcel::hitWall\lPatch",height=0.2,width=0.4,color="red",URL="$a23690.html#a2f016956a18640904586b7df825867c8",tooltip="Overridable function to handle the particle hitting a wallPatch. "];
+  Node5221 -> Node5227 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5227 [label="Foam::FreeStream::inflow",height=0.2,width=0.4,color="black",URL="$a23718.html#a84e6a7b742df4fcb240fff3040770a0b",tooltip="Introduce particles. "];
+  Node5221 -> Node5228 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5228 [label="Foam::regionModels\l::regionModel1D::moveMesh",height=0.2,width=0.4,color="red",URL="$a29002.html#a0a91c4b420000422e4467d50e2baf2e1",tooltip="Move mesh points according to change in cell volumes. "];
+  Node5221 -> Node5233 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5233 [label="Foam::NamedEnum\< direction\lType, 3 \>::names",height=0.2,width=0.4,color="black",URL="$a25998.html#a7350da3a0edd92cd11e6c479c9967dc8"];
+  Node5221 -> Node5234 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5234 [label="Foam::cyclicACMIPolyPatch\l::nonOverlapPatchID",height=0.2,width=0.4,color="red",URL="$a24926.html#aa42c2db2f445de497071628742798792",tooltip="Non-overlapping patch ID. "];
+  Node5221 -> Node5245 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5245 [label="patchSlice",height=0.2,width=0.4,color="black",URL="$a27478.html#a2fbab44ddac097399a42d4aeebccf3a0",tooltip="Slice Field to patch. "];
+  Node5221 -> Node5246 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5246 [label="Foam::cyclicACMIPolyPatch\l::resetAMI",height=0.2,width=0.4,color="red",URL="$a24926.html#a8137f810e4a5638bd9eaaa9c7d7132b8",tooltip="Reset the AMI interpolator. "];
+  Node5221 -> Node5237 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5237 [label="Foam::cyclicACMIPolyPatch\l::setNeighbourFaceAreas",height=0.2,width=0.4,color="black",URL="$a24926.html#aa0cf57b15cb4155effb04d561645b0fa",tooltip="Set neighbour ACMI patch areas. "];
+  Node5221 -> Node5240 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5240 [label="Foam::cyclicACMIFvPatch\l::updateAreas",height=0.2,width=0.4,color="red",URL="$a22806.html#aa41ad5c90a11f44713f615ab87a947c6",tooltip="Update the patch areas after AMI update. "];
+  Node5221 -> Node5248 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5248 [label="Foam::patchInjectionBase\l::updateMesh",height=0.2,width=0.4,color="black",URL="$a24102.html#a6d43ae10cf9dba5b6063e706ab5534e3",tooltip="Update patch geometry and derived info for injection locations. "];
+  Node5221 -> Node5249 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5249 [label="Foam::dsmcFields::write",height=0.2,width=0.4,color="red",URL="$a28886.html#aac759501cf6c7895a70eecbef0226ae1",tooltip="Calculate the dsmcFields and write. "];
+}

@@ -1,0 +1,19 @@
+digraph "thermalBaffle"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node20 [label="thermalBaffle",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node21 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21 [label="thermalBaffleModel",height=0.2,width=0.4,color="red",URL="$a29198.html"];
+  Node106 -> Node20 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" Qs_\nQ_" ,fontname="FreeSans"];
+  Node106 [label="GeometricField\< scalar,\l fvPatchField, volMesh \>",height=0.2,width=0.4,color="red",URL="$a22434.html"];
+  Node109 -> Node106 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< scalar, fvPatchField,\l volMesh \>" ,fontname="FreeSans"];
+  Node109 [label="GeometricField\< Type,\l PatchField, GeoMesh \>",height=0.2,width=0.4,color="red",URL="$a22434.html",tooltip="Generic GeometricField class. "];
+  Node111 -> Node20 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" thermo_" ,fontname="FreeSans"];
+  Node111 [label="autoPtr\< Foam::solidThermo \>",height=0.2,width=0.4,color="red",URL="$a25958.html"];
+  Node112 -> Node20 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" radiation_" ,fontname="FreeSans"];
+  Node112 [label="autoPtr\< Foam::radiation\l::radiationModel \>",height=0.2,width=0.4,color="red",URL="$a25958.html"];
+  Node109 -> Node20 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" h_" ,fontname="FreeSans"];
+}

@@ -1,0 +1,14 @@
+digraph "whichPoint"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2926 [label="whichPoint",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2926 -> Node2927 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2927 [label="Foam::PrimitivePatch\l\< Face, ::Foam::List,\l pointField, point \>::\lisInternalEdge",height=0.2,width=0.4,color="black",URL="$a27538.html#ac2458a175e66b555e443539d6c726e06",tooltip="Is internal edge? "];
+  Node2926 -> Node2928 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2928 [label="Foam::PrimitivePatch\l\< Face, ::Foam::List,\l pointField, point \>::\llocalPointOrder",height=0.2,width=0.4,color="black",URL="$a27538.html#a69fc8e906414f6bb7a8134f1f437fb96",tooltip="Return orders the local points for most efficient search. "];
+  Node2926 -> Node2929 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2929 [label="Foam::slidingInterface\l::modifyMotionPoints",height=0.2,width=0.4,color="red",URL="$a21750.html#ac05c3f18da75b17c4b6c13757cacbff1",tooltip="Modify motion points to comply with the topological change. "];
+}

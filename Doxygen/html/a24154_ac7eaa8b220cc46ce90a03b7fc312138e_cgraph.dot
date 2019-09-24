@@ -1,0 +1,31 @@
+digraph "clone"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node58 [label="clone",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node58 -> Node59 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node59 [label="cacheFields",height=0.2,width=0.4,color="black",URL="$a24154.html#a6005414ac27ae3e0b5a783ba216c1906",tooltip="Cache fields. "];
+  Node59 -> Node60 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node60 [label="calcCoupled",height=0.2,width=0.4,color="red",URL="$a24154.html#afaf626ee39da50a44d12588b5cb987d9",tooltip="Calculate the coupled force. "];
+  Node60 -> Node65 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node65 [label="calcNonCoupled",height=0.2,width=0.4,color="red",URL="$a24154.html#a0e3253e601c7db3a3db9d3c921218fd9",tooltip="Calculate the non-coupled force. "];
+  Node65 -> Node66 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node66 [label="massAdd",height=0.2,width=0.4,color="black",URL="$a24154.html#a56b65101649a08cf20345c1b8847819d",tooltip="Return the added mass. "];
+  Node58 -> Node60 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node58 -> Node65 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node58 -> Node67 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node67 [label="coeffs",height=0.2,width=0.4,color="black",URL="$a24154.html#a41182cc34caced2397fba174bece02f5",tooltip="Return the force coefficients dictionary. "];
+  Node58 -> Node66 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node58 -> Node68 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node68 [label="mesh",height=0.2,width=0.4,color="black",URL="$a24154.html#acb31d92d519d673eae6328d85d16fa52",tooltip="Return the mesh database. "];
+  Node58 -> Node69 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node69 [label="New",height=0.2,width=0.4,color="red",URL="$a24154.html#a71c3915df813b94e6ca13513cc22f7ea",tooltip="Selector. "];
+  Node58 -> Node117 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node117 [label="owner",height=0.2,width=0.4,color="black",URL="$a24154.html#abb03c5d71075ad48d4502d4db33ab05a",tooltip="Return const access to the cloud owner. "];
+  Node58 -> Node118 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node118 [label="Foam::Re",height=0.2,width=0.4,color="red",URL="$a21124.html#affa366970bcbe0f7ccf7c85557a3e12b"];
+  Node58 -> Node121 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node121 [label="~ParticleForce",height=0.2,width=0.4,color="black",URL="$a24154.html#a77097d08056b34b0a087c36aae6123e7",tooltip="Destructor. "];
+}

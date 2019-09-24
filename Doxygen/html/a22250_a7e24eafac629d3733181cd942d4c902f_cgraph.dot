@@ -1,0 +1,18 @@
+digraph "updateCoeffs"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node44 [label="updateCoeffs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node44 -> Node45 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node45 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node44 -> Node46 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node46 [label="Foam::totalPressureFvPatch\lScalarField::p0",height=0.2,width=0.4,color="black",URL="$a22286.html#ae8a4eb587115a7210e500a908ae10f19",tooltip="Return the total pressure. "];
+  Node44 -> Node47 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node47 [label="Foam::totalPressureFvPatch\lScalarField::UName",height=0.2,width=0.4,color="black",URL="$a22286.html#a9f7f036a2c278b379a89d65dbbff26af",tooltip="Return the name of the velocity field. "];
+  Node44 -> Node48 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node48 [label="Foam::totalPressureFvPatch\lScalarField::updateCoeffs",height=0.2,width=0.4,color="black",URL="$a22286.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node48 -> Node46 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node48 -> Node47 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

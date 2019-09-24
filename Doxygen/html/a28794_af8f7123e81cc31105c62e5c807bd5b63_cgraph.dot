@@ -1,0 +1,16 @@
+digraph "wallBoundedParticle"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node9 [label="wallBoundedParticle",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="Foam::IOstream::check",height=0.2,width=0.4,color="red",URL="$a26226.html#a367eb3425fc4e8270e2aa961df8ac8a5",tooltip="Check IOstream status for given operation. "];
+  Node9 -> Node59 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node59 [label="Foam::IOstream::format",height=0.2,width=0.4,color="black",URL="$a26226.html#a33bbef3587114a06f7bdc0b91ba57ed9",tooltip="Return current stream format. "];
+  Node9 -> Node60 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node60 [label="Foam::Istream::read",height=0.2,width=0.4,color="black",URL="$a26234.html#a89057c9d9e24ba872ccb8546086498ec",tooltip="Return next token from stream. "];
+  Node9 -> Node61 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node61 [label="wallBoundedParticle",height=0.2,width=0.4,color="black",URL="$a28794.html#a4ec5b73e31634456fc7889e9c944915c",tooltip="Construct from components. "];
+}

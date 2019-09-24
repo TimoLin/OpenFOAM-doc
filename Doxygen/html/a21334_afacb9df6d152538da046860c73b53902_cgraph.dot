@@ -1,0 +1,14 @@
+digraph "readAux"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node616 [label="readAux",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node616 -> Node617 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node617 [label="Foam::boundaryRegion\l::readDict",height=0.2,width=0.4,color="red",URL="$a21338.html#ac54ace7467d79653dee278077fb187b6",tooltip="Read constant/boundaryRegion. "];
+  Node616 -> Node933 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node933 [label="Foam::cellTable::readDict",height=0.2,width=0.4,color="red",URL="$a21342.html#a57e56444a03a71b0673d869fbbf5bcc7",tooltip="Read constant/cellTable. "];
+  Node616 -> Node935 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node935 [label="readPoints",height=0.2,width=0.4,color="red",URL="$a21334.html#ac1489cb5b82a59c9fd17448d67891ea0",tooltip="Read points from file. "];
+}

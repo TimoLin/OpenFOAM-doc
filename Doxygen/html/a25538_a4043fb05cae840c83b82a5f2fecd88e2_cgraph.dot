@@ -1,0 +1,16 @@
+digraph "getTriangle"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node629 [label="getTriangle",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node629 -> Node630 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node630 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node629 -> Node673 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node673 [label="collapseEdges",height=0.2,width=0.4,color="red",URL="$a25538.html#a3aee046d49916c8984f42f5710679e3f",tooltip="Create new triSurface by collapsing edges to edge mids. "];
+  Node629 -> Node681 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node681 [label="Foam::PrimitivePatch\l::edgeFaces",height=0.2,width=0.4,color="black",URL="$a27538.html#ad38ecd2902727a890ebd437731c271c8",tooltip="Return edge-face addressing. "];
+  Node629 -> Node682 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node682 [label="Foam::PrimitivePatch\l::faceEdges",height=0.2,width=0.4,color="black",URL="$a27538.html#adbfcf489a527a07c33d684834faace79",tooltip="Return face-edge addressing. "];
+}

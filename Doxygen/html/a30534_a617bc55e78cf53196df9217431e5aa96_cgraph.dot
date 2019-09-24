@@ -1,0 +1,15 @@
+digraph "clone"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node29 [label="clone",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node29 -> Node30 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node30 [label="constantAlphaContactAngle\lFvPatchScalarField",height=0.2,width=0.4,color="black",URL="$a30534.html#a02167542043a51670329a90f9317ebca",tooltip="Construct from patch and internal field. "];
+  Node29 -> Node31 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node31 [label="theta",height=0.2,width=0.4,color="red",URL="$a30534.html#adb6a61a8ff08b20d8bb17c0fdebbf96c",tooltip="Return the equilibrium contact-angle. "];
+  Node31 -> Node33 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node33 [label="write",height=0.2,width=0.4,color="red",URL="$a30534.html#a293fdfec8bdfbd5c3913ab4c9f3454ff",tooltip="Write. "];
+  Node29 -> Node33 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

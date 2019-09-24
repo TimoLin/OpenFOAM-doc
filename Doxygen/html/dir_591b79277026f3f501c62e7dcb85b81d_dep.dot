@@ -1,0 +1,16 @@
+digraph "applications/utilities/postProcessing/graphics/PV4Readers/PV4FoamReader" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="FreeSans"];
+  edge [ labelfontsize="10", labelfontname="FreeSans"];
+  subgraph clusterdir_7445db1dd3b961be4e301530f5439804 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="PV4Readers" fontname="FreeSans", fontsize="10", URL="dir_7445db1dd3b961be4e301530f5439804.html"]
+  subgraph clusterdir_591b79277026f3f501c62e7dcb85b81d {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_591b79277026f3f501c62e7dcb85b81d.html"];
+    dir_591b79277026f3f501c62e7dcb85b81d [shape=plaintext label="PV4FoamReader"];
+    dir_5a3ca8d145a2a7787654bcaf26bd4b66 [shape=box label="vtkPV4Foam" color="black" fillcolor="white" style="filled" URL="dir_5a3ca8d145a2a7787654bcaf26bd4b66.html"];
+  }
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_5a3ca8d145a2a7787654bcaf26bd4b66->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="17", labeldistance=1.5 headhref="dir_000478_000577.html"];
+}

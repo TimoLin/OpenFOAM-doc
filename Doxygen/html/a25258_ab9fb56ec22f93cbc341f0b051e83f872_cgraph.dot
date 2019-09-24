@@ -1,0 +1,16 @@
+digraph "regions"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node117 [label="regions",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node117 -> Node118 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node118 [label="Foam::UList::empty",height=0.2,width=0.4,color="black",URL="$a25698.html#a644718bb2fb240de962dc3c9a1fdf0dc",tooltip="Return true if the UList is empty (ie, size() is zero). "];
+  Node117 -> Node119 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node119 [label="Foam::triSurface::patches",height=0.2,width=0.4,color="black",URL="$a30598.html#a81f967856b4a58b0c942fe0a0dcdf627"];
+  Node117 -> Node120 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node120 [label="Foam::List::setSize",height=0.2,width=0.4,color="black",URL="$a25694.html#aedb985ffeaf1bdbfeccc2a8730405703",tooltip="Reset size of List. "];
+  Node117 -> Node121 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node121 [label="size",height=0.2,width=0.4,color="red",URL="$a25258.html#a03bc1200aac252c4d3e18657d700b71c",tooltip="Range of local indices that can be returned. "];
+}

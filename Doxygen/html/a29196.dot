@@ -1,0 +1,13 @@
+digraph "thermalBaffleModel"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node21 [label="thermalBaffleModel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node22 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22 [label="regionModel1D",height=0.2,width=0.4,color="red",URL="$a29002.html"];
+  Node96 -> Node21 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" thickness_" ,fontname="FreeSans"];
+  Node96 [label="Field\< scalar \>",height=0.2,width=0.4,color="red",URL="$a26466.html"];
+  Node104 -> Node21 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" delta_" ,fontname="FreeSans"];
+  Node104 [label="dimensioned\< scalar \>",height=0.2,width=0.4,color="red",URL="$a26366.html"];
+}

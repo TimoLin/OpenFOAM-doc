@@ -1,0 +1,15 @@
+digraph "nearBoundary"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node100 [label="nearBoundary",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node100 -> Node101 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node101 [label="indexedVertex",height=0.2,width=0.4,color="black",URL="$a31474.html#a96525bdaca046dce8fd23e590e9879c2"];
+  Node100 -> Node102 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node102 [label="nearOrOnBoundary",height=0.2,width=0.4,color="black",URL="$a31474.html#a84aecbfd61123c1019aa58fa5b31ac2c",tooltip="Is point near the boundary or part of the boundary definition. "];
+  Node102 -> Node103 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node103 [label="ppSlave",height=0.2,width=0.4,color="red",URL="$a31474.html#a35b591d1d3910ed85fd53ef389629001",tooltip="Slave of a pointPair is the highest numbered one. "];
+  Node100 -> Node103 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

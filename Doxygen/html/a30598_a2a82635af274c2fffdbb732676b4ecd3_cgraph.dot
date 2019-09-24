@@ -1,0 +1,23 @@
+digraph "subsetMesh"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node919 [label="subsetMesh",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node919 -> Node920 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node920 [label="Foam::PrimitivePatch\l\< labelledTri, ::Foam\l::List, pointField, point\l \>::localFaces",height=0.2,width=0.4,color="black",URL="$a27538.html#aa4bd29e9c9de3d53e26aa2bf2e803c60",tooltip="Return patch faces addressing into local point list. "];
+  Node919 -> Node921 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node921 [label="Foam::PrimitivePatch\l\< labelledTri, ::Foam\l::List, pointField, point\l \>::localPoints",height=0.2,width=0.4,color="black",URL="$a27538.html#aca6c65ee2831bb6795149af7635640a2",tooltip="Return pointField of points in patch. "];
+  Node919 -> Node922 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node922 [label="patches",height=0.2,width=0.4,color="black",URL="$a30598.html#a81f967856b4a58b0c942fe0a0dcdf627"];
+  Node919 -> Node923 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node923 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node919 -> Node924 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node924 [label="subsetMeshMap",height=0.2,width=0.4,color="red",URL="$a30598.html#ab98a1f3e0d776683ac546b4a75bdd0aa",tooltip="&#39;Create&#39; sub mesh, including only faces for which "];
+  Node924 -> Node920 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node924 -> Node923 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node924 -> Node919 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node919 -> Node927 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node927 [label="triSurface",height=0.2,width=0.4,color="black",URL="$a30598.html#a23b307d20d3b88983e62e1cb7292346a",tooltip="Construct null. "];
+}

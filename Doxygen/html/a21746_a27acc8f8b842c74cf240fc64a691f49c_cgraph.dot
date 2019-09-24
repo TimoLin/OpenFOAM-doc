@@ -1,0 +1,32 @@
+digraph "pointMergeMap"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node12 [label="pointMergeMap",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13 [label="calcEnrichedFaces",height=0.2,width=0.4,color="red",URL="$a21746.html#aa1b5e352f9ac5a1be0842ae796ff5266",tooltip="Calculate enriched faces. "];
+  Node12 -> Node71 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node71 [label="checkSupport",height=0.2,width=0.4,color="red",URL="$a21746.html#afbeedbfc76f872ebc3d3578ba99b02a4",tooltip="Check if the patch is fully supported. "];
+  Node12 -> Node72 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node72 [label="cutFaceMaster",height=0.2,width=0.4,color="black",URL="$a21746.html#a446d63cf17817ac1ca0f383f87df7996",tooltip="Return cut face master list. "];
+  Node12 -> Node73 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node73 [label="cutFaces",height=0.2,width=0.4,color="black",URL="$a21746.html#ae8521869c50d094c9c47ad90479b048a",tooltip="Return list of cut faces. "];
+  Node12 -> Node74 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node74 [label="cutFaceSlave",height=0.2,width=0.4,color="black",URL="$a21746.html#ad652963983843d45a68e69af33e8cb75",tooltip="Return cut face slave list. "];
+  Node12 -> Node75 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node75 [label="enrichedFaces",height=0.2,width=0.4,color="red",URL="$a21746.html#a46af4dd71ca43012c5daeca5d4d38d82",tooltip="Return enriched faces. "];
+  Node12 -> Node76 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node76 [label="localFaces",height=0.2,width=0.4,color="black",URL="$a21746.html#a001a0a84fd538d27f5ac5192dc5afa3d",tooltip="Return local faces. "];
+  Node12 -> Node77 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node77 [label="localPoints",height=0.2,width=0.4,color="black",URL="$a21746.html#a01c2230716b55bddf9744bc4c884e3fb",tooltip="Return local points. "];
+  Node12 -> Node78 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node78 [label="masterPointFaces",height=0.2,width=0.4,color="black",URL="$a21746.html#a08449bde9abdb3e318c28ce93f6264d2",tooltip="Master point face addressing. "];
+  Node12 -> Node79 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node79 [label="meshPoints",height=0.2,width=0.4,color="black",URL="$a21746.html#a52e3a457780fe74b31d39dc046bce1d8",tooltip="Return mesh points. "];
+  Node12 -> Node80 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node80 [label="pointPoints",height=0.2,width=0.4,color="black",URL="$a21746.html#ad4ac7d73b995a7274b6be6445d91a61d",tooltip="Return point-point addressing. "];
+  Node12 -> Node81 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node81 [label="writeOBJ",height=0.2,width=0.4,color="red",URL="$a21746.html#a4eb06df121f6cc7de58f24e703b8ab1f",tooltip="Debugging: dump graphical representation to obj format file. "];
+}

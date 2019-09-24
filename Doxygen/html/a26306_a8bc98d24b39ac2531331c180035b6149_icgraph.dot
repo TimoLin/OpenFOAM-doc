@@ -1,0 +1,22 @@
+digraph "stringToken"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node554 [label="stringToken",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node554 -> Node555 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node555 [label="Foam::keyType::match",height=0.2,width=0.4,color="red",URL="$a28238.html#abd43459799d1878613ea9acdeb2ba6c3",tooltip="Smart match as regular expression or as a string. "];
+  Node554 -> Node557 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node557 [label="Foam::operator\<\<",height=0.2,width=0.4,color="black",URL="$a21124.html#a609e356ecf969e67ae8ffc4d99dc9c64"];
+  Node554 -> Node558 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node558 [label="operator==",height=0.2,width=0.4,color="black",URL="$a26306.html#afb697cd8d7e090979ea1ca43eed4cd6e"];
+  Node554 -> Node559 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node559 [label="Foam::operator\>\>",height=0.2,width=0.4,color="black",URL="$a21124.html#a1ca9f6b67cbe53a166cb681c4d5068d0"];
+  Node554 -> Node560 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node560 [label="Foam::prefixOSstream\l::write",height=0.2,width=0.4,color="red",URL="$a26294.html#a52c3f56f115b2b9b1b7db001a3784003",tooltip="Write next token to stream. "];
+  Node554 -> Node563 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node563 [label="Foam::OSstream::write",height=0.2,width=0.4,color="red",URL="$a26290.html#a52c3f56f115b2b9b1b7db001a3784003",tooltip="Write next token to stream. "];
+  Node554 -> Node576 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node576 [label="Foam::UOPstream::write",height=0.2,width=0.4,color="black",URL="$a26262.html#a52c3f56f115b2b9b1b7db001a3784003",tooltip="Write next token to stream. "];
+}

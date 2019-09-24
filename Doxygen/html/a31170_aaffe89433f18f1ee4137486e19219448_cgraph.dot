@@ -1,0 +1,18 @@
+digraph "correctNut"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node62 [label="correctNut",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node62 -> Node63 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node63 [label="Foam::TurbulenceModel\l\< volScalarField, volScalar\lField, compressibleTurbulenceModel,\l TransportModel \>::alpha",height=0.2,width=0.4,color="black",URL="$a31310.html#a901ed302c090258c3b5c886336be45d1",tooltip="Access function to phase fraction. "];
+  Node62 -> Node64 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node64 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node62 -> Node65 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node65 [label="Foam::sqrt",height=0.2,width=0.4,color="red",URL="$a21124.html#a8616bd62eebf2342a80222fecb1bda71"];
+  Node62 -> Node70 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node70 [label="Foam::TurbulenceModel\l\< volScalarField, volScalar\lField, compressibleTurbulenceModel,\l TransportModel \>::transport",height=0.2,width=0.4,color="black",URL="$a31310.html#a882ad6ffc6216cd1027fa6cceaa41d9f",tooltip="Access function to incompressible transport model. "];
+  Node62 -> Node71 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node71 [label="Foam::turbulenceModel::U",height=0.2,width=0.4,color="black",URL="$a31314.html#a536d168d7b335fe81f506f232b5b4872",tooltip="Access function to velocity field. "];
+}

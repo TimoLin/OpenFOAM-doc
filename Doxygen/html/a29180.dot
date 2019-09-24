@@ -1,0 +1,25 @@
+digraph "thermoSingleLayer"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node21 [label="thermoSingleLayer",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node22 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22 [label="kinematicSingleLayer",height=0.2,width=0.4,color="red",URL="$a29042.html"];
+  Node97 -> Node22 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" rhoSpPrimary_\nalpha_\nmu_\npSpPrimary_\nrhoPrimary_\npSp_\ndelta_\nrho_\nmuPrimary\l_\nprimaryMass\lTrans_\n..." ,fontname="FreeSans"];
+  Node97 [label="GeometricField\< scalar,\l fvPatchField, volMesh \>",height=0.2,width=0.4,color="red",URL="$a22434.html"];
+  Node97 -> Node21 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" hsSp_\nTPrimary_\nprimaryMassPCTrans\l_\nkappa_\nhsSpPrimary\l_\nprimaryEnergy\lPCTrans_\nTw_\nT_\nTs_\nhs_\n..." ,fontname="FreeSans"];
+  Node122 -> Node21 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" YPrimary_" ,fontname="FreeSans"];
+  Node122 [label="PtrList\< Foam::Geometric\lField \>",height=0.2,width=0.4,color="red",URL="$a25914.html"];
+  Node123 -> Node21 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" thermo_" ,fontname="FreeSans"];
+  Node123 [label="SLGThermo",height=0.2,width=0.4,color="red",URL="$a30182.html",tooltip="Thermo package for (S)olids (L)iquids and (G)ases Takes reference to thermo package, and provides: "];
+  Node124 -> Node21 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" viscosity_" ,fontname="FreeSans"];
+  Node124 [label="autoPtr\< Foam::regionModels\l::surfaceFilmModels::filmViscosity\lModel \>",height=0.2,width=0.4,color="red",URL="$a25958.html"];
+  Node125 -> Node21 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" htcw_\nhtcs_" ,fontname="FreeSans"];
+  Node125 [label="autoPtr\< Foam::regionModels\l::surfaceFilmModels::heatTransfer\lModel \>",height=0.2,width=0.4,color="red",URL="$a25958.html"];
+  Node126 -> Node21 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" radiation_" ,fontname="FreeSans"];
+  Node126 [label="autoPtr\< Foam::regionModels\l::surfaceFilmModels::filmRadiation\lModel \>",height=0.2,width=0.4,color="red",URL="$a25958.html"];
+  Node127 -> Node21 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" phaseChange_" ,fontname="FreeSans"];
+  Node127 [label="autoPtr\< Foam::regionModels\l::surfaceFilmModels::phaseChange\lModel \>",height=0.2,width=0.4,color="red",URL="$a25958.html"];
+}

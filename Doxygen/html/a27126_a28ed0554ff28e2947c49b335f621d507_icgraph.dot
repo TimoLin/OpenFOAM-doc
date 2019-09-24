@@ -1,0 +1,33 @@
+digraph "comm"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node402 [label="comm",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node402 -> Node403 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node403 [label="Foam::GAMGProcAgglomeration\l::agglomerate",height=0.2,width=0.4,color="black",URL="$a26982.html#a0c0802af3e72c78696e2b296d055e6e0",tooltip="Agglomerate a level. Return true if anything has changed. "];
+  Node402 -> Node404 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node404 [label="Foam::masterCoarsestGAMGProc\lAgglomeration::agglomerate",height=0.2,width=0.4,color="black",URL="$a26990.html#aafdd9615cff0be3c3c601afb8526aee5",tooltip="Modify agglomeration. Return true if modified. "];
+  Node402 -> Node405 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node405 [label="Foam::eagerGAMGProcAgglomeration\l::agglomerate",height=0.2,width=0.4,color="black",URL="$a26978.html#aafdd9615cff0be3c3c601afb8526aee5",tooltip="Modify agglomeration. Return true if modified. "];
+  Node402 -> Node406 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node406 [label="Foam::procFacesGAMGProcAgglomeration\l::agglomerate",height=0.2,width=0.4,color="black",URL="$a26998.html#aafdd9615cff0be3c3c601afb8526aee5",tooltip="Modify agglomeration. Return true if modified. "];
+  Node402 -> Node407 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node407 [label="Foam::manualGAMGProcAgglomeration\l::agglomerate",height=0.2,width=0.4,color="black",URL="$a26986.html#aafdd9615cff0be3c3c601afb8526aee5",tooltip="Modify agglomeration. Return true if modified. "];
+  Node402 -> Node408 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node408 [label="Foam::GAMGAgglomeration\l::agglomerateLduAddressing",height=0.2,width=0.4,color="black",URL="$a26970.html#a1f8676d38e3715d5330beb58b7883c90",tooltip="Assemble coarse mesh addressing. "];
+  Node402 -> Node409 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node409 [label="Foam::GAMGSolver::GAMGSolver",height=0.2,width=0.4,color="black",URL="$a27002.html#aa0bdfcc22c05f62778e77b175b6fdd66",tooltip="Construct from lduMatrix and solver controls. "];
+  Node402 -> Node410 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node410 [label="Foam::GAMGProcAgglomeration\l::globalCellCells",height=0.2,width=0.4,color="red",URL="$a26982.html#a59b7daeb97bb6479a59cdeacff965dc5",tooltip="Debug: calculate global cell-cells. "];
+  Node402 -> Node412 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node412 [label="Foam::lduPrimitiveMesh\l::lduPrimitiveMesh",height=0.2,width=0.4,color="black",URL="$a27134.html#aeae1eb8af27cafdc116980dd48968d19",tooltip="Construct by combining multiple meshes. The meshes come from. "];
+  Node402 -> Node413 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node413 [label="Foam::smoothSolver\l::solve",height=0.2,width=0.4,color="red",URL="$a27050.html#ad38597d099f9905e3f399b01af791bcb",tooltip="Solve the matrix with this solver. "];
+  Node402 -> Node416 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node416 [label="thisDb",height=0.2,width=0.4,color="red",URL="$a27126.html#a83b4b6e6a43285477e284433f80eed1b",tooltip="Return the object registry. "];
+  Node416 -> Node420 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node420 [label="~lduMesh",height=0.2,width=0.4,color="black",URL="$a27126.html#a0d6142dbbff9e22317ca374ec3c2aa83",tooltip="Destructor. "];
+  Node402 -> Node420 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

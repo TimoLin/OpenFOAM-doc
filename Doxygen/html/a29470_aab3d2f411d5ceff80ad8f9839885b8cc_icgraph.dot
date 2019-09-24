@@ -1,0 +1,13 @@
+digraph "rmap"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node707 [label="rmap",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node707 -> Node708 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node708 [label="autoMap",height=0.2,width=0.4,color="red",URL="$a29470.html#a29ce2a7cdc96cffba66b33b9ab1355a4",tooltip="Map (and resize as needed) from self given a mapping object. "];
+  Node708 -> Node709 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node709 [label="clone",height=0.2,width=0.4,color="black",URL="$a29470.html#a03a9bed5dcfacb3ecd5a52bdabdca6c6",tooltip="Construct and return a clone setting internal field reference. "];
+  Node707 -> Node709 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

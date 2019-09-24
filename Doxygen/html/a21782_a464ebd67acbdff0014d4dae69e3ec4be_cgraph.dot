@@ -1,0 +1,22 @@
+digraph "read"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node181 [label="read",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node181 -> Node182 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node182 [label="Foam::exit",height=0.2,width=0.4,color="red",URL="$a21124.html#a06ca7250d8e89caf05243ec094843642"];
+  Node181 -> Node219 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node219 [label="Foam::IOstream::good",height=0.2,width=0.4,color="black",URL="$a26226.html#abdcc7f96f487faadc7769afcf58fe992",tooltip="Return true if next operation might succeed. "];
+  Node181 -> Node229 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node229 [label="Foam::vtkUnstructuredReader\l::lines",height=0.2,width=0.4,color="black",URL="$a21890.html#a4b58c4ea0b4dbc83447abd49f607e48d",tooltip="1D cells (=open lines) "];
+  Node181 -> Node230 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node230 [label="Foam::vtkUnstructuredReader\l::points",height=0.2,width=0.4,color="black",URL="$a21890.html#afb6c3bde245ae6ea91f1c538da59f8fc",tooltip="Points. "];
+  Node181 -> Node231 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node231 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node181 -> Node232 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node232 [label="write",height=0.2,width=0.4,color="red",URL="$a21782.html#ac93279b51e2eb12dc1a54daf46bbca98",tooltip="Write surface mesh components by proxy. "];
+  Node232 -> Node182 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node232 -> Node219 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

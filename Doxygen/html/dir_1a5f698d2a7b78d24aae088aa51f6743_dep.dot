@@ -1,0 +1,16 @@
+digraph "applications/utilities/postProcessing/turbulence/R" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="FreeSans"];
+  edge [ labelfontsize="10", labelfontname="FreeSans"];
+  subgraph clusterdir_efa815437fc2dd6547097aa5d76505dd {
+    graph [ bgcolor="#ddddee", pencolor="black", label="turbulence" fontname="FreeSans", fontsize="10", URL="dir_efa815437fc2dd6547097aa5d76505dd.html"]
+  subgraph clusterdir_1a5f698d2a7b78d24aae088aa51f6743 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_1a5f698d2a7b78d24aae088aa51f6743.html"];
+    dir_1a5f698d2a7b78d24aae088aa51f6743 [shape=plaintext label="R"];
+    dir_8c489683de4c08b1762d5dcb5154163d [shape=box label="compatibilityFvPatchFields" color="red" fillcolor="white" style="filled" URL="dir_8c489683de4c08b1762d5dcb5154163d.html"];
+  }
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_8c489683de4c08b1762d5dcb5154163d->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="1", labeldistance=1.5 headhref="dir_000515_000577.html"];
+}

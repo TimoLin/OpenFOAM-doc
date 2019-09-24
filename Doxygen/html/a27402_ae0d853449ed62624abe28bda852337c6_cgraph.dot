@@ -1,0 +1,39 @@
+digraph "checkParallelSync"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node5090 [label="checkParallelSync",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node5090 -> Node5091 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5091 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node5090 -> Node5093 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5093 [label="Foam::Pstream::gatherList",height=0.2,width=0.4,color="red",URL="$a26250.html#afbdf64fb42cd760690d51a9a321792d9",tooltip="Gather data but keep individual values separate. "];
+  Node5093 -> Node5094 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5094 [label="Foam::UPstream::nProcs",height=0.2,width=0.4,color="black",URL="$a26270.html#aada0e04d8127eda8ee95be0772754a4f",tooltip="Number of processes in parallel run. "];
+  Node5094 -> Node5095 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5095 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node5093 -> Node5095 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5093 -> Node5137 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5137 [label="Foam::UPstream::myProcNo",height=0.2,width=0.4,color="black",URL="$a26270.html#afc74d89573de32a3032c916f8cdd1733",tooltip="Number of this process (starting from masterNo() = 0) "];
+  Node5093 -> Node5091 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5090 -> Node5145 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5145 [label="Foam::UPstream::master",height=0.2,width=0.4,color="red",URL="$a26270.html#a36af549940a0aae3733774649594489f",tooltip="Am I the master process. "];
+  Node5090 -> Node5137 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5090 -> Node5147 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5147 [label="Foam::IOobject::name",height=0.2,width=0.4,color="black",URL="$a26142.html#acc80e00a8ac919288fb55bd14cc88bf6",tooltip="Return name. "];
+  Node5090 -> Node5094 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5090 -> Node5118 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5118 [label="Foam::UPstream::parRun",height=0.2,width=0.4,color="black",URL="$a26270.html#adbb27f04b5705440fb8b09f278059011",tooltip="Is this a parallel run? "];
+  Node5090 -> Node5148 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5148 [label="Foam::Pstream::scatterList",height=0.2,width=0.4,color="red",URL="$a26250.html#a23c38ee54f04c9d53a327db9edbdb7f0",tooltip="Scatter data. Reverse of gatherList. "];
+  Node5148 -> Node5094 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5148 -> Node5095 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5148 -> Node5137 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5148 -> Node5091 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5090 -> Node5152 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5152 [label="Foam::PtrList::setSize",height=0.2,width=0.4,color="black",URL="$a25914.html#aedb985ffeaf1bdbfeccc2a8730405703",tooltip="Reset size of PtrList. If extending the PtrList, new entries are. "];
+  Node5090 -> Node5095 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5090 -> Node5153 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5153 [label="Foam::PtrList::size",height=0.2,width=0.4,color="black",URL="$a25914.html#a47b3bf30da1eb3ab8076b5fbe00e0494",tooltip="Return the number of elements in the PtrList. "];
+}

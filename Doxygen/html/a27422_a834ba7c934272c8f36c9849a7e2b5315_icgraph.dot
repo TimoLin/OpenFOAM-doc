@@ -1,0 +1,32 @@
+digraph "tet"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1500 [label="tet",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1500 -> Node1501 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1501 [label="Foam::particle::currentTet",height=0.2,width=0.4,color="red",URL="$a23586.html#a92dfe2573db5f1757b382eb60ee35c4e",tooltip="Return the geometry of the current tet that the. "];
+  Node1501 -> Node1502 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1502 [label="Foam::particle::trackToFace",height=0.2,width=0.4,color="black",URL="$a23586.html#a843767f232f5b61884dcd757558591e0"];
+  Node1500 -> Node1516 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1516 [label="Foam::AveragingMethods\l::Dual::Dual",height=0.2,width=0.4,color="black",URL="$a24210.html#a4e90e259d050ad479f6e3c6763a1cdf6",tooltip="Constructors. "];
+  Node1500 -> Node1517 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1517 [label="Foam::polyMeshTetDecomposition\l::findTet",height=0.2,width=0.4,color="red",URL="$a27418.html#a336110501f5915673070727c2b9cefc1",tooltip="Find the tet decomposition of the cell containing the given point. "];
+  Node1500 -> Node1710 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1710 [label="Foam::cellPointWeight\l::findTetrahedron",height=0.2,width=0.4,color="black",URL="$a22922.html#aecec3ccb37ced505c339363e0803800a"];
+  Node1500 -> Node1708 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1708 [label="Foam::particle::hitWallFaces",height=0.2,width=0.4,color="black",URL="$a23586.html#abf78981c0a99e9f135ebc37efcfd1544"];
+  Node1708 -> Node1502 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1500 -> Node1711 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1711 [label="Foam::interpolationCellPoint\l\< Foam::Vector \>::interpolate",height=0.2,width=0.4,color="black",URL="$a22926.html#a2aa471347e771a266bcb702f1d5b7469",tooltip="Interpolate field to the given point in the tetrahedron. "];
+  Node1500 -> Node1712 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1712 [label="Foam::AveragingMethods\l::Moment::Moment",height=0.2,width=0.4,color="black",URL="$a24214.html#a9aaf777932fca7644bb6f00f3a2b8749",tooltip="Constructors. "];
+  Node1500 -> Node1713 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1713 [label="Foam::particle::movingTet\lLambda",height=0.2,width=0.4,color="red",URL="$a23586.html#a7603ae2812feb41aea703e54496564af",tooltip="Find the lambda value for a moving tri face. "];
+  Node1500 -> Node1502 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1500 -> Node1716 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1716 [label="Foam::AveragingMethod\l\< Foam::Vector \>::write",height=0.2,width=0.4,color="black",URL="$a23898.html#ad48b7b943e88478c15879659cce7aebc",tooltip="Write using setting from DB. "];
+  Node1500 -> Node1717 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1717 [label="Foam::AveragingMethods\l::Dual::~Dual",height=0.2,width=0.4,color="red",URL="$a24210.html#a5c08eca007ade69ea650619db86d50b6",tooltip="Destructor. "];
+}

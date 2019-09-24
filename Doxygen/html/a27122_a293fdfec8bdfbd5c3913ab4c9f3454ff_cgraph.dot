@@ -1,0 +1,12 @@
+digraph "write"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node894 [label="write",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node894 -> Node895 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node895 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node894 -> Node896 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node896 [label="Foam::Ostream::writeKeyword",height=0.2,width=0.4,color="red",URL="$a26238.html#a3c58b2bb9174ea3c4a5fa58095d1290e",tooltip="Write the keyword followed by an appropriate indentation. "];
+}

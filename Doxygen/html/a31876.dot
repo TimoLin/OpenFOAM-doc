@@ -1,0 +1,14 @@
+digraph "XiGModel"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node4 [label="XiGModel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node5 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" thermo_" ,fontname="FreeSans"];
+  Node5 [label="psiuReactionThermo",height=0.2,width=0.4,color="red",URL="$a30174.html",tooltip="Foam::psiuReactionThermo. "];
+  Node18 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" XiGModelCoeffs_" ,fontname="FreeSans"];
+  Node18 [label="dictionary",height=0.2,width=0.4,color="red",URL="$a26014.html",tooltip="A list of keyword definitions, which are a keyword followed by any number of values (e..."];
+  Node18 -> Node18 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" null" ,fontname="FreeSans"];
+  Node40 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" Su_" ,fontname="FreeSans"];
+  Node40 [label="GeometricField\< Type,\l PatchField, GeoMesh \>",height=0.2,width=0.4,color="red",URL="$a22434.html",tooltip="Generic GeometricField class. "];
+}

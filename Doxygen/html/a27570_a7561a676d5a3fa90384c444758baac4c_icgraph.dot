@@ -1,0 +1,22 @@
+digraph "normal"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node495 [label="normal",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node495 -> Node496 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node496 [label="Foam::geomCellLooper::cut",height=0.2,width=0.4,color="black",URL="$a21474.html#a993c7c95766fcf44b50607ec8701d577",tooltip="Same but now also base point of cut provided (instead of always. "];
+  Node495 -> Node497 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node497 [label="Foam::plane::ray::dir",height=0.2,width=0.4,color="red",URL="$a27574.html#ad2023bddcdb17ed0bab38b38e764822f"];
+  Node495 -> Node499 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node499 [label="mirror",height=0.2,width=0.4,color="red",URL="$a27570.html#a0558d93fd557787f2e03f632b78f63eb",tooltip="Mirror the supplied point in the plane. Return the mirrored point. "];
+  Node495 -> Node503 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node503 [label="Foam::NamedEnum\< direction\lType, 3 \>::names",height=0.2,width=0.4,color="black",URL="$a25998.html#a7350da3a0edd92cd11e6c479c9967dc8"];
+  Node495 -> Node504 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node504 [label="Foam::tetrahedron::\lstoreOp::operator()",height=0.2,width=0.4,color="black",URL="$a27598.html#a1983d18f6e6e7de5141bea5b0d6716c4"];
+  Node495 -> Node505 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node505 [label="planeIntersect",height=0.2,width=0.4,color="red",URL="$a27570.html#ac7fe66682d1b70507e370d886af36dab",tooltip="Return the cutting line between this plane and another. "];
+  Node495 -> Node507 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node507 [label="Foam::cuttingPlane\l::reCut",height=0.2,width=0.4,color="red",URL="$a29234.html#afc5a74b0ae963b8d5e674c5e8085a158",tooltip="recut mesh with existing planeDesc, restricted to a list of cells "];
+}

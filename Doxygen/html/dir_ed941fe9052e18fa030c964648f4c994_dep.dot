@@ -1,0 +1,21 @@
+digraph "src/OpenFOAM/db/dictionary/dictionaryEntry" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="FreeSans"];
+  edge [ labelfontsize="10", labelfontname="FreeSans"];
+  subgraph clusterdir_43e4f3d5f4ba74ef6e29186317ac2bae {
+    graph [ bgcolor="#ddddee", pencolor="black", label="dictionary" fontname="FreeSans", fontsize="10", URL="dir_43e4f3d5f4ba74ef6e29186317ac2bae.html"]
+  dir_ed941fe9052e18fa030c964648f4c994 [shape=box, label="dictionaryEntry", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_ed941fe9052e18fa030c964648f4c994.html"];
+  }
+  dir_921060969b2ec46ffd0fdd6e3b1e6f93 [shape=box label="entry" URL="dir_921060969b2ec46ffd0fdd6e3b1e6f93.html"];
+  dir_466e4f5b4cc1582939ab4ceba36098d8 [shape=box label="IOstreams" color="red" URL="dir_466e4f5b4cc1582939ab4ceba36098d8.html"];
+  dir_3e50f45338116b169052b428016851aa [shape=box label="primitives" color="red" URL="dir_3e50f45338116b169052b428016851aa.html"];
+  dir_921060969b2ec46ffd0fdd6e3b1e6f93->dir_ed941fe9052e18fa030c964648f4c994 [headlabel="1", labeldistance=1.5 headhref="dir_001792_001791.html"];
+  dir_921060969b2ec46ffd0fdd6e3b1e6f93->dir_466e4f5b4cc1582939ab4ceba36098d8 [headlabel="2", labeldistance=1.5 headhref="dir_001792_001825.html"];
+  dir_921060969b2ec46ffd0fdd6e3b1e6f93->dir_3e50f45338116b169052b428016851aa [headlabel="3", labeldistance=1.5 headhref="dir_001792_002157.html"];
+  dir_ed941fe9052e18fa030c964648f4c994->dir_921060969b2ec46ffd0fdd6e3b1e6f93 [headlabel="1", labeldistance=1.5 headhref="dir_001791_001792.html"];
+  dir_ed941fe9052e18fa030c964648f4c994->dir_466e4f5b4cc1582939ab4ceba36098d8 [headlabel="2", labeldistance=1.5 headhref="dir_001791_001825.html"];
+  dir_ed941fe9052e18fa030c964648f4c994->dir_3e50f45338116b169052b428016851aa [headlabel="1", labeldistance=1.5 headhref="dir_001791_002157.html"];
+  dir_466e4f5b4cc1582939ab4ceba36098d8->dir_3e50f45338116b169052b428016851aa [headlabel="37", labeldistance=1.5 headhref="dir_001825_002157.html"];
+  dir_3e50f45338116b169052b428016851aa->dir_466e4f5b4cc1582939ab4ceba36098d8 [headlabel="38", labeldistance=1.5 headhref="dir_002157_001825.html"];
+}

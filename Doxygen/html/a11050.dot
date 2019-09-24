@@ -1,0 +1,15 @@
+digraph "src/OpenFOAM/matrices/solution/solution.H"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node85 [label="src/OpenFOAM/matrices\l/solution/solution.H",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node85 -> Node86 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node86 [label="src/finiteVolume/finiteVolume\l/fvSolution/fvSolution.H",height=0.2,width=0.4,color="red",URL="$a03092.html"];
+  Node85 -> Node1918 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1918 [label="src/finiteVolume/finiteVolume\l/gradSchemes/gradScheme/gradScheme.C",height=0.2,width=0.4,color="black",URL="$a03113.html"];
+  Node85 -> Node1919 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1919 [label="src/OpenFOAM/matrices\l/solution/solution.C",height=0.2,width=0.4,color="black",URL="$a11045.html"];
+  Node85 -> Node1920 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1920 [label="src/OpenFOAM/matrices\l/solution/solutionTemplates.C",height=0.2,width=0.4,color="black",URL="$a11051.html"];
+}

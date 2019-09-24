@@ -1,0 +1,13 @@
+digraph "sumMagOffDiag"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1008 [label="sumMagOffDiag",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1008 -> Node1009 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1009 [label="asymmetric",height=0.2,width=0.4,color="red",URL="$a26790.html#aff45003a4c4226b1f6f4e5e24d382e03"];
+  Node1008 -> Node1015 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1015 [label="negSumDiag",height=0.2,width=0.4,color="black",URL="$a26790.html#a7ad351a572b04686613ec1f9650ad95c"];
+  Node1015 -> Node1009 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,33 @@
+digraph "edgeToCutDir"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3304 [label="edgeToCutDir",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3304 -> Node3305 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3305 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node3304 -> Node3348 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3348 [label="cutDirToEdge",height=0.2,width=0.4,color="red",URL="$a21153.html#a56664f3017553939ea9760e96b9e24f2",tooltip="Reverse of edgeToCutDir: given direction find edge bundle and. "];
+  Node3348 -> Node3349 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3349 [label="Foam::isA",height=0.2,width=0.4,color="black",URL="$a21124.html#a7f38c7df863d37f5357047d27dab7711",tooltip="Check if a dynamic_cast to typeid is possible. "];
+  Node3348 -> Node3305 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3348 -> Node3304 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3348 -> Node3352 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3352 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node3304 -> Node3354 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3354 [label="Foam::primitiveMesh\l::edges",height=0.2,width=0.4,color="black",URL="$a27530.html#a21d764179912ddda5c6f95193c289846",tooltip="Return mesh edges. Uses calcEdges. "];
+  Node3304 -> Node3355 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3355 [label="Foam::UList::end",height=0.2,width=0.4,color="black",URL="$a25698.html#acf5102a998ffca93da588563e2af7413",tooltip="Return an iterator to end traversing the UList. "];
+  Node3304 -> Node3349 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3304 -> Node3352 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3304 -> Node3495 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3495 [label="normEdgeVec",height=0.2,width=0.4,color="red",URL="$a21153.html#a7fcaaaefc5bc2d460742d9a452091d8b",tooltip="Normalized edge vector. "];
+  Node3495 -> Node3354 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3495 -> Node3352 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3304 -> Node3356 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3356 [label="otherFace",height=0.2,width=0.4,color="red",URL="$a21153.html#a38973075afca54f6ee816cab3b8bff7e",tooltip="Return face on cell using edgeI but not faceI. Throws error. "];
+  Node3304 -> Node3390 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3390 [label="walkFace",height=0.2,width=0.4,color="red",URL="$a21153.html#a7a612dbf101c056ee4e4f2a0f812c278",tooltip="Returns label of edge nEdges away from startEdge (in the direction. "];
+  Node3390 -> Node3354 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

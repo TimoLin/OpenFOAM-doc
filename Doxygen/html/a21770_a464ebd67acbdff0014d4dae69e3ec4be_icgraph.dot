@@ -1,0 +1,12 @@
+digraph "read"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node993 [label="read",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node993 -> Node994 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node994 [label="NASedgeFormat",height=0.2,width=0.4,color="black",URL="$a21770.html#a9fd3c71b4a53d77a2e9c3fc0be84b91c",tooltip="Construct from file name. "];
+  Node993 -> Node995 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node995 [label="~NASedgeFormat",height=0.2,width=0.4,color="black",URL="$a21770.html#afc3d3c1c9475477f5eb8ceedae8e86ec",tooltip="Destructor. "];
+}

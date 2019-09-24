@@ -1,0 +1,12 @@
+digraph "writePoints"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node337 [label="writePoints",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node337 -> Node338 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node338 [label="readPoints",height=0.2,width=0.4,color="red",URL="$a21886.html#a72132a8799b05e40e6436869b5f17693",tooltip="Read points from a (.vrt) file. "];
+  Node337 -> Node345 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node345 [label="Foam::fileFormats::\lSTARCDedgeFormat::write",height=0.2,width=0.4,color="red",URL="$a21778.html#ac93279b51e2eb12dc1a54daf46bbca98",tooltip="Write edge mesh. "];
+}

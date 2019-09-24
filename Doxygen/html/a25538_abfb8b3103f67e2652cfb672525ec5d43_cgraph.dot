@@ -1,0 +1,38 @@
+digraph "greenRefine"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node779 [label="greenRefine",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node779 -> Node780 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node780 [label="Foam::List::append",height=0.2,width=0.4,color="black",URL="$a25694.html#a399dd2bf0d9a32016717dc90126f016b",tooltip="Append an element at the end of the list. "];
+  Node779 -> Node781 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node781 [label="Foam::PrimitivePatch\l::edgeFaces",height=0.2,width=0.4,color="black",URL="$a27538.html#ad38ecd2902727a890ebd437731c271c8",tooltip="Return edge-face addressing. "];
+  Node779 -> Node782 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node782 [label="Foam::PrimitivePatch\l::edges",height=0.2,width=0.4,color="black",URL="$a27538.html#a21d764179912ddda5c6f95193c289846",tooltip="Return list of edges, address into LOCAL point list. "];
+  Node779 -> Node783 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node783 [label="Foam::edge::end",height=0.2,width=0.4,color="red",URL="$a27210.html#a5ac1c619caccdf5bcf8c3d58a409849f",tooltip="Return end vertex label. "];
+  Node779 -> Node785 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node785 [label="Foam::PrimitivePatch\l::localFaces",height=0.2,width=0.4,color="black",URL="$a27538.html#aa4bd29e9c9de3d53e26aa2bf2e803c60",tooltip="Return patch faces addressing into local point list. "];
+  Node779 -> Node786 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node786 [label="Foam::PrimitivePatch\l::localPoints",height=0.2,width=0.4,color="black",URL="$a27538.html#aca6c65ee2831bb6795149af7635640a2",tooltip="Return pointField of points in patch. "];
+  Node779 -> Node787 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node787 [label="minEdge",height=0.2,width=0.4,color="red",URL="$a25538.html#ac365a22b30a404441ffa961fefac8348",tooltip="Returns element in edgeIndices with minimum length. "];
+  Node787 -> Node782 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node787 -> Node786 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node787 -> Node783 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node787 -> Node789 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node789 [label="Foam::edge::start",height=0.2,width=0.4,color="red",URL="$a27210.html#afe56bdd2031bbf8321e35e2330c0b990",tooltip="Return start vertex label. "];
+  Node779 -> Node933 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node933 [label="Foam::PrimitivePatch\l::nEdges",height=0.2,width=0.4,color="black",URL="$a27538.html#a086513bcff1a3f1684e1a3879dd90deb",tooltip="Return number of edges in patch. "];
+  Node779 -> Node792 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node792 [label="Foam::PrimitivePatch\l::nPoints",height=0.2,width=0.4,color="black",URL="$a27538.html#a1c886a784a597459dbf2d9470798e9dd",tooltip="Return number of points supporting patch faces. "];
+  Node779 -> Node796 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node796 [label="Foam::triSurface::patches",height=0.2,width=0.4,color="black",URL="$a30598.html#a81f967856b4a58b0c942fe0a0dcdf627"];
+  Node779 -> Node903 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node903 [label="Foam::List::setSize",height=0.2,width=0.4,color="black",URL="$a25694.html#aedb985ffeaf1bdbfeccc2a8730405703",tooltip="Reset size of List. "];
+  Node779 -> Node794 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node794 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node779 -> Node789 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

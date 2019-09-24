@@ -1,0 +1,24 @@
+digraph "clearAddressing"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node196 [label="clearAddressing",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node196 -> Node197 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node197 [label="Foam::polyMesh::clearAddressing",height=0.2,width=0.4,color="black",URL="$a27410.html#a8a149df33631d5e24b40326fe83b0f43",tooltip="Clear addressing. "];
+  Node196 -> Node198 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node198 [label="Foam::fv::interRegionExplicit\lPorositySource::initialise",height=0.2,width=0.4,color="black",URL="$a23534.html#a18abf8b19283101238a77c9e6865b673",tooltip="Initialise. "];
+  Node196 -> Node199 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node199 [label="Foam::ZoneMesh\< cellZone,\l polyMesh \>::mesh",height=0.2,width=0.4,color="black",URL="$a27522.html#ac41d1bc48208a47ffceb25d417eea442",tooltip="Return the mesh reference. "];
+  Node196 -> Node200 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node200 [label="Foam::polyMeshZipUpCells",height=0.2,width=0.4,color="black",URL="$a21124.html#ab957fb2d74d8de84991a6246e876ecd2"];
+  Node196 -> Node201 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node201 [label="Foam::polyMesh::updateMesh",height=0.2,width=0.4,color="red",URL="$a27410.html#a9c8cde0b192708d622d874f8cc2df66d",tooltip="Update the mesh corresponding to given map. "];
+  Node196 -> Node2228 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2228 [label="Foam::cellZoneSet::\lwriteObject",height=0.2,width=0.4,color="red",URL="$a25442.html#ad29090f3bdbff43fd95fa2d856219b5f",tooltip="Write cellZone. "];
+  Node196 -> Node2230 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2230 [label="Foam::pointZoneSet\l::writeObject",height=0.2,width=0.4,color="red",URL="$a25458.html#ad29090f3bdbff43fd95fa2d856219b5f",tooltip="Write pointZone. "];
+  Node196 -> Node2232 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2232 [label="Foam::faceZoneSet::\lwriteObject",height=0.2,width=0.4,color="red",URL="$a25450.html#ad29090f3bdbff43fd95fa2d856219b5f",tooltip="Write faceZone. "];
+}

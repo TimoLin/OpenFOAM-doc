@@ -1,0 +1,18 @@
+digraph "write"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node346 [label="write",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node346 -> Node347 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node347 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node346 -> Node348 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node348 [label="reaction",height=0.2,width=0.4,color="black",URL="$a38984.html#a31e20dded3aa39de922899a34687efcc"];
+  Node346 -> Node349 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node349 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node346 -> Node350 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node350 [label="Foam::OStringStream::str",height=0.2,width=0.4,color="red",URL="$a26302.html#ae403f14d61d9789a749ee28fc10a50a9",tooltip="Return the string. "];
+  Node346 -> Node352 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node352 [label="Foam::Ostream::writeKeyword",height=0.2,width=0.4,color="red",URL="$a26238.html#a3c58b2bb9174ea3c4a5fa58095d1290e",tooltip="Write the keyword followed by an appropriate indentation. "];
+}

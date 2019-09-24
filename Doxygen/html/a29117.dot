@@ -1,0 +1,17 @@
+digraph "filmRadiationModel"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node0 [label="filmRadiationModel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="filmSubModelBase",height=0.2,width=0.4,color="red",URL="$a29050.html"];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="constantRadiation",height=0.2,width=0.4,color="black",URL="$a29114.html"];
+  Node0 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="noRadiation",height=0.2,width=0.4,color="black",URL="$a29122.html"];
+  Node0 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="primaryRadiation",height=0.2,width=0.4,color="black",URL="$a29126.html"];
+  Node0 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="standardRadiation",height=0.2,width=0.4,color="black",URL="$a29130.html"];
+}

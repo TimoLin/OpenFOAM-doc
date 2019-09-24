@@ -1,0 +1,16 @@
+digraph "setRefinement"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3276 [label="setRefinement",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3276 -> Node3277 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3277 [label="Foam::PrimitivePatch\l::nPoints",height=0.2,width=0.4,color="black",URL="$a27538.html#a1c886a784a597459dbf2d9470798e9dd",tooltip="Return number of points supporting patch faces. "];
+  Node3276 -> Node3278 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3278 [label="setRefinement",height=0.2,width=0.4,color="red",URL="$a21626.html#a9488cb0518f21b76444c508cc9658d64",tooltip="Play commands into polyTopoChange to create layers on top. "];
+  Node3278 -> Node3277 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3278 -> Node3798 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3798 [label="updateMesh",height=0.2,width=0.4,color="red",URL="$a21626.html#a4135904645ee6121424859ea1107833b",tooltip="Update any locally stored mesh information. Gets additional. "];
+  Node3276 -> Node3798 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

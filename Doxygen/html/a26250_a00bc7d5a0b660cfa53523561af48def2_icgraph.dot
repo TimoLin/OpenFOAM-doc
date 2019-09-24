@@ -1,0 +1,35 @@
+digraph "scatter"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1353 [label="scatter",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1353 -> Node1354 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1354 [label="gather",height=0.2,width=0.4,color="black",URL="$a26250.html#ac6bd6ba48aeaba13d01248b080a3fbc9",tooltip="Like above but switches between linear/tree communication. "];
+  Node1353 -> Node1355 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1355 [label="Foam::IOdictionary\l::IOdictionary",height=0.2,width=0.4,color="black",URL="$a26158.html#a668d1ac4fd646613b3a8063bd830a724",tooltip="Construct given an IOobject. "];
+  Node1353 -> Node1356 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1356 [label="Foam::InflationInjection\l::parcelsToInject",height=0.2,width=0.4,color="red",URL="$a24070.html#a4c4730db6620caeb697dfb15e7ed265a",tooltip="Number of parcels to introduce relative to SOI. "];
+  Node1353 -> Node1359 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1359 [label="Pstream",height=0.2,width=0.4,color="black",URL="$a26250.html#a2b31c5d4673e1c7d7366b8b6bf47830d",tooltip="Construct given optional buffer size. "];
+  Node1353 -> Node1360 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1360 [label="Foam::regIOobject::read",height=0.2,width=0.4,color="red",URL="$a26334.html#af816873151ddb0126e98bb2f914d8ed5",tooltip="Read object. "];
+  Node1353 -> Node3419 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3419 [label="Foam::reduce",height=0.2,width=0.4,color="red",URL="$a21124.html#a7ffd6af4acc2eb9ba72ee296b5ecda23"];
+  Node3419 -> Node3860 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3860 [label="Foam::ParSortableList\l::sort",height=0.2,width=0.4,color="red",URL="$a25970.html#a47fdc9eea42b6975cdc835bb2e08810e",tooltip="(stable) sort the list (if changed after construction time) "];
+  Node3419 -> Node3866 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3866 [label="Foam::fileMonitor::\lupdateStates",height=0.2,width=0.4,color="red",URL="$a28526.html#ac38a777da12c7343e8414b4f20c1ce69",tooltip="Check state of all files. Updates state_. "];
+  Node1353 -> Node3869 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3869 [label="scatter",height=0.2,width=0.4,color="black",URL="$a26250.html#a63d91b461287f5aefacfa52d92123a9d",tooltip="Like above but switches between linear/tree communication. "];
+  Node1353 -> Node3870 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3870 [label="Foam::patchInjectionBase\l::setPositionAndCell",height=0.2,width=0.4,color="red",URL="$a24102.html#a2be87394634fdebc9510fbd86c3814d4",tooltip="Set the injection position and owner cell, tetFace and tetPt. "];
+  Node1353 -> Node3860 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1353 -> Node3871 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3871 [label="Foam::sixDoFRigidBodyMotion\l::updateAcceleration",height=0.2,width=0.4,color="red",URL="$a29530.html#a48e7b0a80138d8bc4ee29df4c5505cfa",tooltip="Second leapfrog velocity adjust part. "];
+  Node3871 -> Node3874 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3874 [label="Foam::sixDoFRigidBodyMotion\l::updatePosition",height=0.2,width=0.4,color="red",URL="$a29530.html#a566a8e50dd66f7359a4fe8010cf29e23",tooltip="First leapfrog velocity adjust and motion part, required. "];
+  Node1353 -> Node3874 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1353 -> Node3866 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

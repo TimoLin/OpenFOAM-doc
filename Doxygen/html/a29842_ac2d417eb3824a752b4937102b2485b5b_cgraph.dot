@@ -1,0 +1,20 @@
+digraph "mu"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node897 [label="mu",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node897 -> Node898 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node898 [label="Foam::exp",height=0.2,width=0.4,color="black",URL="$a21124.html#a12bca6c677fcf0977532179c3cb9bb89"];
+  Node897 -> Node899 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node899 [label="K",height=0.2,width=0.4,color="red",URL="$a29842.html#a4682098a47cbd96bf5dea9fbaa302bac",tooltip="Estimate thermal conductivity [W/(m K)]. "];
+  Node899 -> Node901 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node901 [label="Foam::min",height=0.2,width=0.4,color="black",URL="$a21124.html#a253e112ad2d56d96230ff39ea7f442dc"];
+  Node899 -> Node902 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node902 [label="Tc",height=0.2,width=0.4,color="black",URL="$a29842.html#a6ee0ffcf85eb679aed8d0587c8da00c9",tooltip="Calculate the critical temperature of mixture. "];
+  Node897 -> Node904 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node904 [label="Foam::log",height=0.2,width=0.4,color="black",URL="$a21124.html#a6e89590da9859ad497977e08f110d4b5"];
+  Node897 -> Node901 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node897 -> Node902 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

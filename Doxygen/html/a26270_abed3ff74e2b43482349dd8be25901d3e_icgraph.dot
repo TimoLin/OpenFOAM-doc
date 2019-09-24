@@ -1,0 +1,18 @@
+digraph "waitRequests"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node528 [label="waitRequests",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node528 -> Node529 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node529 [label="Foam::mapDistribute\l::compact",height=0.2,width=0.4,color="red",URL="$a27362.html#ae425c08cfe8d1064cfa183af3b1fdfe4",tooltip="Compact maps. Gets per field a bool whether it is used (locally) "];
+  Node528 -> Node532 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node532 [label="Foam::GeometricField\l::GeometricBoundaryField\l::evaluate",height=0.2,width=0.4,color="red",URL="$a26514.html#a640eb3c435abcfe65e13558fc738b915",tooltip="Evaluate boundary conditions. "];
+  Node528 -> Node536 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node536 [label="Foam::Pstream::exchange",height=0.2,width=0.4,color="red",URL="$a26250.html#a2d2ace3cba51ad6d7e3b88d34fa236c3",tooltip="Exchange data. Sends sendData, receives into recvData, sets. "];
+  Node528 -> Node538 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node538 [label="Foam::GAMGProcAgglomeration\l::globalCellCells",height=0.2,width=0.4,color="red",URL="$a26982.html#a59b7daeb97bb6479a59cdeacff965dc5",tooltip="Debug: calculate global cell-cells. "];
+  Node528 -> Node540 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node540 [label="Foam::UPstream::communicator\l::operator label",height=0.2,width=0.4,color="black",URL="$a26282.html#ab5ca17e38345f94ac1e6dcef595c9930"];
+}

@@ -1,0 +1,12 @@
+digraph "precondition"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node19 [label="precondition",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node19 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20 [label="FDICPreconditioner",height=0.2,width=0.4,color="black",URL="$a26910.html#a4605dc1fe3e0bbe5c51abb8ae6525806",tooltip="Construct from matrix components and preconditioner solver controls. "];
+  Node19 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21 [label="~FDICPreconditioner",height=0.2,width=0.4,color="black",URL="$a26910.html#a92a6e614797127fac3824c3e7c9f8578",tooltip="Destructor. "];
+}

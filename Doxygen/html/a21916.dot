@@ -1,0 +1,25 @@
+digraph "porosityModel"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node6 [label="porosityModel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node7 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="regIOobject",height=0.2,width=0.4,color="red",URL="$a26334.html",tooltip="regIOobject is an abstract class derived from IOobject to handle automatic object registration with t..."];
+  Node14 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mesh_" ,fontname="FreeSans"];
+  Node14 [label="fvMesh",height=0.2,width=0.4,color="red",URL="$a22766.html",tooltip="Mesh data needed to do the Finite Volume discretisation. "];
+  Node42 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" coordSys_" ,fontname="FreeSans"];
+  Node42 [label="coordinateSystem",height=0.2,width=0.4,color="black",URL="$a25010.html",tooltip="Base class for other coordinate system specifications. "];
+  Node26 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" coeffs_\ndict_" ,fontname="FreeSans"];
+  Node26 [label="dictionary",height=0.2,width=0.4,color="red",URL="$a26014.html",tooltip="A list of keyword definitions, which are a keyword followed by any number of values (e..."];
+  Node26 -> Node26 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" null" ,fontname="FreeSans"];
+  Node43 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" cellZoneIDs_" ,fontname="FreeSans"];
+  Node43 [label="List\< label \>",height=0.2,width=0.4,color="red",URL="$a25694.html"];
+  Node47 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" zoneName_" ,fontname="FreeSans"];
+  Node47 [label="keyType",height=0.2,width=0.4,color="black",URL="$a28238.html",tooltip="A class for handling keywords in dictionaries. "];
+  Node19 -> Node47 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19 [label="word",height=0.2,width=0.4,color="red",URL="$a28258.html",tooltip="A class for handling words, derived from string. "];
+  Node19 -> Node19 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" null" ,fontname="FreeSans"];
+  Node47 -> Node47 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" null" ,fontname="FreeSans"];
+  Node19 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" name_" ,fontname="FreeSans"];
+}

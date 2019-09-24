@@ -1,0 +1,12 @@
+digraph "stitchFaces"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node262 [label="stitchFaces",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node262 -> Node263 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node263 [label="Foam::MeshedSurface\l\< Foam::face \>::cleanup",height=0.2,width=0.4,color="black",URL="$a29566.html#a71fb3698346366a55da6e64bdf82a89f",tooltip="Remove invalid faces. "];
+  Node262 -> Node264 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node264 [label="Foam::MeshedSurface\l\< Foam::face \>::faces",height=0.2,width=0.4,color="black",URL="$a29566.html#a16c6d36f7c961d037a44e5c235d9aa15",tooltip="Return const access to the faces. "];
+}

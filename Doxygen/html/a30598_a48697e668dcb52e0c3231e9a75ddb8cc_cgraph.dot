@@ -1,0 +1,28 @@
+digraph "markZones"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node832 [label="markZones",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node832 -> Node833 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node833 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node832 -> Node835 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node835 [label="Foam::exit",height=0.2,width=0.4,color="red",URL="$a21124.html#a06ca7250d8e89caf05243ec094843642"];
+  Node832 -> Node880 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node880 [label="markZone",height=0.2,width=0.4,color="red",URL="$a30598.html#a831447aa47e16df42f717c6f527c648b",tooltip="Fill faceZone with currentZone for every face reachable. "];
+  Node880 -> Node832 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node880 -> Node884 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node884 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node832 -> Node886 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node886 [label="Foam::PrimitivePatch\l\< labelledTri, ::Foam\l::List, pointField, point\l \>::nEdges",height=0.2,width=0.4,color="black",URL="$a27538.html#a086513bcff1a3f1684e1a3879dd90deb",tooltip="Return number of edges in patch. "];
+  Node832 -> Node887 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node887 [label="Foam::List::setSize",height=0.2,width=0.4,color="black",URL="$a25694.html#aedb985ffeaf1bdbfeccc2a8730405703",tooltip="Reset size of List. "];
+  Node832 -> Node884 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node832 -> Node888 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node888 [label="Foam::List\< labelledTri\l \>::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a47b3bf30da1eb3ab8076b5fbe00e0494",tooltip="Return the number of elements in the UList. "];
+  Node832 -> Node889 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node889 [label="subsetMeshMap",height=0.2,width=0.4,color="red",URL="$a30598.html#ab98a1f3e0d776683ac546b4a75bdd0aa",tooltip="&#39;Create&#39; sub mesh, including only faces for which "];
+  Node889 -> Node887 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node889 -> Node884 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

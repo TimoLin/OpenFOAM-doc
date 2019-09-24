@@ -1,0 +1,17 @@
+digraph "kOmegaSSTSAS"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node19 [label="kOmegaSSTSAS",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node20 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20 [label="LESModel",height=0.2,width=0.4,color="red",URL="$a30874.html",tooltip="Base class for all incompressible flow LES SGS models. "];
+  Node97 -> Node20 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" kMin_" ,fontname="FreeSans"];
+  Node97 [label="dimensioned\< scalar \>",height=0.2,width=0.4,color="red",URL="$a26366.html"];
+  Node99 -> Node19 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" k_\nnuSgs_\nomega_" ,fontname="FreeSans"];
+  Node99 [label="GeometricField\< scalar,\l fvPatchField, volMesh \>",height=0.2,width=0.4,color="red",URL="$a22434.html"];
+  Node101 -> Node19 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" y_" ,fontname="FreeSans"];
+  Node101 [label="wallDist",height=0.2,width=0.4,color="red",URL="$a22898.html",tooltip="Specialisation of patchDist for wall distance calculation. "];
+  Node97 -> Node19 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" Cmu_\nkappa_\nalphaPhi_\nbetaStar_\na1_\ngamma2_\nomegaMin_\ngamma1_\nzetaTilda2\l_\nc1_\n..." ,fontname="FreeSans"];
+}

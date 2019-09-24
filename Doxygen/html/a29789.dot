@@ -1,0 +1,15 @@
+digraph "basicChemistryModel"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node0 [label="basicChemistryModel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="IOdictionary",height=0.2,width=0.4,color="red",URL="$a26158.html",tooltip="IOdictionary is derived from dictionary and IOobject to give the dictionary automatic IO functionalit..."];
+  Node0 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17 [label="basicSolidChemistryModel",height=0.2,width=0.4,color="black",URL="$a30186.html",tooltip="Chemistry model for solid thermodynamics. "];
+  Node0 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 [label="psiChemistryModel",height=0.2,width=0.4,color="black",URL="$a29798.html",tooltip="Chemistry model for compressibility-based thermodynamics. "];
+  Node0 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19 [label="rhoChemistryModel",height=0.2,width=0.4,color="black",URL="$a29802.html",tooltip="Chemistry model for density-based thermodynamics. "];
+}

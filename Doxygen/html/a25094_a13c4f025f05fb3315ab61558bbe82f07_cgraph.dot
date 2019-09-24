@@ -1,0 +1,21 @@
+digraph "reverseDistribute"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4870 [label="reverseDistribute",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4870 -> Node4871 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4871 [label="AMI",height=0.2,width=0.4,color="red",URL="$a25094.html#ab75adcd6bcdc070558929c1dc61a2233",tooltip="Return reference to the AMI interpolator. "];
+  Node4870 -> Node5188 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5188 [label="Foam::AMIInterpolation\l::interpolateToTarget",height=0.2,width=0.4,color="red",URL="$a24866.html#af50afa88b6f02147062bf2415f997828",tooltip="Interpolate from source to target with supplied op. "];
+  Node4870 -> Node5196 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5196 [label="map",height=0.2,width=0.4,color="red",URL="$a25094.html#a0d1a7c7846db8dd8bd74f9de120d62f6",tooltip="Return reference to the parallel distribution map. "];
+  Node5196 -> Node4871 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4870 -> Node5213 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5213 [label="Foam::mapDistribute\l::reverseDistribute",height=0.2,width=0.4,color="red",URL="$a27362.html#af4843479bbb5ce26fab0dbefd525c410",tooltip="Reverse distribute data using default commsType. "];
+  Node4870 -> Node5215 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5215 [label="sampleSize",height=0.2,width=0.4,color="red",URL="$a25094.html#a7e348da81551c80758c505e5c5140772",tooltip="Return size of mapped mesh/patch/boundary. "];
+  Node4870 -> Node5328 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5328 [label="Foam::List::xfer",height=0.2,width=0.4,color="black",URL="$a25694.html#a48f43ee271fb2edb0fb241b72af0e59c",tooltip="Transfer contents to the Xfer container. "];
+}

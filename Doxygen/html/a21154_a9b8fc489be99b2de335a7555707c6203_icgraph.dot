@@ -1,0 +1,12 @@
+digraph "subSizes"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node113 [label="subSizes",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node113 -> Node114 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node114 [label="Foam::PatchTools::gather\lAndMerge",height=0.2,width=0.4,color="red",URL="$a27526.html#a5bb23f3c6784eb0278a73cd0297be66a",tooltip="Gather points and faces onto master and merge into single patch. "];
+  Node113 -> Node117 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node117 [label="Foam::offsetOp::operator()",height=0.2,width=0.4,color="black",URL="$a25926.html#ae94cd7989fe44c775bea95768a059545"];
+}

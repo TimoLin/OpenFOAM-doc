@@ -1,0 +1,22 @@
+digraph "transfer"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1292 [label="transfer",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1292 -> Node1293 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1293 [label="Foam::MeshedSurface\l::clear",height=0.2,width=0.4,color="black",URL="$a29566.html#ac8bb3912a3ce86b15842e79d0b421204",tooltip="Clear all storage. "];
+  Node1292 -> Node1294 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1294 [label="Foam::MeshedSurface\l::reset",height=0.2,width=0.4,color="black",URL="$a29566.html#a7fec4f956cda53a023535879d7aa7c7c",tooltip="Reset primitive data (points, faces and zones) "];
+  Node1292 -> Node1295 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1295 [label="setZones",height=0.2,width=0.4,color="red",URL="$a29574.html#ace932e14750294b98603488f885b1503",tooltip="Set zone ids and zones. "];
+  Node1292 -> Node1303 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1303 [label="Foam::MeshedSurface\l::storedFaces",height=0.2,width=0.4,color="black",URL="$a29566.html#aba1de32362845ea07612cbb52d6d19f0",tooltip="Non-const access to the faces. "];
+  Node1292 -> Node1304 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1304 [label="Foam::MeshedSurface\l::storedPoints",height=0.2,width=0.4,color="black",URL="$a29566.html#a42d63b7b3dcf589fbe1c4cd2bc8e3d9b",tooltip="Non-const access to global points. "];
+  Node1292 -> Node1305 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1305 [label="Foam::MeshedSurface\l::surfZones",height=0.2,width=0.4,color="black",URL="$a29566.html#a14a75381fb0e82fa2fdf4b3aff01a96a",tooltip="Const access to the surface zones. "];
+  Node1292 -> Node1306 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1306 [label="Foam::xferMove",height=0.2,width=0.4,color="black",URL="$a21124.html#ae3ad39ee5ad896e6d3c0f137ecd12abb"];
+}

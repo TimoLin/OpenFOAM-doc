@@ -1,0 +1,23 @@
+digraph "abort"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node8872 [label="abort",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node8872 -> Node8873 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8873 [label="Foam::JobInfo::abort",height=0.2,width=0.4,color="red",URL="$a26686.html#ac54f53dc342019e8db34f4aa581a5792"];
+  Node8872 -> Node8875 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8875 [label="Foam::UPstream::abort",height=0.2,width=0.4,color="black",URL="$a26270.html#ac54f53dc342019e8db34f4aa581a5792",tooltip="Abort program. "];
+  Node8872 -> Node8876 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8876 [label="Foam::dictionary::add",height=0.2,width=0.4,color="red",URL="$a26014.html#ac2ddcab42322c8d8af5e5830ab4d431b",tooltip="Add a new entry. "];
+  Node8876 -> Node8879 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8879 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node8872 -> Node8879 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8872 -> Node8896 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8896 [label="Foam::UPstream::parRun",height=0.2,width=0.4,color="black",URL="$a26270.html#adbb27f04b5705440fb8b09f278059011",tooltip="Is this a parallel run? "];
+  Node8872 -> Node8897 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8897 [label="printStack",height=0.2,width=0.4,color="black",URL="$a26082.html#a7fb27e884553ce565d0ea6276a111e0e",tooltip="Helper function to print a stack. "];
+  Node8872 -> Node8898 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8898 [label="Foam::OStringStream\l::rewind",height=0.2,width=0.4,color="red",URL="$a26302.html#ab8734e666421c9fe3b6380a818c6c727",tooltip="Rewind the OStringStream. "];
+}

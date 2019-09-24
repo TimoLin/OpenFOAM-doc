@@ -1,0 +1,11 @@
+digraph "lduPrimitiveMesh"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node3 [label="lduPrimitiveMesh",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="lduMesh",height=0.2,width=0.4,color="black",URL="$a27126.html",tooltip="Abstract base class for meshes which provide LDU addressing for the construction of lduMatrix and LDU..."];
+  Node5 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="lduAddressing",height=0.2,width=0.4,color="black",URL="$a26850.html",tooltip="The class contains the addressing required by the lduMatrix: upper, lower and losort. "];
+}

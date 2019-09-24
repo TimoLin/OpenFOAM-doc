@@ -1,0 +1,30 @@
+digraph "correctBoundaryPointCells"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node757 [label="correctBoundaryPointCells",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node757 -> Node758 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node758 [label="Foam::polyMesh::boundaryMesh",height=0.2,width=0.4,color="black",URL="$a27410.html#a9f2b68c134340291eda6197f47f25484",tooltip="Return boundary mesh. "];
+  Node757 -> Node759 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node759 [label="Foam::primitiveMesh\l::cellCentres",height=0.2,width=0.4,color="red",URL="$a27530.html#a7300aee2989c6ec70e39436816461902"];
+  Node757 -> Node820 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node820 [label="Foam::HashTable::found",height=0.2,width=0.4,color="black",URL="$a25702.html#a9a7a02c333e3e98344a1e5b891c4d985",tooltip="Return true if hashedEntry is found in table. "];
+  Node757 -> Node821 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node821 [label="Foam::HashTable::insert",height=0.2,width=0.4,color="black",URL="$a25702.html#a5eee1e0e199ad59b9cb3916cd42156e0",tooltip="Insert a new hashedEntry. "];
+  Node757 -> Node822 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node822 [label="mesh",height=0.2,width=0.4,color="red",URL="$a24958.html#ae78c91f8ff731c07ccc4351d9fe861ba",tooltip="Access mesh. "];
+  Node822 -> Node757 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node822 -> Node833 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node833 [label="smallestDist",height=0.2,width=0.4,color="red",URL="$a24958.html#a42e4d807adb6607b99662c1e5c8ed419",tooltip="Calculate smallest true distance (and face index) "];
+  Node757 -> Node848 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node848 [label="Foam::PrimitivePatch\l::meshPoints",height=0.2,width=0.4,color="black",URL="$a27538.html#a52e3a457780fe74b31d39dc046bce1d8",tooltip="Return labelList of mesh points in patch. They are constructed. "];
+  Node757 -> Node849 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node849 [label="Foam::primitiveMesh\l::pointCells",height=0.2,width=0.4,color="black",URL="$a27530.html#a4397bfc7b201fc2ddfc19b859aca451d"];
+  Node757 -> Node832 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node832 [label="Foam::PrimitivePatch\l::pointFaces",height=0.2,width=0.4,color="black",URL="$a27538.html#acc347dd5dd3557af888ac3dd86d90d22",tooltip="Return point-face addressing. "];
+  Node757 -> Node816 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node816 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node757 -> Node833 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

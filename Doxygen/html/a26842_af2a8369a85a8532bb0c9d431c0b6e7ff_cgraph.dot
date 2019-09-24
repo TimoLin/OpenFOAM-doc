@@ -1,0 +1,30 @@
+digraph "solve"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node74 [label="solve",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node74 -> Node75 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node75 [label="Foam::UList\< Type \>\l::begin",height=0.2,width=0.4,color="black",URL="$a25698.html#a8a0643ef7f391465066f7f07d45ce934",tooltip="Return an iterator to begin traversing the UList. "];
+  Node74 -> Node75 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node74 -> Node76 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node76 [label="beta",height=0.2,width=0.4,color="black",URL="$a39152.html#a8c8c91fc032b25dcc9e3d971fac17272"];
+  Node74 -> Node77 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node77 [label="cmptDivide",height=0.2,width=0.4,color="black",URL="$a12539.html#a915ae010d0c014ade4ca8ba220a95f1d"];
+  Node74 -> Node78 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node78 [label="cmptMag",height=0.2,width=0.4,color="red",URL="$a12539.html#a9180528922650a6b9a3b302e27e621b9"];
+  Node78 -> Node106 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node106 [label="Foam::stabilise",height=0.2,width=0.4,color="red",URL="$a21124.html#a1f3543a73e4e73c68a5d03e4dba703dd"];
+  Node74 -> Node118 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node118 [label="cmptMultiply",height=0.2,width=0.4,color="black",URL="$a12539.html#a0b7a90a451ed16944c48065d667c873e"];
+  Node74 -> Node119 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node119 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node74 -> Node121 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node121 [label="Foam::gSumCmptMag",height=0.2,width=0.4,color="black",URL="$a21124.html#a491c4c718419b5d4d2c535c6fa5bf385"];
+  Node74 -> Node122 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node122 [label="Foam::gSumCmptProd",height=0.2,width=0.4,color="red",URL="$a21124.html#a0fa4576d96a3ebfaa220dae6ea9ae623"];
+  Node74 -> Node128 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node128 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node74 -> Node106 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

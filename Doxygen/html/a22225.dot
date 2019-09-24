@@ -1,0 +1,11 @@
+digraph "pressureInletOutletVelocityFvPatchVectorField"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node0 [label="pressureInletOutletVelocity\lFvPatchVectorField",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="directionMixedFvPatchVector\lField",height=0.2,width=0.4,color="grey75"];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="rotatingPressureInletOutlet\lVelocityFvPatchVectorField",height=0.2,width=0.4,color="black",URL="$a22246.html",tooltip="This velocity inlet/outlet boundary condition is applied to patches in a rotating frame where the pre..."];
+}

@@ -1,0 +1,18 @@
+digraph "radiationCoupledBase"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="radiationCoupledBase",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="MarshakRadiationFixedTemperature\lFvPatchScalarField",height=0.2,width=0.4,color="black",URL="$a30002.html",tooltip="A &#39;mixed&#39; boundary condition that implements a Marshak condition for the incident radiation field (us..."];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="MarshakRadiationFvPatchScalar\lField",height=0.2,width=0.4,color="black",URL="$a29998.html",tooltip="A &#39;mixed&#39; boundary condition that implements a Marshak condition for the incident radiation field (us..."];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="greyDiffusiveRadiationMixed\lFvPatchScalarField",height=0.2,width=0.4,color="black",URL="$a29990.html",tooltip="This boundary condition provides a grey-diffuse condition for radiation intensity, I, for use with the finite-volume discrete-ordinates model (fvDOM), in which the radiation temperature is retrieved from the temperature field boundary condition. "];
+  Node0 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="greyDiffusiveViewFactorFixed\lValueFvPatchScalarField",height=0.2,width=0.4,color="black",URL="$a29994.html",tooltip="This boundary condition provides a grey-diffuse condition for radiative heat flux, Qr, for use with the view factor model. "];
+  Node0 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="wideBandDiffusiveRadiation\lMixedFvPatchScalarField",height=0.2,width=0.4,color="black",URL="$a30010.html",tooltip="This boundary condition provides a wide-band, diffusive radiation condition, where the patch temperat..."];
+}

@@ -1,0 +1,20 @@
+digraph "nTriangles"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node682 [label="nTriangles",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node682 -> Node683 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node683 [label="Foam::boundaryMesh\l::getNTris",height=0.2,width=0.4,color="red",URL="$a21430.html#ab52907085a976b41dedbf27be10de6e9",tooltip="Simple triangulation of face subset. Returns number of triangles. "];
+  Node682 -> Node687 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node687 [label="nTriangles",height=0.2,width=0.4,color="black",URL="$a27218.html#a67aa0f2caf2327a39681b2d592854779",tooltip="Number of triangles after splitting. "];
+  Node682 -> Node688 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node688 [label="Foam::fileFormats::\lSTARCDsurfaceFormat::read",height=0.2,width=0.4,color="red",URL="$a29630.html#a464ebd67acbdff0014d4dae69e3ec4be",tooltip="Read from file. "];
+  Node682 -> Node691 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node691 [label="Foam::boundaryMesh\l::triangulate",height=0.2,width=0.4,color="red",URL="$a21430.html#a4ab09278dde78b929027adabb6ff3fe6",tooltip="Simple triangulation of face subset. TotalNTris is total number. "];
+  Node682 -> Node692 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node692 [label="Foam::triSurfaceTools\l::triangulate",height=0.2,width=0.4,color="red",URL="$a25538.html#abc610083203403b6a9406e6d0206150e",tooltip="Simple triangulation of (selected patches of) boundaryMesh. Needs. "];
+  Node682 -> Node700 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node700 [label="Foam::boundaryMesh\l::triangulateLocal",height=0.2,width=0.4,color="red",URL="$a21430.html#a9260c729f24a2c6f8f7e1aae2a32da2d",tooltip="Same as triangulate but in local vertex numbering. "];
+}

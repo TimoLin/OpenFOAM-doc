@@ -1,0 +1,26 @@
+digraph "sync"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node322 [label="sync",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node322 -> Node323 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node323 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node322 -> Node331 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node331 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node322 -> Node366 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node366 [label="forAllConstIter",height=0.2,width=0.4,color="red",URL="$a38141.html#ae21e2836509b0fa7f7cedf6493b11b09"];
+  Node322 -> Node625 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node625 [label="Foam::HashTable\< nil,\l label, Hash\< label \>\l \>::found",height=0.2,width=0.4,color="black",URL="$a25702.html#a9a7a02c333e3e98344a1e5b891c4d985",tooltip="Return true if hashedEntry is found in table. "];
+  Node322 -> Node626 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node626 [label="Foam::HashSet\< label,\l Hash\< label \> \>::insert",height=0.2,width=0.4,color="black",URL="$a25690.html#a49f0753d9652681fc3a81f59951a0ad7",tooltip="Insert a new entry. "];
+  Node322 -> Node407 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node407 [label="Foam::primitiveMesh\l::nFaces",height=0.2,width=0.4,color="black",URL="$a27530.html#abe602c985a3c9ffa67176e969e77ca6f"];
+  Node322 -> Node627 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node627 [label="Foam::reduce",height=0.2,width=0.4,color="red",URL="$a21124.html#a7ffd6af4acc2eb9ba72ee296b5ecda23"];
+  Node627 -> Node331 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node322 -> Node629 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node629 [label="Foam::syncTools::syncFaceList",height=0.2,width=0.4,color="red",URL="$a27502.html#abed40ebf1b90b365509600f5e7b004b7",tooltip="Synchronize values on all mesh faces. "];
+  Node629 -> Node407 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

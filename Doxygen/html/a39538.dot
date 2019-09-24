@@ -1,0 +1,23 @@
+digraph "src/lagrangian/turbulence/parcels/include/makeParcelTurbulenceDispersionModels.H"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node3 [label="src/lagrangian/turbulence\l/parcels/include/makeParcelTurbulence\lDispersionModels.H",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="src/lagrangian/spray\l/parcels/derived/basicSpray\lParcel/makeBasicSprayParcelSubmodels.C",height=0.2,width=0.4,color="black",URL="$a06671.html"];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="src/lagrangian/Turbulence\l/parcels/derived/basicKinematic\lCollidingParcel/makeBasicKinematicColliding\lParcelSubmodels.C",height=0.2,width=0.4,color="black",URL="$a39479.html"];
+  Node3 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="src/lagrangian/Turbulence\l/parcels/derived/basicKinematic\lMPPICParcel/makeBasicKinematicMPPICParcel\lSubmodels.C",height=0.2,width=0.4,color="black",URL="$a39488.html"];
+  Node3 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="src/lagrangian/turbulence\l/parcels/derived/basicKinematic\lCollidingParcel/makeBasicKinematicColliding\lParcelSubmodels.C",height=0.2,width=0.4,color="black",URL="$a39482.html"];
+  Node3 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="src/lagrangian/turbulence\l/parcels/derived/basicKinematic\lParcel/makeBasicKinematicParcelSubmodels.C",height=0.2,width=0.4,color="black",URL="$a39494.html"];
+  Node3 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="src/lagrangian/turbulence\l/parcels/derived/basicReacting\lMultiphaseParcel/makeBasicReactingMultiphase\lParcelSubmodels.C",height=0.2,width=0.4,color="black",URL="$a39500.html"];
+  Node3 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="src/lagrangian/turbulence\l/parcels/derived/basicReacting\lParcel/makeBasicReactingParcelSubmodels.C",height=0.2,width=0.4,color="black",URL="$a39506.html"];
+  Node3 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="src/lagrangian/turbulence\l/parcels/derived/basicThermoParcel\l/makeBasicThermoParcelSubmodels.C",height=0.2,width=0.4,color="black",URL="$a39512.html"];
+}

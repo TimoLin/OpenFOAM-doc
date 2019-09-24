@@ -1,0 +1,19 @@
+digraph "write"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node340 [label="write",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node340 -> Node341 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node341 [label="Foam::searchableSurfaces\l::checkIntersection",height=0.2,width=0.4,color="red",URL="$a25246.html#ae7d93eca00dfd746fe60a26feb44fbcc",tooltip="Do surfaces self-intersect or intersect others. "];
+  Node340 -> Node348 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node348 [label="endl",height=0.2,width=0.4,color="black",URL="$a26290.html#a0bef5572a56c7db8edc75d96858e5b43",tooltip="Add newline and flush stream. "];
+  Node340 -> Node349 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node349 [label="Foam::prefixOSstream\l::write",height=0.2,width=0.4,color="black",URL="$a26294.html#ab2f5598b4b95c3e980071b92457e8d90",tooltip="Write character. "];
+  Node340 -> Node350 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node350 [label="Foam::OBJstream::write",height=0.2,width=0.4,color="black",URL="$a29606.html#aa580a6ad31323173c08fbdc33e78771c",tooltip="Write string. "];
+  Node340 -> Node351 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node351 [label="Foam::OBJstream::writeQuoted",height=0.2,width=0.4,color="red",URL="$a29606.html#a40c64d7f8975f303da0b0245c16fe906",tooltip="Write std::string surrounded by quotes. "];
+  Node351 -> Node350 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,26 @@
+digraph "lhs"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node835 [label="lhs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node835 -> Node836 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node836 [label="Foam::singleStepReacting\lMixture::calculateqFuel",height=0.2,width=0.4,color="black",URL="$a30154.html#adbb9285ec5651bbb308864af20d1916d",tooltip="Calculate qFuel. "];
+  Node835 -> Node837 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node837 [label="Foam::singleStepReacting\lMixture::fresCorrect",height=0.2,width=0.4,color="red",URL="$a30154.html#a105d3612693f9a241191e881a344b5cf",tooltip="Calculates the residual for all components. "];
+  Node835 -> Node839 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node839 [label="Foam::pyrolysisChemistry\lModel::jacobian",height=0.2,width=0.4,color="red",URL="$a30190.html#afb9c61fc8f348168d75404b1a34ed937",tooltip="Calculate the Jacobian of the system. "];
+  Node835 -> Node843 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node843 [label="Foam::chemistryModel\l::jacobian",height=0.2,width=0.4,color="red",URL="$a29794.html#afb9c61fc8f348168d75404b1a34ed937",tooltip="Calculate the Jacobian of the system. "];
+  Node835 -> Node846 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node846 [label="Foam::pyrolysisChemistry\lModel::omega",height=0.2,width=0.4,color="red",URL="$a30190.html#a531841d577b107b563085b46215c4f72",tooltip="dc/dt = omega, rate of change in concentration, for each species "];
+  Node835 -> Node849 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node849 [label="Foam::chemistryModel\l::omega",height=0.2,width=0.4,color="red",URL="$a29794.html#aec933e661c99de247ac7650a2587b09e",tooltip="dc/dt = omega, rate of change in concentration, for each species "];
+  Node835 -> Node852 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node852 [label="Foam::Reaction::iNew\l::operator()",height=0.2,width=0.4,color="black",URL="$a30338.html#a2bd1dc4328df823d9cd0ed302469b9d9"];
+  Node835 -> Node853 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node853 [label="Foam::EulerImplicit\l::updateRRInReactionI",height=0.2,width=0.4,color="red",URL="$a29810.html#a3c2998f452b2564a5c724b604fe09320"];
+  Node835 -> Node855 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node855 [label="~Reaction",height=0.2,width=0.4,color="black",URL="$a30330.html#ac3b086991383b38bb29c0d07a837745a",tooltip="Destructor. "];
+}

@@ -1,0 +1,14 @@
+digraph "real"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node84 [label="real",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node84 -> Node85 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node85 [label="boundaryPoint",height=0.2,width=0.4,color="red",URL="$a31474.html#a2bafe98635273aed2ccf0720f8c28a03",tooltip="Either master or slave of pointPair. "];
+  Node84 -> Node87 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node87 [label="internalPoint",height=0.2,width=0.4,color="black",URL="$a31474.html#abaab9733e915382c34b89c9b3b764b48",tooltip="Is point internal, i.e. not on boundary. "];
+  Node84 -> Node88 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node88 [label="referred",height=0.2,width=0.4,color="red",URL="$a31474.html#a6745d943eb19a034401bdc428586102a",tooltip="Is this a referred vertex. "];
+}

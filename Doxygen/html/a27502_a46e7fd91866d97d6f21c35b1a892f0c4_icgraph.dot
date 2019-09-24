@@ -1,0 +1,20 @@
+digraph "getMasterFaces"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node10529 [label="getMasterFaces",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node10529 -> Node10530 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10530 [label="Foam::meshRefinement\l::countHits",height=0.2,width=0.4,color="red",URL="$a24662.html#a7cd5ded0ca6d51beecfd87930f375803",tooltip="Count number of intersections (local) "];
+  Node10529 -> Node10536 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10536 [label="Foam::NamedEnum\< direction\lType, 3 \>::names",height=0.2,width=0.4,color="black",URL="$a25998.html#a7350da3a0edd92cd11e6c479c9967dc8"];
+  Node10529 -> Node10537 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10537 [label="Foam::listPlusEqOp\l::operator()",height=0.2,width=0.4,color="black",URL="$a24626.html#a2bca5855a51bffee2f0fe2aacc4aba10"];
+  Node10529 -> Node10538 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10538 [label="Foam::meshRefinement\l::printMeshInfo",height=0.2,width=0.4,color="red",URL="$a24662.html#a5f2793031a24693c73d09dfecd26debb",tooltip="Print some mesh stats. "];
+  Node10529 -> Node10539 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10539 [label="syncEdgePositions",height=0.2,width=0.4,color="black",URL="$a27502.html#a0855467e61ed50e1853e9d586d9c2fc9",tooltip="Synchronize locations on selected edges. "];
+  Node10529 -> Node10540 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10540 [label="Foam::meshRefinement\l::zonify",height=0.2,width=0.4,color="red",URL="$a24662.html#a90cf965dfe02eb20f11a4a8c6035747f",tooltip="Put faces/cells into zones according to surface specification. "];
+}

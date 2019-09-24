@@ -1,0 +1,16 @@
+digraph "clone"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node135 [label="clone",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node135 -> Node136 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node136 [label="read",height=0.2,width=0.4,color="red",URL="$a21398.html#afeed4512a4be2653bc44cb43a1ae0788",tooltip="Update properties from given dictionary. "];
+  Node135 -> Node193 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node193 [label="transformation",height=0.2,width=0.4,color="red",URL="$a21398.html#aa399caab3cd107de02ea674d7d25ed72",tooltip="Return the solid-body motion transformation septernion. "];
+  Node193 -> Node136 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node135 -> Node199 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node199 [label="~oscillatingRotatingMotion",height=0.2,width=0.4,color="black",URL="$a21398.html#acb9af451a2808879fb38bf20d6d8b4bd",tooltip="Destructor. "];
+  Node199 -> Node193 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

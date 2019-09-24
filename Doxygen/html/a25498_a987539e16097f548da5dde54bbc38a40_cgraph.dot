@@ -1,0 +1,23 @@
+digraph "merge"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node193 [label="merge",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node193 -> Node194 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node194 [label="classification",height=0.2,width=0.4,color="red",URL="$a25498.html#aa395f27f47b2d4d0025c6b66419f2d96",tooltip="For every intersection the classification status. "];
+  Node194 -> Node193 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node193 -> Node242 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node242 [label="Foam::PointIndexHit::hit",height=0.2,width=0.4,color="black",URL="$a27566.html#aee8dc30bf27cefe419b15f96e594c155",tooltip="Is there a hit. "];
+  Node193 -> Node243 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node243 [label="Foam::PointIndexHit\l::index",height=0.2,width=0.4,color="black",URL="$a27566.html#a4a438520bb14406481732edc13c119c7",tooltip="Return index. "];
+  Node193 -> Node244 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node244 [label="Foam::UList::operator[]",height=0.2,width=0.4,color="black",URL="$a25698.html#a851e28f7788bbc82f5a4aa9f0efdefe4",tooltip="Return element of UList. "];
+  Node193 -> Node245 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node245 [label="Foam::PointIndexHit\l::rawPoint",height=0.2,width=0.4,color="black",URL="$a27566.html#a479a270e3db1518fd61b8a756455786b",tooltip="Return point with no checking. "];
+  Node193 -> Node246 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node246 [label="Foam::List::setSize",height=0.2,width=0.4,color="black",URL="$a25694.html#aedb985ffeaf1bdbfeccc2a8730405703",tooltip="Reset size of List. "];
+  Node193 -> Node247 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node247 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+}

@@ -1,0 +1,15 @@
+digraph "BinghamPlastic"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node3 [label="BinghamPlastic",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="plastic",height=0.2,width=0.4,color="red",URL="$a31954.html",tooltip="Viscosity correction model for a generic power-law plastic. "];
+  Node38 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" muMax_\nplasticViscosityCoeff\l_\nplasticViscosityExponent_" ,fontname="FreeSans"];
+  Node38 [label="dimensioned\< scalar \>",height=0.2,width=0.4,color="red",URL="$a26366.html"];
+  Node19 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" alpha_" ,fontname="FreeSans"];
+  Node19 [label="GeometricField\< Type,\l PatchField, GeoMesh \>",height=0.2,width=0.4,color="red",URL="$a22434.html",tooltip="Generic GeometricField class. "];
+  Node38 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" yieldStressExponent\l_\nyieldStressCoeff\l_\nyieldStressOffset_" ,fontname="FreeSans"];
+  Node19 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" U_" ,fontname="FreeSans"];
+}

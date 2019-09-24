@@ -1,0 +1,16 @@
+digraph "restrictField"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1632 [label="restrictField",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1632 -> Node1633 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1633 [label="gatherList",height=0.2,width=0.4,color="black",URL="$a26970.html#a7b2d06bbbaf33a1cfe2a06b8c68e7dbc",tooltip="Gather value from all procIDs onto procIDs[0]. "];
+  Node1632 -> Node1634 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1634 [label="nFaces",height=0.2,width=0.4,color="red",URL="$a26970.html#afb7f337f99c970a8e63778e3fddc909c",tooltip="Return number of coarse faces (before processor agglomeration) "];
+  Node1632 -> Node1636 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1636 [label="restrictField",height=0.2,width=0.4,color="black",URL="$a26970.html#af493a2874f62e2e597071012ea42c842",tooltip="Restrict (integrate by summation) cell field. "];
+  Node1632 -> Node1637 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1637 [label="Foam::GAMGSolver::solve",height=0.2,width=0.4,color="black",URL="$a27002.html#ad38597d099f9905e3f399b01af791bcb",tooltip="Solve. "];
+}

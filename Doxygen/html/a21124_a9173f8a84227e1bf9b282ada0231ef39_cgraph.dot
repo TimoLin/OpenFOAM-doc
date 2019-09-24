@@ -1,0 +1,18 @@
+digraph "operator&gt;&gt;"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node124818 [label="operator\>\>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node124818 -> Node124819 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node124819 [label="Foam::IOstream::check",height=0.2,width=0.4,color="red",URL="$a26226.html#a367eb3425fc4e8270e2aa961df8ac8a5",tooltip="Check IOstream status for given operation. "];
+  Node124818 -> Node124868 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node124868 [label="Foam::septernion::r",height=0.2,width=0.4,color="black",URL="$a28182.html#a3f654a0f851ca1874a91504ca2e31ba4"];
+  Node124818 -> Node124869 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node124869 [label="Foam::Istream::readBegin",height=0.2,width=0.4,color="red",URL="$a26234.html#a0f770b511770a752d65282976e8a8078"];
+  Node124818 -> Node124874 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node124874 [label="Foam::Istream::readEnd",height=0.2,width=0.4,color="red",URL="$a26234.html#a092d231ce97840ca80cad9b0e98acbb8"];
+  Node124818 -> Node124875 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node124875 [label="Foam::septernion::t",height=0.2,width=0.4,color="black",URL="$a28182.html#ac90b4495e032d0efeb603179edc4cb8c"];
+}

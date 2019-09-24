@@ -1,0 +1,20 @@
+digraph "checkData"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node15372 [label="checkData",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node15372 -> Node15373 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15373 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node15372 -> Node15375 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15375 [label="Foam::localPointRegion\l::findDuplicateFaces",height=0.2,width=0.4,color="red",URL="$a25198.html#a6a37b082fe46b394cc065a8dfa76f62c",tooltip="Helper routine to find baffles (two boundary faces using the. "];
+  Node15372 -> Node15421 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15421 [label="Foam::identity",height=0.2,width=0.4,color="black",URL="$a21124.html#a36af96cb841435845fffb4fe69208490",tooltip="Create identity map (map[i] == i) of given length. "];
+  Node15372 -> Node15462 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15462 [label="Foam::sqrt",height=0.2,width=0.4,color="red",URL="$a21124.html#a8616bd62eebf2342a80222fecb1bda71"];
+  Node15372 -> Node15463 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15463 [label="Foam::syncTools::swapBoundary\lFaceList",height=0.2,width=0.4,color="red",URL="$a27502.html#a30e4f2ce2c2399c35f5d674bdb7c07fd",tooltip="Swap coupled boundary face values. "];
+  Node15372 -> Node15765 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15765 [label="Foam::syncTools::syncBoundary\lFacePositions",height=0.2,width=0.4,color="red",URL="$a27502.html#a6df81b2bf1cb57d5a6ccc1d8d26b711c",tooltip="Synchronize locations on boundary faces only. "];
+}

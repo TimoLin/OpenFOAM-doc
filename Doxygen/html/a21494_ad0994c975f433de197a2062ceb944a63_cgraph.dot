@@ -1,0 +1,12 @@
+digraph "cutPairToEdge"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1207 [label="cutPairToEdge",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1207 -> Node1208 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1208 [label="Foam::meshTools::findEdge",height=0.2,width=0.4,color="black",URL="$a21153.html#a503ac13f2a78e2ef3c8630ae73a4c0fd",tooltip="Return edge among candidates that uses the two vertices. "];
+  Node1207 -> Node1209 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1209 [label="writeCut",height=0.2,width=0.4,color="red",URL="$a21494.html#ab744e4dd8f405c1378292d3e078a1fa9",tooltip="Write cut description to Ostream. "];
+}

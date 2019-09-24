@@ -1,0 +1,13 @@
+digraph "calcBreakup"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node327 [label="calcBreakup",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node327 -> Node328 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node328 [label="calcAtomization",height=0.2,width=0.4,color="red",URL="$a24534.html#a56afb8fb801bc0e2fc6afa3eb81d2cf2",tooltip="Correct parcel properties according to atomization model. "];
+  Node328 -> Node332 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node332 [label="Foam::SprayParcel::\liNew::operator()",height=0.2,width=0.4,color="black",URL="$a24542.html#a91088952f4c10fdcd976f75ea537a07a"];
+  Node327 -> Node332 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

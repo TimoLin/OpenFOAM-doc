@@ -1,0 +1,21 @@
+digraph "getNormal"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2108 [label="getNormal",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2108 -> Node2109 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2109 [label="Foam::PrimitivePatch\l\< labelledTri, ::Foam\l::List, pointField, point\l \>::faceFaces",height=0.2,width=0.4,color="black",URL="$a27538.html#abd7a81405cdb7d3f6498da071746eb07",tooltip="Return face-face addressing. "];
+  Node2108 -> Node2109 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2108 -> Node2110 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2110 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node2108 -> Node2111 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2111 [label="Foam::PrimitivePatch\l::points",height=0.2,width=0.4,color="black",URL="$a27538.html#aa3c7d968f31c88780c663876f64ef6a6",tooltip="Return reference to global points. "];
+  Node2108 -> Node2112 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2112 [label="s",height=0.2,width=0.4,color="black",URL="$a18905.html#abb9c4233033fad2ad0206cd4adad3b9f"];
+  Node2108 -> Node2113 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2113 [label="Foam::List::setSize",height=0.2,width=0.4,color="black",URL="$a25694.html#aedb985ffeaf1bdbfeccc2a8730405703",tooltip="Reset size of List. "];
+  Node2108 -> Node2114 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2114 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+}

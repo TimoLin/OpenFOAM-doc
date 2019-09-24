@@ -1,0 +1,13 @@
+digraph "findLineAny"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node92 [label="findLineAny",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node92 -> Node93 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node93 [label="findLine",height=0.2,width=0.4,color="red",URL="$a25230.html#a2a363a8584a3ae8109cce2aaf6436e3f",tooltip="Find first intersection on segment from start to end. "];
+  Node93 -> Node95 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node95 [label="points",height=0.2,width=0.4,color="black",URL="$a25230.html#a7250c0b678d27efa1e0c3cf379827d92",tooltip="Get the points that define the surface. "];
+  Node92 -> Node95 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

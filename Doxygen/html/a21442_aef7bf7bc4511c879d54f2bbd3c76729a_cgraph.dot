@@ -1,0 +1,43 @@
+digraph "setRefinement"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node327 [label="setRefinement",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node327 -> Node328 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node328 [label="Foam::polyTopoChange\l::addCell",height=0.2,width=0.4,color="red",URL="$a21678.html#a64863b3faff2ec96128c3ad3b1bbe08e",tooltip="Add cell. Return new cell label. "];
+  Node328 -> Node329 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node329 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node328 -> Node330 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node330 [label="Foam::DynamicList::\lappend",height=0.2,width=0.4,color="black",URL="$a25890.html#a7b67b42af715604376ad63a681dee6d8",tooltip="Append an element at the end of the list. "];
+  Node327 -> Node333 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node333 [label="Foam::polyTopoChange\l::addFace",height=0.2,width=0.4,color="red",URL="$a21678.html#aa4403c8bc86c5f108a55465c5f62d90c",tooltip="Add face to cells. Return new face label. "];
+  Node333 -> Node330 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node327 -> Node346 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node346 [label="Foam::polyTopoChange\l::addPoint",height=0.2,width=0.4,color="red",URL="$a21678.html#a8f193762de4dd6a4d0d5c7b6184fcf73",tooltip="Add point. Return new point label. "];
+  Node346 -> Node329 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node346 -> Node330 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node327 -> Node330 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node327 -> Node396 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node396 [label="Foam::exit",height=0.2,width=0.4,color="red",URL="$a21124.html#a06ca7250d8e89caf05243ec094843642"];
+  Node327 -> Node335 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node335 [label="f",height=0.2,width=0.4,color="black",URL="$a17900.html#a888be93833ac7a23170555c69c690288"];
+  Node327 -> Node400 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node400 [label="Foam::UList::fcIndex",height=0.2,width=0.4,color="black",URL="$a25698.html#a512534dbc231b74b95ff84902c1b2087",tooltip="Return the forward circular index, i.e. the next index. "];
+  Node327 -> Node401 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node401 [label="Foam::findIndex",height=0.2,width=0.4,color="black",URL="$a21124.html#ac16695f83f370df159eed19f92d095fb",tooltip="Find first occurence of given element and return index,. "];
+  Node327 -> Node402 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node402 [label="Foam::UList::last",height=0.2,width=0.4,color="black",URL="$a25698.html#aef07c02ea1c27bdb5906043b399e0ff0",tooltip="Return the last element of the list. "];
+  Node327 -> Node403 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node403 [label="Foam::UList::rcIndex",height=0.2,width=0.4,color="black",URL="$a25698.html#a286b66c68007df4532de24354ec487cb",tooltip="Return the reverse circular index, i.e. the previous index. "];
+  Node327 -> Node404 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node404 [label="Foam::face::reverseFace",height=0.2,width=0.4,color="red",URL="$a27218.html#ab5c32a8cb05d22c7e1e6f104362cbdc2",tooltip="Return face with reverse direction. "];
+  Node404 -> Node335 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node404 -> Node329 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node327 -> Node329 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node327 -> Node408 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node408 [label="Foam::VectorSpace::size",height=0.2,width=0.4,color="black",URL="$a28490.html#a9facbf0a118d395c89884e45a5ca4e4b",tooltip="Return the number of elements in the VectorSpace = nCmpt. "];
+  Node327 -> Node409 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node409 [label="Foam::Swap",height=0.2,width=0.4,color="red",URL="$a21124.html#ac6e6a40a7bda559df02d5ab6cc6f7e00"];
+}

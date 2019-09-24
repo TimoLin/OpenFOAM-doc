@@ -1,0 +1,12 @@
+digraph "applications/solvers/multiphase/twoPhaseEulerFoam/phaseCompressibleTurbulenceModels/kineticTheoryModels/conductivityModel/HrenyaSinclair" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="FreeSans"];
+  edge [ labelfontsize="10", labelfontname="FreeSans"];
+  subgraph clusterdir_ba321717d448fd8e54ed59d33003675b {
+    graph [ bgcolor="#ddddee", pencolor="black", label="conductivityModel" fontname="FreeSans", fontsize="10", URL="dir_ba321717d448fd8e54ed59d33003675b.html"]
+  dir_0270d6547ad436b798a37289a7e8f8a1 [shape=box, label="HrenyaSinclair", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_0270d6547ad436b798a37289a7e8f8a1.html"];
+  }
+  dir_f9cdb259ae9ed700b3494ad660c24205 [shape=box label="conductivityModel" URL="dir_f9cdb259ae9ed700b3494ad660c24205.html"];
+  dir_0270d6547ad436b798a37289a7e8f8a1->dir_f9cdb259ae9ed700b3494ad660c24205 [headlabel="1", labeldistance=1.5 headhref="dir_000242_000240.html"];
+}

@@ -1,0 +1,18 @@
+digraph "checkGeometry"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1547 [label="checkGeometry",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1547 -> Node1548 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1548 [label="checkIntersection",height=0.2,width=0.4,color="red",URL="$a25246.html#ae7d93eca00dfd746fe60a26feb44fbcc",tooltip="Do surfaces self-intersect or intersect others. "];
+  Node1548 -> Node1549 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1549 [label="checkQuality",height=0.2,width=0.4,color="red",URL="$a25246.html#a050736b9e23fd025c636d8a0f6be936d",tooltip="Check triangle quality. "];
+  Node1547 -> Node1549 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1547 -> Node1647 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1647 [label="checkSizes",height=0.2,width=0.4,color="red",URL="$a25246.html#a6fc4bfd72ec36b321f1227370141d07c",tooltip="Are all bounding boxes of similar size. "];
+  Node1647 -> Node1548 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1547 -> Node1667 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1667 [label="writeStats",height=0.2,width=0.4,color="red",URL="$a25246.html#a9dd03ce1c730a8e2cd76aa6ce7937c88",tooltip="Write some stats. "];
+}

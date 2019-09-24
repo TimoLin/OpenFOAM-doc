@@ -1,0 +1,33 @@
+digraph "checkFacePyramids"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node320 [label="checkFacePyramids",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node320 -> Node321 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node321 [label="Foam::primitiveMesh\l::cells",height=0.2,width=0.4,color="black",URL="$a27530.html#af19bf800d725a623c7b1d0101d65e7d3"];
+  Node320 -> Node322 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node322 [label="checkFaceSkewness",height=0.2,width=0.4,color="red",URL="$a25146.html#a2c5229035a955dd2719a447f55181f79"];
+  Node322 -> Node323 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node323 [label="Foam::primitiveMesh\l::faceOwner",height=0.2,width=0.4,color="black",URL="$a27530.html#a95a88187f795e30779aa3bac679d9bfc",tooltip="Face face-owner addresing. "];
+  Node322 -> Node324 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node324 [label="Foam::primitiveMesh\l::faceNeighbour",height=0.2,width=0.4,color="black",URL="$a27530.html#acd9489a2ac1ec02451fef1f415386694",tooltip="Face face-neighbour addressing. "];
+  Node322 -> Node325 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node325 [label="Foam::primitiveMesh\l::isInternalFace",height=0.2,width=0.4,color="red",URL="$a27530.html#ae3e48ad9ec4c5132ec7d3d702ad17c9e",tooltip="Return true if given face label is internal to the mesh. "];
+  Node322 -> Node328 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node328 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node322 -> Node330 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node330 [label="Foam::HashSet::insert",height=0.2,width=0.4,color="black",URL="$a25690.html#a49f0753d9652681fc3a81f59951a0ad7",tooltip="Insert a new entry. "];
+  Node322 -> Node331 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node331 [label="Foam::reduce",height=0.2,width=0.4,color="red",URL="$a21124.html#a7ffd6af4acc2eb9ba72ee296b5ecda23"];
+  Node331 -> Node328 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node320 -> Node328 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node320 -> Node324 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node320 -> Node323 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node320 -> Node393 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node393 [label="Foam::primitiveMesh\l::faces",height=0.2,width=0.4,color="black",URL="$a27530.html#a3669b3b29537f3a55bbd2ffa8c749f41",tooltip="Return faces. "];
+  Node320 -> Node330 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node320 -> Node325 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node320 -> Node331 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

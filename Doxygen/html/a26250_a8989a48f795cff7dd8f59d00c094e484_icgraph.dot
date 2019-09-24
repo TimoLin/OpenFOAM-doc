@@ -1,0 +1,18 @@
+digraph "mapCombineScatter"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4195 [label="mapCombineScatter",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4195 -> Node4196 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4196 [label="Foam::extrudePatchMesh\l::extrudePatchMesh",height=0.2,width=0.4,color="red",URL="$a21446.html#ada5aee048de4d025b44660aca99d21a6",tooltip="Construct from mesh, patch and dictionary. "];
+  Node4195 -> Node4198 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4198 [label="mapCombineGather",height=0.2,width=0.4,color="black",URL="$a26250.html#a73619efeb9418b7aafe5b1b86c6d436c",tooltip="Like above but switches between linear/tree communication. "];
+  Node4195 -> Node4199 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4199 [label="Foam::ListPlusEqOp\l::operator()",height=0.2,width=0.4,color="black",URL="$a28762.html#a33f59e84c60f75110e784d87fe239ad9"];
+  Node4195 -> Node4200 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4200 [label="Pstream",height=0.2,width=0.4,color="black",URL="$a26250.html#a2b31c5d4673e1c7d7366b8b6bf47830d",tooltip="Construct given optional buffer size. "];
+  Node4195 -> Node4201 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4201 [label="Foam::meshRefinement\l::zonify",height=0.2,width=0.4,color="red",URL="$a24662.html#a90cf965dfe02eb20f11a4a8c6035747f",tooltip="Put faces/cells into zones according to surface specification. "];
+}

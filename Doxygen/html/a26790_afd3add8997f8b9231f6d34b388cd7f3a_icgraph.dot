@@ -1,0 +1,22 @@
+digraph "diag"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node247 [label="diag",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node247 -> Node248 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node248 [label="interfaces",height=0.2,width=0.4,color="black",URL="$a26790.html#a3bc837bc8fa422e71f82026c5c2eeccb",tooltip="Return interfaces. "];
+  Node247 -> Node249 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node249 [label="interfacesLower",height=0.2,width=0.4,color="black",URL="$a26790.html#a8bdc243b4fb8710b30d82f14dcae1e1c"];
+  Node247 -> Node250 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node250 [label="operator+=",height=0.2,width=0.4,color="red",URL="$a26790.html#a67cb5e721083def89a8775562081caeb"];
+  Node247 -> Node252 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node252 [label="operator-=",height=0.2,width=0.4,color="red",URL="$a26790.html#ade231ee3b05d977629dbaeeb2c538dae"];
+  Node247 -> Node256 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node256 [label="operator=",height=0.2,width=0.4,color="red",URL="$a26790.html#a855e48a9b4e9d4ea44f93b8120b41905"];
+  Node247 -> Node257 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node257 [label="Foam::fvMatrix::solveCoupled",height=0.2,width=0.4,color="red",URL="$a22358.html#a5daac6452de122aa2ce063b6b6c9533e",tooltip="Solve coupled returning the solution statistics. "];
+  Node247 -> Node282 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node282 [label="Foam::TGaussSeidelSmoother\l::TGaussSeidelSmoother",height=0.2,width=0.4,color="black",URL="$a26826.html#a37d1e9ced3ff8cc76ec3c4855784cc83",tooltip="Construct from components. "];
+}

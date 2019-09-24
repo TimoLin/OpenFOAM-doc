@@ -1,0 +1,23 @@
+digraph "setRefinement"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node997 [label="setRefinement",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node997 -> Node998 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node998 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node997 -> Node1006 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1006 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node997 -> Node1041 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1041 [label="forAllConstIter",height=0.2,width=0.4,color="red",URL="$a38141.html#ae21e2836509b0fa7f7cedf6493b11b09"];
+  Node997 -> Node1300 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1300 [label="Foam::splitCell::master",height=0.2,width=0.4,color="black",URL="$a21526.html#adf99d02ddc54029c5cebd866bc08707f"];
+  Node997 -> Node1301 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1301 [label="Foam::meshCutter::setRefinement",height=0.2,width=0.4,color="red",URL="$a21506.html#ad6964ecaeb84631835d8a4e51bf706bb",tooltip="Do actual cutting with cut description. Inserts mesh changes. "];
+  Node1301 -> Node998 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1301 -> Node1006 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1301 -> Node1041 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node997 -> Node1458 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1458 [label="Foam::splitCell::slave",height=0.2,width=0.4,color="black",URL="$a21526.html#a4679eec6c6326685c8d1479b8c15b3af"];
+}

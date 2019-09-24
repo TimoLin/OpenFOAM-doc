@@ -1,0 +1,13 @@
+digraph "valueBoundaryCoeffs"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1807 [label="valueBoundaryCoeffs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1807 -> Node1808 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1808 [label="Foam::fv::gaussConvection\lScheme::fvmDiv",height=0.2,width=0.4,color="red",URL="$a22446.html#ad6edbed7fbf0c42fcc63dee2f3ee3bf3"];
+  Node1807 -> Node1818 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1818 [label="valueInternalCoeffs",height=0.2,width=0.4,color="red",URL="$a22354.html#ade43d20070e7548fd31e535b2dbd4e26",tooltip="Return the matrix diagonal coefficients corresponding to the. "];
+  Node1818 -> Node1808 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

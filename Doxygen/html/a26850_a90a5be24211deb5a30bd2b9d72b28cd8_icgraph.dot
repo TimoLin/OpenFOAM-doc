@@ -1,0 +1,14 @@
+digraph "band"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4863 [label="band",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4863 -> Node4864 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4864 [label="Foam::GAMGAgglomeration\l::compactLevels",height=0.2,width=0.4,color="black",URL="$a26970.html#a7aa50f494f31bbb03ef092eeedd906e0",tooltip="Shrink the number of levels to that specified. "];
+  Node4863 -> Node4865 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4865 [label="size",height=0.2,width=0.4,color="red",URL="$a26850.html#a9facbf0a118d395c89884e45a5ca4e4b",tooltip="Return number of equations. "];
+  Node4865 -> Node4863 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4865 -> Node4864 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

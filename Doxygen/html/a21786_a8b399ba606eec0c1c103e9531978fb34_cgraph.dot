@@ -1,0 +1,14 @@
+digraph "read"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node976 [label="read",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node976 -> Node977 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node977 [label="nearestFeaturePoint",height=0.2,width=0.4,color="red",URL="$a21786.html#a55b8ec81be05317e524b6d479ffe8a57",tooltip="Find nearest surface edge for the sample point. "];
+  Node976 -> Node987 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node987 [label="New",height=0.2,width=0.4,color="red",URL="$a21786.html#a7ad7ee2e1c5238174a96cf5dda600869",tooltip="Select constructed from filename (explicit extension) "];
+  Node976 -> Node1038 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1038 [label="transfer",height=0.2,width=0.4,color="red",URL="$a21786.html#ae0104bc5f053dfff5ca90aa974c74e46",tooltip="Transfer the contents of the argument and annul the argument. "];
+}

@@ -1,0 +1,19 @@
+digraph "inv"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node41038 [label="inv",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node41038 -> Node41039 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node41039 [label="Foam::dimensioned::\ldimensions",height=0.2,width=0.4,color="black",URL="$a26366.html#a512673c2674ca2d38885f1bb5f6994fb",tooltip="Return const reference to dimensions. "];
+  Node41038 -> Node41040 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node41040 [label="inv",height=0.2,width=0.4,color="black",URL="$a21124.html#ac51979edadae5b8ade119dd30b88e381"];
+  Node41040 -> Node41039 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node41040 -> Node41041 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node41041 [label="Foam::dimensioned::name",height=0.2,width=0.4,color="black",URL="$a26366.html#ade4113569ef0db70665fded275a5e38e",tooltip="Return const reference to name. "];
+  Node41040 -> Node41042 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node41042 [label="Foam::dimensioned::\lvalue",height=0.2,width=0.4,color="black",URL="$a26366.html#a7948200a26c85fc3a83ffa510a91d668",tooltip="Return const reference to value. "];
+  Node41038 -> Node41041 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node41038 -> Node41042 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

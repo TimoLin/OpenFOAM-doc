@@ -1,0 +1,13 @@
+digraph "subsetMatchingStrings"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node126304 [label="subsetMatchingStrings",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node126304 -> Node126305 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node126305 [label="findStrings",height=0.2,width=0.4,color="black",URL="$a21124.html#a01c11ec8848e5d7089044e6c5fdb1c1b",tooltip="Return list indices for strings matching one of the regular expression. "];
+  Node126304 -> Node126306 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node126306 [label="subsetStrings",height=0.2,width=0.4,color="red",URL="$a21124.html#a5a46554aee491a72b7261cd81220d121",tooltip="Extract elements of StringList when regular expression matches. "];
+  Node126306 -> Node126305 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

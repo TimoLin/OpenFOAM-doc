@@ -1,0 +1,12 @@
+digraph "matrix"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1362 [label="matrix",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1362 -> Node1363 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1363 [label="Foam::LduMatrix::preconditioner::New",height=0.2,width=0.4,color="black",URL="$a26802.html#a4257276d926b070fe4114b5eb4fbd8f0",tooltip="Return a new preconditioner. "];
+  Node1362 -> Node1364 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1364 [label="Foam::TDILUPreconditioner\l::TDILUPreconditioner",height=0.2,width=0.4,color="black",URL="$a26818.html#a83033f343d8a210d84737857afb069b8",tooltip="Construct from matrix components and preconditioner data dictionary. "];
+}

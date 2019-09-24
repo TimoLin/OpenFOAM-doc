@@ -1,0 +1,13 @@
+digraph "faces"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node935 [label="faces",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node935 -> Node936 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node936 [label="Foam::searchableBox\l::boundingSpheres",height=0.2,width=0.4,color="red",URL="$a25210.html#a4f9baf018af105a4cd6d9c008d4d04ec",tooltip="Get bounding spheres (centre and radius squared), one per element. "];
+  Node936 -> Node937 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node937 [label="Foam::searchableBox\l::coordinates",height=0.2,width=0.4,color="red",URL="$a25210.html#ad938704f9b1700904bb272de893ceacb",tooltip="Get representative set of element coordinates. "];
+  Node935 -> Node937 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,24 @@
+digraph "centre"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node88 [label="centre",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node88 -> Node89 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node89 [label="Foam::searchableBox\l::boundingSpheres",height=0.2,width=0.4,color="red",URL="$a25210.html#a4f9baf018af105a4cd6d9c008d4d04ec",tooltip="Get bounding spheres (centre and radius squared), one per element. "];
+  Node88 -> Node92 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node92 [label="Foam::edgeCollapser\l::checkMeshQuality",height=0.2,width=0.4,color="red",URL="$a21642.html#a05c592dbdbe3fcc0728c2595750b5982",tooltip="Check mesh and mark points on faces in error. "];
+  Node88 -> Node96 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node96 [label="Foam::AMIMethod::findTargetFace",height=0.2,width=0.4,color="red",URL="$a24870.html#a43b6d134aa3d46cfb850ae0fa61e7c35",tooltip="Find face on target patch that overlaps source face. "];
+  Node88 -> Node98 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node98 [label="Foam::hexRef8::getAnchor\lLevel",height=0.2,width=0.4,color="red",URL="$a21654.html#aed49cb175362b037d69517422f320332",tooltip="Gets level such that the face has four points <= level. "];
+  Node88 -> Node105 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node105 [label="inertia",height=0.2,width=0.4,color="black",URL="$a27218.html#a44e64cc9697e6babe8b9ad184a78b888",tooltip="Return the inertia tensor, with optional reference. "];
+  Node105 -> Node92 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node105 -> Node106 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node106 [label="sweptVol",height=0.2,width=0.4,color="red",URL="$a27218.html#a743d10838ee312b92583a77350a95831",tooltip="Return the volume swept out by the face when its points move. "];
+  Node88 -> Node108 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node108 [label="Foam::cellCuts::nonAnchor\lPoints",height=0.2,width=0.4,color="red",URL="$a21466.html#a99cdc1288c329f2654ead522706957a6",tooltip="Invert anchor point selection. "];
+  Node88 -> Node106 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

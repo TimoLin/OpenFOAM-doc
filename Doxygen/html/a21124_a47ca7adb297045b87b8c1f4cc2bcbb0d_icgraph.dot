@@ -1,0 +1,16 @@
+digraph "dec"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node21292 [label="dec",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node21292 -> Node21293 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21293 [label="hex",height=0.2,width=0.4,color="red",URL="$a21124.html#a4ddae43d14dd72d6b0cd9ab61fe4e04e"];
+  Node21293 -> Node21292 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21293 -> Node21297 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21297 [label="oct",height=0.2,width=0.4,color="black",URL="$a21124.html#aef540d5f46887a996e357801f6faa1d0"];
+  Node21297 -> Node21292 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21297 -> Node21293 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21292 -> Node21297 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

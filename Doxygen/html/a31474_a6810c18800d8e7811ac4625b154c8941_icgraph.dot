@@ -1,0 +1,14 @@
+digraph "farPoint"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node62 [label="farPoint",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node62 -> Node63 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node63 [label="boundaryPoint",height=0.2,width=0.4,color="red",URL="$a31474.html#a2bafe98635273aed2ccf0720f8c28a03",tooltip="Either master or slave of pointPair. "];
+  Node62 -> Node70 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node70 [label="indexedVertex",height=0.2,width=0.4,color="black",URL="$a31474.html#a96525bdaca046dce8fd23e590e9879c2"];
+  Node62 -> Node67 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node67 [label="CGAL::outsideTriangle",height=0.2,width=0.4,color="red",URL="$a21190.html#a027305b1a258485626ff91d4c7c7e525"];
+}

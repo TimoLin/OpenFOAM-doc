@@ -1,0 +1,22 @@
+digraph "applications/utilities/mesh/generation/foamyHexMesh" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="FreeSans"];
+  edge [ labelfontsize="10", labelfontname="FreeSans"];
+  subgraph clusterdir_5e38c77784c29cb5c03b448ec3140896 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="generation" fontname="FreeSans", fontsize="10", URL="dir_5e38c77784c29cb5c03b448ec3140896.html"]
+  subgraph clusterdir_d1549911749a6d7bed80ad83f4306cbb {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_d1549911749a6d7bed80ad83f4306cbb.html"];
+    dir_d1549911749a6d7bed80ad83f4306cbb [shape=plaintext label="foamyHexMesh"];
+    dir_8bcc55b9a6e52343776835f31ddba9d3 [shape=box label="cellSizeAndAlignmentGrid" color="black" fillcolor="white" style="filled" URL="dir_8bcc55b9a6e52343776835f31ddba9d3.html"];
+    dir_a00a19acf326fc72ff321e146413b4fa [shape=box label="conformalVoronoiMesh" color="red" fillcolor="white" style="filled" URL="dir_a00a19acf326fc72ff321e146413b4fa.html"];
+    dir_ddccccb6f23b5a4e672259ef76712b50 [shape=box label="foamyHexMeshBackgroundMesh" color="black" fillcolor="white" style="filled" URL="dir_ddccccb6f23b5a4e672259ef76712b50.html"];
+    dir_1ecf9f773bca41b40fb40603f524ed50 [shape=box label="foamyHexMeshSurfaceSimplify" color="black" fillcolor="white" style="filled" URL="dir_1ecf9f773bca41b40fb40603f524ed50.html"];
+    dir_ed828fcc44bb437c7aa324596c94f9ea [shape=box label="vectorTools" color="black" fillcolor="white" style="filled" URL="dir_ed828fcc44bb437c7aa324596c94f9ea.html"];
+  }
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_a00a19acf326fc72ff321e146413b4fa->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="164", labeldistance=1.5 headhref="dir_000349_000577.html"];
+  dir_a00a19acf326fc72ff321e146413b4fa->dir_ed828fcc44bb437c7aa324596c94f9ea [headlabel="1", labeldistance=1.5 headhref="dir_000349_000405.html"];
+  dir_ed828fcc44bb437c7aa324596c94f9ea->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="2", labeldistance=1.5 headhref="dir_000405_000577.html"];
+}

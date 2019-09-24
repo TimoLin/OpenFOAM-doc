@@ -1,0 +1,14 @@
+digraph "compressibleTurbulenceModel"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="compressibleTurbulenceModel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="turbulenceModel",height=0.2,width=0.4,color="red",URL="$a31314.html",tooltip="Abstract base class for turbulence models (RAS, LES and laminar). "];
+  Node0 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 [label="TurbulenceModel\< geometric\lOneField, volScalarField,\l compressibleTurbulenceModel,\l TransportModel \>",height=0.2,width=0.4,color="red",URL="$a31310.html"];
+  Node0 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20 [label="TurbulenceModel\< volScalar\lField, volScalarField,\l compressibleTurbulenceModel,\l TransportModel \>",height=0.2,width=0.4,color="red",URL="$a31310.html"];
+}

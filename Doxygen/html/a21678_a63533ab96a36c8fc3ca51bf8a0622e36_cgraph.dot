@@ -1,0 +1,16 @@
+digraph "setCapacity"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1168 [label="setCapacity",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1168 -> Node1169 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1169 [label="Foam::HashTable::resize",height=0.2,width=0.4,color="black",URL="$a25702.html#ae697ea15032f01f89988bb8ada677832",tooltip="Resize the hash table for efficiency. "];
+  Node1168 -> Node1170 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1170 [label="Foam::DynamicList::\lsetCapacity",height=0.2,width=0.4,color="black",URL="$a25890.html#a3769bf93f15609625d62b693c566bcd1",tooltip="Alter the size of the underlying storage. "];
+  Node1168 -> Node1171 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1171 [label="Foam::PackedList::setCapacity",height=0.2,width=0.4,color="black",URL="$a25938.html#a3769bf93f15609625d62b693c566bcd1",tooltip="Alter the size of the underlying storage. "];
+  Node1168 -> Node1172 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1172 [label="Foam::HashTable::size",height=0.2,width=0.4,color="black",URL="$a25702.html#a47b3bf30da1eb3ab8076b5fbe00e0494",tooltip="Return number of elements in table. "];
+}

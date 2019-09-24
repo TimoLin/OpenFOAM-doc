@@ -1,0 +1,16 @@
+digraph "LiquidEvaporation&lt; CloudType &gt;"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4 [label="LiquidEvaporation\<\l CloudType \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="PhaseChangeModel\< CloudType \>",height=0.2,width=0.4,color="red",URL="$a23810.html",tooltip="Templated phase change model class. "];
+  Node46 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" liqToLiqMap_\nliqToCarrierMap_" ,fontname="FreeSans"];
+  Node46 [label="List\< label \>",height=0.2,width=0.4,color="red",URL="$a25694.html"];
+  Node48 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" activeLiquids_" ,fontname="FreeSans"];
+  Node48 [label="List\< Foam::word \>",height=0.2,width=0.4,color="red",URL="$a25694.html"];
+  Node50 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" liquids_" ,fontname="FreeSans"];
+  Node50 [label="liquidMixtureProperties",height=0.2,width=0.4,color="black",URL="$a29842.html",tooltip="A mixture of liquids. "];
+}

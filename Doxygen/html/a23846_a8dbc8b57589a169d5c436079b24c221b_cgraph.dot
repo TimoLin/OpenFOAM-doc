@@ -1,0 +1,17 @@
+digraph "clone"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node17 [label="clone",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node17 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 [label="beta",height=0.2,width=0.4,color="black",URL="$a39152.html#a8c8c91fc032b25dcc9e3d971fac17272"];
+  Node17 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19 [label="integrate",height=0.2,width=0.4,color="red",URL="$a23846.html#ae187f49a29e06fd203ac71d19583d280",tooltip="Perform the Integration. "];
+  Node17 -> Node22 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22 [label="New",height=0.2,width=0.4,color="red",URL="$a23846.html#a9f830978b1ce7e8a5cf706c1ef813174",tooltip="Return a reference to the selected radiation model. "];
+  Node17 -> Node325 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node325 [label="~IntegrationScheme",height=0.2,width=0.4,color="black",URL="$a23846.html#ab299c1c6356a6e701996adf6d05362f7",tooltip="Destructor. "];
+  Node325 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

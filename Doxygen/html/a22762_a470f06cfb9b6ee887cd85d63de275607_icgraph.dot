@@ -1,0 +1,33 @@
+digraph "mesh"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node76 [label="mesh",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node76 -> Node77 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node77 [label="Foam::fvPatch::Cf",height=0.2,width=0.4,color="red",URL="$a22870.html#accde3bfd6f67a9d6a201edbcbbe12a19",tooltip="Return face centres. "];
+  Node76 -> Node86 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node86 [label="Foam::fvPatch::Cn",height=0.2,width=0.4,color="red",URL="$a22870.html#a6644397238b36a49d0caf58d1d88e18d",tooltip="Return neighbour cell centres. "];
+  Node76 -> Node87 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node87 [label="Foam::fvPatch::deltaCoeffs",height=0.2,width=0.4,color="red",URL="$a22870.html#ae7fa6a37605868b9c425d10de6415f00",tooltip="Return the face - cell distance coeffient. "];
+  Node87 -> Node90 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node90 [label="Foam::totalFlowRateAdvective\lDiffusiveFvPatchScalarField\l::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a30794.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node76 -> Node98 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node98 [label="findIndices",height=0.2,width=0.4,color="red",URL="$a22762.html#a7e25dcc6f712ea6db122dd707dea9569",tooltip="Find patch indices given a name. "];
+  Node98 -> Node76 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node76 -> Node118 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node118 [label="Foam::fvPatch::magSf",height=0.2,width=0.4,color="red",URL="$a22870.html#a9a7c95d3e0cb6fd08cd82a30b92ec106",tooltip="Return face area magnitudes. "];
+  Node118 -> Node90 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node76 -> Node138 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node138 [label="Foam::regionCoupledBaseFv\lPatch::nbrFvMesh",height=0.2,width=0.4,color="red",URL="$a22854.html#a7de75a086e51fb6764bcf4d6d494257c",tooltip="Returns fvMesh. "];
+  Node76 -> Node141 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node141 [label="Foam::regionCoupledBaseFv\lPatch::nbrMesh",height=0.2,width=0.4,color="black",URL="$a22854.html#a5d1b05ed8eea31e2abbd1ae43dbf3bf3",tooltip="Returns neighbour polyMesh. "];
+  Node76 -> Node142 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node142 [label="Foam::fvPatch::Sf",height=0.2,width=0.4,color="red",URL="$a22870.html#af93b93b841156265e8007a71b07f4ab4",tooltip="Return face area vectors. "];
+  Node76 -> Node90 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node76 -> Node144 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node144 [label="Foam::porousBafflePressure\lFvPatchField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a30826.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node76 -> Node146 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node146 [label="Foam::fvPatch::weights",height=0.2,width=0.4,color="red",URL="$a22870.html#a9df29dd3da8e7d332ca135dce0cffa58",tooltip="Return patch weighting factors. "];
+}

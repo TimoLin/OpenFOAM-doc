@@ -1,0 +1,13 @@
+digraph "divDevReff"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node22 [label="divDevReff",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node22 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23 [label="devReff",height=0.2,width=0.4,color="black",URL="$a31158.html#a58753f66b76bb2146dc1728cb9a6ca0a",tooltip="Return the effective stress tensor. "];
+  Node23 -> Node24 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node24 [label="~IncompressibleTurbulence\lModel",height=0.2,width=0.4,color="black",URL="$a31158.html#ada9ac877eb15f5f277b110deed440aa8",tooltip="Destructor. "];
+  Node22 -> Node24 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

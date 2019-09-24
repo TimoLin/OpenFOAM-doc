@@ -1,0 +1,31 @@
+digraph "operator&lt;&lt;"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node12364 [label="operator\<\<",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node12364 -> Node12365 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12365 [label="Foam::IOstream::bad",height=0.2,width=0.4,color="black",URL="$a26226.html#a9f7290a5d70f30e1b1b42c8ac4a6082d",tooltip="Return true if stream is corrupted. "];
+  Node12364 -> Node12366 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12366 [label="endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node12364 -> Node12368 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12368 [label="Foam::error::functionName",height=0.2,width=0.4,color="black",URL="$a26082.html#a766cd6bf57c8f60839a8d04eab0bdf14"];
+  Node12364 -> Node12369 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12369 [label="Foam::IOerror::ioEndLine\lNumber",height=0.2,width=0.4,color="red",URL="$a26086.html#a8f31741a5497f159f1ec818e54db905e"];
+  Node12369 -> Node12368 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12369 -> Node12370 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12370 [label="Foam::error::sourceFileName",height=0.2,width=0.4,color="black",URL="$a26082.html#a33d9bc75452bb66d0c307b2df3b90ff2"];
+  Node12369 -> Node12371 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12371 [label="Foam::error::sourceFileLine\lNumber",height=0.2,width=0.4,color="black",URL="$a26082.html#afc15d9e726f7bcd039a0f4279168e24d"];
+  Node12364 -> Node12415 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12415 [label="Foam::IOerror::ioFileName",height=0.2,width=0.4,color="black",URL="$a26086.html#a2134f7c0f761f6ae819a8dda4ebb942f"];
+  Node12364 -> Node12416 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12416 [label="Foam::IOerror::ioStartLine\lNumber",height=0.2,width=0.4,color="black",URL="$a26086.html#ab215316bd355d5aebabd958d32803697"];
+  Node12364 -> Node12417 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12417 [label="Foam::error::message",height=0.2,width=0.4,color="red",URL="$a26082.html#a7a908eb9ec123d3834738a86049c9860"];
+  Node12364 -> Node12371 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12364 -> Node12370 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12364 -> Node12418 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12418 [label="Foam::messageStream\l::title",height=0.2,width=0.4,color="black",URL="$a26098.html#af1858b5fd0890a8148472712a4280164",tooltip="Return the title of this error type. "];
+}

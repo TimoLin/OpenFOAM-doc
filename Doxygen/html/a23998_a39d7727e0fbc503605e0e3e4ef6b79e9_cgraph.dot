@@ -1,0 +1,18 @@
+digraph "PatchPostProcessing"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="PatchPostProcessing",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="Foam::UList::empty",height=0.2,width=0.4,color="black",URL="$a25698.html#a644718bb2fb240de962dc3c9a1fdf0dc",tooltip="Return true if the UList is empty (ie, size() is zero). "];
+  Node0 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node0 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="Foam::findStrings",height=0.2,width=0.4,color="red",URL="$a21124.html#a24d78dbd0055269ca2a05f27a1edebff",tooltip="Return true if string matches one of the regular expressions. "];
+  Node0 -> Node51 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node51 [label="Foam::HashSet::insert",height=0.2,width=0.4,color="black",URL="$a25690.html#a49f0753d9652681fc3a81f59951a0ad7",tooltip="Insert a new entry. "];
+  Node0 -> Node52 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node52 [label="Foam::HashTable::toc",height=0.2,width=0.4,color="black",URL="$a25702.html#a1717015c0033bc9eed654353eed0461b",tooltip="Return the table of contents. "];
+}

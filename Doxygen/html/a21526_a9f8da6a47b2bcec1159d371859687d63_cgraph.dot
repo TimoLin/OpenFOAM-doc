@@ -1,0 +1,20 @@
+digraph "~splitCell"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2 [label="~splitCell",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node2 -> Node46 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node46 [label="cellLabel",height=0.2,width=0.4,color="black",URL="$a21526.html#aea68bb95ef7cfdc7468de174ed08b8f9"];
+  Node2 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node2 -> Node47 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node47 [label="master",height=0.2,width=0.4,color="black",URL="$a21526.html#adf99d02ddc54029c5cebd866bc08707f"];
+  Node2 -> Node48 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node48 [label="parent",height=0.2,width=0.4,color="black",URL="$a21526.html#a20b4a43bd8e8a11ce7273527d3e401a4"];
+  Node2 -> Node49 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node49 [label="slave",height=0.2,width=0.4,color="black",URL="$a21526.html#a4679eec6c6326685c8d1479b8c15b3af"];
+}

@@ -1,0 +1,22 @@
+digraph "operator-&gt;"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node18 [label="operator-\>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node18 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19 [label="Foam::tmp::isTmp",height=0.2,width=0.4,color="black",URL="$a25962.html#a70128655989a3d463b2b8d78d7436ae4",tooltip="Return true if this is really a temporary object. "];
+  Node18 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20 [label="Foam::T",height=0.2,width=0.4,color="red",URL="$a21124.html#ae57fda0abb14bb0944947c463c6e09d4"];
+  Node18 -> Node25 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node25 [label="Foam::xferCopy",height=0.2,width=0.4,color="black",URL="$a21124.html#a9304dc7c64f975ca4e54b1d6610de4d1"];
+  Node18 -> Node26 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node26 [label="Foam::xferCopyTo",height=0.2,width=0.4,color="black",URL="$a21124.html#aed80d8c8b13a213aa61e8965031b8b19"];
+  Node18 -> Node27 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node27 [label="Foam::xferMove",height=0.2,width=0.4,color="black",URL="$a21124.html#ae3ad39ee5ad896e6d3c0f137ecd12abb"];
+  Node18 -> Node28 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node28 [label="Foam::xferMoveTo",height=0.2,width=0.4,color="black",URL="$a21124.html#ab431b83fecd4670dbc13b6732e7d8264"];
+  Node18 -> Node29 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node29 [label="Foam::xferTmp",height=0.2,width=0.4,color="black",URL="$a21124.html#afa71306aacdc391213172d0538c1e041"];
+}

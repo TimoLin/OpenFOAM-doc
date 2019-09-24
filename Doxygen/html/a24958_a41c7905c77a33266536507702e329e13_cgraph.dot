@@ -1,0 +1,47 @@
+digraph "correctBoundaryFaceCells"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node654 [label="correctBoundaryFaceCells",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node654 -> Node655 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node655 [label="Foam::polyMesh::boundaryMesh",height=0.2,width=0.4,color="black",URL="$a27410.html#a9f2b68c134340291eda6197f47f25484",tooltip="Return boundary mesh. "];
+  Node654 -> Node656 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node656 [label="Foam::primitiveMesh\l::cellCentres",height=0.2,width=0.4,color="red",URL="$a27530.html#a7300aee2989c6ec70e39436816461902"];
+  Node654 -> Node717 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node717 [label="correctBoundaryPointCells",height=0.2,width=0.4,color="red",URL="$a24958.html#ae4ed6e24a4dba014836260aece8f8ead",tooltip="Correct all cells connected to wall (via point). Sets values in. "];
+  Node717 -> Node718 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node718 [label="mesh",height=0.2,width=0.4,color="red",URL="$a24958.html#ae78c91f8ff731c07ccc4351d9fe861ba",tooltip="Access mesh. "];
+  Node718 -> Node654 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node718 -> Node717 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node718 -> Node720 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node720 [label="getPointNeighbours",height=0.2,width=0.4,color="red",URL="$a24958.html#a1545ea42673856bbee81ec441629ab19",tooltip="Get faces sharing point with face on patch. "];
+  Node720 -> Node723 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node723 [label="maxPatchSize",height=0.2,width=0.4,color="red",URL="$a24958.html#a0161218fe2eda8d48db7b5b5091c974f",tooltip="Size of largest patch (out of supplied subset of patches) "];
+  Node723 -> Node655 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node723 -> Node724 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node724 [label="Foam::HashTable::found",height=0.2,width=0.4,color="black",URL="$a25702.html#a9a7a02c333e3e98344a1e5b891c4d985",tooltip="Return true if hashedEntry is found in table. "];
+  Node723 -> Node718 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node718 -> Node723 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node718 -> Node731 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node731 [label="smallestDist",height=0.2,width=0.4,color="red",URL="$a24958.html#a42e4d807adb6607b99662c1e5c8ed419",tooltip="Calculate smallest true distance (and face index) "];
+  Node731 -> Node720 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node731 -> Node734 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node734 [label="Foam::polyPatch::start",height=0.2,width=0.4,color="red",URL="$a27478.html#a6bfd3e3abb11e98bdb4b98671cec1234",tooltip="Return start label of this patch in the polyMesh face list. "];
+  Node717 -> Node656 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node717 -> Node724 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node717 -> Node655 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node717 -> Node731 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node717 -> Node745 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node745 [label="Foam::HashTable::insert",height=0.2,width=0.4,color="black",URL="$a25702.html#a5eee1e0e199ad59b9cb3916cd42156e0",tooltip="Insert a new hashedEntry. "];
+  Node654 -> Node746 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node746 [label="Foam::polyMesh::faceOwner",height=0.2,width=0.4,color="black",URL="$a27410.html#a57752b49bfee23ca1944c3fb0493974f",tooltip="Return face owner. "];
+  Node654 -> Node724 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node654 -> Node720 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node654 -> Node745 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node654 -> Node723 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node654 -> Node718 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node654 -> Node731 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node654 -> Node734 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

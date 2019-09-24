@@ -1,0 +1,16 @@
+digraph "readCmd"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node134720 [label="readCmd",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node134720 -> Node134721 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node134721 [label="Foam::ISstream::getLine",height=0.2,width=0.4,color="red",URL="$a26286.html#a94b82bd8f7d8cdaa83c9c70b7c919f78",tooltip="Raw, low-level getline into a string function. "];
+  Node134720 -> Node134723 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node134723 [label="Foam::IOstream::good",height=0.2,width=0.4,color="black",URL="$a26226.html#abdcc7f96f487faadc7769afcf58fe992",tooltip="Return true if next operation might succeed. "];
+  Node134720 -> Node134724 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node134724 [label="readUpto",height=0.2,width=0.4,color="black",URL="$a21124.html#afda3a4353908c1357763d1cd788a38ec"];
+  Node134724 -> Node134723 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node134724 -> Node134721 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

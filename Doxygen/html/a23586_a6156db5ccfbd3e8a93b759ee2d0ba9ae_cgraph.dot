@@ -1,0 +1,12 @@
+digraph "track"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4854 [label="track",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4854 -> Node4855 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4855 [label="onBoundary",height=0.2,width=0.4,color="red",URL="$a23586.html#a07a8bb416d63ff1cc9b252c0c74cda13",tooltip="Is the particle on the boundary/(or outside the domain)? "];
+  Node4854 -> Node4857 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4857 [label="trackToFace",height=0.2,width=0.4,color="black",URL="$a23586.html#aabb055127a8bfdd7c92b88d0697ae8d1",tooltip="Track particle to a given position and returns 1.0 if the. "];
+}

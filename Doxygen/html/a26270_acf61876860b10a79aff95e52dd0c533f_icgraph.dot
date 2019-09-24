@@ -1,0 +1,25 @@
+digraph "firstSlave"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node15149 [label="firstSlave",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node15149 -> Node15150 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15150 [label="Foam::LUscalarMatrix\l::LUscalarMatrix",height=0.2,width=0.4,color="black",URL="$a27054.html#aebab11f1a492c2f8e5e99c3e138253ce",tooltip="Construct from lduMatrix and perform LU decomposition. "];
+  Node15149 -> Node15151 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15151 [label="Foam::minEqOp\< labelPair\l \>::operator()",height=0.2,width=0.4,color="black",URL="$a21438.html#a5110bdded347caa6365e4d10554dfc32"];
+  Node15149 -> Node15152 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15152 [label="Foam::argList::parse",height=0.2,width=0.4,color="red",URL="$a26662.html#a00aad68f835a5c0bcb8920505bb0bd10",tooltip="Parse. "];
+  Node15149 -> Node15156 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15156 [label="Foam::mapDistribute\l::schedule",height=0.2,width=0.4,color="black",URL="$a27362.html#a9cc13a36c2333e556e0751aacb5e75fb",tooltip="Calculate a schedule. See above. "];
+  Node15149 -> Node15157 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15157 [label="Foam::globalMeshData\l::sharedPoints",height=0.2,width=0.4,color="red",URL="$a27334.html#ab7d3835b5505a69d153631e4c4865136",tooltip="Collect coordinates of shared points on all processors. "];
+  Node15149 -> Node15182 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15182 [label="Foam::LUscalarMatrix\l::solve",height=0.2,width=0.4,color="black",URL="$a27054.html#a54fd4ebdeb504badbc4a4423f5825a25"];
+  Node15149 -> Node15183 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15183 [label="Foam::syncTools::syncEdgeMap",height=0.2,width=0.4,color="red",URL="$a27502.html#a154ac086463b8d7a0eed8c4539d3ab73",tooltip="Synchronize values on selected edges. "];
+  Node15183 -> Node15188 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15188 [label="Foam::syncTools::syncPointMap",height=0.2,width=0.4,color="red",URL="$a27502.html#a08bdf5c6403dd4367d1714c3d5b4145d",tooltip="Synchronize values on selected points. "];
+  Node15149 -> Node15188 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

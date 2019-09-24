@@ -1,0 +1,24 @@
+digraph "invertManyToMany"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node10318 [label="invertManyToMany",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node10318 -> Node10319 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10319 [label="Foam::edgeMesh::canRead",height=0.2,width=0.4,color="red",URL="$a21754.html#aa9369fb58a3d9f8c2d85f7ae0ddcb969",tooltip="Can we read this file format? "];
+  Node10318 -> Node10323 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10323 [label="Foam::primitiveMesh\l::cellPoints",height=0.2,width=0.4,color="red",URL="$a27530.html#aa5b91fb2565748db19aecddd8e7d8dcd"];
+  Node10318 -> Node10343 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10343 [label="Foam::primitiveMesh\l::edgeCells",height=0.2,width=0.4,color="red",URL="$a27530.html#addd6d1fd65f617ff40cde4479560c2c3"];
+  Node10318 -> Node10352 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10352 [label="Foam::primitiveMesh\l::edgeFaces",height=0.2,width=0.4,color="red",URL="$a27530.html#ad38ecd2902727a890ebd437731c271c8"];
+  Node10318 -> Node10406 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10406 [label="emptyList",height=0.2,width=0.4,color="black",URL="$a21124.html#aac3dd6ff6f51f3841ba88a3adb29e073",tooltip="Return reference to zero-sized list. Compare to List::null() which returns. "];
+  Node10318 -> Node10407 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10407 [label="inplaceSubset",height=0.2,width=0.4,color="black",URL="$a21124.html#a87a7a409b0daaa7c4d1bf62c625cb0f3",tooltip="Inplace extract elements of List when select is true. "];
+  Node10318 -> Node10386 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10386 [label="Foam::NamedEnum\< direction\lType, 3 \>::names",height=0.2,width=0.4,color="black",URL="$a25998.html#a7350da3a0edd92cd11e6c479c9967dc8"];
+  Node10318 -> Node10408 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10408 [label="Foam::primitiveMesh\l::pointFaces",height=0.2,width=0.4,color="red",URL="$a27530.html#acc347dd5dd3557af888ac3dd86d90d22"];
+}

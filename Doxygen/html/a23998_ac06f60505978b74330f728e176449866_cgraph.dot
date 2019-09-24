@@ -1,0 +1,17 @@
+digraph "clone"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node138 [label="clone",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node138 -> Node139 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node139 [label="maxStoredParcels",height=0.2,width=0.4,color="black",URL="$a23998.html#a55d62df8396568413e8cd41e8621b02b",tooltip="Return maximum number of parcels to store per patch. "];
+  Node138 -> Node140 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node140 [label="patchIDs",height=0.2,width=0.4,color="black",URL="$a23998.html#a64d6c654128162a9b7b557f2a5009f73",tooltip="Return const mapping from local to global patch ids. "];
+  Node138 -> Node141 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node141 [label="postPatch",height=0.2,width=0.4,color="red",URL="$a23998.html#a77147582d9be96def68967af52d9784b",tooltip="Post-patch hook. "];
+  Node138 -> Node145 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node145 [label="~PatchPostProcessing",height=0.2,width=0.4,color="black",URL="$a23998.html#a933f225a95d856278f22684aa672b542",tooltip="Destructor. "];
+  Node145 -> Node141 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

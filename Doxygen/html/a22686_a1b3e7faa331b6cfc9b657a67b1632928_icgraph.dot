@@ -1,0 +1,14 @@
+digraph "globalNumbering"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1558 [label="globalNumbering",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1558 -> Node1559 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1559 [label="Foam::extendedCentredCell\lToFaceStencil::extendedCentred\lCellToFaceStencil",height=0.2,width=0.4,color="black",URL="$a22674.html#aafe9904509dc6800f76afb6c5d01533f",tooltip="Construct from uncompacted face stencil. "];
+  Node1558 -> Node1560 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1560 [label="Foam::extendedUpwindCell\lToFaceStencil::extendedUpwind\lCellToFaceStencil",height=0.2,width=0.4,color="black",URL="$a22678.html#ad67ed491462f15bb971c7700bfa99a5f",tooltip="Construct from mesh and uncompacted centred face stencil. "];
+  Node1558 -> Node1561 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1561 [label="insertFaceCells",height=0.2,width=0.4,color="red",URL="$a22686.html#ac1c792bf4a5a1b870bb79770131b78ac",tooltip="Collect cell neighbours of faces in global numbering. "];
+}

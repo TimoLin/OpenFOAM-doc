@@ -1,0 +1,14 @@
+digraph "uniformFixedValuePointPatchField"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4 [label="uniformFixedValuePointPatch\lField",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="Foam::fixedValuePointPatch\lField::operator=",height=0.2,width=0.4,color="black",URL="$a26570.html#adb8a2fca0626660030d39f34059a7c02"];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="Foam::valuePointPatchField\l::size",height=0.2,width=0.4,color="black",URL="$a26574.html#a9facbf0a118d395c89884e45a5ca4e4b",tooltip="Return size. "];
+  Node4 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="uniformFixedValuePointPatch\lField",height=0.2,width=0.4,color="black",URL="$a26634.html#a1587d4eb0574d8a00a34792171e5c7a0",tooltip="Construct from patch and internal field. "];
+}

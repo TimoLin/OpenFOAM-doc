@@ -1,0 +1,28 @@
+digraph "reactingOneDim"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node20 [label="reactingOneDim",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node21 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21 [label="pyrolysisModel",height=0.2,width=0.4,color="red",URL="$a28970.html",tooltip="Base class for pyrolysis models. "];
+  Node96 -> Node20 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" phiHsGas_\nrho_\nQr_\nchemistrySh_" ,fontname="FreeSans"];
+  Node96 [label="GeometricField\< scalar,\l fvPatchField, volMesh \>",height=0.2,width=0.4,color="red",URL="$a22434.html"];
+  Node103 -> Node96 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< scalar, fvPatchField,\l volMesh \>" ,fontname="FreeSans"];
+  Node103 [label="GeometricField\< Type,\l PatchField, GeoMesh \>",height=0.2,width=0.4,color="red",URL="$a22434.html",tooltip="Generic GeometricField class. "];
+  Node105 -> Node20 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" Ys_" ,fontname="FreeSans"];
+  Node105 [label="PtrList\< Foam::Geometric\lField \>",height=0.2,width=0.4,color="red",URL="$a25914.html"];
+  Node106 -> Node20 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" phiGas_" ,fontname="FreeSans"];
+  Node106 [label="GeometricField\< scalar,\l fvsPatchField, surfaceMesh \>",height=0.2,width=0.4,color="red",URL="$a22434.html"];
+  Node103 -> Node106 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< scalar, fvsPatchField,\l surfaceMesh \>" ,fontname="FreeSans"];
+  Node108 -> Node20 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" solidChemistry_" ,fontname="FreeSans"];
+  Node108 [label="autoPtr\< Foam::basicSolid\lChemistryModel \>",height=0.2,width=0.4,color="red",URL="$a25958.html"];
+  Node109 -> Node20 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" addedGasMass_\ntotalHeatRR_\nlostSolidMass_" ,fontname="FreeSans"];
+  Node109 [label="dimensioned\< scalar \>",height=0.2,width=0.4,color="red",URL="$a26366.html"];
+  Node111 -> Node20 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" radiation_" ,fontname="FreeSans"];
+  Node111 [label="autoPtr\< Foam::radiation\l::radiationModel \>",height=0.2,width=0.4,color="red",URL="$a25958.html"];
+  Node112 -> Node20 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" solidThermo_" ,fontname="FreeSans"];
+  Node112 [label="solidReactionThermo",height=0.2,width=0.4,color="red",URL="$a30222.html",tooltip="Foam::solidReactionThermo. "];
+  Node103 -> Node20 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" h_" ,fontname="FreeSans"];
+}

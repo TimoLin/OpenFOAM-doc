@@ -1,0 +1,30 @@
+digraph "manipulateMatrix"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4830 [label="manipulateMatrix",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4830 -> Node4831 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4831 [label="Foam::DynamicList::\lappend",height=0.2,width=0.4,color="black",URL="$a25890.html#a7b67b42af715604376ad63a681dee6d8",tooltip="Append an element at the end of the list. "];
+  Node4830 -> Node4832 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4832 [label="Foam::fvPatchField\l::dimensionedInternalField",height=0.2,width=0.4,color="black",URL="$a22354.html#a1067b719c3281eb98ffda55196ca2033",tooltip="Return dimensioned internal field reference. "];
+  Node4830 -> Node4833 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4833 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node4830 -> Node4835 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4835 [label="Foam::fvPatch::faceCells",height=0.2,width=0.4,color="red",URL="$a22870.html#afbfac825732ef2770fff4261b4e930e9",tooltip="Return faceCells. "];
+  Node4830 -> Node4839 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4839 [label="Foam::fvPatchField\l::manipulatedMatrix",height=0.2,width=0.4,color="red",URL="$a22354.html#a0b3668a915430282fc81f0f6499101f1",tooltip="Return true if the matrix has already been manipulated. "];
+  Node4830 -> Node4893 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4893 [label="Foam::fvPatchField\l::manipulateMatrix",height=0.2,width=0.4,color="black",URL="$a22354.html#a918a7a9b6883ae2da430decb238332e0",tooltip="Manipulate matrix. "];
+  Node4830 -> Node4894 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4894 [label="Foam::fvPatch::name",height=0.2,width=0.4,color="red",URL="$a22870.html#acc80e00a8ac919288fb55bd14cc88bf6",tooltip="Return name. "];
+  Node4830 -> Node4896 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4896 [label="Foam::fvPatchField\l::patch",height=0.2,width=0.4,color="black",URL="$a22354.html#aca0923a4611f6166ffd8fa14d81864a4",tooltip="Return patch. "];
+  Node4830 -> Node4897 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4897 [label="Foam::fvMatrix::setValues",height=0.2,width=0.4,color="red",URL="$a22358.html#af485ea1c60422a3ac6a6b05660da9bc2",tooltip="Set solution in given cells to the specified values. "];
+  Node4830 -> Node4843 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4843 [label="Foam::List\< Type \>\l::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node4830 -> Node5185 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5185 [label="Foam::fvPatch::size",height=0.2,width=0.4,color="black",URL="$a22870.html#a03bc1200aac252c4d3e18657d700b71c",tooltip="Return size. "];
+}

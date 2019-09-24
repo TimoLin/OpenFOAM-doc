@@ -1,0 +1,18 @@
+digraph "filter"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node572 [label="filter",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node572 -> Node573 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node573 [label="Foam::polyMeshFilterSettings\l::initialFaceLengthFactor",height=0.2,width=0.4,color="black",URL="$a21602.html#a66db24de261ea3db82f23cca708a9169"];
+  Node572 -> Node574 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node574 [label="Foam::polyMeshFilterSettings\l::minLen",height=0.2,width=0.4,color="black",URL="$a21602.html#a1200f9bd6d6516158e2fc93c1507ce19"];
+  Node572 -> Node575 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node575 [label="Foam::primitiveMesh\l::nEdges",height=0.2,width=0.4,color="red",URL="$a27530.html#a086513bcff1a3f1684e1a3879dd90deb"];
+  Node572 -> Node578 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node578 [label="Foam::primitiveMesh\l::nFaces",height=0.2,width=0.4,color="black",URL="$a27530.html#abe602c985a3c9ffa67176e969e77ca6f"];
+  Node572 -> Node579 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node579 [label="Foam::List::resize",height=0.2,width=0.4,color="black",URL="$a25694.html#a4eb7a78f8b52136a8668d0e785dace04",tooltip="Alias for setSize(const label) "];
+}

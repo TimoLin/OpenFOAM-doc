@@ -1,0 +1,11 @@
+digraph "FIFOStack&lt; T &gt;"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node0 [label="FIFOStack\< T \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="SLList\< T \>",height=0.2,width=0.4,color="red",URL="$a25866.html",tooltip="Non-intrusive singly-linked list. "];
+  Node0 -> Node6 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< Foam::word \>" ,fontname="FreeSans"];
+  Node6 [label="FIFOStack\< Foam::word \>",height=0.2,width=0.4,color="black",URL="$a25850.html"];
+}

@@ -1,0 +1,18 @@
+digraph "clear"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node212 [label="clear",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node212 -> Node213 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node213 [label="Foam::UnsortedMeshedSurface\l::clear",height=0.2,width=0.4,color="red",URL="$a29574.html#ac8bb3912a3ce86b15842e79d0b421204",tooltip="Clear all storage. "];
+  Node212 -> Node228 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node228 [label="Foam::MeshedSurface\l\< Foam::face \>::faces",height=0.2,width=0.4,color="black",URL="$a29566.html#a16c6d36f7c961d037a44e5c235d9aa15",tooltip="Return const access to the faces. "];
+  Node212 -> Node229 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node229 [label="Foam::fileFormats::\lOFSsurfaceFormat::read",height=0.2,width=0.4,color="black",URL="$a29618.html#a64e71a8d67e2e04b1efc91010c16d123",tooltip="Read MeshedSurface. "];
+  Node212 -> Node230 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node230 [label="Foam::MeshedSurface\l\< Foam::face \>::transcribe",height=0.2,width=0.4,color="black",URL="$a29566.html#a89f858f78ba8ae4e1d6388369558eb85"];
+  Node212 -> Node231 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node231 [label="Foam::UnsortedMeshedSurface\l::transfer",height=0.2,width=0.4,color="black",URL="$a29574.html#a7840b609cb34e6f39858cf3e86324263",tooltip="Transfer the contents of the argument and annul the argument. "];
+}

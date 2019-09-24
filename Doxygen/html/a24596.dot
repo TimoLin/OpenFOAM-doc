@@ -1,0 +1,13 @@
+digraph "GradientDispersionRAS&lt; CloudType &gt;"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node5 [label="GradientDispersionRAS\l\< CloudType \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="DispersionRASModel\l\< CloudType \>",height=0.2,width=0.4,color="red",URL="$a24594.html",tooltip="Base class for particle dispersion models based on RAS turbulence. "];
+  Node46 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" kPtr_\nepsilonPtr_" ,fontname="FreeSans"];
+  Node46 [label="GeometricField\< Type,\l PatchField, GeoMesh \>",height=0.2,width=0.4,color="red",URL="$a22434.html",tooltip="Generic GeometricField class. "];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node46 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" gradkPtr_" ,fontname="FreeSans"];
+}

@@ -1,0 +1,12 @@
+digraph "~GAMGSolver"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node65 [label="~GAMGSolver",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node65 -> Node66 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node66 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node65 -> Node68 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node68 [label="Foam::lduMatrix::solver\l::readControls",height=0.2,width=0.4,color="black",URL="$a26886.html#aa431c382ed4170712dab339fbfd87f5b",tooltip="Read the control parameters from the controlDict_. "];
+}

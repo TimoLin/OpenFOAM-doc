@@ -1,0 +1,16 @@
+digraph "points"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node81 [label="points",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node81 -> Node82 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node82 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node81 -> Node125 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node125 [label="blockCells",height=0.2,width=0.4,color="black",URL="$a31326.html#aa0f057687bccbcff404b4e2201cd7c6e",tooltip="Return block cells. "];
+  Node81 -> Node126 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node126 [label="patchFaces",height=0.2,width=0.4,color="black",URL="$a31326.html#a28b02d41e14c752cc8c8176e9e563f41",tooltip="Return block patch faces given direction and range limits. "];
+  Node81 -> Node127 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node127 [label="readPoints",height=0.2,width=0.4,color="black",URL="$a31326.html#aac91eb5f0b1ff55448123d001d0d5879",tooltip="Read block points. "];
+}

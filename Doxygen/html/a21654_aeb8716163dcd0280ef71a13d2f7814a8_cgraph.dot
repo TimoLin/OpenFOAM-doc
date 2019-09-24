@@ -1,0 +1,46 @@
+digraph "consistentSlowRefinement2"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3612 [label="consistentSlowRefinement2",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3612 -> Node3613 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3613 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node3612 -> Node3656 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3656 [label="Foam::List::append",height=0.2,width=0.4,color="black",URL="$a25694.html#a399dd2bf0d9a32016717dc90126f016b",tooltip="Append an element at the end of the list. "];
+  Node3612 -> Node3621 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3621 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node3612 -> Node3657 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3657 [label="Foam::exit",height=0.2,width=0.4,color="red",URL="$a21124.html#a06ca7250d8e89caf05243ec094843642"];
+  Node3612 -> Node3661 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3661 [label="Foam::findIndices",height=0.2,width=0.4,color="black",URL="$a21124.html#a397299eb3cd05ecb81797e7109e2f0b9",tooltip="Find all occurences of given element. Linear search. "];
+  Node3612 -> Node3662 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3662 [label="Foam::PackedList::get",height=0.2,width=0.4,color="black",URL="$a25938.html#a7765dcc7956af47317165c107001b59c",tooltip="Get value at index I. "];
+  Node3612 -> Node3663 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3663 [label="level0EdgeLength",height=0.2,width=0.4,color="red",URL="$a21654.html#a5038ef57fdb5e24db3472bc037c5a270",tooltip="Typical edge length between unrefined points. "];
+  Node3663 -> Node3612 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3663 -> Node4201 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4201 [label="setRefinement",height=0.2,width=0.4,color="red",URL="$a21654.html#a59cb8a999be096950b6cc4f7c457426b",tooltip="Insert refinement. All selected cells will be split into 8. "];
+  Node4201 -> Node3621 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4201 -> Node3665 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3665 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node4201 -> Node3856 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3856 [label="Foam::Ostream::write",height=0.2,width=0.4,color="black",URL="$a26238.html#a81a19ad9e4098b4701cc8bab9a59d78b",tooltip="Write next token to stream. "];
+  Node4201 -> Node3613 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4201 -> Node3656 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3612 -> Node4028 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4028 [label="Foam::IOobject::objectPath",height=0.2,width=0.4,color="red",URL="$a26142.html#a3a7ece5c1251c6be1f7812d4dba5fb7a",tooltip="Return complete path + object name. "];
+  Node3612 -> Node3711 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3711 [label="Foam::reduce",height=0.2,width=0.4,color="red",URL="$a21124.html#a7ffd6af4acc2eb9ba72ee296b5ecda23"];
+  Node3711 -> Node3621 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3612 -> Node4022 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4022 [label="Foam::PackedBoolList::set",height=0.2,width=0.4,color="red",URL="$a25934.html#a0c010317ff4eff942a58dd385245119d",tooltip="Set specified bits. "];
+  Node3612 -> Node4201 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3612 -> Node3665 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3612 -> Node3741 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3741 [label="Foam::HashTable::size",height=0.2,width=0.4,color="black",URL="$a25702.html#a47b3bf30da1eb3ab8076b5fbe00e0494",tooltip="Return number of elements in table. "];
+  Node3612 -> Node3856 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3612 -> Node3978 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3978 [label="Foam::regIOobject::\lwrite",height=0.2,width=0.4,color="red",URL="$a26334.html#ad48b7b943e88478c15879659cce7aebc",tooltip="Write using setting from DB. "];
+}

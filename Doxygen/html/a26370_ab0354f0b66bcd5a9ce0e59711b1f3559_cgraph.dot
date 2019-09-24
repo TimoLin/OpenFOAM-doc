@@ -1,0 +1,38 @@
+digraph "read"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1059 [label="read",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1059 -> Node1060 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1060 [label="Foam::IOstream::check",height=0.2,width=0.4,color="red",URL="$a26226.html#a367eb3425fc4e8270e2aa961df8ac8a5",tooltip="Check IOstream status for given operation. "];
+  Node1060 -> Node1063 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1063 [label="Foam::exit",height=0.2,width=0.4,color="red",URL="$a21124.html#a06ca7250d8e89caf05243ec094843642"];
+  Node1059 -> Node1109 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1109 [label="Foam::dimensioned::\ldimensions",height=0.2,width=0.4,color="black",URL="$a26366.html#a512673c2674ca2d38885f1bb5f6994fb",tooltip="Return const reference to dimensions. "];
+  Node1059 -> Node1068 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1068 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node1059 -> Node1063 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1059 -> Node1110 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1110 [label="Foam::IOstream::info",height=0.2,width=0.4,color="black",URL="$a26226.html#acf03c00da2e08651c45c43e6e900abfa",tooltip="Return info proxy. "];
+  Node1059 -> Node1111 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1111 [label="Foam::token::isNumber",height=0.2,width=0.4,color="red",URL="$a26306.html#a1680baf2428512b1a45060f52f3ade28"];
+  Node1059 -> Node1113 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1113 [label="Foam::token::number",height=0.2,width=0.4,color="red",URL="$a26306.html#a60dffa6c29647d1c83a9e00ecb7a703a"];
+  Node1059 -> Node1115 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1115 [label="Foam::Istream::putBack",height=0.2,width=0.4,color="red",URL="$a26234.html#af22e503b062298eef54e360dfc06d0b4",tooltip="Put back token. "];
+  Node1115 -> Node1063 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1059 -> Node1116 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1116 [label="read",height=0.2,width=0.4,color="red",URL="$a26370.html#a4b1272c56fc93e26715db0ffd87a9b1f",tooltip="Read using provided units. Used only in initial parsing. "];
+  Node1116 -> Node1060 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1116 -> Node1109 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1116 -> Node1068 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1116 -> Node1063 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1116 -> Node1110 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1116 -> Node1111 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1116 -> Node1113 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1116 -> Node1121 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1121 [label="Foam::dimensioned::\lvalue",height=0.2,width=0.4,color="black",URL="$a26366.html#a7948200a26c85fc3a83ffa510a91d668",tooltip="Return const reference to value. "];
+  Node1059 -> Node1121 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

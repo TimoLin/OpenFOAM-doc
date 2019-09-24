@@ -1,0 +1,31 @@
+digraph "transformIndicesForPatches"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node903 [label="transformIndicesForPatches",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node903 -> Node904 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node904 [label="Foam::HashTable::empty",height=0.2,width=0.4,color="black",URL="$a25702.html#a644718bb2fb240de962dc3c9a1fdf0dc",tooltip="Return true if the hash table is empty. "];
+  Node903 -> Node905 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node905 [label="Foam::exit",height=0.2,width=0.4,color="red",URL="$a21124.html#a06ca7250d8e89caf05243ec094843642"];
+  Node903 -> Node952 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node952 [label="Foam::Pair::first",height=0.2,width=0.4,color="black",URL="$a27638.html#af9a77dbc46937c80ca5fceef711c7628",tooltip="Return first. "];
+  Node903 -> Node953 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node953 [label="forAllConstIter",height=0.2,width=0.4,color="red",URL="$a38141.html#ae21e2836509b0fa7f7cedf6493b11b09"];
+  Node903 -> Node1018 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1018 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node903 -> Node1120 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1120 [label="Foam::pow",height=0.2,width=0.4,color="red",URL="$a21124.html#a7500c8e9d27a442adc75e287de074c7c"];
+  Node903 -> Node1208 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1208 [label="Foam::Pair::second",height=0.2,width=0.4,color="black",URL="$a27638.html#a8830e4ad5e9523343cc9288f59931b5f",tooltip="Return second. "];
+  Node903 -> Node965 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node965 [label="Foam::List::setSize",height=0.2,width=0.4,color="black",URL="$a25694.html#aedb985ffeaf1bdbfeccc2a8730405703",tooltip="Reset size of List. "];
+  Node903 -> Node1209 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1209 [label="Foam::sign",height=0.2,width=0.4,color="red",URL="$a21124.html#a221fd301d6c49c5bd4a6c0f5ccb893b2"];
+  Node903 -> Node1210 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1210 [label="Foam::sum",height=0.2,width=0.4,color="black",URL="$a21124.html#a3d8733143aad0e03b300186ab4bef137"];
+  Node903 -> Node1211 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1211 [label="transformPatches",height=0.2,width=0.4,color="red",URL="$a27690.html#a1d11393fe85222da1ad68d53c263fe35",tooltip="Apply all of the transform permutations. "];
+  Node1211 -> Node903 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

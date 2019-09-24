@@ -1,0 +1,26 @@
+digraph "carrier"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node383 [label="carrier",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node383 -> Node384 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node384 [label="Foam::COxidationDiffusion\lLimitedRate::calculate",height=0.2,width=0.4,color="red",URL="$a23614.html#ab36dcb98739391d3c7b2a2e2a4f44be8",tooltip="Update surface reactions. "];
+  Node383 -> Node388 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node388 [label="Foam::COxidationKineticDiffusion\lLimitedRate::calculate",height=0.2,width=0.4,color="red",URL="$a23630.html#ab36dcb98739391d3c7b2a2e2a4f44be8",tooltip="Update surface reactions. "];
+  Node383 -> Node392 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node392 [label="Foam::COxidationHurtMitchell\l::calculate",height=0.2,width=0.4,color="red",URL="$a23618.html#ab36dcb98739391d3c7b2a2e2a4f44be8",tooltip="Update surface reactions. "];
+  Node383 -> Node395 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node395 [label="Foam::COxidationIntrinsic\lRate::calculate",height=0.2,width=0.4,color="red",URL="$a23626.html#ab36dcb98739391d3c7b2a2e2a4f44be8",tooltip="Update surface reactions. "];
+  Node383 -> Node399 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node399 [label="Foam::COxidationMurphyShaddix\l::calculate",height=0.2,width=0.4,color="red",URL="$a23634.html#ab36dcb98739391d3c7b2a2e2a4f44be8",tooltip="Update surface reactions. "];
+  Node383 -> Node402 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node402 [label="carrierId",height=0.2,width=0.4,color="red",URL="$a30182.html#a72bc1c01f3925ac4cb21cf579083ea9b",tooltip="Index of carrier component. "];
+  Node383 -> Node409 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node409 [label="Foam::ReactingParcel\l::correctSurfaceValues",height=0.2,width=0.4,color="red",URL="$a23922.html#abf5f172a3acd1b1e7f81f2d0f1ca3b81",tooltip="Correct surface values due to emitted species. "];
+  Node383 -> Node415 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node415 [label="Foam::ReactingCloud\l\< Foam::DsmcCloud \>\l::ReactingCloud",height=0.2,width=0.4,color="black",URL="$a23814.html#a2e58a8afea4a106a799124386cb11e5d",tooltip="Construct given carrier gas fields. "];
+  Node383 -> Node416 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node416 [label="Foam::regionModels\l::surfaceFilmModels\l::thermoSingleLayer::\lthermoSingleLayer",height=0.2,width=0.4,color="black",URL="$a29182.html#a599169c7bc33623aea76634f78847295",tooltip="Construct from components. "];
+}

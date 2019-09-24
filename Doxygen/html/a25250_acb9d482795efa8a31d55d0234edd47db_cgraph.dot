@@ -1,0 +1,17 @@
+digraph "facesIntersection"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node285 [label="facesIntersection",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node285 -> Node286 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node286 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node285 -> Node329 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node329 [label="Foam::PointIndexHit::hit",height=0.2,width=0.4,color="black",URL="$a27566.html#aee8dc30bf27cefe419b15f96e594c155",tooltip="Is there a hit. "];
+  Node285 -> Node330 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node330 [label="Foam::PointIndexHit\l::hitPoint",height=0.2,width=0.4,color="black",URL="$a27566.html#a0350feff966a8bc8833a84ca454f1e5e",tooltip="Return hit point. "];
+  Node330 -> Node286 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node285 -> Node331 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node331 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+}

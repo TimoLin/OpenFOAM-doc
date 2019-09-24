@@ -1,0 +1,22 @@
+digraph "scatter"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1340 [label="scatter",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1340 -> Node1341 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1341 [label="Foam::UPstream::commsStruct\l::above",height=0.2,width=0.4,color="black",URL="$a26274.html#a553c64427f0c4f6000d961214723c14f"];
+  Node1340 -> Node1342 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1342 [label="Foam::UPstream::commsStruct\l::below",height=0.2,width=0.4,color="black",URL="$a26274.html#afd4ae114527b9c925ffff2c2fe1341dd"];
+  Node1340 -> Node1343 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1343 [label="Foam::UPstream::myProcNo",height=0.2,width=0.4,color="black",URL="$a26270.html#afc74d89573de32a3032c916f8cdd1733",tooltip="Number of this process (starting from masterNo() = 0) "];
+  Node1340 -> Node1344 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1344 [label="Foam::UPstream::nProcs",height=0.2,width=0.4,color="red",URL="$a26270.html#aada0e04d8127eda8ee95be0772754a4f",tooltip="Number of processes in parallel run. "];
+  Node1340 -> Node1346 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1346 [label="Foam::UIPstream::read",height=0.2,width=0.4,color="black",URL="$a26258.html#a732980587e5b9c409ae433d73ca8698e",tooltip="Read into given buffer from given processor and return the. "];
+  Node1340 -> Node1347 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1347 [label="Foam::T",height=0.2,width=0.4,color="red",URL="$a21124.html#ae57fda0abb14bb0944947c463c6e09d4"];
+  Node1340 -> Node1352 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1352 [label="Foam::UOPstream::write",height=0.2,width=0.4,color="black",URL="$a26262.html#a0efefd773fa79fc3b687978f9e1ee9ba",tooltip="Write given buffer to given processor. "];
+}

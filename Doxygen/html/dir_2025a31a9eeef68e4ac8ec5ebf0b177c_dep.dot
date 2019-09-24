@@ -1,0 +1,18 @@
+digraph "applications/solvers/compressible/rhoPimpleFoam" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="FreeSans"];
+  edge [ labelfontsize="10", labelfontname="FreeSans"];
+  subgraph clusterdir_ec6fbd2e4e71296a5c4843bd2aa1db19 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="compressible" fontname="FreeSans", fontsize="10", URL="dir_ec6fbd2e4e71296a5c4843bd2aa1db19.html"]
+  subgraph clusterdir_2025a31a9eeef68e4ac8ec5ebf0b177c {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_2025a31a9eeef68e4ac8ec5ebf0b177c.html"];
+    dir_2025a31a9eeef68e4ac8ec5ebf0b177c [shape=plaintext label="rhoPimpleFoam"];
+    dir_f060f75ff9217eb4a781eb513b7d4915 [shape=box label="rhoLTSPimpleFoam" color="black" fillcolor="white" style="filled" URL="dir_f060f75ff9217eb4a781eb513b7d4915.html"];
+    dir_78f7029dd88ada2239f6dc72e2f82c25 [shape=box label="rhoPimplecFoam" color="black" fillcolor="white" style="filled" URL="dir_78f7029dd88ada2239f6dc72e2f82c25.html"];
+    dir_ff1e33137cd9bb5ceac54e16ec7512c7 [shape=box label="rhoPimpleDyMFoam" color="black" fillcolor="white" style="filled" URL="dir_ff1e33137cd9bb5ceac54e16ec7512c7.html"];
+  }
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_2025a31a9eeef68e4ac8ec5ebf0b177c->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="1", labeldistance=1.5 headhref="dir_000010_000577.html"];
+}

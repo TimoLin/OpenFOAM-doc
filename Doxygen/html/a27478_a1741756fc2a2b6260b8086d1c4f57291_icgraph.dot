@@ -1,0 +1,26 @@
+digraph "New"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node387 [label="New",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node387 -> Node388 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node388 [label="Foam::meshRefinement\l::appendPatch",height=0.2,width=0.4,color="red",URL="$a24662.html#afe45e132b7f6aa140c47d16ee3bc3cd5",tooltip="Helper:append patch to end of mesh. "];
+  Node387 -> Node393 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node393 [label="clone",height=0.2,width=0.4,color="black",URL="$a27478.html#afff6d4f7511147e0c8a4b8a5448296ec",tooltip="Construct and return a clone, resetting the face list. "];
+  Node387 -> Node394 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node394 [label="Foam::extrudePatchMesh\l::extrudePatchMesh",height=0.2,width=0.4,color="red",URL="$a21446.html#ada5aee048de4d025b44660aca99d21a6",tooltip="Construct from mesh, patch and dictionary. "];
+  Node387 -> Node396 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node396 [label="New",height=0.2,width=0.4,color="black",URL="$a27478.html#aa75a201d22d64677bbd5d5cb67e1b8ec",tooltip="Return a pointer to a new patch created on freestore from. "];
+  Node387 -> Node397 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node397 [label="Foam::boundaryMesh\l::patchify",height=0.2,width=0.4,color="red",URL="$a21430.html#ae2705f64a0b5d9d61dc1b67afa50a160",tooltip="Take over patches onto polyMesh from nearest face in *this. "];
+  Node387 -> Node401 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node401 [label="Foam::polyBoundaryMesh\l::polyBoundaryMesh",height=0.2,width=0.4,color="black",URL="$a27402.html#ad5d52e41ec3887120247d19b535cd4e1",tooltip="Read constructor given IOobject and a polyMesh reference. "];
+  Node387 -> Node402 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node402 [label="Foam::polyMesh::polyMesh",height=0.2,width=0.4,color="black",URL="$a27410.html#a26bb3c2a2a5476b329d60ac7646e18a7",tooltip="Construct from cell shapes. "];
+  Node387 -> Node403 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node403 [label="Foam::fvMeshDistribute\l::printCoupleInfo",height=0.2,width=0.4,color="red",URL="$a21454.html#a0b2e9e5ba94679bbc5d807ecf02687e2",tooltip="Print some info on coupling data. "];
+  Node387 -> Node414 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node414 [label="Foam::compressible\l::thermalBaffleFvPatchScalar\lField::rmap",height=0.2,width=0.4,color="red",URL="$a29186.html#a713277715ccc0a5ef466b0516d44731f",tooltip="Reverse map the given fvPatchField onto this fvPatchField. "];
+}

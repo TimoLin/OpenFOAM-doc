@@ -1,0 +1,13 @@
+digraph "cyclicAMIFvPatchField&lt; Type &gt;"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node0 [label="cyclicAMIFvPatchField\l\< Type \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="cyclicAMILduInterfaceField",height=0.2,width=0.4,color="black",URL="$a24934.html",tooltip="Abstract base class for cyclic AMI coupled interfaces. "];
+  Node2 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="coupledFvPatchField\l\< Type \>",height=0.2,width=0.4,color="red",URL="$a21974.html",tooltip="Abstract base class for coupled patches. "];
+  Node0 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13 [label="jumpCyclicAMIFvPatchField\l\< Type \>",height=0.2,width=0.4,color="red",URL="$a22030.html",tooltip="This boundary condition provides a base class that enforces a cyclic condition with a specified &#39;jump..."];
+}

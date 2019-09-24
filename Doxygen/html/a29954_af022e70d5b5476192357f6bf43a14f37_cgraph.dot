@@ -1,0 +1,13 @@
+digraph "clone"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node52 [label="clone",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node52 -> Node53 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node53 [label="liquidProperties",height=0.2,width=0.4,color="black",URL="$a29954.html#adeae397189ef7eff8b226a49d5006f8a",tooltip="Construct from components. "];
+  Node52 -> Node54 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node54 [label="New",height=0.2,width=0.4,color="red",URL="$a29954.html#a99c1cb8276d5bed55adc07f0464a7318",tooltip="Return a pointer to a new liquidProperties created from input. "];
+  Node54 -> Node53 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

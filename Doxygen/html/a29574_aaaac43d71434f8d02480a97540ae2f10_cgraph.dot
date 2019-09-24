@@ -1,0 +1,18 @@
+digraph "reset"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1190 [label="reset",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1190 -> Node1191 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1191 [label="Foam::MeshedSurface\l::reset",height=0.2,width=0.4,color="black",URL="$a29566.html#a7fec4f956cda53a023535879d7aa7c7c",tooltip="Reset primitive data (points, faces and zones) "];
+  Node1190 -> Node1192 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1192 [label="Foam::List::transfer",height=0.2,width=0.4,color="black",URL="$a25694.html#a25ad1d2084d16b234b0cf91c07e832c0",tooltip="Transfer the contents of the argument List into this list. "];
+  Node1190 -> Node1193 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1193 [label="transfer",height=0.2,width=0.4,color="red",URL="$a29574.html#a6df38f92358a4c8ec775d27efb154326",tooltip="Transfer the contents of the argument and annul the argument. "];
+  Node1193 -> Node1191 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1193 -> Node1192 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1190 -> Node1235 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1235 [label="zoneIds",height=0.2,width=0.4,color="black",URL="$a29574.html#a3c689ce644ac7f6cc05344cc86621eb7",tooltip="Return const access to the zone ids. "];
+}

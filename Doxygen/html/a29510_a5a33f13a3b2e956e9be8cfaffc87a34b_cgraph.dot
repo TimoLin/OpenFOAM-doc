@@ -1,0 +1,21 @@
+digraph "restrain"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node56 [label="restrain",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node56 -> Node57 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node57 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node56 -> Node59 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node59 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node56 -> Node60 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node60 [label="read",height=0.2,width=0.4,color="red",URL="$a29510.html#affa21705bb326eaf3c87a5c6c1e56f3b",tooltip="Update properties from given dictionary. "];
+  Node56 -> Node67 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node67 [label="Foam::sixDoFRigidBodyMotion\l::report",height=0.2,width=0.4,color="black",URL="$a29530.html#a1538c196c66305d82ca5d146cf37067a",tooltip="Return the report Switch. "];
+  Node56 -> Node68 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node68 [label="Foam::sixDoFRigidBodyMotion\l::transform",height=0.2,width=0.4,color="red",URL="$a29530.html#a538a8aa596e3b9cc2a16563d338bf3e9",tooltip="Transform the given initial state point by the current motion. "];
+  Node56 -> Node72 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node72 [label="Foam::sixDoFRigidBodyMotion\l::velocity",height=0.2,width=0.4,color="red",URL="$a29530.html#ab2b917bb96e724dfd5e886732330b117",tooltip="Return the velocity of a position. "];
+  Node72 -> Node68 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,22 @@
+digraph "stencil"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node25 [label="stencil",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node25 -> Node26 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node26 [label="Foam::centredCECCellToFace\lStencilObject::centredCECCellTo\lFaceStencilObject",height=0.2,width=0.4,color="black",URL="$a22706.html#aed500b88db9ee98d0e199f75320058e9",tooltip="Construct from uncompacted face stencil. "];
+  Node25 -> Node27 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node27 [label="Foam::centredCFCCellToFace\lStencilObject::centredCFCCellTo\lFaceStencilObject",height=0.2,width=0.4,color="black",URL="$a22710.html#a72e1b2c15a4b5e767731254c51d90c9c",tooltip="Construct from uncompacted face stencil. "];
+  Node25 -> Node28 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node28 [label="Foam::centredCPCCellToFace\lStencilObject::centredCPCCellTo\lFaceStencilObject",height=0.2,width=0.4,color="black",URL="$a22714.html#ac67f9a7b7e325cfc82f3d6718f1c7763",tooltip="Construct from uncompacted face stencil. "];
+  Node25 -> Node29 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node29 [label="Foam::centredFECCellToFace\lStencilObject::centredFECCellTo\lFaceStencilObject",height=0.2,width=0.4,color="black",URL="$a22718.html#ae28c5d9c7890cb731fb8d77e1adac291",tooltip="Construct from uncompacted face stencil. "];
+  Node25 -> Node30 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node30 [label="collectData",height=0.2,width=0.4,color="black",URL="$a22674.html#ab00d7f17ec3e649fcb4d3a317102aa24",tooltip="Use map to get the data into stencil order. "];
+  Node30 -> Node25 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node25 -> Node31 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node31 [label="weightedSum",height=0.2,width=0.4,color="red",URL="$a22674.html#a997060236f826bbe61543e12798b3ec0",tooltip="Sum vol field contributions to create face values. "];
+  Node31 -> Node30 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

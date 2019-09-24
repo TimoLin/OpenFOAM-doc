@@ -1,0 +1,23 @@
+digraph "resize"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4491 [label="resize",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4491 -> Node4492 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4492 [label="Foam::polyTopoChange\l::addMesh",height=0.2,width=0.4,color="red",URL="$a21678.html#a1f97630a2e6369203b99c1d1d1c3cff3",tooltip="Add all points/faces/cells of mesh. Additional offset for patch. "];
+  Node4491 -> Node4496 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4496 [label="Foam::polyTopoChange\l::setCapacity",height=0.2,width=0.4,color="red",URL="$a21678.html#a63533ab96a36c8fc3ca51bf8a0622e36",tooltip="Explicitly pre-size the dynamic storage for expected mesh. "];
+  Node4496 -> Node4492 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4491 -> Node4497 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4497 [label="Foam::boundaryCutter\l::setRefinement",height=0.2,width=0.4,color="red",URL="$a21498.html#ae6930353f029f71d7726d9992c9538f9",tooltip="Do actual cutting with cut description. Inserts mesh changes. "];
+  Node4491 -> Node4499 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4499 [label="Foam::removePoints\l::setRefinement",height=0.2,width=0.4,color="red",URL="$a21722.html#a9e4bbed42eb828caa39cf0e1c437bb88",tooltip="Play commands into polyTopoChange to remove points. Gets. "];
+  Node4491 -> Node4514 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4514 [label="Foam::meshCutAndRemove\l::setRefinement",height=0.2,width=0.4,color="red",URL="$a21502.html#a5b289474e53287a9460c322f12434dec",tooltip="Do actual cutting with cut description. Inserts mesh changes. "];
+  Node4491 -> Node4516 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4516 [label="Foam::meshCutter::setRefinement",height=0.2,width=0.4,color="red",URL="$a21506.html#ad6964ecaeb84631835d8a4e51bf706bb",tooltip="Do actual cutting with cut description. Inserts mesh changes. "];
+  Node4491 -> Node4521 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4521 [label="Foam::hexRef8::storeData",height=0.2,width=0.4,color="red",URL="$a21654.html#aca564b3e1d6bf72a398ffc8c17668020",tooltip="Signal points/face/cells for which to store data. "];
+}

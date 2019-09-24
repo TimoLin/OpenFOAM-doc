@@ -1,0 +1,18 @@
+digraph "subOrEmptyDict"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node23599 [label="subOrEmptyDict",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node23599 -> Node23600 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23600 [label="Foam::fieldValues::\lfaceSource::initialise",height=0.2,width=0.4,color="black",URL="$a28726.html#a64b2d7a28364c2ec1f1123d4633d20d5",tooltip="Initialise, e.g. face addressing. "];
+  Node23599 -> Node23601 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23601 [label="Foam::solutionControl\l::read",height=0.2,width=0.4,color="red",URL="$a21942.html#a5000fb6b71961a972685d699d4634d34",tooltip="Read controls from fvSolution dictionary. "];
+  Node23599 -> Node23608 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23608 [label="Foam::radiation::radiation\lModel::read",height=0.2,width=0.4,color="red",URL="$a30042.html#a662f37411f405f8a8c278141c5eb6b85",tooltip="Read radiationProperties dictionary. "];
+  Node23599 -> Node23614 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23614 [label="Foam::sampledSurfaces\l::read",height=0.2,width=0.4,color="red",URL="$a29386.html#aa9b8764750bd9ff67ca32b6551dc7847",tooltip="Read the sampledSurfaces dictionary. "];
+  Node23599 -> Node23616 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23616 [label="subDict",height=0.2,width=0.4,color="black",URL="$a26014.html#a1156156154972fa8f908fddd593b4c25",tooltip="Find and return a sub-dictionary for manipulation. "];
+}

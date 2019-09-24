@@ -1,0 +1,35 @@
+digraph "isPattern"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node82 [label="isPattern",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node82 -> Node83 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node83 [label="Foam::dictionary::add",height=0.2,width=0.4,color="red",URL="$a26014.html#ac2ddcab42322c8d8af5e5830ab4d431b",tooltip="Add a new entry. "];
+  Node82 -> Node3972 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3972 [label="Foam::dictionary::change\lKeyword",height=0.2,width=0.4,color="red",URL="$a26014.html#a6ced7250af2093b404dd4ec1058ec44d",tooltip="Change the keyword for an entry,. "];
+  Node82 -> Node3103 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3103 [label="Foam::coordinateSystems\l::findIndex",height=0.2,width=0.4,color="red",URL="$a25014.html#a325001a513b382437c8701a3a2e10bbb",tooltip="Find and return index for the first match, return -1 if not found. "];
+  Node82 -> Node4991 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4991 [label="Foam::ZoneMesh\< cellZone,\l polyMesh \>::findIndex",height=0.2,width=0.4,color="black",URL="$a27522.html#a49bc032e1976b4c0ae1f82fb4ddf8679",tooltip="Return zone index for the first match, return -1 if not found. "];
+  Node82 -> Node4992 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4992 [label="Foam::polyBoundaryMesh\l::findIndex",height=0.2,width=0.4,color="red",URL="$a27402.html#a49bc032e1976b4c0ae1f82fb4ddf8679",tooltip="Return patch index for the first match, return -1 if not found. "];
+  Node82 -> Node3102 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3102 [label="Foam::coordinateSystems\l::findIndices",height=0.2,width=0.4,color="black",URL="$a25014.html#a521a5e3446791e3aeffed145db6b1b5f",tooltip="Find and return indices for all matches. "];
+  Node3102 -> Node3103 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node82 -> Node3106 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3106 [label="Foam::ZoneMesh\< cellZone,\l polyMesh \>::findIndices",height=0.2,width=0.4,color="black",URL="$a27522.html#a7a46d489425be65e2f61533ee7a77b87",tooltip="Return zone indices for all matches. "];
+  Node82 -> Node3107 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3107 [label="Foam::polyBoundaryMesh\l::findIndices",height=0.2,width=0.4,color="red",URL="$a27402.html#a3e15652c7db41cd0638d8a95cc9075e5",tooltip="Return patch indices for all matches. Optionally matches patchGroups. "];
+  Node82 -> Node4993 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4993 [label="Foam::wordRe::operator=",height=0.2,width=0.4,color="black",URL="$a28262.html#aa95a5159884df51d484ffb4077066230",tooltip="Copy keyType, auto-test for regular expression. "];
+  Node82 -> Node1987 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1987 [label="Foam::GeometricField\l::GeometricBoundaryField\l::readField",height=0.2,width=0.4,color="black",URL="$a26514.html#a3b159706bf20959b4215e3c90e2cdb2f",tooltip="Read the boundary field. "];
+  Node82 -> Node4994 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4994 [label="Foam::wordRe::wordRe",height=0.2,width=0.4,color="black",URL="$a28262.html#a2ff254b6d37431af743c8680eaa83065",tooltip="Construct from keyType. "];
+  Node82 -> Node4995 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4995 [label="Foam::Ostream::write",height=0.2,width=0.4,color="black",URL="$a26238.html#acfa58924440a2951aa3ab91cc70dcc67",tooltip="Write keyType. "];
+  Node82 -> Node4996 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4996 [label="Foam::Ostream::writeKeyword",height=0.2,width=0.4,color="red",URL="$a26238.html#a3c58b2bb9174ea3c4a5fa58095d1290e",tooltip="Write the keyword followed by an appropriate indentation. "];
+}

@@ -1,0 +1,15 @@
+digraph "manipulatedMatrix"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1037 [label="manipulatedMatrix",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1037 -> Node1038 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1038 [label="autoMap",height=0.2,width=0.4,color="red",URL="$a22354.html#a0ab0c43ce90d756c88dd81e3d0a9eef5",tooltip="Map (and resize as needed) from self given a mapping object. "];
+  Node1038 -> Node1091 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1091 [label="rmap",height=0.2,width=0.4,color="black",URL="$a22354.html#abe233fd0f00c5f2012c2a8f57f20f5cb",tooltip="Reverse map the given fvPatchField onto this fvPatchField. "];
+  Node1037 -> Node1091 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1037 -> Node1092 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1092 [label="snGrad",height=0.2,width=0.4,color="black",URL="$a22354.html#a4e21804a54c15c57d187b21feff6f267",tooltip="Return patch-normal gradient. "];
+}

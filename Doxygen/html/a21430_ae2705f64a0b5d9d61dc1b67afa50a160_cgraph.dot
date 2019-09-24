@@ -1,0 +1,40 @@
+digraph "patchify"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1832 [label="patchify",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1832 -> Node1833 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1833 [label="Foam::List::append",height=0.2,width=0.4,color="black",URL="$a25694.html#a399dd2bf0d9a32016717dc90126f016b",tooltip="Append an element at the end of the list. "];
+  Node1832 -> Node1834 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1834 [label="Foam::polyMesh::boundaryMesh",height=0.2,width=0.4,color="black",URL="$a27410.html#a9f2b68c134340291eda6197f47f25484",tooltip="Return boundary mesh. "];
+  Node1832 -> Node1835 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1835 [label="Foam::repatchPolyTopoChanger\l::changePatches",height=0.2,width=0.4,color="red",URL="$a21738.html#aa67aec33e2b6e0a922126e09b3ba042a",tooltip="Change patches. "];
+  Node1835 -> Node1928 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1928 [label="Foam::repatchPolyTopoChanger\l::changePatchID",height=0.2,width=0.4,color="red",URL="$a21738.html#a0e422d65d38d06483bef5c596b607eb2",tooltip="Change patch ID for a boundary face. Note: patchID should be in new. "];
+  Node1928 -> Node1894 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1894 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node1928 -> Node1834 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1832 -> Node1928 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1832 -> Node2328 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2328 [label="Foam::polyPatch::clone",height=0.2,width=0.4,color="red",URL="$a27478.html#adbf8c0a436d777bd346c3ab2a4b087df",tooltip="Construct and return a clone, resetting the boundary mesh. "];
+  Node1832 -> Node1848 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1848 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node1832 -> Node2331 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2331 [label="Foam::patchIdentifier\l::name",height=0.2,width=0.4,color="black",URL="$a27122.html#acc80e00a8ac919288fb55bd14cc88bf6",tooltip="Return name. "];
+  Node1832 -> Node2332 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2332 [label="Foam::polyPatch::New",height=0.2,width=0.4,color="red",URL="$a27478.html#a1741756fc2a2b6260b8086d1c4f57291",tooltip="Return a pointer to a new patch created on freestore from. "];
+  Node2332 -> Node1848 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1832 -> Node1951 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1951 [label="Foam::primitiveMesh\l::nFaces",height=0.2,width=0.4,color="black",URL="$a27530.html#abe602c985a3c9ffa67176e969e77ca6f"];
+  Node1832 -> Node1903 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1903 [label="Foam::primitiveMesh\l::nInternalFaces",height=0.2,width=0.4,color="black",URL="$a27530.html#aa6c7965af1f30d16d9125deb981cbdb0"];
+  Node1832 -> Node2333 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2333 [label="Foam::patchIdentifier\l::physicalType",height=0.2,width=0.4,color="black",URL="$a27122.html#a98ebcf41881ab4e16eea80415cf75f07",tooltip="Return the optional physical type of the patch. "];
+  Node1832 -> Node2334 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2334 [label="Foam::repatchPolyTopoChanger\l::repatch",height=0.2,width=0.4,color="red",URL="$a21738.html#a9d4545d6f0ad7f447a237b10f3f67be0",tooltip="Re-patch the mesh. "];
+  Node1832 -> Node1894 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1832 -> Node1955 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1955 [label="Foam::polyPatch::start",height=0.2,width=0.4,color="red",URL="$a27478.html#a6bfd3e3abb11e98bdb4b98671cec1234",tooltip="Return start label of this patch in the polyMesh face list. "];
+}

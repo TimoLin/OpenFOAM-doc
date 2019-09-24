@@ -1,0 +1,18 @@
+digraph "read"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1984 [label="read",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1984 -> Node1985 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1985 [label="Foam::regIOobject::\lclose",height=0.2,width=0.4,color="red",URL="$a26334.html#a5ae591df94fc66ccb85cbb6565368bca",tooltip="Close Istream. "];
+  Node1984 -> Node2001 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2001 [label="Foam::IOdictionary\l::readData",height=0.2,width=0.4,color="red",URL="$a26158.html#ac3b3d77e7369ae2785973778644137c5",tooltip="ReadData function required for regIOobject read operation. "];
+  Node1984 -> Node2323 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2323 [label="Foam::dimensioned::\lreadIfPresent",height=0.2,width=0.4,color="black",URL="$a26366.html#ae9908fe8be8b23b418bf2ae8987b9abd",tooltip="Update the value of dimensioned<Type> if found in the dictionary. "];
+  Node1984 -> Node2324 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2324 [label="Foam::dictionary::subDictPtr",height=0.2,width=0.4,color="red",URL="$a26014.html#adadf3cea84d24fb561892e200c8904e6",tooltip="Find and return a sub-dictionary pointer if present. "];
+  Node1984 -> Node2145 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2145 [label="Foam::type",height=0.2,width=0.4,color="red",URL="$a21124.html#aec48583af672626378f501eb9fc32cd1",tooltip="Return the file type: DIRECTORY or FILE. "];
+}

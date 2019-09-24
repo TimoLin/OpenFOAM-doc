@@ -1,0 +1,19 @@
+digraph "wallShearStress"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node2 [label="wallShearStress",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="functionObjectFile",height=0.2,width=0.4,color="black",URL="$a26122.html",tooltip="Base class for output file data handling. "];
+  Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" outputPrefix" ,fontname="FreeSans"];
+  Node4 [label="word",height=0.2,width=0.4,color="red",URL="$a28258.html",tooltip="A class for handling words, derived from string. "];
+  Node4 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" null" ,fontname="FreeSans"];
+  Node7 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" log_" ,fontname="FreeSans"];
+  Node7 [label="Switch",height=0.2,width=0.4,color="black",URL="$a27626.html",tooltip="A simple wrapper around bool so that it can be read as a word: true/false, on/off, yes/no, y/n, t/f, or none. "];
+  Node8 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" obr_" ,fontname="FreeSans"];
+  Node8 [label="objectRegistry",height=0.2,width=0.4,color="red",URL="$a26326.html",tooltip="Registry of regIOobjects. "];
+  Node4 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" name_" ,fontname="FreeSans"];
+  Node17 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" patchSet_" ,fontname="FreeSans"];
+  Node17 [label="HashSet\< label, Hash\l\< label \> \>",height=0.2,width=0.4,color="red",URL="$a25690.html"];
+}

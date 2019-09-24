@@ -1,0 +1,14 @@
+digraph "operator="
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node134 [label="operator=",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node134 -> Node135 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node135 [label="Foam::regExp::clear",height=0.2,width=0.4,color="black",URL="$a28538.html#a216aa851b887319029f25340267e59cb",tooltip="Release precompiled expression. "];
+  Node134 -> Node136 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node136 [label="compile",height=0.2,width=0.4,color="red",URL="$a28262.html#a6d9cf83140518b168e8b2fe2a46b3ec6",tooltip="Compile the regular expression. "];
+  Node134 -> Node138 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node138 [label="isPattern",height=0.2,width=0.4,color="black",URL="$a28262.html#aaa56bb3e9c7d603ea926701883f338dd",tooltip="Test string for regular expression meta characters. "];
+}

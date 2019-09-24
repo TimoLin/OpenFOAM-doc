@@ -1,0 +1,25 @@
+digraph "src/OpenFOAM/primitives/Tensor/lists" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="FreeSans"];
+  edge [ labelfontsize="10", labelfontname="FreeSans"];
+  subgraph clusterdir_15da0e2a135f43ffeb4645c968ce8ac7 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Tensor" fontname="FreeSans", fontsize="10", URL="dir_15da0e2a135f43ffeb4645c968ce8ac7.html"]
+  dir_eb1e7f3caa8eb9a5ebb4eb1c1b1fdc67 [shape=box, label="lists", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_eb1e7f3caa8eb9a5ebb4eb1c1b1fdc67.html"];
+  }
+  dir_19d0872053bde092be81d7fe3f56cbf7 [shape=box label="containers" color="red" URL="dir_19d0872053bde092be81d7fe3f56cbf7.html"];
+  dir_63c634f7a7cfd679ac26c67fb30fc32f [shape=box label="db" color="red" URL="dir_63c634f7a7cfd679ac26c67fb30fc32f.html"];
+  dir_b065e1a4bed1b058c87ac57271f42191 [shape=box label="SphericalTensor" color="red" URL="dir_b065e1a4bed1b058c87ac57271f42191.html"];
+  dir_c0cff3d62001c560c873cec26c34e50d [shape=box label="tensor" URL="dir_c0cff3d62001c560c873cec26c34e50d.html"];
+  dir_1dd80385453c5b0e9d626c2fdc4e90dc [shape=box label="SymmTensor" color="red" URL="dir_1dd80385453c5b0e9d626c2fdc4e90dc.html"];
+  dir_eb1e7f3caa8eb9a5ebb4eb1c1b1fdc67->dir_19d0872053bde092be81d7fe3f56cbf7 [headlabel="3", labeldistance=1.5 headhref="dir_002238_001737.html"];
+  dir_eb1e7f3caa8eb9a5ebb4eb1c1b1fdc67->dir_63c634f7a7cfd679ac26c67fb30fc32f [headlabel="3", labeldistance=1.5 headhref="dir_002238_001787.html"];
+  dir_eb1e7f3caa8eb9a5ebb4eb1c1b1fdc67->dir_b065e1a4bed1b058c87ac57271f42191 [headlabel="1", labeldistance=1.5 headhref="dir_002238_002216.html"];
+  dir_eb1e7f3caa8eb9a5ebb4eb1c1b1fdc67->dir_c0cff3d62001c560c873cec26c34e50d [headlabel="1", labeldistance=1.5 headhref="dir_002238_002239.html"];
+  dir_eb1e7f3caa8eb9a5ebb4eb1c1b1fdc67->dir_1dd80385453c5b0e9d626c2fdc4e90dc [headlabel="1", labeldistance=1.5 headhref="dir_002238_002231.html"];
+  dir_19d0872053bde092be81d7fe3f56cbf7->dir_63c634f7a7cfd679ac26c67fb30fc32f [headlabel="62", labeldistance=1.5 headhref="dir_001737_001787.html"];
+  dir_63c634f7a7cfd679ac26c67fb30fc32f->dir_19d0872053bde092be81d7fe3f56cbf7 [headlabel="35", labeldistance=1.5 headhref="dir_001787_001737.html"];
+  dir_c0cff3d62001c560c873cec26c34e50d->dir_b065e1a4bed1b058c87ac57271f42191 [headlabel="1", labeldistance=1.5 headhref="dir_002239_002216.html"];
+  dir_c0cff3d62001c560c873cec26c34e50d->dir_1dd80385453c5b0e9d626c2fdc4e90dc [headlabel="1", labeldistance=1.5 headhref="dir_002239_002231.html"];
+  dir_1dd80385453c5b0e9d626c2fdc4e90dc->dir_b065e1a4bed1b058c87ac57271f42191 [headlabel="1", labeldistance=1.5 headhref="dir_002231_002216.html"];
+}

@@ -1,0 +1,14 @@
+digraph "~slurry"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2 [label="~slurry",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="mu",height=0.2,width=0.4,color="black",URL="$a31958.html#aa5a509b2c085c012f529dccd979c2f3e",tooltip="Return the mixture viscosity. "];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="read",height=0.2,width=0.4,color="black",URL="$a31958.html#a0efbb4e476c5a62dfa214c481566481c",tooltip="Read transportProperties dictionary. "];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="Foam::mixtureViscosityModel\l::viscosityProperties",height=0.2,width=0.4,color="red",URL="$a31950.html#ab0da91b923fbe3b57433e806f8883acf",tooltip="Return the phase transport properties dictionary. "];
+}

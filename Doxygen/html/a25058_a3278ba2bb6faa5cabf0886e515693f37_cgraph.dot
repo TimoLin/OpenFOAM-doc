@@ -1,0 +1,32 @@
+digraph "operator()"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node16 [label="operator()",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node16 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17 [label="Foam::PointHit::distance",height=0.2,width=0.4,color="black",URL="$a27558.html#a288a3ea8e3ee215a5e12afc1002ed4e6",tooltip="Return distance to hit. "];
+  Node16 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 [label="Foam::magSqr",height=0.2,width=0.4,color="black",URL="$a21124.html#ae6fff2c6981e6d9618aa5038e69def6e"];
+  Node16 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19 [label="Foam::max",height=0.2,width=0.4,color="black",URL="$a21124.html#ac993e906cf2774ae77e666bc24e81733"];
+  Node16 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20 [label="Foam::min",height=0.2,width=0.4,color="black",URL="$a21124.html#a253e112ad2d56d96230ff39ea7f442dc"];
+  Node16 -> Node21 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21 [label="Foam::treeDataPoint\l::pointLabels",height=0.2,width=0.4,color="black",URL="$a25054.html#a6a03180c1ffb525d459f2ea81896fe3c"];
+  Node16 -> Node22 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22 [label="Foam::treeDataPoint\l::points",height=0.2,width=0.4,color="black",URL="$a25054.html#afb6c3bde245ae6ea91f1c538da59f8fc"];
+  Node16 -> Node23 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23 [label="Foam::PointHit::rawPoint",height=0.2,width=0.4,color="black",URL="$a27558.html#a479a270e3db1518fd61b8a756455786b",tooltip="Return point with no checking. "];
+  Node16 -> Node24 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node24 [label="Foam::sqr",height=0.2,width=0.4,color="red",URL="$a21124.html#a277dc11c581d53826ab5090b08f3b17b"];
+  Node16 -> Node28 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node28 [label="Foam::treeDataPoint\l::useSubset",height=0.2,width=0.4,color="red",URL="$a25054.html#a58788497e7ea290023cc9c00730639ff"];
+  Node16 -> Node35 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node35 [label="Foam::Vector::x",height=0.2,width=0.4,color="black",URL="$a28442.html#a63327976e5a8359700064a02ae22548e"];
+  Node16 -> Node36 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node36 [label="Foam::Vector::y",height=0.2,width=0.4,color="black",URL="$a28442.html#a1ee865f676fbac703a49c6654dd3ad74"];
+  Node16 -> Node37 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node37 [label="Foam::Vector::z",height=0.2,width=0.4,color="black",URL="$a28442.html#a1c8320b15610de211ec70ef966581423"];
+}

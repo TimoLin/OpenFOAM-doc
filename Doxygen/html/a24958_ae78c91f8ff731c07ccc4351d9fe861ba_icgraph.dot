@@ -1,0 +1,31 @@
+digraph "mesh"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node98 [label="mesh",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node98 -> Node99 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node99 [label="Foam::patchWave::correct",height=0.2,width=0.4,color="red",URL="$a24966.html#a3ae44b28050c3aa494c1d8e18cf618c1",tooltip="Correct for mesh geom/topo changes. "];
+  Node98 -> Node101 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node101 [label="correctBoundaryFaceCells",height=0.2,width=0.4,color="black",URL="$a24958.html#a41c7905c77a33266536507702e329e13",tooltip="Correct all cells connected to boundary (via face). Sets values in. "];
+  Node101 -> Node102 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node102 [label="sumPatchSize",height=0.2,width=0.4,color="black",URL="$a24958.html#a1368fbba0d932ccedb4b2a8e41b9791c",tooltip="Sum of patch sizes (out of supplied subset of patches). "];
+  Node102 -> Node103 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node103 [label="maxPatchSize",height=0.2,width=0.4,color="red",URL="$a24958.html#a0161218fe2eda8d48db7b5b5091c974f",tooltip="Size of largest patch (out of supplied subset of patches) "];
+  Node103 -> Node101 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node103 -> Node98 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node102 -> Node98 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node102 -> Node99 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node101 -> Node98 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node101 -> Node99 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node98 -> Node107 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node107 [label="correctBoundaryPointCells",height=0.2,width=0.4,color="black",URL="$a24958.html#ae4ed6e24a4dba014836260aece8f8ead",tooltip="Correct all cells connected to wall (via point). Sets values in. "];
+  Node107 -> Node101 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node107 -> Node98 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node107 -> Node99 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node98 -> Node106 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node106 [label="getPatchIDs",height=0.2,width=0.4,color="black",URL="$a24958.html#a0e204c53114d3100fef2e5cf3d1fe465",tooltip="Return the set of patch IDs corresponding to the given names. "];
+  Node98 -> Node103 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node98 -> Node102 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

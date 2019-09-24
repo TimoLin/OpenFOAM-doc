@@ -1,0 +1,12 @@
+digraph "read"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node315 [label="read",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node315 -> Node316 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node316 [label="Foam::simpleControl\l::read",height=0.2,width=0.4,color="red",URL="$a21938.html#aaa936da334e29618ece019bd8a9aa06f",tooltip="Read controls from fvSolution dictionary. "];
+  Node315 -> Node319 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node319 [label="Foam::pimpleControl\l::read",height=0.2,width=0.4,color="red",URL="$a21934.html#aaa936da334e29618ece019bd8a9aa06f",tooltip="Read controls from fvSolution dictionary. "];
+}

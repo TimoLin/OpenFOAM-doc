@@ -1,0 +1,20 @@
+digraph "sortedOrder"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node9193 [label="sortedOrder",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node9193 -> Node9194 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9194 [label="Foam::List::clear",height=0.2,width=0.4,color="black",URL="$a25694.html#ac8bb3912a3ce86b15842e79d0b421204",tooltip="Clear the list, i.e. set size to zero. "];
+  Node9193 -> Node9195 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9195 [label="duplicateOrder",height=0.2,width=0.4,color="black",URL="$a21124.html#a3bfebd14659da905101e95c83982e9b9",tooltip="Generate (sorted) indices corresponding to duplicate list values. "];
+  Node9193 -> Node9196 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9196 [label="Foam::List::setSize",height=0.2,width=0.4,color="black",URL="$a25694.html#aedb985ffeaf1bdbfeccc2a8730405703",tooltip="Reset size of List. "];
+  Node9193 -> Node9197 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9197 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node9193 -> Node9198 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9198 [label="Foam::UList::size",height=0.2,width=0.4,color="black",URL="$a25698.html#a47b3bf30da1eb3ab8076b5fbe00e0494",tooltip="Return the number of elements in the UList. "];
+  Node9193 -> Node9199 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9199 [label="stableSort",height=0.2,width=0.4,color="red",URL="$a21124.html#ac70ba9dd7bbc030636a4a4e2e9825c3c"];
+}

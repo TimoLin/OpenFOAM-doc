@@ -1,0 +1,18 @@
+digraph "tabulatedWallFunction"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node3 [label="tabulatedWallFunction",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mesh_" ,fontname="FreeSans"];
+  Node4 [label="polyMesh",height=0.2,width=0.4,color="red",URL="$a27410.html",tooltip="Mesh consisting of general polyhedral cells. "];
+  Node15 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" defaultRegion\nmeshSubDir" ,fontname="FreeSans"];
+  Node15 [label="word",height=0.2,width=0.4,color="red",URL="$a28258.html",tooltip="A class for handling words, derived from string. "];
+  Node15 -> Node15 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" null" ,fontname="FreeSans"];
+  Node18 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" coeffDict_\ndict_" ,fontname="FreeSans"];
+  Node18 [label="dictionary",height=0.2,width=0.4,color="red",URL="$a26014.html",tooltip="A list of keyword definitions, which are a keyword followed by any number of values (e..."];
+  Node18 -> Node18 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" null" ,fontname="FreeSans"];
+  Node15 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" invertedTableName_" ,fontname="FreeSans"];
+  Node31 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" invertedTable_" ,fontname="FreeSans"];
+  Node31 [label="uniformInterpolationTable\l\< scalar \>",height=0.2,width=0.4,color="red",URL="$a26770.html"];
+}

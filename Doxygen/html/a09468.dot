@@ -1,0 +1,21 @@
+digraph "src/OpenFOAM/fields/DimensionedFields/DimensionedTensorField/DimensionedTensorField.H"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node0 [label="src/OpenFOAM/fields\l/DimensionedFields/Dimensioned\lTensorField/DimensionedTensorField.H",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="DimensionedSphericalTensor\lField.H",height=0.2,width=0.4,color="red",URL="$a09455.html",tooltip="Specialisation of DimensionedField<T, GeoMesh> for sphericalTensor. "];
+  Node1 -> Node112 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node112 [label="DimensionedFieldFunctionsM.H",height=0.2,width=0.4,color="black",URL="$a09422.html"];
+  Node1 -> Node91 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node91 [label="undefFieldFunctionsM.H",height=0.2,width=0.4,color="black",URL="$a09605.html"];
+  Node0 -> Node119 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node119 [label="DimensionedSymmTensorField.H",height=0.2,width=0.4,color="red",URL="$a09461.html",tooltip="SymmTensor specific part of the implementation of DimensionedField. "];
+  Node119 -> Node112 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node119 -> Node91 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node0 -> Node125 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node125 [label="tensor.H",height=0.2,width=0.4,color="red",URL="$a12755.html"];
+  Node0 -> Node112 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node0 -> Node91 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,18 @@
+digraph "motionSolver"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="motionSolver",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="IOdictionary",height=0.2,width=0.4,color="red",URL="$a26158.html",tooltip="IOdictionary is derived from dictionary and IOobject to give the dictionary automatic IO functionalit..."];
+  Node0 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17 [label="componentDisplacementMotion\lSolver",height=0.2,width=0.4,color="red",URL="$a21566.html",tooltip="Virtual base class for displacement motion solver. "];
+  Node0 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19 [label="componentVelocityMotionSolver",height=0.2,width=0.4,color="red",URL="$a21570.html",tooltip="Virtual base class for velocity motion solver. "];
+  Node0 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21 [label="displacementMotionSolver",height=0.2,width=0.4,color="red",URL="$a21574.html",tooltip="Virtual base class for displacement motion solver. "];
+  Node0 -> Node28 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node28 [label="velocityMotionSolver",height=0.2,width=0.4,color="red",URL="$a21582.html",tooltip="Virtual base class for velocity motion solver. "];
+}

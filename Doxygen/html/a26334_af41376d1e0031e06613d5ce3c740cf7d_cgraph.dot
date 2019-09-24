@@ -1,0 +1,16 @@
+digraph "rename"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1678 [label="rename",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1678 -> Node1679 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1679 [label="checkIn",height=0.2,width=0.4,color="red",URL="$a26334.html#af9e300b410088279d671077efe9751f8",tooltip="Add object to registry. "];
+  Node1678 -> Node1999 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1999 [label="checkOut",height=0.2,width=0.4,color="red",URL="$a26334.html#aca37b66bfd7214d80ab764b883b5bfc6",tooltip="Remove object from registry. "];
+  Node1678 -> Node2004 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2004 [label="Foam::IOobject::register\lObject",height=0.2,width=0.4,color="black",URL="$a26142.html#a3cef3ce0780e63b05b588bd774fbd653",tooltip="Register object created from this IOobject with registry if true. "];
+  Node1678 -> Node2005 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2005 [label="Foam::IOobject::rename",height=0.2,width=0.4,color="black",URL="$a26142.html#ab7b33b37f8de0f2e2588d49fa52d7ab8",tooltip="Rename. "];
+}

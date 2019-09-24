@@ -1,0 +1,28 @@
+digraph "neighbPatch"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1609 [label="neighbPatch",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1609 -> Node1610 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1610 [label="Foam::processorCyclicPoly\lPatch::calcGeometry",height=0.2,width=0.4,color="black",URL="$a27458.html#a58bb4c0382e9ee570811fb3f005a0a97",tooltip="Calculate the patch geometry. "];
+  Node1609 -> Node1611 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1611 [label="Foam::PointEdgeWave\l::countPatchType",height=0.2,width=0.4,color="black",URL="$a24858.html#a774d50194a0ab5809347d4eb20808ff6"];
+  Node1609 -> Node1612 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1612 [label="Foam::particle::hitCyclic\lPatch",height=0.2,width=0.4,color="red",URL="$a23586.html#a18d4a8f6e9443b58d4ba678034d03d19",tooltip="Overridable function to handle the particle hitting a cyclicPatch. "];
+  Node1609 -> Node1618 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1618 [label="Foam::syncTools::syncBoundary\lFaceList",height=0.2,width=0.4,color="red",URL="$a27502.html#a1885668646afb3cf257512c56daa9b2f",tooltip="Synchronize values on boundary faces only. "];
+  Node1609 -> Node1824 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1824 [label="Foam::syncTools::syncEdgeMap",height=0.2,width=0.4,color="red",URL="$a27502.html#a154ac086463b8d7a0eed8c4539d3ab73",tooltip="Synchronize values on selected edges. "];
+  Node1824 -> Node1829 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1829 [label="Foam::syncTools::syncPointMap",height=0.2,width=0.4,color="red",URL="$a27502.html#a08bdf5c6403dd4367d1714c3d5b4145d",tooltip="Synchronize values on selected points. "];
+  Node1609 -> Node1743 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1743 [label="Foam::syncTools::syncFaceList",height=0.2,width=0.4,color="black",URL="$a27502.html#abbce369b7f4597ea87c95f9b17cb707f"];
+  Node1609 -> Node1829 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1609 -> Node1831 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1831 [label="Foam::processorCyclicPoly\lPatch::tag",height=0.2,width=0.4,color="red",URL="$a27458.html#a99a5c46d528d603fa3114da2eb23cfe1",tooltip="Return message tag to use for communication. "];
+  Node1609 -> Node1856 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1856 [label="transformGlobalFace",height=0.2,width=0.4,color="black",URL="$a27434.html#aa5af908ce117c3633484f843f2e1cca3"];
+  Node1856 -> Node1612 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

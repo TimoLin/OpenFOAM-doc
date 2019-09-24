@@ -1,0 +1,24 @@
+digraph "cellMapper"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="cellMapper",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="Foam::mapPolyMesh::\lcellMap",height=0.2,width=0.4,color="black",URL="$a27386.html#a4209f47fe506af0959ae50b019562b17",tooltip="Old cell map. "];
+  Node0 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="Foam::mapPolyMesh::\lcellsFromCellsMap",height=0.2,width=0.4,color="red",URL="$a27386.html#ad6d026ca871422c42cc8f02942c45d87",tooltip="Cells originating from cells. "];
+  Node0 -> Node49 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node49 [label="Foam::mapPolyMesh::\lcellsFromEdgesMap",height=0.2,width=0.4,color="black",URL="$a27386.html#a22f6bd4c1bbf65c237e7fafdaf7793f1",tooltip="Cells inflated from edges. "];
+  Node0 -> Node50 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node50 [label="Foam::mapPolyMesh::\lcellsFromFacesMap",height=0.2,width=0.4,color="black",URL="$a27386.html#ae64de49a6bc451c144401104e0ca3f96",tooltip="Cells inflated from faces. "];
+  Node0 -> Node51 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node51 [label="Foam::mapPolyMesh::\lcellsFromPointsMap",height=0.2,width=0.4,color="black",URL="$a27386.html#a300777851c68e8b20ec5bf86dcafdcaa",tooltip="Cells inflated from points. "];
+  Node0 -> Node52 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node52 [label="Foam::UList::empty",height=0.2,width=0.4,color="black",URL="$a25698.html#a644718bb2fb240de962dc3c9a1fdf0dc",tooltip="Return true if the UList is empty (ie, size() is zero). "];
+  Node0 -> Node53 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node53 [label="Foam::min",height=0.2,width=0.4,color="black",URL="$a21124.html#a253e112ad2d56d96230ff39ea7f442dc"];
+  Node0 -> Node54 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node54 [label="Foam::primitiveMesh\l::nCells",height=0.2,width=0.4,color="black",URL="$a27530.html#a13b94bdb0926552bf78ad5210a73a3d5"];
+}

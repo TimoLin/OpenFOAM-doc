@@ -1,0 +1,19 @@
+digraph "reorder"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node9265 [label="reorder",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node9265 -> Node9266 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9266 [label="Foam::fvMeshTools::\laddPatch",height=0.2,width=0.4,color="red",URL="$a21458.html#a590f160ae7ad17fa6394045ac077b9bf",tooltip="Add patch. Inserts patch before all processor patches. "];
+  Node9265 -> Node9279 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9279 [label="Foam::meshRefinement\l::addPatch",height=0.2,width=0.4,color="red",URL="$a24662.html#a7648b2de2bf053048ba38532a8cf73a1",tooltip="Helper:add patch to mesh. Update all registered fields. "];
+  Node9265 -> Node9284 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9284 [label="Foam::polyBoundaryMesh\l::reorder",height=0.2,width=0.4,color="red",URL="$a27402.html#a95c28578fe12550673a1a0917d8fb7f7",tooltip="Reorders patches. Ordering does not have to be done in. "];
+  Node9284 -> Node9266 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9284 -> Node9279 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9284 -> Node9375 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9375 [label="Foam::fvMeshTools::\lreorderPatches",height=0.2,width=0.4,color="red",URL="$a21458.html#a18d7d3895abc0ab81c525bd81ba69a9c"];
+  Node9265 -> Node9375 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

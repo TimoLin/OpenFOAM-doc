@@ -1,0 +1,17 @@
+digraph "correct"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node6 [label="correct",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="Foam::min",height=0.2,width=0.4,color="black",URL="$a21124.html#a253e112ad2d56d96230ff39ea7f442dc"];
+  Node6 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="Foam::pow3",height=0.2,width=0.4,color="red",URL="$a21124.html#a2e8f5d970ee4fb466536c3c46bae91fe"];
+  Node8 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="Foam::dimensioned::\lvalue",height=0.2,width=0.4,color="black",URL="$a26366.html#a7948200a26c85fc3a83ffa510a91d668",tooltip="Return const reference to value. "];
+  Node6 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12 [label="s",height=0.2,width=0.4,color="black",URL="$a18905.html#abb9c4233033fad2ad0206cd4adad3b9f"];
+  Node6 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

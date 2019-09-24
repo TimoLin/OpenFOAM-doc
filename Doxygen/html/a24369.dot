@@ -1,0 +1,11 @@
+digraph "thermoParcelInjectionData"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node0 [label="thermoParcelInjectionData",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="kinematicParcelInjectionData",height=0.2,width=0.4,color="black",URL="$a24082.html",tooltip="Container class to provide injection data for kinematic parcels. "];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="reactingParcelInjectionData",height=0.2,width=0.4,color="red",URL="$a24310.html",tooltip="Container class to provide injection data for reacting parcels. "];
+}

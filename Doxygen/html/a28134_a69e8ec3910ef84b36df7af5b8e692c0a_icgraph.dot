@@ -1,0 +1,45 @@
+digraph "sample01"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node24 [label="sample01",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node24 -> Node25 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node25 [label="Foam::IsotropyModels\l::Stochastic::calculate",height=0.2,width=0.4,color="red",URL="$a24246.html#afe1d8348c24e6589bc7c0b3f689316a7",tooltip="Member Functions. "];
+  Node24 -> Node27 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node27 [label="Foam::ConeInjection\l::ConeInjection",height=0.2,width=0.4,color="black",URL="$a24054.html#a27734237622b5ec96d4f9bd9ea1b72a1",tooltip="Construct from dictionary. "];
+  Node24 -> Node28 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node28 [label="Foam::ConeNozzleInjection\l::ConeNozzleInjection",height=0.2,width=0.4,color="black",URL="$a24062.html#a0a1cf5292f714d4aee4a0f846b16bfc0",tooltip="Construct from dictionary. "];
+  Node24 -> Node29 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node29 [label="Foam::InflationInjection\l::parcelsToInject",height=0.2,width=0.4,color="red",URL="$a24070.html#a4c4730db6620caeb697dfb15e7ed265a",tooltip="Number of parcels to introduce relative to SOI. "];
+  Node24 -> Node32 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node32 [label="Foam::triangle::randomPoint",height=0.2,width=0.4,color="black",URL="$a27606.html#a1546216f63c8545b32f205686e26a75d",tooltip="Return a random point on the triangle from a uniform. "];
+  Node24 -> Node33 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node33 [label="Foam::tetrahedron::\lrandomPoint",height=0.2,width=0.4,color="black",URL="$a27586.html#a1546216f63c8545b32f205686e26a75d",tooltip="Return a random point in the tetrahedron from a. "];
+  Node24 -> Node34 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34 [label="Foam::distributionModels\l::exponential::sample",height=0.2,width=0.4,color="red",URL="$a23642.html#a523eae27d84403d08bdca843c0679d8a",tooltip="Sample the distributionModel. "];
+  Node24 -> Node36 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node36 [label="Foam::distributionModels\l::general::sample",height=0.2,width=0.4,color="red",URL="$a23650.html#a523eae27d84403d08bdca843c0679d8a",tooltip="Sample the distributionModel. "];
+  Node24 -> Node38 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node38 [label="Foam::distributionModels\l::RosinRammler::sample",height=0.2,width=0.4,color="red",URL="$a23662.html#a523eae27d84403d08bdca843c0679d8a",tooltip="Sample the distributionModel. "];
+  Node24 -> Node40 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node40 [label="Foam::distributionModels\l::normal::sample",height=0.2,width=0.4,color="red",URL="$a23658.html#a523eae27d84403d08bdca843c0679d8a",tooltip="Sample the distributionModel. "];
+  Node24 -> Node42 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node42 [label="Foam::distributionModels\l::multiNormal::sample",height=0.2,width=0.4,color="red",URL="$a23654.html#a523eae27d84403d08bdca843c0679d8a",tooltip="Sample the distributionModel. "];
+  Node24 -> Node44 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node44 [label="Foam::ConeNozzleInjection\l::setPositionAndCell",height=0.2,width=0.4,color="red",URL="$a24062.html#aad46d52ac65ec9617ddd76b06e2bc670",tooltip="Set the injection position and owner cell. "];
+  Node24 -> Node49 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node49 [label="Foam::ConeInjection\l::setProperties",height=0.2,width=0.4,color="red",URL="$a24054.html#a9c29fb14e9bea94ae75c185efe894b00",tooltip="Set the parcel properties. "];
+  Node24 -> Node55 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node55 [label="Foam::ConeNozzleInjection\l::setProperties",height=0.2,width=0.4,color="red",URL="$a24062.html#a9c29fb14e9bea94ae75c185efe894b00",tooltip="Set the parcel properties. "];
+  Node55 -> Node44 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node24 -> Node56 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node56 [label="Foam::StochasticDispersion\lRAS::update",height=0.2,width=0.4,color="red",URL="$a24602.html#a6b0b1e27ffb9ac1c38932a7dcd3009e0",tooltip="Update (disperse particles) "];
+  Node24 -> Node59 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node59 [label="Foam::GradientDispersion\lRAS::update",height=0.2,width=0.4,color="red",URL="$a24598.html#a6b0b1e27ffb9ac1c38932a7dcd3009e0",tooltip="Update (disperse particles) "];
+  Node24 -> Node62 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node62 [label="Foam::SHF::update",height=0.2,width=0.4,color="red",URL="$a24578.html#af86a08f997bc779309ec7d00e914e292",tooltip="update the parcel properties "];
+  Node24 -> Node65 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node65 [label="Foam::IsotropyModels\l::Stochastic::~Stochastic",height=0.2,width=0.4,color="red",URL="$a24246.html#a7e7959df6214bab2730fdf0b124973db",tooltip="Destructor. "];
+}

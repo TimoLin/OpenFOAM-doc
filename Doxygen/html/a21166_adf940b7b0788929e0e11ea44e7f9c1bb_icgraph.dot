@@ -1,0 +1,27 @@
+digraph "inplaceExpand"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node37 [label="inplaceExpand",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node37 -> Node38 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node38 [label="Foam::dynamicCode::\lcopyAndFilter",height=0.2,width=0.4,color="red",URL="$a26070.html#a1c5c6c6385cd29521ecf0305e3db8448",tooltip="Copy lines while expanding variables. "];
+  Node37 -> Node43 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node43 [label="Foam::dynamicCodeContext\l::dynamicCodeContext",height=0.2,width=0.4,color="black",URL="$a26074.html#aaf616cf1d1395ba4d720994dc0d56732",tooltip="Construct from a dictionary. "];
+  Node37 -> Node44 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node44 [label="expand",height=0.2,width=0.4,color="red",URL="$a21166.html#ad71b2438d1f3e1e22ecf86c379cb6c29",tooltip="Expand occurences of variables according to the mapping. "];
+  Node44 -> Node37 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node37 -> Node53 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node53 [label="Foam::string::expand",height=0.2,width=0.4,color="red",URL="$a28250.html#a99762e1bec412804aad30b9752abbac2",tooltip="Expand initial tildes and all occurences of environment variables. "];
+  Node37 -> Node61 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node61 [label="Foam::functionEntries\l::includeEntry::includeFileName",height=0.2,width=0.4,color="black",URL="$a26038.html#a9cbd98ead2bb7538e417330caa3bc452",tooltip="Read the include fileName from Istream, expand and return. "];
+  Node37 -> Node49 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node49 [label="inplaceExpand",height=0.2,width=0.4,color="black",URL="$a21166.html#ac760e4fa2afbc93f8d9932e598d9a897",tooltip="Inplace expand occurences of variables according to the dictionary. "];
+  Node37 -> Node62 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node62 [label="Foam::entry::New",height=0.2,width=0.4,color="red",URL="$a26022.html#a8a226a546ec766d55192e65b55f87715",tooltip="Construct from Istream and insert into dictionary. "];
+  Node37 -> Node64 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node64 [label="Foam::codedFunctionObject\l::read",height=0.2,width=0.4,color="black",URL="$a28874.html#afac0600fef97b05534a595ce00b272ed",tooltip="Read and set the function object if its data have changed. "];
+  Node37 -> Node65 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node65 [label="Foam::fv::CodedSource\l::read",height=0.2,width=0.4,color="black",URL="$a23526.html#a6ce0c64db98eb6144d363dbfc86104eb",tooltip="Read source dictionary. "];
+}

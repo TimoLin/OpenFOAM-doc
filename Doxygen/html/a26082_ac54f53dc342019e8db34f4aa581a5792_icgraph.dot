@@ -1,0 +1,17 @@
+digraph "abort"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node8915 [label="abort",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node8915 -> Node8916 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8916 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node8915 -> Node12275 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12275 [label="exit",height=0.2,width=0.4,color="red",URL="$a26082.html#a8e05d3ad7f8730ff9a8bab5360fd7854",tooltip="Exit : can be called for any error to exit program. "];
+  Node12275 -> Node13399 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13399 [label="Foam::IOerror::ioEndLine\lNumber",height=0.2,width=0.4,color="red",URL="$a26086.html#a8f31741a5497f159f1ec818e54db905e"];
+  Node8915 -> Node13399 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8915 -> Node13403 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13403 [label="operator()",height=0.2,width=0.4,color="black",URL="$a26082.html#a316cb3e568734ce28fdaff011c230bb7",tooltip="Convert to OSstream. "];
+}

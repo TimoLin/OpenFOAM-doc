@@ -1,0 +1,12 @@
+digraph "relaxSources"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node112 [label="relaxSources",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node112 -> Node113 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node113 [label="Foam::ThermoCloud\<\l Foam::DsmcCloud \>::\lcloneBare",height=0.2,width=0.4,color="black",URL="$a23834.html#a519c85b79b984c70934c244a934588ca",tooltip="Construct and return bare clone based on (this) with new name. "];
+  Node112 -> Node114 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node114 [label="Foam::ThermoCloud\<\l Foam::DsmcCloud \>::\lresetSourceTerms",height=0.2,width=0.4,color="black",URL="$a23834.html#acf214ed9b415b06b398e6fff63b72de0",tooltip="Reset the cloud source terms. "];
+}

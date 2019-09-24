@@ -1,0 +1,31 @@
+digraph "src/OpenFOAM/primitives/pTraits/pTraits.H"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node1 [label="src/OpenFOAM/primitives\l/pTraits/pTraits.H",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="src/meshTools/algorithms\l/PatchEdgeFaceWave/patchEdgeFace\lInfo.H",height=0.2,width=0.4,color="red",URL="$a07181.html"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="src/meshTools/algorithms\l/PointEdgeWave/pointEdgePoint.H",height=0.2,width=0.4,color="red",URL="$a07223.html"];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13 [label="src/OpenFOAM/containers\l/Lists/UList/UListI.H",height=0.2,width=0.4,color="red",URL="$a08762.html"];
+  Node1 -> Node4568 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4568 [label="src/OpenFOAM/dimensioned\lTypes/dimensionedType\l/dimensionedType.C",height=0.2,width=0.4,color="black",URL="$a09371.html"];
+  Node1 -> Node5417 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5417 [label="src/OpenFOAM/primitives\l/bools/bool/bool.H",height=0.2,width=0.4,color="red",URL="$a12143.html",tooltip="System bool. "];
+  Node1 -> Node5943 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5943 [label="src/OpenFOAM/primitives\l/hashes/Hash/Hash.H",height=0.2,width=0.4,color="red",URL="$a12335.html"];
+  Node1 -> Node5944 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5944 [label="src/OpenFOAM/primitives\l/ints/label/label.H",height=0.2,width=0.4,color="red",URL="$a12371.html"];
+  Node5944 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5944 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5944 -> Node5943 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 -> Node5999 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5999 [label="src/OpenFOAM/primitives\l/ints/uLabel/uLabel.H",height=0.2,width=0.4,color="red",URL="$a12410.html"];
+  Node5999 -> Node5943 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 -> Node6000 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6000 [label="src/OpenFOAM/primitives\l/VectorSpace/products.H",height=0.2,width=0.4,color="red",URL="$a12857.html",tooltip="Traits classes for inner and outer products of primitives. "];
+  Node1 -> Node5831 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5831 [label="src/sampling/sampledSurface\l/writers/ensight/ensightPTraits.H",height=0.2,width=0.4,color="red",URL="$a14837.html"];
+}

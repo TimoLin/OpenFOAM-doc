@@ -1,0 +1,14 @@
+digraph "alphat"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node360 [label="alphat",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node360 -> Node361 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node361 [label="Foam::compressible\l::turbulenceModel::alpha",height=0.2,width=0.4,color="red",URL="$a30818.html#abac719d171915a1f65d16bb812737380",tooltip="Return the laminar thermal conductivity. "];
+  Node360 -> Node366 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node366 [label="Foam::DimensionedField\l::dimensions",height=0.2,width=0.4,color="black",URL="$a26390.html#a66989c1e0666e0d0c93a2056ce75599e",tooltip="Return dimensions. "];
+  Node360 -> Node367 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node367 [label="Foam::Time::timeName",height=0.2,width=0.4,color="black",URL="$a26350.html#ad9d86fef6eca18797c786726cf925179",tooltip="Return time name of given scalar time. "];
+}

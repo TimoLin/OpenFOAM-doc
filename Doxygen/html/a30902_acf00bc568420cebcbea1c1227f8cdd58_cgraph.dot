@@ -1,0 +1,24 @@
+digraph "B"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3649 [label="B",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3649 -> Node3650 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3650 [label="Foam::fvc::grad",height=0.2,width=0.4,color="red",URL="$a21134.html#a7c00ec90ecc15ed3005255e42c52827a"];
+  Node3650 -> Node3650 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3649 -> Node3653 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3653 [label="k",height=0.2,width=0.4,color="red",URL="$a30902.html#a2e01d66cd4db498fd5e869ea66925978",tooltip="Return SGS kinetic energy. "];
+  Node3653 -> Node3650 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3653 -> Node3658 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3658 [label="nuSgs",height=0.2,width=0.4,color="red",URL="$a30902.html#abde47ef2bb39f49cb72a765c4fd8cc3c",tooltip="Return SGS viscosity. "];
+  Node3658 -> Node3649 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3658 -> Node4025 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4025 [label="Foam::incompressible\l::turbulenceModel::U",height=0.2,width=0.4,color="black",URL="$a31102.html#a536d168d7b335fe81f506f232b5b4872",tooltip="Access function to velocity field. "];
+  Node3653 -> Node4025 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3649 -> Node3658 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3649 -> Node4024 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4024 [label="Foam::twoSymm",height=0.2,width=0.4,color="red",URL="$a21124.html#a446550beb700669a32e76d9b87d5e043"];
+  Node3649 -> Node4025 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

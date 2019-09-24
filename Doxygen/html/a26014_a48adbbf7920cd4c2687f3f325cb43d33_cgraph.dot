@@ -1,0 +1,19 @@
+digraph "subOrEmptyDict"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node23549 [label="subOrEmptyDict",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node23549 -> Node23550 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23550 [label="Foam::entry::dict",height=0.2,width=0.4,color="black",URL="$a26022.html#abd246c36ef3a3776f7d6e517dc9621af",tooltip="Return dictionary if this entry is a dictionary. "];
+  Node23549 -> Node23551 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23551 [label="dictionary",height=0.2,width=0.4,color="black",URL="$a26014.html#a4cea470990d165a35c1b2333a569b586",tooltip="Construct top-level dictionary null. "];
+  Node23549 -> Node23552 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23552 [label="Foam::exit",height=0.2,width=0.4,color="red",URL="$a21124.html#a06ca7250d8e89caf05243ec094843642"];
+  Node23549 -> Node23598 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23598 [label="lookupEntryPtr",height=0.2,width=0.4,color="black",URL="$a26014.html#a63ca8c5575e79a6e04b8a1e1c4c1d958",tooltip="Find and return an entry data stream pointer if present. "];
+  Node23598 -> Node23598 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23549 -> Node23592 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23592 [label="Foam::dictionaryName\l::name",height=0.2,width=0.4,color="black",URL="$a26010.html#aba53f1f9c8fadfa65f4099af10df348c",tooltip="Return the dictionary name. "];
+}

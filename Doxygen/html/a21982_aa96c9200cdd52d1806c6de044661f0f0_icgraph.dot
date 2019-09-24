@@ -1,0 +1,13 @@
+digraph "gradientBoundaryCoeffs"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node263 [label="gradientBoundaryCoeffs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node263 -> Node264 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node264 [label="gradientInternalCoeffs",height=0.2,width=0.4,color="red",URL="$a21982.html#acfc2155b5e8a256253770a1f0b2a840b",tooltip="Return the matrix diagonal coefficients corresponding to the. "];
+  Node264 -> Node265 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node265 [label="snGrad",height=0.2,width=0.4,color="black",URL="$a21982.html#a55db17a8a73495ae1c04e4b2af71c4a9",tooltip="Return gradient at boundary. "];
+  Node263 -> Node265 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

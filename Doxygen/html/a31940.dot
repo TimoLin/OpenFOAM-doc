@@ -1,0 +1,26 @@
+digraph "incompressibleTwoPhaseInteractingMixture"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node19 [label="incompressibleTwoPhaseInteracting\lMixture",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node20 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20 [label="IOdictionary",height=0.2,width=0.4,color="red",URL="$a26158.html",tooltip="IOdictionary is derived from dictionary and IOobject to give the dictionary automatic IO functionalit..."];
+  Node41 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node41 [label="transportModel",height=0.2,width=0.4,color="black",URL="$a30490.html",tooltip="Base-class for all transport models used by the incompressible turbulence models. ..."];
+  Node42 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node42 [label="twoPhaseMixture",height=0.2,width=0.4,color="red",URL="$a30526.html",tooltip="A two-phase mixture model. "];
+  Node43 -> Node42 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" alpha2_\nalpha1_" ,fontname="FreeSans"];
+  Node43 [label="GeometricField\< scalar,\l fvPatchField, volMesh \>",height=0.2,width=0.4,color="red",URL="$a22434.html"];
+  Node52 -> Node43 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< scalar, fvPatchField,\l volMesh \>" ,fontname="FreeSans"];
+  Node52 [label="GeometricField\< Type,\l PatchField, GeoMesh \>",height=0.2,width=0.4,color="red",URL="$a22434.html",tooltip="Generic GeometricField class. "];
+  Node43 -> Node19 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mu_" ,fontname="FreeSans"];
+  Node57 -> Node19 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" muModel_" ,fontname="FreeSans"];
+  Node57 [label="autoPtr\< Foam::mixtureViscosity\lModel \>",height=0.2,width=0.4,color="red",URL="$a25958.html"];
+  Node59 -> Node19 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" dd_\nrhod_\nrhoc_" ,fontname="FreeSans"];
+  Node59 [label="dimensioned\< scalar \>",height=0.2,width=0.4,color="red",URL="$a26366.html"];
+  Node61 -> Node19 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" nucModel_" ,fontname="FreeSans"];
+  Node61 [label="autoPtr\< Foam::viscosity\lModel \>",height=0.2,width=0.4,color="red",URL="$a25958.html"];
+  Node52 -> Node19 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" U_\nphi_" ,fontname="FreeSans"];
+}

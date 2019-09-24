@@ -1,0 +1,15 @@
+digraph "topoChanger"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node376 [label="topoChanger",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node376 -> Node377 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node377 [label="Foam::IOstream::check",height=0.2,width=0.4,color="red",URL="$a26226.html#a367eb3425fc4e8270e2aa961df8ac8a5",tooltip="Check IOstream status for given operation. "];
+  Node376 -> Node426 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node426 [label="Foam::operator\<\<",height=0.2,width=0.4,color="red",URL="$a21124.html#ae86a76a63deefbe1a4490c873ad8e1b2"];
+  Node426 -> Node377 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node376 -> Node428 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node428 [label="write",height=0.2,width=0.4,color="black",URL="$a21610.html#a0f9d681a986a826fac5aed521d41e3b6",tooltip="Write. "];
+}

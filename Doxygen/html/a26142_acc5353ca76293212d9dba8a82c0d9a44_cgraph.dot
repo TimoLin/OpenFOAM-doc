@@ -1,0 +1,35 @@
+digraph "readHeader"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node21370 [label="readHeader",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node21370 -> Node21371 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21371 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node21370 -> Node21373 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21373 [label="Foam::exit",height=0.2,width=0.4,color="red",URL="$a21124.html#a06ca7250d8e89caf05243ec094843642"];
+  Node21370 -> Node21418 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21418 [label="Foam::IOstream::format",height=0.2,width=0.4,color="black",URL="$a26226.html#a33bbef3587114a06f7bdc0b91ba57ed9",tooltip="Return current stream format. "];
+  Node21370 -> Node21410 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21410 [label="Foam::IOstream::good",height=0.2,width=0.4,color="black",URL="$a26226.html#abdcc7f96f487faadc7769afcf58fe992",tooltip="Return true if next operation might succeed. "];
+  Node21370 -> Node21419 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21419 [label="Foam::token::isWord",height=0.2,width=0.4,color="black",URL="$a26306.html#ace6d5ecd2736d19990a7c12e0fe5a745"];
+  Node21370 -> Node21407 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21407 [label="Foam::IOstream::lineNumber",height=0.2,width=0.4,color="black",URL="$a26226.html#a2bca2e504df91006cb4a2b09ba1ac409",tooltip="Return current stream line number. "];
+  Node21370 -> Node21420 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21420 [label="Foam::dictionary::lookup",height=0.2,width=0.4,color="red",URL="$a26014.html#a6a0727fa523e48977e27348663def509",tooltip="Find and return an entry data stream. "];
+  Node21370 -> Node21434 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21434 [label="name",height=0.2,width=0.4,color="black",URL="$a26142.html#acc80e00a8ac919288fb55bd14cc88bf6",tooltip="Return name. "];
+  Node21370 -> Node21675 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21675 [label="Foam::IOstream::name",height=0.2,width=0.4,color="black",URL="$a26226.html#a41b2d01e5fd6e1bc71a895d8b8a86308",tooltip="Return the name of the stream. "];
+  Node21370 -> Node21595 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21595 [label="Foam::dictionary::readIf\lPresent",height=0.2,width=0.4,color="red",URL="$a26014.html#ad4bd008e6ee208313f2c3a963ee1170d",tooltip="Find an entry if present, and assign to T. "];
+  Node21595 -> Node21371 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21370 -> Node21676 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21676 [label="Foam::IOstream::version",height=0.2,width=0.4,color="black",URL="$a26226.html#a84b4350bd7516c6c1dda0b1cb3cbcbfb",tooltip="Return the stream version. "];
+  Node21370 -> Node21677 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21677 [label="Foam::token::wordToken",height=0.2,width=0.4,color="black",URL="$a26306.html#a65967674840943899f4163d527bd83bd"];
+  Node21370 -> Node21678 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21678 [label="writeHeader",height=0.2,width=0.4,color="red",URL="$a26142.html#ae7d7d31a4ff63361dd3f6490835938e8",tooltip="Write header. "];
+}

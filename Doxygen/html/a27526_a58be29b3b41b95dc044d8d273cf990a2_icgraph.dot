@@ -1,0 +1,12 @@
+digraph "pointNormals"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node229 [label="pointNormals",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node229 -> Node230 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node230 [label="Foam::listPlusEqOp\l::operator()",height=0.2,width=0.4,color="black",URL="$a24626.html#a2bca5855a51bffee2f0fe2aacc4aba10"];
+  Node229 -> Node231 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node231 [label="Foam::autoSnapDriver\l::repatchToSurface",height=0.2,width=0.4,color="red",URL="$a24622.html#abf0c9c836463b6164ef331dce238b2fa",tooltip="Repatch faces according to surface nearest the face centre. "];
+}

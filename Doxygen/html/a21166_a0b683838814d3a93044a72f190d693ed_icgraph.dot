@@ -1,0 +1,12 @@
+digraph "getVariable"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node690 [label="getVariable",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node690 -> Node691 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node691 [label="expand",height=0.2,width=0.4,color="black",URL="$a21166.html#a88a4e7011c8c43e1a2a37e18c3ef8ffb",tooltip="Expand occurences of variables according to the dictionary. "];
+  Node690 -> Node692 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node692 [label="inplaceExpand",height=0.2,width=0.4,color="black",URL="$a21166.html#ac760e4fa2afbc93f8d9932e598d9a897",tooltip="Inplace expand occurences of variables according to the dictionary. "];
+}

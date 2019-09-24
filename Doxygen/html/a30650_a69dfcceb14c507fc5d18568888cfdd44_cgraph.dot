@@ -1,0 +1,20 @@
+digraph "alphaSgs"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node64 [label="alphaSgs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node64 -> Node65 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node65 [label="B",height=0.2,width=0.4,color="red",URL="$a30650.html#acf00bc568420cebcbea1c1227f8cdd58",tooltip="Return the sub-grid stress tensor. "];
+  Node64 -> Node87 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node87 [label="Foam::compressible\l::LESModel::correct",height=0.2,width=0.4,color="red",URL="$a30634.html#a3ae44b28050c3aa494c1d8e18cf618c1",tooltip="Correct Eddy-Viscosity and related properties. "];
+  Node64 -> Node88 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node88 [label="devRhoBeff",height=0.2,width=0.4,color="red",URL="$a30650.html#aca5d93ebfc5602c84fbc217bf65073db",tooltip="Return the deviatoric part of the effective sub-grid. "];
+  Node64 -> Node89 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node89 [label="divDevRhoBeff",height=0.2,width=0.4,color="red",URL="$a30650.html#abb568bf10d2e3a2623bb4d30a613ee61",tooltip="Returns div(rho*dev(B)). "];
+  Node64 -> Node390 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node390 [label="LESRegion",height=0.2,width=0.4,color="red",URL="$a30650.html#a7eef3334e06f2a7760a09b79bf71e55d",tooltip="Return the LES field indicator. "];
+  Node64 -> Node395 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node395 [label="read",height=0.2,width=0.4,color="red",URL="$a30650.html#af816873151ddb0126e98bb2f914d8ed5",tooltip="Read LESProperties dictionary. "];
+}

@@ -1,0 +1,12 @@
+digraph "transform"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node288 [label="transform",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node288 -> Node289 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node289 [label="leaveDomain",height=0.2,width=0.4,color="red",URL="$a24850.html#abca1a09f7512f3e437e9dad338f17f12",tooltip="Convert origin to relative vector to leaving point. "];
+  Node288 -> Node292 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node292 [label="Foam::pointData::transform",height=0.2,width=0.4,color="red",URL="$a24634.html#a972cad5e4f03f84eb3a404ea8a8dc5c7",tooltip="Apply rotation matrix to origin. "];
+}

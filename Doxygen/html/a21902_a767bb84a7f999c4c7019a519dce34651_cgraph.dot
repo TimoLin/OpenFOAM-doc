@@ -1,0 +1,16 @@
+digraph "operator()"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node511 [label="operator()",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node511 -> Node512 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node512 [label="Foam::MRFZone::addCoriolis",height=0.2,width=0.4,color="red",URL="$a21898.html#ad34ca5a7d926a60e061d288e019a56a4",tooltip="Add the Coriolis force contribution to the acceleration field. "];
+  Node511 -> Node514 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node514 [label="Foam::DimensionedField\l::dimensions",height=0.2,width=0.4,color="black",URL="$a26390.html#a66989c1e0666e0d0c93a2056ce75599e",tooltip="Return dimensions. "];
+  Node511 -> Node515 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node515 [label="Foam::DimensionedField\l::mesh",height=0.2,width=0.4,color="black",URL="$a26390.html#a8f1110830348a1448a14ab5e3cf47e3b",tooltip="Return mesh. "];
+  Node511 -> Node516 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node516 [label="Foam::PtrList\< MRFZone\l \>::operator[]",height=0.2,width=0.4,color="red",URL="$a25914.html#a92eab3a97cd59afdf63a26b0a90642a9",tooltip="Return element const reference. "];
+}

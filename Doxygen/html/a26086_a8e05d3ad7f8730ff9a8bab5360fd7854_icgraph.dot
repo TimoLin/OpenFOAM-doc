@@ -1,0 +1,16 @@
+digraph "exit"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node321 [label="exit",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node321 -> Node322 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node322 [label="Foam::exit",height=0.2,width=0.4,color="black",URL="$a21124.html#a678f290932b0bd491da283be98f5826a"];
+  Node321 -> Node323 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node323 [label="Foam::IFstream::operator()",height=0.2,width=0.4,color="black",URL="$a26182.html#a1487864d0734dda74ccbbc26c8348d0a",tooltip="Return a non-const reference to const IFstream. "];
+  Node321 -> Node324 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node324 [label="Foam::Istream::operator()",height=0.2,width=0.4,color="red",URL="$a26234.html#a3038e7f37b2aac5853a485cab27abe77",tooltip="Return a non-const reference to const Istream. "];
+  Node321 -> Node326 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node326 [label="SafeFatalIOError",height=0.2,width=0.4,color="red",URL="$a26086.html#a2587907b4e929cdc3e1e17ef88318c77",tooltip="Print basic message and exit. Uses cerr if streams not constructed. "];
+}

@@ -1,0 +1,14 @@
+digraph "updateEdge"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node97 [label="updateEdge",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node97 -> Node98 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node98 [label="Foam::edge::centre",height=0.2,width=0.4,color="red",URL="$a27210.html#a87a4cbbb775d06be2c2f27bdab4ddb04",tooltip="Return centre (centroid) "];
+  Node97 -> Node102 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node102 [label="Foam::primitiveMesh\l::edges",height=0.2,width=0.4,color="black",URL="$a27530.html#a21d764179912ddda5c6f95193c289846",tooltip="Return mesh edges. Uses calcEdges. "];
+  Node97 -> Node103 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node103 [label="equal",height=0.2,width=0.4,color="red",URL="$a29538.html#a19dc303dda7a030f3129abd2f6d09d81",tooltip="Equivalent to operator== with TrackingData. "];
+}

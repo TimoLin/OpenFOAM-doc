@@ -1,0 +1,13 @@
+digraph "transformation"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node264 [label="transformation",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node264 -> Node265 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node265 [label="clone",height=0.2,width=0.4,color="black",URL="$a21398.html#a722fe8888a6a89517f707178d155124c",tooltip="Construct and return a clone. "];
+  Node264 -> Node266 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node266 [label="~oscillatingRotatingMotion",height=0.2,width=0.4,color="red",URL="$a21398.html#acb9af451a2808879fb38bf20d6d8b4bd",tooltip="Destructor. "];
+  Node266 -> Node265 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

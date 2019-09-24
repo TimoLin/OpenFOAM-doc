@@ -1,0 +1,39 @@
+digraph "linearCommunication"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node15634 [label="linearCommunication",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node15634 -> Node15635 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15635 [label="Foam::Pstream::combineGather",height=0.2,width=0.4,color="black",URL="$a26250.html#affc3a1954c11e71aafe6072bce9a4942",tooltip="Like above but switches between linear/tree communication. "];
+  Node15634 -> Node15636 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15636 [label="Foam::combineReduce",height=0.2,width=0.4,color="black",URL="$a21124.html#a8c343f8cea376ede9abfdfd4e517f050"];
+  Node15634 -> Node15637 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15637 [label="Foam::Pstream::combineScatter",height=0.2,width=0.4,color="black",URL="$a26250.html#aca0c5c69df01302f98555cacd74a967a",tooltip="Like above but switches between linear/tree communication. "];
+  Node15634 -> Node15638 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15638 [label="Foam::Pstream::gather",height=0.2,width=0.4,color="black",URL="$a26250.html#ac6bd6ba48aeaba13d01248b080a3fbc9",tooltip="Like above but switches between linear/tree communication. "];
+  Node15634 -> Node15639 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15639 [label="Foam::Pstream::gatherList",height=0.2,width=0.4,color="black",URL="$a26250.html#af27b07dfe4135fca416456ae1b323211",tooltip="Like above but switches between linear/tree communication. "];
+  Node15634 -> Node15640 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15640 [label="lastSlave",height=0.2,width=0.4,color="red",URL="$a26270.html#a6ba6de79b96f3b7f2d987b2b657f47e1",tooltip="Process index of last slave. "];
+  Node15634 -> Node15879 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15879 [label="Foam::Pstream::listCombine\lGather",height=0.2,width=0.4,color="black",URL="$a26250.html#a35e4e6e94b62df7b14431dcb0a0bcd2d",tooltip="Like above but switches between linear/tree communication. "];
+  Node15634 -> Node15880 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15880 [label="Foam::Pstream::listCombine\lScatter",height=0.2,width=0.4,color="black",URL="$a26250.html#ab6749bb43e837c32040a992d2d29ca6f",tooltip="Like above but switches between linear/tree communication. "];
+  Node15634 -> Node15881 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15881 [label="Foam::Pstream::mapCombine\lGather",height=0.2,width=0.4,color="black",URL="$a26250.html#a73619efeb9418b7aafe5b1b86c6d436c",tooltip="Like above but switches between linear/tree communication. "];
+  Node15634 -> Node15882 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15882 [label="Foam::Pstream::mapCombine\lScatter",height=0.2,width=0.4,color="black",URL="$a26250.html#a829c1ccd679f6b502e2d7b140f5ee407",tooltip="Like above but switches between linear/tree communication. "];
+  Node15634 -> Node15883 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15883 [label="Foam::regIOobject::read",height=0.2,width=0.4,color="red",URL="$a26334.html#af816873151ddb0126e98bb2f914d8ed5",tooltip="Read object. "];
+  Node15634 -> Node17712 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17712 [label="Foam::reduce",height=0.2,width=0.4,color="black",URL="$a21124.html#a0329de816bfa35edc16d259ac7eec321"];
+  Node15634 -> Node17713 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17713 [label="Foam::returnReduce",height=0.2,width=0.4,color="red",URL="$a21124.html#a8d528a67d2a9c6fe4fb94bc86872624b"];
+  Node17713 -> Node17712 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15634 -> Node17833 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17833 [label="Foam::Pstream::scatter",height=0.2,width=0.4,color="black",URL="$a26250.html#a63d91b461287f5aefacfa52d92123a9d",tooltip="Like above but switches between linear/tree communication. "];
+  Node15634 -> Node17834 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17834 [label="Foam::Pstream::scatterList",height=0.2,width=0.4,color="black",URL="$a26250.html#a0e6c5783ac810ecb22fc35dacfda489b",tooltip="Like above but switches between linear/tree communication. "];
+}

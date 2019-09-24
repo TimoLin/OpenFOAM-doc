@@ -1,0 +1,45 @@
+digraph "p"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1379 [label="p",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1379 -> Node1380 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1380 [label="Foam::pyrolysisChemistry\lModel::calculate",height=0.2,width=0.4,color="red",URL="$a30190.html#afe1d8348c24e6589bc7c0b3f689316a7",tooltip="Calculates the reaction rates. "];
+  Node1379 -> Node1386 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1386 [label="Foam::fv::temperatureLimits\lConstraint::correct",height=0.2,width=0.4,color="red",URL="$a23434.html#ab413c9f63cec07b4f4a71580fe00a632",tooltip="Correct the energy field. "];
+  Node1379 -> Node1388 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1388 [label="dpdt",height=0.2,width=0.4,color="black",URL="$a29734.html#a0e4e637e8932a391cf4a45df07c3a170",tooltip="Should the dpdt term be included in the enthalpy equation. "];
+  Node1379 -> Node1389 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1389 [label="Foam::twoPhaseMixtureThermo::he",height=0.2,width=0.4,color="black",URL="$a31914.html#a51e4b78e8fa1d1a773486d834cb2be8e",tooltip="Enthalpy/Internal energy [J/kg]. "];
+  Node1379 -> Node1390 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1390 [label="Foam::multiphaseMixtureThermo::he",height=0.2,width=0.4,color="black",URL="$a31922.html#a51e4b78e8fa1d1a773486d834cb2be8e",tooltip="Enthalpy/Internal energy [J/kg]. "];
+  Node1379 -> Node1391 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1391 [label="Foam::temperatureCoupled\lBase::kappa",height=0.2,width=0.4,color="red",URL="$a30786.html#adbad3ddac3d957ac2b2c8d2b91a93de6",tooltip="Given patch temperature calculate corresponding K field. "];
+  Node1379 -> Node1404 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1404 [label="Foam::fv::fixedTemperature\lConstraint::setValue",height=0.2,width=0.4,color="red",URL="$a23430.html#a14a2a47dd256cb0c8b14bd4efe1fef04",tooltip="Scalar. "];
+  Node1379 -> Node1407 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1407 [label="Foam::pyrolysisChemistry\lModel::solve",height=0.2,width=0.4,color="red",URL="$a30190.html#a31a5d606a34dbbf8ec6f2ac655eaee9a",tooltip="Solve the reaction system for the given time step. "];
+  Node1407 -> Node1380 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1379 -> Node1409 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1409 [label="Foam::gradientUnburntEnthalpy\lFvPatchScalarField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a30122.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node1379 -> Node1411 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1411 [label="Foam::fixedUnburntEnthalpy\lFvPatchScalarField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a30118.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node1379 -> Node1413 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1413 [label="Foam::mixedUnburntEnthalpy\lFvPatchScalarField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a30126.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node1379 -> Node1415 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1415 [label="Foam::mixedEnergyFvPatch\lScalarField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a29754.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node1379 -> Node1417 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1417 [label="Foam::energyJumpFvPatchScalar\lField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a29738.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients. "];
+  Node1379 -> Node1419 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1419 [label="Foam::energyJumpAMIFvPatch\lScalarField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a29742.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients. "];
+  Node1379 -> Node1421 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1421 [label="Foam::fixedEnergyFvPatch\lScalarField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a29746.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node1379 -> Node1423 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1423 [label="Foam::gradientEnergyFvPatch\lScalarField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a29750.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node1379 -> Node1425 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1425 [label="Foam::compressible\l::convectiveHeatTransferFv\lPatchScalarField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a30658.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node1379 -> Node1427 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1427 [label="Foam::regionModels\l::pyrolysisModels::reacting\lOneDim::updatePhiGas",height=0.2,width=0.4,color="red",URL="$a28978.html#a7929b3edb2e13e93a3e98e85bfd45b43",tooltip="Update enthalpy flux for pyrolysis gases. "];
+}

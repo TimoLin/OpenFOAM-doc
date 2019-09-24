@@ -1,0 +1,42 @@
+digraph "patches"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node358 [label="patches",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node358 -> Node359 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node359 [label="checkEdges",height=0.2,width=0.4,color="red",URL="$a30598.html#a90f5f9407a227d55df8fa9120de9f122",tooltip="Check triply (or more) connected edges. "];
+  Node358 -> Node443 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node443 [label="checkTriangles",height=0.2,width=0.4,color="red",URL="$a30598.html#a83d60f7fb6a16bf1a3c6c9d408b63509",tooltip="Check/remove duplicate/degenerate triangles. "];
+  Node358 -> Node445 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node445 [label="cleanup",height=0.2,width=0.4,color="red",URL="$a30598.html#a71fb3698346366a55da6e64bdf82a89f",tooltip="Remove non-valid triangles. "];
+  Node445 -> Node443 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node445 -> Node359 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node445 -> Node453 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node453 [label="markZone",height=0.2,width=0.4,color="red",URL="$a30598.html#a831447aa47e16df42f717c6f527c648b",tooltip="Fill faceZone with currentZone for every face reachable. "];
+  Node453 -> Node457 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node457 [label="markZones",height=0.2,width=0.4,color="red",URL="$a30598.html#a48697e668dcb52e0c3231e9a75ddb8cc",tooltip="(size and) fills faceZone with zone of face. Zone is area "];
+  Node457 -> Node453 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node457 -> Node460 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node460 [label="subsetMeshMap",height=0.2,width=0.4,color="red",URL="$a30598.html#ab98a1f3e0d776683ac546b4a75bdd0aa",tooltip="&#39;Create&#39; sub mesh, including only faces for which "];
+  Node460 -> Node463 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node463 [label="subsetMesh",height=0.2,width=0.4,color="red",URL="$a30598.html#a2a82635af274c2fffdbb732676b4ecd3",tooltip="Return new surface. Returns pointMap, faceMap from. "];
+  Node463 -> Node460 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node358 -> Node467 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node467 [label="edgeOwner",height=0.2,width=0.4,color="black",URL="$a30598.html#aadb11ef95ce92b07193bd7180792a48c",tooltip="If 2 face neighbours: label of face where ordering of edge. "];
+  Node358 -> Node453 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node358 -> Node457 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node358 -> Node468 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node468 [label="movePoints",height=0.2,width=0.4,color="red",URL="$a30598.html#ab62834098bae1d3887f578c700754f39",tooltip="Move points. "];
+  Node358 -> Node472 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node472 [label="operator=",height=0.2,width=0.4,color="red",URL="$a30598.html#a7007e1a39a89b943666033e034e1083b"];
+  Node358 -> Node478 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node478 [label="scalePoints",height=0.2,width=0.4,color="red",URL="$a30598.html#a0c1576aa53e80d9150e2558061cc40c2",tooltip="Scale points. A non-positive factor is ignored. "];
+  Node358 -> Node479 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node479 [label="sortedEdgeFaces",height=0.2,width=0.4,color="black",URL="$a30598.html#ae16edd84678388954fdba56746e936f4",tooltip="Return edge-face addressing sorted (for edges with more than. "];
+  Node358 -> Node463 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node358 -> Node460 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node358 -> Node480 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node480 [label="writeStats",height=0.2,width=0.4,color="red",URL="$a30598.html#a9dcc5076c83a26b069fbc8106a14c7ec",tooltip="Write some statistics. "];
+}

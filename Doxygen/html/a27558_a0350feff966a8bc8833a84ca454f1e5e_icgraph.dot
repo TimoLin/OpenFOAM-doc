@@ -1,0 +1,30 @@
+digraph "hitPoint"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node99 [label="hitPoint",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node99 -> Node100 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node100 [label="Foam::mappedPatchBase\l::facePoint",height=0.2,width=0.4,color="red",URL="$a25094.html#aa44d3b70b3248025314d97bdbfe1b1ba",tooltip="Get a point on the face given a face decomposition method: "];
+  Node99 -> Node135 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node135 [label="Foam::treeDataPrimitivePatch\l::findIntersection",height=0.2,width=0.4,color="red",URL="$a25066.html#a210153d7c41d79965657a6f10acedba1",tooltip="Helper: find intersection of line with shapes. "];
+  Node99 -> Node139 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node139 [label="Foam::sampledSet::findNearFace",height=0.2,width=0.4,color="red",URL="$a29314.html#a6f3ffbebdbdd53b9567f23e683c944fb",tooltip="Returns face label (or -1) of face which is close to sample. "];
+  Node99 -> Node143 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node143 [label="Foam::face::intersection",height=0.2,width=0.4,color="black",URL="$a27218.html#a007cda05b5771fb424000aa5b9acee92",tooltip="Fast intersection with a ray. "];
+  Node143 -> Node144 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node144 [label="Foam::face::ray",height=0.2,width=0.4,color="red",URL="$a27218.html#a0b9f87e78c11730b3971c2f71df58d37",tooltip="Return potential intersection with face with a ray starting. "];
+  Node144 -> Node145 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node145 [label="Foam::treeDataCell\l::findIntersectOp::operator()",height=0.2,width=0.4,color="black",URL="$a25638.html#adafae2aaf723502ccff1ff68a21fcdc0"];
+  Node99 -> Node149 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node149 [label="Foam::slidingInterface\l::modifyMotionPoints",height=0.2,width=0.4,color="red",URL="$a21750.html#ac05c3f18da75b17c4b6c13757cacbff1",tooltip="Modify motion points to comply with the topological change. "];
+  Node99 -> Node151 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node151 [label="Foam::triangle::nearestPoint",height=0.2,width=0.4,color="black",URL="$a27606.html#a924af2d5d36e8b4adaef88840b829cce",tooltip="Return nearest point to line on triangle. Returns hit if. "];
+  Node99 -> Node152 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node152 [label="Foam::face::nearestPoint\lClassify",height=0.2,width=0.4,color="red",URL="$a27218.html#ad0559ed7aa46f06bd75b7373cc9a88b6",tooltip="Return nearest point to face and classify it: "];
+  Node99 -> Node145 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node99 -> Node170 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node170 [label="Foam::treeDataFace\l::findIntersectOp::operator()",height=0.2,width=0.4,color="black",URL="$a25050.html#adafae2aaf723502ccff1ff68a21fcdc0",tooltip="Calculate intersection of triangle with ray. Sets result. "];
+  Node99 -> Node144 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

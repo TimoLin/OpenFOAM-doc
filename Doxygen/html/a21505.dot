@@ -1,0 +1,11 @@
+digraph "meshCutter"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node0 [label="meshCutter",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="edgeVertex",height=0.2,width=0.4,color="black",URL="$a21494.html",tooltip="Combines edge or vertex in single label. Used to specify cuts across cell circumference. "];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="undoableMeshCutter",height=0.2,width=0.4,color="black",URL="$a21518.html",tooltip="The main refinement handler. Gets cellCuts which is structure that describes which cells are to be cu..."];
+}

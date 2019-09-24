@@ -1,0 +1,22 @@
+digraph "clone"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node33 [label="clone",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node33 -> Node34 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34 [label="checkDefinition",height=0.2,width=0.4,color="red",URL="$a27514.html#a039ec44911bfb8cd28ffd27a600e6fc5",tooltip="Check zone definition. Return true if in error. "];
+  Node33 -> Node36 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node36 [label="checkParallelSync",height=0.2,width=0.4,color="red",URL="$a27514.html#ae0d853449ed62624abe28bda852337c6",tooltip="Check whether zone is synchronised across coupled boundaries. Return. "];
+  Node33 -> Node90 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node90 [label="New",height=0.2,width=0.4,color="red",URL="$a27514.html#a84596e4dfbd258dcc7ea0d8c51f3aa1e",tooltip="Return a pointer to a new point zone. "];
+  Node33 -> Node344 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node344 [label="pointZone",height=0.2,width=0.4,color="black",URL="$a27514.html#a62a1edc39bbf859611a3e5af355dfe9d",tooltip="Disallow default bitwise copy construct. "];
+  Node33 -> Node345 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node345 [label="whichPoint",height=0.2,width=0.4,color="red",URL="$a27514.html#adc668296202e9492fba6704e470b674a",tooltip="Helper function to re-direct to zone::localID(...) "];
+  Node33 -> Node351 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node351 [label="zoneMesh",height=0.2,width=0.4,color="black",URL="$a27514.html#a47f8436eefe0436be91c3d3ba097fd2f",tooltip="Return zoneMesh reference. "];
+  Node33 -> Node352 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node352 [label="~pointZone",height=0.2,width=0.4,color="black",URL="$a27514.html#a7e15d2ff797997aa77fcac0b6537663f",tooltip="Destructor. "];
+}

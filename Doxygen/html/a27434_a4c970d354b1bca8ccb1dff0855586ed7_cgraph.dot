@@ -1,0 +1,48 @@
+digraph "coupledEdges"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2119 [label="coupledEdges",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2119 -> Node2120 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2120 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node2119 -> Node2163 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2163 [label="Foam::Vector::centre",height=0.2,width=0.4,color="black",URL="$a28442.html#a090d0f3203732e228270e1757eb8e62e",tooltip="Return *this (used for point which is a typedef to Vector<scalar>. "];
+  Node2119 -> Node2164 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2164 [label="Foam::PrimitivePatch\l::edges",height=0.2,width=0.4,color="black",URL="$a27538.html#a21d764179912ddda5c6f95193c289846",tooltip="Return list of edges, address into LOCAL point list. "];
+  Node2119 -> Node2165 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2165 [label="Foam::HashTableCore::end",height=0.2,width=0.4,color="red",URL="$a25706.html#a540580a296c0ff351686ceb4f27b6fe6",tooltip="iteratorEnd set to beyond the end of any HashTable "];
+  Node2119 -> Node2137 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2137 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node2119 -> Node2173 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2173 [label="Foam::HashTable::erase",height=0.2,width=0.4,color="black",URL="$a25702.html#a12d8ea138d4886b42bc135cd082652c7",tooltip="Erase a hashedEntry specified by given iterator. "];
+  Node2119 -> Node2174 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2174 [label="Foam::PrimitivePatch\l::faceEdges",height=0.2,width=0.4,color="black",URL="$a27538.html#adbfcf489a527a07c33d684834faace79",tooltip="Return face-edge addressing. "];
+  Node2119 -> Node2175 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2175 [label="Foam::HashTable::find",height=0.2,width=0.4,color="black",URL="$a25702.html#a76b2c74ebd9f33fa9f76261b027ffc11",tooltip="Find and return an iterator set at the hashedEntry. "];
+  Node2119 -> Node2176 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2176 [label="initOrder",height=0.2,width=0.4,color="red",URL="$a27434.html#a644d6229ea284692666de14387870409",tooltip="Initialize ordering for primitivePatch. Does not. "];
+  Node2119 -> Node2212 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2212 [label="Foam::HashTable::insert",height=0.2,width=0.4,color="black",URL="$a25702.html#a5eee1e0e199ad59b9cb3916cd42156e0",tooltip="Insert a new hashedEntry. "];
+  Node2119 -> Node2213 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2213 [label="Foam::PrimitivePatch\l::localPoints",height=0.2,width=0.4,color="black",URL="$a27538.html#aca6c65ee2831bb6795149af7635640a2",tooltip="Return pointField of points in patch. "];
+  Node2119 -> Node2214 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2214 [label="Foam::PrimitivePatch\l::meshPoints",height=0.2,width=0.4,color="black",URL="$a27538.html#a52e3a457780fe74b31d39dc046bce1d8",tooltip="Return labelList of mesh points in patch. They are constructed. "];
+  Node2119 -> Node2215 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2215 [label="Foam::OFstream::name",height=0.2,width=0.4,color="black",URL="$a26190.html#aba53f1f9c8fadfa65f4099af10df348c",tooltip="Return the name of the stream. "];
+  Node2119 -> Node2179 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2179 [label="Foam::name",height=0.2,width=0.4,color="red",URL="$a21124.html#adcb0df2bd4953cb6bb390272d8263c3a",tooltip="Return a string representation of a complex. "];
+  Node2119 -> Node2206 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2206 [label="path",height=0.2,width=0.4,color="black",URL="$a19364.html#ad8adfaf80503dc99cbb14bf07bf1eb22"];
+  Node2119 -> Node2189 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2189 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node2119 -> Node2216 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2216 [label="Foam::HashTable::size",height=0.2,width=0.4,color="black",URL="$a25702.html#a47b3bf30da1eb3ab8076b5fbe00e0494",tooltip="Return number of elements in table. "];
+  Node2119 -> Node2208 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2208 [label="Foam::Vector::x",height=0.2,width=0.4,color="black",URL="$a28442.html#a63327976e5a8359700064a02ae22548e"];
+  Node2119 -> Node2209 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2209 [label="Foam::Vector::y",height=0.2,width=0.4,color="black",URL="$a28442.html#a1ee865f676fbac703a49c6654dd3ad74"];
+  Node2119 -> Node2210 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2210 [label="Foam::Vector::z",height=0.2,width=0.4,color="black",URL="$a28442.html#a1c8320b15610de211ec70ef966581423"];
+}

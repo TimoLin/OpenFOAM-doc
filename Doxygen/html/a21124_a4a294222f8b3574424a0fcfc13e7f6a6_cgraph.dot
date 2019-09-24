@@ -1,0 +1,16 @@
+digraph "Hasher"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node116637 [label="Hasher",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node116637 -> Node116638 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node116638 [label="HasherInt",height=0.2,width=0.4,color="red",URL="$a21124.html#ad66c1264fb70430e8a2a587e65b1b3b9",tooltip="An optimized version of Hasher. "];
+  Node116637 -> Node116640 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node116640 [label="jenkins_hashbig",height=0.2,width=0.4,color="black",URL="$a12338.html#adafcb23666add1fdf42a20c4ccd1eeb5"];
+  Node116640 -> Node116637 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node116637 -> Node116641 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node116641 [label="jenkins_hashlittle",height=0.2,width=0.4,color="black",URL="$a12338.html#a89543c56e297f132955c3fe66cf07d58",tooltip="specialized little-endian code "];
+  Node116641 -> Node116640 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

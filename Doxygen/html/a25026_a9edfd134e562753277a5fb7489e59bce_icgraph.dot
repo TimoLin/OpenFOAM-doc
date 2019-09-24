@@ -1,0 +1,18 @@
+digraph "bb"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node92 [label="bb",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node92 -> Node93 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node93 [label="Foam::patchProbes::\lfindElements",height=0.2,width=0.4,color="black",URL="$a29262.html#a852f621399b6ee1f3467e69a1d5fe8b4",tooltip="Find elements containing patchProbes. "];
+  Node92 -> Node94 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node94 [label="Foam::indexedOctree\l\< Foam::treeDataFace\l \>::findNear",height=0.2,width=0.4,color="black",URL="$a25026.html#a4fcc30ccabfd694e8b616279f0a31dae",tooltip="Find near pairs and apply CompareOp to them. "];
+  Node92 -> Node95 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node95 [label="Foam::meshSearch::findNearest\lBoundaryFace",height=0.2,width=0.4,color="red",URL="$a25118.html#a142f534ff97796d704d77aee66ce5279",tooltip="Find nearest boundary face. "];
+  Node92 -> Node106 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node106 [label="Foam::surfaceFeatures\l::nearestSamples",height=0.2,width=0.4,color="red",URL="$a25510.html#abfe5919ff5c4da81bf76cb8e86aa5386",tooltip="Find nearest sample for selected surface points. "];
+  Node92 -> Node105 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node105 [label="Foam::nearestEqOp::\loperator()",height=0.2,width=0.4,color="black",URL="$a29394.html#a7125bb052e112a423cd8082006cdac3b"];
+}

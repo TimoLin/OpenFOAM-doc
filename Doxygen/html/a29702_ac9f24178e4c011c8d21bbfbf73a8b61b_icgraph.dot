@@ -1,0 +1,16 @@
+digraph "storedFaces"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node407 [label="storedFaces",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node407 -> Node408 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node408 [label="Foam::MeshedSurface\l\< Foam::face \>::MeshedSurface",height=0.2,width=0.4,color="black",URL="$a29566.html#a2b2295e07e7f52c2ad9aba66286932f7",tooltip="Construct from database. "];
+  Node407 -> Node409 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node409 [label="readUpdate",height=0.2,width=0.4,color="red",URL="$a29702.html#a6436833d758fa188b4d917096c7cea3f",tooltip="Update the mesh based on the mesh files saved in. "];
+  Node407 -> Node413 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node413 [label="updateFacesRef",height=0.2,width=0.4,color="red",URL="$a29702.html#af39711fff65cd9c05a11aa5725252dac",tooltip="Update references to storedFaces. "];
+  Node407 -> Node418 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node418 [label="xfer",height=0.2,width=0.4,color="red",URL="$a29702.html#a9f0696ea74b1f18dc449ad5491db7990",tooltip="Transfer contents to the Xfer container as a MeshedSurface. "];
+}

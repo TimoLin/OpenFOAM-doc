@@ -1,0 +1,15 @@
+digraph "syncUntransformedData"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node517 [label="syncUntransformedData",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node517 -> Node518 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node518 [label="constrainDisplacement",height=0.2,width=0.4,color="red",URL="$a23282.html#ac7c5f534957c0971660cfced02519073",tooltip="Apply boundary conditions (single-patch constraints),. "];
+  Node518 -> Node520 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node520 [label="patchPatchPointConstraints",height=0.2,width=0.4,color="black",URL="$a23282.html#a874c77b203d051476f7319bfbb329829",tooltip="Actual constraints. "];
+  Node517 -> Node524 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node524 [label="Foam::volPointInterpolation\l::interpolateBoundaryField",height=0.2,width=0.4,color="red",URL="$a23286.html#a3084da4ba1da6061bb7dcd9bda567d54",tooltip="Interpolate boundary field without applying constraints/boundary. "];
+  Node517 -> Node520 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

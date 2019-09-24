@@ -1,0 +1,19 @@
+digraph "src/combustionModels/psiCombustionModel/psiChemistryCombustion" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="FreeSans"];
+  edge [ labelfontsize="10", labelfontname="FreeSans"];
+  subgraph clusterdir_a8d6620fa9f1693a4e689cfecb536ff8 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="psiCombustionModel" fontname="FreeSans", fontsize="10", URL="dir_a8d6620fa9f1693a4e689cfecb536ff8.html"]
+  dir_59a6d694d9a6f49a42ab77e2a0383529 [shape=box, label="psiChemistryCombustion", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_59a6d694d9a6f49a42ab77e2a0383529.html"];
+  }
+  dir_2778d089ec5c4f66810b11f753867003 [shape=box label="thermophysicalModels" color="red" URL="dir_2778d089ec5c4f66810b11f753867003.html"];
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8 [shape=box label="OpenFOAM" color="red" URL="dir_c5473ff19b20e6ec4dfe5c310b3778a8.html"];
+  dir_be6ca0c5340a41e845fe2aaa823aed2e [shape=box label="psiCombustionModel" URL="dir_be6ca0c5340a41e845fe2aaa823aed2e.html"];
+  dir_59a6d694d9a6f49a42ab77e2a0383529->dir_2778d089ec5c4f66810b11f753867003 [headlabel="1", labeldistance=1.5 headhref="dir_000613_001070.html"];
+  dir_59a6d694d9a6f49a42ab77e2a0383529->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="1", labeldistance=1.5 headhref="dir_000613_001732.html"];
+  dir_59a6d694d9a6f49a42ab77e2a0383529->dir_be6ca0c5340a41e845fe2aaa823aed2e [headlabel="1", labeldistance=1.5 headhref="dir_000613_000614.html"];
+  dir_2778d089ec5c4f66810b11f753867003->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="325", labeldistance=1.5 headhref="dir_001070_001732.html"];
+  dir_be6ca0c5340a41e845fe2aaa823aed2e->dir_2778d089ec5c4f66810b11f753867003 [headlabel="1", labeldistance=1.5 headhref="dir_000614_001070.html"];
+  dir_be6ca0c5340a41e845fe2aaa823aed2e->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="2", labeldistance=1.5 headhref="dir_000614_001732.html"];
+}

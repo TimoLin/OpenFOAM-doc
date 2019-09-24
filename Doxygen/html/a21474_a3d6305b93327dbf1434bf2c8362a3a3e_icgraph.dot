@@ -1,0 +1,17 @@
+digraph "cut"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node27 [label="cut",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node27 -> Node28 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node28 [label="Foam::hexCellLooper::cut",height=0.2,width=0.4,color="red",URL="$a21478.html#a3d6305b93327dbf1434bf2c8362a3a3e",tooltip="Create cut along circumference of cellI. Gets current mesh cuts. "];
+  Node27 -> Node32 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node32 [label="cut",height=0.2,width=0.4,color="black",URL="$a21474.html#a993c7c95766fcf44b50607ec8701d577",tooltip="Same but now also base point of cut provided (instead of always. "];
+  Node27 -> Node33 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node33 [label="setSnapTol",height=0.2,width=0.4,color="black",URL="$a21474.html#a40d86cd70822d0e848b72b9bd9bdbae0"];
+  Node27 -> Node34 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34 [label="~geomCellLooper",height=0.2,width=0.4,color="black",URL="$a21474.html#ae04bc49003c838442ce0a729bb3bf9c2",tooltip="Destructor. "];
+  Node34 -> Node33 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

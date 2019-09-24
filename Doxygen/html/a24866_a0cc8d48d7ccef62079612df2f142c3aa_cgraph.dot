@@ -1,0 +1,24 @@
+digraph "srcPointFace"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node651 [label="srcPointFace",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node651 -> Node652 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node652 [label="f",height=0.2,width=0.4,color="black",URL="$a17900.html#a888be93833ac7a23170555c69c690288"];
+  Node651 -> Node653 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node653 [label="Foam::PointHit::hit",height=0.2,width=0.4,color="black",URL="$a27558.html#aee8dc30bf27cefe419b15f96e594c155",tooltip="Is there a hit. "];
+  Node651 -> Node654 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node654 [label="Foam::PointHit::rawPoint",height=0.2,width=0.4,color="black",URL="$a27558.html#a479a270e3db1518fd61b8a756455786b",tooltip="Return point with no checking. "];
+  Node651 -> Node655 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node655 [label="Foam::face::ray",height=0.2,width=0.4,color="red",URL="$a27218.html#a0b9f87e78c11730b3971c2f71df58d37",tooltip="Return potential intersection with face with a ray starting. "];
+  Node655 -> Node652 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node655 -> Node653 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node651 -> Node673 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node673 [label="tgtPointFace",height=0.2,width=0.4,color="red",URL="$a24866.html#afe0e601d0690fc650d74b3f184209646",tooltip="Return target patch face index of point on source patch face. "];
+  Node673 -> Node652 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node673 -> Node655 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node673 -> Node653 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node673 -> Node654 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

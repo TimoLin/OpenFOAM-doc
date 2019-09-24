@@ -1,0 +1,13 @@
+digraph "~effectivenessHeatExchangerSource"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node58 [label="~effectivenessHeatExchanger\lSource",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node58 -> Node59 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node59 [label="addSup",height=0.2,width=0.4,color="red",URL="$a23462.html#aa7fe858d5103cd48f64158b6ec6dd2ea",tooltip="Scalar. "];
+  Node58 -> Node367 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node367 [label="alwaysApply",height=0.2,width=0.4,color="black",URL="$a23462.html#a68b028e4f9d17fe8f3866edc65660f03",tooltip="Flag to bypass the apply flag list checking. "];
+  Node367 -> Node59 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

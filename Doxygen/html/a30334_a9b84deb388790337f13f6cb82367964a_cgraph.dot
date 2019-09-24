@@ -1,0 +1,25 @@
+digraph "specieCoeffs"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4 [label="specieCoeffs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="Foam::hashedWordList\l::contains",height=0.2,width=0.4,color="red",URL="$a28242.html#a090be6ca18eaf98b1ff50b8af857270f",tooltip="Does the list contain the specified name. "];
+  Node4 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="Foam::exit",height=0.2,width=0.4,color="red",URL="$a21124.html#a06ca7250d8e89caf05243ec094843642"];
+  Node4 -> Node54 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node54 [label="Foam::token::info",height=0.2,width=0.4,color="black",URL="$a26306.html#a861a626214ad30bd8e7ab3a8caae9966",tooltip="Return info proxy. "];
+  Node4 -> Node55 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node55 [label="Foam::token::isNumber",height=0.2,width=0.4,color="red",URL="$a26306.html#a1680baf2428512b1a45060f52f3ade28"];
+  Node4 -> Node57 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node57 [label="Foam::token::isWord",height=0.2,width=0.4,color="black",URL="$a26306.html#ace6d5ecd2736d19990a7c12e0fe5a745"];
+  Node4 -> Node58 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node58 [label="Foam::token::number",height=0.2,width=0.4,color="red",URL="$a26306.html#a60dffa6c29647d1c83a9e00ecb7a703a"];
+  Node4 -> Node60 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node60 [label="Foam::Reaction::setLRhs",height=0.2,width=0.4,color="red",URL="$a30330.html#a5ff69c41b3345ee1f99e8bf85967b433",tooltip="Construct the left- and right-hand-side reaction coefficients. "];
+  Node60 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 -> Node70 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node70 [label="Foam::token::wordToken",height=0.2,width=0.4,color="black",URL="$a26306.html#a65967674840943899f4163d527bd83bd"];
+}

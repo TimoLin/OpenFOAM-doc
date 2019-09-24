@@ -1,0 +1,17 @@
+digraph "interpolate"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1229 [label="interpolate",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1229 -> Node1230 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1230 [label="interfaceInternalField",height=0.2,width=0.4,color="black",URL="$a22806.html#aa8871ae0f8409c5f343da9516cd8c846",tooltip="Return the values of the given internal data adjacent to. "];
+  Node1230 -> Node1231 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1231 [label="internalFieldTransfer",height=0.2,width=0.4,color="black",URL="$a22806.html#a237c9448fbff6fcefb820f4076a58f26",tooltip="Return neighbour field. "];
+  Node1229 -> Node1231 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1229 -> Node1232 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1232 [label="Foam::cyclicACMIPolyPatch\l::interpolate",height=0.2,width=0.4,color="black",URL="$a24926.html#a815e4790497fb12ef79509f502b056f7",tooltip="Interpolate field. "];
+  Node1229 -> Node1233 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1233 [label="updateAreas",height=0.2,width=0.4,color="red",URL="$a22806.html#aa41ad5c90a11f44713f615ab87a947c6",tooltip="Update the patch areas after AMI update. "];
+}

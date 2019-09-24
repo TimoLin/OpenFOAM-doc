@@ -1,0 +1,20 @@
+digraph "makePatch"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2290 [label="makePatch",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2290 -> Node2291 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2291 [label="Foam::autoLayerDriver\l::addLayers",height=0.2,width=0.4,color="red",URL="$a24610.html#a2654851d1ffedc26e8ff1424f7097ba6",tooltip="Add cell layers. "];
+  Node2290 -> Node2294 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2294 [label="Foam::autoSnapDriver\l::doSnap",height=0.2,width=0.4,color="black",URL="$a24622.html#adf0870a8be4483ecdb73b26b20d027ee"];
+  Node2294 -> Node2295 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2295 [label="Foam::autoSnapDriver\l::repatchToSurface",height=0.2,width=0.4,color="red",URL="$a24622.html#abf0c9c836463b6164ef331dce238b2fa",tooltip="Repatch faces according to surface nearest the face centre. "];
+  Node2290 -> Node2306 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2306 [label="intersectedPoints",height=0.2,width=0.4,color="black",URL="$a24662.html#a17a44bc404fe7397bb9011f0549b0bdc",tooltip="Get points on surfaces with intersection and boundary faces. "];
+  Node2306 -> Node2307 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2307 [label="userFaceData",height=0.2,width=0.4,color="black",URL="$a24662.html#a2cb6efa4184bedfbed60b069881c26a3"];
+  Node2290 -> Node2295 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2290 -> Node2307 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

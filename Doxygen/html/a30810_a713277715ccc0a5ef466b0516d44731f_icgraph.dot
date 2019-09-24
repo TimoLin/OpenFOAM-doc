@@ -1,0 +1,14 @@
+digraph "rmap"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node61 [label="rmap",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node61 -> Node62 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node62 [label="alphaWall",height=0.2,width=0.4,color="black",URL="$a30810.html#a0c4ea23c97928bfd98f091903ca2813d",tooltip="Return reference to alphaWall to allow adjustment. "];
+  Node61 -> Node63 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node63 [label="autoMap",height=0.2,width=0.4,color="red",URL="$a30810.html#a0ab0c43ce90d756c88dd81e3d0a9eef5",tooltip="Map (and resize as needed) from self given a mapping object. "];
+  Node63 -> Node62 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node61 -> Node61 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,37 @@
+digraph "updateAverages"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2 [label="updateAverages",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="Foam::AveragingMethod::add",height=0.2,width=0.4,color="black",URL="$a23898.html#a6c746e8071b3ec1173b56a9aae5cbb1b",tooltip="Member Functions. "];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="Foam::AveragingMethod\l::average",height=0.2,width=0.4,color="black",URL="$a23898.html#adcc1a888cd92655a25f4d7838e3a3ec1",tooltip="Calculate the average. "];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="Foam::IOobject::db",height=0.2,width=0.4,color="black",URL="$a26142.html#a65cc75d9f80b1df5c3184fb2274a97f1",tooltip="Return the local objectRegistry. "];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="f",height=0.2,width=0.4,color="black",URL="$a17900.html#a888be93833ac7a23170555c69c690288"];
+  Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="forAllConstIter",height=0.2,width=0.4,color="red",URL="$a38141.html#ae21e2836509b0fa7f7cedf6493b11b09"];
+  Node2 -> Node118 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node118 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node2 -> Node308 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node308 [label="magSqr",height=0.2,width=0.4,color="red",URL="$a12539.html#ab0cd33eb018a643a64ca545601530791"];
+  Node2 -> Node310 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node310 [label="Foam::DsmcCloud::mesh",height=0.2,width=0.4,color="black",URL="$a23686.html#acb31d92d519d673eae6328d85d16fa52",tooltip="Return refernce to the mesh. "];
+  Node2 -> Node71 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node71 [label="Foam::IOobject::name",height=0.2,width=0.4,color="black",URL="$a26142.html#acc80e00a8ac919288fb55bd14cc88bf6",tooltip="Return name. "];
+  Node2 -> Node220 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node220 [label="Foam::pow",height=0.2,width=0.4,color="red",URL="$a21124.html#a7500c8e9d27a442adc75e287de074c7c"];
+  Node2 -> Node311 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node311 [label="pow3",height=0.2,width=0.4,color="black",URL="$a12539.html#a321e95ad714c9c00f472182f293fd081"];
+  Node311 -> Node312 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node312 [label="sqr",height=0.2,width=0.4,color="red",URL="$a12539.html#a557bbac590ed5ce51116be69fe4faa96"];
+  Node2 -> Node312 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 -> Node108 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node108 [label="Foam::objectRegistry\l::time",height=0.2,width=0.4,color="black",URL="$a26326.html#a0d94096809fe3376b29a2a29ca11bb18",tooltip="Return time. "];
+  Node2 -> Node313 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node313 [label="Foam::Time::timeName",height=0.2,width=0.4,color="black",URL="$a26350.html#ad9d86fef6eca18797c786726cf925179",tooltip="Return time name of given scalar time. "];
+}

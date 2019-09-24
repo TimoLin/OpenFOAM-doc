@@ -1,0 +1,14 @@
+digraph "write"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1806 [label="write",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1806 -> Node1807 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1807 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node1806 -> Node1809 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1809 [label="Foam::UPstream::master",height=0.2,width=0.4,color="red",URL="$a26270.html#a36af549940a0aae3733774649594489f",tooltip="Am I the master process. "];
+  Node1806 -> Node1811 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1811 [label="Foam::functionObjectFile\l::write",height=0.2,width=0.4,color="red",URL="$a26122.html#aac759501cf6c7895a70eecbef0226ae1",tooltip="Write function. "];
+}

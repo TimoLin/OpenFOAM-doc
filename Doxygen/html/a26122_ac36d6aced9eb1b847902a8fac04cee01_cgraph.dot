@@ -1,0 +1,15 @@
+digraph "baseTimeDir"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node117 [label="baseTimeDir",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node117 -> Node118 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node118 [label="baseFileDir",height=0.2,width=0.4,color="red",URL="$a26122.html#a1af3f7eab05afefbe183df0b5b0c1b20",tooltip="Return the base directory for output. "];
+  Node118 -> Node126 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node126 [label="Foam::objectRegistry\l::time",height=0.2,width=0.4,color="black",URL="$a26326.html#a0d94096809fe3376b29a2a29ca11bb18",tooltip="Return time. "];
+  Node117 -> Node126 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node117 -> Node127 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node127 [label="Foam::Time::timeName",height=0.2,width=0.4,color="black",URL="$a26350.html#ad9d86fef6eca18797c786726cf925179",tooltip="Return time name of given scalar time. "];
+}

@@ -1,0 +1,18 @@
+digraph "clone"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1899 [label="clone",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1899 -> Node1900 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1900 [label="coordinateSystem",height=0.2,width=0.4,color="black",URL="$a25010.html#ab03231bb7633cd8a3660a26d112d11e9",tooltip="Construct null. This is equivalent to an identity coordinateSystem. "];
+  Node1899 -> Node1901 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1901 [label="declareRunTimeSelectionTable",height=0.2,width=0.4,color="black",URL="$a25010.html#a6f9fa4f0bbcda596640d5136b7d1fe23"];
+  Node1899 -> Node1902 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1902 [label="dict",height=0.2,width=0.4,color="red",URL="$a25010.html#a06bd6cd525e08a04431feed2652b1d20",tooltip="Return as dictionary of entries. "];
+  Node1899 -> Node1953 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1953 [label="New",height=0.2,width=0.4,color="red",URL="$a25010.html#a6e8b1f92898b4886021cafa4ffa27e0b",tooltip="Select constructed from dictionary and objectRegistry. "];
+  Node1899 -> Node2207 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2207 [label="~coordinateSystem",height=0.2,width=0.4,color="black",URL="$a25010.html#a89937366693003aa72332d89759b3dd5",tooltip="Destructor. "];
+}

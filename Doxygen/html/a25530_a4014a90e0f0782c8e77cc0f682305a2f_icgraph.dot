@@ -1,0 +1,13 @@
+digraph "calcInside"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node279 [label="calcInside",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node279 -> Node280 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node280 [label="maxTreeDepth",height=0.2,width=0.4,color="red",URL="$a25530.html#ab0ccbbb3c405fe793bf7c7fa67e6af0e",tooltip="Return max tree depth of octree. "];
+  Node279 -> Node285 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node285 [label="tree",height=0.2,width=0.4,color="red",URL="$a25530.html#a6d01bb33aa711bf96f61eba9aa236e80",tooltip="Demand driven construction of the octree. "];
+  Node285 -> Node279 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

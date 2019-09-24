@@ -1,0 +1,14 @@
+digraph "stdStream"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2518 [label="stdStream",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2518 -> Node2519 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2519 [label="Foam::OStringStream\l::rewind",height=0.2,width=0.4,color="red",URL="$a26302.html#ab8734e666421c9fe3b6380a818c6c727",tooltip="Rewind the OStringStream. "];
+  Node2518 -> Node7428 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7428 [label="Foam::OStringStream::str",height=0.2,width=0.4,color="red",URL="$a26302.html#ae403f14d61d9789a749ee28fc10a50a9",tooltip="Return the string. "];
+  Node2518 -> Node7448 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7448 [label="Foam::OStringStream\l::~OStringStream",height=0.2,width=0.4,color="black",URL="$a26302.html#a7b140d4c4d453bcda7f05f8812204476",tooltip="Destructor. "];
+}

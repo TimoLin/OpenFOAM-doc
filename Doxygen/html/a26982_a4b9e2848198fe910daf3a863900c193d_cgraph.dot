@@ -1,0 +1,36 @@
+digraph "printStats"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node72 [label="printStats",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node72 -> Node73 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node73 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node72 -> Node75 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node75 [label="Foam::GAMGAgglomeration\l::faceRestrictAddressing",height=0.2,width=0.4,color="black",URL="$a26970.html#a032090baa4eb7c49f40aef326b383462",tooltip="Return face restrict addressing of given level. "];
+  Node72 -> Node76 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node76 [label="globalCellCells",height=0.2,width=0.4,color="red",URL="$a26982.html#a59b7daeb97bb6479a59cdeacff965dc5",tooltip="Debug: calculate global cell-cells. "];
+  Node72 -> Node168 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node168 [label="Foam::GAMGAgglomeration\l::hasMeshLevel",height=0.2,width=0.4,color="red",URL="$a26970.html#ae71c14ad1163c83524888b4ff60063f9",tooltip="Do we have mesh for given level? "];
+  Node72 -> Node170 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node170 [label="Foam::lduMesh::info",height=0.2,width=0.4,color="black",URL="$a27126.html#aaf028f2e73f46e3e2bd7f4bc7940bca2",tooltip="Return info proxy. "];
+  Node72 -> Node91 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node91 [label="Foam::max",height=0.2,width=0.4,color="black",URL="$a21124.html#ac993e906cf2774ae77e666bc24e81733"];
+  Node72 -> Node171 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node171 [label="Foam::GAMGAgglomeration\l::meshLevel",height=0.2,width=0.4,color="black",URL="$a26970.html#af1d3c335fdf380a61d567e839d128af3",tooltip="Return LDU mesh of given level. "];
+  Node72 -> Node172 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node172 [label="Foam::GAMGAgglomeration\l::nCells",height=0.2,width=0.4,color="black",URL="$a26970.html#aeef30e9e28b3d9f82d56871d44e71476",tooltip="Return number of coarse cells (before processor agglomeration) "];
+  Node72 -> Node173 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node173 [label="Foam::GAMGAgglomeration\l::nFaces",height=0.2,width=0.4,color="red",URL="$a26970.html#afb7f337f99c970a8e63778e3fddc909c",tooltip="Return number of coarse faces (before processor agglomeration) "];
+  Node72 -> Node450 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node450 [label="Foam::GAMGAgglomeration\l::patchFaceRestrictAddressing",height=0.2,width=0.4,color="black",URL="$a26970.html#a7e2f019a6036de69c647513da5948069"];
+  Node72 -> Node451 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node451 [label="Foam::GAMGAgglomeration\l::restrictAddressing",height=0.2,width=0.4,color="black",URL="$a26970.html#ad5c0cc61c243ef2d9ad27e8895f71cf8",tooltip="Return cell restrict addressing of given level. "];
+  Node72 -> Node234 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node234 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node72 -> Node452 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node452 [label="Foam::GAMGAgglomeration\l::size",height=0.2,width=0.4,color="red",URL="$a26970.html#a9facbf0a118d395c89884e45a5ca4e4b"];
+  Node452 -> Node168 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node452 -> Node171 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

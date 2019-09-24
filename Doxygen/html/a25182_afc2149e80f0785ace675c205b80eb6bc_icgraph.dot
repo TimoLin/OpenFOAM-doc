@@ -1,0 +1,16 @@
+digraph "neighbPatchID"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node431 [label="neighbPatchID",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node431 -> Node432 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node432 [label="Foam::regionCoupledBaseFv\lPatch::neighbFvPatch",height=0.2,width=0.4,color="black",URL="$a22854.html#a66e91b4823e075c8fd369857a957f833",tooltip="Return neighbor fvPatch. "];
+  Node431 -> Node433 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node433 [label="Foam::regionCoupledBaseFv\lPatch::neighbPatch",height=0.2,width=0.4,color="black",URL="$a22854.html#a19a82cc57b6ab55d61edc8f00a4a0ff0",tooltip="Return regionCoupledBase neighb Patch. "];
+  Node431 -> Node434 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node434 [label="Foam::regionCoupledBaseFv\lPatch::neighbPatchID",height=0.2,width=0.4,color="black",URL="$a22854.html#a5e6024547ab7c53848c8bbe7b0a634ba",tooltip="Return neighbour. "];
+  Node431 -> Node435 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node435 [label="sameRegion",height=0.2,width=0.4,color="red",URL="$a25182.html#a977bc99af5c1f60db5bf13c956652884",tooltip="Cached sampleRegion != mesh.name() "];
+}

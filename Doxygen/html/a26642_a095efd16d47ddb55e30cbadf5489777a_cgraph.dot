@@ -1,0 +1,21 @@
+digraph "combine"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node51 [label="combine",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node51 -> Node52 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node52 [label="applyConstraint",height=0.2,width=0.4,color="black",URL="$a26642.html#a1c47e7042699d937ffa928bbdcf19556",tooltip="Apply and accumulate the effect of the given constraint direction. "];
+  Node52 -> Node53 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node53 [label="Foam::Tuple2\< label,\l vector \>::first",height=0.2,width=0.4,color="black",URL="$a28430.html#a851d003bd93ae87649e83fc6e50a90a6",tooltip="Return first. "];
+  Node52 -> Node54 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node54 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node52 -> Node55 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node55 [label="Foam::Tuple2\< label,\l vector \>::second",height=0.2,width=0.4,color="black",URL="$a28430.html#a3d89ce084afc65b34a84b9f42d68f27c",tooltip="Return second. "];
+  Node51 -> Node53 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node51 -> Node53 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node51 -> Node54 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node51 -> Node55 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node51 -> Node55 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

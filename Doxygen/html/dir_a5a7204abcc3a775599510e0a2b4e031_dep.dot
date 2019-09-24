@@ -1,0 +1,20 @@
+digraph "src/turbulenceModels/derivedFvPatchFields/porousBafflePressure" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="FreeSans"];
+  edge [ labelfontsize="10", labelfontname="FreeSans"];
+  subgraph clusterdir_19ed74e0d1f27fbc9ce877b2950e310b {
+    graph [ bgcolor="#ddddee", pencolor="black", label="derivedFvPatchFields" fontname="FreeSans", fontsize="10", URL="dir_19ed74e0d1f27fbc9ce877b2950e310b.html"]
+  dir_a5a7204abcc3a775599510e0a2b4e031 [shape=box, label="porousBafflePressure", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_a5a7204abcc3a775599510e0a2b4e031.html"];
+  }
+  dir_9bd15774b555cf7259a6fa18f99fe99b [shape=box label="finiteVolume" color="red" URL="dir_9bd15774b555cf7259a6fa18f99fe99b.html"];
+  dir_63261e2c788bb84a78ae1c22f1567438 [shape=box label="incompressible" color="red" URL="dir_63261e2c788bb84a78ae1c22f1567438.html"];
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8 [shape=box label="OpenFOAM" color="red" URL="dir_c5473ff19b20e6ec4dfe5c310b3778a8.html"];
+  dir_9bd15774b555cf7259a6fa18f99fe99b->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="712", labeldistance=1.5 headhref="dir_000749_001732.html"];
+  dir_63261e2c788bb84a78ae1c22f1567438->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="133", labeldistance=1.5 headhref="dir_000600_000749.html"];
+  dir_63261e2c788bb84a78ae1c22f1567438->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="78", labeldistance=1.5 headhref="dir_000600_001732.html"];
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="2", labeldistance=1.5 headhref="dir_001732_000749.html"];
+  dir_a5a7204abcc3a775599510e0a2b4e031->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="3", labeldistance=1.5 headhref="dir_002962_000749.html"];
+  dir_a5a7204abcc3a775599510e0a2b4e031->dir_63261e2c788bb84a78ae1c22f1567438 [headlabel="1", labeldistance=1.5 headhref="dir_002962_000600.html"];
+  dir_a5a7204abcc3a775599510e0a2b4e031->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="3", labeldistance=1.5 headhref="dir_002962_001732.html"];
+}

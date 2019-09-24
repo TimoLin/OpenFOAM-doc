@@ -1,0 +1,15 @@
+digraph "reduce"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node30348 [label="reduce",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node30348 -> Node30349 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node30349 [label="Foam::UPstream::msgType",height=0.2,width=0.4,color="black",URL="$a26270.html#ae5b8fe6652f6320aa6c7f5c44b6f01b7",tooltip="Message tag of standard messages. "];
+  Node30348 -> Node30350 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node30350 [label="reduce",height=0.2,width=0.4,color="red",URL="$a21124.html#a7ffd6af4acc2eb9ba72ee296b5ecda23"];
+  Node30348 -> Node30368 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node30368 [label="sumReduce",height=0.2,width=0.4,color="black",URL="$a21124.html#af8f70664d4fba9af21b38ce1e5c2b97b"];
+  Node30368 -> Node30350 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

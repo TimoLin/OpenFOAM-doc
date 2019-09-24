@@ -1,0 +1,36 @@
+digraph "checkFacePyramids"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1697 [label="checkFacePyramids",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1697 -> Node1698 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1698 [label="Foam::primitiveMesh\l::cells",height=0.2,width=0.4,color="black",URL="$a27530.html#af19bf800d725a623c7b1d0101d65e7d3"];
+  Node1697 -> Node1699 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1699 [label="checkFaceTets",height=0.2,width=0.4,color="red",URL="$a21562.html#ac78de3d27453106d3cf818bda3fd90f4",tooltip="See primitiveMesh. "];
+  Node1699 -> Node1700 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1700 [label="Foam::polyMesh::faceOwner",height=0.2,width=0.4,color="black",URL="$a27410.html#a57752b49bfee23ca1944c3fb0493974f",tooltip="Return face owner. "];
+  Node1699 -> Node1701 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1701 [label="Foam::polyMesh::faceNeighbour",height=0.2,width=0.4,color="black",URL="$a27410.html#a9fb57b52c700ed61f09ada65412d13e3",tooltip="Return face neighbour. "];
+  Node1699 -> Node2078 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2078 [label="Foam::primitiveMesh\l::isInternalFace",height=0.2,width=0.4,color="red",URL="$a27530.html#ae3e48ad9ec4c5132ec7d3d702ad17c9e",tooltip="Return true if given face label is internal to the mesh. "];
+  Node1699 -> Node2087 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2087 [label="Foam::HashSet::insert",height=0.2,width=0.4,color="black",URL="$a25690.html#a49f0753d9652681fc3a81f59951a0ad7",tooltip="Insert a new entry. "];
+  Node1699 -> Node2119 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2119 [label="Foam::UList::first",height=0.2,width=0.4,color="black",URL="$a25698.html#a1c9828bc3de9502754d944c95a2ce0d9",tooltip="Return the first element of the list. "];
+  Node1699 -> Node1792 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1792 [label="Foam::reduce",height=0.2,width=0.4,color="red",URL="$a21124.html#a7ffd6af4acc2eb9ba72ee296b5ecda23"];
+  Node1792 -> Node1716 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1716 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node1699 -> Node1716 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1697 -> Node1716 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1697 -> Node1701 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1697 -> Node1700 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1697 -> Node2074 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2074 [label="Foam::polyMesh::faces",height=0.2,width=0.4,color="red",URL="$a27410.html#a431c0a24765f0bb6d32f6a03ce0e9b57",tooltip="Return raw faces. "];
+  Node1697 -> Node2119 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1697 -> Node2087 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1697 -> Node2078 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1697 -> Node1792 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,11 @@
+digraph "classification"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node130 [label="classification",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node130 -> Node131 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node131 [label="merge",height=0.2,width=0.4,color="red",URL="$a25498.html#a987539e16097f548da5dde54bbc38a40",tooltip="Merge (or override) edge intersection for a subset. "];
+  Node131 -> Node130 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

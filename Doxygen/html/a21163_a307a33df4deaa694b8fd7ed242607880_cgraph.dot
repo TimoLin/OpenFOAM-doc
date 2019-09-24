@@ -1,0 +1,16 @@
+digraph "addDebugObject"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4649 [label="addDebugObject",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4649 -> Node4650 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4650 [label="Foam::DictionaryBase\l::append",height=0.2,width=0.4,color="black",URL="$a25670.html#a7d32913c049313f63764cfcad36f372e",tooltip="Add at tail of dictionary. "];
+  Node4649 -> Node4651 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4651 [label="Foam::List::append",height=0.2,width=0.4,color="black",URL="$a25694.html#a399dd2bf0d9a32016717dc90126f016b",tooltip="Append an element at the end of the list. "];
+  Node4649 -> Node4652 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4652 [label="debugObjects",height=0.2,width=0.4,color="black",URL="$a21163.html#ac9e85bdf299b2c8e49d4e83a9515c6fb",tooltip="Get access to registered debug switch objects. "];
+  Node4649 -> Node4653 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4653 [label="Foam::DictionaryBase\l::lookupPtr",height=0.2,width=0.4,color="black",URL="$a25670.html#ab01c63c55a0fccd0de22cd0e55516fa4",tooltip="Find and return an entry if present, otherwise return NULL. "];
+}

@@ -1,0 +1,44 @@
+digraph "hexRef8"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="hexRef8",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node0 -> Node44 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node44 [label="Foam::refinementHistory\l::active",height=0.2,width=0.4,color="black",URL="$a21690.html#ad9735e23cb0888fb98e1c5893aecff7e",tooltip="Is there unrefinement history. Note that this will fall over if. "];
+  Node0 -> Node45 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node45 [label="checkMesh",height=0.2,width=0.4,color="red",URL="$a21654.html#a432ff341842268fa21b8363e6b2c45b9",tooltip="Debug: Check coupled mesh for correctness. "];
+  Node45 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node45 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node45 -> Node96 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node96 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node45 -> Node381 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node381 [label="checkRefinementLevels",height=0.2,width=0.4,color="red",URL="$a21654.html#a02570ed86624586145fa5b8bb20a2d12",tooltip="Debug: Check 2:1 consistency across faces. "];
+  Node381 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node381 -> Node96 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node381 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node0 -> Node381 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node0 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node0 -> Node382 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node382 [label="Foam::IOobject::headerOk",height=0.2,width=0.4,color="black",URL="$a26142.html#a9d4879c850ce41d945ff77e788de3a23",tooltip="Read and check header info. "];
+  Node382 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node0 -> Node132 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node132 [label="Foam::primitiveMesh\l::nCells",height=0.2,width=0.4,color="black",URL="$a27530.html#a13b94bdb0926552bf78ad5210a73a3d5"];
+  Node0 -> Node199 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node199 [label="Foam::primitiveMesh\l::nPoints",height=0.2,width=0.4,color="black",URL="$a27530.html#a1c886a784a597459dbf2d9470798e9dd"];
+  Node0 -> Node383 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node383 [label="Foam::IOobject::objectPath",height=0.2,width=0.4,color="red",URL="$a26142.html#a3a7ece5c1251c6be1f7812d4dba5fb7a",tooltip="Return complete path + object name. "];
+  Node383 -> Node382 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node0 -> Node278 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node278 [label="Foam::regIOobject::read",height=0.2,width=0.4,color="red",URL="$a26334.html#af816873151ddb0126e98bb2f914d8ed5",tooltip="Read object. "];
+  Node278 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node0 -> Node393 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node393 [label="Foam::IOobject::readOpt",height=0.2,width=0.4,color="black",URL="$a26142.html#a81b608e0b8d8e2a8f1bc927cd6076c59"];
+  Node0 -> Node96 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node0 -> Node394 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node394 [label="Foam::refinementHistory\l::visibleCells",height=0.2,width=0.4,color="black",URL="$a21690.html#a1dd5e1e53d1498657f07a2087f3eafa3",tooltip="Per cell in the current mesh (i.e. visible) either -1 (unrefined) "];
+}

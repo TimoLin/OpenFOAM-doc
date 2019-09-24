@@ -1,0 +1,28 @@
+digraph "xy"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node27 [label="xy",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node27 -> Node28 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node28 [label="Foam::cof",height=0.2,width=0.4,color="black",URL="$a21124.html#aea93a5e6bace31395defbd69d2fb296a",tooltip="Return the cofactor symmetric tensor of a symmetric tensor. "];
+  Node27 -> Node29 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node29 [label="Foam::det",height=0.2,width=0.4,color="black",URL="$a21124.html#a7c2b089769096e4b01a1572971b97436",tooltip="Return the determinant of a symmetric tensor. "];
+  Node27 -> Node30 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node30 [label="Foam::invariantII",height=0.2,width=0.4,color="black",URL="$a21124.html#a80f4a4e114b95296270a2d1b8cf1d047",tooltip="Return the 2nd invariant of a symmetric tensor. "];
+  Node27 -> Node31 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node31 [label="Foam::magSqr",height=0.2,width=0.4,color="black",URL="$a21124.html#a3434a09ac3b9ac5cc5618051c4140b73"];
+  Node27 -> Node32 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node32 [label="Foam::operator &",height=0.2,width=0.4,color="black",URL="$a21124.html#a3c74747d6d7cb4bd14c14dbf1c31abc0",tooltip="Inner-product between two symmetric tensors. "];
+  Node27 -> Node33 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node33 [label="Foam::operator &&",height=0.2,width=0.4,color="black",URL="$a21124.html#a5d2b09aa740cf53c1cae5ecb3c87bd6b",tooltip="Double-dot-product between a symmetric tensor and a symmetric tensor. "];
+  Node27 -> Node34 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34 [label="Foam::operator+",height=0.2,width=0.4,color="black",URL="$a21124.html#a70766d7af9f52b534271768d8ee3b539"];
+  Node27 -> Node35 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node35 [label="Foam::operator-",height=0.2,width=0.4,color="black",URL="$a21124.html#a9d430e44ce41add1d94be3e64a5ae9b7"];
+  Node27 -> Node36 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node36 [label="Foam::Tensor2D::operator=",height=0.2,width=0.4,color="black",URL="$a28390.html#ac3b8fbffd046696a09381bb472c36b54",tooltip="Copy SymmTensor2D. "];
+  Node27 -> Node37 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node37 [label="Foam::Tensor2D::Tensor2D",height=0.2,width=0.4,color="black",URL="$a28390.html#a12f47dffd60bba9218eec4b6871bcc62",tooltip="Construct given SymmTensor2D. "];
+}

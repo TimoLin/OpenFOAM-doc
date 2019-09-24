@@ -1,0 +1,45 @@
+digraph "edges"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node701 [label="edges",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node701 -> Node702 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node702 [label="Foam::extendedEdgeMesh::add",height=0.2,width=0.4,color="black",URL="$a21786.html#af07e0aa40a7a71b92a74dd6b77a44ad3",tooltip="Add extendedEdgeMesh. No filtering of duplicates. "];
+  Node701 -> Node703 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node703 [label="Foam::extendedEdgeMesh\l::allNearestFeatureEdges",height=0.2,width=0.4,color="red",URL="$a21786.html#ad565473714b81c35a16d8bf059101ea7",tooltip="Find all the feature edges within searchDistSqr of sample. "];
+  Node701 -> Node707 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node707 [label="Foam::extendedEdgeMesh\l::edgeDirection",height=0.2,width=0.4,color="red",URL="$a21786.html#ab9486c2e45f4fdb82391e98f64976bbb",tooltip="Return the direction of edgeI, pointing away from ptI. "];
+  Node701 -> Node709 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node709 [label="Foam::extendedEdgeMesh\l::edgeTree",height=0.2,width=0.4,color="red",URL="$a21786.html#a35b8d766fd06e5d629b382b37f071d47",tooltip="Demand driven construction of octree for boundary edges. "];
+  Node701 -> Node715 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node715 [label="Foam::extendedEdgeMesh\l::edgeTreesByType",height=0.2,width=0.4,color="red",URL="$a21786.html#afa97552d0c5faeb838d8dea82fded8ea",tooltip="Demand driven construction of octree for boundary edges by type. "];
+  Node715 -> Node703 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node701 -> Node716 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node716 [label="Foam::extendedFeatureEdge\lMesh::extendedFeatureEdgeMesh",height=0.2,width=0.4,color="red",URL="$a21794.html#a6adc759f54c663e50dd82d3820540d57",tooltip="Construct (read) given an IOobject. "];
+  Node701 -> Node718 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node718 [label="Foam::featureEdgeMesh\l::featureEdgeMesh",height=0.2,width=0.4,color="red",URL="$a21798.html#a7a53d15d141d0e33f9a731001cef160d",tooltip="Construct (read) given an IOobject. "];
+  Node701 -> Node720 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node720 [label="Foam::extendedEdgeMesh\l::flipNormals",height=0.2,width=0.4,color="black",URL="$a21786.html#ace7a4ec5b5de12179b1d4194ea408066",tooltip="Flip normals. All concave become convex, all internal external. "];
+  Node701 -> Node721 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node721 [label="Foam::operator\<\<",height=0.2,width=0.4,color="black",URL="$a21124.html#a66f7aa59f430075ea8010a08b9e86b91"];
+  Node701 -> Node722 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node722 [label="Foam::refinementFeatures\l::regionEdgeTrees",height=0.2,width=0.4,color="red",URL="$a24682.html#a8b10e1c25153aef632c6fea885ce9bf0"];
+  Node701 -> Node729 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node729 [label="Foam::fileFormats::\lOBJedgeFormat::write",height=0.2,width=0.4,color="red",URL="$a21774.html#ac93279b51e2eb12dc1a54daf46bbca98",tooltip="Write surface mesh components by proxy. "];
+  Node701 -> Node733 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node733 [label="Foam::fileFormats::\lVTKedgeFormat::write",height=0.2,width=0.4,color="red",URL="$a21782.html#ac93279b51e2eb12dc1a54daf46bbca98",tooltip="Write surface mesh components by proxy. "];
+  Node701 -> Node738 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node738 [label="Foam::fileFormats::\ledgeMeshFormat::write",height=0.2,width=0.4,color="black",URL="$a21758.html#ac93279b51e2eb12dc1a54daf46bbca98",tooltip="Write edgeMesh with a mimicked IOobject header. "];
+  Node701 -> Node739 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node739 [label="Foam::fileFormats::\lSTARCDedgeFormat::write",height=0.2,width=0.4,color="red",URL="$a21778.html#ac93279b51e2eb12dc1a54daf46bbca98",tooltip="Write edge mesh. "];
+  Node701 -> Node744 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node744 [label="Foam::extendedEdgeMesh\l::writeObj",height=0.2,width=0.4,color="black",URL="$a21786.html#a81e25c45a7e31bcf17e51a2b3ddf2efe",tooltip="Write all components of the extendedEdgeMesh as obj files. "];
+  Node744 -> Node720 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node701 -> Node745 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node745 [label="writeStats",height=0.2,width=0.4,color="black",URL="$a21754.html#a9dcc5076c83a26b069fbc8106a14c7ec"];
+  Node745 -> Node746 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node746 [label="Foam::extendedEdgeMesh\l::writeStats",height=0.2,width=0.4,color="black",URL="$a21786.html#abcdb99a5c0073642de36f2a8b03e92c2",tooltip="Dump some information. "];
+  Node701 -> Node746 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

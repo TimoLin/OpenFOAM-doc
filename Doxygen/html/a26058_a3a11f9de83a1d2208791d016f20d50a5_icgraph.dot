@@ -1,0 +1,16 @@
+digraph "info"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node329 [label="info",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node329 -> Node330 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node330 [label="dict",height=0.2,width=0.4,color="black",URL="$a26058.html#ab78af227b7df31772d6003526a5207ff",tooltip="This entry is not a dictionary,. "];
+  Node330 -> Node331 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node331 [label="isStream",height=0.2,width=0.4,color="black",URL="$a26058.html#a1b3fc75aa6c14f8da0e3c6cb55498a0b",tooltip="Return true because this entry is a stream. "];
+  Node329 -> Node331 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node329 -> Node332 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node332 [label="write",height=0.2,width=0.4,color="black",URL="$a26058.html#a293fdfec8bdfbd5c3913ab4c9f3454ff",tooltip="Write. "];
+  Node332 -> Node331 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

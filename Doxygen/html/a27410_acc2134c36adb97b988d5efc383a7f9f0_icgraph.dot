@@ -1,0 +1,16 @@
+digraph "removeBoundary"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node21481 [label="removeBoundary",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node21481 -> Node21482 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21482 [label="Foam::attachPolyTopoChanger\l::attach",height=0.2,width=0.4,color="red",URL="$a21606.html#a655f9a7493e609affecc9d220fb2a843",tooltip="Attach mesh. By default filter out empty patches. "];
+  Node21481 -> Node21484 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21484 [label="cellZones",height=0.2,width=0.4,color="black",URL="$a27410.html#a981f3e92ff079e144ef55a4fcb32dfd2",tooltip="Return non-const access to the cellZones. "];
+  Node21481 -> Node21485 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21485 [label="Foam::repatchPolyTopoChanger\l::changePatches",height=0.2,width=0.4,color="red",URL="$a21738.html#aa67aec33e2b6e0a922126e09b3ba042a",tooltip="Change patches. "];
+  Node21481 -> Node21492 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21492 [label="Foam::fvMesh::removeFvBoundary",height=0.2,width=0.4,color="red",URL="$a22766.html#ac0182771afe06e7f2d7d52a627a0e16f",tooltip="Remove boundary patches. Warning: fvPatchFields hold ref to. "];
+}

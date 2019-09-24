@@ -1,0 +1,14 @@
+digraph "heu"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node26 [label="heu",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node26 -> Node27 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node27 [label="Foam::fixedUnburntEnthalpy\lFvPatchScalarField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a30118.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node26 -> Node29 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node29 [label="Foam::mixedUnburntEnthalpy\lFvPatchScalarField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a30126.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node26 -> Node31 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node31 [label="Foam::gradientUnburntEnthalpy\lFvPatchScalarField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a30122.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+}

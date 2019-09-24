@@ -1,0 +1,19 @@
+digraph "src/TurbulenceModels/turbulenceModels/laminar/laminar.C"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node0 [label="src/TurbulenceModels\l/turbulenceModels/laminar\l/laminar.C",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="laminar.H",height=0.2,width=0.4,color="red",URL="$a39209.html"];
+  Node0 -> Node58 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node58 [label="volFields.H",height=0.2,width=0.4,color="red",URL="$a02750.html"];
+  Node0 -> Node303 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node303 [label="surfaceFields.H",height=0.2,width=0.4,color="red",URL="$a02735.html",tooltip="Foam::surfaceFields. "];
+  Node0 -> Node310 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node310 [label="fvcGrad.H",height=0.2,width=0.4,color="red",URL="$a02978.html",tooltip="Calculate the gradient of the given field. "];
+  Node0 -> Node311 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node311 [label="fvcDiv.H",height=0.2,width=0.4,color="red",URL="$a02966.html",tooltip="Calculate the divergence of the given field. "];
+  Node0 -> Node312 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node312 [label="fvmLaplacian.H",height=0.2,width=0.4,color="red",URL="$a03077.html",tooltip="Calculate the matrix for the laplacian of the field. "];
+}

@@ -1,0 +1,29 @@
+digraph "dynamicCodeContext"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="dynamicCodeContext",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="addLineDirective",height=0.2,width=0.4,color="red",URL="$a26074.html#aa9d5cadb0154391add50c7a3a6708204",tooltip="Helper: add #line directive. "];
+  Node0 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="Foam::OSHA1stream::\ldigest",height=0.2,width=0.4,color="black",URL="$a26202.html#accaac6f545b7e2a0b7815eefee071005",tooltip="Return SHA1::Digest for the data processed until now. "];
+  Node0 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="Foam::stringOps::inplace\lExpand",height=0.2,width=0.4,color="red",URL="$a21166.html#adf940b7b0788929e0e11ea44e7f9c1bb",tooltip="Inplace expand occurences of variables according to the mapping. "];
+  Node0 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="Foam::dictionary::lookup\lEntry",height=0.2,width=0.4,color="red",URL="$a26014.html#a89fbd35cd2ce3d28cb51982b3d903201",tooltip="Find and return an entry data stream if present otherwise error. "];
+  Node11 -> Node68 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node68 [label="Foam::dictionary::lookup\lEntryPtr",height=0.2,width=0.4,color="black",URL="$a26014.html#a63ca8c5575e79a6e04b8a1e1c4c1d958",tooltip="Find and return an entry data stream pointer if present. "];
+  Node68 -> Node68 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 -> Node52 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node52 [label="Foam::dictionaryName\l::name",height=0.2,width=0.4,color="black",URL="$a26010.html#aba53f1f9c8fadfa65f4099af10df348c",tooltip="Return the dictionary name. "];
+  Node0 -> Node68 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node0 -> Node52 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node0 -> Node309 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node309 [label="Foam::entry::startLineNumber",height=0.2,width=0.4,color="black",URL="$a26022.html#a6afcf7ec0671b1957daa2b8ac262ff57",tooltip="Return line number of first token in dictionary. "];
+  Node0 -> Node149 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node149 [label="Foam::entry::stream",height=0.2,width=0.4,color="black",URL="$a26022.html#a3af18be98df6d673e0a40a4e38c350d1",tooltip="Return token stream if this entry is a primitive entry. "];
+  Node0 -> Node310 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node310 [label="Foam::stringOps::trim",height=0.2,width=0.4,color="red",URL="$a21166.html#a49e4bf4709b221cc53a2a86f484d5a87",tooltip="Return string trimmed of leading and trailing whitespace. "];
+}

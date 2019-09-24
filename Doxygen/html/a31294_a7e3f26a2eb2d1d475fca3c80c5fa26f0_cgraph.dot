@@ -1,0 +1,29 @@
+digraph "createAveragingWeights"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node719 [label="createAveragingWeights",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node719 -> Node720 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node720 [label="Foam::GeometricField\l::boundaryField",height=0.2,width=0.4,color="black",URL="$a22434.html#a3c6c1a789b48ea0c5e8bff64f9c14f2d",tooltip="Return reference to GeometricBoundaryField. "];
+  Node719 -> Node721 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node721 [label="Foam::polyMesh::changing",height=0.2,width=0.4,color="red",URL="$a27410.html#a5ffdcac7622a1cba91f4f67b058a85b0",tooltip="Is mesh changing (topology changing and/or moving) "];
+  Node719 -> Node1067 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1067 [label="Foam::fvPatchField\l::dimensionedInternalField",height=0.2,width=0.4,color="black",URL="$a22354.html#a1067b719c3281eb98ffda55196ca2033",tooltip="Return dimensioned internal field reference. "];
+  Node719 -> Node842 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node842 [label="Foam::DimensionedField\l::mesh",height=0.2,width=0.4,color="black",URL="$a26390.html#a8f1110830348a1448a14ab5e3cf47e3b",tooltip="Return mesh. "];
+  Node719 -> Node1068 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1068 [label="omega",height=0.2,width=0.4,color="red",URL="$a31294.html#a0a19ade47a22371d23b806d6b945dc4a",tooltip="Return non-const access to the master&#39;s omega field. "];
+  Node1068 -> Node1068 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node719 -> Node1102 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1102 [label="Foam::fvPatchField\l::patchInternalField",height=0.2,width=0.4,color="black",URL="$a22354.html#a3b74a67629ed67899295ec63e8f9ae84",tooltip="Return internal field next to patch as patch field. "];
+  Node719 -> Node836 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node836 [label="Foam::List::setSize",height=0.2,width=0.4,color="black",URL="$a25694.html#aedb985ffeaf1bdbfeccc2a8730405703",tooltip="Reset size of List. "];
+  Node719 -> Node1103 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1103 [label="Foam::List\< Type \>\l::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a47b3bf30da1eb3ab8076b5fbe00e0494",tooltip="Return the number of elements in the UList. "];
+  Node719 -> Node872 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node872 [label="Foam::fvMesh::time",height=0.2,width=0.4,color="red",URL="$a22766.html#a0d94096809fe3376b29a2a29ca11bb18",tooltip="Return the top-level database. "];
+  Node719 -> Node1059 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1059 [label="Foam::Time::timeName",height=0.2,width=0.4,color="black",URL="$a26350.html#ad9d86fef6eca18797c786726cf925179",tooltip="Return time name of given scalar time. "];
+}

@@ -1,0 +1,29 @@
+digraph "cyclicAMIPolyPatch"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node8 [label="cyclicAMIPolyPatch",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node9 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="coupledPolyPatch",height=0.2,width=0.4,color="red",URL="$a27426.html",tooltip="The coupledPolyPatch is an abstract base class for patches that couple regions of the computational d..."];
+  Node20 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" AMIPtr_" ,fontname="FreeSans"];
+  Node20 [label="autoPtr\< Foam::AMIInterpolation \>",height=0.2,width=0.4,color="red",URL="$a25958.html"];
+  Node22 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" surfPtr_" ,fontname="FreeSans"];
+  Node22 [label="autoPtr\< Foam::searchable\lSurface \>",height=0.2,width=0.4,color="red",URL="$a25958.html"];
+  Node23 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" surfDict_" ,fontname="FreeSans"];
+  Node23 [label="dictionary",height=0.2,width=0.4,color="red",URL="$a26014.html",tooltip="A list of keyword definitions, which are a keyword followed by any number of values (e..."];
+  Node23 -> Node23 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" null" ,fontname="FreeSans"];
+  Node36 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" rotationCentre_" ,fontname="FreeSans"];
+  Node36 [label="Vector\< Cmpt \>",height=0.2,width=0.4,color="red",URL="$a28442.html",tooltip="Templated 3D Vector derived from VectorSpace adding construction from 3 components, element access using x(), y() and z() member functions and the inner-product (dot-product) and cross product operators. "];
+  Node36 -> Node36 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" one\nrootMin\nzero\nmin\nrootMax\nmax" ,fontname="FreeSans"];
+  Node40 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" coupleGroup_" ,fontname="FreeSans"];
+  Node40 [label="coupleGroupIdentifier",height=0.2,width=0.4,color="black",URL="$a27118.html",tooltip="Encapsulates using patchGroups to specify coupled patch. "];
+  Node41 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" rotationAxis_\nseparationVector_" ,fontname="FreeSans"];
+  Node41 [label="Vector\< scalar \>",height=0.2,width=0.4,color="red",URL="$a28442.html"];
+  Node36 -> Node41 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" one\nrootMin\nzero\nmin\nrootMax\nmax" ,fontname="FreeSans"];
+  Node36 -> Node41 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< scalar \>" ,fontname="FreeSans"];
+  Node43 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" nbrPatchName_" ,fontname="FreeSans"];
+  Node43 [label="word",height=0.2,width=0.4,color="red",URL="$a28258.html",tooltip="A class for handling words, derived from string. "];
+  Node43 -> Node43 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" null" ,fontname="FreeSans"];
+}

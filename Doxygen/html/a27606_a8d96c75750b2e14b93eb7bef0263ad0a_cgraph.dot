@@ -1,0 +1,29 @@
+digraph "ray"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node222 [label="ray",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node222 -> Node223 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node223 [label="Foam::PointHit::hit",height=0.2,width=0.4,color="black",URL="$a27558.html#aee8dc30bf27cefe419b15f96e594c155",tooltip="Is there a hit. "];
+  Node222 -> Node224 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node224 [label="intersection",height=0.2,width=0.4,color="red",URL="$a27606.html#ac82a9c98ef3be11c0738ec2f39ba8a2c",tooltip="Fast intersection with a ray. "];
+  Node224 -> Node230 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node230 [label="Foam::PointHit::setHit",height=0.2,width=0.4,color="black",URL="$a27558.html#af857bf9136ee4938a5de88d60b75b706"];
+  Node224 -> Node231 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node231 [label="Foam::PointHit::setPoint",height=0.2,width=0.4,color="black",URL="$a27558.html#a06197856d3e9d1625db3f88c38dc522a"];
+  Node224 -> Node232 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node232 [label="Foam::PointHit::setDistance",height=0.2,width=0.4,color="black",URL="$a27558.html#a14790d638ec1616229076c4aed712b09"];
+  Node222 -> Node234 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node234 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node222 -> Node237 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node237 [label="Foam::min",height=0.2,width=0.4,color="black",URL="$a21124.html#a253e112ad2d56d96230ff39ea7f442dc"];
+  Node222 -> Node238 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node238 [label="Foam::PointHit::rawPoint",height=0.2,width=0.4,color="black",URL="$a27558.html#a479a270e3db1518fd61b8a756455786b",tooltip="Return point with no checking. "];
+  Node222 -> Node232 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node222 -> Node230 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node222 -> Node239 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node239 [label="Foam::PointHit::setMiss",height=0.2,width=0.4,color="black",URL="$a27558.html#aed721b61555f524fcafed97d1a4cd9f6"];
+  Node222 -> Node231 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

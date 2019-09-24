@@ -1,0 +1,15 @@
+digraph "conjugate"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node119717 [label="conjugate",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node119717 -> Node119718 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node119718 [label="inv",height=0.2,width=0.4,color="black",URL="$a21124.html#a29454029112b143685743f62e092cd02",tooltip="Return the inverse of the given septernion. "];
+  Node119717 -> Node119719 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node119719 [label="Foam::quaternion::invTransform",height=0.2,width=0.4,color="red",URL="$a28130.html#aee0060723827f8272f2f50aaaf57c1eb",tooltip="Rotate the given vector anti-clockwise. "];
+  Node119719 -> Node119718 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node119717 -> Node119722 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node119722 [label="Foam::quaternion::transform",height=0.2,width=0.4,color="red",URL="$a28130.html#a9238fc61b8fc08c41a1f1be6cc31b3e0",tooltip="Rotate the given vector. "];
+}

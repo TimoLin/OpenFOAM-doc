@@ -1,0 +1,16 @@
+digraph "cellAnchorPoints"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node95 [label="cellAnchorPoints",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node95 -> Node96 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node96 [label="flip",height=0.2,width=0.4,color="red",URL="$a21466.html#ae0e6a6ea75dd64339a5a388a1c027f2a",tooltip="Flip loop for cellI. Updates anchor points as well. "];
+  Node95 -> Node104 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node104 [label="flipLoopOnly",height=0.2,width=0.4,color="red",URL="$a21466.html#a104797fd5855508f65afd4d86f6989f8",tooltip="Flip loop for cellI. Does not update anchors. Use with care. "];
+  Node95 -> Node105 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node105 [label="nonAnchorPoints",height=0.2,width=0.4,color="red",URL="$a21466.html#a99cdc1288c329f2654ead522706957a6",tooltip="Invert anchor point selection. "];
+  Node95 -> Node453 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node453 [label="writeCellOBJ",height=0.2,width=0.4,color="red",URL="$a21466.html#a0582316c904ae210283d6d6908515164",tooltip="debugging:Write edges of cell and loop "];
+}

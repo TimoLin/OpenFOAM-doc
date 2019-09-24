@@ -1,0 +1,14 @@
+digraph "cyclicAMIPolyPatch"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="cyclicAMIPolyPatch",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="clearGeom",height=0.2,width=0.4,color="red",URL="$a24946.html#a499a7f858dc495c47b618e168fec6372",tooltip="Clear geometry. "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="clone",height=0.2,width=0.4,color="red",URL="$a24946.html#adbf8c0a436d777bd346c3ab2a4b087df",tooltip="Construct and return a clone, resetting the boundary mesh. "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="cyclicAMIPolyPatch",height=0.2,width=0.4,color="black",URL="$a24946.html#aea789b13addb63ac3e355b5796829da8",tooltip="Construct from dictionary. "];
+}

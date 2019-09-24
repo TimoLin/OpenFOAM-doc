@@ -1,0 +1,21 @@
+digraph "samplePolyPatch"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3684 [label="samplePolyPatch",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3684 -> Node3685 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3685 [label="Foam::polyMesh::boundaryMesh",height=0.2,width=0.4,color="black",URL="$a27410.html#a9f2b68c134340291eda6197f47f25484",tooltip="Return boundary mesh. "];
+  Node3684 -> Node3686 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3686 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node3684 -> Node3688 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3688 [label="Foam::exit",height=0.2,width=0.4,color="red",URL="$a21124.html#a06ca7250d8e89caf05243ec094843642"];
+  Node3684 -> Node3733 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3733 [label="Foam::polyBoundaryMesh\l::findPatchID",height=0.2,width=0.4,color="red",URL="$a27402.html#ac89fe0aab9fe12bd4f0d3807495fe72b",tooltip="Find patch index given a name. "];
+  Node3733 -> Node3686 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3684 -> Node3737 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3737 [label="Foam::polyBoundaryMesh\l::names",height=0.2,width=0.4,color="red",URL="$a27402.html#ada6aa4fc7adb36994dc5e27d319a3acc",tooltip="Return a list of patch names. "];
+  Node3684 -> Node3739 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3739 [label="samplePoints",height=0.2,width=0.4,color="red",URL="$a25094.html#a8612410d6387008e01c65ec2d840c7f6",tooltip="Get the sample points. "];
+}

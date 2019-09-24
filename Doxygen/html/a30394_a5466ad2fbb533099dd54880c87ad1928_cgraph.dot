@@ -1,0 +1,14 @@
+digraph "kappa"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node158 [label="kappa",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node158 -> Node159 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node159 [label="alphah",height=0.2,width=0.4,color="black",URL="$a30394.html#aa3d16e0f36b6c7f0e4c8fdd59878d31f",tooltip="Thermal diffusivity of enthalpy [kg/ms]. "];
+  Node159 -> Node160 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node160 [label="mu",height=0.2,width=0.4,color="black",URL="$a30394.html#a156c9bed463e921bb2ef8c7cbfb7fdc9",tooltip="Dynamic viscosity [kg/ms]. "];
+  Node160 -> Node158 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node158 -> Node160 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

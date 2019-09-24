@@ -1,0 +1,11 @@
+digraph "STARCDsurfaceFormatCore"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node0 [label="STARCDsurfaceFormatCore",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="STARCDCore",height=0.2,width=0.4,color="black",URL="$a21886.html",tooltip="Core routines used when reading/writing pro-STAR vrt/cel/bnd files. "];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="STARCDsurfaceFormat\l\< Face \>",height=0.2,width=0.4,color="black",URL="$a29630.html",tooltip="Read/write the surface shells from pro-STAR vrt/cel files. "];
+}

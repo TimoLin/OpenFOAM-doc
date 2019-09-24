@@ -1,0 +1,21 @@
+digraph "localToGlobalCarrierId"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node84 [label="localToGlobalCarrierId",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node84 -> Node85 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node85 [label="Foam::ReactingParcel\l::calc",height=0.2,width=0.4,color="red",URL="$a23922.html#a1c2aa9de8e2381d1a7be78bd687fd255",tooltip="Update parcel properties over the time interval. "];
+  Node84 -> Node92 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node92 [label="Foam::ReactingMultiphase\lParcel::calc",height=0.2,width=0.4,color="red",URL="$a23910.html#a1c2aa9de8e2381d1a7be78bd687fd255",tooltip="Update parcel properties over the time interval. "];
+  Node84 -> Node97 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node97 [label="Foam::ReactingMultiphase\lParcel::calcDevolatilisation",height=0.2,width=0.4,color="black",URL="$a23910.html#a27e44fd232cf9e748036d4574bafd0af",tooltip="Calculate Devolatilisation. "];
+  Node97 -> Node92 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node84 -> Node90 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node90 [label="Foam::ReactingParcel\l::calcPhaseChange",height=0.2,width=0.4,color="black",URL="$a23922.html#a623a7991bedba1b8b242d4af39643a14",tooltip="Calculate Phase change. "];
+  Node84 -> Node98 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node98 [label="Foam::CompositionModel\l\< Foam::ReactingCloud\l\< Foam::DsmcCloud \> \>::clone",height=0.2,width=0.4,color="black",URL="$a23806.html#a978beb1d8454ca481790660427b9b37c",tooltip="Construct and return a clone. "];
+  Node84 -> Node99 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node99 [label="Foam::CompositionModel\l\< Foam::ReactingCloud\l\< Foam::DsmcCloud \> \>::\llocalId",height=0.2,width=0.4,color="black",URL="$a23806.html#acff14cef9e4a4837d29a40d880fa353a",tooltip="Return local id of component cmptName in phase phaseI. "];
+}

@@ -1,0 +1,14 @@
+digraph "countPointUsage"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node831 [label="countPointUsage",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node831 -> Node832 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node832 [label="Foam::edgeCollapser\l::markMergeEdges",height=0.2,width=0.4,color="red",URL="$a21642.html#a8a9654b4621962ec0b33310c38ce9cd1",tooltip="Mark (in collapseEdge) any edges to merge. "];
+  Node831 -> Node837 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node837 [label="Foam::meshRefinement\l::mergeEdgesUndo",height=0.2,width=0.4,color="red",URL="$a24662.html#a25b6e413ec6206e879f283d99509812f",tooltip="Merge edges, maintain mesh quality. Return global number. "];
+  Node831 -> Node844 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node844 [label="removePoints",height=0.2,width=0.4,color="black",URL="$a21722.html#ae5a5fc9441a530eba8730723c8ea9bbb",tooltip="Construct from mesh. "];
+}

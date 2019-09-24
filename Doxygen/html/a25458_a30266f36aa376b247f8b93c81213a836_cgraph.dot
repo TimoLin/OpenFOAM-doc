@@ -1,0 +1,19 @@
+digraph "pointZoneSet"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="pointZoneSet",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="Foam::topoSet::check",height=0.2,width=0.4,color="red",URL="$a25462.html#a5da2a9b7df4592638c8a79a7b6221578",tooltip="Check validity of contents. "];
+  Node0 -> Node305 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node305 [label="Foam::ZoneMesh::findZoneID",height=0.2,width=0.4,color="black",URL="$a27522.html#a13d1a124b375b062a1c226196db8b486",tooltip="Find zone index given a name. "];
+  Node0 -> Node112 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node112 [label="Foam::primitiveMesh\l::nPoints",height=0.2,width=0.4,color="black",URL="$a27530.html#a1c886a784a597459dbf2d9470798e9dd"];
+  Node0 -> Node306 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node306 [label="Foam::polyMesh::pointZones",height=0.2,width=0.4,color="black",URL="$a27410.html#a611d392e09d31b6aa892d42c7646b1ef",tooltip="Return point zone mesh. "];
+  Node0 -> Node307 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node307 [label="updateSet",height=0.2,width=0.4,color="red",URL="$a25458.html#afc9e2e914d3928dd7281d2ac71452052",tooltip="Sort addressing and make pointSet part consistent with addressing. "];
+  Node307 -> Node0 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

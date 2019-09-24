@@ -1,0 +1,28 @@
+digraph "hexRef8"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node780 [label="hexRef8",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node780 -> Node781 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node781 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node780 -> Node824 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node824 [label="checkMesh",height=0.2,width=0.4,color="red",URL="$a21654.html#a432ff341842268fa21b8363e6b2c45b9",tooltip="Debug: Check coupled mesh for correctness. "];
+  Node824 -> Node789 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node789 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node824 -> Node781 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node824 -> Node875 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node875 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node824 -> Node1160 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1160 [label="checkRefinementLevels",height=0.2,width=0.4,color="red",URL="$a21654.html#a02570ed86624586145fa5b8bb20a2d12",tooltip="Debug: Check 2:1 consistency across faces. "];
+  Node1160 -> Node789 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1160 -> Node875 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1160 -> Node781 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node780 -> Node1160 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node780 -> Node1161 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1161 [label="consistentRefinement",height=0.2,width=0.4,color="red",URL="$a21654.html#ae0e017f6d6cf5b2b9edf14177593128e",tooltip="Given valid mesh and current cell level and proposed. "];
+  Node1161 -> Node789 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node780 -> Node789 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node780 -> Node875 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

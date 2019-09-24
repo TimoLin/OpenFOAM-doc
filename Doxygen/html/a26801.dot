@@ -1,0 +1,14 @@
+digraph "LduMatrix&lt; Type, DType, LUType &gt;::preconditioner"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="LduMatrix\< Type, DType,\l LUType \>::preconditioner",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="DiagonalPreconditioner\l\< Type, DType, LUType \>",height=0.2,width=0.4,color="black",URL="$a26814.html",tooltip="Diagonal preconditioner for both symmetric and asymmetric matrices. "];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="NoPreconditioner\< Type,\l DType, LUType \>",height=0.2,width=0.4,color="black",URL="$a26822.html",tooltip="Null preconditioner for both symmetric and asymmetric matrices. "];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="TDILUPreconditioner\l\< Type, DType, LUType \>",height=0.2,width=0.4,color="black",URL="$a26818.html",tooltip="Simplified diagonal-based incomplete LU preconditioner for asymmetric matrices. "];
+}

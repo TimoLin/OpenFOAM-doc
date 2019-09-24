@@ -1,0 +1,14 @@
+digraph "v2f"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node19 [label="v2f",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node20 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20 [label="RASModel",height=0.2,width=0.4,color="red",URL="$a30758.html",tooltip="Abstract base class for turbulence models for compressible and combusting flows. "];
+  Node99 -> Node20 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" kMin_\nomegaMin_\nepsilonMin_" ,fontname="FreeSans"];
+  Node99 [label="dimensioned\< scalar \>",height=0.2,width=0.4,color="red",URL="$a26366.html"];
+  Node59 -> Node19 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mut_\nalphat_\nk_\nf_\nv2_\nepsilon_" ,fontname="FreeSans"];
+  Node59 [label="GeometricField\< scalar,\l fvPatchField, volMesh \>",height=0.2,width=0.4,color="red",URL="$a22434.html"];
+  Node99 -> Node19 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" CL_\nsigmaK_\nCmu_\nsigmaEps_\nC2_\nC1_\nCeta_\nfMin_\nv2Min_\nPrt_\n..." ,fontname="FreeSans"];
+}

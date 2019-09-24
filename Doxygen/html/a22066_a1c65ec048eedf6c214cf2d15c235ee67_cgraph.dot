@@ -1,0 +1,23 @@
+digraph "advectiveFvPatchField"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4 [label="advectiveFvPatchField",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="advectiveFvPatchField",height=0.2,width=0.4,color="black",URL="$a22066.html#a3a4545613ae40ef76ad1664be8d51ee7",tooltip="Construct from patch and internal field. "];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="dimensionedInternalField",height=0.2,width=0.4,color="black",URL="$a38438.html#a942cd19121a46cdc649099eb27c74b18"];
+  Node4 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="Foam::exit",height=0.2,width=0.4,color="red",URL="$a21124.html#a06ca7250d8e89caf05243ec094843642"];
+  Node4 -> Node54 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node54 [label="Foam::dictionary::found",height=0.2,width=0.4,color="red",URL="$a26014.html#adcd3d5d43253006ef145e56b43025d28",tooltip="Search dictionary for given keyword. "];
+  Node54 -> Node54 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 -> Node56 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node56 [label="Foam::dictionary::lookup",height=0.2,width=0.4,color="red",URL="$a26014.html#a6a0727fa523e48977e27348663def509",tooltip="Find and return an entry data stream. "];
+  Node4 -> Node149 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node149 [label="Foam::dictionary::readIf\lPresent",height=0.2,width=0.4,color="red",URL="$a26014.html#ad4bd008e6ee208313f2c3a963ee1170d",tooltip="Find an entry if present, and assign to T. "];
+  Node4 -> Node95 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node95 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+}

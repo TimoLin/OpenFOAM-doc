@@ -1,0 +1,24 @@
+digraph "mag"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node849 [label="mag",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node849 -> Node850 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node850 [label="Foam::nearWallFields\l::calcAddressing",height=0.2,width=0.4,color="black",URL="$a28750.html#a7097a017d4eac4116d58a3cdbf507891",tooltip="Calculate addressing from cells back to patch faces. "];
+  Node849 -> Node851 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node851 [label="Foam::searchableSurfaces\l::checkSizes",height=0.2,width=0.4,color="red",URL="$a25246.html#a6fc4bfd72ec36b321f1227370141d07c",tooltip="Are all bounding boxes of similar size. "];
+  Node849 -> Node858 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node858 [label="Foam::patchProbes::\lfindElements",height=0.2,width=0.4,color="black",URL="$a29262.html#a852f621399b6ee1f3467e69a1d5fe8b4",tooltip="Find elements containing patchProbes. "];
+  Node849 -> Node859 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node859 [label="Foam::globalMeshData\l::geometricSharedPoints",height=0.2,width=0.4,color="red",URL="$a27334.html#a409137bf10693cd921aed0a5a75fed10",tooltip="Like sharedPoints but keeps cyclic points separate. "];
+  Node849 -> Node883 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node883 [label="inflate",height=0.2,width=0.4,color="red",URL="$a27102.html#a7264596c8566f5168aa2f5e795c884f4",tooltip="Inflate box by factor*mag(span) in all dimensions. "];
+  Node849 -> Node892 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node892 [label="Foam::isoSurfaceCell\l::isoSurfaceCell",height=0.2,width=0.4,color="black",URL="$a29350.html#a493a4ed208fd259e349c3f01290ccccc",tooltip="Construct from dictionary. "];
+  Node849 -> Node893 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node893 [label="Foam::wallBoundedStreamLine\lParticle::move",height=0.2,width=0.4,color="red",URL="$a28810.html#ab2af4f225a9c3e9d8789961151f121ac",tooltip="Track all particles to their end point. "];
+  Node849 -> Node896 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node896 [label="Foam::globalMeshData\l::updateMesh",height=0.2,width=0.4,color="red",URL="$a27334.html#ae5693a309a936ac1040dd48c2881677f",tooltip="Change global mesh data given a topological change. Does a. "];
+}

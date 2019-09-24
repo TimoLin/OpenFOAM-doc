@@ -1,0 +1,14 @@
+digraph "prghPressureFvPatchScalarField"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node2 [label="prghPressureFvPatchScalar\lField",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="fixedValueFvPatchScalarField",height=0.2,width=0.4,color="grey75"];
+  Node4 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" p_" ,fontname="FreeSans"];
+  Node4 [label="Field\< scalar \>",height=0.2,width=0.4,color="red",URL="$a26466.html"];
+  Node14 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" rhoName_" ,fontname="FreeSans"];
+  Node14 [label="word",height=0.2,width=0.4,color="red",URL="$a28258.html",tooltip="A class for handling words, derived from string. "];
+  Node14 -> Node14 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" null" ,fontname="FreeSans"];
+}

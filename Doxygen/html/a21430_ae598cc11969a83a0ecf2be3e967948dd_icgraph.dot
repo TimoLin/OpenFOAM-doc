@@ -1,0 +1,13 @@
+digraph "changePatchType"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2634 [label="changePatchType",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2634 -> Node2635 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2635 [label="deletePatch",height=0.2,width=0.4,color="black",URL="$a21430.html#a35bae3d1fccc75f1edba03069229ce71",tooltip="Delete from patch list. "];
+  Node2635 -> Node2636 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2636 [label="extraEdges",height=0.2,width=0.4,color="black",URL="$a21430.html#a9cfb4135bbc6e583439d6bc0a9ab0a81",tooltip="Indices into edges of additional edges. "];
+  Node2634 -> Node2636 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,16 @@
+digraph "phases"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node6 [label="phases",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="Cvm",height=0.2,width=0.4,color="black",URL="$a32062.html#a3aeae5a4f5c5f7f83bfbb2d4aadf702c",tooltip="Return the virtual-mass coefficient for the given phase. "];
+  Node6 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="nu",height=0.2,width=0.4,color="black",URL="$a32062.html#aa739f3daeda1884fecc84f2b36a24021",tooltip="Return the mixture laminar viscosity. "];
+  Node6 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="rho",height=0.2,width=0.4,color="black",URL="$a32062.html#a09fa143f8372daa6aa7929007f25e0e2",tooltip="Return the mixture density. "];
+  Node6 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="Svm",height=0.2,width=0.4,color="black",URL="$a32062.html#ae7836c1626172204596867e0112cdc60",tooltip="Return the virtual-mass source for the given phase. "];
+}

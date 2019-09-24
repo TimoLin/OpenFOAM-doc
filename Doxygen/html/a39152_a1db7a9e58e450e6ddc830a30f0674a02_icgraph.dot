@@ -1,0 +1,45 @@
+digraph "Pr"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node64 [label="Pr",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node64 -> Node65 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node65 [label="Foam::ThermoParcel\l::calc",height=0.2,width=0.4,color="red",URL="$a23938.html#a1c2aa9de8e2381d1a7be78bd687fd255",tooltip="Update parcel properties over the time interval. "];
+  Node65 -> Node69 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node69 [label="Foam::ThermoParcel\l::iNew::operator()",height=0.2,width=0.4,color="black",URL="$a23950.html#a9c815e5c48b66bcc09b01261b8484a7d"];
+  Node64 -> Node70 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node70 [label="Foam::RanzMarshall\l::clone",height=0.2,width=0.4,color="black",URL="$a24362.html#a015858b0d482383b4d7beabfdec4d7a1",tooltip="Construct and return a clone. "];
+  Node64 -> Node71 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node71 [label="Foam::LiquidEvaporation\l::clone",height=0.2,width=0.4,color="black",URL="$a24314.html#a6d7553cfba31357b94c3905bdc0bf58c",tooltip="Construct and return a clone. "];
+  Node64 -> Node72 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node72 [label="Foam::HeatTransferModel\l\< Foam::ThermoCloud\< CloudType\l \> \>::clone",height=0.2,width=0.4,color="black",URL="$a23830.html#a015858b0d482383b4d7beabfdec4d7a1",tooltip="Construct and return a clone. "];
+  Node64 -> Node73 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node73 [label="Foam::LiquidEvaporationBoil\l::clone",height=0.2,width=0.4,color="black",URL="$a24318.html#a6d7553cfba31357b94c3905bdc0bf58c",tooltip="Construct and return a clone. "];
+  Node64 -> Node74 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node74 [label="Foam::PhaseChangeModel\l\< Foam::ReactingCloud\l\< Foam::DsmcCloud \> \>::clone",height=0.2,width=0.4,color="black",URL="$a23810.html#a6d7553cfba31357b94c3905bdc0bf58c",tooltip="Construct and return a clone. "];
+  Node64 -> Node75 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node75 [label="Foam::SRIFallOffFunction\l::operator()",height=0.2,width=0.4,color="black",URL="$a30282.html#acfa6f376b4912da468dd6ff01ccd5321"];
+  Node64 -> Node76 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node76 [label="Foam::TroeFallOffFunction\l::operator()",height=0.2,width=0.4,color="black",URL="$a30286.html#acfa6f376b4912da468dd6ff01ccd5321"];
+  Node64 -> Node77 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node77 [label="Foam::FallOffReactionRate\l::operator()",height=0.2,width=0.4,color="black",URL="$a30290.html#a6b13805098b231a4c9079b9030b2738c"];
+  Node64 -> Node78 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node78 [label="Foam::ChemicallyActivated\lReactionRate::operator()",height=0.2,width=0.4,color="black",URL="$a30274.html#a6b13805098b231a4c9079b9030b2738c"];
+  Node64 -> Node79 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node79 [label="Foam::SprayParcel::\liNew::operator()",height=0.2,width=0.4,color="black",URL="$a24542.html#a91088952f4c10fdcd976f75ea537a07a"];
+  Node64 -> Node69 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node64 -> Node80 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node80 [label="Foam::LindemannFallOffFunction\l::type",height=0.2,width=0.4,color="black",URL="$a30278.html#a5a9ddf75c38902cea71440aee7bdc980",tooltip="Return the type name. "];
+  Node64 -> Node81 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node81 [label="Foam::TroeFallOffFunction\l::type",height=0.2,width=0.4,color="black",URL="$a30286.html#a5a9ddf75c38902cea71440aee7bdc980",tooltip="Return the type name. "];
+  Node64 -> Node82 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node82 [label="Foam::SRIFallOffFunction\l::type",height=0.2,width=0.4,color="black",URL="$a30282.html#a5a9ddf75c38902cea71440aee7bdc980",tooltip="Return the type name. "];
+  Node64 -> Node83 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node83 [label="Foam::compressible\l::convectiveHeatTransferFv\lPatchScalarField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a30658.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node64 -> Node85 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node85 [label="Foam::compressible\l::RASModels::alphatFilmWall\lFunctionFvPatchScalarField\l::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a29034.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node64 -> Node87 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node87 [label="Foam::compressible\l::alphatJayatillekeWallFunction\lFvPatchScalarField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a30670.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+}

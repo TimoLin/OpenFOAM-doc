@@ -1,0 +1,20 @@
+digraph "coupledFvsPatchField&lt; Type &gt;"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="coupledFvsPatchField\l\< Type \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="fvsPatchField\< Type \>",height=0.2,width=0.4,color="red",URL="$a22426.html",tooltip="An abstract base class with a fat-interface to all derived classes covering all possible ways in whic..."];
+  Node0 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="cyclicACMIFvsPatchField\l\< Type \>",height=0.2,width=0.4,color="black",URL="$a22386.html",tooltip="Foam::cyclicACMIFvsPatchField. "];
+  Node0 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="cyclicAMIFvsPatchField\l\< Type \>",height=0.2,width=0.4,color="black",URL="$a22390.html",tooltip="Foam::cyclicAMIFvsPatchField. "];
+  Node0 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="cyclicFvsPatchField\l\< Type \>",height=0.2,width=0.4,color="red",URL="$a22382.html",tooltip="Foam::cyclicFvsPatchField. "];
+  Node0 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14 [label="processorCyclicFvsPatchField\l\< Type \>",height=0.2,width=0.4,color="black",URL="$a22410.html",tooltip="Foam::processorCyclicFvsPatchField. "];
+  Node0 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15 [label="processorFvsPatchField\l\< Type \>",height=0.2,width=0.4,color="black",URL="$a22406.html",tooltip="Foam::processorFvsPatchField. "];
+}

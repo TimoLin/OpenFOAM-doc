@@ -1,0 +1,13 @@
+digraph "write"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node30 [label="write",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node30 -> Node31 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node31 [label="Foam::OSstream::write",height=0.2,width=0.4,color="red",URL="$a26290.html#a52c3f56f115b2b9b1b7db001a3784003",tooltip="Write next token to stream. "];
+  Node30 -> Node39 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node39 [label="writeQuoted",height=0.2,width=0.4,color="red",URL="$a29606.html#a40c64d7f8975f303da0b0245c16fe906",tooltip="Write std::string surrounded by quotes. "];
+  Node39 -> Node31 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

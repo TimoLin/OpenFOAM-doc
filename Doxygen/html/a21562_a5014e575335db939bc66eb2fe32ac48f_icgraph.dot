@@ -1,0 +1,20 @@
+digraph "checkFaceDotProduct"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1671 [label="checkFaceDotProduct",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1671 -> Node1672 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1672 [label="cellVolumes",height=0.2,width=0.4,color="black",URL="$a21562.html#abead6b42c36ac9c1a86fb2707b304a2f"];
+  Node1671 -> Node1673 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1673 [label="checkCellDeterminant",height=0.2,width=0.4,color="red",URL="$a21562.html#af0c7e937ce83711247f5519b530eb868",tooltip="Area of internal faces v.s. boundary faces. "];
+  Node1673 -> Node1674 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1674 [label="Foam::motionSmootherAlgo\l::checkMesh",height=0.2,width=0.4,color="black",URL="$a21550.html#aa9f61ed4ec6238efaec747b27fa0143c",tooltip="Check part of mesh including baffles with mesh settings in dict. "];
+  Node1673 -> Node1672 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1671 -> Node1695 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1695 [label="checkFaceDotProduct",height=0.2,width=0.4,color="black",URL="$a21562.html#ae23d96c930cc3451d2446527a2d59550"];
+  Node1671 -> Node1674 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1671 -> Node1696 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1696 [label="correct",height=0.2,width=0.4,color="black",URL="$a21562.html#aeed5a518f187ef6c2eec874ebcf8df29",tooltip="Recalculate on selected faces. Recalculates cell properties. "];
+}

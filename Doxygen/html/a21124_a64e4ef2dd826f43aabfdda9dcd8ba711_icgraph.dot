@@ -1,0 +1,14 @@
+digraph "findEtcFile"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node91135 [label="findEtcFile",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node91135 -> Node91136 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node91136 [label="Foam::stringOps::inplace\lExpand",height=0.2,width=0.4,color="black",URL="$a21166.html#ac760e4fa2afbc93f8d9932e598d9a897",tooltip="Inplace expand occurences of variables according to the dictionary. "];
+  Node91135 -> Node91137 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node91137 [label="Foam::dynamicCode::\lresolveTemplates",height=0.2,width=0.4,color="red",URL="$a26070.html#a7056029919f25a2d23e9913df26223d9",tooltip="Resolve code-templates via the codeTemplateEnvName. "];
+  Node91135 -> Node91143 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node91143 [label="Foam::sigStopAtWriteNow::set",height=0.2,width=0.4,color="red",URL="$a28562.html#af30d71d7871d89cd6a08a781f7bf0a15",tooltip="(re)set signal catcher "];
+}

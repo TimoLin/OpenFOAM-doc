@@ -1,0 +1,27 @@
+digraph "mergePoints"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node112095 [label="mergePoints",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node112095 -> Node112096 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node112096 [label="Foam::polyMeshAdder\l::findSharedPoints",height=0.2,width=0.4,color="red",URL="$a21594.html#a635b09647032a29d1e0aad6091b96f47",tooltip="Find topologically and geometrically shared points. "];
+  Node112095 -> Node112110 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node112110 [label="Foam::PatchTools::gather\lAndMerge",height=0.2,width=0.4,color="red",URL="$a27526.html#a5bb23f3c6784eb0278a73cd0297be66a",tooltip="Gather points and faces onto master and merge into single patch. "];
+  Node112110 -> Node112111 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node112111 [label="Foam::NamedEnum\< direction\lType, 3 \>::names",height=0.2,width=0.4,color="black",URL="$a25998.html#a7350da3a0edd92cd11e6c479c9967dc8"];
+  Node112095 -> Node112113 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node112113 [label="Foam::globalMeshData\l::geometricSharedPoints",height=0.2,width=0.4,color="red",URL="$a27334.html#a409137bf10693cd921aed0a5a75fed10",tooltip="Like sharedPoints but keeps cyclic points separate. "];
+  Node112095 -> Node112131 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node112131 [label="mergePoints",height=0.2,width=0.4,color="black",URL="$a21124.html#ac8a760f05d4232f3216c3e243bb58649",tooltip="Sorts and merges points. Determines new points. Returns true if anything. "];
+  Node112095 -> Node112132 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node112132 [label="Foam::edgeMesh::mergePoints",height=0.2,width=0.4,color="black",URL="$a21754.html#a4a30722df5a19aba38ae123cf2ab30c5",tooltip="Merge common points (points within mergeDist) "];
+  Node112095 -> Node112133 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node112133 [label="Foam::triSurfaceTools\l::mergePoints",height=0.2,width=0.4,color="red",URL="$a25538.html#a44799249ec25a8721893cffeffcdec1f",tooltip="Merge points within distance. "];
+  Node112095 -> Node112111 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node112095 -> Node112137 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node112137 [label="Foam::MeshedSurface\l\< Foam::face \>::stitchFaces",height=0.2,width=0.4,color="black",URL="$a29566.html#ada64739e841899f3172e20a98843c6ae"];
+  Node112095 -> Node112138 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node112138 [label="Foam::surfaceIntersection\l::surfaceIntersection",height=0.2,width=0.4,color="black",URL="$a25502.html#a0227f78e50cd258d5b10a3f1214bea8f",tooltip="Special: intersect surface with itself. Used to check for. "];
+}

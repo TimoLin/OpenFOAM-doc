@@ -1,0 +1,25 @@
+digraph "clone"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node166 [label="clone",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node166 -> Node167 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node167 [label="add",height=0.2,width=0.4,color="red",URL="$a24210.html#aacdd5b987030e398238c732fea3a0117",tooltip="Member Functions. "];
+  Node167 -> Node169 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node169 [label="interpolate",height=0.2,width=0.4,color="red",URL="$a24210.html#a832be612fa01f76401e18af4c549f6e0",tooltip="Interpolate. "];
+  Node169 -> Node170 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node170 [label="interpolateGrad",height=0.2,width=0.4,color="red",URL="$a24210.html#a9650c37c3220ce5067b642cb7db52557",tooltip="Interpolate gradient. "];
+  Node166 -> Node173 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node173 [label="average",height=0.2,width=0.4,color="red",URL="$a24210.html#adcc1a888cd92655a25f4d7838e3a3ec1",tooltip="Calculate the average. "];
+  Node166 -> Node481 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node481 [label="internalField",height=0.2,width=0.4,color="black",URL="$a24210.html#a145c699d051d7e78340de71353011d4f",tooltip="Return an internal field of the average. "];
+  Node166 -> Node482 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node482 [label="internalFieldGrad",height=0.2,width=0.4,color="black",URL="$a24210.html#aca2be38f854d37bd907e039184b6a8bc",tooltip="Return an internal field of the gradient. "];
+  Node166 -> Node169 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node166 -> Node170 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node166 -> Node483 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node483 [label="~Dual",height=0.2,width=0.4,color="red",URL="$a24210.html#a5c08eca007ade69ea650619db86d50b6",tooltip="Destructor. "];
+  Node483 -> Node167 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

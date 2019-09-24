@@ -1,0 +1,24 @@
+digraph "reaction"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="reaction",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="Foam::singleStepReacting\lMixture::calculateMaxProducts",height=0.2,width=0.4,color="black",URL="$a30154.html#a6b47228f15cd274354a53d39621f57c0",tooltip="Calculate maximum products at stoichiometric mixture. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="Foam::singleStepReacting\lMixture::calculateqFuel",height=0.2,width=0.4,color="black",URL="$a30154.html#adbb9285ec5651bbb308864af20d1916d",tooltip="Calculate qFuel. "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="forAll",height=0.2,width=0.4,color="black",URL="$a38177.html#a10c29c5a8ec21260e2867f83e0bbd2b6"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="Foam::singleStepReacting\lMixture::fresCorrect",height=0.2,width=0.4,color="red",URL="$a30154.html#a105d3612693f9a241191e881a344b5cf",tooltip="Calculates the residual for all components. "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="Foam::radiation::mixture\lFractionSoot::mixtureFractionSoot",height=0.2,width=0.4,color="black",URL="$a30090.html#a8b602a1a5e61ff243518f0dfd87c05dc",tooltip="Construct from components. "];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="Foam::operator\<\<",height=0.2,width=0.4,color="black",URL="$a21124.html#a534f3a577c9a0698ffcb15bd720d2722"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="Foam::solidReaction\l::write",height=0.2,width=0.4,color="red",URL="$a30202.html#a293fdfec8bdfbd5c3913ab4c9f3454ff",tooltip="Write. "];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="Foam::Reaction::write",height=0.2,width=0.4,color="red",URL="$a30330.html#a293fdfec8bdfbd5c3913ab4c9f3454ff",tooltip="Write. "];
+}

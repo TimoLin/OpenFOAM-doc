@@ -1,0 +1,21 @@
+digraph "clone"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node283 [label="clone",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node283 -> Node284 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node284 [label="evaluate",height=0.2,width=0.4,color="red",URL="$a30778.html#a3b59c070ab0408e3bbb21927540159f4",tooltip="Evaluate the patch field. "];
+  Node284 -> Node286 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node286 [label="write",height=0.2,width=0.4,color="red",URL="$a30778.html#a293fdfec8bdfbd5c3913ab4c9f3454ff",tooltip="Write. "];
+  Node283 -> Node289 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node289 [label="externalCoupledTemperature\lMixedFvPatchScalarField",height=0.2,width=0.4,color="black",URL="$a30778.html#acad9cba4ce83080c8ca9271997786d00",tooltip="Construct from patch and internal field. "];
+  Node283 -> Node290 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node290 [label="transferData",height=0.2,width=0.4,color="red",URL="$a30778.html#aaead10f96672ca2a1e5c291111cebf1e",tooltip="Transfer data for external source. "];
+  Node290 -> Node284 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node283 -> Node286 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node283 -> Node411 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node411 [label="~externalCoupledTemperature\lMixedFvPatchScalarField",height=0.2,width=0.4,color="black",URL="$a30778.html#a73fca7652d76946eab066d2e5857ba6f",tooltip="Destructor. "];
+  Node411 -> Node290 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

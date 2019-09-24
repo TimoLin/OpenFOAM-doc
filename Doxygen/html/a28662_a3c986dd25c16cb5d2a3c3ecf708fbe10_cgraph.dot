@@ -1,0 +1,18 @@
+digraph "reconstructPoints"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node51 [label="reconstructPoints",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node51 -> Node52 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node52 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node51 -> Node95 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node95 [label="Foam::fvMesh::movePoints",height=0.2,width=0.4,color="red",URL="$a22766.html#a3693c648bea2e99054cbbb75d4bf4e4d",tooltip="Move points, returns volumes swept by faces in motion. "];
+  Node51 -> Node199 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node199 [label="Foam::primitiveMesh\l::nPoints",height=0.2,width=0.4,color="black",URL="$a27530.html#a1c886a784a597459dbf2d9470798e9dd"];
+  Node51 -> Node158 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node158 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node51 -> Node344 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node344 [label="Foam::fvMesh::write",height=0.2,width=0.4,color="red",URL="$a22766.html#ad48b7b943e88478c15879659cce7aebc",tooltip="Write mesh using IO settings from time. "];
+}

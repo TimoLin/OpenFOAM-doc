@@ -1,0 +1,38 @@
+digraph "read"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1933 [label="read",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1933 -> Node1934 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1934 [label="Foam::fv::option::iNew\l::operator()",height=0.2,width=0.4,color="black",URL="$a23450.html#aade9db5e363d52d9f47d6ae1f680d6f9"];
+  Node1933 -> Node1935 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1935 [label="Foam::fv::constantHeatTransfer\l::read",height=0.2,width=0.4,color="black",URL="$a23538.html#a6ce0c64db98eb6144d363dbfc86104eb",tooltip="Read dictionary. "];
+  Node1933 -> Node1936 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1936 [label="Foam::fv::tabulatedHeatTransfer\l::read",height=0.2,width=0.4,color="black",URL="$a23546.html#a6ce0c64db98eb6144d363dbfc86104eb",tooltip="Read dictionary. "];
+  Node1933 -> Node1937 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1937 [label="Foam::fv::variableHeatTransfer\l::read",height=0.2,width=0.4,color="black",URL="$a23550.html#a6ce0c64db98eb6144d363dbfc86104eb",tooltip="Read dictionary. "];
+  Node1933 -> Node1938 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1938 [label="Foam::fv::temperatureLimits\lConstraint::read",height=0.2,width=0.4,color="red",URL="$a23434.html#a6ce0c64db98eb6144d363dbfc86104eb",tooltip="Read dictionary. "];
+  Node1933 -> Node1940 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1940 [label="Foam::fv::fixedTemperature\lConstraint::read",height=0.2,width=0.4,color="red",URL="$a23430.html#a6ce0c64db98eb6144d363dbfc86104eb",tooltip="Read dictionary. "];
+  Node1933 -> Node1942 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1942 [label="Foam::fv::explicitPorosity\lSource::read",height=0.2,width=0.4,color="red",URL="$a23466.html#a6ce0c64db98eb6144d363dbfc86104eb",tooltip="Read dictionary. "];
+  Node1933 -> Node1944 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1944 [label="Foam::fv::interRegionExplicit\lPorositySource::read",height=0.2,width=0.4,color="red",URL="$a23534.html#a6ce0c64db98eb6144d363dbfc86104eb",tooltip="Read dictionary. "];
+  Node1933 -> Node1946 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1946 [label="Foam::fv::MRFSource\l::read",height=0.2,width=0.4,color="red",URL="$a23470.html#a6ce0c64db98eb6144d363dbfc86104eb",tooltip="Read dictionary. "];
+  Node1933 -> Node1948 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1948 [label="Foam::fv::radialActuation\lDiskSource::read",height=0.2,width=0.4,color="red",URL="$a23478.html#a6ce0c64db98eb6144d363dbfc86104eb",tooltip="Read dictionary. "];
+  Node1933 -> Node1950 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1950 [label="Foam::fv::interRegionHeat\lTransferModel::read",height=0.2,width=0.4,color="black",URL="$a23542.html#a6ce0c64db98eb6144d363dbfc86104eb",tooltip="Read dictionary. "];
+  Node1933 -> Node1951 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1951 [label="Foam::fv::actuationDiskSource\l::read",height=0.2,width=0.4,color="red",URL="$a23458.html#a6ce0c64db98eb6144d363dbfc86104eb",tooltip="Read dictionary. "];
+  Node1933 -> Node1953 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1953 [label="Foam::fv::effectivenessHeat\lExchangerSource::read",height=0.2,width=0.4,color="red",URL="$a23462.html#a6ce0c64db98eb6144d363dbfc86104eb",tooltip="Read dictionary. "];
+  Node1933 -> Node1957 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1957 [label="Foam::fv::solidification\lMeltingSource::read",height=0.2,width=0.4,color="black",URL="$a23522.html#a6ce0c64db98eb6144d363dbfc86104eb",tooltip="Read source dictionary. "];
+  Node1933 -> Node1958 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1958 [label="Foam::fv::optionList\l::readOptions",height=0.2,width=0.4,color="red",URL="$a23454.html#a5c638dda7e72b7bc1006d23ab0f97d75",tooltip="Read options dictionary. "];
+}

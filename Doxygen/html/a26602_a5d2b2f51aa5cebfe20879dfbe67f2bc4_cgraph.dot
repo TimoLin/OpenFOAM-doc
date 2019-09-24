@@ -1,0 +1,18 @@
+digraph "initSwapAddSeparated"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node524 [label="initSwapAddSeparated",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node524 -> Node525 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node525 [label="Foam::UList\< Type \>\l::begin",height=0.2,width=0.4,color="black",URL="$a25698.html#a8a0643ef7f391465066f7f07d45ce934",tooltip="Return an iterator to begin traversing the UList. "];
+  Node524 -> Node526 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node526 [label="Foam::UList\< Type \>\l::byteSize",height=0.2,width=0.4,color="black",URL="$a25698.html#aa36dfadb2f396fa2a5d2827775598eae",tooltip="Return the binary size in number of characters of the UList. "];
+  Node524 -> Node527 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node527 [label="Foam::List\< Type \>\l::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node524 -> Node528 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node528 [label="swapAddSeparated",height=0.2,width=0.4,color="red",URL="$a26602.html#a3aae157a027e0aa964e285d768f7ec86",tooltip="Complete swap of patch point values and add to local values. "];
+  Node524 -> Node645 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node645 [label="write",height=0.2,width=0.4,color="black",URL="$a19709.html#a8f30b3c2179b03a7acf273e9dea43342"];
+}

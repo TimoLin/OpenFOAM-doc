@@ -1,0 +1,18 @@
+digraph "clone"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node9 [label="clone",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="active",height=0.2,width=0.4,color="black",URL="$a24014.html#ad9735e23cb0888fb98e1c5893aecff7e",tooltip="Flag to indicate whether model activates collision model. "];
+  Node9 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="collide",height=0.2,width=0.4,color="black",URL="$a24014.html#adbe6469c335fe4cf28a77e3106773643"];
+  Node9 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12 [label="controlsWallInteraction",height=0.2,width=0.4,color="black",URL="$a24014.html#aa1bb4f646512de5814c56036d570c9ae",tooltip="Indicates whether model determines wall collisions or not,. "];
+  Node9 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13 [label="nSubCycles",height=0.2,width=0.4,color="black",URL="$a24014.html#a1648fff6a6972eaeeccb2c126c5f1c26",tooltip="Return the number of times to subcycle the current. "];
+  Node9 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14 [label="~NoCollision",height=0.2,width=0.4,color="black",URL="$a24014.html#a9635416599c04317aa1beef76976cfaa",tooltip="Destructor. "];
+}

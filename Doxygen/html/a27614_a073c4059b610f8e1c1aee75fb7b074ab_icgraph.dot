@@ -1,0 +1,20 @@
+digraph "patchSchedule"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node8 [label="patchSchedule",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="Foam::polyBoundaryMesh\l::clearAddressing",height=0.2,width=0.4,color="black",URL="$a27402.html#aac1ee7169044dccb262b78097d6ab1a8",tooltip="Clear addressing at this level and at patches. "];
+  Node8 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="Foam::pointBoundaryMesh\l::findIndices",height=0.2,width=0.4,color="red",URL="$a27242.html#a7e25dcc6f712ea6db122dd707dea9569",tooltip="Find patch indices given a name. "];
+  Node8 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13 [label="Foam::pointBoundaryMesh\l::movePoints",height=0.2,width=0.4,color="red",URL="$a27242.html#ab62834098bae1d3887f578c700754f39",tooltip="Correct polyBoundaryMesh after moving points. "];
+  Node8 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23 [label="Foam::polyBoundaryMesh\l::movePoints",height=0.2,width=0.4,color="red",URL="$a27402.html#ab62834098bae1d3887f578c700754f39",tooltip="Correct polyBoundaryMesh after moving points. "];
+  Node8 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21 [label="Foam::pointBoundaryMesh\l::updateMesh",height=0.2,width=0.4,color="red",URL="$a27242.html#ae5693a309a936ac1040dd48c2881677f",tooltip="Correct polyBoundaryMesh after topology update. "];
+  Node8 -> Node424 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node424 [label="Foam::polyBoundaryMesh\l::updateMesh",height=0.2,width=0.4,color="red",URL="$a27402.html#ae5693a309a936ac1040dd48c2881677f",tooltip="Correct polyBoundaryMesh after topology update. "];
+}

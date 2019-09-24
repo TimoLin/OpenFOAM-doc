@@ -1,0 +1,42 @@
+digraph "clone"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node453 [label="clone",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node453 -> Node454 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node454 [label="calcGeometry",height=0.2,width=0.4,color="red",URL="$a24926.html#a58bb4c0382e9ee570811fb3f005a0a97",tooltip="Calculate the patch geometry. "];
+  Node453 -> Node463 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node463 [label="cyclicACMIPolyPatch",height=0.2,width=0.4,color="black",URL="$a24926.html#afcaa6600f91c8c879c9153c696292c2a",tooltip="Construct from (base couped patch) components. "];
+  Node453 -> Node464 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node464 [label="faceAreas0",height=0.2,width=0.4,color="black",URL="$a24926.html#adb99a6c32b7e79295de941fcfbb8d668",tooltip="Return access to the original patch face areas. "];
+  Node453 -> Node465 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node465 [label="initOrder",height=0.2,width=0.4,color="red",URL="$a24926.html#a644d6229ea284692666de14387870409",tooltip="Initialize ordering for primitivePatch. Does not. "];
+  Node465 -> Node470 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node470 [label="order",height=0.2,width=0.4,color="red",URL="$a24926.html#aa9533329384a73e819a040bcde1b4b3d",tooltip="Return new ordering for primitivePatch. "];
+  Node453 -> Node471 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node471 [label="interpolate",height=0.2,width=0.4,color="black",URL="$a24926.html#a815e4790497fb12ef79509f502b056f7",tooltip="Interpolate field. "];
+  Node453 -> Node472 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node472 [label="mask",height=0.2,width=0.4,color="red",URL="$a24926.html#a4123228a862524a621bb0ea10dad3a5d",tooltip="Mask field where 1 = overlap, 0 = no-overlap. "];
+  Node472 -> Node474 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node474 [label="neighbPatch",height=0.2,width=0.4,color="black",URL="$a24926.html#a71795c1c1bf3c08c52803781090706dc",tooltip="Return a reference to the neighbour patch. "];
+  Node453 -> Node474 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node453 -> Node476 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node476 [label="nonOverlapPatch",height=0.2,width=0.4,color="red",URL="$a24926.html#a393c20e8e90bcd64649901bd64b64f49",tooltip="Return a const reference to the non-overlapping patch. "];
+  Node476 -> Node478 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node478 [label="nonOverlapPatchID",height=0.2,width=0.4,color="red",URL="$a24926.html#aa42c2db2f445de497071628742798792",tooltip="Non-overlapping patch ID. "];
+  Node478 -> Node454 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node453 -> Node478 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node453 -> Node539 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node539 [label="nonOverlapPatchName",height=0.2,width=0.4,color="black",URL="$a24926.html#ac26d98ca1dd03a1868ee85d4f66ae68b",tooltip="Non-overlapping patch name. "];
+  Node453 -> Node470 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node453 -> Node540 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node540 [label="setUpdated",height=0.2,width=0.4,color="black",URL="$a24926.html#a8298822b8d0561638979d565d3098d48",tooltip="Reset the updated flag. "];
+  Node453 -> Node541 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node541 [label="updated",height=0.2,width=0.4,color="black",URL="$a24926.html#adb515d6ca9be66613efaaeb72c9709db",tooltip="Return access to the updated flag. "];
+  Node453 -> Node542 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node542 [label="write",height=0.2,width=0.4,color="red",URL="$a24926.html#a293fdfec8bdfbd5c3913ab4c9f3454ff",tooltip="Write the polyPatch data as a dictionary. "];
+  Node453 -> Node560 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node560 [label="~cyclicACMIPolyPatch",height=0.2,width=0.4,color="black",URL="$a24926.html#ab36e46d2520de95ba28b5b79a89ed5d6",tooltip="Destructor. "];
+}

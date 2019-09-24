@@ -1,0 +1,16 @@
+digraph "isA"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node980 [label="isA",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node980 -> Node981 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node981 [label="Foam::primitiveMesh\l::cells",height=0.2,width=0.4,color="black",URL="$a27530.html#af19bf800d725a623c7b1d0101d65e7d3"];
+  Node980 -> Node982 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node982 [label="Foam::primitiveMesh\l::faceOwner",height=0.2,width=0.4,color="black",URL="$a27530.html#a95a88187f795e30779aa3bac679d9bfc",tooltip="Face face-owner addresing. "];
+  Node980 -> Node983 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node983 [label="Foam::primitiveMesh\l::faces",height=0.2,width=0.4,color="black",URL="$a27530.html#a3669b3b29537f3a55bbd2ffa8c749f41",tooltip="Return faces. "];
+  Node980 -> Node984 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node984 [label="matchShape",height=0.2,width=0.4,color="red",URL="$a27182.html#a1f0feccca7c36016d7745d9f9d196b6d",tooltip="Low level shape recognition. Return true if matches. "];
+}

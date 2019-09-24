@@ -1,0 +1,16 @@
+digraph "appended"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node22 [label="appended",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node22 -> Node23 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23 [label="isCellMaster",height=0.2,width=0.4,color="black",URL="$a21614.html#af76b2e9d53153c301d3af1ee88e6576e",tooltip="Is the cell mastered by another cell. "];
+  Node22 -> Node24 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node24 [label="isEdgeMaster",height=0.2,width=0.4,color="black",URL="$a21614.html#a5c13a6317bab9ae59c660e03c596aa6b",tooltip="Is the cell mastered by an edge. "];
+  Node22 -> Node25 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node25 [label="isFaceMaster",height=0.2,width=0.4,color="black",URL="$a21614.html#ad980ab191b09a6f2ab16b2c9c4050cfc",tooltip="Is the cell mastered by another face. "];
+  Node22 -> Node26 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node26 [label="isPointMaster",height=0.2,width=0.4,color="black",URL="$a21614.html#ae36cbf4a4304cccefb10f603264d3646",tooltip="Is the cell mastered by a point. "];
+}

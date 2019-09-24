@@ -1,0 +1,16 @@
+digraph "ReactingMultiphaseCloud&lt; CloudType &gt;"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node28 [label="ReactingMultiphaseCloud\l\< CloudType \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node29 -> Node28 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node29 [label="CloudType",height=0.2,width=0.4,color="red",URL="$a23686.html",tooltip="Templated base class for dsmc cloud. "];
+  Node60 -> Node28 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node60 [label="reactingMultiphaseCloud",height=0.2,width=0.4,color="black",URL="$a23746.html",tooltip="Virtual abstract base class for templated reactingMultiphaseCloud. "];
+  Node61 -> Node28 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" devolatilisationModel_" ,fontname="FreeSans"];
+  Node61 [label="autoPtr\< Foam::Devolatilisation\lModel\< Foam::ReactingMultiphaseCloud\l\< CloudType \> \> \>",height=0.2,width=0.4,color="red",URL="$a25958.html"];
+  Node63 -> Node28 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" surfaceReactionModel_" ,fontname="FreeSans"];
+  Node63 [label="autoPtr\< Foam::SurfaceReaction\lModel\< Foam::ReactingMultiphaseCloud\l\< CloudType \> \> \>",height=0.2,width=0.4,color="red",URL="$a25958.html"];
+}

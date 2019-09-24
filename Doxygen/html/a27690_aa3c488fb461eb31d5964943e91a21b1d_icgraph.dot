@@ -1,0 +1,12 @@
+digraph "transformPermutations"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node269 [label="transformPermutations",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node269 -> Node270 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node270 [label="Foam::mapDistribute\l::mapDistribute",height=0.2,width=0.4,color="black",URL="$a27362.html#a4af5642c1791f236e1889e416042fb37",tooltip="Construct from list of (possibly remote) untransformed elements. "];
+  Node269 -> Node271 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node271 [label="Foam::mapDistribute\l::receive",height=0.2,width=0.4,color="red",URL="$a27362.html#ada43f4fefe9a0c9f51d583ed2c753441",tooltip="Do all receives using PstreamBuffers. "];
+}

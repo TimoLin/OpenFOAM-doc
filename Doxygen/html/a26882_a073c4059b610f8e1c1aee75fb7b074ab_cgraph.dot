@@ -1,0 +1,21 @@
+digraph "patchSchedule"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node184 [label="patchSchedule",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node184 -> Node185 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node185 [label="diag",height=0.2,width=0.4,color="black",URL="$a26882.html#a9140aaa9630c2cba2fe28369a649f2f0"];
+  Node185 -> Node186 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node186 [label="lduAddr",height=0.2,width=0.4,color="red",URL="$a26882.html#a9b4176b96c4c508a072b5c69fb71b861",tooltip="Return the LDU addressing. "];
+  Node184 -> Node186 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node184 -> Node188 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node188 [label="lower",height=0.2,width=0.4,color="black",URL="$a26882.html#a734a4ef740d3c42f77537ecea178a161"];
+  Node188 -> Node186 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node184 -> Node189 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node189 [label="Foam::lduAddressing\l::patchSchedule",height=0.2,width=0.4,color="black",URL="$a26850.html#a766d957f33cabfd9c9916c91d002bfcf"];
+  Node184 -> Node190 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node190 [label="upper",height=0.2,width=0.4,color="black",URL="$a26882.html#a11672a767f497e24dce3ff31da13d9d0"];
+  Node190 -> Node186 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

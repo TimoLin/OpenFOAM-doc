@@ -1,0 +1,14 @@
+digraph "read"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1080 [label="read",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1080 -> Node1081 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1081 [label="k",height=0.2,width=0.4,color="red",URL="$a30894.html#a2cc3daa68147a9052c2b37e9ac37eca4",tooltip="Return SGS kinetic energy. "];
+  Node1080 -> Node1087 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1087 [label="Foam::incompressible\l::LESModels::Smagorinsky2::read",height=0.2,width=0.4,color="red",URL="$a30898.html#af816873151ddb0126e98bb2f914d8ed5",tooltip="Read LESProperties dictionary. "];
+  Node1080 -> Node1088 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1088 [label="Foam::incompressible\l::LESModels::mixedSmagorinsky::read",height=0.2,width=0.4,color="red",URL="$a30882.html#af816873151ddb0126e98bb2f914d8ed5",tooltip="Read LESProperties dictionary. "];
+}

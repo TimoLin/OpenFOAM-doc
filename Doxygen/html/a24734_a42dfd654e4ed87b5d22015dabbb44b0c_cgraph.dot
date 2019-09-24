@@ -1,0 +1,18 @@
+digraph "position"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2 [label="position",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="Foam::UList::first",height=0.2,width=0.4,color="black",URL="$a25698.html#a1c9828bc3de9502754d944c95a2ce0d9",tooltip="Return the first element of the list. "];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="lambda",height=0.2,width=0.4,color="black",URL="$a39047.html#ac90f959a4cd5bd0bc0d60e8c9fe14021"];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="Foam::UList::last",height=0.2,width=0.4,color="black",URL="$a25698.html#aef07c02ea1c27bdb5906043b399e0ff0",tooltip="Return the last element of the list. "];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="Foam::polyLine::localParameter",height=0.2,width=0.4,color="red",URL="$a24750.html#a70bfa9ccb54f2d4c578d7cc750717ffb",tooltip="Return the line segment and the local parameter [0..1]. "];
+  Node2 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="Foam::polyLine::points",height=0.2,width=0.4,color="black",URL="$a24750.html#ac44123fc1265297c41a43c3b62fdb4c2",tooltip="Return const-access to the control-points. "];
+}

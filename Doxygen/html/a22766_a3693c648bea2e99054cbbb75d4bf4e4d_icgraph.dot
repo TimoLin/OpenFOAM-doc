@@ -1,0 +1,21 @@
+digraph "movePoints"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node39756 [label="movePoints",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node39756 -> Node39757 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node39757 [label="Foam::autoLayerDriver\l::addLayers",height=0.2,width=0.4,color="red",URL="$a24610.html#a2654851d1ffedc26e8ff1424f7097ba6",tooltip="Add cell layers. "];
+  Node39756 -> Node39760 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node39760 [label="Foam::meshRefinement\l::createBaffles",height=0.2,width=0.4,color="red",URL="$a24662.html#adf59ba1ba1060862e3274059692eea57",tooltip="Create baffle for every internal face where ownPatch != -1. "];
+  Node39760 -> Node39764 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node39764 [label="Foam::meshRefinement\l::mergeBaffles",height=0.2,width=0.4,color="red",URL="$a24662.html#aa959f1ef1377d3a4eaac5ff099280e50",tooltip="Merge baffles. Gets pairs of faces. "];
+  Node39756 -> Node39766 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node39766 [label="Foam::meshRefinement\l::dupNonManifoldPoints",height=0.2,width=0.4,color="black",URL="$a24662.html#a9dbc8bd1d38070053486014e911d03a1",tooltip="Find boundary points that connect to more than one cell. "];
+  Node39756 -> Node39764 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node39756 -> Node39767 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node39767 [label="Foam::processorMeshes\l::reconstructPoints",height=0.2,width=0.4,color="black",URL="$a28662.html#a3c986dd25c16cb5d2a3c3ecf708fbe10",tooltip="Reconstruct point position after motion in parallel. "];
+  Node39756 -> Node39768 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node39768 [label="Foam::meshRefinement\l::zonify",height=0.2,width=0.4,color="red",URL="$a24662.html#a90cf965dfe02eb20f11a4a8c6035747f",tooltip="Put faces/cells into zones according to surface specification. "];
+}

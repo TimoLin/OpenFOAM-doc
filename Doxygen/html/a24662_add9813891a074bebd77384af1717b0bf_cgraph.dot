@@ -1,0 +1,20 @@
+digraph "setInstance"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node16517 [label="setInstance",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node16517 -> Node16518 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16518 [label="Foam::polyTopoChange\l::changeMesh",height=0.2,width=0.4,color="red",URL="$a21678.html#a1b105b13373ba9f1c7685f873b250cf2",tooltip="Inplace changes mesh without change of patches. "];
+  Node16517 -> Node16651 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16651 [label="Foam::renumber",height=0.2,width=0.4,color="red",URL="$a21124.html#a495791c4d9e97a9fb63adc1124e336dd",tooltip="Renumber the values (not the indices) of a list. "];
+  Node16517 -> Node16658 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16658 [label="Foam::removeCells::\lsetRefinement",height=0.2,width=0.4,color="red",URL="$a21698.html#a1fa7db25391bd44913e7d03a77e2c45b",tooltip="Play commands into polyTopoChange to remove cells. "];
+  Node16517 -> Node17018 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17018 [label="splitFaces",height=0.2,width=0.4,color="red",URL="$a24662.html#adc2ba2409d333b615b019f154aa236ea",tooltip="Split faces into two. "];
+  Node17018 -> Node16518 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17018 -> Node16651 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16517 -> Node17019 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17019 [label="Foam::removeCells::\lupdateMesh",height=0.2,width=0.4,color="black",URL="$a21698.html#ad57565956fd4064299f4bd3c4eebb1d4",tooltip="Force recalculation of locally stored data on topological change. "];
+}

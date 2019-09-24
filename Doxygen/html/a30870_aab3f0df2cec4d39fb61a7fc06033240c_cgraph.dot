@@ -1,0 +1,28 @@
+digraph "~laminar"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2 [label="~laminar",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="B",height=0.2,width=0.4,color="red",URL="$a30870.html#acf00bc568420cebcbea1c1227f8cdd58",tooltip="Return the sub-grid stress tensor B. "];
+  Node2 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="devReff",height=0.2,width=0.4,color="red",URL="$a30870.html#a5449021fbe915095746a83606a000df4",tooltip="Return the effective sub-grid turbulence stress tensor. "];
+  Node2 -> Node373 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node373 [label="divDevReff",height=0.2,width=0.4,color="red",URL="$a30870.html#a028ac2eaccc9a479009b15cc6e21a89e",tooltip="Return the deviatoric part of the effective sub-grid. "];
+  Node373 -> Node375 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node375 [label="divDevRhoReff",height=0.2,width=0.4,color="red",URL="$a30870.html#a1d0345d58cf17e030967c2b77a4477d6",tooltip="Return the deviatoric part of the effective sub-grid. "];
+  Node375 -> Node377 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node377 [label="nuEff",height=0.2,width=0.4,color="red",URL="$a30870.html#a8ab26f302189e92dac1700b9c30d0b13",tooltip="Return the effective viscosity. "];
+  Node2 -> Node375 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 -> Node378 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node378 [label="epsilon",height=0.2,width=0.4,color="red",URL="$a30870.html#a7593db4148b0ba5155861a0292ec9c32",tooltip="Return sub-grid disipation rate. "];
+  Node2 -> Node381 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node381 [label="k",height=0.2,width=0.4,color="red",URL="$a30870.html#a2e01d66cd4db498fd5e869ea66925978",tooltip="Return SGS kinetic energy. "];
+  Node2 -> Node377 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 -> Node382 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node382 [label="nuSgs",height=0.2,width=0.4,color="red",URL="$a30870.html#a5c35f9cc33cbcd329082a569d605539c",tooltip="Return SGS viscosity. "];
+  Node2 -> Node383 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node383 [label="read",height=0.2,width=0.4,color="red",URL="$a30870.html#af816873151ddb0126e98bb2f914d8ed5",tooltip="Read LESProperties dictionary. "];
+}

@@ -1,0 +1,22 @@
+digraph "applications/solvers/multiphase/twoPhaseEulerFoam/phaseCompressibleTurbulenceModels/kineticTheoryModels/conductivityModel" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="FreeSans"];
+  edge [ labelfontsize="10", labelfontname="FreeSans"];
+  subgraph clusterdir_18940e7e4fb44f9ad3a0587e01140041 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="kineticTheoryModels" fontname="FreeSans", fontsize="10", URL="dir_18940e7e4fb44f9ad3a0587e01140041.html"]
+  subgraph clusterdir_ba321717d448fd8e54ed59d33003675b {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_ba321717d448fd8e54ed59d33003675b.html"];
+    dir_ba321717d448fd8e54ed59d33003675b [shape=plaintext label="conductivityModel"];
+    dir_f9cdb259ae9ed700b3494ad660c24205 [shape=box label="conductivityModel" color="black" fillcolor="white" style="filled" URL="dir_f9cdb259ae9ed700b3494ad660c24205.html"];
+    dir_185907c3465b49c5fddacc31ead2a5f7 [shape=box label="Gidaspow" color="black" fillcolor="white" style="filled" URL="dir_185907c3465b49c5fddacc31ead2a5f7.html"];
+    dir_0270d6547ad436b798a37289a7e8f8a1 [shape=box label="HrenyaSinclair" color="black" fillcolor="white" style="filled" URL="dir_0270d6547ad436b798a37289a7e8f8a1.html"];
+    dir_2655d68064c12b6c18306a473fd51566 [shape=box label="Syamlal" color="black" fillcolor="white" style="filled" URL="dir_2655d68064c12b6c18306a473fd51566.html"];
+  }
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_185907c3465b49c5fddacc31ead2a5f7->dir_f9cdb259ae9ed700b3494ad660c24205 [headlabel="1", labeldistance=1.5 headhref="dir_000241_000240.html"];
+  dir_0270d6547ad436b798a37289a7e8f8a1->dir_f9cdb259ae9ed700b3494ad660c24205 [headlabel="1", labeldistance=1.5 headhref="dir_000242_000240.html"];
+  dir_f9cdb259ae9ed700b3494ad660c24205->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="4", labeldistance=1.5 headhref="dir_000240_000577.html"];
+  dir_2655d68064c12b6c18306a473fd51566->dir_f9cdb259ae9ed700b3494ad660c24205 [headlabel="1", labeldistance=1.5 headhref="dir_000243_000240.html"];
+}

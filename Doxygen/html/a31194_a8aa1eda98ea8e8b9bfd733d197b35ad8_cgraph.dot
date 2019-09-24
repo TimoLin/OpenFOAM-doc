@@ -1,0 +1,25 @@
+digraph "~PhaseIncompressibleTurbulenceModel"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3 [label="~PhaseIncompressibleTurbulence\lModel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="devReff",height=0.2,width=0.4,color="black",URL="$a31194.html#a58753f66b76bb2146dc1728cb9a6ca0a",tooltip="Return the effective stress tensor. "];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="divDevReff",height=0.2,width=0.4,color="black",URL="$a31194.html#a15ae2301a643c401ca18d601ee81535f",tooltip="Return the source term for the momentum equation. "];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="devRhoReff",height=0.2,width=0.4,color="black",URL="$a31194.html#aedf05483d3f92845e23b6dae794b8712",tooltip="Return the effective stress tensor. "];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="divDevRhoReff",height=0.2,width=0.4,color="black",URL="$a31194.html#a7a84f03623a3b4ff20fa30a6fe6862a6",tooltip="Return the source term for the momentum equation. "];
+  Node3 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="pPrime",height=0.2,width=0.4,color="black",URL="$a31194.html#a9cd40ffe97357bc89159a00b855edd4f",tooltip="Return the phase-pressure&#39;. "];
+  Node3 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="pPrimef",height=0.2,width=0.4,color="black",URL="$a31194.html#aa9ebba69b37493bf4c0011b5c0c6476c",tooltip="Return the face-phase-pressure&#39;. "];
+  Node3 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="Foam::turbulenceModel::U",height=0.2,width=0.4,color="black",URL="$a31314.html#a536d168d7b335fe81f506f232b5b4872",tooltip="Access function to velocity field. "];
+}

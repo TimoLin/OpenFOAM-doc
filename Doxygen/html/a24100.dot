@@ -1,0 +1,18 @@
+digraph "patchInjectionBase"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node3 [label="patchInjectionBase",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" triCumulativeMagSf\l_\nsumTriMagSf_" ,fontname="FreeSans"];
+  Node4 [label="List\< scalar \>",height=0.2,width=0.4,color="red",URL="$a25694.html"];
+  Node8 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" triToFace_\ncellOwners_" ,fontname="FreeSans"];
+  Node8 [label="List\< label \>",height=0.2,width=0.4,color="red",URL="$a25694.html"];
+  Node10 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" patchNormal_" ,fontname="FreeSans"];
+  Node10 [label="List\< vector \>",height=0.2,width=0.4,color="red",URL="$a25694.html"];
+  Node12 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" triFace_" ,fontname="FreeSans"];
+  Node12 [label="List\< face \>",height=0.2,width=0.4,color="red",URL="$a25694.html"];
+  Node15 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" patchName_" ,fontname="FreeSans"];
+  Node15 [label="word",height=0.2,width=0.4,color="red",URL="$a28258.html",tooltip="A class for handling words, derived from string. "];
+  Node15 -> Node15 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" null" ,fontname="FreeSans"];
+}

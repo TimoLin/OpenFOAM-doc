@@ -1,0 +1,17 @@
+digraph "cosPhi"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node94 [label="cosPhi",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node94 -> Node95 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node95 [label="areObtuse",height=0.2,width=0.4,color="red",URL="$a21195.html#a7a2e0d0e9735b070d7308075e3e364ba",tooltip="Test if angle between a and b is obtuse: a.b < 0. "];
+  Node94 -> Node100 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node100 [label="Foam::diff",height=0.2,width=0.4,color="red",URL="$a21124.html#a909dfcb43467b8b77f65e4bf9bc755f7",tooltip="Return a quantity of the difference between two triads. "];
+  Node94 -> Node178 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node178 [label="radAngleBetween",height=0.2,width=0.4,color="red",URL="$a21195.html#a40e012ba4fce0239b9220edeae4f9cb2",tooltip="Calculate angle between a and b in radians. "];
+  Node178 -> Node94 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node94 -> Node180 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node180 [label="Foam::radiation::radiative\lIntensityRay::radiativeIntensityRay",height=0.2,width=0.4,color="black",URL="$a30026.html#a8ff1f62493fd44fbfb25c919f14bdc70",tooltip="Construct form components. "];
+}

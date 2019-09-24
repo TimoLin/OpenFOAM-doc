@@ -1,0 +1,16 @@
+digraph "lookup"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node14188 [label="lookup",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node14188 -> Node14189 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14189 [label="lookupEntry",height=0.2,width=0.4,color="red",URL="$a26014.html#a89fbd35cd2ce3d28cb51982b3d903201",tooltip="Find and return an entry data stream if present otherwise error. "];
+  Node14189 -> Node14188 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14188 -> Node14238 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14238 [label="lookupScopedEntryPtr",height=0.2,width=0.4,color="red",URL="$a26014.html#aa0ed8374f3da864708de908037607551",tooltip="Find and return an entry data stream pointer if present. "];
+  Node14238 -> Node14238 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14188 -> Node14330 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14330 [label="Foam::entry::stream",height=0.2,width=0.4,color="black",URL="$a26022.html#a3af18be98df6d673e0a40a4e38c350d1",tooltip="Return token stream if this entry is a primitive entry. "];
+}

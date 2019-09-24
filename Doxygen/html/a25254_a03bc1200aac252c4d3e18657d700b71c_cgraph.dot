@@ -1,0 +1,19 @@
+digraph "size"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node364 [label="size",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node364 -> Node365 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node365 [label="boundingSpheres",height=0.2,width=0.4,color="red",URL="$a25254.html#a96361011f8440feb1a1d941f97066429",tooltip="Get bounding spheres (centre and radius squared), one per element. "];
+  Node365 -> Node366 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node366 [label="surface",height=0.2,width=0.4,color="black",URL="$a25254.html#a98530557a54cd0deaf0f9b36a57ab181"];
+  Node364 -> Node368 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node368 [label="coordinates",height=0.2,width=0.4,color="black",URL="$a25254.html#ac9cba2aaece25e5df6d68171441f3e41",tooltip="Get representative set of element coordinates. "];
+  Node364 -> Node369 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node369 [label="Foam::searchableSurface\l::coordinates",height=0.2,width=0.4,color="black",URL="$a25234.html#a53f3d3d604532ef21741eb51fdc9db58",tooltip="Get representative set of element coordinates. "];
+  Node364 -> Node370 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node370 [label="Foam::searchableSurface\l::size",height=0.2,width=0.4,color="black",URL="$a25234.html#ab50b1cdd1f8dfe0339e7a91f64934c7a",tooltip="Range of local indices that can be returned. "];
+  Node364 -> Node366 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

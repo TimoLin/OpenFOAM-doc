@@ -1,0 +1,38 @@
+digraph "globalCellCells"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node459 [label="globalCellCells",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node459 -> Node460 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node460 [label="agglomerate",height=0.2,width=0.4,color="black",URL="$a26982.html#a12f8aee2a8262bad4ece599ecd67ead5",tooltip="Modify agglomeration. Return true if modified. "];
+  Node459 -> Node461 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node461 [label="Foam::lduMesh::comm",height=0.2,width=0.4,color="black",URL="$a27126.html#a28ed0554ff28e2947c49b335f621d507",tooltip="Return communicator used for parallel communication. "];
+  Node459 -> Node462 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node462 [label="Foam::lduMesh::interfaces",height=0.2,width=0.4,color="black",URL="$a27126.html#abc0f20b01dc74c48d4f2da3c399f13b9",tooltip="Return a list of pointers for each patch. "];
+  Node459 -> Node463 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node463 [label="Foam::lduMesh::lduAddr",height=0.2,width=0.4,color="black",URL="$a27126.html#af9d1b76b0bf69742df5ae6ea9ccdc729",tooltip="Return ldu addressing. "];
+  Node459 -> Node464 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node464 [label="Foam::lduAddressing\l::lowerAddr",height=0.2,width=0.4,color="black",URL="$a26850.html#acd71c2321f86cb61103e8d46142d19b3",tooltip="Return lower addressing. "];
+  Node459 -> Node465 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node465 [label="Foam::UPstream::msgType",height=0.2,width=0.4,color="black",URL="$a26270.html#ae5b8fe6652f6320aa6c7f5c44b6f01b7",tooltip="Message tag of standard messages. "];
+  Node459 -> Node466 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node466 [label="Foam::UPstream::myProcNo",height=0.2,width=0.4,color="black",URL="$a26270.html#afc74d89573de32a3032c916f8cdd1733",tooltip="Number of this process (starting from masterNo() = 0) "];
+  Node459 -> Node467 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node467 [label="Foam::UPstream::parRun",height=0.2,width=0.4,color="black",URL="$a26270.html#adbb27f04b5705440fb8b09f278059011",tooltip="Is this a parallel run? "];
+  Node459 -> Node468 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node468 [label="Foam::UPtrList::set",height=0.2,width=0.4,color="black",URL="$a25990.html#a2d4fe99e7a41d6359b3c1946995622a0",tooltip="Is element set. "];
+  Node459 -> Node469 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node469 [label="Foam::UPtrList::size",height=0.2,width=0.4,color="black",URL="$a25990.html#a47b3bf30da1eb3ab8076b5fbe00e0494",tooltip="Return the number of elements in the UPtrList. "];
+  Node459 -> Node470 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node470 [label="Foam::lduAddressing\l::size",height=0.2,width=0.4,color="red",URL="$a26850.html#a9facbf0a118d395c89884e45a5ca4e4b",tooltip="Return number of equations. "];
+  Node470 -> Node464 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node470 -> Node471 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node471 [label="Foam::lduAddressing\l::upperAddr",height=0.2,width=0.4,color="black",URL="$a26850.html#ac0baafb7743d958e9e27804c8c53f1b8",tooltip="Return upper addressing. "];
+  Node459 -> Node549 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node549 [label="Foam::stableSort",height=0.2,width=0.4,color="red",URL="$a21124.html#ac70ba9dd7bbc030636a4a4e2e9825c3c"];
+  Node459 -> Node471 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node459 -> Node552 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node552 [label="Foam::UPstream::waitRequests",height=0.2,width=0.4,color="black",URL="$a26270.html#abed3ff74e2b43482349dd8be25901d3e",tooltip="Wait until all requests (from start onwards) have finished. "];
+}

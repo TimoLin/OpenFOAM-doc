@@ -1,0 +1,20 @@
+digraph "x"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1126 [label="x",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1126 -> Node1127 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1127 [label="Foam::molecule::constant\lProperties::constantProperties",height=0.2,width=0.4,color="black",URL="$a24394.html#a48f10350a2cae9811619cc14159099d6",tooltip="Construct from dictionary. "];
+  Node1126 -> Node1128 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1128 [label="Foam::STARCDCoordinateRotation::e1",height=0.2,width=0.4,color="red",URL="$a25006.html#ab99bd1d59a45b22b3ca4e584f63883e9",tooltip="Return local Cartesian x-axis. "];
+  Node1126 -> Node1131 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1131 [label="Foam::EulerCoordinateRotation::e1",height=0.2,width=0.4,color="red",URL="$a24998.html#ab99bd1d59a45b22b3ca4e584f63883e9",tooltip="Return local Cartesian x-axis. "];
+  Node1126 -> Node1134 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1134 [label="Foam::axesRotation::e1",height=0.2,width=0.4,color="red",URL="$a24990.html#ab99bd1d59a45b22b3ca4e584f63883e9",tooltip="Return local Cartesian x-axis. "];
+  Node1126 -> Node1137 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1137 [label="Foam::triad::operator=",height=0.2,width=0.4,color="black",URL="$a28426.html#a826d050fb1d921fc49b8a867adde2e7c"];
+  Node1126 -> Node1138 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1138 [label="Foam::triad::triad",height=0.2,width=0.4,color="black",URL="$a28426.html#a6ef75b58e39483983257b8c407cce661",tooltip="Construct from a tensor. "];
+}

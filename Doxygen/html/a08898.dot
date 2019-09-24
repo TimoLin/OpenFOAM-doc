@@ -1,0 +1,14 @@
+digraph "src/OpenFOAM/db/dynamicLibrary/dlLibraryTable/dlLibraryTable.C"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node0 [label="src/OpenFOAM/db/dynamicLibrary\l/dlLibraryTable/dlLibraryTable.C",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="dlLibraryTable.H",height=0.2,width=0.4,color="red",URL="$a08900.html"];
+  Node0 -> Node52 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node52 [label="OSspecific.H",height=0.2,width=0.4,color="red",URL="$a10370.html",tooltip="Functions used by OpenFOAM that are specific to POSIX compliant operating systems and need to be repl..."];
+  Node52 -> Node54 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node54 [label="long.H",height=0.2,width=0.4,color="red",URL="$a12389.html",tooltip="A long integer. "];
+  Node0 -> Node54 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

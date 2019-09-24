@@ -1,0 +1,17 @@
+digraph "weights"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node20 [label="weights",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node20 -> Node21 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21 [label="blendingFactor",height=0.2,width=0.4,color="black",URL="$a23202.html#a04e8a7d5e7e25e7b04e427a68885ab2b",tooltip="Return the face-based blending factor. "];
+  Node21 -> Node22 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22 [label="Foam::surfaceInterpolation\lScheme::mesh",height=0.2,width=0.4,color="black",URL="$a23278.html#a470f06cfb9b6ee887cd85d63de275607",tooltip="Return mesh reference. "];
+  Node21 -> Node23 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23 [label="Foam::IOobject::name",height=0.2,width=0.4,color="black",URL="$a26142.html#acc80e00a8ac919288fb55bd14cc88bf6",tooltip="Return name. "];
+  Node21 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20 -> Node22 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20 -> Node23 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

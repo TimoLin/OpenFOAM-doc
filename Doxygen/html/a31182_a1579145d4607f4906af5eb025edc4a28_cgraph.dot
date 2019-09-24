@@ -1,0 +1,17 @@
+digraph "liquidTurbulence"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node116 [label="liquidTurbulence",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node116 -> Node117 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node117 [label="Foam::IOobject::db",height=0.2,width=0.4,color="black",URL="$a26142.html#a65cc75d9f80b1df5c3184fb2274a97f1",tooltip="Return the local objectRegistry. "];
+  Node116 -> Node118 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node118 [label="Foam::IOobject::groupName",height=0.2,width=0.4,color="black",URL="$a26142.html#ad5705e6da2a025ad75b4cf5d748d7d30"];
+  Node116 -> Node119 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node119 [label="Foam::objectRegistry\l::lookupObject",height=0.2,width=0.4,color="red",URL="$a26326.html#a8b49296f8410366342c524250612c2aa",tooltip="Lookup and return the object of the given Type. "];
+  Node119 -> Node119 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node116 -> Node173 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node173 [label="Foam::twoPhaseSystem\l::otherPhase",height=0.2,width=0.4,color="black",URL="$a32386.html#a21dba21eddc0728483db4760c08b11c6",tooltip="Return the phase not given as an argument. "];
+}

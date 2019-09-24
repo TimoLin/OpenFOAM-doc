@@ -1,0 +1,14 @@
+digraph "ioStartLineNumber"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node13 [label="ioStartLineNumber",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14 [label="operator()",height=0.2,width=0.4,color="black",URL="$a26086.html#a66858b96374e129848ac0d4126a7afad",tooltip="Convert to OSstream. "];
+  Node13 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15 [label="Foam::operator\<\<",height=0.2,width=0.4,color="black",URL="$a21124.html#a287e075191b83948b0a09a445f010a71"];
+  Node13 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16 [label="SafeFatalIOError",height=0.2,width=0.4,color="red",URL="$a26086.html#a2587907b4e929cdc3e1e17ef88318c77",tooltip="Print basic message and exit. Uses cerr if streams not constructed. "];
+}

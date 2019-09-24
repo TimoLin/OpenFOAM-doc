@@ -1,0 +1,38 @@
+digraph "findFaceBasePts"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node365 [label="findFaceBasePts",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node365 -> Node366 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node366 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node365 -> Node409 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node409 [label="Foam::polyMesh::boundaryMesh",height=0.2,width=0.4,color="black",URL="$a27410.html#a9f2b68c134340291eda6197f47f25484",tooltip="Return boundary mesh. "];
+  Node365 -> Node410 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node410 [label="Foam::primitiveMesh\l::cellCentres",height=0.2,width=0.4,color="red",URL="$a27530.html#a7300aee2989c6ec70e39436816461902"];
+  Node365 -> Node428 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node428 [label="checkFaceTets",height=0.2,width=0.4,color="red",URL="$a27418.html#a73ef5247a1e78210c08a4a9ef6222e9f",tooltip="Check face-decomposition tet volume. "];
+  Node428 -> Node429 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node429 [label="Foam::polyMesh::faceOwner",height=0.2,width=0.4,color="black",URL="$a27410.html#a57752b49bfee23ca1944c3fb0493974f",tooltip="Return face owner. "];
+  Node428 -> Node409 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node428 -> Node410 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node428 -> Node419 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node419 [label="Foam::primitiveMesh\l::nFaces",height=0.2,width=0.4,color="black",URL="$a27530.html#abe602c985a3c9ffa67176e969e77ca6f"];
+  Node428 -> Node431 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node431 [label="Foam::primitiveMesh\l::nInternalFaces",height=0.2,width=0.4,color="black",URL="$a27530.html#aa6c7965af1f30d16d9125deb981cbdb0"];
+  Node428 -> Node432 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node432 [label="Foam::polyMesh::faces",height=0.2,width=0.4,color="black",URL="$a27410.html#a431c0a24765f0bb6d32f6a03ce0e9b57",tooltip="Return raw faces. "];
+  Node432 -> Node366 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node428 -> Node439 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node439 [label="Foam::polyBoundaryMesh\l::patchID",height=0.2,width=0.4,color="black",URL="$a27402.html#abd25b8071ecc034dbbf6772347ed9ce1",tooltip="Per boundary face label the patch index. "];
+  Node365 -> Node429 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node365 -> Node432 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node365 -> Node419 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node365 -> Node431 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node365 -> Node469 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node469 [label="Foam::coupledPolyPatch\l::owner",height=0.2,width=0.4,color="black",URL="$a27426.html#a84c9f008a105c7a1bc933fe760d4199b",tooltip="Does this side own the patch ? "];
+  Node365 -> Node439 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node365 -> Node424 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node424 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+}

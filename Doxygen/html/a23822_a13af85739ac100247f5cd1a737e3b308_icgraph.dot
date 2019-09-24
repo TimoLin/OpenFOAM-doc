@@ -1,0 +1,12 @@
+digraph "addToSurfaceReactionMass"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node23 [label="addToSurfaceReactionMass",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node23 -> Node24 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node24 [label="Foam::SurfaceReactionModel\l\< Foam::ReactingMultiphaseCloud\l\< Foam::DsmcCloud \> \>::calculate",height=0.2,width=0.4,color="black",URL="$a23822.html#ab36dcb98739391d3c7b2a2e2a4f44be8",tooltip="Update surface reactions. "];
+  Node23 -> Node25 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node25 [label="Foam::SurfaceReactionModel\l\< Foam::ReactingMultiphaseCloud\l\< Foam::DsmcCloud \> \>::clone",height=0.2,width=0.4,color="black",URL="$a23822.html#a95a64b2a3c8105f645755a2c0c4d9881",tooltip="Construct and return a clone. "];
+}

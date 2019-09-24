@@ -1,0 +1,45 @@
+digraph "patchSlice"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node613 [label="patchSlice",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node613 -> Node614 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node614 [label="Cf",height=0.2,width=0.4,color="red",URL="$a22870.html#accde3bfd6f67a9d6a201edbcbbe12a19",tooltip="Return face centres. "];
+  Node613 -> Node687 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node687 [label="Cn",height=0.2,width=0.4,color="red",URL="$a22870.html#a6644397238b36a49d0caf58d1d88e18d",tooltip="Return neighbour cell centres. "];
+  Node687 -> Node688 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node688 [label="size",height=0.2,width=0.4,color="black",URL="$a22870.html#a03bc1200aac252c4d3e18657d700b71c",tooltip="Return size. "];
+  Node687 -> Node689 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node689 [label="faceCells",height=0.2,width=0.4,color="red",URL="$a22870.html#afbfac825732ef2770fff4261b4e930e9",tooltip="Return faceCells. "];
+  Node613 -> Node711 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node711 [label="delta",height=0.2,width=0.4,color="black",URL="$a22870.html#a8c83ba56d8c5964b15844718d953be71",tooltip="Return cell-centre to face-centre vector. "];
+  Node711 -> Node712 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node712 [label="nf",height=0.2,width=0.4,color="black",URL="$a22870.html#ac630ebe09f4b9ad480cd839dd3978459",tooltip="Return face normals. "];
+  Node712 -> Node713 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node713 [label="Sf",height=0.2,width=0.4,color="red",URL="$a22870.html#af93b93b841156265e8007a71b07f4ab4",tooltip="Return face area vectors. "];
+  Node712 -> Node715 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node715 [label="magSf",height=0.2,width=0.4,color="red",URL="$a22870.html#a9a7c95d3e0cb6fd08cd82a30b92ec106",tooltip="Return face area magnitudes. "];
+  Node711 -> Node614 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node711 -> Node687 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node613 -> Node717 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node717 [label="deltaCoeffs",height=0.2,width=0.4,color="red",URL="$a22870.html#ae7fa6a37605868b9c425d10de6415f00",tooltip="Return the face - cell distance coeffient. "];
+  Node613 -> Node689 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node613 -> Node719 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node719 [label="lookupPatchField",height=0.2,width=0.4,color="red",URL="$a22870.html#af277a21566a73b296d908601f43917be",tooltip="Lookup and return the patchField of the named field from the. "];
+  Node613 -> Node715 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node613 -> Node723 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node723 [label="name",height=0.2,width=0.4,color="red",URL="$a22870.html#acc80e00a8ac919288fb55bd14cc88bf6",tooltip="Return name. "];
+  Node613 -> Node712 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node613 -> Node725 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node725 [label="patchField",height=0.2,width=0.4,color="red",URL="$a22870.html#a491c39cea9b45bfa27a073eb55ac6de4",tooltip="Return the corresponding patchField of the named field. "];
+  Node613 -> Node726 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node726 [label="patchInternalField",height=0.2,width=0.4,color="black",URL="$a22870.html#ac953d8921ddaeaef5f1287038322523d",tooltip="Return given internal field next to patch as patch field. "];
+  Node613 -> Node713 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node613 -> Node688 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node613 -> Node727 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node727 [label="start",height=0.2,width=0.4,color="red",URL="$a22870.html#a6bfd3e3abb11e98bdb4b98671cec1234",tooltip="Return start label of this patch in the polyMesh face list. "];
+  Node613 -> Node733 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node733 [label="weights",height=0.2,width=0.4,color="red",URL="$a22870.html#a9df29dd3da8e7d332ca135dce0cffa58",tooltip="Return patch weighting factors. "];
+}

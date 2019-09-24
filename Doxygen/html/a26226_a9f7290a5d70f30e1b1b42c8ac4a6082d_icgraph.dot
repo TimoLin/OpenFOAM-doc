@@ -1,0 +1,39 @@
+digraph "bad"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node25909 [label="bad",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node25909 -> Node25910 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node25910 [label="check",height=0.2,width=0.4,color="red",URL="$a26226.html#a367eb3425fc4e8270e2aa961df8ac8a5",tooltip="Check IOstream status for given operation. "];
+  Node25909 -> Node26315 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node26315 [label="fatalCheck",height=0.2,width=0.4,color="red",URL="$a26226.html#a52992bb0e37fe2a5e8f62f37ad234663",tooltip="Check IOstream status for given operation. "];
+  Node26315 -> Node26322 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node26322 [label="Foam::primitiveEntry\l::read",height=0.2,width=0.4,color="red",URL="$a26058.html#aec631c08ab1cd21bac04fbc797c9c5fb",tooltip="Read tokens from the given stream. "];
+  Node25909 -> Node26330 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node26330 [label="Foam::Istream::getBack",height=0.2,width=0.4,color="red",URL="$a26234.html#afff956fe7625beb7b7966ba33d974046",tooltip="Get the put back token if there is one and return true. "];
+  Node26330 -> Node26332 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node26332 [label="Foam::ISstream::read",height=0.2,width=0.4,color="red",URL="$a26286.html#a3d4b02e5b143d1a4ba9a5b34f11b4ed1",tooltip="Return next token from stream. "];
+  Node25909 -> Node26339 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node26339 [label="Foam::operator\<\<",height=0.2,width=0.4,color="black",URL="$a21124.html#a287e075191b83948b0a09a445f010a71"];
+  Node25909 -> Node26340 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node26340 [label="print",height=0.2,width=0.4,color="red",URL="$a26226.html#aa61247f481294e0822e293753513bd29",tooltip="Print description of IOstream to Ostream. "];
+  Node25909 -> Node28921 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node28921 [label="Foam::Istream::putBack",height=0.2,width=0.4,color="red",URL="$a26234.html#af22e503b062298eef54e360dfc06d0b4",tooltip="Put back token. "];
+  Node28921 -> Node26319 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node26319 [label="Foam::dictionary::read",height=0.2,width=0.4,color="black",URL="$a26014.html#a74110bdf434afa7e444306eb4b04999b",tooltip="Read dictionary from Istream, optionally keeping the header. "];
+  Node25909 -> Node28939 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node28939 [label="Foam::fileFormats::\lGTSsurfaceFormat::read",height=0.2,width=0.4,color="red",URL="$a29598.html#a464ebd67acbdff0014d4dae69e3ec4be",tooltip="Read from file. "];
+  Node25909 -> Node26332 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node25909 -> Node26322 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node25909 -> Node26319 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node25909 -> Node30836 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node30836 [label="Foam::featureEdgeMesh\l::readData",height=0.2,width=0.4,color="black",URL="$a21798.html#ac3b3d77e7369ae2785973778644137c5",tooltip="ReadData function required for regIOobject read operation. "];
+  Node25909 -> Node26006 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node26006 [label="Foam::IOdictionary\l::readData",height=0.2,width=0.4,color="red",URL="$a26158.html#ac3b3d77e7369ae2785973778644137c5",tooltip="ReadData function required for regIOobject read operation. "];
+  Node25909 -> Node30837 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node30837 [label="Foam::extendedFeatureEdge\lMesh::readData",height=0.2,width=0.4,color="black",URL="$a21794.html#ac3b3d77e7369ae2785973778644137c5",tooltip="ReadData function required for regIOobject read operation. "];
+  Node25909 -> Node30838 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node30838 [label="Foam::refinementHistory\l::readData",height=0.2,width=0.4,color="red",URL="$a21690.html#ac3b3d77e7369ae2785973778644137c5",tooltip="ReadData function required for regIOobject read operation. "];
+}

@@ -1,0 +1,40 @@
+digraph "avg"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2142 [label="avg",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2142 -> Node2143 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2143 [label="constrain",height=0.2,width=0.4,color="black",URL="$a39260.html#a9263038144c7b2294bd42e0afce04e8e"];
+  Node2142 -> Node2144 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2144 [label="Foam::IOobject::db",height=0.2,width=0.4,color="black",URL="$a26142.html#a65cc75d9f80b1df5c3184fb2274a97f1",tooltip="Return the local objectRegistry. "];
+  Node2142 -> Node2145 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2145 [label="Foam::DimensionedField\l::dimensions",height=0.2,width=0.4,color="black",URL="$a26390.html#a66989c1e0666e0d0c93a2056ce75599e",tooltip="Return dimensions. "];
+  Node2142 -> Node2146 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2146 [label="Foam::primitiveMesh\l::edges",height=0.2,width=0.4,color="black",URL="$a27530.html#a21d764179912ddda5c6f95193c289846",tooltip="Return mesh edges. Uses calcEdges. "];
+  Node2142 -> Node2147 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2147 [label="Foam::PackedList::get",height=0.2,width=0.4,color="black",URL="$a25938.html#a7765dcc7956af47317165c107001b59c",tooltip="Get value at index I. "];
+  Node2142 -> Node2148 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2148 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node2142 -> Node2149 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2149 [label="Foam::DimensionedField\l::mesh",height=0.2,width=0.4,color="black",URL="$a26390.html#a8f1110830348a1448a14ab5e3cf47e3b",tooltip="Return mesh. "];
+  Node2142 -> Node2150 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2150 [label="Foam::IOobject::name",height=0.2,width=0.4,color="black",URL="$a26142.html#acc80e00a8ac919288fb55bd14cc88bf6",tooltip="Return name. "];
+  Node2142 -> Node2151 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2151 [label="Foam::MeshObject\< pointMesh,\l UpdateableMeshObject, pointConstraints \>::New",height=0.2,width=0.4,color="black",URL="$a27138.html#ab61cc2091ec1fd7e08e8948e84235a05"];
+  Node2142 -> Node2152 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2152 [label="Foam::primitiveMesh\l::nPoints",height=0.2,width=0.4,color="black",URL="$a27530.html#a1c886a784a597459dbf2d9470798e9dd"];
+  Node2142 -> Node2153 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2153 [label="smooth",height=0.2,width=0.4,color="red",URL="$a21550.html#a9573d3e007b37387f7624f7b6a8ceefd",tooltip="Fully explicit smoothing of fields (not positions) "];
+  Node2153 -> Node2143 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2153 -> Node2148 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2153 -> Node2149 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2153 -> Node2151 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2153 -> Node2197 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2197 [label="Foam::syncTools::syncPointList",height=0.2,width=0.4,color="red",URL="$a27502.html#a197ed77a9101bdfb37253bd3f507c017",tooltip="Synchronize values on all mesh points. "];
+  Node2197 -> Node2152 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2142 -> Node2197 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2142 -> Node2202 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2202 [label="Foam::IOobject::time",height=0.2,width=0.4,color="red",URL="$a26142.html#a1ed86245b170b9f651f62650b1827500",tooltip="Return time. "];
+}

@@ -1,0 +1,20 @@
+digraph "topoSet"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3 [label="topoSet",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="Foam::regIOobject::\lclose",height=0.2,width=0.4,color="red",URL="$a26334.html#a5ae591df94fc66ccb85cbb6565368bca",tooltip="Close Istream. "];
+  Node3 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20 [label="Foam::IOobject::good",height=0.2,width=0.4,color="black",URL="$a26142.html#abdcc7f96f487faadc7769afcf58fe992"];
+  Node3 -> Node21 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21 [label="Foam::IOobject::headerOk",height=0.2,width=0.4,color="red",URL="$a26142.html#a9d4879c850ce41d945ff77e788de3a23",tooltip="Read and check header info. "];
+  Node3 -> Node22 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22 [label="Foam::IOobject::readOpt",height=0.2,width=0.4,color="black",URL="$a26142.html#a81b608e0b8d8e2a8f1bc927cd6076c59"];
+  Node3 -> Node23 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23 [label="Foam::regIOobject::\lreadStream",height=0.2,width=0.4,color="red",URL="$a26334.html#a1cab0be4cd0a737bfcdd4e43a032d3fd",tooltip="Return Istream and check object type against that given. "];
+  Node3 -> Node321 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node321 [label="topoSet",height=0.2,width=0.4,color="black",URL="$a25462.html#aaa6634bed9f13ac586ef8e28800a67a3",tooltip="Disallow default bitwise copy construct. "];
+}

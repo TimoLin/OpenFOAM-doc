@@ -1,0 +1,26 @@
+digraph "fvPatchFieldMapper"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="fvPatchFieldMapper",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="FieldMapper",height=0.2,width=0.4,color="black",URL="$a26474.html",tooltip="Abstract base class to hold the Field mapping addressing and weights. "];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="directFvPatchFieldMapper",height=0.2,width=0.4,color="black",URL="$a22350.html",tooltip="direct fvPatchFieldMapper "];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="patchFieldDecomposer",height=0.2,width=0.4,color="black",URL="$a28582.html",tooltip="Patch field decomposer class. "];
+  Node0 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="processorSurfacePatchField\lDecomposer",height=0.2,width=0.4,color="black",URL="$a28590.html",tooltip="Processor patch field decomposer class. Surface field is assumed. "];
+  Node0 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="processorVolPatchFieldDecomposer",height=0.2,width=0.4,color="black",URL="$a28586.html",tooltip="Processor patch field decomposer class. Maps either owner or. "];
+  Node0 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="fvPatchFieldReconstructor",height=0.2,width=0.4,color="black",URL="$a28650.html",tooltip="Mapper for sizing only - does not do any actual mapping. "];
+  Node0 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="fvPatchMapper",height=0.2,width=0.4,color="black",URL="$a22782.html",tooltip="Mapping class for a fvPatchField. "];
+  Node0 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="agglomPatchFieldMapper",height=0.2,width=0.4,color="black",URL="$a22878.html",tooltip="Patch field mapper class for agglomerated meshes. "];
+  Node0 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="weightedFvPatchFieldMapper",height=0.2,width=0.4,color="black",URL="$a29258.html",tooltip="FieldMapper with weighted mapping. "];
+}

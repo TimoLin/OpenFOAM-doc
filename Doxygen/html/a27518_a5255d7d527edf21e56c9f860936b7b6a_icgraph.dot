@@ -1,0 +1,16 @@
+digraph "checkDefinition"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node325 [label="checkDefinition",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node325 -> Node326 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node326 [label="Foam::pointZone::checkDefinition",height=0.2,width=0.4,color="red",URL="$a27514.html#a039ec44911bfb8cd28ffd27a600e6fc5",tooltip="Check zone definition. Return true if in error. "];
+  Node325 -> Node328 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node328 [label="Foam::cellZone::checkDefinition",height=0.2,width=0.4,color="red",URL="$a27506.html#a039ec44911bfb8cd28ffd27a600e6fc5",tooltip="Check zone definition. Return true if in error. "];
+  Node325 -> Node330 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node330 [label="Foam::faceZone::checkDefinition",height=0.2,width=0.4,color="red",URL="$a27510.html#a039ec44911bfb8cd28ffd27a600e6fc5",tooltip="Check zone definition. Return true if in error. "];
+  Node325 -> Node421 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node421 [label="index",height=0.2,width=0.4,color="red",URL="$a27518.html#a4a438520bb14406481732edc13c119c7",tooltip="Return the index of this zone in zone list. "];
+}

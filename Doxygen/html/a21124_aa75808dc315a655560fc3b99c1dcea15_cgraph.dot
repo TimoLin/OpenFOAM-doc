@@ -1,0 +1,16 @@
+digraph "operator&gt;&gt;"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node130630 [label="operator\>\>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node130630 -> Node130631 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node130631 [label="Foam::IOstream::check",height=0.2,width=0.4,color="red",URL="$a26226.html#a367eb3425fc4e8270e2aa961df8ac8a5",tooltip="Check IOstream status for given operation. "];
+  Node130630 -> Node130637 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node130637 [label="Foam::entry::keyword",height=0.2,width=0.4,color="black",URL="$a26022.html#a524d765e79e84690b9c13f55191b85c7",tooltip="Return keyword. "];
+  Node130630 -> Node130680 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node130680 [label="Foam::dictionary::lookup",height=0.2,width=0.4,color="red",URL="$a26014.html#a6a0727fa523e48977e27348663def509",tooltip="Find and return an entry data stream. "];
+  Node130630 -> Node130935 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node130935 [label="Foam::dictionary::lookup\lOrDefault",height=0.2,width=0.4,color="red",URL="$a26014.html#a69ee064dcc6d649df523e02e5c242922",tooltip="Find and return a T,. "];
+}

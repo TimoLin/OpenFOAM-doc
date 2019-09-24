@@ -1,0 +1,33 @@
+digraph "read"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node192 [label="read",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node192 -> Node193 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node193 [label="Foam::DynamicList::\lappend",height=0.2,width=0.4,color="black",URL="$a25890.html#a7b67b42af715604376ad63a681dee6d8",tooltip="Append an element at the end of the list. "];
+  Node192 -> Node194 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node194 [label="clear",height=0.2,width=0.4,color="black",URL="$a38057.html#a3a533f9231a5668b9d8f301a79d57b73"];
+  Node192 -> Node195 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node195 [label="Foam::exit",height=0.2,width=0.4,color="red",URL="$a21124.html#a06ca7250d8e89caf05243ec094843642"];
+  Node192 -> Node242 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node242 [label="f",height=0.2,width=0.4,color="black",URL="$a17900.html#a888be93833ac7a23170555c69c690288"];
+  Node192 -> Node243 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node243 [label="Foam::UList::fcIndex",height=0.2,width=0.4,color="black",URL="$a25698.html#a512534dbc231b74b95ff84902c1b2087",tooltip="Return the forward circular index, i.e. the next index. "];
+  Node192 -> Node232 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node232 [label="Foam::IOstream::good",height=0.2,width=0.4,color="black",URL="$a26226.html#abdcc7f96f487faadc7769afcf58fe992",tooltip="Return true if next operation might succeed. "];
+  Node192 -> Node244 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node244 [label="Foam::UList::size",height=0.2,width=0.4,color="black",URL="$a25698.html#a47b3bf30da1eb3ab8076b5fbe00e0494",tooltip="Return the number of elements in the UList. "];
+  Node192 -> Node245 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node245 [label="triFace",height=0.2,width=0.4,color="black",URL="$a17900.html#a85e205b40128f23c7ad84f2d6fe1a4b1"];
+  Node192 -> Node246 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node246 [label="write",height=0.2,width=0.4,color="red",URL="$a29614.html#a2a1e1394d9dd8932b738248c123a267f",tooltip="Write surface mesh components by proxy. "];
+  Node246 -> Node195 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node246 -> Node242 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node246 -> Node232 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node192 -> Node253 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node253 [label="Foam::DynamicList::xfer",height=0.2,width=0.4,color="black",URL="$a25890.html#a48f43ee271fb2edb0fb241b72af0e59c",tooltip="Transfer contents to the Xfer container as a plain List. "];
+  Node192 -> Node254 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node254 [label="Foam::List::xfer",height=0.2,width=0.4,color="black",URL="$a25694.html#a48f43ee271fb2edb0fb241b72af0e59c",tooltip="Transfer contents to the Xfer container. "];
+}

@@ -1,0 +1,31 @@
+digraph "extendedEdgeMesh"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node145 [label="extendedEdgeMesh",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node145 -> Node146 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node146 [label="Foam::PrimitivePatch\l::edgeFaces",height=0.2,width=0.4,color="black",URL="$a27538.html#ad38ecd2902727a890ebd437731c271c8",tooltip="Return edge-face addressing. "];
+  Node145 -> Node147 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node147 [label="extendedEdgeMesh",height=0.2,width=0.4,color="black",URL="$a21786.html#a16ecd6f0225623583777d62d0026d3b8",tooltip="Construct null. "];
+  Node145 -> Node148 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node148 [label="Foam::surfaceFeatures\l::featureEdges",height=0.2,width=0.4,color="black",URL="$a25510.html#a33ecbfd9a6ec83a789228bded34109e3",tooltip="Return feature edge list. "];
+  Node145 -> Node149 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node149 [label="Foam::surfaceFeatures\l::featurePoints",height=0.2,width=0.4,color="black",URL="$a25510.html#a62f79c6a6e16124b0301bac76fdaeebe",tooltip="Return feature point list. "];
+  Node145 -> Node150 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node150 [label="Foam::identity",height=0.2,width=0.4,color="black",URL="$a21124.html#a36af96cb841435845fffb4fe69208490",tooltip="Create identity map (map[i] == i) of given length. "];
+  Node145 -> Node151 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node151 [label="Foam::surfaceFeatures\l::nRegionEdges",height=0.2,width=0.4,color="black",URL="$a25510.html#a74b4164fde86b9d82a2f9cb731823d37",tooltip="Return number of region edges. "];
+  Node145 -> Node152 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node152 [label="Foam::List::setSize",height=0.2,width=0.4,color="black",URL="$a25694.html#aedb985ffeaf1bdbfeccc2a8730405703",tooltip="Reset size of List. "];
+  Node145 -> Node153 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node153 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node145 -> Node154 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node154 [label="sortPointsAndEdges",height=0.2,width=0.4,color="red",URL="$a21786.html#a35042787bb1f37f3e2695d3b48e313b0"];
+  Node154 -> Node153 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node154 -> Node152 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node154 -> Node150 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node145 -> Node220 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node220 [label="Foam::surfaceFeatures\l::surface",height=0.2,width=0.4,color="black",URL="$a25510.html#abf28bf4987657fadcee184f52c42c24d"];
+}

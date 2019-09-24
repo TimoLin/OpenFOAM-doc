@@ -1,0 +1,18 @@
+digraph "whichPatch"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3541 [label="whichPatch",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3541 -> Node3542 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3542 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node3541 -> Node3585 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3585 [label="Foam::primitiveMesh\l::nFaces",height=0.2,width=0.4,color="black",URL="$a27530.html#abe602c985a3c9ffa67176e969e77ca6f"];
+  Node3541 -> Node3586 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3586 [label="Foam::primitiveMesh\l::nInternalFaces",height=0.2,width=0.4,color="black",URL="$a27530.html#aa6c7965af1f30d16d9125deb981cbdb0"];
+  Node3541 -> Node3587 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3587 [label="patchSet",height=0.2,width=0.4,color="red",URL="$a27402.html#abe10e35312c29750b51357d9058ca8be",tooltip="Return the set of patch IDs corresponding to the given names. "];
+  Node3541 -> Node3614 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3614 [label="Foam::polyPatch::start",height=0.2,width=0.4,color="red",URL="$a27478.html#a6bfd3e3abb11e98bdb4b98671cec1234",tooltip="Return start label of this patch in the polyMesh face list. "];
+}

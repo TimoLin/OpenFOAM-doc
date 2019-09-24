@@ -1,0 +1,15 @@
+digraph "basicChemistryModel"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node20 [label="basicChemistryModel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node21 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21 [label="IOdictionary",height=0.2,width=0.4,color="red",URL="$a26158.html",tooltip="IOdictionary is derived from dictionary and IOobject to give the dictionary automatic IO functionalit..."];
+  Node42 -> Node20 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" deltaTChem_" ,fontname="FreeSans"];
+  Node42 [label="DimensionedField\< scalar,\l Foam::volMesh \>",height=0.2,width=0.4,color="red",URL="$a26390.html"];
+  Node55 -> Node20 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" chemistry_" ,fontname="FreeSans"];
+  Node55 [label="Switch",height=0.2,width=0.4,color="black",URL="$a27626.html",tooltip="A simple wrapper around bool so that it can be read as a word: true/false, on/off, yes/no, y/n, t/f, or none. "];
+  Node56 -> Node20 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mesh_" ,fontname="FreeSans"];
+  Node56 [label="fvMesh",height=0.2,width=0.4,color="red",URL="$a22766.html",tooltip="Mesh data needed to do the Finite Volume discretisation. "];
+}

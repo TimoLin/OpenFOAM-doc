@@ -1,0 +1,15 @@
+digraph "nLocalRegions"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node24 [label="nLocalRegions",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node24 -> Node25 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node25 [label="globalNumbering",height=0.2,width=0.4,color="black",URL="$a25202.html#a1b3e7faa331b6cfc9b657a67b1632928",tooltip="Return global region numbering. "];
+  Node24 -> Node26 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node26 [label="Foam::globalIndex::\llocalSize",height=0.2,width=0.4,color="black",URL="$a27330.html#a31e10db2f353603a8ab2517c4d101e06",tooltip="my local size "];
+  Node26 -> Node27 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node27 [label="Foam::UPstream::myProcNo",height=0.2,width=0.4,color="black",URL="$a26270.html#afc74d89573de32a3032c916f8cdd1733",tooltip="Number of this process (starting from masterNo() = 0) "];
+  Node24 -> Node27 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

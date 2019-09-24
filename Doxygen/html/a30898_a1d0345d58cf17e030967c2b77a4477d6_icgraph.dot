@@ -1,0 +1,13 @@
+digraph "divDevRhoReff"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1595 [label="divDevRhoReff",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1595 -> Node1596 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1596 [label="divDevReff",height=0.2,width=0.4,color="red",URL="$a30898.html#a028ac2eaccc9a479009b15cc6e21a89e",tooltip="Return the deviatoric part of the effective sub-grid. "];
+  Node1596 -> Node1598 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1598 [label="~Smagorinsky2",height=0.2,width=0.4,color="black",URL="$a30898.html#a2f40bee832693e3e85f65948de6ccffc",tooltip="Destructor. "];
+  Node1595 -> Node1598 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

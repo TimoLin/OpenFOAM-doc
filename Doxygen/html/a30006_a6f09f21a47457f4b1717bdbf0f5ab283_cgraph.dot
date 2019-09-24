@@ -1,0 +1,15 @@
+digraph "radiationCoupledBase"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node7 [label="radiationCoupledBase",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="Foam::exit",height=0.2,width=0.4,color="red",URL="$a21124.html#a06ca7250d8e89caf05243ec094843642"];
+  Node7 -> Node55 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node55 [label="Foam::dictionary::found",height=0.2,width=0.4,color="red",URL="$a26014.html#adcd3d5d43253006ef145e56b43025d28",tooltip="Search dictionary for given keyword. "];
+  Node55 -> Node55 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 -> Node57 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node57 [label="Foam::DLListBase::size",height=0.2,width=0.4,color="black",URL="$a25806.html#a47b3bf30da1eb3ab8076b5fbe00e0494",tooltip="Return number of elements in list. "];
+}

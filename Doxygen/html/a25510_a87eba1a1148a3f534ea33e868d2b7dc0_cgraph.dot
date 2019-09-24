@@ -1,0 +1,47 @@
+digraph "nearestEdges"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2337 [label="nearestEdges",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2337 -> Node2338 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2338 [label="Foam::edge::centre",height=0.2,width=0.4,color="red",URL="$a27210.html#a87a4cbbb775d06be2c2f27bdab4ddb04",tooltip="Return centre (centroid) "];
+  Node2338 -> Node2341 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2341 [label="Foam::edge::start",height=0.2,width=0.4,color="red",URL="$a27210.html#afe56bdd2031bbf8321e35e2330c0b990",tooltip="Return start vertex label. "];
+  Node2337 -> Node2342 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2342 [label="Foam::PrimitivePatch\l::edges",height=0.2,width=0.4,color="black",URL="$a27538.html#a21d764179912ddda5c6f95193c289846",tooltip="Return list of edges, address into LOCAL point list. "];
+  Node2337 -> Node2343 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2343 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node2337 -> Node2345 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2345 [label="Foam::exit",height=0.2,width=0.4,color="red",URL="$a21124.html#a06ca7250d8e89caf05243ec094843642"];
+  Node2337 -> Node2390 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2390 [label="forAllConstIter",height=0.2,width=0.4,color="red",URL="$a38141.html#ae21e2836509b0fa7f7cedf6493b11b09"];
+  Node2337 -> Node2645 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2645 [label="Foam::PrimitivePatch\l::localPoints",height=0.2,width=0.4,color="black",URL="$a27538.html#aca6c65ee2831bb6795149af7635640a2",tooltip="Return pointField of points in patch. "];
+  Node2337 -> Node2453 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2453 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node2337 -> Node2646 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2646 [label="Foam::magSqr",height=0.2,width=0.4,color="black",URL="$a21124.html#ae6fff2c6981e6d9618aa5038e69def6e"];
+  Node2337 -> Node2466 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2466 [label="Foam::max",height=0.2,width=0.4,color="black",URL="$a21124.html#ac993e906cf2774ae77e666bc24e81733"];
+  Node2337 -> Node2647 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2647 [label="nearestSurfEdge",height=0.2,width=0.4,color="red",URL="$a25510.html#aab1a0ec0ce7082b8730a8eb731d2bed1",tooltip="Find nearest surface edge (out of selectedEdges) for. "];
+  Node2647 -> Node2440 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2440 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node2647 -> Node2645 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2647 -> Node2342 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2647 -> Node2341 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2337 -> Node2653 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2653 [label="s",height=0.2,width=0.4,color="black",URL="$a18905.html#abb9c4233033fad2ad0206cd4adad3b9f"];
+  Node2337 -> Node2654 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2654 [label="Foam::indexedOctree\l::shapes",height=0.2,width=0.4,color="black",URL="$a25026.html#a018ca10cf68431d68c860ee380d4b4be",tooltip="Reference to shape. "];
+  Node2337 -> Node2440 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2337 -> Node2341 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2337 -> Node2655 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2655 [label="Foam::edge::vec",height=0.2,width=0.4,color="red",URL="$a27210.html#a72eb1bfd9e030458c6f7f33202ea5b4f",tooltip="Return the vector (end - start) "];
+  Node2655 -> Node2341 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2337 -> Node2656 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2656 [label="Foam::meshTools::writeOBJ",height=0.2,width=0.4,color="red",URL="$a21153.html#afd76c6ccc8ee4a5957f0232218167c17",tooltip="Write obj representation of point. "];
+  Node2656 -> Node2343 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

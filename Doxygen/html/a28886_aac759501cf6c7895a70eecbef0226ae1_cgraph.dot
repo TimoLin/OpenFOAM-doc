@@ -1,0 +1,27 @@
+digraph "write"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node99 [label="write",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node99 -> Node100 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node100 [label="Foam::polyPatch::boundaryMesh",height=0.2,width=0.4,color="black",URL="$a27478.html#a729e6b97bfa357ec46f60ff7f2e7779a",tooltip="Return boundaryMesh reference. "];
+  Node99 -> Node101 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node101 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node99 -> Node103 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node103 [label="Foam::polyPatch::faceAreas",height=0.2,width=0.4,color="red",URL="$a27478.html#a129c714af51a28e963f5f445235715b9",tooltip="Return face normals. "];
+  Node103 -> Node100 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node99 -> Node105 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node105 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node99 -> Node106 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node106 [label="Foam::max",height=0.2,width=0.4,color="black",URL="$a21124.html#ac993e906cf2774ae77e666bc24e81733"];
+  Node99 -> Node107 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node107 [label="Foam::min",height=0.2,width=0.4,color="black",URL="$a21124.html#a253e112ad2d56d96230ff39ea7f442dc"];
+  Node99 -> Node108 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node108 [label="UMean",height=0.2,width=0.4,color="black",URL="$a39620.html#ab929df5b5c16340fcfdc0840be6c8a73"];
+  Node99 -> Node109 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node109 [label="Foam::Ostream::write",height=0.2,width=0.4,color="black",URL="$a26238.html#a81a19ad9e4098b4701cc8bab9a59d78b",tooltip="Write next token to stream. "];
+  Node99 -> Node110 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node110 [label="Foam::regIOobject::\lwrite",height=0.2,width=0.4,color="red",URL="$a26334.html#ad48b7b943e88478c15879659cce7aebc",tooltip="Write using setting from DB. "];
+}

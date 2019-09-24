@@ -1,0 +1,38 @@
+digraph "k"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node854 [label="k",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node854 -> Node855 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node855 [label="alphat",height=0.2,width=0.4,color="black",URL="$a30818.html#a7385447c8d05dcced28217700b31b1eb",tooltip="Return the turbulence thermal diffusivity for a patch. "];
+  Node854 -> Node856 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node856 [label="Foam::compressible\l::LESModels::GenEddyVisc::B",height=0.2,width=0.4,color="red",URL="$a30622.html#acf00bc568420cebcbea1c1227f8cdd58",tooltip="Return the sub-grid stress tensor. "];
+  Node854 -> Node858 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node858 [label="Foam::compressible\l::mutkWallFunctionFvPatchScalar\lField::calcMut",height=0.2,width=0.4,color="black",URL="$a30702.html#a4556308ace319e9b6f84ab3f887a601c",tooltip="Calculate the turbulence viscosity. "];
+  Node854 -> Node859 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node859 [label="Foam::compressible\l::mutkRoughWallFunctionFvPatch\lScalarField::calcMut",height=0.2,width=0.4,color="black",URL="$a30698.html#a4556308ace319e9b6f84ab3f887a601c",tooltip="Calculate the turbulence viscosity. "];
+  Node854 -> Node860 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node860 [label="Foam::compressible\l::epsilonLowReWallFunction\lFvPatchScalarField::calculate",height=0.2,width=0.4,color="red",URL="$a30678.html#a9b10d949afa36a0fe772c66e94719865",tooltip="Calculate the epsilon and G. "];
+  Node854 -> Node862 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node862 [label="Foam::compressible\l::epsilonWallFunctionFvPatch\lScalarField::calculate",height=0.2,width=0.4,color="red",URL="$a30682.html#a9b10d949afa36a0fe772c66e94719865",tooltip="Calculate the epsilon and G. "];
+  Node854 -> Node871 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node871 [label="Foam::compressible\l::omegaWallFunctionFvPatch\lScalarField::calculate",height=0.2,width=0.4,color="red",URL="$a30726.html#a198ab1edcd6a58e1f422febaac58dacc",tooltip="Calculate the omega and G. "];
+  Node854 -> Node880 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node880 [label="Foam::compressible\l::RASModels::mutkFilmWallFunction\lFvPatchScalarField::calcUTau",height=0.2,width=0.4,color="red",URL="$a29038.html#a24807ec3405a761fb6380573614a3040",tooltip="Calculate the friction velocity. "];
+  Node854 -> Node884 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node884 [label="Foam::compressible\l::LESModels::GenEddyVisc\l::epsilon",height=0.2,width=0.4,color="black",URL="$a30622.html#ad79e047917669fbb490d351478651e20",tooltip="Return sub-grid disipation rate. "];
+  Node854 -> Node885 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node885 [label="Foam::compressible\l::RASModels::v2WallFunction\lFvPatchScalarField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a30730.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node854 -> Node887 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node887 [label="Foam::compressible\l::kLowReWallFunctionFvPatch\lScalarField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a30690.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node854 -> Node889 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node889 [label="Foam::compressible\l::RASModels::alphatFilmWall\lFunctionFvPatchScalarField\l::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a29034.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node854 -> Node891 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node891 [label="Foam::compressible\l::alphatJayatillekeWallFunction\lFvPatchScalarField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a30670.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node854 -> Node893 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node893 [label="Foam::compressible\l::mutkWallFunctionFvPatchScalar\lField::yPlus",height=0.2,width=0.4,color="red",URL="$a30702.html#a0de83d05eb8aabc5f8cf747584ef03c3",tooltip="Calculate and return the yPlus at the boundary. "];
+  Node893 -> Node858 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node893 -> Node859 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

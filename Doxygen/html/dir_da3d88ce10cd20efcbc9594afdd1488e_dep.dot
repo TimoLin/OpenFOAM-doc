@@ -1,0 +1,12 @@
+digraph "src/OpenFOAM/matrices/lduMatrix/solvers/BICCG" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="FreeSans"];
+  edge [ labelfontsize="10", labelfontname="FreeSans"];
+  subgraph clusterdir_f03e085f4fe95c9b32f7b904515484f9 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="solvers" fontname="FreeSans", fontsize="10", URL="dir_f03e085f4fe95c9b32f7b904515484f9.html"]
+  dir_da3d88ce10cd20efcbc9594afdd1488e [shape=box, label="BICCG", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_da3d88ce10cd20efcbc9594afdd1488e.html"];
+  }
+  dir_6f52b26daa4acf58fc48792d6d171bff [shape=box label="PBiCG" URL="dir_6f52b26daa4acf58fc48792d6d171bff.html"];
+  dir_da3d88ce10cd20efcbc9594afdd1488e->dir_6f52b26daa4acf58fc48792d6d171bff [headlabel="1", labeldistance=1.5 headhref="dir_002009_002038.html"];
+}

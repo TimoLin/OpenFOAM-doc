@@ -1,0 +1,12 @@
+digraph "initOrder"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node848 [label="initOrder",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node848 -> Node849 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node849 [label="calcGeometry",height=0.2,width=0.4,color="black",URL="$a24926.html#aa87953b847e1d3217ab9791b38f7743e",tooltip="Calculate the patch geometry. "];
+  Node848 -> Node850 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node850 [label="clone",height=0.2,width=0.4,color="black",URL="$a24926.html#afff6d4f7511147e0c8a4b8a5448296ec",tooltip="Construct and return a clone, resetting the face list. "];
+}

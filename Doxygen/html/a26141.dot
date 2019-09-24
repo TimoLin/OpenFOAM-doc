@@ -1,0 +1,17 @@
+digraph "IOobject"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="IOobject",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="regIOobject",height=0.2,width=0.4,color="red",URL="$a26334.html",tooltip="regIOobject is an abstract class derived from IOobject to handle automatic object registration with t..."];
+  Node0 -> Node376 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node376 [label="solutionControl",height=0.2,width=0.4,color="red",URL="$a21942.html",tooltip="Base class for solution control classes. "];
+  Node0 -> Node379 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node379 [label="uniformInterpolationTable\l\< Type \>",height=0.2,width=0.4,color="black",URL="$a26770.html",tooltip="Table with uniform interval in independant variable, with linear interpolation. "];
+  Node379 -> Node380 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< scalar \>" ,fontname="FreeSans"];
+  Node380 [label="uniformInterpolationTable\l\< scalar \>",height=0.2,width=0.4,color="black",URL="$a26770.html"];
+  Node0 -> Node380 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

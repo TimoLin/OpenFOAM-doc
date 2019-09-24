@@ -1,0 +1,27 @@
+digraph "clone"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node23 [label="clone",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node23 -> Node24 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node24 [label="constrainRotation",height=0.2,width=0.4,color="black",URL="$a29494.html#a5ed0f908100ee6c7a1b91fb87f4dad36",tooltip="Apply and accumulate rotational constraints. "];
+  Node24 -> Node25 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node25 [label="read",height=0.2,width=0.4,color="red",URL="$a29494.html#a64da2087e03e55d0dddd0cd6e5ac05ea",tooltip="Update properties from given dictionary. "];
+  Node25 -> Node27 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node27 [label="write",height=0.2,width=0.4,color="red",URL="$a29494.html#a293fdfec8bdfbd5c3913ab4c9f3454ff",tooltip="Write. "];
+  Node23 -> Node32 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node32 [label="constrainTranslation",height=0.2,width=0.4,color="red",URL="$a29494.html#a9221de3c2d648e898a823a0d45beaf4f",tooltip="Apply and accumulate translational constraints. "];
+  Node32 -> Node24 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23 -> Node38 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node38 [label="point",height=0.2,width=0.4,color="black",URL="$a29494.html#a900dc9819468a4e4c8f91e4de995316c",tooltip="Construct from components. "];
+  Node23 -> Node25 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23 -> Node39 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node39 [label="setCentreOfRotation",height=0.2,width=0.4,color="black",URL="$a29494.html#a2102b44bb417d8e3ea95742575fd8024",tooltip="Set the centre of rotation to the point. "];
+  Node39 -> Node32 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23 -> Node27 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23 -> Node40 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node40 [label="~point",height=0.2,width=0.4,color="black",URL="$a29494.html#a1b24c7edc0e57a3863df4dd7b3e264cf",tooltip="Destructor. "];
+  Node40 -> Node39 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

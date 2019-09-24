@@ -1,0 +1,12 @@
+digraph "addToDevolatilisationMass"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node23 [label="addToDevolatilisationMass",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node23 -> Node24 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node24 [label="Foam::DevolatilisationModel\l\< Foam::ReactingMultiphaseCloud\l\< Foam::DsmcCloud \> \>::calculate",height=0.2,width=0.4,color="black",URL="$a23818.html#aad5735285e9799d56a1158870aab978f",tooltip="Update model. "];
+  Node23 -> Node25 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node25 [label="Foam::DevolatilisationModel\l\< Foam::ReactingMultiphaseCloud\l\< Foam::DsmcCloud \> \>::clone",height=0.2,width=0.4,color="black",URL="$a23818.html#a5444726b464e459eb61adecc68a8b367",tooltip="Construct and return a clone. "];
+}

@@ -1,0 +1,12 @@
+digraph "nearOrOnBoundary"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node131 [label="nearOrOnBoundary",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node131 -> Node132 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node132 [label="boundaryPoint",height=0.2,width=0.4,color="red",URL="$a31474.html#a2bafe98635273aed2ccf0720f8c28a03",tooltip="Either master or slave of pointPair. "];
+  Node131 -> Node134 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node134 [label="nearBoundary",height=0.2,width=0.4,color="black",URL="$a31474.html#a5672d7ff1ab911ab8ae4dd0849e1d517",tooltip="Is point internal and near the boundary. "];
+}

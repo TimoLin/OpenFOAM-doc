@@ -1,0 +1,16 @@
+digraph "gNormClipped"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3922 [label="gNormClipped",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3922 -> Node3923 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3923 [label="Foam::GeometricField::min",height=0.2,width=0.4,color="black",URL="$a22434.html#a7945861ec06a8f04008b170849cc8511"];
+  Node3922 -> Node3924 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3924 [label="Foam::regionModels\l::singleLayerRegion::nHat",height=0.2,width=0.4,color="red",URL="$a29018.html#a90a92816e920c11a80745dfb8e2592e0",tooltip="Return the patch normal vectors. "];
+  Node3922 -> Node3968 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3968 [label="Foam::regionModels\l::regionModel::regionMesh",height=0.2,width=0.4,color="red",URL="$a28998.html#a89a37969c20983ee143c612486ce5313",tooltip="Return the region mesh database. "];
+  Node3922 -> Node3981 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3981 [label="Foam::regionModels\l::regionModel::time",height=0.2,width=0.4,color="black",URL="$a28998.html#a1ed86245b170b9f651f62650b1827500",tooltip="Return the reference to the time database. "];
+}

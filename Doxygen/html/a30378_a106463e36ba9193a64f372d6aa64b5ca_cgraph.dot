@@ -1,0 +1,24 @@
+digraph "operator-="
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node352 [label="operator-=",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node352 -> Node353 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node353 [label="Foam::exit",height=0.2,width=0.4,color="red",URL="$a21124.html#a06ca7250d8e89caf05243ec094843642"];
+  Node352 -> Node400 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node400 [label="highCpCoeffs",height=0.2,width=0.4,color="black",URL="$a30378.html#a913cbc54bd05ff249a0aa0e01b2b10ff",tooltip="Return const access to the high temperature poly coefficients. "];
+  Node352 -> Node401 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node401 [label="lowCpCoeffs",height=0.2,width=0.4,color="red",URL="$a30378.html#ada11db8461ee2f05edcb74a1de83cf68",tooltip="Return const access to the low temperature poly coefficients. "];
+  Node352 -> Node408 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node408 [label="Foam::max",height=0.2,width=0.4,color="black",URL="$a21124.html#ac993e906cf2774ae77e666bc24e81733"];
+  Node352 -> Node409 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node409 [label="Foam::min",height=0.2,width=0.4,color="black",URL="$a21124.html#a253e112ad2d56d96230ff39ea7f442dc"];
+  Node352 -> Node410 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node410 [label="Foam::name",height=0.2,width=0.4,color="red",URL="$a21124.html#adcb0df2bd4953cb6bb390272d8263c3a",tooltip="Return a string representation of a complex. "];
+  Node352 -> Node413 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node413 [label="notEqual",height=0.2,width=0.4,color="red",URL="$a12539.html#a23278e22079ce29de77ef825d4e2e722"];
+  Node352 -> Node406 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node406 [label="s",height=0.2,width=0.4,color="red",URL="$a30378.html#a44ae09d155460df28a7f53fa22450c69",tooltip="Entropy [J/(kmol K)]. "];
+}

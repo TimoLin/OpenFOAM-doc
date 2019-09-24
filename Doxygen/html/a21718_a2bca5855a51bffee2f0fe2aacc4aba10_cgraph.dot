@@ -1,0 +1,19 @@
+digraph "operator()"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="operator()",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="Foam::faceZone::flipMap",height=0.2,width=0.4,color="red",URL="$a27510.html#a03ecd61e4e943657de29efcacd488b19",tooltip="Return face flip map. "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="Foam::faceZone::whichFace",height=0.2,width=0.4,color="red",URL="$a27510.html#a2a776b244e1eea320ab33cc0a21cf56a",tooltip="Helper function to re-direct to zone::localID(...) "];
+  Node0 -> Node413 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node413 [label="Foam::UList::rcIndex",height=0.2,width=0.4,color="black",URL="$a25698.html#a286b66c68007df4532de24354ec487cb",tooltip="Return the reverse circular index, i.e. the previous index. "];
+  Node0 -> Node414 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node414 [label="Foam::polyTopoChange\l::setAction",height=0.2,width=0.4,color="red",URL="$a21678.html#a40a23962b792d24f4cb999f5b55aece2",tooltip="For compatibility with polyTopoChange: set topological action. "];
+  Node0 -> Node111 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node111 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node0 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

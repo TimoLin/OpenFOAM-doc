@@ -1,0 +1,26 @@
+digraph "pow"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node61056 [label="pow",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node61056 -> Node61057 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node61057 [label="Foam::reuseTmpDimensioned\lField::clear",height=0.2,width=0.4,color="black",URL="$a26394.html#aaa3059115b3dd8823d59eb56c23db009"];
+  Node61056 -> Node61058 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node61058 [label="Foam::DimensionedField\l::dimensions",height=0.2,width=0.4,color="black",URL="$a26390.html#a66989c1e0666e0d0c93a2056ce75599e",tooltip="Return dimensions. "];
+  Node61056 -> Node61059 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node61059 [label="Foam::DimensionedField\l::field",height=0.2,width=0.4,color="black",URL="$a26390.html#a969c81597ae68f5a36efafe599ec1e89"];
+  Node61056 -> Node61060 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node61060 [label="Foam::dimensioned::name",height=0.2,width=0.4,color="black",URL="$a26366.html#ade4113569ef0db70665fded275a5e38e",tooltip="Return const reference to name. "];
+  Node61056 -> Node61061 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node61061 [label="Foam::IOobject::name",height=0.2,width=0.4,color="black",URL="$a26142.html#acc80e00a8ac919288fb55bd14cc88bf6",tooltip="Return name. "];
+  Node61056 -> Node61062 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node61062 [label="Foam::reuseTmpDimensioned\lField::New",height=0.2,width=0.4,color="red",URL="$a26394.html#a7006645d025d8a6d6ccb92599751a50b"];
+  Node61056 -> Node61066 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node61066 [label="pow",height=0.2,width=0.4,color="red",URL="$a21124.html#a7500c8e9d27a442adc75e287de074c7c"];
+  Node61066 -> Node61060 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node61066 -> Node61068 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node61068 [label="Foam::dimensioned::\lvalue",height=0.2,width=0.4,color="black",URL="$a26366.html#a7948200a26c85fc3a83ffa510a91d668",tooltip="Return const reference to value. "];
+  Node61056 -> Node61068 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

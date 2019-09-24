@@ -1,0 +1,12 @@
+digraph "circulate"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node18 [label="circulate",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node18 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19 [label="operator++",height=0.2,width=0.4,color="black",URL="$a25654.html#accc7eaafa6a27f1fbe6d987b4c7f3fb7",tooltip="Prefix increment. Increments the iterator. "];
+  Node18 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20 [label="operator--",height=0.2,width=0.4,color="black",URL="$a25654.html#aeddc37d0daa9611b9789f5286e825ad5",tooltip="Prefix decrement. Decrements the iterator. "];
+}

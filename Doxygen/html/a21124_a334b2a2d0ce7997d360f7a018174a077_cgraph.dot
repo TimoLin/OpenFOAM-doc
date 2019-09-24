@@ -1,0 +1,35 @@
+digraph "bound"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node902 [label="bound",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node902 -> Node903 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node903 [label="Foam::fvc::average",height=0.2,width=0.4,color="red",URL="$a21134.html#a081533edd829853720cd0cbb61c5d49f",tooltip="Area-weighted average a surfaceField creating a volField. "];
+  Node903 -> Node905 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node905 [label="Foam::IOobject::name",height=0.2,width=0.4,color="black",URL="$a26142.html#acc80e00a8ac919288fb55bd14cc88bf6",tooltip="Return name. "];
+  Node903 -> Node908 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node908 [label="Foam::GeometricField\l::internalField",height=0.2,width=0.4,color="black",URL="$a22434.html#a9536140d36d69bbac40496f6b817aa0a",tooltip="Return internal field. "];
+  Node903 -> Node1208 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1208 [label="internalField",height=0.2,width=0.4,color="black",URL="$a01253.html#a8ebe4b4fc9818c2626b9c98a7ef1a16a"];
+  Node903 -> Node1057 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1057 [label="Foam::GeometricField\l::boundaryField",height=0.2,width=0.4,color="black",URL="$a22434.html#a3c6c1a789b48ea0c5e8bff64f9c14f2d",tooltip="Return reference to GeometricBoundaryField. "];
+  Node902 -> Node1057 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node902 -> Node916 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node916 [label="endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node902 -> Node1210 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1210 [label="gAverage",height=0.2,width=0.4,color="red",URL="$a21124.html#ab45e56189711a2e5cdd381a0e2b6cc5c"];
+  Node1210 -> Node916 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node902 -> Node1208 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node902 -> Node908 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node902 -> Node1122 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1122 [label="max",height=0.2,width=0.4,color="black",URL="$a21124.html#ac993e906cf2774ae77e666bc24e81733"];
+  Node902 -> Node1123 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1123 [label="min",height=0.2,width=0.4,color="black",URL="$a21124.html#a253e112ad2d56d96230ff39ea7f442dc"];
+  Node902 -> Node905 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node902 -> Node1215 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1215 [label="pos",height=0.2,width=0.4,color="black",URL="$a12539.html#a44b9821c8742536715efac47391df780"];
+  Node902 -> Node1022 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1022 [label="Foam::dimensioned::\lvalue",height=0.2,width=0.4,color="black",URL="$a26366.html#a7948200a26c85fc3a83ffa510a91d668",tooltip="Return const reference to value. "];
+}

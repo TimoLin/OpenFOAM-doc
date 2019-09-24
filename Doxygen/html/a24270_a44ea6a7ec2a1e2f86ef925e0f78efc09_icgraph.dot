@@ -1,0 +1,13 @@
+digraph "tau"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node35 [label="tau",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node35 -> Node36 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node36 [label="clone",height=0.2,width=0.4,color="black",URL="$a24270.html#a9562029d5f3393f4d39468ea0f453a65",tooltip="Clone. "];
+  Node35 -> Node37 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node37 [label="~Lun",height=0.2,width=0.4,color="black",URL="$a24270.html#ac69e0c1872f44d3ef8fcb8714003b9b1",tooltip="Destructor. "];
+  Node37 -> Node36 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

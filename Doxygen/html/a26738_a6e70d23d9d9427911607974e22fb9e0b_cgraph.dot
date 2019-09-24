@@ -1,0 +1,22 @@
+digraph "operator()"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node172 [label="operator()",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node172 -> Node173 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node173 [label="Foam::DynamicList::\lappend",height=0.2,width=0.4,color="black",URL="$a25890.html#a7b67b42af715604376ad63a681dee6d8",tooltip="Append an element at the end of the list. "];
+  Node172 -> Node174 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node174 [label="Foam::ISstream::getLine",height=0.2,width=0.4,color="red",URL="$a26286.html#a94b82bd8f7d8cdaa83c9c70b7c919f78",tooltip="Raw, low-level getline into a string function. "];
+  Node172 -> Node176 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node176 [label="Foam::IOstream::good",height=0.2,width=0.4,color="black",URL="$a26226.html#abdcc7f96f487faadc7769afcf58fe992",tooltip="Return true if next operation might succeed. "];
+  Node172 -> Node177 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node177 [label="Foam::pos",height=0.2,width=0.4,color="red",URL="$a21124.html#a09a190b59f3d01b258bca0fa964a6212"];
+  Node172 -> Node181 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node181 [label="Foam::readScalar",height=0.2,width=0.4,color="black",URL="$a21124.html#a828d57f6d9b9806c086a3f840a147115",tooltip="Read whole of buf as a scalar. Return true if succesful. "];
+  Node172 -> Node182 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node182 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node172 -> Node183 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node183 [label="Foam::dictionary::transfer",height=0.2,width=0.4,color="red",URL="$a26014.html#a5956818c825a1a2608dc4d63b4a9129e",tooltip="Transfer the contents of the argument and annul the argument. "];
+}

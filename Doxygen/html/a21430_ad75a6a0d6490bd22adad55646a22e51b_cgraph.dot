@@ -1,0 +1,42 @@
+digraph "read"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node683 [label="read",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node683 -> Node684 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node684 [label="Foam::polyMesh::boundaryMesh",height=0.2,width=0.4,color="black",URL="$a27410.html#a9f2b68c134340291eda6197f47f25484",tooltip="Return boundary mesh. "];
+  Node683 -> Node685 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node685 [label="clearOut",height=0.2,width=0.4,color="black",URL="$a21430.html#af320697688df08f1438d37a86bcaf25d"];
+  Node683 -> Node686 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node686 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node683 -> Node688 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node688 [label="f",height=0.2,width=0.4,color="black",URL="$a17900.html#a888be93833ac7a23170555c69c690288"];
+  Node683 -> Node689 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node689 [label="Foam::patchIdentifier\l::name",height=0.2,width=0.4,color="black",URL="$a27122.html#acc80e00a8ac919288fb55bd14cc88bf6",tooltip="Return name. "];
+  Node683 -> Node690 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node690 [label="Foam::PrimitivePatch\l::nEdges",height=0.2,width=0.4,color="black",URL="$a27538.html#a086513bcff1a3f1684e1a3879dd90deb",tooltip="Return number of edges in patch. "];
+  Node683 -> Node691 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node691 [label="Foam::primitiveMesh\l::nFaces",height=0.2,width=0.4,color="black",URL="$a27530.html#abe602c985a3c9ffa67176e969e77ca6f"];
+  Node683 -> Node692 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node692 [label="Foam::primitiveMesh\l::nInternalFaces",height=0.2,width=0.4,color="black",URL="$a27530.html#aa6c7965af1f30d16d9125deb981cbdb0"];
+  Node683 -> Node693 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node693 [label="Foam::patchIdentifier\l::physicalType",height=0.2,width=0.4,color="black",URL="$a27122.html#a98ebcf41881ab4e16eea80415cf75f07",tooltip="Return the optional physical type of the patch. "];
+  Node683 -> Node694 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node694 [label="Foam::PrimitivePatch\l::points",height=0.2,width=0.4,color="black",URL="$a27538.html#aa3c7d968f31c88780c663876f64ef6a6",tooltip="Return reference to global points. "];
+  Node683 -> Node695 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node695 [label="Foam::polyMesh::points",height=0.2,width=0.4,color="red",URL="$a27410.html#ac44123fc1265297c41a43c3b62fdb4c2",tooltip="Return raw points. "];
+  Node683 -> Node737 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node737 [label="Foam::List::setSize",height=0.2,width=0.4,color="black",URL="$a25694.html#aedb985ffeaf1bdbfeccc2a8730405703",tooltip="Reset size of List. "];
+  Node683 -> Node738 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node738 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node683 -> Node739 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node739 [label="Foam::boundaryPatch\l::size",height=0.2,width=0.4,color="black",URL="$a21434.html#a9facbf0a118d395c89884e45a5ca4e4b"];
+  Node683 -> Node740 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node740 [label="Foam::PtrList::size",height=0.2,width=0.4,color="black",URL="$a25914.html#a47b3bf30da1eb3ab8076b5fbe00e0494",tooltip="Return the number of elements in the PtrList. "];
+  Node683 -> Node741 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node741 [label="Foam::boundaryPatch\l::start",height=0.2,width=0.4,color="black",URL="$a21434.html#a6bfd3e3abb11e98bdb4b98671cec1234"];
+  Node683 -> Node742 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node742 [label="Foam::polyPatch::start",height=0.2,width=0.4,color="red",URL="$a27478.html#a6bfd3e3abb11e98bdb4b98671cec1234",tooltip="Return start label of this patch in the polyMesh face list. "];
+}

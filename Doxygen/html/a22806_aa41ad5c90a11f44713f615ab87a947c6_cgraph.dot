@@ -1,0 +1,20 @@
+digraph "updateAreas"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2 [label="updateAreas",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="Foam::polyPatch::faceAreas",height=0.2,width=0.4,color="red",URL="$a27478.html#a129c714af51a28e963f5f445235715b9",tooltip="Return face normals. "];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="Foam::fvPatch::magSf",height=0.2,width=0.4,color="red",URL="$a22870.html#a9a7c95d3e0cb6fd08cd82a30b92ec106",tooltip="Return face area magnitudes. "];
+  Node2 -> Node80 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node80 [label="nonOverlapPatch",height=0.2,width=0.4,color="red",URL="$a22806.html#aa6c25bd5dd2d72c0568f4b6010f08852",tooltip="Return non-overlapping fvPatch. "];
+  Node2 -> Node103 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node103 [label="Foam::fvPatch::patch",height=0.2,width=0.4,color="black",URL="$a22870.html#a733fd433f94cab9899e34dcc9709333e",tooltip="Return the polyPatch. "];
+  Node2 -> Node104 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node104 [label="Foam::fvPatch::Sf",height=0.2,width=0.4,color="red",URL="$a22870.html#af93b93b841156265e8007a71b07f4ab4",tooltip="Return face area vectors. "];
+}

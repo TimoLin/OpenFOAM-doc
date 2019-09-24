@@ -1,0 +1,17 @@
+digraph "operator&gt;&gt;"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node51413 [label="operator\>\>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node51413 -> Node51414 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node51414 [label="Foam::IOstream::check",height=0.2,width=0.4,color="red",URL="$a26226.html#a367eb3425fc4e8270e2aa961df8ac8a5",tooltip="Check IOstream status for given operation. "];
+  Node51414 -> Node51417 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node51417 [label="exit",height=0.2,width=0.4,color="red",URL="$a21124.html#a06ca7250d8e89caf05243ec094843642"];
+  Node51413 -> Node51417 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node51413 -> Node51463 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node51463 [label="Foam::dimensionSet\l::read",height=0.2,width=0.4,color="red",URL="$a26370.html#a4b1272c56fc93e26715db0ffd87a9b1f",tooltip="Read using provided units. Used only in initial parsing. "];
+  Node51463 -> Node51417 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node51463 -> Node51414 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

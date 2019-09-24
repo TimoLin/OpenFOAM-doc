@@ -1,0 +1,38 @@
+digraph "det"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node39720 [label="det",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node39720 -> Node39721 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node39721 [label="Foam::tetrahedron::\lbarycentric",height=0.2,width=0.4,color="red",URL="$a27586.html#ac424fec442e3558133673e4c23daa46e",tooltip="Calculate the barycentric coordinates of the given. "];
+  Node39721 -> Node39722 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node39722 [label="Foam::cellPointWeight\l::findTetrahedron",height=0.2,width=0.4,color="black",URL="$a22922.html#aecec3ccb37ced505c339363e0803800a"];
+  Node39720 -> Node39727 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node39727 [label="Foam::primitiveMeshTools\l::cellDeterminant",height=0.2,width=0.4,color="red",URL="$a27534.html#aaeaed20e05a2c6778ed319091c34991c",tooltip="Generate cell determinant field. "];
+  Node39720 -> Node39763 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node39763 [label="Foam::primitiveMeshGeometry\l::checkCellDeterminant",height=0.2,width=0.4,color="red",URL="$a25146.html#a86702a579f7fe69fb82f0933e27edabd"];
+  Node39720 -> Node39739 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node39739 [label="Foam::polyMeshGeometry\l::checkCellDeterminant",height=0.2,width=0.4,color="red",URL="$a21562.html#af0c7e937ce83711247f5519b530eb868",tooltip="Area of internal faces v.s. boundary faces. "];
+  Node39720 -> Node39773 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node39773 [label="Foam::edgeCollapser\l::checkMeshQuality",height=0.2,width=0.4,color="red",URL="$a21642.html#a05c592dbdbe3fcc0728c2595750b5982",tooltip="Check mesh and mark points on faces in error. "];
+  Node39720 -> Node39777 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node39777 [label="Foam::TrajectoryCollision\l::collideParcels",height=0.2,width=0.4,color="red",URL="$a24590.html#a544ea47d9f252b637415a55f81a13a93",tooltip="Collide parcels and return true if mass has changed. "];
+  Node39720 -> Node39779 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node39779 [label="det",height=0.2,width=0.4,color="black",URL="$a21124.html#a427e76805adedd5ea4a6a0a84ec8c04d"];
+  Node39720 -> Node39780 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node39780 [label="dev2",height=0.2,width=0.4,color="black",URL="$a21124.html#a56033a406ec2988a1421464057b1ba02"];
+  Node39720 -> Node39722 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node39720 -> Node39781 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node39781 [label="Foam::cellPointWeight\l::findTriangle",height=0.2,width=0.4,color="black",URL="$a22922.html#a58a370be784ce48f88d340ab2ab15ac8"];
+  Node39781 -> Node39722 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node39720 -> Node39782 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node39782 [label="Foam::triangleFuncs\l::intersectAxesBundle",height=0.2,width=0.4,color="red",URL="$a25522.html#a9dee5658f90fecf99dc7ed9262fee6e3",tooltip="Intersect triangle with parallel edges aligned with axis i0. "];
+  Node39720 -> Node39789 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node39789 [label="Foam::triangle::intersection",height=0.2,width=0.4,color="red",URL="$a27606.html#ac82a9c98ef3be11c0738ec2f39ba8a2c",tooltip="Fast intersection with a ray. "];
+  Node39720 -> Node39836 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node39836 [label="inv",height=0.2,width=0.4,color="black",URL="$a21124.html#a489c4a050437219d1327bf064aabf878",tooltip="Return the inverse of a symmetric tensor. "];
+  Node39720 -> Node39837 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node39837 [label="invariantIII",height=0.2,width=0.4,color="black",URL="$a21124.html#a696381731a98b49438357f51cf52623c",tooltip="Return the 3rd invariant of a symmetric tensor. "];
+}

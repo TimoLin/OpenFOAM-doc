@@ -1,0 +1,18 @@
+digraph "calcBounds"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node127 [label="calcBounds",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node127 -> Node128 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node128 [label="Foam::triSurfaceMesh\l::edgeTree",height=0.2,width=0.4,color="black",URL="$a25258.html#a35b8d766fd06e5d629b382b37f071d47",tooltip="Demand driven construction of octree for boundary edges. "];
+  Node127 -> Node129 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node129 [label="subsetMap",height=0.2,width=0.4,color="red",URL="$a27526.html#a373cb19a7bfde8d155b317980839cf72",tooltip="Determine the mapping for a sub-patch. "];
+  Node127 -> Node151 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node151 [label="Foam::triSurfaceSearch\l::tree",height=0.2,width=0.4,color="red",URL="$a25530.html#a6d01bb33aa711bf96f61eba9aa236e80",tooltip="Demand driven construction of the octree. "];
+  Node127 -> Node172 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node172 [label="Foam::triSurfaceRegionSearch\l::treeByRegion",height=0.2,width=0.4,color="red",URL="$a25526.html#ac3b5768cab9bb1f9664f225d85b1e7d9",tooltip="Demand driven construction of octree for each region. "];
+  Node127 -> Node187 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node187 [label="Foam::distributedTriSurface\lMesh::writeStats",height=0.2,width=0.4,color="red",URL="$a28642.html#abcdb99a5c0073642de36f2a8b03e92c2",tooltip="Print some stats. Parallel aware version of. "];
+}

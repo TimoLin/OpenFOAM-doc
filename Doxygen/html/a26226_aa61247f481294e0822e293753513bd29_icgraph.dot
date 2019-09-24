@@ -1,0 +1,18 @@
+digraph "print"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node42826 [label="print",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node42826 -> Node42827 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node42827 [label="Foam::operator\<\<",height=0.2,width=0.4,color="black",URL="$a21124.html#ad6f3f4a9285ea0bdda72d95722f1d0b1"];
+  Node42826 -> Node42828 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node42828 [label="Foam::OSstream::print",height=0.2,width=0.4,color="red",URL="$a26290.html#aa61247f481294e0822e293753513bd29",tooltip="Print description of IOstream to Ostream. "];
+  Node42826 -> Node47743 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node47743 [label="Foam::ISstream::print",height=0.2,width=0.4,color="red",URL="$a26286.html#aa61247f481294e0822e293753513bd29",tooltip="Print description of IOstream to Ostream. "];
+  Node42826 -> Node47748 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node47748 [label="Foam::ITstream::print",height=0.2,width=0.4,color="red",URL="$a26322.html#aa61247f481294e0822e293753513bd29",tooltip="Print description of IOstream to Ostream. "];
+  Node42826 -> Node47751 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node47751 [label="unsetf",height=0.2,width=0.4,color="red",URL="$a26226.html#af57e927a0657752abc0cd5eb73082ff1",tooltip="Unset flags of stream. "];
+}

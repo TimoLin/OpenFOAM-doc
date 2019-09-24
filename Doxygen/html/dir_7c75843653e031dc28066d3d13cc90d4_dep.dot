@@ -1,0 +1,12 @@
+digraph "applications/solvers/multiphase/interFoam/LTSInterFoam" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="FreeSans"];
+  edge [ labelfontsize="10", labelfontname="FreeSans"];
+  subgraph clusterdir_6cbc35a456677982ef0a79ee58fc4be3 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="interFoam" fontname="FreeSans", fontsize="10", URL="dir_6cbc35a456677982ef0a79ee58fc4be3.html"]
+  dir_7c75843653e031dc28066d3d13cc90d4 [shape=box, label="LTSInterFoam", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_7c75843653e031dc28066d3d13cc90d4.html"];
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_7c75843653e031dc28066d3d13cc90d4->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="1", labeldistance=1.5 headhref="dir_000098_000577.html"];
+}

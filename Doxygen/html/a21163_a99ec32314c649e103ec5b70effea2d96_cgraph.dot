@@ -1,0 +1,15 @@
+digraph "controlDict"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="controlDict",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="Foam::findEtcFiles",height=0.2,width=0.4,color="red",URL="$a21124.html#aab73bb2c46692e2e11dd7364556cd3c5",tooltip="Search for files from user/group/shipped directories. "];
+  Node0 -> Node41 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node41 [label="Foam::IOstream::good",height=0.2,width=0.4,color="black",URL="$a26226.html#abdcc7f96f487faadc7769afcf58fe992",tooltip="Return true if next operation might succeed. "];
+  Node0 -> Node65 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node65 [label="switchSet",height=0.2,width=0.4,color="red",URL="$a21163.html#a02428a7a9aa138cfe5550361a4f1de83",tooltip="Internal function to lookup a sub-dictionary from controlDict. "];
+  Node65 -> Node0 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,16 @@
+digraph "type"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3 [label="type",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="IOPosition",height=0.2,width=0.4,color="black",URL="$a23566.html#aeefb3ff858f6ea22a1d801aac336c0b8",tooltip="Construct from cloud. "];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="readData",height=0.2,width=0.4,color="red",URL="$a23566.html#af01264cee7588de77f4021f7c9322549"];
+  Node3 -> Node334 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node334 [label="write",height=0.2,width=0.4,color="red",URL="$a23566.html#ad48b7b943e88478c15879659cce7aebc",tooltip="Write using setting from DB. "];
+  Node3 -> Node336 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node336 [label="writeData",height=0.2,width=0.4,color="red",URL="$a23566.html#a4c658e15d7e8f5819cdc0eedbbbeb85e",tooltip="Pure virtual writaData function. "];
+}

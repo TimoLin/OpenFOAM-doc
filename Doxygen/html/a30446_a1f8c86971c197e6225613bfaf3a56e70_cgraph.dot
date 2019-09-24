@@ -1,0 +1,14 @@
+digraph "~thermophysicalFunction"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node46 [label="~thermophysicalFunction",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node46 -> Node47 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node47 [label="f",height=0.2,width=0.4,color="black",URL="$a30446.html#acf72aecccb52a83a5e65b2275e40935c",tooltip="Evaluate the function and return the result. "];
+  Node46 -> Node48 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node48 [label="Foam::T",height=0.2,width=0.4,color="red",URL="$a21124.html#ae57fda0abb14bb0944947c463c6e09d4"];
+  Node46 -> Node53 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node53 [label="writeData",height=0.2,width=0.4,color="black",URL="$a30446.html#ae7cb490afd9f0df6a1f5b659e2b4aaf7",tooltip="Write the function coefficients. "];
+}

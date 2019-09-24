@@ -1,0 +1,21 @@
+digraph "addOptimisationObject"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4667 [label="addOptimisationObject",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4667 -> Node4668 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4668 [label="addDimensionSetObject",height=0.2,width=0.4,color="red",URL="$a21163.html#adb0730a701b776bca83bf4dd31461c65",tooltip="Register DimensionSets read/write object. "];
+  Node4668 -> Node4670 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4670 [label="Foam::DictionaryBase\l::lookupPtr",height=0.2,width=0.4,color="black",URL="$a25670.html#ab01c63c55a0fccd0de22cd0e55516fa4",tooltip="Find and return an entry if present, otherwise return NULL. "];
+  Node4668 -> Node4671 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4671 [label="Foam::List::append",height=0.2,width=0.4,color="black",URL="$a25694.html#a399dd2bf0d9a32016717dc90126f016b",tooltip="Append an element at the end of the list. "];
+  Node4668 -> Node4672 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4672 [label="Foam::DictionaryBase\l::append",height=0.2,width=0.4,color="black",URL="$a25670.html#a7d32913c049313f63764cfcad36f372e",tooltip="Add at tail of dictionary. "];
+  Node4667 -> Node4672 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4667 -> Node4671 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4667 -> Node4670 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4667 -> Node4675 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4675 [label="optimisationObjects",height=0.2,width=0.4,color="black",URL="$a21163.html#aaba13b05db0626547ed9290d3e608f83",tooltip="Get access to registered optimisation switch objects. "];
+}

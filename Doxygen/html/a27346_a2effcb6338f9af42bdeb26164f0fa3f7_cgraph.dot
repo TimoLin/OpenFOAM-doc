@@ -1,0 +1,16 @@
+digraph "directAddressing"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node124 [label="directAddressing",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node124 -> Node125 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node125 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node124 -> Node168 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node168 [label="Foam::mapPolyMesh::\lcellMap",height=0.2,width=0.4,color="black",URL="$a27386.html#a4209f47fe506af0959ae50b019562b17",tooltip="Old cell map. "];
+  Node124 -> Node169 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node169 [label="direct",height=0.2,width=0.4,color="black",URL="$a27346.html#ae76ee987311e5a64ff3eb5857c82a76a",tooltip="Is the mapping direct. "];
+  Node124 -> Node170 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node170 [label="insertedObjects",height=0.2,width=0.4,color="red",URL="$a27346.html#acdbb80a9d9daff09e7145118b9a90b80",tooltip="Are there any inserted cells. "];
+}

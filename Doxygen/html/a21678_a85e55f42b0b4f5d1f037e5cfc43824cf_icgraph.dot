@@ -1,0 +1,17 @@
+digraph "modifyCell"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2573 [label="modifyCell",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2573 -> Node2574 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2574 [label="addCell",height=0.2,width=0.4,color="red",URL="$a21678.html#a64863b3faff2ec96128c3ad3b1bbe08e",tooltip="Add cell. Return new cell label. "];
+  Node2574 -> Node2577 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2577 [label="faceNeighbour",height=0.2,width=0.4,color="red",URL="$a21678.html#ac0226836c6afb225e82b34f85b7c5d2c"];
+  Node2574 -> Node2580 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2580 [label="setAction",height=0.2,width=0.4,color="red",URL="$a21678.html#a40a23962b792d24f4cb999f5b55aece2",tooltip="For compatibility with polyTopoChange: set topological action. "];
+  Node2580 -> Node2577 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2573 -> Node2577 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2573 -> Node2580 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

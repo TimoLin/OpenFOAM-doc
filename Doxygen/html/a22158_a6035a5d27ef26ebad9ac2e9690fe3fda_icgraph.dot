@@ -1,0 +1,28 @@
+digraph "interpolate"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node18 [label="interpolate",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node18 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19 [label="Foam::ParamagneticForce\l::calcNonCoupled",height=0.2,width=0.4,color="red",URL="$a24150.html#a0e3253e601c7db3a3db9d3c921218fd9",tooltip="Calculate the non-coupled force. "];
+  Node18 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22 [label="Foam::interpolation\l\< Foam::Vector \>::interpolate",height=0.2,width=0.4,color="black",URL="$a22158.html#a14b90a81977790ffaa1894a2b806e4a9",tooltip="Interpolate field to the given point in the tetrahedron. "];
+  Node18 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23 [label="Foam::sampledPlane\l::interpolateField",height=0.2,width=0.4,color="black",URL="$a29374.html#a97b086d70d4450f23b4adfcf2bf8f1c7"];
+  Node18 -> Node24 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node24 [label="Foam::sampledIsoSurfaceCell\l::interpolateField",height=0.2,width=0.4,color="black",URL="$a29358.html#a97b086d70d4450f23b4adfcf2bf8f1c7"];
+  Node18 -> Node25 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node25 [label="Foam::sampledThresholdCell\lFaces::interpolateField",height=0.2,width=0.4,color="black",URL="$a29402.html#a97b086d70d4450f23b4adfcf2bf8f1c7"];
+  Node18 -> Node26 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node26 [label="Foam::sampledPatchInternal\lField::interpolateField",height=0.2,width=0.4,color="black",URL="$a29370.html#a97b086d70d4450f23b4adfcf2bf8f1c7"];
+  Node18 -> Node27 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node27 [label="Foam::sampledPatch\l::interpolateField",height=0.2,width=0.4,color="black",URL="$a29366.html#a97b086d70d4450f23b4adfcf2bf8f1c7"];
+  Node18 -> Node28 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node28 [label="Foam::sampledTriSurfaceMesh\l::interpolateField",height=0.2,width=0.4,color="black",URL="$a29398.html#a97b086d70d4450f23b4adfcf2bf8f1c7"];
+  Node18 -> Node29 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node29 [label="Foam::mappedPatchFieldBase\l::mappedField",height=0.2,width=0.4,color="red",URL="$a22162.html#a64601fddebd792642d8cefb7b7cd93f9",tooltip="Map sampleField onto *this patch. "];
+  Node18 -> Node31 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node31 [label="Foam::interpolation\l\< Foam::Vector \>::psi",height=0.2,width=0.4,color="black",URL="$a22158.html#a746a21ead7ed7561097637595338028c",tooltip="Return the field to be interpolated. "];
+}

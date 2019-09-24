@@ -1,0 +1,16 @@
+digraph "read"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node13206 [label="read",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node13206 -> Node13207 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13207 [label="Foam::dimensioned\<\l vector \>::dimensioned",height=0.2,width=0.4,color="black",URL="$a26366.html#a97d65bea54a56a86a6ee89c657ffd9cf",tooltip="Construct given a value (creates dimensionless value). "];
+  Node13206 -> Node13208 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13208 [label="Foam::dimensioned\<\l vector \>::read",height=0.2,width=0.4,color="black",URL="$a26366.html#a2b7b1780c55a62a7550725343bff77ba",tooltip="Read value from stream and units from dictionary. "];
+  Node13206 -> Node13209 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13209 [label="Foam::dimensionSet\l::read",height=0.2,width=0.4,color="red",URL="$a26370.html#a4b1272c56fc93e26715db0ffd87a9b1f",tooltip="Read using provided units. Used only in initial parsing. "];
+  Node13206 -> Node13215 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13215 [label="Foam::unitSet",height=0.2,width=0.4,color="red",URL="$a21124.html#ab291fd4325ded310ef6d2212e126b39e",tooltip="Set of all dimensions. "];
+}

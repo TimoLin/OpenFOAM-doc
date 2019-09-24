@@ -1,0 +1,17 @@
+digraph "ha"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node201 [label="ha",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node201 -> Node202 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node202 [label="cp",height=0.2,width=0.4,color="red",URL="$a30378.html#a68cc4116ee1e7f03181ae4ec51672064",tooltip="Heat capacity at constant pressure [J/(kmol K)]. "];
+  Node202 -> Node205 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node205 [label="typeName",height=0.2,width=0.4,color="black",URL="$a30378.html#a561f535eabff4d94fd999c48df4443bd",tooltip="Return the instantiated type name. "];
+  Node201 -> Node206 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node206 [label="hs",height=0.2,width=0.4,color="black",URL="$a30378.html#af7e93c786c1bd6230616e0c98e58a977",tooltip="Sensible enthalpy [J/kmol]. "];
+  Node206 -> Node205 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node206 -> Node201 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node201 -> Node205 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,18 @@
+digraph "smallestDist"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node242 [label="smallestDist",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node242 -> Node243 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node243 [label="Foam::PointHit::distance",height=0.2,width=0.4,color="black",URL="$a27558.html#a288a3ea8e3ee215a5e12afc1002ed4e6",tooltip="Return distance to hit. "];
+  Node242 -> Node244 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node244 [label="getPointNeighbours",height=0.2,width=0.4,color="red",URL="$a24958.html#a1545ea42673856bbee81ec441629ab19",tooltip="Get faces sharing point with face on patch. "];
+  Node242 -> Node329 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node329 [label="nWallFaces",height=0.2,width=0.4,color="black",URL="$a20186.html#ace3ce457d57f6aa80fad527f34d117c8"];
+  Node242 -> Node334 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node334 [label="Foam::PrimitivePatch\l::points",height=0.2,width=0.4,color="black",URL="$a27538.html#aa3c7d968f31c88780c663876f64ef6a6",tooltip="Return reference to global points. "];
+  Node242 -> Node315 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node315 [label="Foam::polyPatch::start",height=0.2,width=0.4,color="red",URL="$a27478.html#a6bfd3e3abb11e98bdb4b98671cec1234",tooltip="Return start label of this patch in the polyMesh face list. "];
+}

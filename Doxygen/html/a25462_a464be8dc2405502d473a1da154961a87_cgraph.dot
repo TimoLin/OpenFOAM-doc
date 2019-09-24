@@ -1,0 +1,13 @@
+digraph "writeDebug"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1387 [label="writeDebug",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1387 -> Node1388 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1388 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node1387 -> Node1390 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1390 [label="writeDebug",height=0.2,width=0.4,color="black",URL="$a25462.html#a281cf6b750bbb3f99c3bde17adee0772",tooltip="Write part of contents nicely formatted. Prints labels only. "];
+  Node1390 -> Node1388 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

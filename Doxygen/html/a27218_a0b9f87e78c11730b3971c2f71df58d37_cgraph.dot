@@ -1,0 +1,42 @@
+digraph "ray"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node494 [label="ray",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node494 -> Node495 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node495 [label="Foam::average",height=0.2,width=0.4,color="black",URL="$a21124.html#a5a041ffab192e0ee23f9062c8f541068"];
+  Node494 -> Node496 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node496 [label="Foam::PointHit::distance",height=0.2,width=0.4,color="black",URL="$a27558.html#a288a3ea8e3ee215a5e12afc1002ed4e6",tooltip="Return distance to hit. "];
+  Node494 -> Node497 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node497 [label="Foam::PointHit::eligibleMiss",height=0.2,width=0.4,color="black",URL="$a27558.html#abbf81df96ec3a23f1889516879f19b7f",tooltip="Is this an eligible miss. "];
+  Node494 -> Node498 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node498 [label="f",height=0.2,width=0.4,color="black",URL="$a17900.html#a888be93833ac7a23170555c69c690288"];
+  Node494 -> Node499 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node499 [label="Foam::PointHit::hit",height=0.2,width=0.4,color="black",URL="$a27558.html#aee8dc30bf27cefe419b15f96e594c155",tooltip="Is there a hit. "];
+  Node494 -> Node500 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node500 [label="Foam::PointHit::hitPoint",height=0.2,width=0.4,color="black",URL="$a27558.html#a0350feff966a8bc8833a84ca454f1e5e",tooltip="Return hit point. "];
+  Node494 -> Node501 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node501 [label="intersection",height=0.2,width=0.4,color="red",URL="$a27218.html#a007cda05b5771fb424000aa5b9acee92",tooltip="Fast intersection with a ray. "];
+  Node501 -> Node498 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node501 -> Node499 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node501 -> Node502 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node502 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node501 -> Node496 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node501 -> Node503 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node503 [label="Foam::PointHit::setHit",height=0.2,width=0.4,color="black",URL="$a27558.html#af857bf9136ee4938a5de88d60b75b706"];
+  Node501 -> Node504 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node504 [label="Foam::PointHit::setPoint",height=0.2,width=0.4,color="black",URL="$a27558.html#a06197856d3e9d1625db3f88c38dc522a"];
+  Node501 -> Node500 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node501 -> Node505 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node505 [label="Foam::PointHit::setDistance",height=0.2,width=0.4,color="black",URL="$a27558.html#a14790d638ec1616229076c4aed712b09"];
+  Node494 -> Node502 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node494 -> Node513 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node513 [label="Foam::PointHit::missPoint",height=0.2,width=0.4,color="black",URL="$a27558.html#a51c7abb4a3f78f3f6478e5ffbdd56c83",tooltip="Return miss point. "];
+  Node494 -> Node505 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node494 -> Node503 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node494 -> Node512 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node512 [label="Foam::PointHit::setMiss",height=0.2,width=0.4,color="black",URL="$a27558.html#aed721b61555f524fcafed97d1a4cd9f6"];
+  Node494 -> Node504 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

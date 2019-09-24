@@ -1,0 +1,11 @@
+digraph "ensightFile"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node0 [label="ensightFile",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="OFstream",height=0.2,width=0.4,color="red",URL="$a26190.html",tooltip="Output to file stream. "];
+  Node0 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="ensightGeoFile",height=0.2,width=0.4,color="black",URL="$a21302.html",tooltip="Specialized Ensight output with extra geometry file header. "];
+}

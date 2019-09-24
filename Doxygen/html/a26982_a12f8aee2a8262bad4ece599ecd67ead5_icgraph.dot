@@ -1,0 +1,18 @@
+digraph "agglomerate"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node630 [label="agglomerate",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node630 -> Node631 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node631 [label="Foam::masterCoarsestGAMGProc\lAgglomeration::agglomerate",height=0.2,width=0.4,color="black",URL="$a26990.html#aafdd9615cff0be3c3c601afb8526aee5",tooltip="Modify agglomeration. Return true if modified. "];
+  Node630 -> Node632 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node632 [label="Foam::eagerGAMGProcAgglomeration\l::agglomerate",height=0.2,width=0.4,color="black",URL="$a26978.html#aafdd9615cff0be3c3c601afb8526aee5",tooltip="Modify agglomeration. Return true if modified. "];
+  Node630 -> Node633 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node633 [label="Foam::procFacesGAMGProcAgglomeration\l::agglomerate",height=0.2,width=0.4,color="black",URL="$a26998.html#aafdd9615cff0be3c3c601afb8526aee5",tooltip="Modify agglomeration. Return true if modified. "];
+  Node630 -> Node634 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node634 [label="Foam::manualGAMGProcAgglomeration\l::agglomerate",height=0.2,width=0.4,color="black",URL="$a26986.html#aafdd9615cff0be3c3c601afb8526aee5",tooltip="Modify agglomeration. Return true if modified. "];
+  Node630 -> Node635 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node635 [label="globalCellCells",height=0.2,width=0.4,color="red",URL="$a26982.html#a59b7daeb97bb6479a59cdeacff965dc5",tooltip="Debug: calculate global cell-cells. "];
+}

@@ -1,0 +1,16 @@
+digraph "mu"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node905 [label="mu",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node905 -> Node906 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node906 [label="Foam::SprayCloud\< Foam\l::DsmcCloud \>::setParcelThermo\lProperties",height=0.2,width=0.4,color="black",URL="$a24530.html#a3b7f36d51838109c584a2ae57c525d57",tooltip="Set parcel thermo properties. "];
+  Node905 -> Node907 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node907 [label="sigma",height=0.2,width=0.4,color="red",URL="$a29842.html#a3508f00c2de78b9dbc3baf65d02c83f7",tooltip="Estimate mixture surface tension [N/m]. "];
+  Node907 -> Node906 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node907 -> Node912 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node912 [label="size",height=0.2,width=0.4,color="black",URL="$a29842.html#a9facbf0a118d395c89884e45a5ca4e4b",tooltip="Return the number of liquids in the mixture. "];
+  Node905 -> Node912 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

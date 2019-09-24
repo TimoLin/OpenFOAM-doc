@@ -1,0 +1,17 @@
+digraph "checkFaceOrthogonality"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node49025 [label="checkFaceOrthogonality",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node49025 -> Node49026 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node49026 [label="cellCentres",height=0.2,width=0.4,color="red",URL="$a27530.html#a7300aee2989c6ec70e39436816461902"];
+  Node49025 -> Node49087 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node49087 [label="checkFaceOrthogonality",height=0.2,width=0.4,color="red",URL="$a27530.html#a0178c6dd85f4f59b812cb200aec5c065",tooltip="Check for non-orthogonality. "];
+  Node49087 -> Node49089 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node49089 [label="checkFacePyramids",height=0.2,width=0.4,color="red",URL="$a27530.html#a7c528f2c0c4fe0a2faa868e126a4ddef",tooltip="Check face pyramid volume. "];
+  Node49025 -> Node49089 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node49025 -> Node49071 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node49071 [label="faceAreas",height=0.2,width=0.4,color="red",URL="$a27530.html#adefd042a02b5fa7ab8ab95063a631420"];
+}

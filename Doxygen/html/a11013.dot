@@ -1,0 +1,19 @@
+digraph "src/OpenFOAM/matrices/Matrix/MatrixIO.C"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node0 [label="src/OpenFOAM/matrices\l/Matrix/MatrixIO.C",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="Matrix.H",height=0.2,width=0.4,color="red",URL="$a11006.html"];
+  Node0 -> Node50 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node50 [label="Istream.H",height=0.2,width=0.4,color="red",URL="$a09092.html"];
+  Node50 -> Node51 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node51 [label="token.H",height=0.2,width=0.4,color="red",URL="$a09221.html"];
+  Node51 -> Node50 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node0 -> Node23 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23 [label="Ostream.H",height=0.2,width=0.4,color="red",URL="$a09098.html"];
+  Node0 -> Node51 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node0 -> Node62 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node62 [label="contiguous.H",height=0.2,width=0.4,color="black",URL="$a12185.html",tooltip="Template function to specify if the data of a type are contiguous. "];
+}

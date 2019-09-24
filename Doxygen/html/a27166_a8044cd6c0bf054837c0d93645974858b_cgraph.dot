@@ -1,0 +1,46 @@
+digraph "~cellMatcher"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node309 [label="~cellMatcher",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node309 -> Node310 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node310 [label="edgeFaces",height=0.2,width=0.4,color="black",URL="$a27166.html#ae076da9cfeee5e8298dedae0500006b8"];
+  Node309 -> Node311 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node311 [label="faceHashValue",height=0.2,width=0.4,color="black",URL="$a27166.html#a666fb43c526d07d473dc8c2babc34db6",tooltip="Hash value of all face sizes of this shape. Can be used for. "];
+  Node309 -> Node312 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node312 [label="faceLabels",height=0.2,width=0.4,color="black",URL="$a27166.html#a29d4a2d3a0047eebabd01c06d3ce543c"];
+  Node309 -> Node313 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node313 [label="faceMap",height=0.2,width=0.4,color="black",URL="$a27166.html#a27917d2fa731477bbb6cfcc70afe8f96"];
+  Node309 -> Node314 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node314 [label="faceSize",height=0.2,width=0.4,color="black",URL="$a27166.html#ac5adf360921c8757c55d37c9210844b4"];
+  Node309 -> Node315 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node315 [label="faceSizeMatch",height=0.2,width=0.4,color="black",URL="$a27166.html#ad209a2f18ce599960299fcfdbd7f7a18",tooltip="Check whether number of face sizes match the shape. "];
+  Node309 -> Node316 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node316 [label="isA",height=0.2,width=0.4,color="black",URL="$a27166.html#a52786192609639134d067c1791c18da5",tooltip="Exact match. Uses faceSizeMatch. "];
+  Node309 -> Node317 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node317 [label="localFaces",height=0.2,width=0.4,color="black",URL="$a27166.html#a001a0a84fd538d27f5ac5192dc5afa3d"];
+  Node309 -> Node318 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node318 [label="localPoint",height=0.2,width=0.4,color="black",URL="$a27166.html#a8d31a812a251b057c1ffd4e80535d78f"];
+  Node309 -> Node319 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node319 [label="matches",height=0.2,width=0.4,color="black",URL="$a27166.html#ace2cbd57b630661c9335c728746ac8e2",tooltip="Like isA but also constructs a cellShape (if shape matches) "];
+  Node309 -> Node320 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node320 [label="matchShape",height=0.2,width=0.4,color="black",URL="$a27166.html#ab4de75840abfa61a8dd87b2ea1ed4537",tooltip="Low level shape recognition. Return true if matches. "];
+  Node309 -> Node321 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node321 [label="model",height=0.2,width=0.4,color="red",URL="$a27166.html#a06f3f0d2054234e47c75d656e30b38b5"];
+  Node309 -> Node325 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node325 [label="nFacePerCell",height=0.2,width=0.4,color="black",URL="$a27166.html#a092d8eae3a9d229f7430d854e0331a97"];
+  Node309 -> Node326 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node326 [label="nMaxVertPerFace",height=0.2,width=0.4,color="black",URL="$a27166.html#a703424a73fe39388375e13beac41e53f"];
+  Node309 -> Node327 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node327 [label="nVertPerCell",height=0.2,width=0.4,color="black",URL="$a27166.html#a7eb05de0abfca07f460b2cb0cac5eb60"];
+  Node309 -> Node328 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node328 [label="pointFaceIndex",height=0.2,width=0.4,color="black",URL="$a27166.html#acea79917d7b2f1eba0d83936833c4499"];
+  Node309 -> Node329 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node329 [label="pointMap",height=0.2,width=0.4,color="black",URL="$a27166.html#ab76175be1a442e3a1ce9ae4d0b25772f"];
+  Node309 -> Node330 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node330 [label="vertLabels",height=0.2,width=0.4,color="black",URL="$a27166.html#ab79dad17b84c11a8dd262c14461fa2e3"];
+  Node309 -> Node331 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node331 [label="write",height=0.2,width=0.4,color="red",URL="$a27166.html#a78cec3e4ecac4a89a3ad8d38f2ad21f5"];
+}

@@ -1,0 +1,30 @@
+digraph "facePointPatch"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="facePointPatch",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="pointPatch",height=0.2,width=0.4,color="black",URL="$a27326.html",tooltip="Basic pointPatch represents a set of points from the mesh. "];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="coupledFacePointPatch",height=0.2,width=0.4,color="red",URL="$a27314.html",tooltip="coupled patch for post-processing. Used as the base class for processor and cyclic pointPatches ..."];
+  Node0 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="emptyPointPatch",height=0.2,width=0.4,color="black",URL="$a27286.html",tooltip="Empty plane patch. "];
+  Node0 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="genericPointPatch",height=0.2,width=0.4,color="black",URL="$a27274.html",tooltip="Substitute for unknown patches. Used for postprocessing when only basic polyPatch info is needed..."];
+  Node0 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12 [label="mappedPointPatch",height=0.2,width=0.4,color="black",URL="$a25086.html",tooltip="mappedPointPatch patch. "];
+  Node0 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13 [label="regionCoupledPointPatch",height=0.2,width=0.4,color="black",URL="$a25174.html",tooltip="Cyclic AMI point patch - place holder only. "];
+  Node0 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14 [label="regionCoupledWallPointPatch",height=0.2,width=0.4,color="black",URL="$a25178.html",tooltip="Cyclic AMI point patch - place holder only. "];
+  Node0 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15 [label="symmetryPlanePointPatch",height=0.2,width=0.4,color="black",URL="$a27306.html",tooltip="Symmetry-plane patch. "];
+  Node0 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16 [label="symmetryPointPatch",height=0.2,width=0.4,color="black",URL="$a27302.html",tooltip="Symmetry patch for non-planar or multi-plane patches. "];
+  Node0 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17 [label="wallPointPatch",height=0.2,width=0.4,color="red",URL="$a27318.html",tooltip="Foam::wallPointPatch. "];
+  Node0 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19 [label="wedgePointPatch",height=0.2,width=0.4,color="black",URL="$a27310.html",tooltip="Wedge front and back plane patch. "];
+}

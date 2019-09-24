@@ -1,0 +1,15 @@
+digraph "size"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node18 [label="size",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node18 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19 [label="initInterfaceMatrixUpdate",height=0.2,width=0.4,color="red",URL="$a27018.html#a4aa231b00ad3efb2f5543ec242689eb2",tooltip="Initialise neighbour matrix update. "];
+  Node19 -> Node24 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node24 [label="updateInterfaceMatrix",height=0.2,width=0.4,color="red",URL="$a27018.html#a4144bb27e8739ab5a673b3da1e245e17",tooltip="Update result field based on interface functionality. "];
+  Node18 -> Node27 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node27 [label="Foam::GAMGInterface\l::size",height=0.2,width=0.4,color="red",URL="$a27026.html#a03bc1200aac252c4d3e18657d700b71c",tooltip="Return size. "];
+  Node18 -> Node24 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

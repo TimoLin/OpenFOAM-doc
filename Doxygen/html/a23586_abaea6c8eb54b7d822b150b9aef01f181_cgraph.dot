@@ -1,0 +1,40 @@
+digraph "hitCyclicAMIPatch"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3325 [label="hitCyclicAMIPatch",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3325 -> Node3326 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3326 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node3325 -> Node3369 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3369 [label="Foam::polyMesh::faceOwner",height=0.2,width=0.4,color="black",URL="$a27410.html#a57752b49bfee23ca1944c3fb0493974f",tooltip="Return face owner. "];
+  Node3325 -> Node3370 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3370 [label="Foam::polyMesh::faces",height=0.2,width=0.4,color="black",URL="$a27410.html#a431c0a24765f0bb6d32f6a03ce0e9b57",tooltip="Return raw faces. "];
+  Node3370 -> Node3326 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3325 -> Node3371 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3371 [label="Foam::coupledPolyPatch\l::forwardT",height=0.2,width=0.4,color="black",URL="$a27426.html#ae135c648b81be5732b7634127e41608d",tooltip="Return face transformation tensor. "];
+  Node3325 -> Node3372 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3372 [label="Foam::patchIdentifier\l::name",height=0.2,width=0.4,color="black",URL="$a27122.html#acc80e00a8ac919288fb55bd14cc88bf6",tooltip="Return name. "];
+  Node3325 -> Node3373 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3373 [label="Foam::cyclicAMIPolyPatch\l::neighbPatch",height=0.2,width=0.4,color="black",URL="$a24946.html#a88ae12bb9d26eaa4a44fa52aa9f145ac",tooltip="Return a reference to the neighbour patch. "];
+  Node3325 -> Node3374 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3374 [label="Foam::coupledPolyPatch\l::parallel",height=0.2,width=0.4,color="red",URL="$a27426.html#a6f2ad23016ecf05385032d2ea2fea27d",tooltip="Are the cyclic planes parallel. "];
+  Node3325 -> Node3376 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3376 [label="Foam::cyclicAMIPolyPatch\l::pointFace",height=0.2,width=0.4,color="black",URL="$a24946.html#aec813a5e0813f497999ac812ea46f1e6",tooltip="Return face index on neighbour patch which shares point p. "];
+  Node3325 -> Node3377 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3377 [label="s",height=0.2,width=0.4,color="black",URL="$a18905.html#abb9c4233033fad2ad0206cd4adad3b9f"];
+  Node3325 -> Node3378 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3378 [label="Foam::coupledPolyPatch\l::separated",height=0.2,width=0.4,color="black",URL="$a27426.html#a6b412b0f0250badc8106cec72d6b875c",tooltip="Are the planes separated. "];
+  Node3378 -> Node3379 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3379 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node3325 -> Node3380 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3380 [label="Foam::coupledPolyPatch\l::separation",height=0.2,width=0.4,color="black",URL="$a27426.html#aa19aef17b000bba8d3a1b010b34af485",tooltip="If the planes are separated the separation vector. "];
+  Node3325 -> Node3379 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3325 -> Node3381 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3381 [label="Foam::polyPatch::start",height=0.2,width=0.4,color="red",URL="$a27478.html#a6bfd3e3abb11e98bdb4b98671cec1234",tooltip="Return start label of this patch in the polyMesh face list. "];
+  Node3325 -> Node3390 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3390 [label="Foam::T",height=0.2,width=0.4,color="red",URL="$a21124.html#ae57fda0abb14bb0944947c463c6e09d4"];
+  Node3325 -> Node3395 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3395 [label="transformProperties",height=0.2,width=0.4,color="black",URL="$a23586.html#a021e6438cfdab7a29053eb812cda8ea3",tooltip="Transform the physical properties of the particle. "];
+}

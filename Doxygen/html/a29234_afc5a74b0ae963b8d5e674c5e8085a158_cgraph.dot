@@ -1,0 +1,20 @@
+digraph "reCut"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node14 [label="reCut",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node14 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15 [label="Foam::List::clear",height=0.2,width=0.4,color="black",URL="$a25694.html#ac8bb3912a3ce86b15842e79d0b421204",tooltip="Clear the list, i.e. set size to zero. "];
+  Node14 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16 [label="Foam::MeshedSurface\l\< face \>::clear",height=0.2,width=0.4,color="black",URL="$a29566.html#ac8bb3912a3ce86b15842e79d0b421204",tooltip="Clear all storage. "];
+  Node14 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17 [label="Foam::plane::normal",height=0.2,width=0.4,color="black",URL="$a27570.html#a7561a676d5a3fa90384c444758baac4c",tooltip="Return plane normal. "];
+  Node14 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 [label="Foam::primitiveMesh\l::points",height=0.2,width=0.4,color="black",URL="$a27530.html#ad0e408ab3f867b58e419eb1cd8c2dbb6",tooltip="Return mesh points. "];
+  Node14 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19 [label="Foam::plane::refPoint",height=0.2,width=0.4,color="black",URL="$a27570.html#a7223767562e3dabf175946fb83a13237",tooltip="Return or return plane base point. "];
+  Node14 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20 [label="remapFaces",height=0.2,width=0.4,color="red",URL="$a29234.html#ac15d32161096e3b5c83b0a0dee739b65",tooltip="remap action on triangulation or cleanup "];
+}

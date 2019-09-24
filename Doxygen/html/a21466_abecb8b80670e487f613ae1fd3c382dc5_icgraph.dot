@@ -1,0 +1,12 @@
+digraph "edgeIsCut"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node38 [label="edgeIsCut",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node38 -> Node39 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node39 [label="Foam::meshCutAndRemove\l::setRefinement",height=0.2,width=0.4,color="red",URL="$a21502.html#a5b289474e53287a9460c322f12434dec",tooltip="Do actual cutting with cut description. Inserts mesh changes. "];
+  Node38 -> Node41 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node41 [label="Foam::meshCutter::setRefinement",height=0.2,width=0.4,color="red",URL="$a21506.html#ad6964ecaeb84631835d8a4e51bf706bb",tooltip="Do actual cutting with cut description. Inserts mesh changes. "];
+}

@@ -1,0 +1,36 @@
+digraph "operator()"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2 [label="operator()",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="Foam::ThermoParcel\l::calc",height=0.2,width=0.4,color="red",URL="$a23938.html#a1c2aa9de8e2381d1a7be78bd687fd255",tooltip="Update parcel properties over the time interval. "];
+  Node3 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="Pr",height=0.2,width=0.4,color="black",URL="$a39152.html#a1db7a9e58e450e6ddc830a30f0674a02"];
+  Node2 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14 [label="Foam::ThermoParcel\l::calcSurfaceValues",height=0.2,width=0.4,color="red",URL="$a23938.html#a917a3dd08cd60e49ae7ec92c49465c08",tooltip="Calculate surface thermo properties. "];
+  Node14 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 [label="Foam::ThermoParcel\l::cellValueSourceCorrection",height=0.2,width=0.4,color="red",URL="$a23938.html#a12514aea0fca411ec9a08597bd2e709d",tooltip="Correct cell values using latest transfer information. "];
+  Node18 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19 [label="Foam::ThermoParcel::Cp",height=0.2,width=0.4,color="black",URL="$a23938.html#a0038fb392022aa13d08ff2674ecaf3e7",tooltip="Return const access to specific heat capacity. "];
+  Node2 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20 [label="Foam::ThermoParcel::Cpc",height=0.2,width=0.4,color="black",URL="$a23938.html#a63a688e9716e2a2d0b26f4e5da3db0df",tooltip="Return const access to carrier specific heat capacity. "];
+  Node2 -> Node21 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21 [label="Foam::ThermoParcel::hs",height=0.2,width=0.4,color="black",URL="$a23938.html#a2d072642813ed6e52384012c2c8d32d7",tooltip="Return the parcel sensible enthalpy. "];
+  Node2 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 -> Node22 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22 [label="Foam::ThermoParcel\l::readFields",height=0.2,width=0.4,color="red",URL="$a23938.html#ae1118a08fed2fe58c47d9142f0f131af",tooltip="Read. "];
+  Node2 -> Node27 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node27 [label="Foam::ThermoParcel\l::setCellValues",height=0.2,width=0.4,color="red",URL="$a23938.html#a41280fa67cfd5c60a05387baa00989df",tooltip="Set cell values. "];
+  Node27 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 -> Node28 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node28 [label="Foam::ThermoParcel::T",height=0.2,width=0.4,color="black",URL="$a23938.html#a0ad02c99abf2f844a50cdd8383199338",tooltip="Return const access to temperature. "];
+  Node2 -> Node29 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node29 [label="Foam::ThermoParcel::Tc",height=0.2,width=0.4,color="black",URL="$a23938.html#af48b9354f5ed6385bc7e253772e99508",tooltip="Return const access to carrier temperature. "];
+  Node2 -> Node30 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node30 [label="Foam::ThermoParcel\l::writeFields",height=0.2,width=0.4,color="red",URL="$a23938.html#a906eddb9c2a5710c531a5a57276cc18e",tooltip="Write. "];
+}

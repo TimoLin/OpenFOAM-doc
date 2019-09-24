@@ -1,0 +1,17 @@
+digraph "separation"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node506 [label="separation",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node506 -> Node507 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node507 [label="Foam::particle::correctAfter\lParallelTransfer",height=0.2,width=0.4,color="red",URL="$a23586.html#abf3eaa39fbf239fede9c5c4af58c851d",tooltip="Convert processor patch addressing to the global equivalents. "];
+  Node506 -> Node510 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node510 [label="Foam::particle::hitCyclic\lAMIPatch",height=0.2,width=0.4,color="black",URL="$a23586.html#abaea6c8eb54b7d822b150b9aef01f181",tooltip="Overridable function to handle the particle hitting a cyclicAMIPatch. "];
+  Node510 -> Node511 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node511 [label="Foam::particle::hitCyclic\lPatch",height=0.2,width=0.4,color="red",URL="$a23586.html#a18d4a8f6e9443b58d4ba678034d03d19",tooltip="Overridable function to handle the particle hitting a cyclicPatch. "];
+  Node506 -> Node511 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node506 -> Node517 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node517 [label="Foam::processorCyclicPoly\lPatch::separation",height=0.2,width=0.4,color="black",URL="$a27458.html#aa19aef17b000bba8d3a1b010b34af485",tooltip="If the planes are separated the separation vector. "];
+}

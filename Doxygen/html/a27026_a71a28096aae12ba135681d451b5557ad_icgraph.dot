@@ -1,0 +1,12 @@
+digraph "combine"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node250 [label="combine",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node250 -> Node251 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node251 [label="Foam::GAMGAgglomeration\l::combineLevels",height=0.2,width=0.4,color="black",URL="$a26970.html#abaee0f1c3a95a986561b1ea1bfbdd61e",tooltip="Combine a level with the previous one. "];
+  Node250 -> Node252 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node252 [label="faceRestrictAddressing",height=0.2,width=0.4,color="black",URL="$a27026.html#abff59faa28e130ae0bee48a7dbbe45e7",tooltip="Return non-const access to face restrict addressing. "];
+}

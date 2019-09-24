@@ -1,0 +1,20 @@
+digraph "New"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node110 [label="New",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node110 -> Node111 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node111 [label="clone",height=0.2,width=0.4,color="black",URL="$a25234.html#a786115eda0351cda83e2179c8c5b9130",tooltip="Clone. "];
+  Node110 -> Node112 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node112 [label="Foam::searchableSurface\l::iNew::operator()",height=0.2,width=0.4,color="black",URL="$a25238.html#ab149874a204c545d982924aaa2664b24"];
+  Node110 -> Node113 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node113 [label="Foam::searchableSurfaces\l::searchableSurfaces",height=0.2,width=0.4,color="black",URL="$a25246.html#a728d2d5193c640e1884f841fccc9c21f",tooltip="Construct from dictionary and whether to construct names always. "];
+  Node110 -> Node114 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node114 [label="Foam::regionCoupledBase\l::surfPtr",height=0.2,width=0.4,color="red",URL="$a25182.html#a9f816d46870e7842532ae562aa6ff1d6",tooltip="Return a reference to the projection surface. "];
+  Node110 -> Node119 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node119 [label="Foam::cyclicAMIPolyPatch\l::surfPtr",height=0.2,width=0.4,color="red",URL="$a24946.html#a9f816d46870e7842532ae562aa6ff1d6",tooltip="Return a reference to the projection surface. "];
+  Node110 -> Node121 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node121 [label="Foam::mappedPatchBase\l::surfPtr",height=0.2,width=0.4,color="black",URL="$a25094.html#a9f816d46870e7842532ae562aa6ff1d6",tooltip="Return a pointer to the AMI projection surface. "];
+}

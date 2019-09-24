@@ -1,0 +1,12 @@
+digraph "cut"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node410 [label="cut",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node410 -> Node411 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node411 [label="Foam::topoCellLooper::cut",height=0.2,width=0.4,color="red",URL="$a21482.html#a3d6305b93327dbf1434bf2c8362a3a3e",tooltip="Create cut along circumference of cellI. Gets current mesh cuts. "];
+  Node410 -> Node413 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node413 [label="~hexCellLooper",height=0.2,width=0.4,color="black",URL="$a21478.html#a6a52c13e1ef9f1b654e6d1667b177afb",tooltip="Destructor. "];
+}

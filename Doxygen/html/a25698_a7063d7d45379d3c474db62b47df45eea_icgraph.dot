@@ -1,0 +1,22 @@
+digraph "operator="
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2482 [label="operator=",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2482 -> Node2483 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2483 [label="Foam::UList::greater\l::operator()",height=0.2,width=0.4,color="black",URL="$a25986.html#a49202d8cfd6e19f3d43c028252050ed7"];
+  Node2482 -> Node2484 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2484 [label="Foam::SortableList\l::operator=",height=0.2,width=0.4,color="red",URL="$a25918.html#a7063d7d45379d3c474db62b47df45eea",tooltip="Assignment of all entries to the given value. "];
+  Node2482 -> Node2486 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2486 [label="Foam::DynamicField\l::operator=",height=0.2,width=0.4,color="red",URL="$a26458.html#a7063d7d45379d3c474db62b47df45eea",tooltip="Assignment of all addressed entries to the given value. "];
+  Node2482 -> Node2488 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2488 [label="Foam::slicedFvPatchField\l::slicedFvPatchField",height=0.2,width=0.4,color="red",URL="$a21994.html#ab205a13403235d19d52e4b03655c7392",tooltip="Construct from patch, internal field and field to slice. "];
+  Node2482 -> Node2492 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2492 [label="Foam::slicedFvsPatchField\l::slicedFvsPatchField",height=0.2,width=0.4,color="red",URL="$a22378.html#a114d3452b07d5e4d3165167c261874ad",tooltip="Construct from patch, internal field and field to slice. "];
+  Node2482 -> Node2496 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2496 [label="Foam::slicedFvPatchField\l::~slicedFvPatchField",height=0.2,width=0.4,color="black",URL="$a21994.html#a0240e713740f9445b904130a70ae2fa7",tooltip="Destructor. "];
+  Node2482 -> Node2497 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2497 [label="Foam::slicedFvsPatchField\l::~slicedFvsPatchField",height=0.2,width=0.4,color="black",URL="$a22378.html#ada472aa0e145ffce0601928b6632941b",tooltip="Destructor. "];
+}

@@ -1,0 +1,16 @@
+digraph "nSegments"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node33 [label="nSegments",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node33 -> Node34 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34 [label="localParameter",height=0.2,width=0.4,color="red",URL="$a24750.html#a70bfa9ccb54f2d4c578d7cc750717ffb",tooltip="Return the line segment and the local parameter [0..1]. "];
+  Node33 -> Node41 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node41 [label="Foam::BSpline::position",height=0.2,width=0.4,color="black",URL="$a24726.html#a4cc6436f4063afc1cd3bcb72f91fe236",tooltip="Return the point position corresponding to the local parameter. "];
+  Node33 -> Node42 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node42 [label="Foam::CatmullRomSpline\l::position",height=0.2,width=0.4,color="black",URL="$a24734.html#a4cc6436f4063afc1cd3bcb72f91fe236",tooltip="Return the point position corresponding to the local parameter. "];
+  Node33 -> Node43 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node43 [label="position",height=0.2,width=0.4,color="black",URL="$a24750.html#a2b174e7e35524bedbed55fd4e14bd628",tooltip="Return the point position corresponding to the local parameter. "];
+}

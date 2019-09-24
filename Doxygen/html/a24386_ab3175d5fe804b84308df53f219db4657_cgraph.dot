@@ -1,0 +1,15 @@
+digraph "median"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node932 [label="median",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node932 -> Node933 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node933 [label="Foam::UList::first",height=0.2,width=0.4,color="black",URL="$a25698.html#a1c9828bc3de9502754d944c95a2ce0d9",tooltip="Return the first element of the list. "];
+  Node932 -> Node934 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node934 [label="normalised",height=0.2,width=0.4,color="red",URL="$a24386.html#a8e68a759f0bcb21f4f133737e1318ef6"];
+  Node934 -> Node933 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node932 -> Node1025 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1025 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+}

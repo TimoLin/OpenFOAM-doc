@@ -1,0 +1,18 @@
+digraph "owner"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node856 [label="owner",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node856 -> Node857 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node857 [label="clone",height=0.2,width=0.4,color="black",URL="$a24946.html#afff6d4f7511147e0c8a4b8a5448296ec",tooltip="Construct and return a clone, resetting the face list. "];
+  Node856 -> Node858 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node858 [label="Foam::cyclicACMIPolyPatch\l::mask",height=0.2,width=0.4,color="red",URL="$a24926.html#a4123228a862524a621bb0ea10dad3a5d",tooltip="Mask field where 1 = overlap, 0 = no-overlap. "];
+  Node856 -> Node861 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node861 [label="Foam::combine::operator()",height=0.2,width=0.4,color="black",URL="$a24810.html#aa5387b4bb395a2cc76e4ff25f8d0f43f"];
+  Node856 -> Node862 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node862 [label="Foam::cyclicAMIFvPatch\l::owner",height=0.2,width=0.4,color="black",URL="$a22810.html#a357c5e37e5d7c583fa172625b8c11009"];
+  Node856 -> Node863 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node863 [label="Foam::cyclicACMIFvPatch\l::owner",height=0.2,width=0.4,color="black",URL="$a22806.html#a357c5e37e5d7c583fa172625b8c11009"];
+}

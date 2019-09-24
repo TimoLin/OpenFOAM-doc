@@ -1,0 +1,16 @@
+digraph "alphaEff"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1632 [label="alphaEff",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1632 -> Node1633 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1633 [label="Foam::compressible\l::LESModel::alphaEff",height=0.2,width=0.4,color="black",URL="$a30634.html#acdaf73865da99710a39b895f8c10b339",tooltip="Return the effective thermal diffusivity. "];
+  Node1632 -> Node1634 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1634 [label="Foam::compressible\l::RASModel::alphaEff",height=0.2,width=0.4,color="black",URL="$a30758.html#acdaf73865da99710a39b895f8c10b339",tooltip="Return the effective turbulent thermal diffusivity. "];
+  Node1632 -> Node1635 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1635 [label="dpdt",height=0.2,width=0.4,color="black",URL="$a29734.html#a0e4e637e8932a391cf4a45df07c3a170",tooltip="Should the dpdt term be included in the enthalpy equation. "];
+  Node1632 -> Node1636 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1636 [label="Foam::compressible\l::alphatJayatillekeWallFunction\lFvPatchScalarField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a30670.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+}

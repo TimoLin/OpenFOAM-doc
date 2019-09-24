@@ -1,0 +1,15 @@
+digraph "write"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node459 [label="write",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node459 -> Node460 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node460 [label="Foam::IOstream::format",height=0.2,width=0.4,color="black",URL="$a26226.html#a33bbef3587114a06f7bdc0b91ba57ed9",tooltip="Return current stream format. "];
+  Node459 -> Node461 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node461 [label="Foam::OFstream::stdStream",height=0.2,width=0.4,color="red",URL="$a26190.html#a508c1eb7ca76b7845a2c46561d2325d3",tooltip="Access to underlying std::ostream. "];
+  Node459 -> Node505 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node505 [label="write",height=0.2,width=0.4,color="black",URL="$a21298.html#a585eddd24704fabf8fb2b6f1da342813",tooltip="binary write "];
+  Node505 -> Node461 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

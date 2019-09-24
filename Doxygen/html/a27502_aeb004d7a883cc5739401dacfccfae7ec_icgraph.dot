@@ -1,0 +1,21 @@
+digraph "swapBoundaryFacePositions"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node6416 [label="swapBoundaryFacePositions",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node6416 -> Node6417 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6417 [label="Foam::polyMeshGeometry\l::checkFaceDotProduct",height=0.2,width=0.4,color="red",URL="$a21562.html#a5014e575335db939bc66eb2fe32ac48f",tooltip="See primitiveMesh. "];
+  Node6416 -> Node6433 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6433 [label="Foam::polyMeshGeometry\l::checkFaceTets",height=0.2,width=0.4,color="red",URL="$a21562.html#ac78de3d27453106d3cf818bda3fd90f4",tooltip="See primitiveMesh. "];
+  Node6416 -> Node6427 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6427 [label="Foam::polyMeshGeometry\l::checkFaceTwist",height=0.2,width=0.4,color="red",URL="$a21562.html#a1d15f5f7fdae54e4c34b03a0462cd535",tooltip="Triangle (from face-centre decomposition) normal v.s. "];
+  Node6416 -> Node6431 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6431 [label="Foam::polyMeshGeometry\l::checkFaceWeights",height=0.2,width=0.4,color="red",URL="$a21562.html#a6dbbfaac834107f888c95c13272d8d8a",tooltip="Interpolation weights (0.5 for regular mesh) "];
+  Node6416 -> Node6443 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6443 [label="Foam::NamedEnum\< direction\lType, 3 \>::names",height=0.2,width=0.4,color="black",URL="$a25998.html#a7350da3a0edd92cd11e6c479c9967dc8"];
+  Node6416 -> Node6444 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6444 [label="swapBoundaryFaceList",height=0.2,width=0.4,color="red",URL="$a27502.html#a30e4f2ce2c2399c35f5d674bdb7c07fd",tooltip="Swap coupled boundary face values. "];
+  Node6444 -> Node6443 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

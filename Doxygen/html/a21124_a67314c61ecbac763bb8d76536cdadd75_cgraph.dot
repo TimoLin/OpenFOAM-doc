@@ -1,0 +1,19 @@
+digraph "symm"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node41044 [label="symm",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node41044 -> Node41045 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node41045 [label="Foam::dimensioned::\ldimensions",height=0.2,width=0.4,color="black",URL="$a26366.html#a512673c2674ca2d38885f1bb5f6994fb",tooltip="Return const reference to dimensions. "];
+  Node41044 -> Node41046 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node41046 [label="Foam::dimensioned::name",height=0.2,width=0.4,color="black",URL="$a26366.html#ade4113569ef0db70665fded275a5e38e",tooltip="Return const reference to name. "];
+  Node41044 -> Node41047 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node41047 [label="symm",height=0.2,width=0.4,color="black",URL="$a21124.html#a112755faabb5ff081d7a25a936a1d3c4"];
+  Node41047 -> Node41045 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node41047 -> Node41046 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node41047 -> Node41048 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node41048 [label="Foam::dimensioned::\lvalue",height=0.2,width=0.4,color="black",URL="$a26366.html#a7948200a26c85fc3a83ffa510a91d668",tooltip="Return const reference to value. "];
+  Node41044 -> Node41048 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

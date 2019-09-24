@@ -1,0 +1,26 @@
+digraph "calc"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node385 [label="calc",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node385 -> Node386 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node386 [label="Foam::calc",height=0.2,width=0.4,color="black",URL="$a21124.html#a0cd162e2e073202837b26ee22bda5c1d"];
+  Node385 -> Node387 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node387 [label="calcAtomization",height=0.2,width=0.4,color="red",URL="$a24534.html#a56afb8fb801bc0e2fc6afa3eb81d2cf2",tooltip="Correct parcel properties according to atomization model. "];
+  Node387 -> Node390 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node390 [label="d",height=0.2,width=0.4,color="black",URL="$a38951.html#aa182a9055736468dd160f12649a01fd1"];
+  Node387 -> Node411 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node411 [label="Foam::CompositionModel\l::liquids",height=0.2,width=0.4,color="black",URL="$a23806.html#a03638032f60c2f702e8e3a9fd53f9952",tooltip="Return the global (additional) liquids. "];
+  Node385 -> Node417 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node417 [label="Foam::cbrt",height=0.2,width=0.4,color="red",URL="$a21124.html#aca0b7feea326c0e1e9e04078a319d019"];
+  Node385 -> Node390 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node385 -> Node411 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node385 -> Node423 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node423 [label="pow3",height=0.2,width=0.4,color="red",URL="$a12539.html#a321e95ad714c9c00f472182f293fd081"];
+  Node385 -> Node426 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node426 [label="X0",height=0.2,width=0.4,color="black",URL="$a19715.html#abd8f7f6773b396c200c6633258dc9333"];
+  Node385 -> Node427 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node427 [label="Y0",height=0.2,width=0.4,color="black",URL="$a19715.html#afcc40fd28ff89183f2bf06a6608709ae"];
+}

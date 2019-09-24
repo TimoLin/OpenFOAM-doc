@@ -1,0 +1,27 @@
+digraph "isFeaturePoint"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node94 [label="isFeaturePoint",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node94 -> Node95 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node95 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node94 -> Node138 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node138 [label="Foam::primitiveMesh\l::edges",height=0.2,width=0.4,color="black",URL="$a27530.html#a21d764179912ddda5c6f95193c289846",tooltip="Return mesh edges. Uses calcEdges. "];
+  Node94 -> Node139 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node139 [label="Foam::edge::end",height=0.2,width=0.4,color="red",URL="$a27210.html#a5ac1c619caccdf5bcf8c3d58a409849f",tooltip="Return end vertex label. "];
+  Node94 -> Node141 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node141 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node94 -> Node142 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node142 [label="Foam::primitiveMesh\l::nEdges",height=0.2,width=0.4,color="red",URL="$a27530.html#a086513bcff1a3f1684e1a3879dd90deb"];
+  Node142 -> Node138 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node94 -> Node144 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node144 [label="Foam::primitiveMesh\l::points",height=0.2,width=0.4,color="black",URL="$a27530.html#ad0e408ab3f867b58e419eb1cd8c2dbb6",tooltip="Return mesh points. "];
+  Node94 -> Node145 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node145 [label="Foam::edge::start",height=0.2,width=0.4,color="red",URL="$a27210.html#afe56bdd2031bbf8321e35e2330c0b990",tooltip="Return start vertex label. "];
+  Node94 -> Node146 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node146 [label="Foam::edge::vec",height=0.2,width=0.4,color="black",URL="$a27210.html#a72eb1bfd9e030458c6f7f33202ea5b4f",tooltip="Return the vector (end - start) "];
+  Node146 -> Node139 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node146 -> Node145 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

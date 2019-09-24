@@ -1,0 +1,17 @@
+digraph "clone"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node9 [label="clone",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="active",height=0.2,width=0.4,color="black",URL="$a24358.html#ad9735e23cb0888fb98e1c5893aecff7e",tooltip="Flag to indicate whether model activates heat transfer model. "];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="Nu",height=0.2,width=0.4,color="black",URL="$a24358.html#a194ddf4cf1e231091459b1aa6aba7c15",tooltip="Nusselt number. "];
+  Node9 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12 [label="Pr",height=0.2,width=0.4,color="black",URL="$a24358.html#aad3bfe8cf7e9e9f9b0e530576568f338",tooltip="Prandtl number. "];
+  Node9 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13 [label="~NoHeatTransfer",height=0.2,width=0.4,color="black",URL="$a24358.html#aacc3daa4ddc5fd3be26bfa72c52486bb",tooltip="Destructor. "];
+}

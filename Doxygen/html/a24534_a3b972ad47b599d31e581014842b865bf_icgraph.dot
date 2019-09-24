@@ -1,0 +1,12 @@
+digraph "SprayParcel"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="SprayParcel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="Foam::SprayParcel::\lconstantProperties::\lconstantProperties",height=0.2,width=0.4,color="black",URL="$a24538.html#a70c4cb52d6778a951ea9042fd47779f3",tooltip="Construct from components. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="solveTABEq",height=0.2,width=0.4,color="red",URL="$a24534.html#a7935951deed5d629b5c37f2fd23ef3ca",tooltip="Solve the TAB equation. "];
+}

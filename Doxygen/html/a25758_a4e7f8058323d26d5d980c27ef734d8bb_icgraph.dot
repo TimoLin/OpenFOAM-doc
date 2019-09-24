@@ -1,0 +1,14 @@
+digraph "erase"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node20 [label="erase",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node20 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21 [label="Foam::ILList\< DLListBase,\l Foam::molecule \>::ILList",height=0.2,width=0.4,color="black",URL="$a25758.html#ab26101f20fc6fe43b7335ba0e7249063",tooltip="Construct given initial T. "];
+  Node20 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22 [label="Foam::refinementSurfaces\l::refinementSurfaces",height=0.2,width=0.4,color="black",URL="$a24686.html#a3eecea7df2307ad6efac0393c421de74",tooltip="Construct from surfaces and dictionary. "];
+  Node20 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23 [label="Foam::shellSurfaces\l::shellSurfaces",height=0.2,width=0.4,color="red",URL="$a24694.html#a2c429cbb881bcc26360946abf9c5f3b9",tooltip="Construct from geometry and dictionary. "];
+}

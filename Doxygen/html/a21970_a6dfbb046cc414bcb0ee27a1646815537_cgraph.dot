@@ -1,0 +1,21 @@
+digraph "clone"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node23 [label="clone",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node23 -> Node24 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node24 [label="fixesValue",height=0.2,width=0.4,color="black",URL="$a21970.html#a0de932061a01f71d2b747c01a4d1a467",tooltip="Return true if this patch field fixes a value. "];
+  Node23 -> Node25 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node25 [label="gradientBoundaryCoeffs",height=0.2,width=0.4,color="red",URL="$a21970.html#a82aaa73cc69fe46d94d900ae1fc1a68d",tooltip="Return the matrix source coefficients corresponding to the. "];
+  Node23 -> Node74 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node74 [label="gradientInternalCoeffs",height=0.2,width=0.4,color="red",URL="$a21970.html#a3190133c49936e7f0fb70c588951402f",tooltip="Return the matrix diagonal coefficients corresponding to the. "];
+  Node23 -> Node75 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node75 [label="valueBoundaryCoeffs",height=0.2,width=0.4,color="red",URL="$a21970.html#a9b2e6c272ac0cf09dbfe76b65cc668da",tooltip="Return the matrix source coefficients corresponding to the. "];
+  Node23 -> Node76 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node76 [label="valueInternalCoeffs",height=0.2,width=0.4,color="red",URL="$a21970.html#a541ce5c2450b431429d4b4833b66761f",tooltip="Return the matrix diagonal coefficients corresponding to the. "];
+  Node76 -> Node75 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23 -> Node77 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node77 [label="write",height=0.2,width=0.4,color="red",URL="$a21970.html#a293fdfec8bdfbd5c3913ab4c9f3454ff",tooltip="Write. "];
+}

@@ -1,0 +1,35 @@
+digraph "timeName"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node16502 [label="timeName",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node16502 -> Node16503 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16503 [label="baffleAndSplitMesh",height=0.2,width=0.4,color="black",URL="$a24662.html#acb8d36155594ec3a96e6b94925c85881",tooltip="Split off unreachable areas of mesh. "];
+  Node16503 -> Node16504 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16504 [label="mergeBaffles",height=0.2,width=0.4,color="black",URL="$a24662.html#aa959f1ef1377d3a4eaac5ff099280e50",tooltip="Merge baffles. Gets pairs of faces. "];
+  Node16504 -> Node16503 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16504 -> Node16505 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16505 [label="createZoneBaffles",height=0.2,width=0.4,color="red",URL="$a24662.html#a79af0bcc267d8fda8b3f4e683cac915b",tooltip="Create baffles for faces straddling zoned surfaces. Return. "];
+  Node16505 -> Node16507 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16507 [label="userFaceData",height=0.2,width=0.4,color="black",URL="$a24662.html#a2cb6efa4184bedfbed60b069881c26a3"];
+  Node16504 -> Node16507 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16503 -> Node16507 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16502 -> Node16508 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16508 [label="createBaffles",height=0.2,width=0.4,color="black",URL="$a24662.html#adf59ba1ba1060862e3274059692eea57",tooltip="Create baffle for every internal face where ownPatch != -1. "];
+  Node16508 -> Node16503 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16508 -> Node16505 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16508 -> Node16504 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16508 -> Node16507 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16502 -> Node16505 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16502 -> Node16509 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16509 [label="dupNonManifoldPoints",height=0.2,width=0.4,color="black",URL="$a24662.html#a9dbc8bd1d38070053486014e911d03a1",tooltip="Find boundary points that connect to more than one cell. "];
+  Node16502 -> Node16504 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16502 -> Node16510 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16510 [label="Foam::autoSnapDriver\l::preSmoothPatch",height=0.2,width=0.4,color="red",URL="$a24622.html#a5328524e4037f1f8ecb542c16492d6b9",tooltip="Smooth the mesh (patch and internal) to increase visibility. "];
+  Node16502 -> Node16507 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16502 -> Node16514 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16514 [label="zonify",height=0.2,width=0.4,color="red",URL="$a24662.html#a90cf965dfe02eb20f11a4a8c6035747f",tooltip="Put faces/cells into zones according to surface specification. "];
+  Node16514 -> Node16507 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

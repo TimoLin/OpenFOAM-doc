@@ -1,0 +1,18 @@
+digraph "read"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node327 [label="read",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node327 -> Node328 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node328 [label="barotropicCompressibility\lModel",height=0.2,width=0.4,color="black",URL="$a29718.html#a601ec85ff7a30e1ef00661f7dbdb5cc2",tooltip="Construct from components. "];
+  Node327 -> Node329 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node329 [label="psi",height=0.2,width=0.4,color="black",URL="$a29718.html#ade46887c1cae3422465be01435b56d8e",tooltip="Return the compressibility. "];
+  Node327 -> Node330 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node330 [label="Foam::compressibilityModels\l::linear::read",height=0.2,width=0.4,color="red",URL="$a29726.html#a3a64ab9d5be1c13ec93e1d26e24cdaed",tooltip="Read transportProperties dictionary. "];
+  Node327 -> Node333 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node333 [label="Foam::compressibilityModels\l::Wallis::read",height=0.2,width=0.4,color="red",URL="$a29730.html#a3a64ab9d5be1c13ec93e1d26e24cdaed",tooltip="Read transportProperties dictionary. "];
+  Node327 -> Node336 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node336 [label="Foam::compressibilityModels\l::Chung::read",height=0.2,width=0.4,color="red",URL="$a29722.html#a3a64ab9d5be1c13ec93e1d26e24cdaed",tooltip="Read transportProperties dictionary. "];
+}

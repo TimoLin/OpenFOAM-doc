@@ -1,0 +1,13 @@
+digraph "surfPtr"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node990 [label="surfPtr",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node990 -> Node991 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node991 [label="owner",height=0.2,width=0.4,color="red",URL="$a25182.html#a21dcffdf27811a03e0d7ef231bf18c28",tooltip="Does this side own the patch? "];
+  Node991 -> Node993 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node993 [label="sameRegion",height=0.2,width=0.4,color="red",URL="$a25182.html#a977bc99af5c1f60db5bf13c956652884",tooltip="Cached sampleRegion != mesh.name() "];
+  Node990 -> Node993 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

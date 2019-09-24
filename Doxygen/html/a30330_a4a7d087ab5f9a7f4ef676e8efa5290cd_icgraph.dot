@@ -1,0 +1,16 @@
+digraph "species"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node891 [label="species",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node891 -> Node892 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node892 [label="Foam::solidReaction\l::clone",height=0.2,width=0.4,color="black",URL="$a30202.html#aab6f023e63ed2a6a741cf2603e63143f",tooltip="Construct and return a clone with new speciesTable. "];
+  Node891 -> Node893 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node893 [label="clone",height=0.2,width=0.4,color="black",URL="$a30330.html#aab6f023e63ed2a6a741cf2603e63143f",tooltip="Construct and return a clone with new speciesTable. "];
+  Node891 -> Node894 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node894 [label="Foam::Reaction::specieCoeffs\l::specieCoeffs",height=0.2,width=0.4,color="red",URL="$a30334.html#aa505934eaf42ee049928fa9ba6f1b5ef"];
+  Node891 -> Node896 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node896 [label="~Reaction",height=0.2,width=0.4,color="black",URL="$a30330.html#ac3b086991383b38bb29c0d07a837745a",tooltip="Destructor. "];
+}

@@ -1,0 +1,47 @@
+digraph "operator()"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="operator()",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="Foam::labelRange::clear",height=0.2,width=0.4,color="black",URL="$a28142.html#ac8bb3912a3ce86b15842e79d0b421204",tooltip="Reset to zero size. "];
+  Node0 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="Foam::labelRange::contains",height=0.2,width=0.4,color="black",URL="$a28142.html#a50114c46d043f4983cbbae81874ec5fa",tooltip="Return true if the value is within the range. "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="Foam::labelRange::first",height=0.2,width=0.4,color="black",URL="$a28142.html#a738c052b6c0f0818e63a823f55c43810",tooltip="The (inclusive) lower value of the range. "];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="Foam::labelRange::last",height=0.2,width=0.4,color="black",URL="$a28142.html#aa7bd9148c949f450cc02fda88f421e8b",tooltip="The (inclusive) upper value of the range. "];
+  Node0 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="Foam::labelRange::empty",height=0.2,width=0.4,color="black",URL="$a28142.html#a644718bb2fb240de962dc3c9a1fdf0dc",tooltip="Is the range empty? "];
+  Node0 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node0 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="Foam::labelRange::intersects",height=0.2,width=0.4,color="black",URL="$a28142.html#a52822420fa33ab1ebe04c1416efb68c8",tooltip="Return true if the ranges intersect. "];
+  Node6 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="Foam::labelRange::size",height=0.2,width=0.4,color="black",URL="$a28142.html#a47b3bf30da1eb3ab8076b5fbe00e0494",tooltip="Return the effective size of the range. "];
+  Node0 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="Foam::labelRange::join",height=0.2,width=0.4,color="red",URL="$a28142.html#a35796531a3d7c19a0c7e79789b23da46",tooltip="Return a joined range, squashing any gaps in between. "];
+  Node8 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="Foam::labelRange::labelRange",height=0.2,width=0.4,color="black",URL="$a28142.html#ade70efe3cbcbdce7f3b1de0be93d6243",tooltip="Construct an empty range. "];
+  Node8 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node0 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node0 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node0 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12 [label="Foam::labelRange::operator!=",height=0.2,width=0.4,color="red",URL="$a28142.html#aec9496b4ff56d452b4b4f7aef4844e16"];
+  Node0 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14 [label="Foam::labelRange::operator+=",height=0.2,width=0.4,color="red",URL="$a28142.html#aed43f56756faacf96279e83e7ad49f5c",tooltip="Join ranges, squashing any gaps in between. "];
+  Node14 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node0 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15 [label="Foam::labelRange::operator\<",height=0.2,width=0.4,color="black",URL="$a28142.html#a97e03a7a9a0a4a369b0e91bb5d2babc0",tooltip="Comparison function for sorting, compares the start. "];
+  Node15 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node0 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16 [label="Foam::labelRange::operator==",height=0.2,width=0.4,color="black",URL="$a28142.html#a531377760de64bd665ab98b82a3772e7"];
+  Node0 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17 [label="Foam::labelRange::operator[]",height=0.2,width=0.4,color="black",URL="$a28142.html#ac257414e55d2730ea0365963721a8aa6",tooltip="Return element in range, no bounds checking. "];
+  Node0 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

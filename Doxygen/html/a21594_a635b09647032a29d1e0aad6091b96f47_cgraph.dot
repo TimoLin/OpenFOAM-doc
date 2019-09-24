@@ -1,0 +1,42 @@
+digraph "findSharedPoints"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node602 [label="findSharedPoints",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node602 -> Node603 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node603 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node602 -> Node611 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node611 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node602 -> Node646 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node646 [label="Foam::findIndex",height=0.2,width=0.4,color="black",URL="$a21124.html#ac16695f83f370df159eed19f92d095fb",tooltip="Find first occurence of given element and return index,. "];
+  Node602 -> Node647 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node647 [label="forAllConstIter",height=0.2,width=0.4,color="red",URL="$a38141.html#ae21e2836509b0fa7f7cedf6493b11b09"];
+  Node602 -> Node777 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node777 [label="Foam::polyMesh::globalData",height=0.2,width=0.4,color="black",URL="$a27410.html#a5e9cb8eb9e52843d336386b13423d19c",tooltip="Return parallel info. "];
+  Node777 -> Node611 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node602 -> Node867 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node867 [label="Foam::HashTable::insert",height=0.2,width=0.4,color="black",URL="$a25702.html#a5eee1e0e199ad59b9cb3916cd42156e0",tooltip="Insert a new hashedEntry. "];
+  Node602 -> Node906 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node906 [label="Foam::invertOneToMany",height=0.2,width=0.4,color="black",URL="$a21124.html#a5da5e7d950073675f3b3d26323a640db",tooltip="Invert one-to-many map. Unmapped elements will be size 0. "];
+  Node906 -> Node663 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node663 [label="Foam::List::setSize",height=0.2,width=0.4,color="black",URL="$a25694.html#aedb985ffeaf1bdbfeccc2a8730405703",tooltip="Reset size of List. "];
+  Node602 -> Node907 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node907 [label="Foam::mergePoints",height=0.2,width=0.4,color="black",URL="$a21124.html#a91cf82266e8f08da4a95ebafddc2f61d",tooltip="Sorts and merges points. All points closer than/equal mergeTol get merged. "];
+  Node602 -> Node908 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node908 [label="mergePoints",height=0.2,width=0.4,color="red",URL="$a21594.html#a4a56041144898b62dd90a030e2143d1a",tooltip="Helper: Merge points. "];
+  Node908 -> Node909 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node909 [label="Foam::polyMesh::points",height=0.2,width=0.4,color="black",URL="$a27410.html#ac44123fc1265297c41a43c3b62fdb4c2",tooltip="Return raw points. "];
+  Node909 -> Node603 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node602 -> Node891 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node891 [label="Foam::min",height=0.2,width=0.4,color="black",URL="$a21124.html#a253e112ad2d56d96230ff39ea7f442dc"];
+  Node602 -> Node909 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node602 -> Node663 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node602 -> Node999 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node999 [label="Foam::globalMeshData\l::sharedPointAddr",height=0.2,width=0.4,color="black",URL="$a27334.html#a0dc2a71943c873f0761413d42cf39255",tooltip="Return addressing into the complete globally shared points. "];
+  Node602 -> Node998 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node998 [label="Foam::globalMeshData\l::sharedPointLabels",height=0.2,width=0.4,color="black",URL="$a27334.html#a7ea06a0f94bf7c119a76af3be79bfec2",tooltip="Return indices of local points that are globally shared. "];
+  Node602 -> Node701 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node701 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+}

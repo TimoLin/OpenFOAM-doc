@@ -1,0 +1,16 @@
+digraph "emissivity"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node988 [label="emissivity",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node988 -> Node989 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node989 [label="Foam::radiation::viewFactor\l::calculate",height=0.2,width=0.4,color="black",URL="$a30046.html#afe1d8348c24e6589bc7c0b3f689316a7",tooltip="Solve system of equation(s) "];
+  Node988 -> Node990 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node990 [label="emissivityMethod",height=0.2,width=0.4,color="black",URL="$a30006.html#af9884f102a609a217da0a66847d7b496",tooltip="Method to obtain emissivity. "];
+  Node988 -> Node991 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node991 [label="Foam::MarshakRadiationFv\lPatchScalarField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a29998.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node988 -> Node993 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node993 [label="Foam::MarshakRadiationFixed\lTemperatureFvPatchScalarField\l::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a30002.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+}

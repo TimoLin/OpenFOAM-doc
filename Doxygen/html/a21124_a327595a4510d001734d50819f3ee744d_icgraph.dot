@@ -1,0 +1,31 @@
+digraph "invert"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node9502 [label="invert",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node9502 -> Node9503 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9503 [label="Foam::edgeCollapser\l::checkMeshQuality",height=0.2,width=0.4,color="red",URL="$a21642.html#a05c592dbdbe3fcc0728c2595750b5982",tooltip="Check mesh and mark points on faces in error. "];
+  Node9502 -> Node9507 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9507 [label="emptyList",height=0.2,width=0.4,color="black",URL="$a21124.html#aac3dd6ff6f51f3841ba88a3adb29e073",tooltip="Return reference to zero-sized list. Compare to List::null() which returns. "];
+  Node9502 -> Node9508 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9508 [label="findStrings",height=0.2,width=0.4,color="red",URL="$a21124.html#a24d78dbd0055269ca2a05f27a1edebff",tooltip="Return true if string matches one of the regular expressions. "];
+  Node9502 -> Node9889 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9889 [label="inplaceSubsetMatchingStrings",height=0.2,width=0.4,color="red",URL="$a21124.html#aece86bf06ffb23fa9a43a98cefae8904",tooltip="Inplace extract elements of StringList when regular expression matches. "];
+  Node9889 -> Node9891 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9891 [label="inplaceSubsetStrings",height=0.2,width=0.4,color="red",URL="$a21124.html#a06c755c34060fe2d6a908173e4b9df79",tooltip="Inplace extract elements of StringList when regular expression matches. "];
+  Node9889 -> Node9893 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9893 [label="subsetMatchingStrings",height=0.2,width=0.4,color="red",URL="$a21124.html#a4bc482f054b2f98d550002d8bf1856ea",tooltip="Extract elements of StringList when regular expression matches. "];
+  Node9893 -> Node9895 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9895 [label="subsetStrings",height=0.2,width=0.4,color="red",URL="$a21124.html#a5a46554aee491a72b7261cd81220d121",tooltip="Extract elements of StringList when regular expression matches. "];
+  Node9502 -> Node9891 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9502 -> Node9879 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9879 [label="Foam::structuredRenumber\l::renumber",height=0.2,width=0.4,color="black",URL="$a29222.html#a43e03f902cbbeb39d4552a7e1cee9e73",tooltip="Return the order in which cells need to be visited, i.e. "];
+  Node9502 -> Node9897 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9897 [label="Foam::springRenumber\l::renumber",height=0.2,width=0.4,color="black",URL="$a29218.html#a0c124d0687d8a18ac84af7ebee2989af",tooltip="Return the order in which cells need to be visited, i.e. "];
+  Node9502 -> Node9898 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9898 [label="Foam::extendedEdgeMesh\l::sortPointsAndEdges",height=0.2,width=0.4,color="red",URL="$a21786.html#a35042787bb1f37f3e2695d3b48e313b0"];
+  Node9502 -> Node9893 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9502 -> Node9895 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

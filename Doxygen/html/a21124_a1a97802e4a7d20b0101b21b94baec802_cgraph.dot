@@ -1,0 +1,14 @@
+digraph "operator*"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node119833 [label="operator*",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node119833 -> Node119834 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node119834 [label="Foam::quaternion::quaternion",height=0.2,width=0.4,color="black",URL="$a28130.html#a13b30ba6a22a61f425cc22baf51e8e34",tooltip="Construct null. "];
+  Node119833 -> Node119835 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node119835 [label="Foam::quaternion::v",height=0.2,width=0.4,color="black",URL="$a28130.html#a0b28d9569e4deded6b9ae485461d0b04",tooltip="Vector part of the quaternion ( = axis of rotation) "];
+  Node119833 -> Node119836 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node119836 [label="Foam::quaternion::w",height=0.2,width=0.4,color="black",URL="$a28130.html#a65b3f9bfe6acd8b71cefd575fab0d05c",tooltip="Scalar part of the quaternion ( = cos(theta/2) for rotation) "];
+}

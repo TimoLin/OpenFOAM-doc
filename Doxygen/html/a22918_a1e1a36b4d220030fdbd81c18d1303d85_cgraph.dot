@@ -1,0 +1,15 @@
+digraph "interpolate"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node182 [label="interpolate",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node182 -> Node183 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node183 [label="Foam::polyMesh::boundaryMesh",height=0.2,width=0.4,color="black",URL="$a27410.html#a9f2b68c134340291eda6197f47f25484",tooltip="Return boundary mesh. "];
+  Node182 -> Node184 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node184 [label="Foam::polyBoundaryMesh\l::mesh",height=0.2,width=0.4,color="red",URL="$a27402.html#ae78c91f8ff731c07ccc4351d9fe861ba",tooltip="Return the mesh reference. "];
+  Node184 -> Node286 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node286 [label="Foam::polyBoundaryMesh\l::patchID",height=0.2,width=0.4,color="black",URL="$a27402.html#abd25b8071ecc034dbbf6772347ed9ce1",tooltip="Per boundary face label the patch index. "];
+  Node182 -> Node286 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

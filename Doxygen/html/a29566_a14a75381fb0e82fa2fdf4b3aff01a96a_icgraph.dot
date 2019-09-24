@@ -1,0 +1,18 @@
+digraph "surfZones"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node190 [label="surfZones",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node190 -> Node191 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node191 [label="Foam::MeshedSurface\l\< Foam::face \>::faces",height=0.2,width=0.4,color="black",URL="$a29566.html#a16c6d36f7c961d037a44e5c235d9aa15",tooltip="Return const access to the faces. "];
+  Node190 -> Node192 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node192 [label="Foam::MeshedSurface\l\< Foam::face \>::operator=",height=0.2,width=0.4,color="black",URL="$a29566.html#a295b5bd00b13aeebe4027f2f8e76c96a"];
+  Node190 -> Node193 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node193 [label="Foam::UnsortedMeshedSurface\l::transfer",height=0.2,width=0.4,color="black",URL="$a29574.html#a7840b609cb34e6f39858cf3e86324263",tooltip="Transfer the contents of the argument and annul the argument. "];
+  Node190 -> Node194 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node194 [label="Foam::UnsortedMeshedSurface\l::UnsortedMeshedSurface",height=0.2,width=0.4,color="black",URL="$a29574.html#a6ea56c4497f75915db0320b392b5c455",tooltip="Construct from a meshedSurface. "];
+  Node190 -> Node195 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node195 [label="Foam::fileFormats::\lGTSsurfaceFormat::write",height=0.2,width=0.4,color="red",URL="$a29598.html#ab71924a9723cd4ecad89b737a66a39e8",tooltip="Write MeshedSurface. "];
+}

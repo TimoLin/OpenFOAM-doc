@@ -1,0 +1,16 @@
+digraph "getAnchorPoints"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node127 [label="getAnchorPoints",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node127 -> Node128 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node128 [label="calcFaceTol",height=0.2,width=0.4,color="red",URL="$a27426.html#ad3d3e65f39a047092bc000d938b3adf1",tooltip="Calculate typical tolerance per face. Is currently max distance. "];
+  Node128 -> Node129 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node129 [label="Foam::UList::size",height=0.2,width=0.4,color="black",URL="$a25698.html#a47b3bf30da1eb3ab8076b5fbe00e0494",tooltip="Return the number of elements in the UList. "];
+  Node128 -> Node130 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node130 [label="f",height=0.2,width=0.4,color="black",URL="$a17900.html#a888be93833ac7a23170555c69c690288"];
+  Node127 -> Node130 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node127 -> Node129 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

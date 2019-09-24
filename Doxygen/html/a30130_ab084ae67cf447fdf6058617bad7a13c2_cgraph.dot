@@ -1,0 +1,47 @@
+digraph "species"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node7 [label="species",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="A",height=0.2,width=0.4,color="black",URL="$a30130.html#afc1bbf4984fcad86eb7c96849ccc4d0d",tooltip="Helmholtz free energy [J/kg]. "];
+  Node7 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="alphah",height=0.2,width=0.4,color="black",URL="$a30130.html#a2b5666cd0476d31310104532f6cc8fc2",tooltip="Thermal diffusivity of enthalpy [kg/m/s]. "];
+  Node7 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="contains",height=0.2,width=0.4,color="red",URL="$a30130.html#af580eba1158a87852d3bbf79c98eb25f",tooltip="Does the mixture include this specie? "];
+  Node10 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13 [label="fres",height=0.2,width=0.4,color="red",URL="$a30130.html#acbffdcb2124a13da815c8c737fbbe02b"];
+  Node7 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15 [label="Cp",height=0.2,width=0.4,color="black",URL="$a30130.html#af2ea279a80c35232b04ad45d9ded5dc6",tooltip="Heat capacity at constant pressure [J/(kg K)]. "];
+  Node7 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16 [label="Cv",height=0.2,width=0.4,color="black",URL="$a30130.html#aee5083349a770df92f7d2d60d2a2fed9",tooltip="Heat capacity at constant volume [J/(kg K)]. "];
+  Node7 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17 [label="Es",height=0.2,width=0.4,color="black",URL="$a30130.html#a4d2b5fd68772980f972eef0e6109aa7d",tooltip="Sensible internal energy [J/kg]. "];
+  Node7 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 [label="G",height=0.2,width=0.4,color="black",URL="$a30130.html#ae4711621b6d7fe3f88ff72457c741383",tooltip="Gibbs free energy [J/kg]. "];
+  Node7 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19 [label="Ha",height=0.2,width=0.4,color="black",URL="$a30130.html#af4aaee53297340f1203befee236d4526",tooltip="Absolute enthalpy [J/kg]. "];
+  Node7 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20 [label="Hc",height=0.2,width=0.4,color="black",URL="$a30130.html#a51cfa8cf6035fac0a7ddf7bebea3c091",tooltip="Chemical enthalpy [J/kg]. "];
+  Node7 -> Node21 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21 [label="Hs",height=0.2,width=0.4,color="black",URL="$a30130.html#ace7ca4b0dfe9e0bb30e9074ecf876ccb",tooltip="Sensible enthalpy [J/kg]. "];
+  Node7 -> Node22 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22 [label="kappa",height=0.2,width=0.4,color="black",URL="$a30130.html#af2a305c38e9338095e4b54d1fdb33c88",tooltip="Thermal conductivity [W/m/K]. "];
+  Node7 -> Node23 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23 [label="mu",height=0.2,width=0.4,color="black",URL="$a30130.html#a22e52237f261f24ed44d72d2b2482278",tooltip="Dynamic viscosity [kg/m/s]. "];
+  Node7 -> Node24 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node24 [label="nMoles",height=0.2,width=0.4,color="black",URL="$a30130.html#aceb8943ce78e25d7f88272b33c6a7b98",tooltip="Number of moles []. "];
+  Node7 -> Node25 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node25 [label="rho",height=0.2,width=0.4,color="black",URL="$a30130.html#ae10f76d8ac89ecd3970b18a7adaf94d3",tooltip="Density [kg/m3]. "];
+  Node7 -> Node26 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node26 [label="S",height=0.2,width=0.4,color="black",URL="$a30130.html#aafcfc8e70e029e05a823f80b171169ed",tooltip="Entropy [J/(kg K)]. "];
+  Node7 -> Node27 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node27 [label="Foam::T",height=0.2,width=0.4,color="red",URL="$a21124.html#ae57fda0abb14bb0944947c463c6e09d4"];
+  Node7 -> Node32 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node32 [label="W",height=0.2,width=0.4,color="black",URL="$a30130.html#a69c755b20424e6b53287805d01d0cc28",tooltip="Molecular weight [kg/kmol]. "];
+  Node7 -> Node33 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node33 [label="Y",height=0.2,width=0.4,color="black",URL="$a30130.html#a98fc615b86ae04a5a00a36c8fb619a16",tooltip="Return the mass-fraction fields. "];
+}

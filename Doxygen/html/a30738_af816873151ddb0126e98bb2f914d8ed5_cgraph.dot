@@ -1,0 +1,17 @@
+digraph "read"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2325 [label="read",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2325 -> Node2326 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2326 [label="Foam::compressible\l::RASModel::coeffDict",height=0.2,width=0.4,color="black",URL="$a30758.html#a200eb13d75fb73a9827b5f5c754e027f",tooltip="Const access to the coefficients dictionary. "];
+  Node2325 -> Node2327 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2327 [label="Foam::compressible\l::RASModel::read",height=0.2,width=0.4,color="red",URL="$a30758.html#af816873151ddb0126e98bb2f914d8ed5",tooltip="Read RASProperties dictionary. "];
+  Node2327 -> Node2666 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2666 [label="Foam::dimensioned::\lreadIfPresent",height=0.2,width=0.4,color="black",URL="$a26366.html#ae9908fe8be8b23b418bf2ae8987b9abd",tooltip="Update the value of dimensioned<Type> if found in the dictionary. "];
+  Node2325 -> Node2666 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2325 -> Node2668 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2668 [label="Foam::Switch::readIfPresent",height=0.2,width=0.4,color="red",URL="$a27626.html#a101c7f63d05fabd4b89a8bc13c415382",tooltip="Update the value of the Switch if it is found in the dictionary. "];
+}

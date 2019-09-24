@@ -1,0 +1,13 @@
+digraph "cyclicACMILduInterface"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node0 [label="cyclicACMILduInterface",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="cyclicAMILduInterface",height=0.2,width=0.4,color="black",URL="$a24930.html",tooltip="An abstract base class for cyclic AMI coupled interfaces. "];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="cyclicACMIFvPatch",height=0.2,width=0.4,color="black",URL="$a22806.html",tooltip="Cyclic patch for Arbitrarily Coupled Mesh Interface (ACMI) "];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="cyclicACMIGAMGInterface",height=0.2,width=0.4,color="black",URL="$a24902.html",tooltip="GAMG agglomerated cyclic ACMI interface. "];
+}

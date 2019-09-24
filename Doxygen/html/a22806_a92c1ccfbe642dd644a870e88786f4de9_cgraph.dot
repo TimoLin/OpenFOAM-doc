@@ -1,0 +1,12 @@
+digraph "AMI"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node509 [label="AMI",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node509 -> Node510 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node510 [label="Foam::cyclicAMIPolyPatch::AMI",height=0.2,width=0.4,color="red",URL="$a24946.html#a7e811c50d8adcb4bdb7302cd59c51cc1",tooltip="Return a reference to the AMI interpolator. "];
+  Node509 -> Node554 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node554 [label="updateAreas",height=0.2,width=0.4,color="red",URL="$a22806.html#aa41ad5c90a11f44713f615ab87a947c6",tooltip="Update the patch areas after AMI update. "];
+}

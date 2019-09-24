@@ -1,0 +1,13 @@
+digraph "ST"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1047 [label="ST",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1047 -> Node1048 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1048 [label="radiation",height=0.2,width=0.4,color="black",URL="$a30042.html#a935b06a80353117bf3edc25c9e31dc12",tooltip="Radiation model on/off flag. "];
+  Node1047 -> Node1049 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1049 [label="Sh",height=0.2,width=0.4,color="red",URL="$a30042.html#a863481672e58bc80ab86bcccb1bb893d",tooltip="Energy source term. "];
+  Node1049 -> Node1048 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

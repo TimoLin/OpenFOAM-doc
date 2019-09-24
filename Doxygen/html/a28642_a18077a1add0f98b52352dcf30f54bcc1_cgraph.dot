@@ -1,0 +1,48 @@
+digraph "distributedTriSurfaceMesh"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node408 [label="distributedTriSurfaceMesh",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node408 -> Node409 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node409 [label="Foam::searchableSurface\l::bounds",height=0.2,width=0.4,color="black",URL="$a25234.html#af0b8fd78dbff2bbd5d76f5c2e8569fbe",tooltip="Return const reference to boundBox. "];
+  Node408 -> Node410 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node410 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node408 -> Node412 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node412 [label="Foam::exit",height=0.2,width=0.4,color="red",URL="$a21124.html#a06ca7250d8e89caf05243ec094843642"];
+  Node408 -> Node457 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node457 [label="Foam::Pstream::gatherList",height=0.2,width=0.4,color="red",URL="$a26250.html#afbdf64fb42cd760690d51a9a321792d9",tooltip="Gather data but keep individual values separate. "];
+  Node457 -> Node458 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node458 [label="Foam::UPstream::nProcs",height=0.2,width=0.4,color="red",URL="$a26270.html#aada0e04d8127eda8ee95be0772754a4f",tooltip="Number of processes in parallel run. "];
+  Node457 -> Node460 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node460 [label="Foam::UPstream::myProcNo",height=0.2,width=0.4,color="black",URL="$a26270.html#afc74d89573de32a3032c916f8cdd1733",tooltip="Number of this process (starting from masterNo() = 0) "];
+  Node457 -> Node410 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node408 -> Node468 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node468 [label="Foam::max",height=0.2,width=0.4,color="black",URL="$a21124.html#ac993e906cf2774ae77e666bc24e81733"];
+  Node408 -> Node469 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node469 [label="Foam::min",height=0.2,width=0.4,color="black",URL="$a21124.html#a253e112ad2d56d96230ff39ea7f442dc"];
+  Node408 -> Node460 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node408 -> Node458 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node408 -> Node470 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node470 [label="Foam::IOobject::objectPath",height=0.2,width=0.4,color="red",URL="$a26142.html#a3a7ece5c1251c6be1f7812d4dba5fb7a",tooltip="Return complete path + object name. "];
+  Node408 -> Node425 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node425 [label="Foam::UPstream::parRun",height=0.2,width=0.4,color="black",URL="$a26270.html#adbb27f04b5705440fb8b09f278059011",tooltip="Is this a parallel run? "];
+  Node408 -> Node728 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node728 [label="Foam::IOobject::readOpt",height=0.2,width=0.4,color="black",URL="$a26142.html#a81b608e0b8d8e2a8f1bc927cd6076c59"];
+  Node408 -> Node729 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node729 [label="Foam::reduce",height=0.2,width=0.4,color="red",URL="$a21124.html#a7ffd6af4acc2eb9ba72ee296b5ecda23"];
+  Node729 -> Node410 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node408 -> Node731 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node731 [label="Foam::Pstream::scatterList",height=0.2,width=0.4,color="red",URL="$a26250.html#a23c38ee54f04c9d53a327db9edbdb7f0",tooltip="Scatter data. Reverse of gatherList. "];
+  Node731 -> Node458 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node731 -> Node460 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node731 -> Node410 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node408 -> Node735 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node735 [label="Foam::List\< labelledTri\l \>::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a47b3bf30da1eb3ab8076b5fbe00e0494",tooltip="Return the number of elements in the UList. "];
+  Node408 -> Node736 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node736 [label="writeStats",height=0.2,width=0.4,color="red",URL="$a28642.html#abcdb99a5c0073642de36f2a8b03e92c2",tooltip="Print some stats. Parallel aware version of. "];
+  Node736 -> Node729 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node736 -> Node735 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node736 -> Node410 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

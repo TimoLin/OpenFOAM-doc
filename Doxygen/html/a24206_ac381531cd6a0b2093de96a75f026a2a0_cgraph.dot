@@ -1,0 +1,23 @@
+digraph "clone"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node18 [label="clone",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node18 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19 [label="add",height=0.2,width=0.4,color="red",URL="$a24206.html#aacdd5b987030e398238c732fea3a0117",tooltip="Member Functions. "];
+  Node19 -> Node21 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21 [label="interpolate",height=0.2,width=0.4,color="red",URL="$a24206.html#a832be612fa01f76401e18af4c549f6e0",tooltip="Interpolate. "];
+  Node21 -> Node22 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22 [label="interpolateGrad",height=0.2,width=0.4,color="red",URL="$a24206.html#ac795abfb63a0278eceebbdab6205d40e",tooltip="Interpolate gradient. "];
+  Node18 -> Node23 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23 [label="internalField",height=0.2,width=0.4,color="black",URL="$a24206.html#a145c699d051d7e78340de71353011d4f",tooltip="Return an internal field of the average. "];
+  Node18 -> Node24 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node24 [label="internalFieldGrad",height=0.2,width=0.4,color="black",URL="$a24206.html#aca2be38f854d37bd907e039184b6a8bc",tooltip="Return an internal field of the gradient. "];
+  Node18 -> Node21 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 -> Node22 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 -> Node25 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node25 [label="~Basic",height=0.2,width=0.4,color="red",URL="$a24206.html#a48bd20d75846c3952efc30dda1b4e0dc",tooltip="Destructor. "];
+  Node25 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

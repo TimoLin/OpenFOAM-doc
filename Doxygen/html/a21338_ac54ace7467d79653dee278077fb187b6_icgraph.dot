@@ -1,0 +1,16 @@
+digraph "readDict"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2485 [label="readDict",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2485 -> Node2486 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2486 [label="boundaryRegion",height=0.2,width=0.4,color="black",URL="$a21338.html#a51228215b60afd4c440361ed3c5de0e1",tooltip="Construct read from registry, name. instance. "];
+  Node2485 -> Node2487 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2487 [label="boundaryType",height=0.2,width=0.4,color="black",URL="$a21338.html#a1d50709b7dee1c0d4753f26c3d85bb69",tooltip="Return BoundaryType corresponding to patch &#39;name&#39;. "];
+  Node2485 -> Node2488 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2488 [label="Foam::meshReaders::\lSTARCD::readAux",height=0.2,width=0.4,color="red",URL="$a21334.html#afacb9df6d152538da046860c73b53902",tooltip="Read auxiliary data from constant/{boundaryRegion,cellTable}. "];
+  Node2485 -> Node2490 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2490 [label="Foam::meshWriters::\lSTARCD::STARCD",height=0.2,width=0.4,color="black",URL="$a21350.html#a63ee45d7e6302881b9f5c2844faa45d9",tooltip="Open a file for writing. "];
+}

@@ -1,0 +1,19 @@
+digraph "read"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node645 [label="read",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node645 -> Node646 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node646 [label="Foam::dictionary::lookup",height=0.2,width=0.4,color="red",URL="$a26014.html#a6a0727fa523e48977e27348663def509",tooltip="Find and return an entry data stream. "];
+  Node645 -> Node792 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node792 [label="Foam::max",height=0.2,width=0.4,color="black",URL="$a21124.html#ac993e906cf2774ae77e666bc24e81733"];
+  Node645 -> Node899 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node899 [label="Foam::regIOobject::read",height=0.2,width=0.4,color="red",URL="$a26334.html#af816873151ddb0126e98bb2f914d8ed5",tooltip="Read object. "];
+  Node899 -> Node782 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node782 [label="Foam::type",height=0.2,width=0.4,color="red",URL="$a21124.html#aec48583af672626378f501eb9fc32cd1",tooltip="Return the file type: DIRECTORY or FILE. "];
+  Node645 -> Node948 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node948 [label="Foam::dictionary::subOrEmptyDict",height=0.2,width=0.4,color="red",URL="$a26014.html#a48adbbf7920cd4c2687f3f325cb43d33",tooltip="Find and return a sub-dictionary as a copy, or. "];
+  Node645 -> Node782 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

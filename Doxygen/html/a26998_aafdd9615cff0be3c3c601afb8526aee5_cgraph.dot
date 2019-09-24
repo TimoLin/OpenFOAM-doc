@@ -1,0 +1,25 @@
+digraph "agglomerate"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node9 [label="agglomerate",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="Foam::GAMGProcAgglomeration\l::agglomerate",height=0.2,width=0.4,color="black",URL="$a26982.html#a12f8aee2a8262bad4ece599ecd67ead5",tooltip="Modify agglomeration. Return true if modified. "];
+  Node9 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="Foam::UPstream::allocate\lCommunicator",height=0.2,width=0.4,color="red",URL="$a26270.html#ac189f05f0e20e7aa80f737f225250bd5",tooltip="Allocate a new communicator. "];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node9 -> Node57 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node57 [label="Foam::GAMGAgglomeration\l::calculateRegionMaster",height=0.2,width=0.4,color="red",URL="$a26970.html#aed73fab74ec6a279e5d5c65139199b42",tooltip="Given fine to coarse processor map determine: "];
+  Node9 -> Node323 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node323 [label="Foam::lduMesh::comm",height=0.2,width=0.4,color="black",URL="$a27126.html#a28ed0554ff28e2947c49b335f621d507",tooltip="Return communicator used for parallel communication. "];
+  Node9 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 -> Node324 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node324 [label="Foam::UList::last",height=0.2,width=0.4,color="black",URL="$a25698.html#aef07c02ea1c27bdb5906043b399e0ff0",tooltip="Return the last element of the list. "];
+  Node9 -> Node230 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node230 [label="Foam::UPstream::nProcs",height=0.2,width=0.4,color="red",URL="$a26270.html#aada0e04d8127eda8ee95be0772754a4f",tooltip="Number of processes in parallel run. "];
+  Node9 -> Node325 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node325 [label="rndGen",height=0.2,width=0.4,color="black",URL="$a38939.html#ab8597af4c8d0209c2e0c9b1982782bfb"];
+}

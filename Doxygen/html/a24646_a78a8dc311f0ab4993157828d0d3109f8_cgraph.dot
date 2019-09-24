@@ -1,0 +1,12 @@
+digraph "meshMover"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node8 [label="meshMover",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="Foam::localPointRegion\l::findDuplicateFacePairs",height=0.2,width=0.4,color="red",URL="$a25198.html#ada4b8f94bf6f76d8d4342d0d169ce358",tooltip="Helper routine to find all baffles (two boundary faces. "];
+  Node8 -> Node98 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node98 [label="Foam::externalDisplacement\lMeshMover::New",height=0.2,width=0.4,color="red",URL="$a24650.html#a844ff1f0ae8076cf133a81d0d8b52758",tooltip="Return a reference to the selected meshMover model. "];
+}

@@ -1,0 +1,28 @@
+digraph "otherFace"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node988 [label="otherFace",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node988 -> Node989 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node989 [label="calcPointFaceIndex",height=0.2,width=0.4,color="black",URL="$a27166.html#affdc1ddd257e430b8357f273b6acccfa",tooltip="Fill vertex/face to index in face data structure. "];
+  Node989 -> Node990 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node990 [label="Foam::hexMatcher::matchShape",height=0.2,width=0.4,color="red",URL="$a27174.html#a1f0feccca7c36016d7745d9f9d196b6d",tooltip="Low level shape recognition. Return true if matches. "];
+  Node989 -> Node996 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node996 [label="Foam::wedgeMatcher\l::matchShape",height=0.2,width=0.4,color="red",URL="$a27194.html#a1f0feccca7c36016d7745d9f9d196b6d",tooltip="Low level shape recognition. Return true if matches. "];
+  Node989 -> Node1002 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1002 [label="Foam::tetWedgeMatcher\l::matchShape",height=0.2,width=0.4,color="red",URL="$a27190.html#a1f0feccca7c36016d7745d9f9d196b6d",tooltip="Low level shape recognition. Return true if matches. "];
+  Node989 -> Node1008 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1008 [label="Foam::tetMatcher::matchShape",height=0.2,width=0.4,color="red",URL="$a27186.html#a1f0feccca7c36016d7745d9f9d196b6d",tooltip="Low level shape recognition. Return true if matches. "];
+  Node989 -> Node1015 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1015 [label="Foam::pyrMatcher::matchShape",height=0.2,width=0.4,color="red",URL="$a27182.html#a1f0feccca7c36016d7745d9f9d196b6d",tooltip="Low level shape recognition. Return true if matches. "];
+  Node989 -> Node1021 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1021 [label="Foam::prismMatcher\l::matchShape",height=0.2,width=0.4,color="red",URL="$a27178.html#a1f0feccca7c36016d7745d9f9d196b6d",tooltip="Low level shape recognition. Return true if matches. "];
+  Node988 -> Node996 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node988 -> Node1002 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node988 -> Node1008 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node988 -> Node1015 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node988 -> Node1021 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node988 -> Node990 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

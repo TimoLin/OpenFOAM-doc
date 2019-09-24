@@ -1,0 +1,32 @@
+digraph "getNormal"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3121 [label="getNormal",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3121 -> Node3122 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3122 [label="getField",height=0.2,width=0.4,color="red",URL="$a28642.html#a8fd35269fdaf69e729c001cdb7846051",tooltip="WIP. From a set of hits (points and. "];
+  Node3122 -> Node3123 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3123 [label="Foam::UPstream::parRun",height=0.2,width=0.4,color="black",URL="$a26270.html#adbb27f04b5705440fb8b09f278059011",tooltip="Is this a parallel run? "];
+  Node3122 -> Node3126 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3126 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node3122 -> Node3125 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3125 [label="Foam::List::setSize",height=0.2,width=0.4,color="black",URL="$a25694.html#aedb985ffeaf1bdbfeccc2a8730405703",tooltip="Reset size of List. "];
+  Node3122 -> Node3470 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3470 [label="Foam::mapDistribute\l::reverseDistribute",height=0.2,width=0.4,color="red",URL="$a27362.html#af4843479bbb5ce26fab0dbefd525c410",tooltip="Reverse distribute data using default commsType. "];
+  Node3121 -> Node3504 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3504 [label="Foam::triSurfaceMesh\l::getNormal",height=0.2,width=0.4,color="red",URL="$a25258.html#aa9abdb9ffe5f3cb1c2992ccb3bcc9e48",tooltip="From a set of points and indices get the normal. "];
+  Node3504 -> Node3134 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3134 [label="Foam::PrimitivePatch\l::points",height=0.2,width=0.4,color="black",URL="$a27538.html#aa3c7d968f31c88780c663876f64ef6a6",tooltip="Return reference to global points. "];
+  Node3504 -> Node3125 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3504 -> Node3126 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3504 -> Node3145 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3145 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node3121 -> Node3145 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3121 -> Node3123 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3121 -> Node3134 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3121 -> Node3470 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3121 -> Node3125 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3121 -> Node3126 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

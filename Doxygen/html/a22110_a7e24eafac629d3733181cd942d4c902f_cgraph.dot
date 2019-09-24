@@ -1,0 +1,16 @@
+digraph "updateCoeffs"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node40 [label="updateCoeffs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node40 -> Node41 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node41 [label="Foam::gSum",height=0.2,width=0.4,color="black",URL="$a21124.html#a11b1ebb4c53ad062332767d75ca96328"];
+  Node40 -> Node42 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node42 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node40 -> Node43 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node43 [label="Foam::operator==",height=0.2,width=0.4,color="black",URL="$a21124.html#a28a45d2e3cca6152b024de57575abbf1"];
+  Node40 -> Node44 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node44 [label="Foam::fvPatchField\l::updateCoeffs",height=0.2,width=0.4,color="black",URL="$a22354.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+}

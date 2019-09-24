@@ -1,0 +1,12 @@
+digraph "RAS boundary conditions"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir=LR;
+  Node0 [label="RAS boundary conditions",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 [label="Inlet boundary Conditions",height=0.2,width=0.4,color="black",URL="$a21093.html"];
+  Node1 [label="RAS wall functions",height=0.2,width=0.4,color="black",URL="$a21123.html"];
+  Node0->Node1 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node2 [shape=plaintext, label="Foam::atmBoundaryLayerInlet\lEpsilonFvPatchScalarField\nFoam::atmBoundaryLayerInlet\lVelocityFvPatchVectorField\nFoam::turbulentMixingLength\lDissipationRateInletFvPatchScalarField\nFoam::turbulentMixingLength\lFrequencyInletFvPatchScalarField", color="orange", dir="none", style="dashed"];
+}

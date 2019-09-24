@@ -1,0 +1,19 @@
+digraph "reorder"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node8188 [label="reorder",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node8188 -> Node8189 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8189 [label="Foam::fvMeshTools::\laddPatch",height=0.2,width=0.4,color="red",URL="$a21458.html#a590f160ae7ad17fa6394045ac077b9bf",tooltip="Add patch. Inserts patch before all processor patches. "];
+  Node8188 -> Node8202 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8202 [label="Foam::meshRefinement\l::addPatch",height=0.2,width=0.4,color="red",URL="$a24662.html#a7648b2de2bf053048ba38532a8cf73a1",tooltip="Helper:add patch to mesh. Update all registered fields. "];
+  Node8188 -> Node8207 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8207 [label="mesh",height=0.2,width=0.4,color="red",URL="$a27402.html#ae78c91f8ff731c07ccc4351d9fe861ba",tooltip="Return the mesh reference. "];
+  Node8188 -> Node8297 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8297 [label="Foam::fvMeshTools::\lreorderPatches",height=0.2,width=0.4,color="red",URL="$a21458.html#a18d7d3895abc0ab81c525bd81ba69a9c"];
+  Node8188 -> Node8299 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8299 [label="updateMesh",height=0.2,width=0.4,color="red",URL="$a27402.html#ae5693a309a936ac1040dd48c2881677f",tooltip="Correct polyBoundaryMesh after topology update. "];
+  Node8299 -> Node8207 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

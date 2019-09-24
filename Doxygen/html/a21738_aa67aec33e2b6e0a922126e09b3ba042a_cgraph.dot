@@ -1,0 +1,16 @@
+digraph "changePatches"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node995 [label="changePatches",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node995 -> Node996 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node996 [label="Foam::polyMesh::addPatches",height=0.2,width=0.4,color="red",URL="$a27410.html#a6527fc99a1c5861553e2b107c6d9170f",tooltip="Add boundary patches. "];
+  Node995 -> Node1077 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1077 [label="changePatchID",height=0.2,width=0.4,color="red",URL="$a21738.html#a0e422d65d38d06483bef5c596b607eb2",tooltip="Change patch ID for a boundary face. Note: patchID should be in new. "];
+  Node995 -> Node1109 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1109 [label="Foam::exit",height=0.2,width=0.4,color="red",URL="$a21124.html#a06ca7250d8e89caf05243ec094843642"];
+  Node995 -> Node1268 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1268 [label="Foam::polyMesh::removeBoundary",height=0.2,width=0.4,color="red",URL="$a27410.html#acc2134c36adb97b988d5efc383a7f9f0",tooltip="Remove boundary patches. "];
+}

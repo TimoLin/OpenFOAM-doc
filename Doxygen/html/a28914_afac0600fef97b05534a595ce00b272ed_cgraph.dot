@@ -1,0 +1,18 @@
+digraph "read"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node112 [label="read",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node112 -> Node113 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node113 [label="Foam::debug::controlDict",height=0.2,width=0.4,color="red",URL="$a21163.html#a99ec32314c649e103ec5b70effea2d96",tooltip="The central control dictionary. "];
+  Node112 -> Node119 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node119 [label="Foam::exit",height=0.2,width=0.4,color="red",URL="$a21124.html#a06ca7250d8e89caf05243ec094843642"];
+  Node112 -> Node180 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node180 [label="Foam::dictionary::lookup\lOrDefault",height=0.2,width=0.4,color="red",URL="$a26014.html#a69ee064dcc6d649df523e02e5c242922",tooltip="Find and return a T,. "];
+  Node112 -> Node185 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node185 [label="Foam::DataEntry::New",height=0.2,width=0.4,color="black",URL="$a27662.html#a5e4dcb751129cbece9be2ac84884862f",tooltip="Selector. "];
+  Node112 -> Node183 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node183 [label="Foam::dictionary::readIf\lPresent",height=0.2,width=0.4,color="red",URL="$a26014.html#ad4bd008e6ee208313f2c3a963ee1170d",tooltip="Find an entry if present, and assign to T. "];
+}

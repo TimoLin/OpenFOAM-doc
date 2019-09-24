@@ -1,0 +1,15 @@
+digraph "clone"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node13 [label="clone",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node13 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14 [label="limitedVelocity",height=0.2,width=0.4,color="red",URL="$a24230.html#af4c325c4bf9116a8d2db131c0a394f82",tooltip="Return the limited velocity. "];
+  Node13 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17 [label="relative",height=0.2,width=0.4,color="black",URL="$a24230.html#a8497d4759841ff9fcf2db37ab114fdb4",tooltip="Construct from components. "];
+  Node13 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 [label="~relative",height=0.2,width=0.4,color="black",URL="$a24230.html#a015325d8139311db6ca2878e696fe7ea",tooltip="Destructor. "];
+  Node18 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

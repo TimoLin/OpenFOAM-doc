@@ -1,0 +1,18 @@
+digraph "whichProcID"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node410 [label="whichProcID",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node410 -> Node411 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node411 [label="Foam::addPatchCellLayer\l::calcSidePatch",height=0.2,width=0.4,color="red",URL="$a21626.html#a25346f181e6f56df9a1839ff94eea581",tooltip="Boundary edges get extruded into boundary faces. Determine patch. "];
+  Node410 -> Node419 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node419 [label="Foam::NamedEnum\< direction\lType, 3 \>::names",height=0.2,width=0.4,color="black",URL="$a25998.html#a7350da3a0edd92cd11e6c479c9967dc8"];
+  Node410 -> Node420 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node420 [label="Foam::minEqOp\< labelPair\l \>::operator()",height=0.2,width=0.4,color="black",URL="$a21438.html#a5110bdded347caa6365e4d10554dfc32"];
+  Node410 -> Node421 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node421 [label="Foam::mapDistribute\l::printLayout",height=0.2,width=0.4,color="red",URL="$a27362.html#a354c270fcad8f00ba2bf069b0f68a729",tooltip="Debug: print layout. Can only be used on maps with sorted. "];
+  Node410 -> Node425 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node425 [label="Foam::mapDistribute\l::renumber",height=0.2,width=0.4,color="red",URL="$a27362.html#a47982060bb4a510a889e78fccf36e513",tooltip="Helper for construct from globalIndex. Renumbers element. "];
+}

@@ -1,0 +1,16 @@
+digraph "trackingData"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="trackingData",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="Foam::wallBoundedParticle\l::diagEdge",height=0.2,width=0.4,color="red",URL="$a28794.html#acb7bb9eec14aecc690fce4c47829d321",tooltip="-1 or diagonal edge "];
+  Node0 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="Foam::wallBoundedParticle\l::meshEdgeStart",height=0.2,width=0.4,color="black",URL="$a28794.html#a9de779d968ce6b6edd8efb411bdb1309",tooltip="-1 or label of mesh edge "];
+  Node0 -> Node85 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node85 [label="Foam::particle::position",height=0.2,width=0.4,color="black",URL="$a23586.html#aec20ad6ba1a80369ac11240fe4b9360e",tooltip="Return current particle position. "];
+  Node0 -> Node332 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node332 [label="Foam::wallBoundedStreamLine\lParticle::wallBoundedStreamLine\lParticle",height=0.2,width=0.4,color="black",URL="$a28810.html#af5c059672b808ce15134b9a96df15675",tooltip="Construct from components. "];
+}

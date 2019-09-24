@@ -1,0 +1,29 @@
+digraph "subsetMesh"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1114 [label="subsetMesh",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1114 -> Node1115 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1115 [label="Foam::List::clear",height=0.2,width=0.4,color="black",URL="$a25694.html#ac8bb3912a3ce86b15842e79d0b421204",tooltip="Clear the list, i.e. set size to zero. "];
+  Node1114 -> Node1116 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1116 [label="f",height=0.2,width=0.4,color="black",URL="$a17900.html#a888be93833ac7a23170555c69c690288"];
+  Node1114 -> Node1117 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1117 [label="Foam::PrimitivePatch\l\< Face, ::Foam::List,\l pointField, point \>::\llocalFaces",height=0.2,width=0.4,color="red",URL="$a27538.html#aa4bd29e9c9de3d53e26aa2bf2e803c60",tooltip="Return patch faces addressing into local point list. "];
+  Node1114 -> Node1119 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1119 [label="Foam::PrimitivePatch\l\< Face, ::Foam::List,\l pointField, point \>::\llocalPoints",height=0.2,width=0.4,color="red",URL="$a27538.html#aca6c65ee2831bb6795149af7635640a2",tooltip="Return pointField of points in patch. "];
+  Node1114 -> Node1121 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1121 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node1114 -> Node1122 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1122 [label="Foam::PatchTools::subsetMap",height=0.2,width=0.4,color="red",URL="$a27526.html#a373cb19a7bfde8d155b317980839cf72",tooltip="Determine the mapping for a sub-patch. "];
+  Node1122 -> Node1116 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1122 -> Node1117 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1122 -> Node1121 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1114 -> Node1131 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1131 [label="UnsortedMeshedSurface",height=0.2,width=0.4,color="black",URL="$a29574.html#aaf787f80bb51ae94093708b83732bc08",tooltip="Construct null. "];
+  Node1114 -> Node1132 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1132 [label="Foam::xferCopy",height=0.2,width=0.4,color="black",URL="$a21124.html#a9304dc7c64f975ca4e54b1d6610de4d1"];
+  Node1114 -> Node1133 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1133 [label="Foam::xferMove",height=0.2,width=0.4,color="black",URL="$a21124.html#ae3ad39ee5ad896e6d3c0f137ecd12abb"];
+}

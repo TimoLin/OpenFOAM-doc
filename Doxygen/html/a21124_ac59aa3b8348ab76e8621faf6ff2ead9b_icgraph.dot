@@ -1,0 +1,34 @@
+digraph "isspace"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node113274 [label="isspace",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node113274 -> Node113275 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node113275 [label="Foam::dimensionSet\l::dimensionSet",height=0.2,width=0.4,color="black",URL="$a26370.html#abd672e6f6f2ddf374d3954f2c2dd2a1f",tooltip="Construct from Istream. "];
+  Node113274 -> Node113276 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node113276 [label="Foam::stringOps::inplace\lTrimLeft",height=0.2,width=0.4,color="red",URL="$a21166.html#afa4a449abe8c1e46b109802919d0f1c5",tooltip="Trim leading whitespace inplace. "];
+  Node113274 -> Node113278 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node113278 [label="Foam::stringOps::inplace\lTrimRight",height=0.2,width=0.4,color="red",URL="$a21166.html#a234819fd3bc3b043a6647175bf52e712",tooltip="Trim trailing whitespace inplace. "];
+  Node113274 -> Node113279 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node113279 [label="Foam::argList::noParallel",height=0.2,width=0.4,color="red",URL="$a26662.html#aa98a19a77af57e5cf159bdfdf6573fb6",tooltip="Remove the parallel options. "];
+  Node113274 -> Node113281 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node113281 [label="parseNASCoord",height=0.2,width=0.4,color="red",URL="$a21124.html#a663c47a91dbc4b5b9064c385189002be"];
+  Node113274 -> Node113288 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node113288 [label="Foam::fileFormats::\lNASCore::parseNASCoord",height=0.2,width=0.4,color="red",URL="$a21850.html#afe228e66f85cd3e6475ddce582188a94",tooltip="Do weird things to extract number. "];
+  Node113274 -> Node113290 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node113290 [label="ReadHex",height=0.2,width=0.4,color="black",URL="$a21124.html#a85ba449e29559647c3b485a598d739f5",tooltip="Read a hex label from an input stream. "];
+  Node113274 -> Node113291 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node113291 [label="readLongLong",height=0.2,width=0.4,color="red",URL="$a21124.html#a4c09b24f65dde934a133b66c56970888"];
+  Node113274 -> Node113293 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node113293 [label="Foam::stringOps::trimLeft",height=0.2,width=0.4,color="red",URL="$a21166.html#ab7e5fb91bd2b1e0276dc18b23eee259d",tooltip="Return string trimmed of leading whitespace. "];
+  Node113274 -> Node113298 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node113298 [label="Foam::stringOps::trimRight",height=0.2,width=0.4,color="red",URL="$a21166.html#aa1ae9f60058a233895b56c782199a396",tooltip="Return string trimmed of trailing whitespace. "];
+  Node113274 -> Node113299 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node113299 [label="Foam::word::valid",height=0.2,width=0.4,color="red",URL="$a28258.html#a02301e1d2e6a0a6d1ebb1ecd038872e3",tooltip="Is this character valid for a word. "];
+  Node113274 -> Node113303 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node113303 [label="Foam::fileName::valid",height=0.2,width=0.4,color="black",URL="$a28234.html#a02301e1d2e6a0a6d1ebb1ecd038872e3",tooltip="Is this character valid for a fileName? "];
+  Node113274 -> Node113304 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node113304 [label="Foam::UOPstream::write",height=0.2,width=0.4,color="black",URL="$a26262.html#ab2f5598b4b95c3e980071b92457e8d90",tooltip="Write character. "];
+}

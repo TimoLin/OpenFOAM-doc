@@ -1,0 +1,26 @@
+digraph "edgeMesh"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="edgeMesh",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="edgeMeshFormatsCore",height=0.2,width=0.4,color="black",URL="$a21762.html",tooltip="A collection of helper functions for reading/writing edge formats. "];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="extendedEdgeMesh",height=0.2,width=0.4,color="red",URL="$a21786.html",tooltip="Description of feature edges and points. "];
+  Node0 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="featureEdgeMesh",height=0.2,width=0.4,color="black",URL="$a21798.html",tooltip="edgeMesh + IO. "];
+  Node0 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="edgeMeshFormat",height=0.2,width=0.4,color="black",URL="$a21758.html",tooltip="Provide a means of reading/writing the single-file OpenFOAM edge format. "];
+  Node0 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="extendedFeatureEdgeMeshFormat",height=0.2,width=0.4,color="black",URL="$a21766.html",tooltip="Provide a means of reading extendedFeatureEdgeMesh as featureEdgeMesh. "];
+  Node0 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="NASedgeFormat",height=0.2,width=0.4,color="black",URL="$a21770.html",tooltip="Nastran edge reader. "];
+  Node0 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="OBJedgeFormat",height=0.2,width=0.4,color="black",URL="$a21774.html",tooltip="Provide a means of reading/writing Alias/Wavefront OBJ format. "];
+  Node0 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="STARCDedgeFormat",height=0.2,width=0.4,color="black",URL="$a21778.html",tooltip="Read/write the lines from pro-STAR vrt/cel files. "];
+  Node0 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="VTKedgeFormat",height=0.2,width=0.4,color="black",URL="$a21782.html",tooltip="Provide a means of writing VTK legacy format. "];
+}

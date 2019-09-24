@@ -1,0 +1,46 @@
+digraph "calcNut"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node29 [label="calcNut",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node29 -> Node30 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node30 [label="dimensionedInternalField",height=0.2,width=0.4,color="black",URL="$a38438.html#a942cd19121a46cdc649099eb27c74b18"];
+  Node29 -> Node31 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node31 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node29 -> Node33 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node33 [label="fnRough",height=0.2,width=0.4,color="red",URL="$a31262.html#a6237926ff0e0f0e6f7713162ed42a1e2",tooltip="Compute the roughness function. "];
+  Node33 -> Node34 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34 [label="Foam::log",height=0.2,width=0.4,color="black",URL="$a21124.html#a6e89590da9859ad497977e08f110d4b5"];
+  Node29 -> Node40 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node40 [label="Foam::IOobject::groupName",height=0.2,width=0.4,color="black",URL="$a26142.html#ad5705e6da2a025ad75b4cf5d748d7d30"];
+  Node29 -> Node41 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node41 [label="Foam::turbulenceModel::k",height=0.2,width=0.4,color="black",URL="$a31314.html#a513c40f9ed37e2baed10984c3c4c57a9",tooltip="Return the turbulence kinetic energy. "];
+  Node29 -> Node34 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node29 -> Node42 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node42 [label="Foam::max",height=0.2,width=0.4,color="black",URL="$a21124.html#ac993e906cf2774ae77e666bc24e81733"];
+  Node29 -> Node43 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node43 [label="Foam::min",height=0.2,width=0.4,color="black",URL="$a21124.html#a253e112ad2d56d96230ff39ea7f442dc"];
+  Node29 -> Node44 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node44 [label="Foam::turbulenceModel::nu",height=0.2,width=0.4,color="black",URL="$a31314.html#ad5f81fcd6f7d0ddad1a5fe2a8f08bb3f",tooltip="Return the laminar viscosity. "];
+  Node29 -> Node45 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node45 [label="nutkRoughWallFunctionFvPatch\lScalarField",height=0.2,width=0.4,color="black",URL="$a31262.html#afecc21c4f7f406283795ee0c02d854ab",tooltip="Construct from patch and internal field. "];
+  Node29 -> Node46 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node46 [label="Foam::pow025",height=0.2,width=0.4,color="red",URL="$a21124.html#af8d7dc24dfce32ee37c1210e616966e1"];
+  Node29 -> Node47 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node47 [label="Foam::sqrt",height=0.2,width=0.4,color="red",URL="$a21124.html#a8616bd62eebf2342a80222fecb1bda71"];
+  Node29 -> Node48 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node48 [label="Foam::turbulenceModel::y",height=0.2,width=0.4,color="red",URL="$a31314.html#a152c527a6b3137685b03893a7a3a73eb",tooltip="Return the near wall distances. "];
+  Node48 -> Node44 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node48 -> Node41 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node29 -> Node398 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node398 [label="Foam::nutkWallFunctionFv\lPatchScalarField::yPlus",height=0.2,width=0.4,color="red",URL="$a31266.html#a0de83d05eb8aabc5f8cf747584ef03c3",tooltip="Calculate and return the yPlus at the boundary. "];
+  Node398 -> Node40 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node398 -> Node30 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node398 -> Node48 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node398 -> Node41 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node398 -> Node44 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node398 -> Node46 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node398 -> Node47 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,23 @@
+digraph "smooth"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2077 [label="smooth",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2077 -> Node2078 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2078 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node2077 -> Node2121 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2121 [label="constrain",height=0.2,width=0.4,color="black",URL="$a39260.html#a9263038144c7b2294bd42e0afce04e8e"];
+  Node2077 -> Node2086 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2086 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node2077 -> Node2122 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2122 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node2077 -> Node2123 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2123 [label="Foam::DimensionedField\l::mesh",height=0.2,width=0.4,color="black",URL="$a26390.html#a8f1110830348a1448a14ab5e3cf47e3b",tooltip="Return mesh. "];
+  Node2077 -> Node2124 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2124 [label="Foam::MeshObject\< pointMesh,\l UpdateableMeshObject, pointConstraints \>::New",height=0.2,width=0.4,color="black",URL="$a27138.html#ab61cc2091ec1fd7e08e8948e84235a05"];
+  Node2077 -> Node2125 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2125 [label="Foam::syncTools::syncPointList",height=0.2,width=0.4,color="red",URL="$a27502.html#a197ed77a9101bdfb37253bd3f507c017",tooltip="Synchronize values on all mesh points. "];
+  Node2125 -> Node2078 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

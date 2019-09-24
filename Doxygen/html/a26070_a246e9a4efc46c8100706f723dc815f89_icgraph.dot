@@ -1,0 +1,22 @@
+digraph "codePath"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node688 [label="codePath",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node688 -> Node689 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node689 [label="codeDirName",height=0.2,width=0.4,color="black",URL="$a26070.html#a03583b008e55aa52fecb01f0df03b665",tooltip="Return the code-dirname. "];
+  Node688 -> Node690 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node690 [label="copyOrCreateFiles",height=0.2,width=0.4,color="black",URL="$a26070.html#a249bc10e4d99e27de0ee2960ef67516f",tooltip="Copy/create files prior to compilation. "];
+  Node690 -> Node689 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node688 -> Node691 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node691 [label="createMakeFiles",height=0.2,width=0.4,color="black",URL="$a26070.html#aabd9acd8da8ed9336a3b1b18ec26c618",tooltip="Copy/create Make/files prior to compilation. "];
+  Node691 -> Node690 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node688 -> Node692 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node692 [label="createMakeOptions",height=0.2,width=0.4,color="black",URL="$a26070.html#ae08bbb58bb7231e905cb6f2b8cab7946",tooltip="Copy/create Make/options prior to compilation. "];
+  Node692 -> Node690 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node688 -> Node693 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node693 [label="wmakeLibso",height=0.2,width=0.4,color="black",URL="$a26070.html#af6406c87c53a64ac2e1427ad7e09e2aa",tooltip="Compile a libso. "];
+  Node693 -> Node689 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

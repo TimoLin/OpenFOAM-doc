@@ -1,0 +1,25 @@
+digraph "classifyFields"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node15 [label="classifyFields",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node15 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16 [label="appendFieldGroup",height=0.2,width=0.4,color="red",URL="$a29266.html#ac643d33d4467a9bf039a7c0b5b795645",tooltip="Append fieldName to the appropriate group. "];
+  Node15 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 [label="clearFieldGroups",height=0.2,width=0.4,color="red",URL="$a29266.html#a374e362786a62e11c9ae6b1cc504562b",tooltip="Clear old field groups. "];
+  Node18 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20 [label="Foam::HashTable::find",height=0.2,width=0.4,color="black",URL="$a25702.html#a76b2c74ebd9f33fa9f76261b027ffc11",tooltip="Find and return an iterator set at the hashedEntry. "];
+  Node15 -> Node21 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21 [label="Foam::findStrings",height=0.2,width=0.4,color="red",URL="$a21124.html#a24d78dbd0055269ca2a05f27a1edebff",tooltip="Return true if string matches one of the regular expressions. "];
+  Node15 -> Node70 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node70 [label="Foam::objectRegistry\l::sortedNames",height=0.2,width=0.4,color="red",URL="$a26326.html#a3828424126e9b894728604231f793da9",tooltip="Return the sorted list of names of the IOobjects. "];
+  Node15 -> Node72 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node72 [label="Foam::fvMesh::time",height=0.2,width=0.4,color="red",URL="$a22766.html#a0d94096809fe3376b29a2a29ca11bb18",tooltip="Return the top-level database. "];
+  Node15 -> Node74 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node74 [label="Foam::Time::timeName",height=0.2,width=0.4,color="black",URL="$a26350.html#ad9d86fef6eca18797c786726cf925179",tooltip="Return time name of given scalar time. "];
+  Node15 -> Node75 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node75 [label="Foam::type",height=0.2,width=0.4,color="red",URL="$a21124.html#aec48583af672626378f501eb9fc32cd1",tooltip="Return the file type: DIRECTORY or FILE. "];
+}

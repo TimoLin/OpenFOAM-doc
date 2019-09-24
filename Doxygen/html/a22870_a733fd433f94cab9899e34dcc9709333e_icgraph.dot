@@ -1,0 +1,28 @@
+digraph "patch"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node223 [label="patch",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node223 -> Node224 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node224 [label="Foam::nearWallFields\l::calcAddressing",height=0.2,width=0.4,color="black",URL="$a28750.html#a7097a017d4eac4116d58a3cdbf507891",tooltip="Calculate addressing from cells back to patch faces. "];
+  Node223 -> Node225 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node225 [label="Foam::fvMeshSubset\l::interpolate",height=0.2,width=0.4,color="black",URL="$a22790.html#aafbadde192d2cc55a2187276131af954",tooltip="Map surface field. "];
+  Node223 -> Node226 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node226 [label="Foam::mappedFixedValueFv\lPatchField::mapper",height=0.2,width=0.4,color="red",URL="$a22174.html#a4d87930b582b10c1a1057dc3c7d15403"];
+  Node223 -> Node228 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node228 [label="Foam::NamedEnum\< direction\lType, 3 \>::names",height=0.2,width=0.4,color="black",URL="$a25998.html#a7350da3a0edd92cd11e6c479c9967dc8"];
+  Node223 -> Node229 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node229 [label="Foam::cyclicACMIFvPatch\l::updateAreas",height=0.2,width=0.4,color="red",URL="$a22806.html#aa41ad5c90a11f44713f615ab87a947c6",tooltip="Update the patch areas after AMI update. "];
+  Node223 -> Node234 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node234 [label="Foam::cellMotionFvPatchField\l::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a23342.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node223 -> Node236 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node236 [label="Foam::movingWallVelocity\lFvPatchVectorField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a22186.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node223 -> Node238 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node238 [label="Foam::outletMappedUniform\lInletFvPatchField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a22198.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node223 -> Node240 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node240 [label="Foam::regionSizeDistribution\l::write",height=0.2,width=0.4,color="red",URL="$a28766.html#aac759501cf6c7895a70eecbef0226ae1",tooltip="Calculate the regionSizeDistribution and write. "];
+  Node223 -> Node242 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node242 [label="Foam::leastSquaresVectors\l::~leastSquaresVectors",height=0.2,width=0.4,color="black",URL="$a22558.html#a174123ef1199fb59e95687bd040ab465",tooltip="Destructor. "];
+}

@@ -1,0 +1,34 @@
+digraph "getNamedSurfaces"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node967 [label="getNamedSurfaces",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node967 -> Node968 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node968 [label="Foam::autoRefineDriver\l::autoRefineDriver",height=0.2,width=0.4,color="black",URL="$a24618.html#af542d9b25af177ac01de22c65266603e",tooltip="Construct from components. "];
+  Node967 -> Node969 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node969 [label="Foam::autoSnapDriver\l::calcNearestSurface",height=0.2,width=0.4,color="black",URL="$a24622.html#a0a334a64613ee0c208d8edf18306bcf2",tooltip="Per patch point calculate point on nearest surface. Set as. "];
+  Node969 -> Node970 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node970 [label="Foam::autoSnapDriver\l::detectNearSurfaces",height=0.2,width=0.4,color="red",URL="$a24622.html#a03198aa35e22c16271a36768040a8c11",tooltip="Per patch point override displacement if in gap situation. "];
+  Node967 -> Node977 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node977 [label="Foam::meshRefinement\l::createZoneBaffles",height=0.2,width=0.4,color="red",URL="$a24662.html#a79af0bcc267d8fda8b3f4e683cac915b",tooltip="Create baffles for faces straddling zoned surfaces. Return. "];
+  Node967 -> Node970 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node967 -> Node980 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node980 [label="faceType",height=0.2,width=0.4,color="black",URL="$a24690.html#a7f6d29fa7b92a7be3b719672c3c9508d",tooltip="How to handle face of surfaces with a faceZone. "];
+  Node967 -> Node981 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node981 [label="getUnnamedSurfaces",height=0.2,width=0.4,color="red",URL="$a24690.html#a1f8c08324d9ad320e759f30f23b2d151",tooltip="Get indices of unnamed surfaces (surfaces without faceZoneName) "];
+  Node981 -> Node969 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node981 -> Node970 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node981 -> Node980 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node981 -> Node982 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node982 [label="Foam::listPlusEqOp\l::operator()",height=0.2,width=0.4,color="black",URL="$a24626.html#a2bca5855a51bffee2f0fe2aacc4aba10"];
+  Node981 -> Node983 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node983 [label="Foam::autoSnapDriver\l::repatchToSurface",height=0.2,width=0.4,color="red",URL="$a24622.html#abf0c9c836463b6164ef331dce238b2fa",tooltip="Repatch faces according to surface nearest the face centre. "];
+  Node967 -> Node975 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node975 [label="Foam::autoSnapDriver\l::mergeZoneBaffles",height=0.2,width=0.4,color="red",URL="$a24622.html#a09b35dbc41cd9da97fc287b2d4049f9d",tooltip="Merge baffles. "];
+  Node967 -> Node982 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node967 -> Node983 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node967 -> Node987 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node987 [label="Foam::meshRefinement\l::zonify",height=0.2,width=0.4,color="red",URL="$a24662.html#a90cf965dfe02eb20f11a4a8c6035747f",tooltip="Put faces/cells into zones according to surface specification. "];
+}

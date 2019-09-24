@@ -1,0 +1,13 @@
+digraph "write"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node85 [label="write",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node85 -> Node86 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node86 [label="Umean",height=0.2,width=0.4,color="black",URL="$a22202.html#a85c8220de1b6ebabee3172167d69831f",tooltip="Return reference to the flux to allow adjustment. "];
+  Node85 -> Node87 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node87 [label="updateCoeffs",height=0.2,width=0.4,color="black",URL="$a22202.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node87 -> Node86 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

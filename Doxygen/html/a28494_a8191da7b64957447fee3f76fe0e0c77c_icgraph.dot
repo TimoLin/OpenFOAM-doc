@@ -1,0 +1,12 @@
+digraph "eqOpS"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2 [label="eqOpS",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="Foam::VectorSpace\<\l Vector\< vector \>, vector,\l 3 \>::operator*=",height=0.2,width=0.4,color="black",URL="$a28490.html#aef726b4d6a3f9ec2cfe3b98f714a1427"];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="Foam::VectorSpace\<\l Vector\< vector \>, vector,\l 3 \>::operator/=",height=0.2,width=0.4,color="black",URL="$a28490.html#a974af988e2b06b3a8f644ba16dadbe4f"];
+}

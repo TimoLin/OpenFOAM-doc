@@ -1,0 +1,32 @@
+digraph "fixedValueFvPatchField&lt; Type &gt;"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="fixedValueFvPatchField\l\< Type \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="fvPatchField\< Type \>",height=0.2,width=0.4,color="red",URL="$a22354.html",tooltip="Abstract base class with a fat-interface to all derived classes covering all possible ways in which t..."];
+  Node0 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="cellMotionFvPatchField\l\< Type \>",height=0.2,width=0.4,color="black",URL="$a23342.html",tooltip="Foam::cellMotionFvPatchField. "];
+  Node0 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="codedFixedValueFvPatchField\l\< Type \>",height=0.2,width=0.4,color="black",URL="$a22070.html",tooltip="Constructs on-the-fly a new boundary condition (derived from fixedValueFvPatchField) which is then us..."];
+  Node0 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="fixedMeanFvPatchField\l\< Type \>",height=0.2,width=0.4,color="black",URL="$a22110.html",tooltip="This boundary condition extrapolates field to the patch using the near-cell values and adjusts the di..."];
+  Node0 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12 [label="mappedFieldFvPatchField\l\< Type \>",height=0.2,width=0.4,color="black",URL="$a22154.html",tooltip="This boundary condition provides a self-contained version of the mapped condition. It does not use information on the patch; instead it holds thr data locally. "];
+  Node0 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13 [label="mappedFixedValueFvPatchField\l\< Type \>",height=0.2,width=0.4,color="red",URL="$a22174.html",tooltip="This boundary condition maps the value at a set of cells or patch faces back to *this. "];
+  Node0 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16 [label="oscillatingFixedValueFvPatch\lField\< Type \>",height=0.2,width=0.4,color="black",URL="$a22190.html",tooltip="This boundary condition provides an oscillating condition in terms of amplitude and frequency..."];
+  Node0 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17 [label="outletMappedUniformInlet\lFvPatchField\< Type \>",height=0.2,width=0.4,color="black",URL="$a22198.html",tooltip="This boundary conditon averages the field over the \"outlet\" patch specified by name \"outletPatchName\"..."];
+  Node0 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 [label="timeVaryingMappedFixedValue\lFvPatchField\< Type \>",height=0.2,width=0.4,color="black",URL="$a22282.html",tooltip="This boundary conditions interpolates the values from a set of supplied points in space and time..."];
+  Node0 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19 [label="turbulentInletFvPatchField\l\< Type \>",height=0.2,width=0.4,color="black",URL="$a22298.html",tooltip="This boundary condition generates a fluctuating inlet condition by adding a random component to a ref..."];
+  Node0 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20 [label="uniformFixedValueFvPatch\lField\< Type \>",height=0.2,width=0.4,color="black",URL="$a22314.html",tooltip="This boundary condition provides a uniform fixed value condition. "];
+  Node0 -> Node21 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< scalar \>" ,fontname="FreeSans"];
+  Node21 [label="fixedValueFvPatchField\l\< scalar \>",height=0.2,width=0.4,color="red",URL="$a21986.html"];
+}

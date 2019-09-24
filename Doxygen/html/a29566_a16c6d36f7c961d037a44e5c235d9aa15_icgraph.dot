@@ -1,0 +1,27 @@
+digraph "faces"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node174 [label="faces",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node174 -> Node174 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node174 -> Node175 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node175 [label="Foam::MeshedSurface\l\< Foam::face \>::MeshedSurface",height=0.2,width=0.4,color="black",URL="$a29566.html#a23eeba3103781d1e813b5152bbf6a0a2",tooltip="Construct from a UnsortedMeshedSurface. "];
+  Node174 -> Node176 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node176 [label="Foam::UnsortedMeshedSurface\l::operator=",height=0.2,width=0.4,color="red",URL="$a29574.html#a53075e9ec350d81ce2cfd0bb4db14e49"];
+  Node174 -> Node178 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node178 [label="Foam::MeshedSurface\l\< Foam::face \>::operator=",height=0.2,width=0.4,color="black",URL="$a29566.html#a295b5bd00b13aeebe4027f2f8e76c96a"];
+  Node174 -> Node179 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node179 [label="Foam::fileFormats::\lGTSsurfaceFormat::write",height=0.2,width=0.4,color="red",URL="$a29598.html#ab71924a9723cd4ecad89b737a66a39e8",tooltip="Write MeshedSurface. "];
+  Node174 -> Node184 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node184 [label="Foam::fileFormats::\lVTKsurfaceFormat::write",height=0.2,width=0.4,color="black",URL="$a29666.html#a8eea7f3ea6f24bb7a37ee7ef16a1ad10",tooltip="Write UnsortedMeshedSurface, the output remains unsorted. "];
+  Node174 -> Node185 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node185 [label="Foam::fileFormats::\lAC3DsurfaceFormat::write",height=0.2,width=0.4,color="black",URL="$a29582.html#a8eea7f3ea6f24bb7a37ee7ef16a1ad10",tooltip="Write UnsortedMeshedSurface, the output is always sorted by zones. "];
+  Node174 -> Node186 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node186 [label="Foam::fileFormats::\lTRIsurfaceFormat::write",height=0.2,width=0.4,color="black",URL="$a29658.html#a8eea7f3ea6f24bb7a37ee7ef16a1ad10",tooltip="Write UnsortedMeshedSurface,. "];
+  Node174 -> Node187 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node187 [label="Foam::fileFormats::\lSTLsurfaceFormat::writeAscii",height=0.2,width=0.4,color="black",URL="$a29642.html#ad2585e47a74c01ea43d2a8a6da4f21e5",tooltip="Write UnsortedMeshedSurface (as ASCII) sorted by zone. "];
+  Node174 -> Node188 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node188 [label="Foam::fileFormats::\lSTLsurfaceFormat::writeBinary",height=0.2,width=0.4,color="black",URL="$a29642.html#a3ccd88d5b6604a437b6e0c7fbf16cf64",tooltip="Write UnsortedMeshedSurface (as BINARY) unsorted by zone. "];
+}

@@ -1,0 +1,12 @@
+digraph "flux"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node686 [label="flux",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node686 -> Node687 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node687 [label="Foam::fv::gaussConvection\lScheme::flux",height=0.2,width=0.4,color="red",URL="$a22446.html#a2ceb35d3c628517a5b260ba4a74f35c3"];
+  Node686 -> Node1021 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1021 [label="fvmDiv",height=0.2,width=0.4,color="red",URL="$a22450.html#ad6edbed7fbf0c42fcc63dee2f3ee3bf3"];
+}

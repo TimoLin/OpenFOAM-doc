@@ -1,0 +1,12 @@
+digraph "globalNumbering"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node422 [label="globalNumbering",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node422 -> Node423 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node423 [label="Foam::extendedCentredCell\lToCellStencil::extendedCentred\lCellToCellStencil",height=0.2,width=0.4,color="black",URL="$a22634.html#ac92a88331bba19204b5e43301cd5117c",tooltip="Construct from uncompacted cell stencil. "];
+  Node422 -> Node424 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node424 [label="insertFaceCells",height=0.2,width=0.4,color="red",URL="$a22642.html#ac1c792bf4a5a1b870bb79770131b78ac",tooltip="Collect cell neighbours of faces in global numbering. "];
+}

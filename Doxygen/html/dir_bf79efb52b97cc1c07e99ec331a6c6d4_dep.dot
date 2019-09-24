@@ -1,0 +1,16 @@
+digraph "src/postProcessing/functionObjects/jobControl" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="FreeSans"];
+  edge [ labelfontsize="10", labelfontname="FreeSans"];
+  subgraph clusterdir_e82badcb6e86a7406e8ef8dc75ac578f {
+    graph [ bgcolor="#ddddee", pencolor="black", label="functionObjects" fontname="FreeSans", fontsize="10", URL="dir_e82badcb6e86a7406e8ef8dc75ac578f.html"]
+  subgraph clusterdir_bf79efb52b97cc1c07e99ec331a6c6d4 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_bf79efb52b97cc1c07e99ec331a6c6d4.html"];
+    dir_bf79efb52b97cc1c07e99ec331a6c6d4 [shape=plaintext label="jobControl"];
+    dir_1c65a0e2c47a639d9044e15282f273ea [shape=box label="abortCalculation" color="black" fillcolor="white" style="filled" URL="dir_1c65a0e2c47a639d9044e15282f273ea.html"];
+  }
+  }
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8 [shape=box label="OpenFOAM" color="red" URL="dir_c5473ff19b20e6ec4dfe5c310b3778a8.html"];
+  dir_1c65a0e2c47a639d9044e15282f273ea->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="8", labeldistance=1.5 headhref="dir_002327_001732.html"];
+}

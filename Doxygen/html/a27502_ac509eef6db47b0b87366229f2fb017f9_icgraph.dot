@@ -1,0 +1,17 @@
+digraph "swapBoundaryCellList"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node7580 [label="swapBoundaryCellList",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node7580 -> Node7581 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7581 [label="Foam::autoRefineDriver\l::autoRefineDriver",height=0.2,width=0.4,color="black",URL="$a24618.html#af542d9b25af177ac01de22c65266603e",tooltip="Construct from components. "];
+  Node7580 -> Node7582 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7582 [label="Foam::decompositionMethod\l::decompose",height=0.2,width=0.4,color="black",URL="$a28594.html#a9e5348f6d62778dc2721d9646d92c3d2"];
+  Node7580 -> Node7583 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7583 [label="swapFaceList",height=0.2,width=0.4,color="red",URL="$a27502.html#a0a2ccad77335dc7f9439d3933cf109e0",tooltip="Swap coupled face values. "];
+  Node7583 -> Node7580 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7580 -> Node7785 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7785 [label="syncFaceList",height=0.2,width=0.4,color="black",URL="$a27502.html#abbce369b7f4597ea87c95f9b17cb707f"];
+}

@@ -1,0 +1,37 @@
+digraph "drySplashInteraction"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node842 [label="drySplashInteraction",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node842 -> Node843 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node843 [label="d",height=0.2,width=0.4,color="black",URL="$a38951.html#aa182a9055736468dd160f12649a01fd1"];
+  Node842 -> Node844 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node844 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node842 -> Node846 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node846 [label="Foam::PrimitivePatch\l::faceNormals",height=0.2,width=0.4,color="black",URL="$a27538.html#ad96a54bba336ea57f59f0da350d3c265",tooltip="Return face normals for patch. "];
+  Node842 -> Node847 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node847 [label="Foam::patchIdentifier\l::index",height=0.2,width=0.4,color="black",URL="$a27122.html#a4a438520bb14406481732edc13c119c7",tooltip="Return the index of this patch in the boundaryMesh. "];
+  Node842 -> Node848 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node848 [label="Foam::magSqr",height=0.2,width=0.4,color="black",URL="$a21124.html#ae6fff2c6981e6d9618aa5038e69def6e"];
+  Node842 -> Node849 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node849 [label="Foam::liquidProperties::mu",height=0.2,width=0.4,color="black",URL="$a29954.html#a3e54dc6e2f8afb3cc8db22c54511fc36",tooltip="Liquid viscosity [Pa s]. "];
+  Node842 -> Node850 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node850 [label="Foam::pow",height=0.2,width=0.4,color="red",URL="$a21124.html#a7500c8e9d27a442adc75e287de074c7c"];
+  Node842 -> Node854 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node854 [label="Foam::liquidProperties\l::sigma",height=0.2,width=0.4,color="black",URL="$a29954.html#a7cee74aa297ad09087f0abbc7182a2af",tooltip="Surface tension [N/m]. "];
+  Node842 -> Node855 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node855 [label="Foam::sqr",height=0.2,width=0.4,color="red",URL="$a21124.html#a277dc11c581d53826ab5090b08f3b17b"];
+  Node842 -> Node856 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node856 [label="wetSplashInteraction",height=0.2,width=0.4,color="red",URL="$a24374.html#a54737f64c69d02714946a7aa0f5a0f38",tooltip="Parcel interaction with wetted surface. "];
+  Node856 -> Node844 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node856 -> Node847 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node856 -> Node846 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node856 -> Node843 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node856 -> Node854 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node856 -> Node849 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node856 -> Node855 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node856 -> Node848 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node856 -> Node850 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

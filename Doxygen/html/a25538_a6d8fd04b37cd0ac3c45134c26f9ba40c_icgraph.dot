@@ -1,0 +1,13 @@
+digraph "trackToEdge"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4682 [label="trackToEdge",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4682 -> Node4683 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4683 [label="classify",height=0.2,width=0.4,color="red",URL="$a25538.html#a6f0ceda49a3cd2fbd6ab9655fd370e03",tooltip="Test point on plane of triangle to see if on edge or point or inside. "];
+  Node4682 -> Node4685 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4685 [label="track",height=0.2,width=0.4,color="black",URL="$a25538.html#af4b1f3e416f4fde67a1e6843a4e1c19e",tooltip="Track from edge to edge across surface. Uses trackToEdge. "];
+  Node4685 -> Node4682 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

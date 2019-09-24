@@ -1,0 +1,45 @@
+digraph "patches"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node311 [label="patches",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node311 -> Node312 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node312 [label="Foam::triSurfaceTools\l::collapseEdges",height=0.2,width=0.4,color="black",URL="$a25538.html#a5d5f37658655f0d947ff457a0d8f061c",tooltip="Create new triSurface by collapsing edges to specified. "];
+  Node311 -> Node313 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node313 [label="Foam::distributedTriSurface\lMesh::distribute",height=0.2,width=0.4,color="red",URL="$a28642.html#a30b981a389a43e4853d4dec45e4e5edb",tooltip="Set bounds of surface. Bounds currently set as list of. "];
+  Node311 -> Node323 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node323 [label="Foam::isoSurface::generate\lFaceTriPoints",height=0.2,width=0.4,color="black",URL="$a29346.html#a03628c245d99a9324f28ceffe5aa1c35"];
+  Node311 -> Node324 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node324 [label="Foam::triSurfaceTools\l::greenRefine",height=0.2,width=0.4,color="black",URL="$a25538.html#abfb8b3103f67e2652cfb672525ec5d43",tooltip="Refine edges by splitting to opposite vertex. "];
+  Node311 -> Node325 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node325 [label="Foam::intersectedSurface\l::intersectedSurface",height=0.2,width=0.4,color="black",URL="$a25494.html#a6e95ab0cf81f4521899580c0caaaf6e7",tooltip="Construct from surface and intersection. isFirstSurface is needed. "];
+  Node311 -> Node326 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node326 [label="Foam::triSurfaceTools\l::mergePoints",height=0.2,width=0.4,color="red",URL="$a25538.html#a44799249ec25a8721893cffeffcdec1f",tooltip="Merge points within distance. "];
+  Node311 -> Node329 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node329 [label="Foam::meshTriangulation\l::meshTriangulation",height=0.2,width=0.4,color="black",URL="$a30558.html#adc26bbba53e9c1d772cb4c2807351802",tooltip="Construct from selected mesh cell and region number to be used. "];
+  Node311 -> Node330 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node330 [label="Foam::NamedEnum\< direction\lType, 3 \>::names",height=0.2,width=0.4,color="black",URL="$a25998.html#a7350da3a0edd92cd11e6c479c9967dc8"];
+  Node311 -> Node331 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node331 [label="operator=",height=0.2,width=0.4,color="red",URL="$a30598.html#a7007e1a39a89b943666033e034e1083b"];
+  Node331 -> Node325 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node331 -> Node313 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node311 -> Node334 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node334 [label="Foam::parseNASCoord",height=0.2,width=0.4,color="red",URL="$a21124.html#a663c47a91dbc4b5b9064c385189002be"];
+  Node311 -> Node341 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node341 [label="Foam::boundaryMesh\l::readTriSurface",height=0.2,width=0.4,color="red",URL="$a21430.html#a2ee25ae613c57256a825ff088edc0839",tooltip="Read from triSurface. "];
+  Node311 -> Node343 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node343 [label="Foam::readUpto",height=0.2,width=0.4,color="black",URL="$a21124.html#adebc6d49ebf4c5b9e97e0e2f96d4c493"];
+  Node311 -> Node344 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node344 [label="Foam::triSurfaceMesh\l::regions",height=0.2,width=0.4,color="black",URL="$a25258.html#ab9fb56ec22f93cbc341f0b051e83f872",tooltip="Names of regions. "];
+  Node311 -> Node345 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node345 [label="subsetMesh",height=0.2,width=0.4,color="red",URL="$a30598.html#a2a82635af274c2fffdbb732676b4ecd3",tooltip="Return new surface. Returns pointMap, faceMap from. "];
+  Node311 -> Node352 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node352 [label="Foam::triSurfaceTools\l::triangulate",height=0.2,width=0.4,color="red",URL="$a25538.html#abc610083203403b6a9406e6d0206150e",tooltip="Simple triangulation of (selected patches of) boundaryMesh. Needs. "];
+  Node311 -> Node356 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node356 [label="Foam::triSurfaceTools\l::triangulateFaceCentre",height=0.2,width=0.4,color="black",URL="$a25538.html#abf2be73c84828e0d5db6921bf8b57353",tooltip="Face-centre triangulation of (selected patches of) boundaryMesh. "];
+  Node356 -> Node352 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node311 -> Node357 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node357 [label="write",height=0.2,width=0.4,color="red",URL="$a30598.html#a293fdfec8bdfbd5c3913ab4c9f3454ff",tooltip="Write to Ostream in simple FOAM format. "];
+}

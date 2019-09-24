@@ -1,0 +1,24 @@
+digraph "magSf"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1152 [label="magSf",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1152 -> Node1153 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1153 [label="nf",height=0.2,width=0.4,color="red",URL="$a22870.html#ac630ebe09f4b9ad480cd839dd3978459",tooltip="Return face normals. "];
+  Node1153 -> Node1154 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1154 [label="Foam::movingWallVelocity\lFvPatchVectorField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a22186.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node1153 -> Node1163 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1163 [label="patchSlice",height=0.2,width=0.4,color="black",URL="$a22870.html#abafaae120d11327175dacc1109283746",tooltip="Slice list to patch. "];
+  Node1152 -> Node1163 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1152 -> Node1170 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1170 [label="Foam::externalCoupledTemperature\lMixedFvPatchScalarField::transferData",height=0.2,width=0.4,color="red",URL="$a30778.html#aaead10f96672ca2a1e5c291111cebf1e",tooltip="Transfer data for external source. "];
+  Node1152 -> Node1174 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1174 [label="Foam::cyclicACMIFvPatch\l::updateAreas",height=0.2,width=0.4,color="red",URL="$a22806.html#aa41ad5c90a11f44713f615ab87a947c6",tooltip="Update the patch areas after AMI update. "];
+  Node1152 -> Node1178 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1178 [label="Foam::totalFlowRateAdvective\lDiffusiveFvPatchScalarField\l::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a30794.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node1152 -> Node1154 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1152 -> Node1180 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1180 [label="Foam::outletMappedUniform\lInletFvPatchField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a22198.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+}

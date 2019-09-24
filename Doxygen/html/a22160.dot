@@ -1,0 +1,13 @@
+digraph "mappedPatchFieldBase&lt; Type &gt;"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node5 [label="mappedPatchFieldBase\l\< Type \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node6 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mapper_" ,fontname="FreeSans"];
+  Node6 [label="mappedPatchBase",height=0.2,width=0.4,color="red",URL="$a25094.html",tooltip="Determines a mapping between patch face centres and mesh cell or face centres and processors they&#39;re ..."];
+  Node47 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" sampleRegion_\nsamplePatch_" ,fontname="FreeSans"];
+  Node47 [label="word",height=0.2,width=0.4,color="red",URL="$a28258.html",tooltip="A class for handling words, derived from string. "];
+  Node47 -> Node47 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" null" ,fontname="FreeSans"];
+  Node47 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" fieldName_\ninterpolationScheme_" ,fontname="FreeSans"];
+}

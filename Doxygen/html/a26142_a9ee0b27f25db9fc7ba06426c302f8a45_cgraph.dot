@@ -1,0 +1,36 @@
+digraph "writeHeader"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node22675 [label="writeHeader",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node22675 -> Node22676 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22676 [label="db",height=0.2,width=0.4,color="black",URL="$a26142.html#a65cc75d9f80b1df5c3184fb2274a97f1",tooltip="Return the local objectRegistry. "];
+  Node22675 -> Node22677 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22677 [label="Foam::objectRegistry\l::dbDir",height=0.2,width=0.4,color="red",URL="$a26326.html#a9ecd132f79c64a2676e2ec906c864653",tooltip="Local directory path of this objectRegistry relative to the time. "];
+  Node22677 -> Node22682 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22682 [label="name",height=0.2,width=0.4,color="black",URL="$a26142.html#acc80e00a8ac919288fb55bd14cc88bf6",tooltip="Return name. "];
+  Node22675 -> Node22708 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22708 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node22675 -> Node22778 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22778 [label="Foam::IOstream::format",height=0.2,width=0.4,color="black",URL="$a26226.html#a33bbef3587114a06f7bdc0b91ba57ed9",tooltip="Return current stream format. "];
+  Node22675 -> Node22737 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22737 [label="Foam::IOstream::good",height=0.2,width=0.4,color="black",URL="$a26226.html#abdcc7f96f487faadc7769afcf58fe992",tooltip="Return true if next operation might succeed. "];
+  Node22675 -> Node23023 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23023 [label="Foam::IOstream::info",height=0.2,width=0.4,color="black",URL="$a26226.html#acf03c00da2e08651c45c43e6e900abfa",tooltip="Return info proxy. "];
+  Node22675 -> Node22813 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22813 [label="instance",height=0.2,width=0.4,color="black",URL="$a26142.html#acac6de003b420b848571b5064e50ed89"];
+  Node22675 -> Node23024 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23024 [label="local",height=0.2,width=0.4,color="red",URL="$a26142.html#a039f37f5ce1cc861d53d1b24994e0832"];
+  Node23024 -> Node22813 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22675 -> Node22682 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22675 -> Node22931 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22931 [label="note",height=0.2,width=0.4,color="black",URL="$a26142.html#a6f42a51d969cbb5ab649cc46e99bd52c",tooltip="Return non-constant access to the optional note. "];
+  Node22675 -> Node23012 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23012 [label="Foam::IOstream::version",height=0.2,width=0.4,color="black",URL="$a26226.html#a84b4350bd7516c6c1dda0b1cb3cbcbfb",tooltip="Return the stream version. "];
+  Node22675 -> Node23015 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23015 [label="writeBanner",height=0.2,width=0.4,color="black",URL="$a26142.html#a02fe83a3242334d79d9798f542c1b780",tooltip="Write the standard OpenFOAM file/dictionary banner. "];
+  Node22675 -> Node23016 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23016 [label="writeDivider",height=0.2,width=0.4,color="black",URL="$a26142.html#ab9dfd1788c127840b478e7c3b95b2e51",tooltip="Write the standard file section divider. "];
+}

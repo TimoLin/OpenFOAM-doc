@@ -1,0 +1,23 @@
+digraph "src/OpenFOAM/db/dynamicLibrary/dynamicCode/dynamicCode.C"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node0 [label="src/OpenFOAM/db/dynamicLibrary\l/dynamicCode/dynamicCode.C",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="dynamicCode.H",height=0.2,width=0.4,color="red",URL="$a08909.html"];
+  Node0 -> Node65 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node65 [label="dynamicCodeContext.H",height=0.2,width=0.4,color="red",URL="$a08915.html"];
+  Node65 -> Node66 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node66 [label="dictionary.H",height=0.2,width=0.4,color="red",URL="$a08804.html"];
+  Node0 -> Node79 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node79 [label="stringOps.H",height=0.2,width=0.4,color="red",URL="$a12656.html"];
+  Node79 -> Node66 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node0 -> Node80 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node80 [label="IFstream.H",height=0.2,width=0.4,color="red",URL="$a09059.html"];
+  Node0 -> Node84 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node84 [label="OFstream.H",height=0.2,width=0.4,color="red",URL="$a09065.html"];
+  Node0 -> Node85 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node85 [label="OSspecific.H",height=0.2,width=0.4,color="red",URL="$a10370.html",tooltip="Functions used by OpenFOAM that are specific to POSIX compliant operating systems and need to be repl..."];
+  Node0 -> Node66 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,30 @@
+digraph "nu"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node571 [label="nu",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node571 -> Node572 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node572 [label="correct",height=0.2,width=0.4,color="red",URL="$a31102.html#aa4d8a8ca44f2b13f84ba64733f6e0252",tooltip="Solve the turbulence equations and correct the turbulence viscosity. "];
+  Node571 -> Node923 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node923 [label="devReff",height=0.2,width=0.4,color="black",URL="$a31102.html#a326a60284c8611b8d684da3ed60d59fb",tooltip="Return the effective stress tensor including the laminar stress. "];
+  Node571 -> Node924 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node924 [label="divDevReff",height=0.2,width=0.4,color="black",URL="$a31102.html#a2fe41bb94b1df0e86fe7a6c83a78c5ad",tooltip="Return the source term for the momentum equation. "];
+  Node571 -> Node925 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node925 [label="divDevRhoReff",height=0.2,width=0.4,color="black",URL="$a31102.html#ad406d4c7b5858512bcae60ecc610d147",tooltip="Return the source term for the momentum equation. "];
+  Node571 -> Node926 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node926 [label="epsilon",height=0.2,width=0.4,color="black",URL="$a31102.html#a9259555bfd1948ca5889cde3d9f32c44",tooltip="Return the turbulence kinetic energy dissipation rate. "];
+  Node571 -> Node927 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node927 [label="k",height=0.2,width=0.4,color="black",URL="$a31102.html#a513c40f9ed37e2baed10984c3c4c57a9",tooltip="Return the turbulence kinetic energy. "];
+  Node571 -> Node928 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node928 [label="Foam::transportModel::nu",height=0.2,width=0.4,color="black",URL="$a30490.html#ad5f81fcd6f7d0ddad1a5fe2a8f08bb3f",tooltip="Return the laminar viscosity. "];
+  Node571 -> Node929 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node929 [label="nuEff",height=0.2,width=0.4,color="black",URL="$a31102.html#ac35af7b203d2ce09502cd2ea1e9db43d",tooltip="Return the effective viscosity. "];
+  Node571 -> Node930 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node930 [label="nut",height=0.2,width=0.4,color="black",URL="$a31102.html#a172707e93d70ead6d609ebf6138e46d9",tooltip="Return the turbulence viscosity. "];
+  Node571 -> Node931 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node931 [label="R",height=0.2,width=0.4,color="black",URL="$a31102.html#a58fc44a6638c1794d267ee2beaa50512",tooltip="Return the Reynolds stress tensor. "];
+  Node571 -> Node932 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node932 [label="read",height=0.2,width=0.4,color="black",URL="$a31102.html#a2eeeaebe7e52f5d842385ce0b177150d",tooltip="Read LESProperties or RASProperties dictionary. "];
+}

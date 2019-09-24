@@ -1,0 +1,12 @@
+digraph "distributeFaceData"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node181 [label="distributeFaceData",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node181 -> Node182 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node182 [label="Foam::meshRefinement\l::distribute",height=0.2,width=0.4,color="red",URL="$a24662.html#a6be2dc3eb1d541aeb83ee0a2adcc0556",tooltip="Update local numbering for mesh redistribution. "];
+  Node181 -> Node184 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node184 [label="distributeFaceIndices",height=0.2,width=0.4,color="red",URL="$a27378.html#a6b83f64ffd3be1329bee633cdbb13e2d"];
+}

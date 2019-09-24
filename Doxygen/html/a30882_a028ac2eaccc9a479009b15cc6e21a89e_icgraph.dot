@@ -1,0 +1,13 @@
+digraph "divDevReff"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1958 [label="divDevReff",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1958 -> Node1959 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1959 [label="devReff",height=0.2,width=0.4,color="black",URL="$a30882.html#a5449021fbe915095746a83606a000df4",tooltip="Return the effective sub-grid turbulence stress tensor. "];
+  Node1959 -> Node1960 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1960 [label="nuSgs",height=0.2,width=0.4,color="black",URL="$a30882.html#abde47ef2bb39f49cb72a765c4fd8cc3c",tooltip="Return the SGS viscosity. "];
+  Node1958 -> Node1960 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

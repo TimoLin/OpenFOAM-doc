@@ -1,0 +1,30 @@
+digraph "calcAtomization"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node235 [label="calcAtomization",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node235 -> Node236 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node236 [label="calcBreakup",height=0.2,width=0.4,color="red",URL="$a24534.html#af788f9bd434c7cabde1b08a11956ae1a",tooltip="Correct parcel properties according to breakup model. "];
+  Node236 -> Node238 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node238 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node236 -> Node242 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node242 [label="d",height=0.2,width=0.4,color="black",URL="$a38951.html#aa182a9055736468dd160f12649a01fd1"];
+  Node235 -> Node272 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node272 [label="Foam::AtomizationModel\l::calcChi",height=0.2,width=0.4,color="black",URL="$a24522.html#a614269e8e32e3643b889d1c1df04b1f7",tooltip="flag to indicate if chi needs to be calculated "];
+  Node235 -> Node242 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node235 -> Node260 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node260 [label="Foam::CompositionModel\l::liquids",height=0.2,width=0.4,color="black",URL="$a23806.html#a03638032f60c2f702e8e3a9fd53f9952",tooltip="Return the global (additional) liquids. "];
+  Node235 -> Node238 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node235 -> Node273 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node273 [label="Foam::max",height=0.2,width=0.4,color="black",URL="$a21124.html#ac993e906cf2774ae77e666bc24e81733"];
+  Node235 -> Node274 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node274 [label="Foam::min",height=0.2,width=0.4,color="black",URL="$a21124.html#a253e112ad2d56d96230ff39ea7f442dc"];
+  Node235 -> Node275 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node275 [label="pos",height=0.2,width=0.4,color="black",URL="$a12539.html#a44b9821c8742536715efac47391df780"];
+  Node235 -> Node276 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node276 [label="Foam::AtomizationModel\l::Taverage",height=0.2,width=0.4,color="black",URL="$a24522.html#aacccadfbc7d7d97b7b7579e02e9dd0c3",tooltip="Average temperature calculation. "];
+  Node235 -> Node277 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node277 [label="Foam::AtomizationModel\l::update",height=0.2,width=0.4,color="black",URL="$a24522.html#a56fbe4b3eb1d2607d8ca4ed4a4909739"];
+}

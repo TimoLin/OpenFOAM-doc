@@ -1,0 +1,17 @@
+digraph "src/finiteVolume/finiteVolume/laplacianSchemes/gaussLaplacianScheme/gaussLaplacianScheme.C"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node0 [label="src/finiteVolume/finiteVolume\l/laplacianSchemes/gaussLaplacian\lScheme/gaussLaplacianScheme.C",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="gaussLaplacianScheme.H",height=0.2,width=0.4,color="red",URL="$a03185.html"];
+  Node0 -> Node84 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node84 [label="surfaceInterpolate.H",height=0.2,width=0.4,color="red",URL="$a04307.html",tooltip="Surface Interpolation. "];
+  Node0 -> Node88 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node88 [label="fvcDiv.H",height=0.2,width=0.4,color="red",URL="$a02966.html",tooltip="Calculate the divergence of the given field. "];
+  Node0 -> Node89 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node89 [label="fvcGrad.H",height=0.2,width=0.4,color="red",URL="$a02978.html",tooltip="Calculate the gradient of the given field. "];
+  Node0 -> Node90 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node90 [label="fvMatrices.H",height=0.2,width=0.4,color="red",URL="$a03272.html",tooltip="A special matrix type and solver, designed for finite volume solutions of scalar equations. "];
+}

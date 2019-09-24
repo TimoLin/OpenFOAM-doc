@@ -1,0 +1,24 @@
+digraph "mixedFvPatchField&lt; Type &gt;"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="mixedFvPatchField\<\l Type \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="fvPatchField\< Type \>",height=0.2,width=0.4,color="red",URL="$a22354.html",tooltip="Abstract base class with a fat-interface to all derived classes covering all possible ways in which t..."];
+  Node0 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="advectiveFvPatchField\l\< Type \>",height=0.2,width=0.4,color="red",URL="$a22066.html",tooltip="This boundary condition provides an advective outflow condition, based on solving DDt(psi..."];
+  Node0 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="codedMixedFvPatchField\l\< Type \>",height=0.2,width=0.4,color="black",URL="$a22074.html",tooltip="Constructs on-the-fly a new boundary condition (derived from mixedFvPatchField) which is then used to..."];
+  Node0 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12 [label="externalCoupledMixedFvPatch\lField\< Type \>",height=0.2,width=0.4,color="red",URL="$a22082.html",tooltip="This boundary condition provides an interface to an external application. Values are transferred as p..."];
+  Node0 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15 [label="inletOutletFvPatchField\l\< Type \>",height=0.2,width=0.4,color="red",URL="$a22142.html",tooltip="This boundary condition provides a generic outflow condition, with specified inflow for the case of r..."];
+  Node0 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17 [label="outletInletFvPatchField\l\< Type \>",height=0.2,width=0.4,color="black",URL="$a22194.html",tooltip="This boundary condition provides a generic inflow condition, with specified outflow for the case of r..."];
+  Node0 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 [label="uniformInletOutletFvPatch\lField\< Type \>",height=0.2,width=0.4,color="black",URL="$a22318.html",tooltip="Variant of inletOutlet boundary condition with uniform inletValue. "];
+  Node0 -> Node19 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< scalar \>" ,fontname="FreeSans"];
+  Node19 [label="mixedFvPatchField\<\l scalar \>",height=0.2,width=0.4,color="red",URL="$a21990.html"];
+}

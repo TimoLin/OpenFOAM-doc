@@ -1,0 +1,19 @@
+digraph "pow"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node69001 [label="pow",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node69001 -> Node69002 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node69002 [label="Foam::reuseTmpGeometricField\l::clear",height=0.2,width=0.4,color="black",URL="$a26518.html#a592956bfdb4cead405a6f952869cb153"];
+  Node69001 -> Node69003 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node69003 [label="Foam::DimensionedField\l::dimensions",height=0.2,width=0.4,color="black",URL="$a26390.html#a66989c1e0666e0d0c93a2056ce75599e",tooltip="Return dimensions. "];
+  Node69001 -> Node69004 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node69004 [label="Foam::dimensioned::name",height=0.2,width=0.4,color="black",URL="$a26366.html#ade4113569ef0db70665fded275a5e38e",tooltip="Return const reference to name. "];
+  Node69001 -> Node69005 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node69005 [label="Foam::IOobject::name",height=0.2,width=0.4,color="black",URL="$a26142.html#acc80e00a8ac919288fb55bd14cc88bf6",tooltip="Return name. "];
+  Node69001 -> Node69006 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node69006 [label="pow",height=0.2,width=0.4,color="red",URL="$a21124.html#a7500c8e9d27a442adc75e287de074c7c"];
+  Node69006 -> Node69004 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

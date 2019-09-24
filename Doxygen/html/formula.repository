@@ -1,0 +1,255 @@
+\form#0:\[ S = - (\mu d + \frac{\rho |U|}{2} f) U \]
+\form#1:$ d $
+\form#2:$ f $
+\form#3:\[ S = - \rho_ref (\alpha + \beta |U|) U \]
+\form#4:\[ S = - \rho C_0 |U|^{(C_1 - 1)} U \]
+\form#5:$ C_0 $
+\form#6:$ C_1 $
+\form#7:\[ U_p = cos(\theta)*U_{Inf} + sin(theta) (n^UInf) - U_{p,srf} \]
+\form#8:$ U_p = patch velocity [m/s]$
+\form#9:$ U_{Inf} = free stream velocity in the absolute frame [m/s]$
+\form#10:$ theta = swept angle [rad]$
+\form#11:$ n = axis direction of the SRF$
+\form#12:$ U_{p,srf} = SRF velocity of the patch$
+\form#13:\[ U_p = U_{in} \]
+\form#14:\[ U_p = U_{in} - U_{p,srf} \]
+\form#15:$ U_{in} = user-specified inlet velocity$
+\form#16:$ U_{p,srf} = SRF velocity$
+\form#17:\[ x_p = x_c + \frac{\nabla(x)}{\Delta} \]
+\form#18:$ x_p $
+\form#19:$ x_c $
+\form#20:$ \nabla(x)$
+\form#21:$ \Delta $
+\form#22:\[ x_p = w x_p + (1-w) \left(x_c + \frac{\nabla_\perp x}{\Delta}\right) \]
+\form#23:$ w $
+\form#24:$ \Delta$
+\form#25:\[ x = x_{old} + sign(F_{net})\frac{dt}{DT} \]
+\form#26:$ x $
+\form#27:$ x_{old} $
+\form#28:$ dt $
+\form#29:$ DT $
+\form#30:$ F_{net} $
+\form#31:\[ x = x_{old} + \frac{dt}{DT} \]
+\form#32:\[ \rho = \rho_{l,sat} + \psi_l*(p - p_{sat}) \]
+\form#33:$ \rho $
+\form#34:$ \rho_{l,sat} $
+\form#35:$ \psi_l $
+\form#36:$ p $
+\form#37:$ p_{sat} $
+\form#38:\[ U_p = U_c - n (n \cdot U_c) + \frac{n \phi_p}{|S_f|} \]
+\form#39:$ U_p $
+\form#40:$ U_c $
+\form#41:$ n $
+\form#42:$ \phi_p $
+\form#43:$ S_f $
+\form#44:\[ x_p = (1 + a sin(2 \pi f t))x_{ref} + x_o \]
+\form#45:$ x_{ref} $
+\form#46:$ x_o $
+\form#47:$ a $
+\form#48:$ t $
+\form#49:\[ p_{hyd} = p_{ref} + \rho g (x - x_{ref}) \]
+\form#50:$ p_{hyd} $
+\form#51:$ p_{ref} $
+\form#52:$ g $
+\form#53:\[ p_rgh = p - \rho g h \]
+\form#54:$ p_rgh $
+\form#55:$ h $
+\form#56:\[ p_p = p_0 - 0.5 |U|^2 \]
+\form#57:$ p_p $
+\form#58:$ p_0 $
+\form#59:$ U $
+\form#60:\[ p_p = p_0 - 0.5 \rho |U|^2 \]
+\form#61:\[ p_p = \frac{p_0}{1 + 0.5 \psi |U|^2} \]
+\form#62:$ G $
+\form#63:$\frac{\gamma}{1-\gamma}$
+\form#64:\[ p_p = \frac{p_0}{(1 + 0.5 \psi G |U|^2)^{\frac{1}{G}}} \]
+\form#65:$ \gamma $
+\form#66:$ \psi $
+\form#67:\[ x_p = (1 - \alpha) x_p^{n-1} + \alpha (x_{ref} + s C_{RMS} x_{ref}) \]
+\form#68:$ \alpha $
+\form#69:$ C_{RMS} $
+\form#70:$ s $
+\form#71:\[ k_p = 1.5 (I |U|)^2 \]
+\form#72:$ k_p $
+\form#73:$ I $
+\form#74:\[ p = -\rho*g*\zeta \]
+\form#75:$ \zeta $
+\form#76:\[ x_p = \frac{\phi_p}{|Sf|} + \sqrt{\frac{\gamma}{\psi_p}} \]
+\form#77:$ \psi_p $
+\form#78:$ Sf $
+\form#79:\[ weight = 1 - max(min((Co - Co1)/(Co2 - Co1), 1), 0) \]
+\form#80:$ Co1 $
+\form#81:$ Co2 $
+\form#82:\[ T = 2 \rho A U_{o}^2 a (1-a) \]
+\form#83:\[ U_1 = (1 - a)U_{o} \]
+\form#84:$ A $
+\form#85:$ U_o $
+\form#86:$ U_1 $
+\form#87:\[ Q_t = e(\phi, \dot{m}_2) (T_2 - T_1) \phi c_p \]
+\form#88:$ Q_t $
+\form#89:$ e(\phi,\dot{m}_2) $
+\form#90:$ \phi $
+\form#91:$ \dot{m}_2 $
+\form#92:$ T_1 $
+\form#93:$ T_2 $
+\form#94:$ c_p $
+\form#95:\[ Q_c = \frac{V_c |U_c| (T_c - T_{ref})}{\sum(V_c |U_c| (T_c - T_{ref}))} \]
+\form#96:$ Q_c $
+\form#97:$ V_c $
+\form#98:$ T_c $
+\form#99:$ T_{ref} $
+\form#100:\[ thrust(r) = T (C_0 + C_1 r^2 + C_2 r^4) \]
+\form#101:\[ S(x) = S_u + S_p x \]
+\form#102:$ S(x) $
+\form#103:$ S_u $
+\form#104:$ S_p $
+\form#105:\[ -htc*Tmapped + Sp(htc, T) \]
+\form#106:\[ cumulative model = (1.0 - exp( -(( x - d0)/d)^n ) / (1.0 - exp( -((d1 - d0)/d)^n ) \]
+\form#107:$e$
+\form#108:\[ \frac{P_s \alpha^\beta}{ \mathrm{max} \left( \alpha_{pack} - \alpha , \epsilon ( 1 - \alpha ) \right) } \]
+\form#109:$\alpha$
+\form#110:$\epsilon$
+\form#111:\[ \left( \alpha \rho + \alpha^2 \rho (1 + e) \frac{3}{5} \left( 1 - \left( \frac{\alpha}{\alpha_{pack}} \right)^\frac{1}{3} \right) \right) \frac{1}{3} \sigma^2 \]
+\form#112:$\rho$
+\form#113:$\sigma$
+\form#114:\[ V_d = V sqrt(epsilon)(B1 T + B2 T^2) \]
+\form#115:\[ y_{n+1} = y_n + \delta_x f \]
+\form#116:\[ err_{n+1} = y_{n+1} - y_n \]
+\form#117:\[ y_{n+1} = y_n + \delta_x\left[I - \delta_x\frac{\partial f}{\partial y}\right]^{-1} \cdot \left[f(y_n) + \delta_x\frac{\partial f}{\partial x}\right] \]
+\form#118:\[ \overline{x} = \frac{1}{N}\displaystyle\sum\limits_{i=0}^N x_i \]
+\form#119:\[ \overline{x'}^2 = \frac{1}{N}\displaystyle\sum\limits_{i=0}^N (x_i - \overline{x})^2 \]
+\form#120:$N$
+\form#121:\[ p_s = \rho p_k \]
+\form#122:\[ p_T = p_{ref} + p_s + 0.5 \rho |U|^2 \]
+\form#123:\[ Cp_s = \frac{p_s - p_{\inf}}{0.5 \rho_{\inf} |U_{\inf}|^2} \]
+\form#124:\[ Cp_T = \frac{p_T - p_{\inf}}{0.5 \rho_{\inf} |U_{\inf}|^2} \]
+\form#125:$ \rho_{\inf} $
+\form#126:$ p_{\inf} $
+\form#127:$ U_{\inf} $
+\form#128:$ p_k $
+\form#129:$ p_s $
+\form#130:$ p_T $
+\form#131:$ Cp_{s} $
+\form#132:$ Cp_{T} $
+\form#133:\[ Q = 0.5(sqr(tr(\nabla U)) - tr(((\nabla U) \cdot (\nabla U)))) \]
+\form#134:\[ Stress = R \dot n \]
+\form#135:$ R $
+\form#136:\[ U_p = \frac{n \phi}{\rho |Sf| \delta} \]
+\form#137:$ \delta $
+\form#138:$ \lambda $
+\form#139:\[ \lambda = a(1 - \lambda)^b - c \lambda \dot{\gamma}^d \]
+\form#140:\[ \mu = \frac{\mu_{\infty}}{{1 - K \lambda}^2} \]
+\form#141:\[ K = 1 - \sqrt{\frac{\mu_{\infty}}{\mu_{0}}} \]
+\form#142:$ b $
+\form#143:$ c $
+\form#144:$ \dot{\gamma} $
+\form#145:$ \mu_{0} $
+\form#146:$ \lambda = 1 $
+\form#147:$ \mu_{\infty} $
+\form#148:$ \lambda = 0 $
+\form#149:\[ \nabla(e_p) = \nabla_\perp C_p(p, T) + \frac{e_p - e_c}{\Delta} \]
+\form#150:$ e_p $
+\form#151:$ e_c $
+\form#152:$ T $
+\form#153:$ C_p $
+\form#154:$Su$
+\form#155:\[ Su = \left( \sum \alpha_i \phi^i \right) \left( \frac{T}{T_{ref}} \right)^{\left( \sum \beta_j \phi^j \right)} \]
+\form#156:$\phi$
+\form#157:$\beta$
+\form#158:\[ \mu = A_s \frac{\sqrt{T}}{1 + T_s / T} \]
+\form#159:\[ htc_p = \frac{0.664 Re^{0.5} Pr^{0.333} \kappa_p}{L} \]
+\form#160:\[ htc_p = \frac{0.037 Re^{0.8} Pr^{0.333} \kappa_p}{L} \]
+\form#161:$ htc_p $
+\form#162:$ Re $
+\form#163:$ Pr $
+\form#164:$ \kappa_p $
+\form#165:$ L $
+\form#166:\[ \epsilon_p = \frac{C_{\mu}^{0.75} k^{1.5}}{L} \]
+\form#167:$ \epsilon_p $
+\form#168:$ C_{\mu} $
+\form#169:$ k $
+\form#170:$\omega$
+\form#171:\[ \omega_p = \frac{k^{0.5}}{C_{\mu}^{0.25} L} \]
+\form#172:$ \omega_p $
+\form#173:\[ \alpha_t = \frac{\mu_t}{Pr_t} \]
+\form#174:$ \alpha_t$
+\form#175:$ \mu_t $
+\form#176:$ Pr_t $
+\form#177:$ epsilon $
+\form#178:\[ y^+ = u^+ + \frac{1}{E} \left[exp(\kappa u^+) - 1 - \kappa u^+\, - 0.5 (\kappa u^+)^2 - \frac{1}{6} (\kappa u^+)^3\right] \]
+\form#179:$ y^+ $
+\form#180:$ u^+ $
+\form#181:$ \kappa $
+\form#182:\[ \omega = sqrt(\omega_{vis}^2 + \omega_{log}^2) \]
+\form#183:$ \omega_{vis} $
+\form#184:$ \omega_{log} $
+\form#185:$ Ta $
+\form#186:$ q $
+\form#187:\[ \Delta p = -(D \mu U + 0.5 I \rho |U|^2 )L \]
+\form#188:$ \mu $
+\form#189:$ D $
+\form#190:\[ \frac{d}{dt}(B) + \nabla\cdot(U B) - \nabla\cdot(\nu_{sgs}\nabla B) = P - c_1 \frac{\epsilon}{k}B - 0.667(1 - c_1)\epsilon I - c_2 (P - 0.333 trP I) \]
+\form#191:\begin{eqnarray*} k &=& 0.5 tr(B) \\ \epsilon &=& c_e k^{3/2}/\Delta \\ \epsilon/k &=& c_e k^{1/2}/\Delta \\ P &=& -(B'L + L'B) \\ \nu_{sgs} &=& c_k k^{1/2} \Delta \\ \nu_{eff} &=& \nu_{sgs} + \nu \end{eqnarray*}
+\form#192:\[ U = \frac{U^*}{\kappa} ln\left(\frac{z - z_g + z_0}{z_0}\right) \]
+\form#193:\[ k = \frac{(U^*)^2}{\sqrt{C_mu}} \]
+\form#194:\[ \epsilon = \frac{(U^*)^3}{\kappa(z - z_g + z_0)} \]
+\form#195:$ U^* $
+\form#196:$ C_mu $
+\form#197:$ z $
+\form#198:$ z_0 $
+\form#199:$ z_g $
+\form#200:\[ U^* = \kappa\frac{U_{ref}}{ln\left(\frac{Z_{ref} + z_0}{z_0}\right)} \]
+\form#201:$ U_{ref} $
+\form#202:$Z_{ref}$
+\form#203:$ Z_{ref} $
+\form#204:$k$
+\form#205:\[ U = frac{U_f}{K} ln(\frac{z + z_0}{z_0}) \]
+\form#206:$ U_f $
+\form#207:$ K $
+\form#208:\[ \epsilon = \frac{(U^*)^3}{K(z - z_g + z_0)} \]
+\form#209:\[ U^* = K \frac{U_{ref}}{ln\left(\frac{Z_{ref} + z_0}{z_0}\right)} \]
+\form#210:\[ U = \frac{U^*}{K} ln\left(\frac{z - z_g + z_0}{z_0}\right) \]
+\form#211:$ pexp $
+\form#212:$ texp $
+\form#213:$ Su = a_{0}(1+a_{1}x+K+..a_{i}x^{i}..+a_{6}x^{6}) (p/p_{ref})^{pexp} (T/T_{ref})^{texp} $
+\form#214:$ a_{i} $
+\form#215:\[ R = -\frac{1}{2} \rho \vert \dwea{\vec{U}} \vert \dwea{\vec{U}}.D \]
+\form#216:$ m^{-1} $
+\form#217:$ G_{R} $
+\form#218:$ \kappa-\epsilon $
+\form#219:$ G_{R} = C_{s}\beta_{\nu} \mu_{eff} A_{w}^{2}(\dwea{\vec{U}}-\dwea{\vec{U}_{s}})^2 + \frac{1}{2} \rho \vert \dwea{\vec{U}} \vert \dwea{\vec{U}}.T.\dwea{\vec{U}} $
+\form#220:$ C_{s} $
+\form#221:$ \beta_{\nu} $
+\form#222:$ \mu_{eff} $
+\form#223:$ A_{w}^{2}$
+\form#224:$ \dwea{\vec{U}_{s}} $
+\form#225:$ \frac{1}{2}. \dwea{\vec{U}} $
+\form#226:$ \epsilon $
+\form#227:$ C_{1} G_{R} $
+\form#228:$ n = N - \hat{\dwea{\vec{U}}}.n_{s}.\hat{\dwea{\vec{U}}} $
+\form#229:$ n_{r} = \sqrt{n} $
+\form#230:$ \hat{\dwea{\vec{U}}} = \dwea{\vec{U}} / \vert \dwea{\vec{U}} \vert $
+\form#231:$ b = \hat{\dwea{\vec{U}}}.B.\hat{\dwea{\vec{U}}} / n_{r} $
+\form#232:$ B $
+\form#233:$ N $
+\form#234:$ n_{s} $
+\form#235:$ \Xi_{sub} $
+\form#236:\[ \Xi_{{sub}_{eq}} = 1 + max(2.2 \sqrt{b}, min(0.34 \frac{\vert \dwea{\vec{U}} \vert}{{\vec{U}}^{'}}, 1.6)) \times min(\frac{n}{4}, 1) \]
+\form#237:$ G_{sub} $
+\form#238:\[ G_{sub} = k_{1} /frac{\vert \dwea{\vec{U}} \vert}{L_{obs}} \frac{/Xi_{{sub}_{eq}}-1}{/Xi_{sub}} \]
+\form#239:\[ - k_{1} /frac{\vert \dwea{\vec{U}} \vert}{L_{sub}} \frac{\Xi_{sub}-1}{\Xi_{sub}} \]
+\form#240:$ G_{in} $
+\form#241:$\Xi_{eq}$
+\form#242:$\Xi_{eq} = 1 + (1 + 2\Xi_{coeff}(0.5 - \dwea{b}))(\Xi^* - 1)$
+\form#243:$ \dwea{b} $
+\form#244:$ \Xi_{coeff} $
+\form#245:$ \Xi^* $
+\form#246:\[ \Xi^* = \frac {R}{R - G_\eta - G_{in}} \]
+\form#247:$ G_\eta $
+\form#248:$ G_{in} = \kappa \rho_{u}/\rho_{b} $
+\form#249:\[ R = G_\eta \frac{\Xi_{\eta_{eq}}}{\Xi_{\eta_{eq}} - 1} + G_{in} \frac{\Xi_{{in}_{eq}}}{\Xi_{{in}_{eq}} - 1} \]
+\form#250:$ \Xi_{\eta_{eq}} $
+\form#251:$ \Xi_{{in}_{eq}} $
+\form#252:\[ rho_{k} = 1 - beta(T - T_{ref}) \]
+\form#253:$ rho_{k} $
+\form#254:\[ \frac{beta(T - T_{ref})}{rho_{ref}} << 1 \]

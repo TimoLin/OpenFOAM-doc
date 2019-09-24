@@ -1,0 +1,15 @@
+digraph "initPatchFaceAreas"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node120 [label="initPatchFaceAreas",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node120 -> Node121 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node121 [label="Foam::UList::empty",height=0.2,width=0.4,color="black",URL="$a25698.html#a644718bb2fb240de962dc3c9a1fdf0dc",tooltip="Return true if the UList is empty (ie, size() is zero). "];
+  Node120 -> Node122 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node122 [label="faceAreas0",height=0.2,width=0.4,color="black",URL="$a24926.html#adb99a6c32b7e79295de941fcfbb8d668",tooltip="Return access to the original patch face areas. "];
+  Node120 -> Node120 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node120 -> Node123 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node123 [label="resetAMI",height=0.2,width=0.4,color="red",URL="$a24926.html#a8137f810e4a5638bd9eaaa9c7d7132b8",tooltip="Reset the AMI interpolator. "];
+}

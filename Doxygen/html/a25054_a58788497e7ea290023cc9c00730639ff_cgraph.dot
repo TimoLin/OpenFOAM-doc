@@ -1,0 +1,16 @@
+digraph "useSubset"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node17 [label="useSubset",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node17 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 [label="getVolumeType",height=0.2,width=0.4,color="black",URL="$a25054.html#a48737f260350c0145adb2d05de69373a",tooltip="Get type (inside,outside,mixed,unknown) of point w.r.t. surface. "];
+  Node18 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19 [label="overlaps",height=0.2,width=0.4,color="red",URL="$a25054.html#a1915c0938452ba641c6ccf39df02dfad",tooltip="Does (bb of) shape at index overlap bb. "];
+  Node17 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17 -> Node23 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23 [label="shapePoints",height=0.2,width=0.4,color="black",URL="$a25054.html#aeef9078dd91d58c4cede06e7a9cee2cb",tooltip="Get representative point cloud for all shapes inside. "];
+  Node23 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

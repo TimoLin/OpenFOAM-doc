@@ -1,0 +1,14 @@
+digraph "count"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node20 [label="count",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node20 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21 [label="Foam::string::hash\l::hash",height=0.2,width=0.4,color="black",URL="$a28254.html#af5d527ef2a6e3f43563ad4cb15872140"];
+  Node20 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22 [label="Foam::OSstream::write",height=0.2,width=0.4,color="black",URL="$a26290.html#aa2aa8378b27c8d8b2460cbffef8c678f",tooltip="Write character string. "];
+  Node20 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23 [label="Foam::OSstream::writeQuoted",height=0.2,width=0.4,color="red",URL="$a26290.html#a40c64d7f8975f303da0b0245c16fe906",tooltip="Write std::string surrounded by quotes. "];
+}

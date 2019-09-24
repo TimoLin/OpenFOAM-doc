@@ -1,0 +1,47 @@
+digraph "value"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node11 [label="value",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12 [label="Foam::ReactingParcel\l::constantProperties\l::constantVolume",height=0.2,width=0.4,color="black",URL="$a23926.html#a2b1c2d67281b12043ab66bed04ef0f45",tooltip="Return const access to the constant volume flag. "];
+  Node11 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13 [label="Foam::ThermoParcel\l::constantProperties::Cp0",height=0.2,width=0.4,color="black",URL="$a23942.html#ac3cbc1699f160a468db7842245b735c0",tooltip="Return const access to the particle specific heat capacity. "];
+  Node11 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14 [label="Foam::ThermoParcel\l::constantProperties\l::epsilon0",height=0.2,width=0.4,color="black",URL="$a23942.html#a9c1e7470f16c3a5299268b69e40af7fb",tooltip="Return const access to the particle emissivity []. "];
+  Node11 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15 [label="Foam::ThermoParcel\l::constantProperties::f0",height=0.2,width=0.4,color="black",URL="$a23942.html#a5796e7041ee41c3b11661098ba418af9",tooltip="Return const access to the particle scattering factor []. "];
+  Node11 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16 [label="Foam::ReactingMultiphase\lParcel::constantProperties\l::hRetentionCoeff",height=0.2,width=0.4,color="black",URL="$a23914.html#a864e9268ced80ca00a3a0f01de466709",tooltip="Return const access to the fraction of enthalpy retained by. "];
+  Node16 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17 [label="Foam::ReactingMultiphase\lParcel::constantProperties\l::LDevol",height=0.2,width=0.4,color="black",URL="$a23914.html#acea74aa0b24dbb1185781444246aa82a",tooltip="Return const access to the latent heat of devolatilisation. "];
+  Node11 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 [label="Foam::KinematicParcel\l::constantProperties\l::minParcelMass",height=0.2,width=0.4,color="black",URL="$a23882.html#a58038b93bc6f5c3c6c70fd2fe312e33d",tooltip="Return const access to the minimum particle mass. "];
+  Node11 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19 [label="Foam::SprayParcel::\lconstantProperties::mu0",height=0.2,width=0.4,color="black",URL="$a24538.html#a0f8699df56dacd50b55087c760b2337e",tooltip="Return const access to the initial dynamic viscosity. "];
+  Node11 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20 [label="Foam::KinematicParcel\l::constantProperties\l::parcelTypeId",height=0.2,width=0.4,color="black",URL="$a23882.html#a8ea62d9453331a8f2205a70772575b4e",tooltip="Return const access to the parcel type id. "];
+  Node11 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21 [label="Foam::ReactingParcel\l::constantProperties::pMin",height=0.2,width=0.4,color="black",URL="$a23926.html#a33e74513c08e1a80e6d42735d61c52ef",tooltip="Return const access to the minimum pressure. "];
+  Node11 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22 [label="Foam::CollidingParcel\l::constantProperties\l::poissonsRatio",height=0.2,width=0.4,color="black",URL="$a23858.html#a18cd0f04d6773d5b9209fda7646d7d85",tooltip="Return const access to Poisson&#39;s ratio. "];
+  Node11 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23 [label="Foam::KinematicParcel\l::constantProperties::rho0",height=0.2,width=0.4,color="black",URL="$a23882.html#a669a41f8a9377848da77571d4ccf7dce",tooltip="Return const access to the particle density. "];
+  Node11 -> Node24 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node24 [label="Foam::KinematicParcel\l::constantProperties\l::rhoMin",height=0.2,width=0.4,color="black",URL="$a23882.html#adfd7172865009fd43123b3a7ff2906f8",tooltip="Return const access to the minimum density. "];
+  Node11 -> Node25 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node25 [label="Foam::SprayParcel::\lconstantProperties::\lsigma0",height=0.2,width=0.4,color="black",URL="$a24538.html#a4e0a17b84aa1f6b5938871f455c7580f",tooltip="Return const access to the initial surface tension. "];
+  Node11 -> Node26 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node26 [label="Foam::ThermoParcel\l::constantProperties::T0",height=0.2,width=0.4,color="black",URL="$a23942.html#af8a4195c279eb93c6d27f3da2e666fe6",tooltip="Return const access to the particle initial temperature [K]. "];
+  Node11 -> Node27 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node27 [label="Foam::ReactingMultiphase\lParcel::constantProperties\l::TDevol",height=0.2,width=0.4,color="black",URL="$a23914.html#aa2b539741d8153945fa0b633a5d70756",tooltip="Return const access to the devolatilisation temperature. "];
+  Node11 -> Node28 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node28 [label="Foam::ThermoParcel\l::constantProperties::TMax",height=0.2,width=0.4,color="black",URL="$a23942.html#ad7b1e9b61671a97b66c56cfa6957153c",tooltip="Return const access to maximum temperature [K]. "];
+  Node11 -> Node29 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node29 [label="Foam::ThermoParcel\l::constantProperties::TMin",height=0.2,width=0.4,color="black",URL="$a23942.html#a95b456a6cb5a1ea80be2f4223716d3d6",tooltip="Return const access to minimum temperature [K]. "];
+  Node11 -> Node30 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node30 [label="Foam::CollidingParcel\l::constantProperties\l::youngsModulus",height=0.2,width=0.4,color="black",URL="$a23858.html#a04f7bf8fdc88627ad934adaa662f5a57",tooltip="Return const access to Young&#39;s Modulus. "];
+}

@@ -1,0 +1,16 @@
+digraph "write"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2647 [label="write",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2647 -> Node2648 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2648 [label="Foam::IOstream::setBad",height=0.2,width=0.4,color="red",URL="$a26226.html#a638b33dd25b3cd8ea7e846f04fd6a6a3",tooltip="Set stream to be bad. "];
+  Node2647 -> Node2651 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2651 [label="Foam::token::stringToken",height=0.2,width=0.4,color="black",URL="$a26306.html#a8bc98d24b39ac2531331c180035b6149"];
+  Node2647 -> Node2652 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2652 [label="Foam::token::type",height=0.2,width=0.4,color="black",URL="$a26306.html#acc719f52fcbac7cb134576dc93632867"];
+  Node2647 -> Node2653 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2653 [label="write",height=0.2,width=0.4,color="black",URL="$a26262.html#a0efefd773fa79fc3b687978f9e1ee9ba",tooltip="Write given buffer to given processor. "];
+}

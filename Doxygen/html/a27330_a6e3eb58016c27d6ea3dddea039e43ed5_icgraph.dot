@@ -1,0 +1,45 @@
+digraph "toGlobal"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node144 [label="toGlobal",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node144 -> Node145 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node145 [label="Foam::nearWallFields\l::calcAddressing",height=0.2,width=0.4,color="black",URL="$a28750.html#a7097a017d4eac4116d58a3cdbf507891",tooltip="Calculate addressing from cells back to patch faces. "];
+  Node144 -> Node146 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node146 [label="Foam::decompositionMethod\l::calcCellCells",height=0.2,width=0.4,color="red",URL="$a28594.html#a86727d8c968e3ae5d8f394879e2b3c8a",tooltip="Helper: determine (local or global) cellCells from mesh. "];
+  Node144 -> Node152 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node152 [label="Foam::createShellMesh\l::calcPointRegions",height=0.2,width=0.4,color="red",URL="$a21442.html#abd09fd2558d9fc41e9a503ce2976fe5f",tooltip="Helper: calculate point regions. The point region is the. "];
+  Node152 -> Node155 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node155 [label="Foam::minEqOp\< labelPair\l \>::operator()",height=0.2,width=0.4,color="black",URL="$a21438.html#a5110bdded347caa6365e4d10554dfc32"];
+  Node144 -> Node157 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node157 [label="Foam::radiation::viewFactor\l::calculate",height=0.2,width=0.4,color="black",URL="$a30046.html#afe1d8348c24e6589bc7c0b3f689316a7",tooltip="Solve system of equation(s) "];
+  Node144 -> Node158 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node158 [label="Foam::edgeCollapser\l::checkMeshQuality",height=0.2,width=0.4,color="red",URL="$a21642.html#a05c592dbdbe3fcc0728c2595750b5982",tooltip="Check mesh and mark points on faces in error. "];
+  Node144 -> Node162 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node162 [label="Foam::distributedTriSurface\lMesh::findNearest",height=0.2,width=0.4,color="red",URL="$a28642.html#ac968e745f1a4294205a3cf4936755409"];
+  Node144 -> Node165 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node165 [label="Foam::addPatchCellLayer\l::globalEdgeFaces",height=0.2,width=0.4,color="red",URL="$a21626.html#aeea8524ff2d092f53488dd1cb593c58e",tooltip="Per patch edge the pp faces (in global indices) using it. Uses. "];
+  Node144 -> Node172 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node172 [label="Foam::cellToCellStencil\l::insertFaceCells",height=0.2,width=0.4,color="red",URL="$a22642.html#ac1c792bf4a5a1b870bb79770131b78ac",tooltip="Collect cell neighbours of faces in global numbering. "];
+  Node144 -> Node175 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node175 [label="Foam::cellToFaceStencil\l::insertFaceCells",height=0.2,width=0.4,color="red",URL="$a22686.html#ac1c792bf4a5a1b870bb79770131b78ac",tooltip="Collect cell neighbours of faces in global numbering. "];
+  Node144 -> Node178 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node178 [label="Foam::meshRefinement\l::mergeBaffles",height=0.2,width=0.4,color="red",URL="$a24662.html#aa959f1ef1377d3a4eaac5ff099280e50",tooltip="Merge baffles. Gets pairs of faces. "];
+  Node144 -> Node183 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node183 [label="Foam::globalMeshData\l::mergePoints",height=0.2,width=0.4,color="red",URL="$a27334.html#aa4df94c65c44d0e38bcd229cd913f042",tooltip="Helper for merging (collocated!) mesh point data. "];
+  Node144 -> Node215 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node215 [label="Foam::MGridGenGAMGAgglomeration\l::MGridGenGAMGAgglomeration",height=0.2,width=0.4,color="black",URL="$a23298.html#ad90d6181883d17cf991ff0cde7243627",tooltip="Construct given mesh and controls. "];
+  Node144 -> Node198 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node198 [label="Foam::NamedEnum\< direction\lType, 3 \>::names",height=0.2,width=0.4,color="black",URL="$a25998.html#a7350da3a0edd92cd11e6c479c9967dc8"];
+  Node144 -> Node155 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node144 -> Node216 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node216 [label="Foam::radiation::viewFactor\l::read",height=0.2,width=0.4,color="black",URL="$a30046.html#af816873151ddb0126e98bb2f914d8ed5",tooltip="Read radiation properties dictionary. "];
+  Node144 -> Node217 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node217 [label="Foam::addPatchCellLayer\l::setRefinement",height=0.2,width=0.4,color="red",URL="$a21626.html#a9488cb0518f21b76444c508cc9658d64",tooltip="Play commands into polyTopoChange to create layers on top. "];
+  Node144 -> Node220 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node220 [label="size",height=0.2,width=0.4,color="red",URL="$a27330.html#a47b3bf30da1eb3ab8076b5fbe00e0494",tooltip="Global sum of localSizes. "];
+  Node220 -> Node155 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node220 -> Node145 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

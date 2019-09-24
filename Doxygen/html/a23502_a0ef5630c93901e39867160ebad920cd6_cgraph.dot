@@ -1,0 +1,44 @@
+digraph "calculate"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node731 [label="calculate",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node731 -> Node732 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node732 [label="Foam::atan2",height=0.2,width=0.4,color="red",URL="$a21124.html#a7c3244436f5bb68e49184c00b86ccc8d"];
+  Node731 -> Node736 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node736 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node731 -> Node738 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node738 [label="f",height=0.2,width=0.4,color="black",URL="$a17900.html#a888be93833ac7a23170555c69c690288"];
+  Node731 -> Node739 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node739 [label="Foam::magSqr",height=0.2,width=0.4,color="black",URL="$a21124.html#ae6fff2c6981e6d9618aa5038e69def6e"];
+  Node731 -> Node740 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node740 [label="Foam::max",height=0.2,width=0.4,color="black",URL="$a21124.html#ac993e906cf2774ae77e666bc24e81733"];
+  Node731 -> Node741 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node741 [label="Foam::min",height=0.2,width=0.4,color="black",URL="$a21124.html#a253e112ad2d56d96230ff39ea7f442dc"];
+  Node731 -> Node742 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node742 [label="Foam::neg",height=0.2,width=0.4,color="red",URL="$a21124.html#aad5b44612e484eb87fcea79a3d19ee04"];
+  Node731 -> Node743 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node743 [label="pDyn",height=0.2,width=0.4,color="black",URL="$a39077.html#a18a109c225cdc280070807ec1ff6727b"];
+  Node731 -> Node744 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node744 [label="Foam::constant::mathematical::pi",height=0.2,width=0.4,color="black",URL="$a21162.html#a731b8788a4c01586c35266c7ca4fed04"];
+  Node731 -> Node745 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node745 [label="Foam::radToDeg",height=0.2,width=0.4,color="black",URL="$a21124.html#a43e249466ea923a1a1243c5f91fbd2d7",tooltip="Conversion from radians to degrees. "];
+  Node745 -> Node744 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node731 -> Node746 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node746 [label="Foam::reduce",height=0.2,width=0.4,color="red",URL="$a21124.html#a7ffd6af4acc2eb9ba72ee296b5ecda23"];
+  Node746 -> Node736 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node731 -> Node759 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node759 [label="Foam::constant::mathematical\l::twoPi",height=0.2,width=0.4,color="black",URL="$a21162.html#a7574b446d33e802339e1708574670c00"];
+  Node731 -> Node760 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node760 [label="Foam::type",height=0.2,width=0.4,color="red",URL="$a21124.html#aec48583af672626378f501eb9fc32cd1",tooltip="Return the file type: DIRECTORY or FILE. "];
+  Node731 -> Node766 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node766 [label="writeField",height=0.2,width=0.4,color="red",URL="$a23502.html#a50c8c517b38fcb9dc4c8e082aa1b4034",tooltip="Helper function to write rotor values. "];
+  Node731 -> Node808 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node808 [label="Foam::Vector::x",height=0.2,width=0.4,color="black",URL="$a28442.html#a63327976e5a8359700064a02ae22548e"];
+  Node731 -> Node809 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node809 [label="Foam::Vector::y",height=0.2,width=0.4,color="black",URL="$a28442.html#a1ee865f676fbac703a49c6654dd3ad74"];
+  Node731 -> Node810 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node810 [label="Foam::Vector::z",height=0.2,width=0.4,color="black",URL="$a28442.html#a1c8320b15610de211ec70ef966581423"];
+}

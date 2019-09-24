@@ -1,0 +1,27 @@
+digraph "src/OpenFOAM/global/constants/physicoChemical/physicoChemicalConstants.H"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node98 [label="src/OpenFOAM/global\l/constants/physicoChemical\l/physicoChemicalConstants.H",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node98 -> Node99 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node99 [label="src/lagrangian/intermediate\l/clouds/Templates/ThermoCloud\l/ThermoCloudI.H",height=0.2,width=0.4,color="red",URL="$a05240.html"];
+  Node98 -> Node117 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node117 [label="src/lagrangian/intermediate\l/parcels/Templates/ThermoParcel\l/ThermoParcel.C",height=0.2,width=0.4,color="black",URL="$a05495.html"];
+  Node98 -> Node118 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node118 [label="src/OpenFOAM/global\l/constants/constants.H",height=0.2,width=0.4,color="red",URL="$a10217.html"];
+  Node98 -> Node189 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node189 [label="src/OpenFOAM/global\l/constants/fundamental\l/fundamentalConstants.C",height=0.2,width=0.4,color="red",URL="$a10232.html",tooltip="Fundamental dimensioned constants. "];
+  Node98 -> Node192 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node192 [label="src/OpenFOAM/global\l/constants/physicoChemical\l/physicoChemicalConstants.C",height=0.2,width=0.4,color="red",URL="$a10241.html"];
+  Node98 -> Node193 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node193 [label="src/thermophysicalModels\l/radiationModels/derivedFvPatch\lFields/MarshakRadiation/MarshakRadiation\lFvPatchScalarField.C",height=0.2,width=0.4,color="black",URL="$a15926.html"];
+  Node98 -> Node194 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node194 [label="src/thermophysicalModels\l/radiationModels/derivedFvPatch\lFields/MarshakRadiationFixedTemperature\l/MarshakRadiationFixedTemperatureFvPatchScalarField.C",height=0.2,width=0.4,color="black",URL="$a15932.html"];
+  Node98 -> Node195 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node195 [label="src/thermophysicalModels\l/radiationModels/radiationModel\l/fvDOM/blackBodyEmission/blackBodyEmission.C",height=0.2,width=0.4,color="black",URL="$a15965.html"];
+  Node98 -> Node196 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node196 [label="src/thermophysicalModels\l/radiationModels/radiationModel\l/noRadiation/noRadiation.C",height=0.2,width=0.4,color="black",URL="$a39674.html"];
+  Node98 -> Node197 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node197 [label="src/thermophysicalModels\l/radiationModels/radiationModel\l/opaqueSolid/opaqueSolid.C",height=0.2,width=0.4,color="black",URL="$a15989.html"];
+}

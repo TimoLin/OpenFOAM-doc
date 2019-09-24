@@ -1,0 +1,29 @@
+digraph "correctNut"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node79 [label="correctNut",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node79 -> Node80 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node80 [label="Foam::RASModels::kEpsilon\l::correctNut",height=0.2,width=0.4,color="black",URL="$a31302.html#aaffe89433f18f1ee4137486e19219448"];
+  Node80 -> Node81 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node81 [label="Foam::sqr",height=0.2,width=0.4,color="red",URL="$a21124.html#a277dc11c581d53826ab5090b08f3b17b"];
+  Node79 -> Node85 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node85 [label="Foam::virtualMassModel::Cvm",height=0.2,width=0.4,color="black",URL="$a32202.html#aa8035092d352bc4d77626b7132e69928",tooltip="Virtual mass coefficient. "];
+  Node79 -> Node86 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node86 [label="Foam::turbulenceModel\l::epsilon",height=0.2,width=0.4,color="black",URL="$a31314.html#a9259555bfd1948ca5889cde3d9f32c44",tooltip="Return the turbulence kinetic energy dissipation rate. "];
+  Node79 -> Node87 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node87 [label="Foam::exp",height=0.2,width=0.4,color="black",URL="$a21124.html#a12bca6c677fcf0977532179c3cb9bb89"];
+  Node79 -> Node88 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node88 [label="Foam::turbulenceModel::k",height=0.2,width=0.4,color="black",URL="$a31314.html#a513c40f9ed37e2baed10984c3c4c57a9",tooltip="Return the turbulence kinetic energy. "];
+  Node79 -> Node89 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node89 [label="Foam::min",height=0.2,width=0.4,color="black",URL="$a21124.html#a253e112ad2d56d96230ff39ea7f442dc"];
+  Node79 -> Node90 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node90 [label="Foam::turbulenceModel::nut",height=0.2,width=0.4,color="black",URL="$a31314.html#a172707e93d70ead6d609ebf6138e46d9",tooltip="Return the turbulence viscosity. "];
+  Node79 -> Node91 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node91 [label="Foam::twoPhaseSystem\l::otherPhase",height=0.2,width=0.4,color="black",URL="$a32386.html#a21dba21eddc0728483db4760c08b11c6",tooltip="Return the phase not given as an argument. "];
+  Node79 -> Node81 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node79 -> Node92 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node92 [label="Foam::twoPhaseSystem\l::virtualMass",height=0.2,width=0.4,color="black",URL="$a32386.html#a74aa7f35d28d17db2666172dadf706b4",tooltip="Return the virtual mass model for the supplied phase. "];
+}

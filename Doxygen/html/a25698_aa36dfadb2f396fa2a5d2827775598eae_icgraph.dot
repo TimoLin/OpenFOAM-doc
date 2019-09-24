@@ -1,0 +1,29 @@
+digraph "byteSize"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1259 [label="byteSize",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1259 -> Node1260 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1260 [label="Foam::mapDistribute\l::distribute",height=0.2,width=0.4,color="red",URL="$a27362.html#a33e0f8481eb68bf011731ec98e8f7c65",tooltip="Distribute data. Note:schedule only used for Pstream::scheduled. "];
+  Node1259 -> Node1445 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1445 [label="Foam::globalIndex::\lgather",height=0.2,width=0.4,color="red",URL="$a27330.html#a2ada785f9c593e27b85617451b04b393",tooltip="Collect data in processor order on master (== procIDs[0]). "];
+  Node1259 -> Node1450 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1450 [label="Foam::Pstream::gatherList",height=0.2,width=0.4,color="red",URL="$a26250.html#afbdf64fb42cd760690d51a9a321792d9",tooltip="Gather data but keep individual values separate. "];
+  Node1259 -> Node1559 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1559 [label="Foam::List\< functionObject\l *\>::List",height=0.2,width=0.4,color="black",URL="$a25694.html#a61fc7ead8ab7e6df752baece075286c1",tooltip="Copy constructor. "];
+  Node1259 -> Node1560 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1560 [label="Foam::Pstream::listCombine\lGather",height=0.2,width=0.4,color="red",URL="$a26250.html#a8c0e5044dc4a942cf62b06797c3a743f"];
+  Node1259 -> Node1581 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1581 [label="Foam::Pstream::listCombine\lScatter",height=0.2,width=0.4,color="red",URL="$a26250.html#adfd4915b68ab7181dccb847976286e56",tooltip="Scatter data. Reverse of combineGather. "];
+  Node1259 -> Node1583 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1583 [label="Foam::UList::greater\l::operator()",height=0.2,width=0.4,color="black",URL="$a25986.html#a49202d8cfd6e19f3d43c028252050ed7"];
+  Node1259 -> Node1584 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1584 [label="Foam::processorLduInterface\l::receive",height=0.2,width=0.4,color="black",URL="$a26862.html#a2a35a65f15a64622670eeab23c0f0137",tooltip="Raw field receive function. "];
+  Node1584 -> Node1585 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1585 [label="Foam::processorLduInterface\l::send",height=0.2,width=0.4,color="black",URL="$a26862.html#a190e983931759cb8de6a0d7d5a176062",tooltip="Raw send function. "];
+  Node1259 -> Node1586 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1586 [label="Foam::globalIndex::\lscatter",height=0.2,width=0.4,color="red",URL="$a27330.html#a2e964657608ecbc2154a0e8e2e28b815",tooltip="Distribute data in processor order. Requires fld to be sized! "];
+  Node1259 -> Node1585 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

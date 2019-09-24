@@ -1,0 +1,25 @@
+digraph "operator()"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node73 [label="operator()",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node73 -> Node74 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node74 [label="Foam::error::functionName",height=0.2,width=0.4,color="black",URL="$a26082.html#a766cd6bf57c8f60839a8d04eab0bdf14"];
+  Node73 -> Node75 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node75 [label="ioEndLineNumber",height=0.2,width=0.4,color="red",URL="$a26086.html#a8f31741a5497f159f1ec818e54db905e"];
+  Node75 -> Node74 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node75 -> Node122 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node122 [label="Foam::error::sourceFileLine\lNumber",height=0.2,width=0.4,color="black",URL="$a26082.html#afc15d9e726f7bcd039a0f4279168e24d"];
+  Node75 -> Node123 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node123 [label="Foam::error::sourceFileName",height=0.2,width=0.4,color="black",URL="$a26082.html#a33d9bc75452bb66d0c307b2df3b90ff2"];
+  Node73 -> Node124 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node124 [label="ioFileName",height=0.2,width=0.4,color="black",URL="$a26086.html#a2134f7c0f761f6ae819a8dda4ebb942f"];
+  Node73 -> Node125 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node125 [label="ioStartLineNumber",height=0.2,width=0.4,color="black",URL="$a26086.html#ab215316bd355d5aebabd958d32803697"];
+  Node73 -> Node126 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node126 [label="Foam::error::operator()",height=0.2,width=0.4,color="red",URL="$a26082.html#a51e360c35a2d5e72afca4ea370bc04fb",tooltip="Explicitly convert to OSstream for << operations. "];
+  Node73 -> Node122 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node73 -> Node123 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

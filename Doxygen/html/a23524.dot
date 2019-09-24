@@ -1,0 +1,21 @@
+digraph "CodedSource&lt; Type &gt;"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node3 [label="CodedSource\< Type \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="option",height=0.2,width=0.4,color="red",URL="$a23446.html",tooltip="Finite volume options abtract base class. Provides a base set of controls, e.g. "];
+  Node17 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" modelType_\nnbrRegionName_\ncellSetName_\nname_" ,fontname="FreeSans"];
+  Node17 [label="word",height=0.2,width=0.4,color="black",URL="$a28258.html",tooltip="A class for handling words, derived from string. "];
+  Node18 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 [label="string",height=0.2,width=0.4,color="red",URL="$a28250.html",tooltip="A class for handling character strings derived from std::string. "];
+  Node18 -> Node18 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" null" ,fontname="FreeSans"];
+  Node17 -> Node17 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" null" ,fontname="FreeSans"];
+  Node53 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node53 [label="codedBase",height=0.2,width=0.4,color="black",URL="$a26062.html",tooltip="Base class for function objects and boundary conditions using dynamic code. "];
+  Node54 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" redirectFvOptionPtr_" ,fontname="FreeSans"];
+  Node54 [label="autoPtr\< Foam::fv::\loption \>",height=0.2,width=0.4,color="red",URL="$a25958.html"];
+  Node18 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" codeCorrect_\ncodeAddSup_\ncodeSetValue_" ,fontname="FreeSans"];
+  Node17 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" redirectType_" ,fontname="FreeSans"];
+}

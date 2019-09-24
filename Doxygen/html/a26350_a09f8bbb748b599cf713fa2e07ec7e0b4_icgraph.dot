@@ -1,0 +1,14 @@
+digraph "readDict"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2424 [label="readDict",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2424 -> Node2425 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2425 [label="read",height=0.2,width=0.4,color="red",URL="$a26350.html#af816873151ddb0126e98bb2f914d8ed5",tooltip="Read control dictionary, update controls and time. "];
+  Node2424 -> Node2429 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2429 [label="Foam::engineTime::readDict",height=0.2,width=0.4,color="red",URL="$a21822.html#a09f8bbb748b599cf713fa2e07ec7e0b4",tooltip="Read the control dictionary and set the write controls etc. "];
+  Node2424 -> Node2430 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2430 [label="readModifiedObjects",height=0.2,width=0.4,color="red",URL="$a26350.html#ad42b9316f3704237d26cd99245d49d61",tooltip="Read the objects that have been modified. "];
+}

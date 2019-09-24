@@ -1,0 +1,40 @@
+digraph "mergePoints"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3621 [label="mergePoints",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3621 -> Node3622 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3622 [label="Foam::mapDistribute\l::constructSize",height=0.2,width=0.4,color="black",URL="$a27362.html#aafa5c5eaac08986c309d43bb80c2ab1f",tooltip="Constructed data size. "];
+  Node3621 -> Node3623 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3623 [label="coupledPatch",height=0.2,width=0.4,color="red",URL="$a27334.html#adbf1d40edb1a4d9d7175cc03028a82e7",tooltip="Return patch of all coupled faces. "];
+  Node3621 -> Node3679 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3679 [label="Foam::mapDistribute\l::distribute",height=0.2,width=0.4,color="red",URL="$a27362.html#a33e0f8481eb68bf011731ec98e8f7c65",tooltip="Distribute data. Note:schedule only used for Pstream::scheduled. "];
+  Node3679 -> Node3680 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3680 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node3679 -> Node3675 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3675 [label="Foam::List::setSize",height=0.2,width=0.4,color="black",URL="$a25694.html#aedb985ffeaf1bdbfeccc2a8730405703",tooltip="Reset size of List. "];
+  Node3621 -> Node3686 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3686 [label="Foam::HashTableCore::end",height=0.2,width=0.4,color="red",URL="$a25706.html#a540580a296c0ff351686ceb4f27b6fe6",tooltip="iteratorEnd set to beyond the end of any HashTable "];
+  Node3621 -> Node3694 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3694 [label="Foam::HashTable::find",height=0.2,width=0.4,color="black",URL="$a25702.html#a76b2c74ebd9f33fa9f76261b027ffc11",tooltip="Find and return an iterator set at the hashedEntry. "];
+  Node3621 -> Node3695 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3695 [label="globalCoPointSlaves",height=0.2,width=0.4,color="black",URL="$a27334.html#aa5db81c664ee36aaa53618a57e0a0940"];
+  Node3621 -> Node3696 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3696 [label="globalCoPointSlavesMap",height=0.2,width=0.4,color="red",URL="$a27334.html#a0b3a352a1bd504592c367a64ba7659f7"];
+  Node3621 -> Node3708 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3708 [label="Foam::PrimitivePatch\l::meshPointMap",height=0.2,width=0.4,color="black",URL="$a27538.html#a4bfdf4cb7ea71c49e0131cb6358eacf7",tooltip="Mesh point map. Given the global point index find its. "];
+  Node3621 -> Node3700 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3700 [label="Foam::PrimitivePatch\l::nPoints",height=0.2,width=0.4,color="black",URL="$a27538.html#a1c886a784a597459dbf2d9470798e9dd",tooltip="Return number of points supporting patch faces. "];
+  Node3621 -> Node3702 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3702 [label="Foam::mapDistribute\l::reverseDistribute",height=0.2,width=0.4,color="red",URL="$a27362.html#af4843479bbb5ce26fab0dbefd525c410",tooltip="Reverse distribute data using default commsType. "];
+  Node3702 -> Node3679 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3621 -> Node3675 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3621 -> Node3680 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3621 -> Node3705 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3705 [label="syncData",height=0.2,width=0.4,color="black",URL="$a27334.html#a81fffc5ec4bfe50dd3ba0a3ca38ee2f1",tooltip="Helper: synchronise data with transforms. "];
+  Node3705 -> Node3679 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3705 -> Node3702 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3705 -> Node3680 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

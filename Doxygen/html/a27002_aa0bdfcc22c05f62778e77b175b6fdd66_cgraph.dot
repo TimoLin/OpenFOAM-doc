@@ -1,0 +1,33 @@
+digraph "GAMGSolver"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="GAMGSolver",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="Foam::lduMesh::comm",height=0.2,width=0.4,color="black",URL="$a27126.html#a28ed0554ff28e2947c49b335f621d507",tooltip="Return communicator used for parallel communication. "];
+  Node0 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="Foam::lduMatrix::diag",height=0.2,width=0.4,color="red",URL="$a26882.html#a9140aaa9630c2cba2fe28369a649f2f0"];
+  Node0 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node0 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="Foam::exit",height=0.2,width=0.4,color="red",URL="$a21124.html#a06ca7250d8e89caf05243ec094843642"];
+  Node0 -> Node52 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node52 [label="Foam::lduMatrix::lower",height=0.2,width=0.4,color="red",URL="$a26882.html#a734a4ef740d3c42f77537ecea178a161"];
+  Node0 -> Node53 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node53 [label="Foam::GAMGInterface::New",height=0.2,width=0.4,color="black",URL="$a27026.html#a9d64f73698c79b37460797ed20977575",tooltip="Return a pointer to a new interface created on freestore given. "];
+  Node53 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node0 -> Node54 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node54 [label="Foam::UPtrList::set",height=0.2,width=0.4,color="black",URL="$a25990.html#a2d4fe99e7a41d6359b3c1946995622a0",tooltip="Is element set. "];
+  Node0 -> Node55 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node55 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node0 -> Node56 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node56 [label="Foam::UPtrList::size",height=0.2,width=0.4,color="black",URL="$a25990.html#a47b3bf30da1eb3ab8076b5fbe00e0494",tooltip="Return the number of elements in the UPtrList. "];
+  Node0 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19 [label="Foam::OStringStream::str",height=0.2,width=0.4,color="red",URL="$a26302.html#ae403f14d61d9789a749ee28fc10a50a9",tooltip="Return the string. "];
+  Node0 -> Node57 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node57 [label="Foam::type",height=0.2,width=0.4,color="red",URL="$a21124.html#aec48583af672626378f501eb9fc32cd1",tooltip="Return the file type: DIRECTORY or FILE. "];
+  Node0 -> Node63 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node63 [label="write",height=0.2,width=0.4,color="black",URL="$a19709.html#a8f30b3c2179b03a7acf273e9dea43342"];
+}

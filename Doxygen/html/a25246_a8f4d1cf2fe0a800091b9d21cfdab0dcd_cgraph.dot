@@ -1,0 +1,14 @@
+digraph "checkTopology"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1409 [label="checkTopology",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1409 -> Node1410 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1410 [label="checkClosed",height=0.2,width=0.4,color="red",URL="$a25246.html#a61d463809b6bd403ba7179ba17f81876",tooltip="Are all surfaces closed and manifold. "];
+  Node1409 -> Node1492 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1492 [label="checkGeometry",height=0.2,width=0.4,color="red",URL="$a25246.html#a6b00e2f4a6968b7de41283d18bac2e2f",tooltip="All geometric checks. Return number of failed checks. "];
+  Node1409 -> Node1530 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1530 [label="checkNormalOrientation",height=0.2,width=0.4,color="red",URL="$a25246.html#ad545a109b5bca3ae7ac6f4b8c5ec4bb5",tooltip="Are all (triangulated) surfaces consistent normal orientation. "];
+}

@@ -1,0 +1,16 @@
+digraph "restrain"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node62 [label="restrain",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node62 -> Node63 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node63 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node62 -> Node65 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node65 [label="Foam::sixDoFRigidBodyMotion\l::omega",height=0.2,width=0.4,color="red",URL="$a29530.html#a82d25f29aa98277a0f9e7db54a5f7eee",tooltip="Return the angular velocity in the global frame. "];
+  Node62 -> Node70 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node70 [label="read",height=0.2,width=0.4,color="red",URL="$a29518.html#affa21705bb326eaf3c87a5c6c1e56f3b",tooltip="Update properties from given dictionary. "];
+  Node62 -> Node77 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node77 [label="Foam::sixDoFRigidBodyMotion\l::report",height=0.2,width=0.4,color="black",URL="$a29530.html#a1538c196c66305d82ca5d146cf37067a",tooltip="Return the report Switch. "];
+}

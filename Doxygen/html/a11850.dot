@@ -1,0 +1,33 @@
+digraph "src/OpenFOAM/meshes/primitiveMesh/PatchTools/PatchTools.C"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node0 [label="src/OpenFOAM/meshes\l/primitiveMesh/PatchTools\l/PatchTools.C",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="PatchTools.H",height=0.2,width=0.4,color="red",URL="$a11852.html"];
+  Node0 -> Node143 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node143 [label="PatchToolsCheck.C",height=0.2,width=0.4,color="black",URL="$a11855.html"];
+  Node143 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node0 -> Node144 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node144 [label="PatchToolsEdgeOwner.C",height=0.2,width=0.4,color="black",URL="$a11858.html"];
+  Node144 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node0 -> Node145 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node145 [label="PatchToolsGatherAndMerge.C",height=0.2,width=0.4,color="red",URL="$a11861.html"];
+  Node145 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node0 -> Node163 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node163 [label="PatchToolsSearch.C",height=0.2,width=0.4,color="red",URL="$a11870.html",tooltip="Searching and marking zones of the patch. "];
+  Node163 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node0 -> Node173 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node173 [label="PatchToolsSortEdges.C",height=0.2,width=0.4,color="red",URL="$a11873.html"];
+  Node173 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node0 -> Node176 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node176 [label="PatchToolsSortPoints.C",height=0.2,width=0.4,color="black",URL="$a11876.html"];
+  Node176 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node0 -> Node177 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node177 [label="PatchToolsNormals.C",height=0.2,width=0.4,color="red",URL="$a11867.html"];
+  Node177 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node0 -> Node253 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node253 [label="PatchToolsMatch.C",height=0.2,width=0.4,color="black",URL="$a11864.html"];
+  Node253 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

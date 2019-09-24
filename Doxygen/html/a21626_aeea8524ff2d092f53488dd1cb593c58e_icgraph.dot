@@ -1,0 +1,15 @@
+digraph "globalEdgeFaces"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2187 [label="globalEdgeFaces",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2187 -> Node2188 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2188 [label="addedCells",height=0.2,width=0.4,color="red",URL="$a21626.html#ad2d1288ccffa675f09d9adf98daff052",tooltip="added cells given current mesh & layerfaces. "];
+  Node2188 -> Node2190 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2190 [label="layerFaces",height=0.2,width=0.4,color="black",URL="$a21626.html#a4147fa4decf366efcfb0bee5c2a9badc",tooltip="Layer faces per patch face. See above. "];
+  Node2187 -> Node2191 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2191 [label="Foam::autoLayerDriver\l::addLayers",height=0.2,width=0.4,color="red",URL="$a24610.html#a2654851d1ffedc26e8ff1424f7097ba6",tooltip="Add cell layers. "];
+  Node2187 -> Node2190 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

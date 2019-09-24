@@ -1,0 +1,22 @@
+digraph "lex"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2 [label="lex",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="Foam::DynamicList::\lappend",height=0.2,width=0.4,color="black",URL="$a25890.html#a7b67b42af715604376ad63a681dee6d8",tooltip="Append an element at the end of the list. "];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="Foam::exit",height=0.2,width=0.4,color="red",URL="$a21124.html#a06ca7250d8e89caf05243ec094843642"];
+  Node2 -> Node51 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node51 [label="Foam::HashTable::found",height=0.2,width=0.4,color="black",URL="$a25702.html#a9a7a02c333e3e98344a1e5b891c4d985",tooltip="Return true if hashedEntry is found in table. "];
+  Node2 -> Node52 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node52 [label="Foam::HashTable::insert",height=0.2,width=0.4,color="black",URL="$a25702.html#a5eee1e0e199ad59b9cb3916cd42156e0",tooltip="Insert a new hashedEntry. "];
+  Node2 -> Node53 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node53 [label="yyalloc",height=0.2,width=0.4,color="black",URL="$a16913.html#a48e81b6f60f5f21fcaca3cc542e6c9f2"];
+  Node2 -> Node54 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node54 [label="yyfree",height=0.2,width=0.4,color="black",URL="$a16913.html#a70f82d43d4797bb2a50f7678ddbfbda5"];
+  Node2 -> Node55 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node55 [label="yyrealloc",height=0.2,width=0.4,color="black",URL="$a16913.html#a843d874fed23c395a8f12c2d9c666557"];
+}

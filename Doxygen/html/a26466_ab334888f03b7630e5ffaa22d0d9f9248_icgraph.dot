@@ -1,0 +1,12 @@
+digraph "operator/="
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node14644 [label="operator/=",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node14644 -> Node14645 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14645 [label="Foam::Field\< Foam::\lVector2D \>::NewCalculatedType",height=0.2,width=0.4,color="black",URL="$a26466.html#ae6bdf47436f49314cb0fc784144bf18f",tooltip="Return a pointer to a new calculatedFvPatchFieldField created on. "];
+  Node14644 -> Node14646 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14646 [label="Foam::fvsPatchField\l::operator/=",height=0.2,width=0.4,color="red",URL="$a22426.html#ab48562ec0316ad4224410a9faa90b98c"];
+}

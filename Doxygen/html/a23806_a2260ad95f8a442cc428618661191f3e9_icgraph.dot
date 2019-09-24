@@ -1,0 +1,19 @@
+digraph "carrier"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node22 [label="carrier",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node22 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23 [label="Foam::ReactingParcel\l::calc",height=0.2,width=0.4,color="red",URL="$a23922.html#a1c2aa9de8e2381d1a7be78bd687fd255",tooltip="Update parcel properties over the time interval. "];
+  Node22 -> Node30 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node30 [label="Foam::ReactingMultiphase\lParcel::calc",height=0.2,width=0.4,color="red",URL="$a23910.html#a1c2aa9de8e2381d1a7be78bd687fd255",tooltip="Update parcel properties over the time interval. "];
+  Node22 -> Node35 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node35 [label="Foam::ReactingMultiphase\lParcel::calcDevolatilisation",height=0.2,width=0.4,color="black",URL="$a23910.html#a27e44fd232cf9e748036d4574bafd0af",tooltip="Calculate Devolatilisation. "];
+  Node35 -> Node30 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22 -> Node28 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node28 [label="Foam::ReactingParcel\l::calcPhaseChange",height=0.2,width=0.4,color="black",URL="$a23922.html#a623a7991bedba1b8b242d4af39643a14",tooltip="Calculate Phase change. "];
+  Node22 -> Node36 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node36 [label="Foam::CompositionModel\l\< Foam::ReactingCloud\l\< Foam::DsmcCloud \> \>::clone",height=0.2,width=0.4,color="black",URL="$a23806.html#a978beb1d8454ca481790660427b9b37c",tooltip="Construct and return a clone. "];
+}

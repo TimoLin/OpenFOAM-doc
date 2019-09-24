@@ -1,0 +1,14 @@
+digraph "correctNut"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node324 [label="correctNut",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node324 -> Node325 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node325 [label="Foam::RASModels::buoyant\lKEpsilon::buoyantKEpsilon",height=0.2,width=0.4,color="black",URL="$a31154.html#adc44a08715e6f569fb928b48d7e5b4f2",tooltip="Construct from components. "];
+  Node324 -> Node326 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node326 [label="Foam::RASModels::continuous\lGasKEpsilon::continuousGasKEpsilon",height=0.2,width=0.4,color="black",URL="$a31182.html#af9c2b52eced7b7ea479a078e00b8dd06",tooltip="Construct from components. "];
+  Node324 -> Node327 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node327 [label="Foam::RASModels::continuous\lGasKEpsilon::correctNut",height=0.2,width=0.4,color="black",URL="$a31182.html#aaffe89433f18f1ee4137486e19219448"];
+}

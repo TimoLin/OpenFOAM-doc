@@ -1,0 +1,13 @@
+digraph "restrain"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node278 [label="restrain",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node278 -> Node279 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node279 [label="clone",height=0.2,width=0.4,color="black",URL="$a29522.html#a809dd252f418cd6f26f8adae02ee8bd0",tooltip="Construct and return a clone. "];
+  Node278 -> Node280 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node280 [label="~sphericalAngularSpring",height=0.2,width=0.4,color="red",URL="$a29522.html#a85e7d20310ca2db5612e91399f46d209",tooltip="Destructor. "];
+  Node280 -> Node279 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

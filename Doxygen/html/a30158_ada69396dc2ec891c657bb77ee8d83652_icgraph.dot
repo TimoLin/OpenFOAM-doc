@@ -1,0 +1,13 @@
+digraph "S"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node173 [label="S",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node173 -> Node174 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node174 [label="Hc",height=0.2,width=0.4,color="red",URL="$a30158.html#a2852d80fc1f9d169a7e65f069c7f4291",tooltip="Chemical enthalpy [J/kg]. "];
+  Node174 -> Node182 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node182 [label="~SpecieMixture",height=0.2,width=0.4,color="black",URL="$a30158.html#a149d8c2fb446e76144898dd6cadef2de",tooltip="Destructor. "];
+  Node173 -> Node182 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

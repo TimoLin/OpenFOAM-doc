@@ -1,0 +1,17 @@
+digraph "constrainCorners"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node554 [label="constrainCorners",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node554 -> Node555 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node555 [label="constrainDisplacement",height=0.2,width=0.4,color="red",URL="$a23282.html#ac7c5f534957c0971660cfced02519073",tooltip="Apply boundary conditions (single-patch constraints),. "];
+  Node555 -> Node557 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node557 [label="patchPatchPointConstraints",height=0.2,width=0.4,color="black",URL="$a23282.html#a874c77b203d051476f7319bfbb329829",tooltip="Actual constraints. "];
+  Node554 -> Node557 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node554 -> Node561 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node561 [label="setPatchFields",height=0.2,width=0.4,color="red",URL="$a23282.html#a1b6bb2c50c9e39688aa71d2263865d68",tooltip="Helper: set patchField values from internal values (on. "];
+  Node561 -> Node555 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node561 -> Node557 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

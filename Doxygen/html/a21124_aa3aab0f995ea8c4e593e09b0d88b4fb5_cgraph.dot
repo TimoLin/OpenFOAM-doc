@@ -1,0 +1,18 @@
+digraph "component"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node68262 [label="component",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node68262 -> Node68263 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node68263 [label="Foam::GeometricField\l::boundaryField",height=0.2,width=0.4,color="black",URL="$a22434.html#a3c6c1a789b48ea0c5e8bff64f9c14f2d",tooltip="Return reference to GeometricBoundaryField. "];
+  Node68262 -> Node68264 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node68264 [label="component",height=0.2,width=0.4,color="red",URL="$a21124.html#a38788135ad21a6daaf3af2a761b33508"];
+  Node68262 -> Node68266 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node68266 [label="d",height=0.2,width=0.4,color="black",URL="$a38951.html#aa182a9055736468dd160f12649a01fd1"];
+  Node68262 -> Node68267 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node68267 [label="Foam::GeometricField\l::internalField",height=0.2,width=0.4,color="black",URL="$a22434.html#a9536140d36d69bbac40496f6b817aa0a",tooltip="Return internal field. "];
+  Node68262 -> Node68268 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node68268 [label="T",height=0.2,width=0.4,color="red",URL="$a21124.html#ae57fda0abb14bb0944947c463c6e09d4"];
+}

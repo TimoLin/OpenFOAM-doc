@@ -1,0 +1,16 @@
+digraph "coordinates"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node129 [label="coordinates",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node129 -> Node130 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node130 [label="boundingSpheres",height=0.2,width=0.4,color="red",URL="$a25210.html#a4f9baf018af105a4cd6d9c008d4d04ec",tooltip="Get bounding spheres (centre and radius squared), one per element. "];
+  Node130 -> Node132 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node132 [label="Foam::treeBoundBox\l::points",height=0.2,width=0.4,color="red",URL="$a27618.html#affb7cf1209e1e3af9a19a21860268ee5",tooltip="vertex coordinates. In octant coding. "];
+  Node130 -> Node136 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node136 [label="Foam::boundBox::faces",height=0.2,width=0.4,color="red",URL="$a27102.html#a71ead990d42034167acc8657c7c23dc3",tooltip="Return faces with correct point order. "];
+  Node129 -> Node136 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node129 -> Node132 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

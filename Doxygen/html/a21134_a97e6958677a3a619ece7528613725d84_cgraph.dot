@@ -1,0 +1,16 @@
+digraph "domainIntegrate"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node26655 [label="domainIntegrate",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node26655 -> Node26656 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node26656 [label="Foam::DimensionedField\l::dimensions",height=0.2,width=0.4,color="black",URL="$a26390.html#a66989c1e0666e0d0c93a2056ce75599e",tooltip="Return dimensions. "];
+  Node26655 -> Node26657 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node26657 [label="Foam::gSum",height=0.2,width=0.4,color="black",URL="$a21124.html#a11b1ebb4c53ad062332767d75ca96328"];
+  Node26655 -> Node26658 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node26658 [label="Foam::IOobject::name",height=0.2,width=0.4,color="black",URL="$a26142.html#acc80e00a8ac919288fb55bd14cc88bf6",tooltip="Return name. "];
+  Node26655 -> Node26659 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node26659 [label="volumeIntegrate",height=0.2,width=0.4,color="red",URL="$a21134.html#af0dee29fc0805aedd18525fad4c79edf"];
+}

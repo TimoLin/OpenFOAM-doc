@@ -1,0 +1,19 @@
+digraph "clearUpto"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node48 [label="clearUpto",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node48 -> Node49 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node49 [label="Foam::objectRegistry\l::checkOut",height=0.2,width=0.4,color="red",URL="$a26326.html#a0b55f69ea0e88182692871ec13dc62db",tooltip="Remove an regIOobject from registry. "];
+  Node49 -> Node55 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node55 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node48 -> Node55 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node48 -> Node59 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node59 [label="Foam::isA",height=0.2,width=0.4,color="black",URL="$a21124.html#a7f38c7df863d37f5357047d27dab7711",tooltip="Check if a dynamic_cast to typeid is possible. "];
+  Node48 -> Node60 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node60 [label="Foam::objectRegistry\l::lookupClass",height=0.2,width=0.4,color="black",URL="$a26326.html#ad20408e9bd7b5446e5bd0dc70b751705",tooltip="Lookup and return all objects of the given Type. "];
+  Node48 -> Node61 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node61 [label="Foam::OSstream::name",height=0.2,width=0.4,color="black",URL="$a26290.html#a41b2d01e5fd6e1bc71a895d8b8a86308",tooltip="Return the name of the stream. "];
+}

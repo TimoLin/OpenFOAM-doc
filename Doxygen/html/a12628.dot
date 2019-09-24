@@ -1,0 +1,41 @@
+digraph "src/OpenFOAM/primitives/strings/lists/wordReList.H"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node52 [label="src/OpenFOAM/primitives\l/strings/lists/wordReList.H",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node52 -> Node53 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node53 [label="src/conversion/meshTables\l/boundaryRegion.H",height=0.2,width=0.4,color="red",URL="$a00209.html"];
+  Node52 -> Node61 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node61 [label="src/conversion/meshTables\l/cellTable.H",height=0.2,width=0.4,color="red",URL="$a00215.html"];
+  Node52 -> Node69 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node69 [label="src/fvMotionSolver\l/motionDiffusivity/inverse\lDistance/inverseDistanceDiffusivity.H",height=0.2,width=0.4,color="red",URL="$a04469.html"];
+  Node52 -> Node71 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node71 [label="src/meshTools/cellDist\l/cellDistFuncs.H",height=0.2,width=0.4,color="red",URL="$a07430.html"];
+  Node52 -> Node92 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node92 [label="src/OpenFOAM/db/IOobject\lList/IOobjectList.H",height=0.2,width=0.4,color="red",URL="$a09005.html"];
+  Node92 -> Node110 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node110 [label="src/sampling/sampledSurface\l/sampledSurfaces/sampledSurfaces.H",height=0.2,width=0.4,color="red",URL="$a14789.html"];
+  Node52 -> Node128 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node128 [label="src/OpenFOAM/db/objectRegistry\l/objectRegistry.H",height=0.2,width=0.4,color="red",URL="$a09242.html"];
+  Node52 -> Node3025 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3025 [label="src/OpenFOAM/primitives\l/strings/lists/stringListOps.H",height=0.2,width=0.4,color="red",URL="$a12617.html",tooltip="Operations on lists of strings. "];
+  Node52 -> Node3029 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3029 [label="src/OpenFOAM/primitives\l/strings/lists/wordReListMatcher.H",height=0.2,width=0.4,color="black",URL="$a12629.html"];
+  Node3029 -> Node3025 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node52 -> Node392 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node392 [label="src/postProcessing\l/functionObjects/field\l/nearWallFields/nearWallFields.C",height=0.2,width=0.4,color="black",URL="$a13355.html"];
+  Node52 -> Node257 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node257 [label="src/postProcessing\l/functionObjects/field\l/regionSizeDistribution\l/regionSizeDistribution.H",height=0.2,width=0.4,color="red",URL="$a13406.html"];
+  Node52 -> Node156 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node156 [label="src/postProcessing\l/functionObjects/forces\l/forces/forces.C",height=0.2,width=0.4,color="black",URL="$a13508.html"];
+  Node52 -> Node3030 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3030 [label="src/postProcessing\l/functionObjects/IO\l/writeRegisteredObject\l/writeRegisteredObject.H",height=0.2,width=0.4,color="red",URL="$a13640.html"];
+  Node52 -> Node1661 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1661 [label="src/sampling/probes\l/probes.H",height=0.2,width=0.4,color="red",URL="$a14585.html"];
+  Node52 -> Node2444 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2444 [label="src/sampling/sampledSet\l/sampledSets/sampledSets.H",height=0.2,width=0.4,color="red",URL="$a14666.html"];
+  Node52 -> Node110 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node52 -> Node3032 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3032 [label="applications/utilities\l/postProcessing/dataConversion\l/foamToEnsight/ensightMesh.H",height=0.2,width=0.4,color="red",URL="$a18845.html"];
+}

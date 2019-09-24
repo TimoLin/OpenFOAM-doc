@@ -1,0 +1,12 @@
+digraph "read"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1041 [label="read",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1041 -> Node1042 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1042 [label="extendedEdgeMesh",height=0.2,width=0.4,color="black",URL="$a21786.html#a20deec9285b36bcf712e725be973563c",tooltip="Construct from file name (uses extension to determine type) "];
+  Node1041 -> Node1043 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1043 [label="read",height=0.2,width=0.4,color="black",URL="$a21786.html#a464ebd67acbdff0014d4dae69e3ec4be",tooltip="Read from file. Chooses reader based on detected extension. "];
+}

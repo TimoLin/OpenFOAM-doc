@@ -1,0 +1,22 @@
+digraph "fieldValue"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node4 [label="fieldValue",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="functionObjectFile",height=0.2,width=0.4,color="black",URL="$a26122.html",tooltip="Base class for output file data handling. "];
+  Node6 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" outputPrefix" ,fontname="FreeSans"];
+  Node6 [label="word",height=0.2,width=0.4,color="red",URL="$a28258.html",tooltip="A class for handling words, derived from string. "];
+  Node6 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" null" ,fontname="FreeSans"];
+  Node9 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" valueOutput_\nlog_" ,fontname="FreeSans"];
+  Node9 [label="Switch",height=0.2,width=0.4,color="black",URL="$a27626.html",tooltip="A simple wrapper around bool so that it can be read as a word: true/false, on/off, yes/no, y/n, t/f, or none. "];
+  Node10 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" obr_" ,fontname="FreeSans"];
+  Node10 [label="objectRegistry",height=0.2,width=0.4,color="red",URL="$a26326.html",tooltip="Registry of regIOobjects. "];
+  Node19 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" dict_\nresultDict_" ,fontname="FreeSans"];
+  Node19 [label="dictionary",height=0.2,width=0.4,color="red",URL="$a26014.html",tooltip="A list of keyword definitions, which are a keyword followed by any number of values (e..."];
+  Node19 -> Node19 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" null" ,fontname="FreeSans"];
+  Node32 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" fields_" ,fontname="FreeSans"];
+  Node32 [label="List\< word \>",height=0.2,width=0.4,color="red",URL="$a25694.html"];
+  Node6 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" sourceName_\nname_" ,fontname="FreeSans"];
+}

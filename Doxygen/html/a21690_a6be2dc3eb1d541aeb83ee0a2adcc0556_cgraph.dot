@@ -1,0 +1,39 @@
+digraph "distribute"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1430 [label="distribute",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1430 -> Node1431 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1431 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node1430 -> Node1474 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1474 [label="active",height=0.2,width=0.4,color="black",URL="$a21690.html#ad9735e23cb0888fb98e1c5893aecff7e",tooltip="Is there unrefinement history. Note that this will fall over if. "];
+  Node1430 -> Node1475 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1475 [label="Foam::DynamicList::\lappend",height=0.2,width=0.4,color="black",URL="$a25890.html#a7b67b42af715604376ad63a681dee6d8",tooltip="Append an element at the end of the list. "];
+  Node1430 -> Node1476 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1476 [label="Foam::mapDistributePolyMesh\l::cellMap",height=0.2,width=0.4,color="black",URL="$a27378.html#a69d2e4d4fd24278d13337b23586b24b0",tooltip="Cell distribute map. "];
+  Node1430 -> Node1477 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1477 [label="compact",height=0.2,width=0.4,color="red",URL="$a21690.html#a043cdfc194924194e381a986c229569e",tooltip="Compact splitCells_. Removes all freeSplitCells_ elements. "];
+  Node1477 -> Node1478 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1478 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node1477 -> Node1431 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1430 -> Node1480 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1480 [label="Foam::mapDistribute\l::constructMap",height=0.2,width=0.4,color="black",URL="$a27362.html#a2c4fa08c9d8a3d5540a5c497f10ebb96",tooltip="From subsetted data to new reconstructed data. "];
+  Node1430 -> Node1481 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1481 [label="Foam::mapDistributePolyMesh\l::mesh",height=0.2,width=0.4,color="black",URL="$a27378.html#ae78c91f8ff731c07ccc4351d9fe861ba"];
+  Node1430 -> Node1482 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1482 [label="Foam::primitiveMesh\l::nCells",height=0.2,width=0.4,color="black",URL="$a27530.html#a13b94bdb0926552bf78ad5210a73a3d5"];
+  Node1430 -> Node1483 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1483 [label="Foam::UPstream::nProcs",height=0.2,width=0.4,color="black",URL="$a26270.html#aada0e04d8127eda8ee95be0772754a4f",tooltip="Number of processes in parallel run. "];
+  Node1483 -> Node1478 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1430 -> Node1455 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1455 [label="Foam::UPstream::parRun",height=0.2,width=0.4,color="black",URL="$a26270.html#adbb27f04b5705440fb8b09f278059011",tooltip="Is this a parallel run? "];
+  Node1430 -> Node1484 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1484 [label="Foam::List::setSize",height=0.2,width=0.4,color="black",URL="$a25694.html#aedb985ffeaf1bdbfeccc2a8730405703",tooltip="Reset size of List. "];
+  Node1430 -> Node1485 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1485 [label="Foam::DynamicList::\lshrink",height=0.2,width=0.4,color="black",URL="$a25890.html#a88964e734acd91f096c914d0cc5a6e75",tooltip="Shrink the allocated space to the number of elements used. "];
+  Node1430 -> Node1478 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1430 -> Node1486 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1486 [label="Foam::mapDistribute\l::subMap",height=0.2,width=0.4,color="black",URL="$a27362.html#a2e7b20e52a727b16f348b09df7268ad3",tooltip="From subsetted data back to original data. "];
+}

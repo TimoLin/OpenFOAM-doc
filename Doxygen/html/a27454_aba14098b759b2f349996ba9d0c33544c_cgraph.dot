@@ -1,0 +1,16 @@
+digraph "initUpdateMesh"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node347 [label="initUpdateMesh",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node347 -> Node348 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node348 [label="f",height=0.2,width=0.4,color="black",URL="$a17900.html#a888be93833ac7a23170555c69c690288"];
+  Node347 -> Node349 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node349 [label="Foam::findIndex",height=0.2,width=0.4,color="black",URL="$a21124.html#ac16695f83f370df159eed19f92d095fb",tooltip="Find first occurence of given element and return index,. "];
+  Node347 -> Node350 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node350 [label="Foam::polyPatch::initUpdateMesh",height=0.2,width=0.4,color="red",URL="$a27478.html#aa5a0e52206169bee3e3e53f840cbb62a",tooltip="Initialise the update of the patch topology. "];
+  Node347 -> Node356 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node356 [label="Foam::UPstream::parRun",height=0.2,width=0.4,color="black",URL="$a26270.html#adbb27f04b5705440fb8b09f278059011",tooltip="Is this a parallel run? "];
+}

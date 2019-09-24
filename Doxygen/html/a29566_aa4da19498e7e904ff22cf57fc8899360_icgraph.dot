@@ -1,0 +1,14 @@
+digraph "storedZones"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node98 [label="storedZones",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node98 -> Node99 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node99 [label="Foam::MeshedSurface\l\< Foam::face \>::transcribe",height=0.2,width=0.4,color="black",URL="$a29566.html#a89f858f78ba8ae4e1d6388369558eb85"];
+  Node98 -> Node100 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node100 [label="Foam::surfMesh::transfer",height=0.2,width=0.4,color="red",URL="$a29702.html#a1cf9d5f3c7951e7e25eaa3408383d261",tooltip="Transfer the contents of the argument and annul the argument. "];
+  Node98 -> Node113 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node113 [label="Foam::MeshedSurface\l\< Foam::face \>::transfer",height=0.2,width=0.4,color="black",URL="$a29566.html#a7840b609cb34e6f39858cf3e86324263",tooltip="Transfer the contents of the argument and annul the argument. "];
+}

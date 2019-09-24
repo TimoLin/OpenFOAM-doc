@@ -1,0 +1,14 @@
+digraph "algebraicPairGAMGAgglomeration"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="algebraicPairGAMGAgglomeration",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node0 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="Foam::lduMatrix::mesh",height=0.2,width=0.4,color="black",URL="$a26882.html#a389d9c5b9626c6fecf05a6773c77418b",tooltip="Return the LDU mesh from which the addressing is obtained. "];
+  Node0 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="Foam::lduMatrix::upper",height=0.2,width=0.4,color="red",URL="$a26882.html#a11672a767f497e24dce3ff31da13d9d0"];
+}

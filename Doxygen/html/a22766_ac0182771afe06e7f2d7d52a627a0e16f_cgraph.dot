@@ -1,0 +1,21 @@
+digraph "removeFvBoundary"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node41859 [label="removeFvBoundary",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node41859 -> Node41860 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node41860 [label="Foam::PtrList::clear",height=0.2,width=0.4,color="black",URL="$a25914.html#ac8bb3912a3ce86b15842e79d0b421204",tooltip="Clear the PtrList, i.e. set size to zero deleting all the. "];
+  Node41859 -> Node41861 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node41861 [label="clearOut",height=0.2,width=0.4,color="red",URL="$a22766.html#af320697688df08f1438d37a86bcaf25d",tooltip="Clear all geometry and addressing. "];
+  Node41859 -> Node41866 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node41866 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node41859 -> Node41871 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node41871 [label="Foam::polyMesh::removeBoundary",height=0.2,width=0.4,color="red",URL="$a27410.html#acc2134c36adb97b988d5efc383a7f9f0",tooltip="Remove boundary patches. "];
+  Node41871 -> Node41866 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node41871 -> Node41860 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node41871 -> Node41872 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node41872 [label="Foam::PtrList::setSize",height=0.2,width=0.4,color="black",URL="$a25914.html#aedb985ffeaf1bdbfeccc2a8730405703",tooltip="Reset size of PtrList. If extending the PtrList, new entries are. "];
+  Node41859 -> Node41872 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

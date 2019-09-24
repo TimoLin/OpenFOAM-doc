@@ -1,0 +1,17 @@
+digraph "clone"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node73 [label="clone",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node73 -> Node74 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node74 [label="fixedFluxPressureFvPatch\lScalarField",height=0.2,width=0.4,color="black",URL="$a22094.html#a66aca615e18989fc4834fcaf6cb88b99",tooltip="Construct from patch and internal field. "];
+  Node73 -> Node75 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node75 [label="Foam::setSnGrad",height=0.2,width=0.4,color="black",URL="$a21124.html#a1dc1691eb8178cdc97b78484496c0018"];
+  Node75 -> Node76 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node76 [label="updateCoeffs",height=0.2,width=0.4,color="red",URL="$a22094.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the patch pressure gradient field. "];
+  Node73 -> Node76 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node73 -> Node124 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node124 [label="write",height=0.2,width=0.4,color="red",URL="$a22094.html#a293fdfec8bdfbd5c3913ab4c9f3454ff",tooltip="Write. "];
+}

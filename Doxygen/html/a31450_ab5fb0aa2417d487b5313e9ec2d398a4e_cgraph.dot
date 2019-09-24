@@ -1,0 +1,16 @@
+digraph "surfacePtExclusionDistanceSqr"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node210 [label="surfacePtExclusionDistanceSqr",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node210 -> Node211 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node211 [label="foamyHexMeshControls",height=0.2,width=0.4,color="black",URL="$a31450.html#a5d5c08c500309b8927c3567396ad4af5",tooltip="Return the foamyHexMeshControls object. "];
+  Node210 -> Node212 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node212 [label="Foam::sqr",height=0.2,width=0.4,color="red",URL="$a21124.html#a277dc11c581d53826ab5090b08f3b17b"];
+  Node210 -> Node216 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node216 [label="surfaceSearchDistanceSqr",height=0.2,width=0.4,color="red",URL="$a31450.html#ad679fe0516eae05deadad56976371033",tooltip="Return the square of the local surface search distance. "];
+  Node216 -> Node212 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node216 -> Node211 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

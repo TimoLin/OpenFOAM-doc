@@ -1,0 +1,19 @@
+digraph "centredCPCCellToFaceStencilObject"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="centredCPCCellToFaceStencil\lObject",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node0 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="Foam::extendedCentredCell\lToFaceStencil::map",height=0.2,width=0.4,color="black",URL="$a22674.html#a6f719d71f56ee9f97626c13b322ea4fe",tooltip="Return reference to the parallel distribution map. "];
+  Node0 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="Foam::extendedCentredCell\lToFaceStencil::stencil",height=0.2,width=0.4,color="red",URL="$a22674.html#a411eaf3a58bffc0f951bec8db6ceeba6",tooltip="Return reference to the stencil. "];
+  Node0 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="Foam::type",height=0.2,width=0.4,color="red",URL="$a21124.html#aec48583af672626378f501eb9fc32cd1",tooltip="Return the file type: DIRECTORY or FILE. "];
+  Node0 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17 [label="Foam::extendedCellToFace\lStencil::writeStencilStats",height=0.2,width=0.4,color="red",URL="$a22670.html#a806d1632a9bcbd268b64e4bf3b6e3c7d",tooltip="Write some statistics about stencil. "];
+  Node17 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

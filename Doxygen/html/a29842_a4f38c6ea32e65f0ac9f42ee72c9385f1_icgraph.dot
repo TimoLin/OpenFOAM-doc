@@ -1,0 +1,13 @@
+digraph "Tpc"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node704 [label="Tpc",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node704 -> Node705 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node705 [label="Ppc",height=0.2,width=0.4,color="black",URL="$a29842.html#ad6f59b875d8dfb84ad70960e60f59d6b",tooltip="Return pseudocritical pressure (modified Prausnitz and Gunn) "];
+  Node705 -> Node706 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node706 [label="size",height=0.2,width=0.4,color="black",URL="$a29842.html#a9facbf0a118d395c89884e45a5ca4e4b",tooltip="Return the number of liquids in the mixture. "];
+  Node704 -> Node706 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

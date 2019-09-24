@@ -1,0 +1,21 @@
+digraph "combineReduce"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node28334 [label="combineReduce",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node28334 -> Node28335 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node28335 [label="Foam::Pstream::combineGather",height=0.2,width=0.4,color="red",URL="$a26250.html#aedeba5b3a63f833796d48d904dc39b63"];
+  Node28335 -> Node28336 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node28336 [label="Foam::UPstream::nProcs",height=0.2,width=0.4,color="red",URL="$a26270.html#aada0e04d8127eda8ee95be0772754a4f",tooltip="Number of processes in parallel run. "];
+  Node28334 -> Node28350 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node28350 [label="Foam::Pstream::combineScatter",height=0.2,width=0.4,color="red",URL="$a26250.html#a2eea2c110e936c30c8f66b7326c69be5",tooltip="Scatter data. Reverse of combineGather. "];
+  Node28350 -> Node28336 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node28334 -> Node28351 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node28351 [label="Foam::UPstream::linearCommunication",height=0.2,width=0.4,color="black",URL="$a26270.html#af7ec282f2581c26d06e2375a17174591",tooltip="Communication schedule for linear all-to-master (proc 0) "];
+  Node28351 -> Node28352 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node28352 [label="Foam::UPstream::treeCommunication",height=0.2,width=0.4,color="black",URL="$a26270.html#afaa38d3b4ac099268cc3081da637d147",tooltip="Communication schedule for tree all-to-master (proc 0) "];
+  Node28334 -> Node28336 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node28334 -> Node28352 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

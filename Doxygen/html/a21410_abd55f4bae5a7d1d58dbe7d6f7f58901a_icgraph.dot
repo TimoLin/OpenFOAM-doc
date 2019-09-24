@@ -1,0 +1,24 @@
+digraph "read"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node376 [label="read",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node376 -> Node377 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node377 [label="Foam::solidBodyMotionFunctions\l::linearMotion::read",height=0.2,width=0.4,color="red",URL="$a21386.html#afeed4512a4be2653bc44cb43a1ae0788",tooltip="Update properties from given dictionary. "];
+  Node376 -> Node380 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node380 [label="Foam::solidBodyMotionFunctions\l::multiMotion::read",height=0.2,width=0.4,color="red",URL="$a21390.html#afeed4512a4be2653bc44cb43a1ae0788",tooltip="Update properties from given dictionary. "];
+  Node376 -> Node383 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node383 [label="Foam::solidBodyMotionFunctions\l::oscillatingLinearMotion::read",height=0.2,width=0.4,color="red",URL="$a21394.html#afeed4512a4be2653bc44cb43a1ae0788",tooltip="Update properties from given dictionary. "];
+  Node376 -> Node386 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node386 [label="Foam::solidBodyMotionFunctions\l::axisRotationMotion::read",height=0.2,width=0.4,color="red",URL="$a21382.html#afeed4512a4be2653bc44cb43a1ae0788",tooltip="Update properties from given dictionary. "];
+  Node376 -> Node389 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node389 [label="Foam::solidBodyMotionFunctions\l::oscillatingRotatingMotion::read",height=0.2,width=0.4,color="red",URL="$a21398.html#afeed4512a4be2653bc44cb43a1ae0788",tooltip="Update properties from given dictionary. "];
+  Node376 -> Node394 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node394 [label="Foam::solidBodyMotionFunctions\l::rotatingMotion::read",height=0.2,width=0.4,color="red",URL="$a21402.html#afeed4512a4be2653bc44cb43a1ae0788",tooltip="Update properties from given dictionary. "];
+  Node376 -> Node397 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node397 [label="Foam::solidBodyMotionFunctions\l::tabulated6DoFMotion::read",height=0.2,width=0.4,color="red",URL="$a21414.html#afeed4512a4be2653bc44cb43a1ae0788",tooltip="Update properties from given dictionary. "];
+  Node376 -> Node400 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node400 [label="Foam::solidBodyMotionFunctions\l::SDA::read",height=0.2,width=0.4,color="red",URL="$a21406.html#afeed4512a4be2653bc44cb43a1ae0788",tooltip="Update properties from given dictionary. "];
+}

@@ -1,0 +1,48 @@
+digraph "thermoData"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2 [label="thermoData",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="Foam::regionModels\l::surfaceFilmModels\l::constantFilmThermo::Cp",height=0.2,width=0.4,color="red",URL="$a29054.html#a273fff6e33e171624f82fd96282f60f0",tooltip="Return specific heat capacity [J/kg/K]. "];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="Foam::regionModels\l::surfaceFilmModels\l::filmSubModelBase::owner",height=0.2,width=0.4,color="black",URL="$a29050.html#a9002aeea87356bb78bf0dabcf1f745d8",tooltip="Return const access to the owner surface film model. "];
+  Node2 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="Foam::regionModels\l::surfaceFilmModels\l::constantFilmThermo::D",height=0.2,width=0.4,color="red",URL="$a29054.html#af7ddb503657d6210602b1705c4321e64",tooltip="Return diffusivity [m2/s]. "];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12 [label="Foam::regionModels\l::surfaceFilmModels\l::constantFilmThermo::hl",height=0.2,width=0.4,color="red",URL="$a29054.html#a94c984850eb7e3145a9e0f93e12f8a9a",tooltip="Return latent heat [J/kg]. "];
+  Node12 -> Node309 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node309 [label="Foam::regionModels\l::surfaceFilmModels\l::constantFilmThermo::pv",height=0.2,width=0.4,color="red",URL="$a29054.html#a55c63e2382747240ac30c97eef35da13",tooltip="Return vapour pressure [Pa]. "];
+  Node2 -> Node310 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node310 [label="Foam::subModelBase\l::dict",height=0.2,width=0.4,color="black",URL="$a28266.html#ab78af227b7df31772d6003526a5207ff",tooltip="Return const access to the cloud dictionary. "];
+  Node2 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 -> Node311 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node311 [label="Foam::regionModels\l::surfaceFilmModels\l::constantFilmThermo\l::kappa",height=0.2,width=0.4,color="red",URL="$a29054.html#a2b919c61cb95af34db6fa7946be5ad2d",tooltip="Return thermal conductivity [W/m/K]. "];
+  Node311 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 -> Node312 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node312 [label="Foam::regionModels\l::surfaceFilmModels\l::constantFilmThermo::mu",height=0.2,width=0.4,color="red",URL="$a29054.html#a9d258ba15a8fa1c64c1886f49a6b27d6",tooltip="Return dynamic viscosity [Pa.s]. "];
+  Node312 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 -> Node313 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node313 [label="Foam::regionModels\l::surfaceFilmModels\l::constantFilmThermo::name",height=0.2,width=0.4,color="black",URL="$a29054.html#a51ae053ef677d6c2d35ce01b46089706",tooltip="Return the specie name. "];
+  Node313 -> Node314 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node314 [label="Foam::regionModels\l::surfaceFilmModels\l::constantFilmThermo::rho",height=0.2,width=0.4,color="red",URL="$a29054.html#aba9cd0c89afcb2b70e8b2073ff822bc4",tooltip="Return density [kg/m3]. "];
+  Node314 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 -> Node309 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 -> Node314 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 -> Node315 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node315 [label="Foam::regionModels\l::surfaceFilmModels\l::constantFilmThermo\l::sigma",height=0.2,width=0.4,color="red",URL="$a29054.html#a843e3559e7829874f228c7041e510b64",tooltip="Return surface tension [kg/s2]. "];
+  Node315 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 -> Node279 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node279 [label="Foam::T",height=0.2,width=0.4,color="red",URL="$a21124.html#ae57fda0abb14bb0944947c463c6e09d4"];
+  Node2 -> Node317 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node317 [label="Foam::regionModels\l::surfaceFilmModels\l::constantFilmThermo::Tb",height=0.2,width=0.4,color="red",URL="$a29054.html#a450792e1bb62b99ea149c906bb4707bc",tooltip="Return boiling temperature [K]. "];
+  Node2 -> Node318 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node318 [label="Foam::regionModels\l::surfaceFilmModels\l::constantFilmThermo\l::TypeName",height=0.2,width=0.4,color="black",URL="$a29054.html#ac2a86ba46d157b053e4a28a9483a48f5",tooltip="Runtime type information. "];
+  Node2 -> Node319 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node319 [label="Foam::regionModels\l::surfaceFilmModels\l::constantFilmThermo::W",height=0.2,width=0.4,color="red",URL="$a29054.html#a004829953f504feee13a2fce5a4aac58",tooltip="Return molecular weight [kg/kmol]. "];
+  Node2 -> Node320 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node320 [label="Foam::regionModels\l::surfaceFilmModels\l::constantFilmThermo\l::~constantFilmThermo",height=0.2,width=0.4,color="black",URL="$a29054.html#a5c4f9572e04b8767d2a19c1c143e4497",tooltip="Destructor. "];
+}

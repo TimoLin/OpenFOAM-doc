@@ -1,0 +1,29 @@
+digraph "mapDistribute"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node273 [label="mapDistribute",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node273 -> Node274 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node274 [label="Foam::globalIndexAndTransform\l::index",height=0.2,width=0.4,color="red",URL="$a27690.html#abca5287da59367ed8b030adc0a99b820",tooltip="Index carried by the object. "];
+  Node274 -> Node276 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node276 [label="Foam::globalIndexAndTransform\l::processor",height=0.2,width=0.4,color="red",URL="$a27690.html#a733cc3d1c9c5b5aa291c9deb2d695573",tooltip="Which processor does this come from? "];
+  Node276 -> Node278 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node278 [label="Foam::globalIndexAndTransform\l::transformIndex",height=0.2,width=0.4,color="red",URL="$a27690.html#a045b8e246ccc41fb39e9918a1c9fb783",tooltip="Transform carried by the object. "];
+  Node273 -> Node279 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node279 [label="Foam::UPstream::myProcNo",height=0.2,width=0.4,color="black",URL="$a26270.html#afc74d89573de32a3032c916f8cdd1733",tooltip="Number of this process (starting from masterNo() = 0) "];
+  Node273 -> Node280 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node280 [label="printLayout",height=0.2,width=0.4,color="red",URL="$a27362.html#a354c270fcad8f00ba2bf069b0f68a729",tooltip="Debug: print layout. Can only be used on maps with sorted. "];
+  Node280 -> Node279 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node280 -> Node335 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node335 [label="Foam::List::setSize",height=0.2,width=0.4,color="black",URL="$a25694.html#aedb985ffeaf1bdbfeccc2a8730405703",tooltip="Reset size of List. "];
+  Node280 -> Node282 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node282 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node273 -> Node276 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node273 -> Node335 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node273 -> Node282 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node273 -> Node278 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node273 -> Node345 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node345 [label="Foam::globalIndexAndTransform\l::transformPermutations",height=0.2,width=0.4,color="black",URL="$a27690.html#aa3c488fb461eb31d5964943e91a21b1d",tooltip="Return access to the permuted transforms. "];
+}

@@ -1,0 +1,15 @@
+digraph "map"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4 [label="map",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="collectData",height=0.2,width=0.4,color="red",URL="$a22634.html#aeb99ab86ad7ce7ba05ced96c2f1c03c7",tooltip="Use map to get the data into stencil order. "];
+  Node4 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="compact",height=0.2,width=0.4,color="red",URL="$a22634.html#a043cdfc194924194e381a986c229569e",tooltip="After removing elements from the stencil adapt the schedule (map). "];
+  Node4 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="weightedSum",height=0.2,width=0.4,color="black",URL="$a22634.html#afd752be38ce0ba1d0ea4d51346582be3",tooltip="Sum vol field contributions to create cell values. "];
+  Node8 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

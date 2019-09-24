@@ -1,0 +1,14 @@
+digraph "storedPoints"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node135 [label="storedPoints",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node135 -> Node136 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node136 [label="movePoints",height=0.2,width=0.4,color="red",URL="$a30598.html#ab62834098bae1d3887f578c700754f39",tooltip="Move points. "];
+  Node135 -> Node139 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node139 [label="operator=",height=0.2,width=0.4,color="red",URL="$a30598.html#a7007e1a39a89b943666033e034e1083b"];
+  Node135 -> Node152 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node152 [label="scalePoints",height=0.2,width=0.4,color="red",URL="$a30598.html#a0c1576aa53e80d9150e2558061cc40c2",tooltip="Scale points. A non-positive factor is ignored. "];
+}

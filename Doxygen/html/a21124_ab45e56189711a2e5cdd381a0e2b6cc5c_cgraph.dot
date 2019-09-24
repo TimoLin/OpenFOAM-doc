@@ -1,0 +1,17 @@
+digraph "gAverage"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node65731 [label="gAverage",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node65731 -> Node65732 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node65732 [label="endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node65731 -> Node65734 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node65734 [label="gSum",height=0.2,width=0.4,color="black",URL="$a21124.html#a11b1ebb4c53ad062332767d75ca96328"];
+  Node65731 -> Node65735 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node65735 [label="reduce",height=0.2,width=0.4,color="red",URL="$a21124.html#a7ffd6af4acc2eb9ba72ee296b5ecda23"];
+  Node65735 -> Node65732 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node65731 -> Node65751 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node65751 [label="Foam::PtrList\< Field\l\< Type \> \>::size",height=0.2,width=0.4,color="black",URL="$a25914.html#a47b3bf30da1eb3ab8076b5fbe00e0494",tooltip="Return the number of elements in the PtrList. "];
+}

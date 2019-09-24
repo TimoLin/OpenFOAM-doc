@@ -1,0 +1,20 @@
+digraph "multiply"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node66595 [label="multiply",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node66595 -> Node66596 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node66596 [label="LUDecompose",height=0.2,width=0.4,color="black",URL="$a21124.html#aa82d2454df0bda481bc135b9c20e5223",tooltip="LU decompose the matrix into a lower (L) and upper (U) part. U = L.T() "];
+  Node66595 -> Node66597 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node66597 [label="LUsolve",height=0.2,width=0.4,color="black",URL="$a21124.html#a1b1d3f52244819ba5e4d3c9d4faf084f",tooltip="Solve the matrix using LU decomposition returning the LU form of the matrix. "];
+  Node66595 -> Node66598 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node66598 [label="multiply",height=0.2,width=0.4,color="black",URL="$a21124.html#a12e46174b3d8380b4197ad746dfde9ea"];
+  Node66595 -> Node66599 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node66599 [label="stabilise",height=0.2,width=0.4,color="black",URL="$a21124.html#aad840398bfc1f7568110b83229ffad34"];
+  Node66595 -> Node66600 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node66600 [label="sumProd",height=0.2,width=0.4,color="black",URL="$a21124.html#a5b480f6156c25bef4de87d86094e87ea"];
+  Node66595 -> Node66601 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node66601 [label="Foam::SVD::SVD",height=0.2,width=0.4,color="black",URL="$a27070.html#a940b7544844440cd3405fc856a6d9d42",tooltip="Construct from a rectangular Matrix. "];
+}

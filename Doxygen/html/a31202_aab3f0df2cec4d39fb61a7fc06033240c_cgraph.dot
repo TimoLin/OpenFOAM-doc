@@ -1,0 +1,29 @@
+digraph "~laminar"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3 [label="~laminar",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="coeffDict",height=0.2,width=0.4,color="black",URL="$a31202.html#a8d0d1388de2fa3abef52362d701a8fd5",tooltip="Const access to the coefficients dictionary. "];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="correct",height=0.2,width=0.4,color="black",URL="$a31202.html#a3ae44b28050c3aa494c1d8e18cf618c1",tooltip="Correct the laminar viscosity. "];
+  Node3 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="devRhoReff",height=0.2,width=0.4,color="red",URL="$a31202.html#aedf05483d3f92845e23b6dae794b8712",tooltip="Return the effective stress tensor, i.e. the laminar stress. "];
+  Node6 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15 [label="divDevRhoReff",height=0.2,width=0.4,color="red",URL="$a31202.html#a7a84f03623a3b4ff20fa30a6fe6862a6",tooltip="Return the source term for the momentum equation. "];
+  Node3 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 -> Node317 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node317 [label="epsilon",height=0.2,width=0.4,color="red",URL="$a31202.html#a0093128115ec2023bf146c7f983d15bb",tooltip="Return the turbulence kinetic energy dissipation rate,. "];
+  Node3 -> Node320 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node320 [label="k",height=0.2,width=0.4,color="red",URL="$a31202.html#a4170ffa4e33cb7b1e7421485e6e11f81",tooltip="Return the turbulence kinetic energy, i.e. 0 for laminar flow. "];
+  Node3 -> Node321 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node321 [label="nuEff",height=0.2,width=0.4,color="black",URL="$a31202.html#aa7f5538ea8a7e5c1a74ff589fac7a337",tooltip="Return the effective viscosity, i.e. the laminar viscosity. "];
+  Node3 -> Node322 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node322 [label="nut",height=0.2,width=0.4,color="black",URL="$a31202.html#acf7994651ecae1b6fadf32480c1ad415",tooltip="Return the turbulence viscosity, i.e. 0 for laminar flow. "];
+  Node3 -> Node323 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node323 [label="R",height=0.2,width=0.4,color="red",URL="$a31202.html#a0ab920a3614f76cbb8f6d1d550a6f7f3",tooltip="Return the Reynolds stress tensor, i.e. 0 for laminar flow. "];
+  Node3 -> Node324 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node324 [label="read",height=0.2,width=0.4,color="black",URL="$a31202.html#af816873151ddb0126e98bb2f914d8ed5",tooltip="Read turbulenceProperties dictionary. "];
+}

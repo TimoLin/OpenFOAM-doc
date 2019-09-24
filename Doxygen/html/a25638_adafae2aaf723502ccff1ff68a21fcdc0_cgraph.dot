@@ -1,0 +1,33 @@
+digraph "operator()"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4 [label="operator()",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="Foam::primitiveMesh\l::cells",height=0.2,width=0.4,color="black",URL="$a27530.html#af19bf800d725a623c7b1d0101d65e7d3"];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="Foam::PointHit::distance",height=0.2,width=0.4,color="black",URL="$a27558.html#a288a3ea8e3ee215a5e12afc1002ed4e6",tooltip="Return distance to hit. "];
+  Node4 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="Foam::polyMesh::faces",height=0.2,width=0.4,color="red",URL="$a27410.html#a431c0a24765f0bb6d32f6a03ce0e9b57",tooltip="Return raw faces. "];
+  Node4 -> Node51 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node51 [label="Foam::PointHit::hit",height=0.2,width=0.4,color="black",URL="$a27558.html#aee8dc30bf27cefe419b15f96e594c155",tooltip="Is there a hit. "];
+  Node4 -> Node52 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node52 [label="Foam::PointHit::hitPoint",height=0.2,width=0.4,color="black",URL="$a27558.html#a0350feff966a8bc8833a84ca454f1e5e",tooltip="Return hit point. "];
+  Node4 -> Node53 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node53 [label="Foam::magSqr",height=0.2,width=0.4,color="black",URL="$a21124.html#ae6fff2c6981e6d9618aa5038e69def6e"];
+  Node4 -> Node54 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node54 [label="Foam::polyMesh::points",height=0.2,width=0.4,color="red",URL="$a27410.html#ac44123fc1265297c41a43c3b62fdb4c2",tooltip="Return raw points. "];
+  Node4 -> Node55 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node55 [label="Foam::treeBoundBox\l::posBits",height=0.2,width=0.4,color="red",URL="$a27618.html#ae64b0d004f8da0a95f2458df4be20b12",tooltip="Position of point relative to bounding box. "];
+  Node4 -> Node63 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node63 [label="Foam::face::ray",height=0.2,width=0.4,color="red",URL="$a27218.html#a0b9f87e78c11730b3971c2f71df58d37",tooltip="Return potential intersection with face with a ray starting. "];
+  Node63 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node63 -> Node51 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node63 -> Node52 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 -> Node79 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node79 [label="Foam::intersection\l::setPlanarTol",height=0.2,width=0.4,color="red",URL="$a27602.html#ab1fe234ae0b2d82033e66c835d436516",tooltip="Set the planar tolerance, returning the previous value. "];
+  Node4 -> Node80 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node80 [label="Foam::sqr",height=0.2,width=0.4,color="red",URL="$a21124.html#a277dc11c581d53826ab5090b08f3b17b"];
+}

@@ -1,0 +1,21 @@
+digraph "constrainToMeshCentre"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2510 [label="constrainToMeshCentre",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2510 -> Node2511 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2511 [label="Foam::polyMesh::bounds",height=0.2,width=0.4,color="red",URL="$a27410.html#af0b8fd78dbff2bbd5d76f5c2e8569fbe",tooltip="Return mesh bounding box. "];
+  Node2511 -> Node2607 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2607 [label="Foam::polyMesh::geometricD",height=0.2,width=0.4,color="red",URL="$a27410.html#afeb0c5ec9cb10317d78597051a1bead2",tooltip="Return the vector of geometric directions in mesh. "];
+  Node2510 -> Node2607 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2510 -> Node2597 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2597 [label="Foam::boundBox::max",height=0.2,width=0.4,color="black",URL="$a27102.html#a43279cd20862e64a21c8c82ee6c2441b",tooltip="Maximum describing the bounding box. "];
+  Node2510 -> Node2598 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2598 [label="Foam::max",height=0.2,width=0.4,color="black",URL="$a21124.html#ac993e906cf2774ae77e666bc24e81733"];
+  Node2510 -> Node2599 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2599 [label="Foam::boundBox::min",height=0.2,width=0.4,color="black",URL="$a27102.html#a41bea928bbb72b904d07db28570b07bd",tooltip="Minimum describing the bounding box. "];
+  Node2510 -> Node2664 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2664 [label="Foam::min",height=0.2,width=0.4,color="black",URL="$a21124.html#a253e112ad2d56d96230ff39ea7f442dc"];
+}

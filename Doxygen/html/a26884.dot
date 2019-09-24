@@ -1,0 +1,20 @@
+digraph "lduMatrix::solver"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node9 [label="lduMatrix::solver",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node10 -> Node9 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" interfaces_" ,fontname="FreeSans"];
+  Node10 [label="UPtrList\< const lduInterface\lField \>",height=0.2,width=0.4,color="red",URL="$a25990.html"];
+  Node12 -> Node9 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" controlDict_" ,fontname="FreeSans"];
+  Node12 [label="dictionary",height=0.2,width=0.4,color="red",URL="$a26014.html",tooltip="A list of keyword definitions, which are a keyword followed by any number of values (e..."];
+  Node12 -> Node12 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" null" ,fontname="FreeSans"];
+  Node25 -> Node9 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" interfaceIntCoeffs\l_\ninterfaceBouCoeffs_" ,fontname="FreeSans"];
+  Node25 [label="FieldField\< Foam::Field,\l scalar \>",height=0.2,width=0.4,color="red",URL="$a26422.html"];
+  Node31 -> Node9 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" matrix_" ,fontname="FreeSans"];
+  Node31 [label="lduMatrix",height=0.2,width=0.4,color="black",URL="$a26882.html",tooltip="lduMatrix is a general matrix class in which the coefficients are stored as three arrays..."];
+  Node32 -> Node9 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" fieldName_" ,fontname="FreeSans"];
+  Node32 [label="word",height=0.2,width=0.4,color="red",URL="$a28258.html",tooltip="A class for handling words, derived from string. "];
+  Node32 -> Node32 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" null" ,fontname="FreeSans"];
+}

@@ -1,0 +1,33 @@
+digraph "faceConcavity"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node412 [label="faceConcavity",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node412 -> Node413 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node413 [label="f",height=0.2,width=0.4,color="black",URL="$a17900.html#a888be93833ac7a23170555c69c690288"];
+  Node412 -> Node414 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node414 [label="faceFlatness",height=0.2,width=0.4,color="red",URL="$a27534.html#abb1dae78c8be2af3d2f3fd772c68a73a",tooltip="Generate face flatness field. Compares the individual triangles&#39;. "];
+  Node414 -> Node415 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node415 [label="Foam::primitiveMesh\l::faces",height=0.2,width=0.4,color="black",URL="$a27530.html#a3669b3b29537f3a55bbd2ffa8c749f41",tooltip="Return faces. "];
+  Node414 -> Node416 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node416 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node414 -> Node417 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node417 [label="scalarField",height=0.2,width=0.4,color="black",URL="$a19001.html#afcd8855c276a98ae9604b35c8fb5b81e"];
+  Node414 -> Node418 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node418 [label="Foam::primitiveMesh\l::nFaces",height=0.2,width=0.4,color="black",URL="$a27530.html#abe602c985a3c9ffa67176e969e77ca6f"];
+  Node414 -> Node413 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node412 -> Node415 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node412 -> Node433 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node433 [label="Foam::UList::fcIndex",height=0.2,width=0.4,color="black",URL="$a25698.html#a512534dbc231b74b95ff84902c1b2087",tooltip="Return the forward circular index, i.e. the next index. "];
+  Node412 -> Node434 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node434 [label="Foam::UList::first",height=0.2,width=0.4,color="black",URL="$a25698.html#a1c9828bc3de9502754d944c95a2ce0d9",tooltip="Return the first element of the list. "];
+  Node412 -> Node435 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node435 [label="Foam::UList::last",height=0.2,width=0.4,color="black",URL="$a25698.html#aef07c02ea1c27bdb5906043b399e0ff0",tooltip="Return the last element of the list. "];
+  Node412 -> Node416 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node412 -> Node436 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node436 [label="Foam::max",height=0.2,width=0.4,color="black",URL="$a21124.html#ac993e906cf2774ae77e666bc24e81733"];
+  Node412 -> Node418 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node412 -> Node417 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

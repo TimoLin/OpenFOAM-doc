@@ -1,0 +1,17 @@
+digraph "write"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1174 [label="write",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1174 -> Node1175 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1175 [label="Foam::radToDeg",height=0.2,width=0.4,color="red",URL="$a21124.html#a43e249466ea923a1a1243c5f91fbd2d7",tooltip="Conversion from radians to degrees. "];
+  Node1174 -> Node1177 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1177 [label="Foam::transform",height=0.2,width=0.4,color="black",URL="$a21124.html#a919915170941701c1223291531ad010c"];
+  Node1174 -> Node1178 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1178 [label="Foam::coupledPolyPatch\l::write",height=0.2,width=0.4,color="red",URL="$a27426.html#a293fdfec8bdfbd5c3913ab4c9f3454ff",tooltip="Write the polyPatch data as a dictionary. "];
+  Node1178 -> Node1180 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1180 [label="Foam::Ostream::writeKeyword",height=0.2,width=0.4,color="red",URL="$a26238.html#a3c58b2bb9174ea3c4a5fa58095d1290e",tooltip="Write the keyword followed by an appropriate indentation. "];
+  Node1174 -> Node1180 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

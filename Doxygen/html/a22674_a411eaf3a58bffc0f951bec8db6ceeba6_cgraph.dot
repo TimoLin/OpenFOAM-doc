@@ -1,0 +1,13 @@
+digraph "stencil"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node17 [label="stencil",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node17 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 [label="collectData",height=0.2,width=0.4,color="red",URL="$a22674.html#ab00d7f17ec3e649fcb4d3a317102aa24",tooltip="Use map to get the data into stencil order. "];
+  Node18 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17 -> Node23 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23 [label="compact",height=0.2,width=0.4,color="red",URL="$a22674.html#a043cdfc194924194e381a986c229569e",tooltip="After removing elements from the stencil adapt the schedule (map). "];
+}

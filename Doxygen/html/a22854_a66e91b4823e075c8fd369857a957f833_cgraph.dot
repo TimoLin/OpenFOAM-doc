@@ -1,0 +1,14 @@
+digraph "neighbFvPatch"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node997 [label="neighbFvPatch",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node997 -> Node998 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node998 [label="Foam::fvMesh::boundary",height=0.2,width=0.4,color="black",URL="$a22766.html#a1fc8b179063cf5d6805da64ff1975126",tooltip="Return reference to boundary mesh. "];
+  Node997 -> Node999 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node999 [label="nbrFvMesh",height=0.2,width=0.4,color="red",URL="$a22854.html#a7de75a086e51fb6764bcf4d6d494257c",tooltip="Returns fvMesh. "];
+  Node997 -> Node1084 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1084 [label="Foam::regionCoupledBase\l::neighbPatchID",height=0.2,width=0.4,color="red",URL="$a25182.html#afc2149e80f0785ace675c205b80eb6bc",tooltip="Neighbour patch ID. "];
+}

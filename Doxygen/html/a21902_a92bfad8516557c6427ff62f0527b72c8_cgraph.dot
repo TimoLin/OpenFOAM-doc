@@ -1,0 +1,16 @@
+digraph "makeAbsolute"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node879 [label="makeAbsolute",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node879 -> Node880 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node880 [label="makeAbsolute",height=0.2,width=0.4,color="black",URL="$a21902.html#a8af73e040f6428dc8928b81087ee9ecd",tooltip="Make the given relative velocity absolute within the MRF region. "];
+  Node880 -> Node881 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node881 [label="Foam::MRFZone::makeAbsolute",height=0.2,width=0.4,color="red",URL="$a21898.html#a8af73e040f6428dc8928b81087ee9ecd",tooltip="Make the given relative velocity absolute within the MRF region. "];
+  Node880 -> Node886 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node886 [label="Foam::PtrList\< MRFZone\l \>::operator[]",height=0.2,width=0.4,color="red",URL="$a25914.html#a92eab3a97cd59afdf63a26b0a90642a9",tooltip="Return element const reference. "];
+  Node879 -> Node881 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node879 -> Node886 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

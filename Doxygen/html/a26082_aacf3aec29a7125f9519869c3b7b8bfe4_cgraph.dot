@@ -1,0 +1,18 @@
+digraph "safePrintStack"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node274 [label="safePrintStack",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node274 -> Node275 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node275 [label="Foam::absolutePath",height=0.2,width=0.4,color="red",URL="$a21124.html#a06249b44b010ebeae540405e42c5a13f"];
+  Node274 -> Node277 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node277 [label="Foam::demangleSymbol",height=0.2,width=0.4,color="black",URL="$a21124.html#a598d69adf913453c1fb219f4c8bb5220"];
+  Node274 -> Node278 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node278 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node274 -> Node280 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node280 [label="Foam::printSourceFileAndLine",height=0.2,width=0.4,color="red",URL="$a21124.html#acef53166bf4ca64567faafac3eaa8e04"];
+  Node274 -> Node303 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node303 [label="printStack",height=0.2,width=0.4,color="black",URL="$a26082.html#a7fb27e884553ce565d0ea6276a111e0e",tooltip="Helper function to print a stack. "];
+}

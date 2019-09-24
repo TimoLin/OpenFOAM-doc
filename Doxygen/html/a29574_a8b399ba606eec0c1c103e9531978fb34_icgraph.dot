@@ -1,0 +1,14 @@
+digraph "read"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1412 [label="read",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1412 -> Node1413 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1413 [label="read",height=0.2,width=0.4,color="black",URL="$a29574.html#a464ebd67acbdff0014d4dae69e3ec4be",tooltip="Read from file. Chooses reader based on detected extension. "];
+  Node1412 -> Node1414 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1414 [label="UnsortedMeshedSurface",height=0.2,width=0.4,color="black",URL="$a29574.html#ab27c457d47bcfa462d1a4fcd7e66fa06",tooltip="Construct from file name (uses extension to determine type) "];
+  Node1412 -> Node1415 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1415 [label="zoneToc",height=0.2,width=0.4,color="red",URL="$a29574.html#adc84fd65ce1212a7745d7e69a0fa9250",tooltip="Return const access to the zone table-of-contents. "];
+}

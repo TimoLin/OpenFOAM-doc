@@ -1,0 +1,16 @@
+digraph "read"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node110 [label="read",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node110 -> Node111 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node111 [label="Foam::exit",height=0.2,width=0.4,color="red",URL="$a21124.html#a06ca7250d8e89caf05243ec094843642"];
+  Node110 -> Node148 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node148 [label="Foam::IOstream::good",height=0.2,width=0.4,color="black",URL="$a26226.html#abdcc7f96f487faadc7769afcf58fe992",tooltip="Return true if next operation might succeed. "];
+  Node110 -> Node158 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node158 [label="write",height=0.2,width=0.4,color="red",URL="$a21758.html#a48622d53f16593b072d2fea61d25bb39",tooltip="Write edgeMesh components to stream. "];
+  Node158 -> Node148 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node158 -> Node111 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

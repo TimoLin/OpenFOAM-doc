@@ -1,0 +1,15 @@
+digraph "coordinateRotation"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node0 [label="coordinateRotation",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="axesRotation",height=0.2,width=0.4,color="black",URL="$a24990.html",tooltip="A coordinate rotation specified using global axis. "];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="EulerCoordinateRotation",height=0.2,width=0.4,color="black",URL="$a24998.html",tooltip="A coordinateRotation defined in the z-x-y Euler convention. "];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="localAxesRotation",height=0.2,width=0.4,color="black",URL="$a25002.html",tooltip="A local coordinate rotation. The cell based rotational field can be created in two ways: ..."];
+  Node0 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="STARCDCoordinateRotation",height=0.2,width=0.4,color="black",URL="$a25006.html",tooltip="A coordinateRotation defined by the STAR-CD convention. "];
+}

@@ -1,0 +1,16 @@
+digraph "clearOut"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node8 [label="clearOut",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="changeFaces",height=0.2,width=0.4,color="red",URL="$a21430.html#aa3edbdb390a2b28fbb17a16562278186",tooltip="Recalculate face ordering and patches. Return old to new. "];
+  Node8 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13 [label="read",height=0.2,width=0.4,color="red",URL="$a21430.html#ad75a6a0d6490bd22adad55646a22e51b",tooltip="Read from boundaryMesh of polyMesh. "];
+  Node8 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14 [label="readTriSurface",height=0.2,width=0.4,color="red",URL="$a21430.html#a2ee25ae613c57256a825ff088edc0839",tooltip="Read from triSurface. "];
+  Node8 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15 [label="~boundaryMesh",height=0.2,width=0.4,color="black",URL="$a21430.html#aca72a1a3027ac12a248f0fbbd22902d3",tooltip="Destructor. "];
+}

@@ -1,0 +1,26 @@
+digraph "IOmapDistribute"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node645 [label="IOmapDistribute",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node645 -> Node646 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node646 [label="Foam::regIOobject::\lclose",height=0.2,width=0.4,color="red",URL="$a26334.html#a5ae591df94fc66ccb85cbb6565368bca",tooltip="Close Istream. "];
+  Node646 -> Node660 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node660 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node645 -> Node660 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node645 -> Node662 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node662 [label="Foam::IOobject::headerOk",height=0.2,width=0.4,color="black",URL="$a26142.html#a9d4879c850ce41d945ff77e788de3a23",tooltip="Read and check header info. "];
+  Node662 -> Node660 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node645 -> Node663 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node663 [label="Foam::IOobject::name",height=0.2,width=0.4,color="black",URL="$a26142.html#acc80e00a8ac919288fb55bd14cc88bf6",tooltip="Return name. "];
+  Node645 -> Node664 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node664 [label="Foam::IOobject::readOpt",height=0.2,width=0.4,color="black",URL="$a26142.html#a81b608e0b8d8e2a8f1bc927cd6076c59"];
+  Node645 -> Node665 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node665 [label="Foam::regIOobject::\lreadStream",height=0.2,width=0.4,color="red",URL="$a26334.html#a1cab0be4cd0a737bfcdd4e43a032d3fd",tooltip="Return Istream and check object type against that given. "];
+  Node665 -> Node663 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node665 -> Node660 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node645 -> Node962 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node962 [label="Foam::mapDistribute\l::transfer",height=0.2,width=0.4,color="red",URL="$a27362.html#af64d854813069b200f47b4a3dcba4d9b",tooltip="Transfer the contents of the argument and annul the argument. "];
+}

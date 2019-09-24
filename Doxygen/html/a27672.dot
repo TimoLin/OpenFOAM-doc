@@ -1,0 +1,23 @@
+digraph "TableBase&lt; Type &gt;"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4 [label="TableBase\< Type \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node5 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" table_" ,fontname="FreeSans"];
+  Node5 [label="List\< Foam::Tuple2\l\< scalar, Type \> \>",height=0.2,width=0.4,color="red",URL="$a25694.html"];
+  Node9 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" currentIndices_" ,fontname="FreeSans"];
+  Node9 [label="List\< label \>",height=0.2,width=0.4,color="red",URL="$a25694.html"];
+  Node11 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" currentWeights_" ,fontname="FreeSans"];
+  Node11 [label="Field\< scalar \>",height=0.2,width=0.4,color="red",URL="$a26466.html"];
+  Node19 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" dimensions_" ,fontname="FreeSans"];
+  Node19 [label="dimensionSet",height=0.2,width=0.4,color="black",URL="$a26370.html",tooltip="Dimension set for the base types. "];
+  Node20 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" interpolationScheme\l_\nname_" ,fontname="FreeSans"];
+  Node20 [label="word",height=0.2,width=0.4,color="red",URL="$a28258.html",tooltip="A class for handling words, derived from string. "];
+  Node20 -> Node20 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" null" ,fontname="FreeSans"];
+  Node23 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" interpolatorPtr_" ,fontname="FreeSans"];
+  Node23 [label="autoPtr\< Foam::interpolation\lWeights \>",height=0.2,width=0.4,color="red",URL="$a25958.html"];
+  Node25 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" tableSamplesPtr_" ,fontname="FreeSans"];
+  Node25 [label="autoPtr\< Foam::Field \>",height=0.2,width=0.4,color="red",URL="$a25958.html"];
+}

@@ -1,0 +1,12 @@
+digraph "src/TurbulenceModels/turbulenceModels/LES/kEqn" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="FreeSans"];
+  edge [ labelfontsize="10", labelfontname="FreeSans"];
+  subgraph clusterdir_9fc1e48ca755258281286cef4f8e0bec {
+    graph [ bgcolor="#ddddee", pencolor="black", label="LES" fontname="FreeSans", fontsize="10", URL="dir_9fc1e48ca755258281286cef4f8e0bec.html"]
+  dir_61e67cff51192e923bf6f50b5df2c6f1 [shape=box, label="kEqn", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_61e67cff51192e923bf6f50b5df2c6f1.html"];
+  }
+  dir_931e718b54798ff5f4aa7f4bde1ff85e [shape=box label="eddyViscosity" URL="dir_931e718b54798ff5f4aa7f4bde1ff85e.html"];
+  dir_61e67cff51192e923bf6f50b5df2c6f1->dir_931e718b54798ff5f4aa7f4bde1ff85e [headlabel="1", labeldistance=1.5 headhref="dir_003053_003052.html"];
+}

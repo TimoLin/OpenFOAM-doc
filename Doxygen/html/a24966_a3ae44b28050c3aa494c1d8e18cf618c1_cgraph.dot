@@ -1,0 +1,24 @@
+digraph "correct"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node98 [label="correct",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node98 -> Node99 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node99 [label="Foam::cellDistFuncs\l::correctBoundaryFaceCells",height=0.2,width=0.4,color="red",URL="$a24958.html#a41c7905c77a33266536507702e329e13",tooltip="Correct all cells connected to boundary (via face). Sets values in. "];
+  Node99 -> Node162 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node162 [label="Foam::cellDistFuncs\l::correctBoundaryPointCells",height=0.2,width=0.4,color="red",URL="$a24958.html#ae4ed6e24a4dba014836260aece8f8ead",tooltip="Correct all cells connected to wall (via point). Sets values in. "];
+  Node162 -> Node165 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node165 [label="Foam::cellDistFuncs\l::mesh",height=0.2,width=0.4,color="red",URL="$a24958.html#ae78c91f8ff731c07ccc4351d9fe861ba",tooltip="Access mesh. "];
+  Node165 -> Node99 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node165 -> Node162 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node165 -> Node172 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node172 [label="Foam::cellDistFuncs\l::sumPatchSize",height=0.2,width=0.4,color="red",URL="$a24958.html#a1368fbba0d932ccedb4b2a8e41b9791c",tooltip="Sum of patch sizes (out of supplied subset of patches). "];
+  Node172 -> Node99 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node172 -> Node165 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node99 -> Node165 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node98 -> Node162 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node98 -> Node165 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node98 -> Node172 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

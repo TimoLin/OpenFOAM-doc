@@ -1,0 +1,15 @@
+digraph "nGlobalPoints"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node576 [label="nGlobalPoints",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node576 -> Node577 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node577 [label="nTotalCells",height=0.2,width=0.4,color="red",URL="$a27334.html#af5f312e4d0bc5cbcc088e7c247d3a97a",tooltip="Return total number of cells in decomposed mesh. "];
+  Node576 -> Node600 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node600 [label="sharedPoints",height=0.2,width=0.4,color="red",URL="$a27334.html#ab7d3835b5505a69d153631e4c4865136",tooltip="Collect coordinates of shared points on all processors. "];
+  Node600 -> Node577 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node576 -> Node602 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node602 [label="Foam::syncTools::syncPointMap",height=0.2,width=0.4,color="red",URL="$a27502.html#a08bdf5c6403dd4367d1714c3d5b4145d",tooltip="Synchronize values on selected points. "];
+}

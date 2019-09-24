@@ -1,0 +1,20 @@
+digraph "lgamma"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node39213 [label="lgamma",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node39213 -> Node39214 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node39214 [label="atan2",height=0.2,width=0.4,color="black",URL="$a21124.html#a9d45ac659e1f4191f75f0fe34ad7f596"];
+  Node39213 -> Node39215 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node39215 [label="cmptMag",height=0.2,width=0.4,color="red",URL="$a12539.html#a9180528922650a6b9a3b302e27e621b9"];
+  Node39213 -> Node39270 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node39270 [label="Foam::VariableHardSphere\l::sigmaTcR",height=0.2,width=0.4,color="red",URL="$a23714.html#a11788176239913149667d5972f997a29",tooltip="Return the collision cross section * relative velocity product. "];
+  Node39213 -> Node39272 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node39272 [label="Foam::LarsenBorgnakkeVariable\lHardSphere::sigmaTcR",height=0.2,width=0.4,color="red",URL="$a23706.html#a11788176239913149667d5972f997a29",tooltip="Return the collision cross section * relative velocity product. "];
+  Node39213 -> Node39274 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node39274 [label="stabilise",height=0.2,width=0.4,color="black",URL="$a21124.html#a0f54b8f830b5ec7eb36ed5ccda6d7b1e"];
+  Node39213 -> Node39275 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node39275 [label="sumProd",height=0.2,width=0.4,color="black",URL="$a21124.html#a5b480f6156c25bef4de87d86094e87ea"];
+}

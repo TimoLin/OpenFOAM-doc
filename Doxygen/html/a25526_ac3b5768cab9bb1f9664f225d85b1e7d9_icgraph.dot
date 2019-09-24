@@ -1,0 +1,11 @@
+digraph "treeByRegion"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node113 [label="treeByRegion",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node113 -> Node114 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node114 [label="findNearest",height=0.2,width=0.4,color="red",URL="$a25526.html#a0fa36fcaf116953105bbee9871d05b0c",tooltip="Find the nearest point on the surface out of the regions. "];
+  Node114 -> Node113 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

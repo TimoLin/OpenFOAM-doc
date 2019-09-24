@@ -1,0 +1,34 @@
+digraph "dictionary"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="dictionary",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="dictionaryName",height=0.2,width=0.4,color="black",URL="$a26010.html"];
+  Node2 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="IDLList\< entry \>",height=0.2,width=0.4,color="red",URL="$a25854.html"];
+  Node0 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13 [label="cellShapeControl",height=0.2,width=0.4,color="black",URL="$a31370.html"];
+  Node0 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14 [label="cellSizeFunction",height=0.2,width=0.4,color="red",URL="$a31402.html",tooltip="Abstract base class for specifying target cell sizes. "];
+  Node0 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20 [label="dictionaryEntry",height=0.2,width=0.4,color="black",URL="$a26018.html",tooltip="A keyword and a list of tokens is a &#39;dictionaryEntry&#39;. "];
+  Node0 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21 [label="doxygenXmlParser",height=0.2,width=0.4,color="black",URL="$a31642.html",tooltip="Parser for doxygen XML. "];
+  Node0 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22 [label="faceAreaWeightModel",height=0.2,width=0.4,color="red",URL="$a31518.html",tooltip="Abstract base class for providing faceAreaWeight values to the cell motion controller based on an arg..."];
+  Node0 -> Node24 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node24 [label="fieldDictionary",height=0.2,width=0.4,color="black",URL="$a25286.html",tooltip="Read field as dictionary (without mesh). "];
+  Node0 -> Node25 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node25 [label="initialPointsMethod",height=0.2,width=0.4,color="red",URL="$a31538.html",tooltip="Abstract base class for generating initial points for a conformalVoronoiMesh. "];
+  Node0 -> Node32 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node32 [label="IOdictionary",height=0.2,width=0.4,color="red",URL="$a26158.html",tooltip="IOdictionary is derived from dictionary and IOobject to give the dictionary automatic IO functionalit..."];
+  Node0 -> Node174 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node174 [label="JobInfo",height=0.2,width=0.4,color="black",URL="$a26686.html",tooltip="Helper class for recording information about run/finished jobs. "];
+  Node0 -> Node175 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node175 [label="relaxationModel",height=0.2,width=0.4,color="red",URL="$a31570.html",tooltip="Abstract base class for providing relaxation values to the cell motion controller. "];
+  Node0 -> Node178 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node178 [label="surfaceCellSizeFunction",height=0.2,width=0.4,color="red",URL="$a31442.html",tooltip="Abstract base class for specifying target cell sizes. "];
+}

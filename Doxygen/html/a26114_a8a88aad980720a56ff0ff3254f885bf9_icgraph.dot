@@ -1,0 +1,12 @@
+digraph "adjustTimeStep"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node6704 [label="adjustTimeStep",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node6704 -> Node6705 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6705 [label="Foam::functionObjectList\l::adjustTimeStep",height=0.2,width=0.4,color="black",URL="$a26126.html#a8a88aad980720a56ff0ff3254f885bf9",tooltip="Called at the end of Time::adjustDeltaT() if adjustTime is true. "];
+  Node6704 -> Node6706 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6706 [label="Foam::functionObject\l::iNew::iNew",height=0.2,width=0.4,color="black",URL="$a26118.html#af4d182d25bff0a6059f5e82e55810282"];
+}

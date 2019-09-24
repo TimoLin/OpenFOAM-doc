@@ -1,0 +1,43 @@
+digraph "Ldelta"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node574 [label="Ldelta",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node574 -> Node575 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node575 [label="Foam::cbrt",height=0.2,width=0.4,color="red",URL="$a21124.html#aca0b7feea326c0e1e9e04078a319d019"];
+  Node575 -> Node580 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node580 [label="Foam::pow",height=0.2,width=0.4,color="red",URL="$a21124.html#a7500c8e9d27a442adc75e287de074c7c"];
+  Node574 -> Node581 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node581 [label="f",height=0.2,width=0.4,color="black",URL="$a17900.html#a888be93833ac7a23170555c69c690288"];
+  Node574 -> Node582 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node582 [label="Lf",height=0.2,width=0.4,color="black",URL="$a28950.html#a4748682baa06f01b536cb5b9ded29388",tooltip="Return the narrow-band PFL (pressure-fluctuation level) spectrum. "];
+  Node582 -> Node574 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node582 -> Node583 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node583 [label="Foam::log10",height=0.2,width=0.4,color="black",URL="$a21124.html#a58a2d0da0179f2ae967ab96f82818a3b"];
+  Node582 -> Node584 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node584 [label="Foam::graph::x",height=0.2,width=0.4,color="black",URL="$a26698.html#a72a9357fb9c71332ba0166c87e03929d"];
+  Node582 -> Node585 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node585 [label="Foam::graph::y",height=0.2,width=0.4,color="red",URL="$a26698.html#a27552edee6f23a4e764f85c3991719a9"];
+  Node574 -> Node583 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node574 -> Node635 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node635 [label="Pdelta",height=0.2,width=0.4,color="red",URL="$a28950.html#a95558b83262f0d5c31d21d8c60f4ab8f",tooltip="Return the one-third-octave-band pressure spectrum. "];
+  Node635 -> Node581 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node635 -> Node584 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node635 -> Node585 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node635 -> Node645 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node645 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node635 -> Node575 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node635 -> Node648 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node648 [label="Foam::sqrt",height=0.2,width=0.4,color="red",URL="$a21124.html#a8616bd62eebf2342a80222fecb1bda71"];
+  Node648 -> Node580 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node635 -> Node656 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node656 [label="Foam::List::setSize",height=0.2,width=0.4,color="black",URL="$a25694.html#aedb985ffeaf1bdbfeccc2a8730405703",tooltip="Reset size of List. "];
+  Node574 -> Node580 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node574 -> Node656 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node574 -> Node645 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node574 -> Node648 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node574 -> Node584 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node574 -> Node585 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

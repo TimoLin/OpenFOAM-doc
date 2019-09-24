@@ -1,0 +1,28 @@
+digraph "clone"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node108 [label="clone",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node108 -> Node109 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node109 [label="blockEdgePoints",height=0.2,width=0.4,color="black",URL="$a24714.html#a855834c207df737ee9fae3cbcf5eb9ba",tooltip="Return the block points along each edge. "];
+  Node108 -> Node110 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node110 [label="blockEdgeWeights",height=0.2,width=0.4,color="black",URL="$a24714.html#a7d9f0dd96bb924047a1097c7643fe522",tooltip="Return the weightings along each edge. "];
+  Node108 -> Node111 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node111 [label="blockPoint",height=0.2,width=0.4,color="black",URL="$a24714.html#a5e5e8348df3b2138af6c812e4ab51f88",tooltip="Return block point at local label i. "];
+  Node108 -> Node112 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node112 [label="blockPointField",height=0.2,width=0.4,color="black",URL="$a24714.html#a4358c4bbfb4460ea12f5d6fbf6e6e19f",tooltip="Reference to point field defining the block mesh. "];
+  Node108 -> Node113 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node113 [label="blockShape",height=0.2,width=0.4,color="black",URL="$a24714.html#a10f08eda6c2c307a7ce1aef155aa852d",tooltip="Return the block shape. "];
+  Node108 -> Node114 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node114 [label="meshDensity",height=0.2,width=0.4,color="black",URL="$a24714.html#a739d5321a1192e626d75c6d49b4499db",tooltip="Return the mesh density (number of cells) in the i,j,k directions. "];
+  Node108 -> Node115 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node115 [label="nCells",height=0.2,width=0.4,color="red",URL="$a24714.html#aa9b1d9b9ac730ab1e6b7bc1f5246aee9",tooltip="Return the number of cells. "];
+  Node108 -> Node119 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node119 [label="nPoints",height=0.2,width=0.4,color="red",URL="$a24714.html#acc730f1879b8e75216a0e721a6761a6d",tooltip="Return the number of points. "];
+  Node108 -> Node120 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node120 [label="zoneName",height=0.2,width=0.4,color="black",URL="$a24714.html#a3a2121e4f01b5904009f93456d6c36ae",tooltip="Return the (optional) zone name. "];
+  Node108 -> Node121 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node121 [label="~blockDescriptor",height=0.2,width=0.4,color="black",URL="$a24714.html#a7b864f300906ad55a92e1ca2f9f17164",tooltip="Destructor. "];
+}

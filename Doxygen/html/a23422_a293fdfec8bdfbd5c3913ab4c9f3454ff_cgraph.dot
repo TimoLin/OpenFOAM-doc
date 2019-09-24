@@ -1,0 +1,16 @@
+digraph "write"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node774 [label="write",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node774 -> Node775 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node775 [label="Foam::makePointPatchType\lField",height=0.2,width=0.4,color="black",URL="$a21124.html#a0f203d1b2afeb748ca75896bf3597dbe"];
+  Node774 -> Node776 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node776 [label="Foam::pointPatchField\l::write",height=0.2,width=0.4,color="black",URL="$a22946.html#a293fdfec8bdfbd5c3913ab4c9f3454ff",tooltip="Write. "];
+  Node774 -> Node777 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node777 [label="Foam::Field\< vector\l \>::writeEntry",height=0.2,width=0.4,color="black",URL="$a26466.html#a7c03447f7f0471351fe57a41b62c8686",tooltip="Write the field as a dictionary entry. "];
+  Node774 -> Node778 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node778 [label="Foam::Ostream::writeKeyword",height=0.2,width=0.4,color="red",URL="$a26238.html#a3c58b2bb9174ea3c4a5fa58095d1290e",tooltip="Write the keyword followed by an appropriate indentation. "];
+}

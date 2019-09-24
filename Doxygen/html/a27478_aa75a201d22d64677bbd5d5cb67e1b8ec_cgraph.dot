@@ -1,0 +1,18 @@
+digraph "New"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node418 [label="New",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node418 -> Node419 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node419 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node418 -> Node421 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node421 [label="Foam::dictionary::lookup",height=0.2,width=0.4,color="red",URL="$a26014.html#a6a0727fa523e48977e27348663def509",tooltip="Find and return an entry data stream. "];
+  Node418 -> Node721 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node721 [label="New",height=0.2,width=0.4,color="red",URL="$a27478.html#a1741756fc2a2b6260b8086d1c4f57291",tooltip="Return a pointer to a new patch created on freestore from. "];
+  Node721 -> Node419 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node418 -> Node641 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node641 [label="Foam::dictionary::readIf\lPresent",height=0.2,width=0.4,color="red",URL="$a26014.html#ad4bd008e6ee208313f2c3a963ee1170d",tooltip="Find an entry if present, and assign to T. "];
+  Node641 -> Node419 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

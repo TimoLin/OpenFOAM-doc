@@ -1,0 +1,29 @@
+digraph "yPlus"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node395 [label="yPlus",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node395 -> Node396 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node396 [label="Foam::GeometricField\l::boundaryField",height=0.2,width=0.4,color="black",URL="$a22434.html#a3c6c1a789b48ea0c5e8bff64f9c14f2d",tooltip="Return reference to GeometricBoundaryField. "];
+  Node395 -> Node397 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node397 [label="dimensionedInternalField",height=0.2,width=0.4,color="black",URL="$a38438.html#a942cd19121a46cdc649099eb27c74b18"];
+  Node395 -> Node398 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node398 [label="Foam::IOobject::groupName",height=0.2,width=0.4,color="black",URL="$a26142.html#ad5705e6da2a025ad75b4cf5d748d7d30"];
+  Node395 -> Node399 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node399 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node395 -> Node400 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node400 [label="Foam::makePatchTypeField",height=0.2,width=0.4,color="black",URL="$a21124.html#a44a8c9a8ab08f6bf1f84bf3dab3f82a2"];
+  Node395 -> Node401 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node401 [label="Foam::turbulenceModel::nu",height=0.2,width=0.4,color="black",URL="$a31314.html#ad5f81fcd6f7d0ddad1a5fe2a8f08bb3f",tooltip="Return the laminar viscosity. "];
+  Node395 -> Node402 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node402 [label="Foam::fvPatchField\l::snGrad",height=0.2,width=0.4,color="black",URL="$a22354.html#a4e21804a54c15c57d187b21feff6f267",tooltip="Return patch-normal gradient. "];
+  Node395 -> Node403 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node403 [label="Foam::sqrt",height=0.2,width=0.4,color="red",URL="$a21124.html#a8616bd62eebf2342a80222fecb1bda71"];
+  Node395 -> Node408 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node408 [label="Foam::turbulenceModel::U",height=0.2,width=0.4,color="black",URL="$a31314.html#a536d168d7b335fe81f506f232b5b4872",tooltip="Access function to velocity field. "];
+  Node395 -> Node409 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node409 [label="Foam::turbulenceModel::y",height=0.2,width=0.4,color="red",URL="$a31314.html#a152c527a6b3137685b03893a7a3a73eb",tooltip="Return the near wall distances. "];
+  Node409 -> Node401 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

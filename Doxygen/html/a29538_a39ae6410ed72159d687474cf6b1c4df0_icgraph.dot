@@ -1,0 +1,16 @@
+digraph "distSqr"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node17 [label="distSqr",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node17 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 [label="operator==",height=0.2,width=0.4,color="red",URL="$a29538.html#afd706804dc4947a3d6812de5e9852ce3"];
+  Node18 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19 [label="Foam::externalPointEdgePoint\l::trackingData::trackingData",height=0.2,width=0.4,color="black",URL="$a29542.html#a2700ae22fe241ff633f4e1862d18260b"];
+  Node17 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23 [label="sameGeometry",height=0.2,width=0.4,color="red",URL="$a29538.html#a2074fc1a6f6e2bc41211dc77522cca71",tooltip="Check for identical geometrical data. Used for cyclics checking. "];
+  Node23 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

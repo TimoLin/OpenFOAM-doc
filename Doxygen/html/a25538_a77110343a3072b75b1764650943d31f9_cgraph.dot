@@ -1,0 +1,24 @@
+digraph "oppositeEdge"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node430 [label="oppositeEdge",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node430 -> Node431 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node431 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node430 -> Node474 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node474 [label="Foam::PrimitivePatch\l::edges",height=0.2,width=0.4,color="black",URL="$a27538.html#a21d764179912ddda5c6f95193c289846",tooltip="Return list of edges, address into LOCAL point list. "];
+  Node430 -> Node475 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node475 [label="Foam::edge::end",height=0.2,width=0.4,color="red",URL="$a27210.html#a5ac1c619caccdf5bcf8c3d58a409849f",tooltip="Return end vertex label. "];
+  Node430 -> Node477 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node477 [label="Foam::PrimitivePatch\l::faceEdges",height=0.2,width=0.4,color="black",URL="$a27538.html#adbfcf489a527a07c33d684834faace79",tooltip="Return face-edge addressing. "];
+  Node430 -> Node478 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node478 [label="oppositeVertex",height=0.2,width=0.4,color="red",URL="$a25538.html#ad78556d7d01f6219bb13005e24171127",tooltip="Get vertex (local numbering) opposite edge. "];
+  Node478 -> Node474 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node478 -> Node480 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node480 [label="Foam::edge::start",height=0.2,width=0.4,color="red",URL="$a27210.html#afe56bdd2031bbf8321e35e2330c0b990",tooltip="Return start vertex label. "];
+  Node478 -> Node475 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node478 -> Node431 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node430 -> Node480 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

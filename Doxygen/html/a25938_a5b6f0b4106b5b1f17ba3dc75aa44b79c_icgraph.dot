@@ -1,0 +1,12 @@
+digraph "trim"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node229 [label="trim",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node229 -> Node230 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node230 [label="Foam::operator^",height=0.2,width=0.4,color="black",URL="$a21124.html#a70501273441c1c14f7f390061d55dddb",tooltip="Combine to form a unique list (xor) "];
+  Node229 -> Node231 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node231 [label="Foam::PackedBoolList\l::operator^=",height=0.2,width=0.4,color="black",URL="$a25934.html#a91f4576fe0dd1aa5848ac2912f4c5990",tooltip="Xor operator (lists may be dissimilar sizes) "];
+}

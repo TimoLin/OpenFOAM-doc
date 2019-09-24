@@ -1,0 +1,21 @@
+digraph "getSharedFace"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1194 [label="getSharedFace",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1194 -> Node1195 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1195 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node1194 -> Node1238 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1238 [label="Foam::primitiveMesh\l::cells",height=0.2,width=0.4,color="black",URL="$a27530.html#af19bf800d725a623c7b1d0101d65e7d3"];
+  Node1194 -> Node1239 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1239 [label="Foam::primitiveMesh\l::faceNeighbour",height=0.2,width=0.4,color="black",URL="$a27530.html#acd9489a2ac1ec02451fef1f415386694",tooltip="Face face-neighbour addressing. "];
+  Node1194 -> Node1240 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1240 [label="Foam::primitiveMesh\l::faceOwner",height=0.2,width=0.4,color="black",URL="$a27530.html#a95a88187f795e30779aa3bac679d9bfc",tooltip="Face face-owner addresing. "];
+  Node1194 -> Node1241 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1241 [label="getEdgeFaces",height=0.2,width=0.4,color="red",URL="$a21153.html#a49c5d70e15e6496b848e2012ea176128",tooltip="Get faces on cell using edgeI. Throws error if no two found. "];
+  Node1241 -> Node1195 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1194 -> Node1267 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1267 [label="Foam::primitiveMesh\l::isInternalFace",height=0.2,width=0.4,color="red",URL="$a27530.html#ae3e48ad9ec4c5132ec7d3d702ad17c9e",tooltip="Return true if given face label is internal to the mesh. "];
+}

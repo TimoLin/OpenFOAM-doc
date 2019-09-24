@@ -1,0 +1,13 @@
+digraph "solveCoupled"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3902 [label="solveCoupled",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3902 -> Node3903 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3903 [label="faceFluxCorrectionPtr",height=0.2,width=0.4,color="red",URL="$a22358.html#abca4d525cb7a95854e0bbc373847fef2",tooltip="Return pointer to face-flux non-orthogonal correction field. "];
+  Node3902 -> Node3908 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3908 [label="solveSegregated",height=0.2,width=0.4,color="red",URL="$a22358.html#a8946f39b00e81fb5741058ddf6e05dbf",tooltip="Solve segregated returning the solution statistics. "];
+  Node3908 -> Node3903 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

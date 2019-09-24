@@ -1,0 +1,25 @@
+digraph "src/OpenFOAM/meshes/polyMesh/polyMeshClear.C"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node0 [label="src/OpenFOAM/meshes\l/polyMesh/polyMeshClear.C",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="polyMesh.H",height=0.2,width=0.4,color="red",URL="$a11630.html"];
+  Node1 -> Node75 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node75 [label="primitiveMesh.H",height=0.2,width=0.4,color="red",URL="$a11882.html"];
+  Node0 -> Node75 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node0 -> Node220 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node220 [label="globalMeshData.H",height=0.2,width=0.4,color="red",URL="$a11534.html"];
+  Node0 -> Node233 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node233 [label="MeshObject.H",height=0.2,width=0.4,color="red",URL="$a11174.html"];
+  Node0 -> Node234 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node234 [label="indexedOctree.H",height=0.2,width=0.4,color="red",URL="$a08387.html"];
+  Node0 -> Node242 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node242 [label="treeDataCell.H",height=0.2,width=0.4,color="red",URL="$a08399.html"];
+  Node242 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node0 -> Node244 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node244 [label="pointMesh.H",height=0.2,width=0.4,color="red",URL="$a11399.html"];
+  Node244 -> Node233 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node244 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

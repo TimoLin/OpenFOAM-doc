@@ -1,0 +1,14 @@
+digraph "solveSegregated"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3781 [label="solveSegregated",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3781 -> Node3782 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3782 [label="faceFluxCorrectionPtr",height=0.2,width=0.4,color="red",URL="$a22358.html#abca4d525cb7a95854e0bbc373847fef2",tooltip="Return pointer to face-flux non-orthogonal correction field. "];
+  Node3781 -> Node3787 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3787 [label="Foam::fvMatrix::fvSolver\l::solve",height=0.2,width=0.4,color="black",URL="$a22622.html#a47cbc268a7a18cd30839f1430d7ae6a6"];
+  Node3781 -> Node3788 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3788 [label="solve",height=0.2,width=0.4,color="red",URL="$a22358.html#a35eb51dd72f0a6b19d161fe7f7e6b9c8",tooltip="Solve segregated or coupled returning the solution statistics. "];
+}

@@ -1,0 +1,12 @@
+digraph "isOpen"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node189 [label="isOpen",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node189 -> Node190 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node190 [label="lift",height=0.2,width=0.4,color="red",URL="$a21826.html#a3f2011ba1a4551db1639dcc7f6be1586",tooltip="Return valve lift given crank angle in degrees. "];
+  Node189 -> Node244 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node244 [label="Foam::engineTime::theta",height=0.2,width=0.4,color="red",URL="$a21822.html#a28b051b96687a7eee0cd444bc2def93a",tooltip="Return current crank-angle. "];
+}

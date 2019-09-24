@@ -1,0 +1,19 @@
+digraph "liquids"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node38 [label="liquids",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node38 -> Node39 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node39 [label="Foam::SprayParcel::calc",height=0.2,width=0.4,color="red",URL="$a24534.html#a1c2aa9de8e2381d1a7be78bd687fd255",tooltip="Update parcel properties over the time interval. "];
+  Node38 -> Node43 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node43 [label="Foam::SprayParcel::\lcalcAtomization",height=0.2,width=0.4,color="red",URL="$a24534.html#a56afb8fb801bc0e2fc6afa3eb81d2cf2",tooltip="Correct parcel properties according to atomization model. "];
+  Node43 -> Node39 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node38 -> Node45 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node45 [label="Foam::ReactingParcel\l::calcPhaseChange",height=0.2,width=0.4,color="black",URL="$a23922.html#a623a7991bedba1b8b242d4af39643a14",tooltip="Calculate Phase change. "];
+  Node38 -> Node46 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node46 [label="Foam::SprayParcel::chi",height=0.2,width=0.4,color="black",URL="$a24534.html#a8de5b1fcaf51563453f97293aa5e7e93"];
+  Node38 -> Node47 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node47 [label="Foam::CompositionModel\l\< Foam::ReactingCloud\l\< Foam::DsmcCloud \> \>::clone",height=0.2,width=0.4,color="black",URL="$a23806.html#a978beb1d8454ca481790660427b9b37c",tooltip="Construct and return a clone. "];
+}

@@ -1,0 +1,43 @@
+digraph "findTriangle"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node107 [label="findTriangle",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node107 -> Node108 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node108 [label="Foam::triangle::barycentric",height=0.2,width=0.4,color="red",URL="$a27606.html#ac424fec442e3558133673e4c23daa46e",tooltip="Calculate the barycentric coordinates of the given. "];
+  Node108 -> Node109 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node109 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node107 -> Node128 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node128 [label="cellPointWeight",height=0.2,width=0.4,color="black",URL="$a22922.html#a464007dc9622706ae009abd3d109a377",tooltip="Construct from components. "];
+  Node107 -> Node120 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node120 [label="Foam::det",height=0.2,width=0.4,color="red",URL="$a21124.html#a0661214f1c72feedb965c88d685f8036"];
+  Node107 -> Node129 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node129 [label="Foam::PointHit::distance",height=0.2,width=0.4,color="black",URL="$a27558.html#a288a3ea8e3ee215a5e12afc1002ed4e6",tooltip="Return distance to hit. "];
+  Node107 -> Node130 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node130 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node107 -> Node132 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node132 [label="f",height=0.2,width=0.4,color="black",URL="$a17900.html#a888be93833ac7a23170555c69c690288"];
+  Node107 -> Node133 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node133 [label="Foam::primitiveMesh\l::faceAreas",height=0.2,width=0.4,color="red",URL="$a27530.html#adefd042a02b5fa7ab8ab95063a631420"];
+  Node107 -> Node183 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node183 [label="Foam::tetIndices::faceBasePt",height=0.2,width=0.4,color="black",URL="$a27422.html#a97cee79d41f70f290555db9cdd423bc7",tooltip="Return the face base point. "];
+  Node107 -> Node184 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node184 [label="Foam::polyMesh::faceOwner",height=0.2,width=0.4,color="black",URL="$a27410.html#a57752b49bfee23ca1944c3fb0493974f",tooltip="Return face owner. "];
+  Node107 -> Node185 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node185 [label="Foam::tetIndices::facePtA",height=0.2,width=0.4,color="black",URL="$a27422.html#aca188b1811d0b9b21e0e01ba15c8acd5",tooltip="Return face point A. "];
+  Node107 -> Node186 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node186 [label="Foam::tetIndices::facePtB",height=0.2,width=0.4,color="black",URL="$a27422.html#a3e67cf8949132ada28c5883e41899763",tooltip="Return face point B. "];
+  Node107 -> Node187 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node187 [label="Foam::polyMesh::faces",height=0.2,width=0.4,color="red",URL="$a27410.html#a431c0a24765f0bb6d32f6a03ce0e9b57",tooltip="Return raw faces. "];
+  Node107 -> Node188 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node188 [label="Foam::tetIndices::faceTri",height=0.2,width=0.4,color="red",URL="$a27422.html#a99a5264a0e991a77afe619a74f9ae2f1",tooltip="Return the geometry corresponding to the tri on the. "];
+  Node188 -> Node187 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node188 -> Node132 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node107 -> Node109 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node107 -> Node190 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node190 [label="magSqr",height=0.2,width=0.4,color="red",URL="$a12539.html#ab0cd33eb018a643a64ca545601530791"];
+  Node107 -> Node126 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node126 [label="Foam::triangle::nearestPoint",height=0.2,width=0.4,color="red",URL="$a27606.html#ab4bbbc54ae9bec9dd33f2f1c1876af59",tooltip="Return nearest point to p on triangle. "];
+}

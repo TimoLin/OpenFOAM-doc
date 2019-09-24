@@ -1,0 +1,21 @@
+digraph "epsilonPatch"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1933 [label="epsilonPatch",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1933 -> Node1934 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1934 [label="calculateTurbulenceFields",height=0.2,width=0.4,color="red",URL="$a30958.html#ae66449fc0b530766847f6369c9d47e9e",tooltip="Main driver to calculate the turbulence fields. "];
+  Node1934 -> Node1933 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1933 -> Node1937 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1937 [label="epsilon",height=0.2,width=0.4,color="red",URL="$a30958.html#a9b1505024fca6dec524936103c6a9e78",tooltip="Return non-const access to the master&#39;s epsilon field. "];
+  Node1937 -> Node1938 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1938 [label="setMaster",height=0.2,width=0.4,color="red",URL="$a30958.html#af62f4355fcee4da87dbdf3b365d3d73a",tooltip="Set the master patch - master is responsible for updating all. "];
+  Node1937 -> Node1933 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1937 -> Node1937 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1933 -> Node1940 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1940 [label="G",height=0.2,width=0.4,color="red",URL="$a30958.html#ad35ace611250c5f497f21747c0920fec",tooltip="Return non-const access to the master&#39;s G field. "];
+  Node1940 -> Node1940 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1933 -> Node1938 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

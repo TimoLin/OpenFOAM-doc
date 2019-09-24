@@ -1,0 +1,27 @@
+digraph "faceTri"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2119 [label="faceTri",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2119 -> Node2120 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2120 [label="Foam::cellPointWeight\l::findTriangle",height=0.2,width=0.4,color="red",URL="$a22922.html#a58a370be784ce48f88d340ab2ab15ac8"];
+  Node2119 -> Node2122 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2122 [label="Foam::particle::hitWallFaces",height=0.2,width=0.4,color="black",URL="$a23586.html#abf78981c0a99e9f135ebc37efcfd1544"];
+  Node2122 -> Node2123 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2123 [label="Foam::particle::trackToFace",height=0.2,width=0.4,color="black",URL="$a23586.html#a843767f232f5b61884dcd757558591e0"];
+  Node2119 -> Node2124 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2124 [label="Foam::solidParticle\l::hitWallPatch",height=0.2,width=0.4,color="red",URL="$a24502.html#a83ddd4996e7a12d68168442c5f04ca72",tooltip="Overridable function to handle the particle hitting a wallPatch. "];
+  Node2119 -> Node2129 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2129 [label="Foam::FreeStream::inflow",height=0.2,width=0.4,color="black",URL="$a23718.html#a84e6a7b742df4fcb240fff3040770a0b",tooltip="Introduce particles. "];
+  Node2119 -> Node2130 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2130 [label="Foam::particle::normal",height=0.2,width=0.4,color="red",URL="$a23586.html#ad626ef30cf97c5bcf2b81d102ad70096",tooltip="Return the normal of the tri on tetFaceI_ for the. "];
+  Node2119 -> Node2142 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2142 [label="Foam::KinematicCloud\l\< Foam::DsmcCloud \>::\lpatchData",height=0.2,width=0.4,color="black",URL="$a23786.html#a2eff1b00206c129426b7d92f21f50ed7",tooltip="Calculate the patch normal and velocity to interact with,. "];
+  Node2119 -> Node2143 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2143 [label="Foam::polyMesh::pointInCell",height=0.2,width=0.4,color="red",URL="$a27410.html#a0867f30df00643909280245ea9f26310",tooltip="Is the point in the cell. "];
+  Node2119 -> Node2172 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2172 [label="Foam::wallBoundedParticle\l::trackToEdge",height=0.2,width=0.4,color="black",URL="$a28794.html#aff365968e28acf42244334b7c926dee6",tooltip="Track particle to a given position and returns 1.0 if the. "];
+  Node2119 -> Node2123 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

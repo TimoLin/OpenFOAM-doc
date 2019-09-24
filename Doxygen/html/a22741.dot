@@ -1,0 +1,11 @@
+digraph "extendedCentredFaceToCellStencil"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node0 [label="extendedCentredFaceToCell\lStencil",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="extendedFaceToCellStencil",height=0.2,width=0.4,color="black",URL="$a22746.html",tooltip="Note: transformations on coupled patches not supported. Problem is the positions of cells reachable t..."];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="centredCFCFaceToCellStencil\lObject",height=0.2,width=0.4,color="black",URL="$a22758.html"];
+}

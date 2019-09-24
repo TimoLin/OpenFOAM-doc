@@ -1,0 +1,18 @@
+digraph "scatterList"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4709 [label="scatterList",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4709 -> Node4710 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4710 [label="Foam::UPstream::linearCommunication",height=0.2,width=0.4,color="black",URL="$a26270.html#af7ec282f2581c26d06e2375a17174591",tooltip="Communication schedule for linear all-to-master (proc 0) "];
+  Node4710 -> Node4711 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4711 [label="Foam::UPstream::treeCommunication",height=0.2,width=0.4,color="black",URL="$a26270.html#afaa38d3b4ac099268cc3081da637d147",tooltip="Communication schedule for tree all-to-master (proc 0) "];
+  Node4709 -> Node4712 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4712 [label="Foam::UPstream::nProcs",height=0.2,width=0.4,color="red",URL="$a26270.html#aada0e04d8127eda8ee95be0772754a4f",tooltip="Number of processes in parallel run. "];
+  Node4709 -> Node4714 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4714 [label="scatterList",height=0.2,width=0.4,color="red",URL="$a26250.html#a23c38ee54f04c9d53a327db9edbdb7f0",tooltip="Scatter data. Reverse of gatherList. "];
+  Node4714 -> Node4712 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4709 -> Node4711 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,23 @@
+digraph "src/OSspecific/POSIX" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="FreeSans"];
+  edge [ labelfontsize="10", labelfontname="FreeSans"];
+  subgraph clusterdir_1e7df7a7407fc4618be5c18f76eb7b99 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="OSspecific" fontname="FreeSans", fontsize="10", URL="dir_1e7df7a7407fc4618be5c18f76eb7b99.html"]
+  subgraph clusterdir_94c34cce8591e074e6ace6f8df04d41e {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_94c34cce8591e074e6ace6f8df04d41e.html"];
+    dir_94c34cce8591e074e6ace6f8df04d41e [shape=plaintext label="POSIX"];
+    dir_38daa72f58f17253ab475385074b23d1 [shape=box label="clockTime" color="black" fillcolor="white" style="filled" URL="dir_38daa72f58f17253ab475385074b23d1.html"];
+    dir_8073116a44d437b1896ac4e42a6965d4 [shape=box label="cpuTime" color="black" fillcolor="white" style="filled" URL="dir_8073116a44d437b1896ac4e42a6965d4.html"];
+    dir_8050db66c1248138c45fcadbcd15b993 [shape=box label="memInfo" color="black" fillcolor="white" style="filled" URL="dir_8050db66c1248138c45fcadbcd15b993.html"];
+    dir_03f2ede0689674e80607e9e4a1513685 [shape=box label="signals" color="black" fillcolor="white" style="filled" URL="dir_03f2ede0689674e80607e9e4a1513685.html"];
+  }
+  }
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8 [shape=box label="OpenFOAM" color="red" URL="dir_c5473ff19b20e6ec4dfe5c310b3778a8.html"];
+  dir_8050db66c1248138c45fcadbcd15b993->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="3", labeldistance=1.5 headhref="dir_002259_001732.html"];
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8->dir_8050db66c1248138c45fcadbcd15b993 [headlabel="1", labeldistance=1.5 headhref="dir_001732_002259.html"];
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8->dir_03f2ede0689674e80607e9e4a1513685 [headlabel="6", labeldistance=1.5 headhref="dir_001732_002260.html"];
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8->dir_8073116a44d437b1896ac4e42a6965d4 [headlabel="2", labeldistance=1.5 headhref="dir_001732_002258.html"];
+  dir_03f2ede0689674e80607e9e4a1513685->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="22", labeldistance=1.5 headhref="dir_002260_001732.html"];
+}

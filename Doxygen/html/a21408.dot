@@ -1,0 +1,12 @@
+digraph "solidBodyMotionFunction"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node9 [label="solidBodyMotionFunction",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node10 -> Node9 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" SBMFCoeffs_" ,fontname="FreeSans"];
+  Node10 [label="dictionary",height=0.2,width=0.4,color="red",URL="$a26014.html",tooltip="A list of keyword definitions, which are a keyword followed by any number of values (e..."];
+  Node10 -> Node10 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" null" ,fontname="FreeSans"];
+  Node23 -> Node9 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" time_" ,fontname="FreeSans"];
+  Node23 [label="Time",height=0.2,width=0.4,color="red",URL="$a26350.html",tooltip="Class to control time during OpenFOAM simulations that is also the top-level objectRegistry. "];
+}

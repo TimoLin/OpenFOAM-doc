@@ -1,0 +1,20 @@
+digraph "distribute"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4526 [label="distribute",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4526 -> Node4527 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4527 [label="AMI",height=0.2,width=0.4,color="red",URL="$a25094.html#ab75adcd6bcdc070558929c1dc61a2233",tooltip="Return reference to the AMI interpolator. "];
+  Node4526 -> Node4844 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4844 [label="Foam::mapDistribute\l::distribute",height=0.2,width=0.4,color="red",URL="$a27362.html#a33e0f8481eb68bf011731ec98e8f7c65",tooltip="Distribute data. Note:schedule only used for Pstream::scheduled. "];
+  Node4526 -> Node4849 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4849 [label="Foam::AMIInterpolation\l::interpolateToSource",height=0.2,width=0.4,color="red",URL="$a24866.html#a4a40563419f839dbb3e342e64a15991a",tooltip="Interpolate from target to source with supplied op. "];
+  Node4849 -> Node4844 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4526 -> Node4851 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4851 [label="map",height=0.2,width=0.4,color="red",URL="$a25094.html#a0d1a7c7846db8dd8bd74f9de120d62f6",tooltip="Return reference to the parallel distribution map. "];
+  Node4851 -> Node4527 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4526 -> Node4868 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4868 [label="Foam::List::xfer",height=0.2,width=0.4,color="black",URL="$a25694.html#a48f43ee271fb2edb0fb241b72af0e59c",tooltip="Transfer contents to the Xfer container. "];
+}

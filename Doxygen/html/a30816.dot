@@ -1,0 +1,20 @@
+digraph "turbulenceModel"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node24 [label="turbulenceModel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node25 -> Node24 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node25 [label="regIOobject",height=0.2,width=0.4,color="red",URL="$a26334.html",tooltip="regIOobject is an abstract class derived from IOobject to handle automatic object registration with t..."];
+  Node32 -> Node24 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mesh_" ,fontname="FreeSans"];
+  Node32 [label="fvMesh",height=0.2,width=0.4,color="red",URL="$a22766.html",tooltip="Mesh data needed to do the Finite Volume discretisation. "];
+  Node60 -> Node24 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" thermophysicalModel_" ,fontname="FreeSans"];
+  Node60 [label="fluidThermo",height=0.2,width=0.4,color="red",URL="$a29758.html",tooltip="Fundamental fluid thermodynamic properties. "];
+  Node74 -> Node24 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" y_" ,fontname="FreeSans"];
+  Node74 [label="nearWallDist",height=0.2,width=0.4,color="red",URL="$a22882.html",tooltip="Distance calculation for cells with face on a wall. Searches pointNeighbours to find closest..."];
+  Node81 -> Node24 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" runTime_" ,fontname="FreeSans"];
+  Node81 [label="Time",height=0.2,width=0.4,color="red",URL="$a26350.html",tooltip="Class to control time during OpenFOAM simulations that is also the top-level objectRegistry. "];
+  Node71 -> Node24 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" rho_\nU_\nphi_" ,fontname="FreeSans"];
+  Node71 [label="GeometricField\< Type,\l PatchField, GeoMesh \>",height=0.2,width=0.4,color="red",URL="$a22434.html",tooltip="Generic GeometricField class. "];
+}

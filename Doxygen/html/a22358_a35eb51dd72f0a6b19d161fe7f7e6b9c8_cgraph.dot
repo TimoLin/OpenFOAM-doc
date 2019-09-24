@@ -1,0 +1,28 @@
+digraph "solve"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3538 [label="solve",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3538 -> Node3539 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3539 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node3538 -> Node3541 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3541 [label="Foam::exit",height=0.2,width=0.4,color="red",URL="$a21124.html#a06ca7250d8e89caf05243ec094843642"];
+  Node3538 -> Node3586 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3586 [label="Foam::dictionary::lookup\lOrDefault",height=0.2,width=0.4,color="red",URL="$a26014.html#a69ee064dcc6d649df523e02e5c242922",tooltip="Find and return a T,. "];
+  Node3586 -> Node3539 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3538 -> Node3591 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3591 [label="Foam::messageStream\l::masterStream",height=0.2,width=0.4,color="red",URL="$a26098.html#a0edcebd1d86ac65765e16f155d17b351",tooltip="Convert to OSstream. "];
+  Node3591 -> Node3539 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3538 -> Node3589 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3589 [label="Foam::dictionary::readIf\lPresent",height=0.2,width=0.4,color="red",URL="$a26014.html#ad4bd008e6ee208313f2c3a963ee1170d",tooltip="Find an entry if present, and assign to T. "];
+  Node3589 -> Node3539 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3538 -> Node3595 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3595 [label="solveSegregated",height=0.2,width=0.4,color="red",URL="$a22358.html#a8946f39b00e81fb5741058ddf6e05dbf",tooltip="Solve segregated returning the solution statistics. "];
+  Node3595 -> Node3591 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3595 -> Node3539 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3595 -> Node3604 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3604 [label="Foam::type",height=0.2,width=0.4,color="red",URL="$a21124.html#aec48583af672626378f501eb9fc32cd1",tooltip="Return the file type: DIRECTORY or FILE. "];
+  Node3538 -> Node3604 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,19 @@
+digraph "LaunderGibsonRSTM"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node19 [label="LaunderGibsonRSTM",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node20 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20 [label="RASModel",height=0.2,width=0.4,color="red",URL="$a31074.html",tooltip="Abstract base class for incompressible turbulence models. "];
+  Node96 -> Node20 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" kMin_\nomegaMin_\nepsilonMin_" ,fontname="FreeSans"];
+  Node96 [label="dimensioned\< scalar \>",height=0.2,width=0.4,color="red",URL="$a26366.html"];
+  Node98 -> Node19 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" nut_\nk_\nepsilon_" ,fontname="FreeSans"];
+  Node98 [label="GeometricField\< scalar,\l fvPatchField, volMesh \>",height=0.2,width=0.4,color="red",URL="$a22434.html"];
+  Node100 -> Node19 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" yr_" ,fontname="FreeSans"];
+  Node100 [label="wallDistReflection",height=0.2,width=0.4,color="red",URL="$a22906.html",tooltip="Wall distance and reflection vector calculation. See wallDist.H. "];
+  Node108 -> Node19 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" R_" ,fontname="FreeSans"];
+  Node108 [label="GeometricField\< symmTensor,\l fvPatchField, volMesh \>",height=0.2,width=0.4,color="red",URL="$a22434.html"];
+  Node96 -> Node19 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" couplingFactor_\nCmu_\nClg2_\nkappa_\nClg1_\nCeps_\nsigmaR_\nsigmaEps_\nC2_\nC1Ref_\n..." ,fontname="FreeSans"];
+}

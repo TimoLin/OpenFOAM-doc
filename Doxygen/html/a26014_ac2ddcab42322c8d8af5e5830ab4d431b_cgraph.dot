@@ -1,0 +1,29 @@
+digraph "add"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node26877 [label="add",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node26877 -> Node26878 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node26878 [label="Foam::DLListBase::append",height=0.2,width=0.4,color="black",URL="$a25806.html#aa82f371ea38f48bfd528b4486532a303",tooltip="Add at tail of list. "];
+  Node26877 -> Node26879 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node26879 [label="Foam::entry::dict",height=0.2,width=0.4,color="black",URL="$a26022.html#abd246c36ef3a3776f7d6e517dc9621af",tooltip="Return dictionary if this entry is a dictionary. "];
+  Node26877 -> Node26880 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node26880 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node26877 -> Node26882 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node26882 [label="Foam::entry::isDict",height=0.2,width=0.4,color="red",URL="$a26022.html#a33b200039e283c4ad4ad9a4756ffafd1",tooltip="Return true if this entry is a dictionary. "];
+  Node26882 -> Node26879 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node26877 -> Node26913 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node26913 [label="Foam::keyType::isPattern",height=0.2,width=0.4,color="black",URL="$a28238.html#a04a0151af2fb802822ddc826de05dace",tooltip="Should be treated as a match rather than a literal string. "];
+  Node26877 -> Node26914 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node26914 [label="Foam::entry::keyword",height=0.2,width=0.4,color="black",URL="$a26022.html#a524d765e79e84690b9c13f55191b85c7",tooltip="Return keyword. "];
+  Node26877 -> Node26915 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node26915 [label="Foam::dictionaryName\l::name",height=0.2,width=0.4,color="black",URL="$a26010.html#aba53f1f9c8fadfa65f4099af10df348c",tooltip="Return the dictionary name. "];
+  Node26877 -> Node26916 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node26916 [label="Foam::entry::name",height=0.2,width=0.4,color="black",URL="$a26022.html#a88fc22a3e14d9a63d283ea91346bb938",tooltip="Return the dictionary name. "];
+  Node26877 -> Node26917 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node26917 [label="Foam::UILList\< DLListBase,\l T \>::remove",height=0.2,width=0.4,color="black",URL="$a25790.html#ab57d71e44e9c9642fe901f1b761e827f",tooltip="Remove and return element. "];
+  Node26877 -> Node26918 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node26918 [label="Foam::DLListBase::replace",height=0.2,width=0.4,color="red",URL="$a25806.html#a558d4ce342e507544899dbc09f280bda",tooltip="Replace oldLink with newLink and return element. "];
+}

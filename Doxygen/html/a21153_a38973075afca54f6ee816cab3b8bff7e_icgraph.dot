@@ -1,0 +1,20 @@
+digraph "otherFace"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2020 [label="otherFace",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2020 -> Node2021 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2021 [label="Foam::particle::crossEdge\lConnectedFace",height=0.2,width=0.4,color="red",URL="$a23586.html#ae442e1bec92480b4f50c527b934edddb",tooltip="Cross the from the given face across the given edge of the. "];
+  Node2020 -> Node2027 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2027 [label="edgeToCutDir",height=0.2,width=0.4,color="red",URL="$a21153.html#aaae026ffd1b269c8a220c6bb1bc95fa7",tooltip="Given edge on hex find all &#39;parallel&#39; (i.e. non-connected) "];
+  Node2027 -> Node2029 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2029 [label="getParallelEdges",height=0.2,width=0.4,color="red",URL="$a21153.html#ae148ab8affa9ff06dbc08eb830e20a41",tooltip="Given edge on hex find other &#39;parallel&#39;, non-connected edges. "];
+  Node2020 -> Node2029 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2020 -> Node2036 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2036 [label="otherEdge",height=0.2,width=0.4,color="red",URL="$a21153.html#ae03c08ba46f970c3b70bfdd6fccdf664",tooltip="Return label of other edge (out of candidates edgeLabels) "];
+  Node2036 -> Node2044 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2044 [label="Foam::directionInfo\l::updateCell",height=0.2,width=0.4,color="red",URL="$a21486.html#a590b938e5b9283bf1d9f095803dba398",tooltip="Influence of neighbouring face. "];
+  Node2020 -> Node2044 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

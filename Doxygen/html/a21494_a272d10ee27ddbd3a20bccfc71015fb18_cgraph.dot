@@ -1,0 +1,18 @@
+digraph "coord"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1180 [label="coord",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1180 -> Node1181 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1181 [label="cutPairToEdge",height=0.2,width=0.4,color="red",URL="$a21494.html#ad0994c975f433de197a2062ceb944a63",tooltip="Find mesh edge (or -1) between two cuts. "];
+  Node1180 -> Node1185 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1185 [label="Foam::primitiveMesh\l::edges",height=0.2,width=0.4,color="black",URL="$a27530.html#a21d764179912ddda5c6f95193c289846",tooltip="Return mesh edges. Uses calcEdges. "];
+  Node1180 -> Node1186 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1186 [label="Foam::edge::end",height=0.2,width=0.4,color="red",URL="$a27210.html#a5ac1c619caccdf5bcf8c3d58a409849f",tooltip="Return end vertex label. "];
+  Node1180 -> Node1188 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1188 [label="Foam::primitiveMesh\l::points",height=0.2,width=0.4,color="black",URL="$a27530.html#ad0e408ab3f867b58e419eb1cd8c2dbb6",tooltip="Return mesh points. "];
+  Node1180 -> Node1189 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1189 [label="Foam::edge::start",height=0.2,width=0.4,color="red",URL="$a27210.html#afe56bdd2031bbf8321e35e2330c0b990",tooltip="Return start vertex label. "];
+}

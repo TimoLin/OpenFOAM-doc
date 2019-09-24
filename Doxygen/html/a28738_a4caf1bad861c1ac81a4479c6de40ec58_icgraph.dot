@@ -1,0 +1,16 @@
+digraph "hitPatch"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node131 [label="hitPatch",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node131 -> Node132 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node132 [label="data",height=0.2,width=0.4,color="black",URL="$a28738.html#ad7f8023f823553543ca50bd5d11b877b",tooltip="transported label "];
+  Node131 -> Node133 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node133 [label="hitWallPatch",height=0.2,width=0.4,color="red",URL="$a28738.html#a83ddd4996e7a12d68168442c5f04ca72",tooltip="Overridable function to handle the particle hitting a wallPatch. "];
+  Node133 -> Node132 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node131 -> Node139 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node139 [label="move",height=0.2,width=0.4,color="red",URL="$a28738.html#aa3b793966d64802fdf262dd4d14d21ed",tooltip="Track all particles to their end point. "];
+  Node139 -> Node132 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,13 @@
+digraph "correction"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node385 [label="correction",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node385 -> Node386 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node386 [label="blendingFactor",height=0.2,width=0.4,color="red",URL="$a23154.html#a04e8a7d5e7e25e7b04e427a68885ab2b",tooltip="Return the face-based blending factor. "];
+  Node385 -> Node448 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node448 [label="corrected",height=0.2,width=0.4,color="black",URL="$a23154.html#a09ea734bf81e6dc77b1347909d536fc1",tooltip="Return true if this scheme uses an explicit correction. "];
+  Node448 -> Node385 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

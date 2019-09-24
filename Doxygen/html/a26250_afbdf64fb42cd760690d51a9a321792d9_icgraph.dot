@@ -1,0 +1,45 @@
+digraph "gatherList"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4269 [label="gatherList",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4269 -> Node4270 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4270 [label="Foam::surfaceZonesInfo\l::addCellZonesToMesh",height=0.2,width=0.4,color="red",URL="$a24690.html#aa53d4178cbd81300b311053db36e519d"];
+  Node4269 -> Node4300 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4300 [label="Foam::surfaceZonesInfo\l::addFaceZonesToMesh",height=0.2,width=0.4,color="red",URL="$a24690.html#a6b6401890b961882e87246caf901f8a4"];
+  Node4300 -> Node4270 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4269 -> Node4301 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4301 [label="Foam::meshRefinement\l::checkCoupledFaceZones",height=0.2,width=0.4,color="red",URL="$a24662.html#a9ba55ad37b0d2cb2314d246df7da8040",tooltip="Helper function: check that face zones are synced. "];
+  Node4269 -> Node4302 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4302 [label="Foam::polyBoundaryMesh\l::checkParallelSync",height=0.2,width=0.4,color="red",URL="$a27402.html#ae0d853449ed62624abe28bda852337c6",tooltip="Check whether all procs have all patches and in same order. Return. "];
+  Node4302 -> Node4303 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4303 [label="Foam::fvMeshDistribute\l::distribute",height=0.2,width=0.4,color="red",URL="$a21454.html#acb11a389cf765470aea69d37a526cf1f",tooltip="Send cells to neighbours according to distribution. "];
+  Node4269 -> Node4398 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4398 [label="Foam::mappedPatchBase\l::collectSamples",height=0.2,width=0.4,color="red",URL="$a25094.html#ab1618c1176c64f4ba0d6eb97f7f87c7e",tooltip="Collect single list of samples and originating processor+face. "];
+  Node4269 -> Node4399 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4399 [label="Foam::fieldValue::combine\lFields",height=0.2,width=0.4,color="red",URL="$a28730.html#ae9e87db5645f020a41378fc7fcd9b8bd",tooltip="Combine fields from all processor domains into single field. "];
+  Node4269 -> Node4303 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4269 -> Node4408 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4408 [label="Foam::distributedTriSurface\lMesh::distribute",height=0.2,width=0.4,color="red",URL="$a28642.html#a30b981a389a43e4853d4dec45e4e5edb",tooltip="Set bounds of surface. Bounds currently set as list of. "];
+  Node4269 -> Node4418 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4418 [label="Foam::distributedTriSurface\lMesh::distributedTriSurfaceMesh",height=0.2,width=0.4,color="black",URL="$a28642.html#aca5024ec1e8a72b51120c1848a736d14",tooltip="Construct from triSurface. "];
+  Node4269 -> Node4419 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4419 [label="gatherList",height=0.2,width=0.4,color="black",URL="$a26250.html#af27b07dfe4135fca416456ae1b323211",tooltip="Like above but switches between linear/tree communication. "];
+  Node4269 -> Node4420 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4420 [label="Foam::globalIndex::\lglobalIndex",height=0.2,width=0.4,color="black",URL="$a27330.html#a39ebbeaca6850dfbcf3f8c2d7305feb9",tooltip="Construct from local max size. Does communication with default. "];
+  Node4269 -> Node4321 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4321 [label="Foam::NamedEnum\< direction\lType, 3 \>::names",height=0.2,width=0.4,color="black",URL="$a25998.html#a7350da3a0edd92cd11e6c479c9967dc8"];
+  Node4269 -> Node4421 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4421 [label="Foam::InflationInjection\l::parcelsToInject",height=0.2,width=0.4,color="red",URL="$a24070.html#a4c4730db6620caeb697dfb15e7ed265a",tooltip="Number of parcels to introduce relative to SOI. "];
+  Node4269 -> Node4424 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4424 [label="Pstream",height=0.2,width=0.4,color="black",URL="$a26250.html#a2b31c5d4673e1c7d7366b8b6bf47830d",tooltip="Construct given optional buffer size. "];
+  Node4269 -> Node4425 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4425 [label="Foam::fvMeshSubset\l::setLargeCellSubset",height=0.2,width=0.4,color="red",URL="$a22790.html#aa5aecd31ebb23c10811eb60949808165",tooltip="Set the subset from all cells with region == currentRegion. "];
+  Node4425 -> Node4303 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4269 -> Node4433 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4433 [label="Foam::ParSortableList\l::sort",height=0.2,width=0.4,color="red",URL="$a25970.html#a47fdc9eea42b6975cdc835bb2e08810e",tooltip="(stable) sort the list (if changed after construction time) "];
+  Node4269 -> Node4435 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4435 [label="Foam::externalCoupledTemperature\lMixedFvPatchScalarField::transferData",height=0.2,width=0.4,color="red",URL="$a30778.html#aaead10f96672ca2a1e5c291111cebf1e",tooltip="Transfer data for external source. "];
+}

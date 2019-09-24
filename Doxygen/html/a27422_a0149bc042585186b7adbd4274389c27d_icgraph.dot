@@ -1,0 +1,37 @@
+digraph "face"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node396 [label="face",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node396 -> Node397 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node397 [label="Foam::AveragingMethods\l::Dual::Dual",height=0.2,width=0.4,color="black",URL="$a24210.html#a4e90e259d050ad479f6e3c6763a1cdf6",tooltip="Constructors. "];
+  Node396 -> Node398 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node398 [label="Foam::polyMeshTetDecomposition\l::faceTetIndices",height=0.2,width=0.4,color="red",URL="$a27418.html#ac928a304995a9b54928d97ec634a6270",tooltip="Return the tet decomposition of the given face, with. "];
+  Node396 -> Node578 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node578 [label="Foam::polyMesh::findTetFacePt",height=0.2,width=0.4,color="red",URL="$a27410.html#a8b9a5f3ae0a609574e12ff885a9d975b",tooltip="Find the tetFaceI and tetPtI for the given position in. "];
+  Node396 -> Node595 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node595 [label="Foam::cellPointWeight\l::findTetrahedron",height=0.2,width=0.4,color="black",URL="$a22922.html#aecec3ccb37ced505c339363e0803800a"];
+  Node396 -> Node596 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node596 [label="Foam::interpolationCellPoint\lWallModified::interpolate",height=0.2,width=0.4,color="black",URL="$a22938.html#a2aa471347e771a266bcb702f1d5b7469",tooltip="Interpolate field to the given point in the tetrahedron. "];
+  Node396 -> Node597 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node597 [label="Foam::interpolationCellPoint\l\< Foam::Vector \>::interpolate",height=0.2,width=0.4,color="black",URL="$a22926.html#a2aa471347e771a266bcb702f1d5b7469",tooltip="Interpolate field to the given point in the tetrahedron. "];
+  Node396 -> Node598 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node598 [label="Foam::AveragingMethods\l::Moment::Moment",height=0.2,width=0.4,color="black",URL="$a24214.html#a9aaf777932fca7644bb6f00f3a2b8749",tooltip="Constructors. "];
+  Node396 -> Node599 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node599 [label="operator==",height=0.2,width=0.4,color="black",URL="$a27422.html#a2637c3f0606783babe7b40097a391ed0"];
+  Node396 -> Node600 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node600 [label="Foam::wallBoundedParticle\l::trackToEdge",height=0.2,width=0.4,color="black",URL="$a28794.html#aff365968e28acf42244334b7c926dee6",tooltip="Track particle to a given position and returns 1.0 if the. "];
+  Node396 -> Node462 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node462 [label="Foam::particle::trackToFace",height=0.2,width=0.4,color="black",URL="$a23586.html#a843767f232f5b61884dcd757558591e0"];
+  Node396 -> Node590 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node590 [label="Foam::polyMeshTetDecomposition\l::triangleTetIndices",height=0.2,width=0.4,color="red",URL="$a27418.html#a58706d0e14fb9b9a20f1d19ef6671605",tooltip="Return the tet decomposition of the given triangle of the given face. "];
+  Node590 -> Node398 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node396 -> Node601 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node601 [label="Foam::AveragingMethod\l\< Foam::Vector \>::write",height=0.2,width=0.4,color="black",URL="$a23898.html#ad48b7b943e88478c15879659cce7aebc",tooltip="Write using setting from DB. "];
+  Node396 -> Node602 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node602 [label="Foam::AveragingMethods\l::Dual::~Dual",height=0.2,width=0.4,color="red",URL="$a24210.html#a5c08eca007ade69ea650619db86d50b6",tooltip="Destructor. "];
+  Node396 -> Node604 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node604 [label="~tetIndices",height=0.2,width=0.4,color="black",URL="$a27422.html#a52b1a39b24c081f0ef6f3fb7039fe5f5",tooltip="Destructor. "];
+}

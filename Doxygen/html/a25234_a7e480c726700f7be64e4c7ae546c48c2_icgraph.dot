@@ -1,0 +1,14 @@
+digraph "getField"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node432 [label="getField",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node432 -> Node433 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node433 [label="Foam::refinementSurfaces\l::findHigherIntersection",height=0.2,width=0.4,color="red",URL="$a24686.html#ab922b885ce753bb5ea4242b5d15f8cee",tooltip="Find intersection of edge. Return -1 or first surface. "];
+  Node432 -> Node437 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node437 [label="Foam::searchableSurfaceWith\lGaps::getField",height=0.2,width=0.4,color="red",URL="$a25254.html#a7d2ab05fdef7edf388982908057155b8",tooltip="WIP. From a set of hits (points and. "];
+  Node432 -> Node443 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node443 [label="setField",height=0.2,width=0.4,color="black",URL="$a25234.html#a51d4c03021fdfbbf945ae029ad7a6aed",tooltip="WIP. Store element-wise field. "];
+}

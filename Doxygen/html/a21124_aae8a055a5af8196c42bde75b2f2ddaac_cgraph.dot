@@ -1,0 +1,25 @@
+digraph "operator&gt;&gt;"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node113004 [label="operator\>\>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node113004 -> Node113005 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node113005 [label="Foam::IOstream::check",height=0.2,width=0.4,color="red",URL="$a26226.html#a367eb3425fc4e8270e2aa961df8ac8a5",tooltip="Check IOstream status for given operation. "];
+  Node113005 -> Node113008 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node113008 [label="exit",height=0.2,width=0.4,color="red",URL="$a21124.html#a06ca7250d8e89caf05243ec094843642"];
+  Node113004 -> Node113008 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node113004 -> Node113054 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node113054 [label="Foam::token::good",height=0.2,width=0.4,color="black",URL="$a26306.html#abdcc7f96f487faadc7769afcf58fe992"];
+  Node113004 -> Node113055 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node113055 [label="Foam::token::isLabel",height=0.2,width=0.4,color="black",URL="$a26306.html#a0225931fd390c83deff470a5cce60767"];
+  Node113004 -> Node113056 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node113056 [label="Foam::token::isWord",height=0.2,width=0.4,color="black",URL="$a26306.html#ace6d5ecd2736d19990a7c12e0fe5a745"];
+  Node113004 -> Node113057 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node113057 [label="Foam::token::labelToken",height=0.2,width=0.4,color="black",URL="$a26306.html#a02f47448ac9cbf52cf6418b8e71fa555"];
+  Node113004 -> Node113058 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node113058 [label="Foam::IOstream::setBad",height=0.2,width=0.4,color="red",URL="$a26226.html#a638b33dd25b3cd8ea7e846f04fd6a6a3",tooltip="Set stream to be bad. "];
+  Node113004 -> Node113061 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node113061 [label="Foam::token::wordToken",height=0.2,width=0.4,color="black",URL="$a26306.html#a65967674840943899f4163d527bd83bd"];
+}

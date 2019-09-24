@@ -1,0 +1,18 @@
+digraph "storedIOFaces"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node31 [label="storedIOFaces",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node31 -> Node32 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node32 [label="Foam::surfMesh::faces",height=0.2,width=0.4,color="red",URL="$a29702.html#a431c0a24765f0bb6d32f6a03ce0e9b57",tooltip="Return faces. "];
+  Node31 -> Node49 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node49 [label="Foam::surfMesh::facesInstance",height=0.2,width=0.4,color="red",URL="$a29702.html#a10996bb0856e3630cd8cfb5a803e00fa",tooltip="Return the current instance directory for faces. "];
+  Node31 -> Node51 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node51 [label="Foam::surfMesh::setInstance",height=0.2,width=0.4,color="red",URL="$a29702.html#add9813891a074bebd77384af1717b0bf",tooltip="Set the instance for mesh files. "];
+  Node31 -> Node52 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node52 [label="Foam::surfMesh::storedFaces",height=0.2,width=0.4,color="red",URL="$a29702.html#ac9f24178e4c011c8d21bbfbf73a8b61b",tooltip="Non-const access to the faces. "];
+  Node31 -> Node39 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node39 [label="Foam::surfMesh::transfer",height=0.2,width=0.4,color="red",URL="$a29702.html#a1cf9d5f3c7951e7e25eaa3408383d261",tooltip="Transfer the contents of the argument and annul the argument. "];
+}

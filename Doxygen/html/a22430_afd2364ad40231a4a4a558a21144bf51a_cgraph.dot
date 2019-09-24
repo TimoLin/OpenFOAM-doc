@@ -1,0 +1,15 @@
+digraph "SlicedGeometricField"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node9 [label="SlicedGeometricField",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="correctBoundaryConditions",height=0.2,width=0.4,color="black",URL="$a38027.html#a00a7f09fddd305c7a7977494b2a6a952"];
+  Node9 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="Foam::GeometricField\l::internalField",height=0.2,width=0.4,color="black",URL="$a22434.html#a9536140d36d69bbac40496f6b817aa0a",tooltip="Return internal field. "];
+  Node9 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12 [label="SlicedGeometricField",height=0.2,width=0.4,color="black",URL="$a22430.html#a96850e9157e95987ffb4ac25c30b84c7",tooltip="Construct from components and field to slice. "];
+  Node12 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

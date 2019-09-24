@@ -1,0 +1,20 @@
+digraph "src/TurbulenceModels/turbulenceModels/RAS/derivedFvPatchFields/wallFunctions/fWallFunctions" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="FreeSans"];
+  edge [ labelfontsize="10", labelfontname="FreeSans"];
+  subgraph clusterdir_105e12b7eee7a5adb746985125ad25e1 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="wallFunctions" fontname="FreeSans", fontsize="10", URL="dir_105e12b7eee7a5adb746985125ad25e1.html"]
+  subgraph clusterdir_a2d20c5a04082a3d60c4e928a69f98db {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_a2d20c5a04082a3d60c4e928a69f98db.html"];
+    dir_a2d20c5a04082a3d60c4e928a69f98db [shape=plaintext label="fWallFunctions"];
+    dir_2baaefd3fc2ba5a44462b769a38adacd [shape=box label="fWallFunction" color="black" fillcolor="white" style="filled" URL="dir_2baaefd3fc2ba5a44462b769a38adacd.html"];
+  }
+  }
+  dir_9bd15774b555cf7259a6fa18f99fe99b [shape=box label="finiteVolume" color="red" URL="dir_9bd15774b555cf7259a6fa18f99fe99b.html"];
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8 [shape=box label="OpenFOAM" color="red" URL="dir_c5473ff19b20e6ec4dfe5c310b3778a8.html"];
+  dir_9bd15774b555cf7259a6fa18f99fe99b->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="712", labeldistance=1.5 headhref="dir_000749_001732.html"];
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="2", labeldistance=1.5 headhref="dir_001732_000749.html"];
+  dir_2baaefd3fc2ba5a44462b769a38adacd->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="4", labeldistance=1.5 headhref="dir_002896_000749.html"];
+  dir_2baaefd3fc2ba5a44462b769a38adacd->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="1", labeldistance=1.5 headhref="dir_002896_001732.html"];
+}

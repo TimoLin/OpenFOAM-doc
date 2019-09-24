@@ -1,0 +1,24 @@
+digraph "chi"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1088 [label="chi",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1088 -> Node1089 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1089 [label="Foam::liquidProperties::h",height=0.2,width=0.4,color="black",URL="$a29954.html#a3569c4af4ca72f884acbec9ca4128db0",tooltip="Liquid enthalpy [J/kg] - reference to 298.15 K. "];
+  Node1088 -> Node1090 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1090 [label="Foam::liquidProperties::hl",height=0.2,width=0.4,color="black",URL="$a29954.html#ad6dc578c5da8eaae2169eabdb869b649",tooltip="Heat of vapourisation [J/kg]. "];
+  Node1088 -> Node1091 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1091 [label="Foam::CompositionModel\l::liquids",height=0.2,width=0.4,color="black",URL="$a23806.html#a03638032f60c2f702e8e3a9fd53f9952",tooltip="Return the global (additional) liquids. "];
+  Node1088 -> Node1092 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1092 [label="Foam::max",height=0.2,width=0.4,color="black",URL="$a21124.html#ac993e906cf2774ae77e666bc24e81733"];
+  Node1088 -> Node1093 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1093 [label="Foam::min",height=0.2,width=0.4,color="black",URL="$a21124.html#a253e112ad2d56d96230ff39ea7f442dc"];
+  Node1088 -> Node1094 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1094 [label="Foam::liquidProperties\l::pvInvert",height=0.2,width=0.4,color="red",URL="$a29954.html#ae76e0a0a7fb8ebfb9df3c5c821ed337a",tooltip="Invert the vapour pressure relationship to retrieve the. "];
+  Node1088 -> Node1103 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1103 [label="Foam::liquidProperties::rho",height=0.2,width=0.4,color="black",URL="$a29954.html#a79793fef0683d35cc934a4d38fb6dbee",tooltip="Liquid rho [kg/m^3]. "];
+  Node1088 -> Node1104 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1104 [label="solveTABEq",height=0.2,width=0.4,color="red",URL="$a24534.html#a7935951deed5d629b5c37f2fd23ef3ca",tooltip="Solve the TAB equation. "];
+}

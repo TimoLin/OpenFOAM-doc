@@ -1,0 +1,18 @@
+digraph "correction"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node14 [label="correction",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node14 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15 [label="Foam::surfaceInterpolation\lScheme::mesh",height=0.2,width=0.4,color="black",URL="$a23278.html#a470f06cfb9b6ee887cd85d63de275607",tooltip="Return mesh reference. "];
+  Node14 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16 [label="Foam::UpwindFitData\l::neicoeffs",height=0.2,width=0.4,color="black",URL="$a23262.html#ac6d41ba9c3066aaf601c413a1315ff2c",tooltip="Return reference to neighbour fit coefficients. "];
+  Node14 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17 [label="Foam::MeshObject\< fvMesh,\l MoveableMeshObject, UpwindFit\lData\< Polynomial \> \>::New",height=0.2,width=0.4,color="black",URL="$a27138.html#ab61cc2091ec1fd7e08e8948e84235a05"];
+  Node14 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 [label="Foam::UpwindFitData\l::owncoeffs",height=0.2,width=0.4,color="black",URL="$a23262.html#acbcd68e075260f0831014a4eb49195eb",tooltip="Return reference to owner fit coefficients. "];
+  Node14 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19 [label="Foam::extendedUpwindCell\lToFaceStencil::weightedSum",height=0.2,width=0.4,color="black",URL="$a22678.html#a03ec742895e58c41cb96dbcb843c9528",tooltip="Sum vol field contributions to create face values. "];
+}

@@ -1,0 +1,26 @@
+digraph "collectData"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node125 [label="collectData",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node125 -> Node126 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node126 [label="Foam::GeometricField\l::boundaryField",height=0.2,width=0.4,color="black",URL="$a22434.html#a3c6c1a789b48ea0c5e8bff64f9c14f2d",tooltip="Return reference to GeometricBoundaryField. "];
+  Node125 -> Node127 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node127 [label="Foam::mapDistribute\l::constructSize",height=0.2,width=0.4,color="black",URL="$a27362.html#aafa5c5eaac08986c309d43bb80c2ab1f",tooltip="Constructed data size. "];
+  Node125 -> Node128 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node128 [label="Foam::mapDistribute\l::distribute",height=0.2,width=0.4,color="red",URL="$a27362.html#a33e0f8481eb68bf011731ec98e8f7c65",tooltip="Distribute data. Note:schedule only used for Pstream::scheduled. "];
+  Node128 -> Node129 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node129 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node128 -> Node130 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node130 [label="Foam::List::setSize",height=0.2,width=0.4,color="black",URL="$a25694.html#aedb985ffeaf1bdbfeccc2a8730405703",tooltip="Reset size of List. "];
+  Node125 -> Node179 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node179 [label="Foam::DimensionedField\l::mesh",height=0.2,width=0.4,color="black",URL="$a26390.html#a8f1110830348a1448a14ab5e3cf47e3b",tooltip="Return mesh. "];
+  Node125 -> Node180 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node180 [label="Foam::fvPatchField\l::patch",height=0.2,width=0.4,color="black",URL="$a22354.html#aca0923a4611f6166ffd8fa14d81864a4",tooltip="Return patch. "];
+  Node125 -> Node130 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node125 -> Node129 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node125 -> Node181 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node181 [label="weightedSum",height=0.2,width=0.4,color="black",URL="$a22670.html#a0c39df46539f98f9c550c101d159da5f",tooltip="Sum vol field contributions to create face values. "];
+}

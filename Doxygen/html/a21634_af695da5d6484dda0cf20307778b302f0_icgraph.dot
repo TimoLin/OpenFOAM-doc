@@ -1,0 +1,12 @@
+digraph "getOutsideFace"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2150 [label="getOutsideFace",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2150 -> Node2151 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2151 [label="getMergeSets",height=0.2,width=0.4,color="black",URL="$a21634.html#aacdb22dd46f93ab1163b67cdd60d5492",tooltip="Extract lists of all (non-coupled) boundary faces that can. "];
+  Node2150 -> Node2152 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2152 [label="savedPointLabels",height=0.2,width=0.4,color="red",URL="$a21634.html#a19bca402414892496a540bdb28ab348e",tooltip="If undoable: set of original point labels of stored points. "];
+}

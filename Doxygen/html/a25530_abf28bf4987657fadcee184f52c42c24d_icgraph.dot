@@ -1,0 +1,18 @@
+digraph "surface"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node108 [label="surface",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node108 -> Node109 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node109 [label="Foam::edgeIntersections\l::edgeIntersections",height=0.2,width=0.4,color="black",URL="$a25498.html#afa99c1043e2be47721e4e7012472c2bb",tooltip="Construct from surface and tolerance. "];
+  Node108 -> Node110 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node110 [label="Foam::edgeIntersections\l::removeDegenerates",height=0.2,width=0.4,color="red",URL="$a25498.html#ad0d81f63bedf7adf479d3512ac49ae21",tooltip="Resolve ties. Shuffles points so all edge - face intersections. "];
+  Node108 -> Node114 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node114 [label="Foam::surfaceIntersection\l::surfaceIntersection",height=0.2,width=0.4,color="black",URL="$a25502.html#a799b50167148bd08cc2271a5b90891ff",tooltip="Construct from two surfaces. Does all its own cutting. "];
+  Node108 -> Node115 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node115 [label="tree",height=0.2,width=0.4,color="red",URL="$a25530.html#a6d01bb33aa711bf96f61eba9aa236e80",tooltip="Demand driven construction of the octree. "];
+  Node108 -> Node119 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node119 [label="Foam::triSurfaceRegionSearch\l::treeByRegion",height=0.2,width=0.4,color="red",URL="$a25526.html#ac3b5768cab9bb1f9664f225d85b1e7d9",tooltip="Demand driven construction of octree for each region. "];
+}

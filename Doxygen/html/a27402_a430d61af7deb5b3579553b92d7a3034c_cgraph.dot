@@ -1,0 +1,40 @@
+digraph "neighbourEdges"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2431 [label="neighbourEdges",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2431 -> Node2432 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2432 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node2431 -> Node2475 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2475 [label="Foam::PrimitivePatch\l::edges",height=0.2,width=0.4,color="black",URL="$a27538.html#a21d764179912ddda5c6f95193c289846",tooltip="Return list of edges, address into LOCAL point list. "];
+  Node2431 -> Node2476 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2476 [label="Foam::HashTableCore::end",height=0.2,width=0.4,color="red",URL="$a25706.html#a540580a296c0ff351686ceb4f27b6fe6",tooltip="iteratorEnd set to beyond the end of any HashTable "];
+  Node2431 -> Node2440 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2440 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node2431 -> Node2484 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2484 [label="Foam::HashTable::erase",height=0.2,width=0.4,color="black",URL="$a25702.html#a12d8ea138d4886b42bc135cd082652c7",tooltip="Erase a hashedEntry specified by given iterator. "];
+  Node2431 -> Node2485 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2485 [label="Foam::HashTable::find",height=0.2,width=0.4,color="black",URL="$a25702.html#a76b2c74ebd9f33fa9f76261b027ffc11",tooltip="Find and return an iterator set at the hashedEntry. "];
+  Node2431 -> Node2486 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2486 [label="Foam::HashTable::insert",height=0.2,width=0.4,color="black",URL="$a25702.html#a5eee1e0e199ad59b9cb3916cd42156e0",tooltip="Insert a new hashedEntry. "];
+  Node2431 -> Node2487 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2487 [label="Foam::PrimitivePatch\l::localPoints",height=0.2,width=0.4,color="black",URL="$a27538.html#aca6c65ee2831bb6795149af7635640a2",tooltip="Return pointField of points in patch. "];
+  Node2431 -> Node2488 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2488 [label="Foam::PrimitivePatch\l::meshPoints",height=0.2,width=0.4,color="black",URL="$a27538.html#a52e3a457780fe74b31d39dc046bce1d8",tooltip="Return labelList of mesh points in patch. They are constructed. "];
+  Node2431 -> Node2489 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2489 [label="Foam::patchIdentifier\l::name",height=0.2,width=0.4,color="black",URL="$a27122.html#acc80e00a8ac919288fb55bd14cc88bf6",tooltip="Return name. "];
+  Node2431 -> Node2490 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2490 [label="Foam::PrimitivePatch\l::nEdges",height=0.2,width=0.4,color="black",URL="$a27538.html#a086513bcff1a3f1684e1a3879dd90deb",tooltip="Return number of edges in patch. "];
+  Node2431 -> Node2491 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2491 [label="Foam::PrimitivePatch\l::nInternalEdges",height=0.2,width=0.4,color="black",URL="$a27538.html#a2527d3d02270c4fdcf357d95079d5819",tooltip="Number of internal edges. "];
+  Node2431 -> Node2456 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2456 [label="Foam::UPstream::parRun",height=0.2,width=0.4,color="black",URL="$a26270.html#adbb27f04b5705440fb8b09f278059011",tooltip="Is this a parallel run? "];
+  Node2431 -> Node2492 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2492 [label="Foam::List::setSize",height=0.2,width=0.4,color="black",URL="$a25694.html#aedb985ffeaf1bdbfeccc2a8730405703",tooltip="Reset size of List. "];
+  Node2431 -> Node2493 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2493 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node2431 -> Node2494 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2494 [label="Foam::HashTable::size",height=0.2,width=0.4,color="black",URL="$a25702.html#a47b3bf30da1eb3ab8076b5fbe00e0494",tooltip="Return number of elements in table. "];
+}

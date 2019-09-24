@@ -1,0 +1,20 @@
+digraph "mesh"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node146 [label="mesh",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node146 -> Node147 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node147 [label="cellToFace",height=0.2,width=0.4,color="red",URL="$a24814.html#ae91987ce035d610c71c1936d4b080174",tooltip="Propagate from cell to face. Returns total number of faces. "];
+  Node146 -> Node206 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node206 [label="faceToCell",height=0.2,width=0.4,color="red",URL="$a24814.html#ac1cb5c8a27f895370ed8a7a613b6e3a6",tooltip="Propagate from face to cell. Returns total number of cells. "];
+  Node146 -> Node207 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node207 [label="getUnsetCells",height=0.2,width=0.4,color="black",URL="$a24814.html#a3fbb4f9faba1996b13ade4ebaee69ef0",tooltip="Get number of unvisited cells, i.e. cells that were not (yet) "];
+  Node146 -> Node208 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node208 [label="getUnsetFaces",height=0.2,width=0.4,color="black",URL="$a24814.html#a7954b9f70b2629040f42b91e27358eb2",tooltip="Get number of unvisited faces. "];
+  Node146 -> Node209 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node209 [label="iterate",height=0.2,width=0.4,color="red",URL="$a24814.html#a8f898fd0e592fd902741616e1f087497",tooltip="Iterate until no changes or maxIter reached. Returns actual. "];
+  Node146 -> Node210 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node210 [label="setFaceInfo",height=0.2,width=0.4,color="red",URL="$a24814.html#a4dfc64d9c6a80650006ac5ab728f95b0",tooltip="Set initial changed faces. "];
+}

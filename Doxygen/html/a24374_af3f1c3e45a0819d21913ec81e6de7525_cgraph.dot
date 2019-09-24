@@ -1,0 +1,18 @@
+digraph "transferParcel"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1929 [label="transferParcel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1929 -> Node1930 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1930 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node1929 -> Node1973 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1973 [label="cacheFilmFields",height=0.2,width=0.4,color="red",URL="$a24374.html#a7b1f5e291b5fcc2c999e62871d73d418",tooltip="Cache the film fields in preparation for injection. "];
+  Node1929 -> Node2398 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2398 [label="Foam::patchIdentifier\l::index",height=0.2,width=0.4,color="black",URL="$a27122.html#a4a438520bb14406481732edc13c119c7",tooltip="Return the index of this patch in the boundaryMesh. "];
+  Node1929 -> Node2399 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2399 [label="Foam::regionModels\l::regionModel::isRegionPatch",height=0.2,width=0.4,color="black",URL="$a28998.html#a3f24646d18f3085ebbe9dd6b06349802",tooltip="Return true if patchI on the primary region is a coupled. "];
+  Node1929 -> Node2400 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2400 [label="Foam::polyPatch::whichFace",height=0.2,width=0.4,color="red",URL="$a27478.html#a098d4395e909d71f164b847180b88442",tooltip="Return label of face in patch from global face label. "];
+}

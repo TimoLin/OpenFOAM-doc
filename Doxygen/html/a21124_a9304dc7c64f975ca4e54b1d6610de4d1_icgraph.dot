@@ -1,0 +1,14 @@
+digraph "xferCopy"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node111107 [label="xferCopy",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node111107 -> Node111108 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node111108 [label="Foam::MeshedSurface\l\< Foam::face \>::MeshedSurface",height=0.2,width=0.4,color="black",URL="$a29566.html#a2143a8295cbe939da33b14560f276356",tooltip="Construct from a surfMesh. "];
+  Node111107 -> Node111109 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node111109 [label="Foam::Xfer::operator-\>",height=0.2,width=0.4,color="black",URL="$a27098.html#a84e9959608997de8fe4355def47ff45a",tooltip="Pointer to the underlying datatype. "];
+  Node111107 -> Node111110 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node111110 [label="Foam::UnsortedMeshedSurface\l::subsetMesh",height=0.2,width=0.4,color="red",URL="$a29574.html#acba617d04ddec34575e3aa56364a70fa",tooltip="Return new surface. "];
+}

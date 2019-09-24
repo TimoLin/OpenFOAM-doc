@@ -1,0 +1,20 @@
+digraph "findNearest"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node107 [label="findNearest",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node107 -> Node108 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node108 [label="Foam::UList::empty",height=0.2,width=0.4,color="black",URL="$a25698.html#a644718bb2fb240de962dc3c9a1fdf0dc",tooltip="Return true if the UList is empty (ie, size() is zero). "];
+  Node107 -> Node109 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node109 [label="Foam::magSqr",height=0.2,width=0.4,color="black",URL="$a21124.html#ae6fff2c6981e6d9618aa5038e69def6e"];
+  Node107 -> Node110 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node110 [label="Foam::List::setSize",height=0.2,width=0.4,color="black",URL="$a25694.html#aedb985ffeaf1bdbfeccc2a8730405703",tooltip="Reset size of List. "];
+  Node107 -> Node111 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node111 [label="signedDistance",height=0.2,width=0.4,color="red",URL="$a25250.html#a5709fbaae43069788ec768717221e701",tooltip="Find signed distance to nearest surface. Outside is positive. "];
+  Node111 -> Node110 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node111 -> Node112 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node112 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node107 -> Node112 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

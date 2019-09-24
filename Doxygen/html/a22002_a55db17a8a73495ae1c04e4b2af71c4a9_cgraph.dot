@@ -1,0 +1,22 @@
+digraph "snGrad"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node22 [label="snGrad",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node22 -> Node23 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23 [label="evaluate",height=0.2,width=0.4,color="red",URL="$a22002.html#a3b59c070ab0408e3bbb21927540159f4",tooltip="Evaluate the patch field. "];
+  Node23 -> Node26 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node26 [label="valueInternalCoeffs",height=0.2,width=0.4,color="black",URL="$a22002.html#a2b42863403587b404576ca43b676433e",tooltip="Return the matrix diagonal coefficients corresponding to the. "];
+  Node26 -> Node27 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node27 [label="valueBoundaryCoeffs",height=0.2,width=0.4,color="black",URL="$a22002.html#a91b17c5b11d5369441c2de805b957c68",tooltip="Return the matrix source coefficients corresponding to the. "];
+  Node22 -> Node28 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node28 [label="gradientBoundaryCoeffs",height=0.2,width=0.4,color="black",URL="$a22002.html#aa96c9200cdd52d1806c6de044661f0f0",tooltip="Return the matrix source coefficients corresponding to the. "];
+  Node22 -> Node29 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node29 [label="gradientInternalCoeffs",height=0.2,width=0.4,color="black",URL="$a22002.html#acfc2155b5e8a256253770a1f0b2a840b",tooltip="Return the matrix diagonal coefficients corresponding to the. "];
+  Node22 -> Node30 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node30 [label="Foam::List\< Type \>\l::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a47b3bf30da1eb3ab8076b5fbe00e0494",tooltip="Return the number of elements in the UList. "];
+  Node22 -> Node27 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22 -> Node26 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

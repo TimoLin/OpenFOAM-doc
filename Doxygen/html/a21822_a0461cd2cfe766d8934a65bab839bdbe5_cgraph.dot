@@ -1,0 +1,18 @@
+digraph "~engineTime"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node8 [label="~engineTime",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="degToTime",height=0.2,width=0.4,color="red",URL="$a21822.html#a698600627ec61b18344855c3c03f88fb",tooltip="Convert degrees to seconds (for given engine speed in RPM) "];
+  Node8 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="pistonPosition",height=0.2,width=0.4,color="black",URL="$a21822.html#abc686054d0a3107f8a962d7891c39a2a",tooltip="Return current piston position. "];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12 [label="theta",height=0.2,width=0.4,color="red",URL="$a21822.html#a28b051b96687a7eee0cd444bc2def93a",tooltip="Return current crank-angle. "];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13 [label="timeToDeg",height=0.2,width=0.4,color="red",URL="$a21822.html#a77523dea53effefeba2c6b2b99dc7371",tooltip="Convert seconds to degrees (for given engine speed in RPM) "];
+  Node8 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

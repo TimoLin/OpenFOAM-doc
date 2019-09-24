@@ -1,0 +1,38 @@
+digraph "processSameTypeValues"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node333 [label="processSameTypeValues",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node333 -> Node334 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node334 [label="Foam::cmptMag",height=0.2,width=0.4,color="black",URL="$a21124.html#acf2383c8a0a1d5fef3eb5255b950229d"];
+  Node333 -> Node335 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node335 [label="Foam::component",height=0.2,width=0.4,color="red",URL="$a21124.html#a38788135ad21a6daaf3af2a761b33508"];
+  Node333 -> Node337 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node337 [label="Foam::Field::component",height=0.2,width=0.4,color="black",URL="$a26466.html#aef03a3d86f5e52bd0f5fd130cb44a20e",tooltip="Return a component field of the field. "];
+  Node333 -> Node338 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node338 [label="d",height=0.2,width=0.4,color="black",URL="$a38951.html#aa182a9055736468dd160f12649a01fd1"];
+  Node333 -> Node339 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node339 [label="Foam::exit",height=0.2,width=0.4,color="red",URL="$a21124.html#a06ca7250d8e89caf05243ec094843642"];
+  Node333 -> Node386 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node386 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node333 -> Node387 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node387 [label="Foam::max",height=0.2,width=0.4,color="black",URL="$a21124.html#ac993e906cf2774ae77e666bc24e81733"];
+  Node333 -> Node388 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node388 [label="Foam::min",height=0.2,width=0.4,color="black",URL="$a21124.html#a253e112ad2d56d96230ff39ea7f442dc"];
+  Node333 -> Node389 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node389 [label="processValues",height=0.2,width=0.4,color="red",URL="$a28726.html#ad36e3e5a110436c5fc8211ae6e209b75",tooltip="Apply the &#39;operation&#39; to the values. Wrapper around. "];
+  Node389 -> Node333 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node333 -> Node417 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node417 [label="Foam::setComponent",height=0.2,width=0.4,color="black",URL="$a21124.html#a389e1b8ee9d4554b1c53f7add93773bd"];
+  Node333 -> Node402 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node402 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node333 -> Node402 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node333 -> Node418 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node418 [label="Foam::sqr",height=0.2,width=0.4,color="red",URL="$a21124.html#a277dc11c581d53826ab5090b08f3b17b"];
+  Node333 -> Node422 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node422 [label="Foam::sqrt",height=0.2,width=0.4,color="red",URL="$a21124.html#a8616bd62eebf2342a80222fecb1bda71"];
+  Node333 -> Node424 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node424 [label="Foam::sum",height=0.2,width=0.4,color="black",URL="$a21124.html#a3d8733143aad0e03b300186ab4bef137"];
+}

@@ -1,0 +1,20 @@
+digraph "refineCell"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node48 [label="refineCell",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node48 -> Node49 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node49 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node48 -> Node92 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node92 [label="cellNo",height=0.2,width=0.4,color="black",URL="$a21522.html#a692d6b50b91a80db27b63ba93762be29"];
+  Node48 -> Node93 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node93 [label="direction",height=0.2,width=0.4,color="black",URL="$a21522.html#ad413bb0e12940c11f52123245d1a7e09"];
+  Node48 -> Node94 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node94 [label="Foam::IOstream::format",height=0.2,width=0.4,color="black",URL="$a26226.html#a33bbef3587114a06f7bdc0b91ba57ed9",tooltip="Return current stream format. "];
+  Node48 -> Node95 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node95 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node48 -> Node96 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node96 [label="Foam::operator\<\<",height=0.2,width=0.4,color="red",URL="$a21124.html#ae86a76a63deefbe1a4490c873ad8e1b2"];
+}

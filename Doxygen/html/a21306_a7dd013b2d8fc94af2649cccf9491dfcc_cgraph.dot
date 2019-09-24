@@ -1,0 +1,24 @@
+digraph "reconstruct"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node29 [label="reconstruct",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node29 -> Node30 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node30 [label="Foam::IOstream::check",height=0.2,width=0.4,color="red",URL="$a26226.html#a367eb3425fc4e8270e2aa961df8ac8a5",tooltip="Check IOstream status for given operation. "];
+  Node29 -> Node79 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node79 [label="Foam::List::clear",height=0.2,width=0.4,color="black",URL="$a25694.html#ac8bb3912a3ce86b15842e79d0b421204",tooltip="Clear the list, i.e. set size to zero. "];
+  Node29 -> Node80 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node80 [label="elementTypes",height=0.2,width=0.4,color="black",URL="$a21306.html#ae388048059af3c0995e9efef5a3ada1c"];
+  Node29 -> Node81 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node81 [label="Foam::dictionary::lookup",height=0.2,width=0.4,color="red",URL="$a26014.html#a6a0727fa523e48977e27348663def509",tooltip="Find and return an entry data stream. "];
+  Node29 -> Node174 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node174 [label="Foam::dictionary::readIf\lPresent",height=0.2,width=0.4,color="red",URL="$a26014.html#ad4bd008e6ee208313f2c3a963ee1170d",tooltip="Find an entry if present, and assign to T. "];
+  Node29 -> Node213 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node213 [label="Foam::List::setSize",height=0.2,width=0.4,color="black",URL="$a25694.html#aedb985ffeaf1bdbfeccc2a8730405703",tooltip="Reset size of List. "];
+  Node29 -> Node120 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node120 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node29 -> Node336 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node336 [label="size",height=0.2,width=0.4,color="black",URL="$a21306.html#a9facbf0a118d395c89884e45a5ca4e4b",tooltip="number of elements in this part "];
+}

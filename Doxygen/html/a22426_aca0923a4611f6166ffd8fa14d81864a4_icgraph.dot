@@ -1,0 +1,42 @@
+digraph "patch"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node507 [label="patch",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node507 -> Node508 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node508 [label="Foam::regionModels\l::surfaceFilmModels\l::curvatureSeparation\l::calcCosAngle",height=0.2,width=0.4,color="red",URL="$a29094.html#a6595a2ccc657d73bb3e77c3dad18b386",tooltip="Calculate the cosine of the angle between gravity vector and. "];
+  Node507 -> Node511 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node511 [label="Foam::CentredFitSnGradData\l::calcFit",height=0.2,width=0.4,color="red",URL="$a22586.html#a84a3ebdcaaaad35b99dce0ecc7413d2d",tooltip="Calculate the fit for all the faces. "];
+  Node507 -> Node516 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node516 [label="Foam::CentredFitData\l::CentredFitData",height=0.2,width=0.4,color="black",URL="$a23142.html#a1b17e352fd95535726ddfb6e8bf0fdd5",tooltip="Construct from components. "];
+  Node507 -> Node517 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node517 [label="Foam::extendedFaceToCell\lStencil::collectData",height=0.2,width=0.4,color="black",URL="$a22746.html#a08f46d9401c5969cef1fce5f19d438c2"];
+  Node507 -> Node518 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node518 [label="Foam::inversePointDistance\lDiffusivity::correct",height=0.2,width=0.4,color="black",URL="$a23366.html#a3ae44b28050c3aa494c1d8e18cf618c1",tooltip="Correct the motion diffusivity. "];
+  Node507 -> Node519 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node519 [label="Foam::inverseFaceDistance\lDiffusivity::correct",height=0.2,width=0.4,color="black",URL="$a23362.html#a3ae44b28050c3aa494c1d8e18cf618c1",tooltip="Correct the motion diffusivity. "];
+  Node507 -> Node520 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node520 [label="Foam::surfaceInterpolation\l::movePoints",height=0.2,width=0.4,color="red",URL="$a23274.html#a049fe0a86e2c86b4c0bb5fe02583bea4",tooltip="Do what is neccessary if the mesh has moved. "];
+  Node507 -> Node2536 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2536 [label="NewCalculatedType",height=0.2,width=0.4,color="black",URL="$a22426.html#aaf5c8438f25b207b943b096bf8d1e08b",tooltip="Return a pointer to a new calculatedFvsPatchField created on. "];
+  Node507 -> Node2537 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2537 [label="operator*=",height=0.2,width=0.4,color="red",URL="$a22426.html#af02e8ea066fad79587522f2292cdf1bc"];
+  Node507 -> Node2543 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2543 [label="operator/=",height=0.2,width=0.4,color="red",URL="$a22426.html#ab48562ec0316ad4224410a9faa90b98c"];
+  Node507 -> Node2123 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2123 [label="Foam::fvMeshDistribute\l::printFieldInfo",height=0.2,width=0.4,color="black",URL="$a21454.html#ac01a969a7e9466cbdca2475c4c0bd9c2",tooltip="Print some field info. "];
+  Node507 -> Node2130 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2130 [label="Foam::dynamicRefineFvMesh\l::refine",height=0.2,width=0.4,color="red",URL="$a21370.html#a4cc059364e8fc86931758f25f0503d7e",tooltip="Refine cells. Update mesh and fields. "];
+  Node507 -> Node2542 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2542 [label="Foam::UpwindFitData\l::UpwindFitData",height=0.2,width=0.4,color="black",URL="$a23262.html#aec92bbdbd47e55d9bb09831be4b86a7c",tooltip="Construct from components. "];
+  Node507 -> Node2541 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2541 [label="Foam::extendedUpwindCell\lToFaceStencil::weightedSum",height=0.2,width=0.4,color="black",URL="$a22678.html#aaf7d5b49d2abb3084cda009755aeea23"];
+  Node507 -> Node2540 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2540 [label="Foam::extendedCellToFace\lStencil::weightedSum",height=0.2,width=0.4,color="black",URL="$a22670.html#a20d10d68216ddbdd08ba3272067f22f6"];
+  Node507 -> Node2532 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2532 [label="Foam::leastSquaresVectors\l::~leastSquaresVectors",height=0.2,width=0.4,color="black",URL="$a22558.html#a174123ef1199fb59e95687bd040ab465",tooltip="Destructor. "];
+  Node507 -> Node2533 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2533 [label="Foam::skewCorrectionVectors\l::~skewCorrectionVectors",height=0.2,width=0.4,color="black",URL="$a23258.html#a16c9b82f5dcc80a9c175094d7c5e1020",tooltip="Destructor. "];
+}

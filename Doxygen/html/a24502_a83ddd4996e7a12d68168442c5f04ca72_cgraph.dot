@@ -1,0 +1,22 @@
+digraph "hitWallPatch"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node263 [label="hitWallPatch",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node263 -> Node264 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node264 [label="Foam::particle::Tracking\lData::cloud",height=0.2,width=0.4,color="black",URL="$a23590.html#a75f12c9a2d28ecdfb85a8b1ad8034473",tooltip="Return a reference to the cloud. "];
+  Node263 -> Node265 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node265 [label="Foam::solidParticleCloud::e",height=0.2,width=0.4,color="black",URL="$a24514.html#af8cedaf0cf3c239aad4c5ad9540f43a0"];
+  Node263 -> Node266 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node266 [label="Foam::tetIndices::faceTri",height=0.2,width=0.4,color="red",URL="$a27422.html#a99a5264a0e991a77afe619a74f9ae2f1",tooltip="Return the geometry corresponding to the tri on the. "];
+  Node263 -> Node313 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node313 [label="hitPatch",height=0.2,width=0.4,color="red",URL="$a24502.html#a4caf1bad861c1ac81a4479c6de40ec58",tooltip="Overridable function to handle the particle hitting a patch. "];
+  Node263 -> Node315 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node315 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node263 -> Node316 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node316 [label="Foam::solidParticleCloud::mu",height=0.2,width=0.4,color="black",URL="$a24514.html#a51e3a15a38bf95076d393e759e66f0fc"];
+  Node263 -> Node317 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node317 [label="Foam::triangle::normal",height=0.2,width=0.4,color="black",URL="$a27606.html#ad626ef30cf97c5bcf2b81d102ad70096",tooltip="Return vector normal. "];
+}

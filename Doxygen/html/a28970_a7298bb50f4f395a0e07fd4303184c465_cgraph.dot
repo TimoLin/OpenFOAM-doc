@@ -1,0 +1,31 @@
+digraph "clone"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node202 [label="clone",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node202 -> Node203 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node203 [label="addMassSources",height=0.2,width=0.4,color="black",URL="$a28970.html#a4b9fdb2b2a5f606578958615a72d1b9b",tooltip="External hook to add mass to the primary region. "];
+  Node202 -> Node204 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node204 [label="Cp",height=0.2,width=0.4,color="black",URL="$a28970.html#aa714ecb7da5611929ceced503275bee3",tooltip="Return specific heat capacity [J/kg/K]. "];
+  Node202 -> Node205 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node205 [label="kappa",height=0.2,width=0.4,color="black",URL="$a28970.html#a378a5c7f7107141d670b1e03e09ea6ca",tooltip="Return the region thermal conductivity [W/m/k]. "];
+  Node202 -> Node206 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node206 [label="kappaRad",height=0.2,width=0.4,color="black",URL="$a28970.html#a76594f6f45bc6e99587438389ae34110",tooltip="Return the region absorptivity [1/m]. "];
+  Node202 -> Node207 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node207 [label="maxDiff",height=0.2,width=0.4,color="black",URL="$a28970.html#ade114837eae81058c0bd12b3fc441119",tooltip="Return max diffusivity allowed in the solid. "];
+  Node202 -> Node208 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node208 [label="New",height=0.2,width=0.4,color="red",URL="$a28970.html#af7041645244db3ff80a239c9aa85b803",tooltip="Return a reference to the selected pyrolysis model. "];
+  Node202 -> Node513 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node513 [label="phiGas",height=0.2,width=0.4,color="black",URL="$a28970.html#a8a5062f7b770ead52e257331af926e7f",tooltip="Return the total gas mass flux to primary region [kg/m2/s]. "];
+  Node202 -> Node514 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node514 [label="rho",height=0.2,width=0.4,color="black",URL="$a28970.html#ae7a11ba77c4afb838e27cae5fef67695",tooltip="Return density [kg/m3]. "];
+  Node202 -> Node515 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node515 [label="solidRegionDiffNo",height=0.2,width=0.4,color="black",URL="$a28970.html#a13b515b67177488efbd8bb27dd569939",tooltip="Mean diffusion number of the solid region. "];
+  Node202 -> Node516 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node516 [label="T",height=0.2,width=0.4,color="black",URL="$a28970.html#a85a27947f75add23d9b9cf5838b5b888",tooltip="Return const temperature [K]. "];
+  Node202 -> Node517 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node517 [label="~pyrolysisModel",height=0.2,width=0.4,color="black",URL="$a28970.html#a334f44cdab606018bba72b29f312c570",tooltip="Destructor. "];
+  Node517 -> Node203 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

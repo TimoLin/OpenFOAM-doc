@@ -1,0 +1,20 @@
+digraph "calculate"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node314 [label="calculate",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node314 -> Node315 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node315 [label="Foam::SLGThermo::carrier",height=0.2,width=0.4,color="red",URL="$a30182.html#a2260ad95f8a442cc428618661191f3e9",tooltip="Return reference to the gaseous components. "];
+  Node314 -> Node359 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node359 [label="Foam::min",height=0.2,width=0.4,color="black",URL="$a21124.html#a253e112ad2d56d96230ff39ea7f442dc"];
+  Node314 -> Node360 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node360 [label="Foam::constant::mathematical::pi",height=0.2,width=0.4,color="black",URL="$a21162.html#a731b8788a4c01586c35266c7ca4fed04"];
+  Node314 -> Node361 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node361 [label="Foam::solidMixtureProperties\l::properties",height=0.2,width=0.4,color="black",URL="$a29970.html#a68a19e37f2239db75a5685d5c1993dcb",tooltip="Return the solidProperties properties. "];
+  Node314 -> Node362 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node362 [label="Foam::SLGThermo::solids",height=0.2,width=0.4,color="red",URL="$a30182.html#acdd1697a0de186428b8da9ce8b75ef19",tooltip="Return reference to the global (additional) solids. "];
+  Node314 -> Node390 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node390 [label="Foam::basicMultiComponent\lMixture::Y",height=0.2,width=0.4,color="black",URL="$a30130.html#a98fc615b86ae04a5a00a36c8fb619a16",tooltip="Return the mass-fraction fields. "];
+}

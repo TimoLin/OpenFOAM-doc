@@ -1,0 +1,38 @@
+digraph "otherPhase"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node57 [label="otherPhase",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node57 -> Node58 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node58 [label="Foam::LESModels::NicenoKEqn\l::bubbleG",height=0.2,width=0.4,color="black",URL="$a31170.html#a627e30c80dd2737d19b4c4163b766488"];
+  Node57 -> Node59 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node59 [label="Foam::RASModels::LaheyKEpsilon\l::bubbleG",height=0.2,width=0.4,color="black",URL="$a31186.html#a627e30c80dd2737d19b4c4163b766488"];
+  Node57 -> Node60 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node60 [label="Foam::RASModels::mixture\lKEpsilon::bubbleG",height=0.2,width=0.4,color="black",URL="$a31190.html#a627e30c80dd2737d19b4c4163b766488"];
+  Node57 -> Node61 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node61 [label="Foam::RASModels::continuous\lGasKEpsilon::correctNut",height=0.2,width=0.4,color="black",URL="$a31182.html#aaffe89433f18f1ee4137486e19219448"];
+  Node57 -> Node62 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node62 [label="Foam::RASModels::mixture\lKEpsilon::correctNut",height=0.2,width=0.4,color="red",URL="$a31190.html#aaffe89433f18f1ee4137486e19219448"];
+  Node57 -> Node65 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node65 [label="Foam::RASModels::mixture\lKEpsilon::Ct2",height=0.2,width=0.4,color="black",URL="$a31190.html#a2025b7aa290d9718fd3ec3836b8638ad"];
+  Node57 -> Node66 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node66 [label="Foam::LESModels::continuous\lGasKEqn::liquidTurbulence",height=0.2,width=0.4,color="black",URL="$a31166.html#a1579145d4607f4906af5eb025edc4a28",tooltip="Return the turbulence model for the liquid phase. "];
+  Node57 -> Node67 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node67 [label="Foam::RASModels::continuous\lGasKEpsilon::liquidTurbulence",height=0.2,width=0.4,color="red",URL="$a31182.html#a1579145d4607f4906af5eb025edc4a28",tooltip="Return the turbulence model for the liquid phase. "];
+  Node57 -> Node69 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node69 [label="phase2",height=0.2,width=0.4,color="black",URL="$a32386.html#a28e5bc97bd0ce70b75636a70bd141c06",tooltip="Return non-const access to phase model 2. "];
+  Node57 -> Node70 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node70 [label="Foam::LESModels::Smagorinsky\lZhang::read",height=0.2,width=0.4,color="red",URL="$a31174.html#af816873151ddb0126e98bb2f914d8ed5",tooltip="Read model coefficients if they have changed. "];
+  Node57 -> Node72 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node72 [label="Foam::LESModels::NicenoKEqn\l::read",height=0.2,width=0.4,color="red",URL="$a31170.html#af816873151ddb0126e98bb2f914d8ed5",tooltip="Read model coefficients if they have changed. "];
+  Node57 -> Node74 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node74 [label="Foam::RASModels::LaheyKEpsilon\l::read",height=0.2,width=0.4,color="red",URL="$a31186.html#af816873151ddb0126e98bb2f914d8ed5",tooltip="Read model coefficients if they have changed. "];
+  Node57 -> Node76 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node76 [label="Foam::RASModels::continuous\lGasKEpsilon::rhoEff",height=0.2,width=0.4,color="red",URL="$a31182.html#a7b0af1e1d5b6345bc0ed2c09fe368df2",tooltip="Return the effective density for the stress. "];
+  Node57 -> Node77 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node77 [label="Foam::RASModels::mixture\lKEpsilon::rhogEff",height=0.2,width=0.4,color="black",URL="$a31190.html#a27adc4bedfa8846c8b1de026e52dbf46"];
+  Node57 -> Node78 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node78 [label="Foam::RASModels::mixture\lKEpsilon::rholEff",height=0.2,width=0.4,color="black",URL="$a31190.html#ad20e49762dcdd6c26212a137b31428a9"];
+}

@@ -1,0 +1,16 @@
+digraph "countCells"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1144 [label="countCells",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1144 -> Node1145 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1145 [label="Foam::meshRefinement\l::balance",height=0.2,width=0.4,color="red",URL="$a24662.html#a64feb4b7a4116efb2111d5adf88b50a3",tooltip="Redecompose according to cell count. "];
+  Node1144 -> Node1152 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1152 [label="distribute",height=0.2,width=0.4,color="black",URL="$a21454.html#acb11a389cf765470aea69d37a526cf1f",tooltip="Send cells to neighbours according to distribution. "];
+  Node1152 -> Node1144 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1152 -> Node1145 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1144 -> Node1153 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1153 [label="fvMeshDistribute",height=0.2,width=0.4,color="black",URL="$a21454.html#a99993cdedb994dca7b715fafbb45c4b3",tooltip="Construct from mesh and absolute merge tolerance. "];
+}

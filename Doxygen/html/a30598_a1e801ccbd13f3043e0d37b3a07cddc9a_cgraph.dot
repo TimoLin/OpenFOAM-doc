@@ -1,0 +1,17 @@
+digraph "triSurface"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node50 [label="triSurface",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node50 -> Node51 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node51 [label="Foam::Time::caseName",height=0.2,width=0.4,color="red",URL="$a26350.html#afa94f8330053afc8608efb3c01998fc1",tooltip="Return case name. "];
+  Node50 -> Node53 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node53 [label="Foam::Time::path",height=0.2,width=0.4,color="red",URL="$a26350.html#a3a68a482f9904838898709bec94fedc5",tooltip="Return path. "];
+  Node53 -> Node51 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node50 -> Node56 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node56 [label="triSurfInstance",height=0.2,width=0.4,color="red",URL="$a30598.html#a1ab8d8beae9ae13c09674c78df71224a",tooltip="Name of triSurface directory to use. "];
+  Node56 -> Node51 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node56 -> Node53 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

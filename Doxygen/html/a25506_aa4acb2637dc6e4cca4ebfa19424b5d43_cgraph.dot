@@ -1,0 +1,18 @@
+digraph "orient"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node29 [label="orient",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node29 -> Node30 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node30 [label="Foam::PrimitivePatch\l::edgeFaces",height=0.2,width=0.4,color="black",URL="$a27538.html#ad38ecd2902727a890ebd437731c271c8",tooltip="Return edge-face addressing. "];
+  Node29 -> Node31 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node31 [label="Foam::triSurface::markZones",height=0.2,width=0.4,color="red",URL="$a30598.html#a48697e668dcb52e0c3231e9a75ddb8cc",tooltip="(size and) fills faceZone with zone of face. Zone is area "];
+  Node31 -> Node34 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node31 -> Node35 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node35 [label="Foam::PrimitivePatch\l\< labelledTri, ::Foam\l::List, pointField, point\l \>::nEdges",height=0.2,width=0.4,color="black",URL="$a27538.html#a086513bcff1a3f1684e1a3879dd90deb",tooltip="Return number of edges in patch. "];
+  Node29 -> Node35 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node29 -> Node34 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

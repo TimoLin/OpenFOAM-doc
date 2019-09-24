@@ -1,0 +1,14 @@
+digraph "kappaEff"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node719 [label="kappaEff",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node719 -> Node720 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node720 [label="Foam::compressible\l::turbulenceModel::alphat",height=0.2,width=0.4,color="black",URL="$a30818.html#a0503152b53bc320b7656ba486cbd69da",tooltip="Return the turbulence thermal diffusivity. "];
+  Node719 -> Node721 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node721 [label="Foam::basicThermo::\lkappaEff",height=0.2,width=0.4,color="black",URL="$a29734.html#a21fb150dfa30d738f07bb931152fde4f",tooltip="Effective thermal diffusivity for temperature. "];
+  Node719 -> Node722 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node722 [label="Foam::compressible\l::turbulenceModel::thermo",height=0.2,width=0.4,color="black",URL="$a30818.html#add0b7ef56f878b21b4dec428bb69592a",tooltip="Access function to thermophysical model. "];
+}

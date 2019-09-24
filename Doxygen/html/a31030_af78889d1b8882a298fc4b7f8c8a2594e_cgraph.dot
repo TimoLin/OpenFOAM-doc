@@ -1,0 +1,20 @@
+digraph "gamma"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1917 [label="gamma",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1917 -> Node1918 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1918 [label="blend",height=0.2,width=0.4,color="black",URL="$a31030.html#a98d7b60619ba1b64773acf1d5ac9267c"];
+  Node1917 -> Node1919 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1919 [label="kOmegaSST",height=0.2,width=0.4,color="red",URL="$a31030.html#af2a3b69b9be3a22ebfc55a4338e45dad",tooltip="Construct from components. "];
+  Node1917 -> Node2301 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2301 [label="Foam::incompressible\l::turbulenceModel::phi",height=0.2,width=0.4,color="black",URL="$a31102.html#afa376adc6cc59952d2f6f2ad38bba068",tooltip="Access function to flux field. "];
+  Node1917 -> Node2302 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2302 [label="Foam::incompressible\l::turbulenceModel::transport",height=0.2,width=0.4,color="black",URL="$a31102.html#a4e811486b6a6916756c1bb770e0d6b5a",tooltip="Access function to incompressible transport model. "];
+  Node1917 -> Node2303 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2303 [label="TypeName",height=0.2,width=0.4,color="black",URL="$a31030.html#a18bfa7271f54029828447392bd768ec6",tooltip="Runtime type information. "];
+  Node1917 -> Node2304 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2304 [label="Foam::incompressible\l::turbulenceModel::U",height=0.2,width=0.4,color="black",URL="$a31102.html#a536d168d7b335fe81f506f232b5b4872",tooltip="Access function to velocity field. "];
+}

@@ -1,0 +1,12 @@
+digraph "combineReduce"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node28290 [label="combineReduce",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node28290 -> Node28291 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node28291 [label="Foam::Pstream::combineGather",height=0.2,width=0.4,color="red",URL="$a26250.html#aedeba5b3a63f833796d48d904dc39b63"];
+  Node28290 -> Node28306 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node28306 [label="Foam::Pstream::combineScatter",height=0.2,width=0.4,color="red",URL="$a26250.html#a2eea2c110e936c30c8f66b7326c69be5",tooltip="Scatter data. Reverse of combineGather. "];
+}

@@ -1,0 +1,16 @@
+digraph "hitPatch"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node448 [label="hitPatch",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node448 -> Node449 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node449 [label="hitFace",height=0.2,width=0.4,color="black",URL="$a23878.html#a614a8a1ce70bc188ccb9209dec34aaf6",tooltip="Overridable function to handle the particle hitting a face. "];
+  Node449 -> Node450 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node450 [label="Foam::KinematicParcel\l::iNew::operator()",height=0.2,width=0.4,color="black",URL="$a23890.html#a60a07f9a45781da59d116ea2babe6b53"];
+  Node448 -> Node451 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node451 [label="hitWallPatch",height=0.2,width=0.4,color="red",URL="$a23878.html#a2f016956a18640904586b7df825867c8",tooltip="Overridable function to handle the particle hitting a wallPatch. "];
+  Node451 -> Node450 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node448 -> Node450 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

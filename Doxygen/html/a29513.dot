@@ -1,0 +1,20 @@
+digraph "sixDoFRigidBodyMotionRestraint"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="sixDoFRigidBodyMotionRestraint",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="linearAxialAngularSpring",height=0.2,width=0.4,color="black",URL="$a29502.html",tooltip="sixDoFRigidBodyMotionRestraints model. Linear axial angular spring. "];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="linearDamper",height=0.2,width=0.4,color="black",URL="$a29506.html",tooltip="sixDoFRigidBodyMotionRestraints model. Linear spring. "];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="linearSpring",height=0.2,width=0.4,color="black",URL="$a29510.html",tooltip="sixDoFRigidBodyMotionRestraints model. Linear spring. "];
+  Node0 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="sphericalAngularDamper",height=0.2,width=0.4,color="black",URL="$a29518.html",tooltip="sixDoFRigidBodyMotionRestraints model. Spherical angular damper. "];
+  Node0 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="sphericalAngularSpring",height=0.2,width=0.4,color="black",URL="$a29522.html",tooltip="sixDoFRigidBodyMotionRestraints model. Spherical angular spring. "];
+  Node0 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="tabulatedAxialAngularSpring",height=0.2,width=0.4,color="black",URL="$a29526.html",tooltip="sixDoFRigidBodyMotionRestraints model. Axial angular spring with moment values drawn from an interpol..."];
+}

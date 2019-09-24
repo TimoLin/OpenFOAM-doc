@@ -1,0 +1,12 @@
+digraph "clearPatchMeshAddr"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node86 [label="clearPatchMeshAddr",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node86 -> Node87 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node87 [label="Foam::polyPatch::clearAddressing",height=0.2,width=0.4,color="red",URL="$a27478.html#aac1ee7169044dccb262b78097d6ab1a8",tooltip="Clear addressing. "];
+  Node86 -> Node122 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node122 [label="Foam::PrimitivePatch\l\< Face, ::Foam::List,\l pointField, point \>::\lclearTopology",height=0.2,width=0.4,color="black",URL="$a27538.html#a7bf396cb5f889f9d774acbbbfcdd83e0"];
+}

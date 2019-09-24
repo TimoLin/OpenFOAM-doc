@@ -1,0 +1,21 @@
+digraph "resetPrimitives"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2150 [label="resetPrimitives",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2150 -> Node2151 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2151 [label="checkZones",height=0.2,width=0.4,color="red",URL="$a29702.html#af68c0ce74b1ff6da07f8481db8c415ef",tooltip="Check the surface zone definitions. "];
+  Node2150 -> Node2210 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2210 [label="Foam::PrimitivePatch\l\< face, ::Foam::UList,\l ::Foam::SubField\< point\l \>, point \>::clearGeom",height=0.2,width=0.4,color="black",URL="$a27538.html#a499a7f858dc495c47b618e168fec6372"];
+  Node2150 -> Node2223 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2223 [label="Foam::MeshedSurfaceIOAllocator\l::reset",height=0.2,width=0.4,color="red",URL="$a29578.html#a842a098d8cca88c47805764884aaff61",tooltip="Reset primitive data (points, faces and zones) "];
+  Node2150 -> Node2226 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2226 [label="transfer",height=0.2,width=0.4,color="red",URL="$a29702.html#a1cf9d5f3c7951e7e25eaa3408383d261",tooltip="Transfer the contents of the argument and annul the argument. "];
+  Node2226 -> Node2210 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2226 -> Node2220 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2220 [label="updateRefs",height=0.2,width=0.4,color="red",URL="$a29702.html#a6f719c5aaff7ed498bd8bf5e8dfa5380",tooltip="Update references to storedPoints/storedFaces. "];
+  Node2220 -> Node2150 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2150 -> Node2220 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

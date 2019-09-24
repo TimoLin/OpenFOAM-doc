@@ -1,0 +1,13 @@
+digraph "hitProcessorPatch"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node216 [label="hitProcessorPatch",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node216 -> Node217 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node217 [label="data",height=0.2,width=0.4,color="black",URL="$a28738.html#ad7f8023f823553543ca50bd5d11b877b",tooltip="transported label "];
+  Node216 -> Node218 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node218 [label="hitCyclicPatch",height=0.2,width=0.4,color="red",URL="$a28738.html#a264165039e187beeec096ad4d38749de",tooltip="Overridable function to handle the particle hitting a cyclic. "];
+  Node218 -> Node217 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

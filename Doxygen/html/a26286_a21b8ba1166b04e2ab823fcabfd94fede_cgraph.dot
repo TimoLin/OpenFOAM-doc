@@ -1,0 +1,23 @@
+digraph "~ISstream"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2 [label="~ISstream",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="flags",height=0.2,width=0.4,color="black",URL="$a26286.html#ada47b7405e5eaa26f35e795f291164bf",tooltip="Return flags of output stream. "];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="getLine",height=0.2,width=0.4,color="red",URL="$a26286.html#a94b82bd8f7d8cdaa83c9c70b7c919f78",tooltip="Raw, low-level getline into a string function. "];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="name",height=0.2,width=0.4,color="black",URL="$a26286.html#a41b2d01e5fd6e1bc71a895d8b8a86308",tooltip="Return the name of the stream. "];
+  Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="peek",height=0.2,width=0.4,color="black",URL="$a26286.html#a9040fa1d479d71edf3a826f4691c35c4",tooltip="Raw, low-level peek function. "];
+  Node2 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="putback",height=0.2,width=0.4,color="red",URL="$a26286.html#aa685529cedb07a4b339c5a87c84b597a",tooltip="Raw, low-level putback character function. "];
+  Node2 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12 [label="read",height=0.2,width=0.4,color="red",URL="$a26286.html#a3d4b02e5b143d1a4ba9a5b34f11b4ed1",tooltip="Return next token from stream. "];
+  Node12 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 -> Node64 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node64 [label="rewind",height=0.2,width=0.4,color="red",URL="$a26286.html#a05672413dc96a628155fb940ab50362d",tooltip="Rewind and return the stream so that it may be read again. "];
+}

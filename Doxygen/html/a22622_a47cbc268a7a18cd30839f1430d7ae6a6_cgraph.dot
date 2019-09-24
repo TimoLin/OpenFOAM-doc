@@ -1,0 +1,28 @@
+digraph "solve"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node356 [label="solve",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node356 -> Node357 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node357 [label="Foam::GeometricField\l::correctBoundaryConditions",height=0.2,width=0.4,color="black",URL="$a22434.html#acaf6878ef900e593c4b20812f1b567d6",tooltip="Correct boundary field. "];
+  Node356 -> Node358 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node358 [label="Foam::GeometricField\l::internalField",height=0.2,width=0.4,color="black",URL="$a22434.html#a9536140d36d69bbac40496f6b817aa0a",tooltip="Return internal field. "];
+  Node356 -> Node359 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node359 [label="Foam::messageStream\l::masterStream",height=0.2,width=0.4,color="red",URL="$a26098.html#a0edcebd1d86ac65765e16f155d17b351",tooltip="Convert to OSstream. "];
+  Node356 -> Node366 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node366 [label="Foam::DimensionedField\l::mesh",height=0.2,width=0.4,color="black",URL="$a26390.html#a8f1110830348a1448a14ab5e3cf47e3b",tooltip="Return mesh. "];
+  Node356 -> Node367 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node367 [label="Foam::IOobject::name",height=0.2,width=0.4,color="black",URL="$a26142.html#acc80e00a8ac919288fb55bd14cc88bf6",tooltip="Return name. "];
+  Node356 -> Node368 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node368 [label="Foam::SolverPerformance\l::print",height=0.2,width=0.4,color="red",URL="$a26810.html#a68926051a5d92c255b3604bcccded648",tooltip="Print summary of solver performance to the given stream. "];
+  Node356 -> Node371 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node371 [label="Foam::fvMatrix::solveSegregated",height=0.2,width=0.4,color="red",URL="$a22358.html#a8946f39b00e81fb5741058ddf6e05dbf",tooltip="Solve segregated returning the solution statistics. "];
+  Node371 -> Node357 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node371 -> Node358 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node371 -> Node359 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node371 -> Node366 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node371 -> Node367 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node371 -> Node368 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,18 @@
+digraph "owner"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node196 [label="owner",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node196 -> Node197 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node197 [label="coupled",height=0.2,width=0.4,color="red",URL="$a27426.html#a39c01db0e66d00fe0621a0c7e5fc4ead",tooltip="Return true because this patch is coupled. "];
+  Node196 -> Node199 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node199 [label="Foam::polyMeshTetDecomposition\l::findFaceBasePts",height=0.2,width=0.4,color="red",URL="$a27418.html#a3336759b0c761efa929d4adf95831754",tooltip="Find a suitable base point for each face for decomposition. "];
+  Node196 -> Node396 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node396 [label="Foam::syncTools::getMaster\lFaces",height=0.2,width=0.4,color="red",URL="$a27502.html#a46e7fd91866d97d6f21c35b1a892f0c4",tooltip="Get per face whether it is uncoupled or a master of a. "];
+  Node196 -> Node402 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node402 [label="neighbour",height=0.2,width=0.4,color="black",URL="$a27426.html#af0e32b0c5ceace5df659af8cc90e3f8d",tooltip="Does the coupled side own the patch ? "];
+  Node196 -> Node403 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node403 [label="Foam::processorCyclicPoly\lPatch::owner",height=0.2,width=0.4,color="black",URL="$a27458.html#a357c5e37e5d7c583fa172625b8c11009",tooltip="Does this side own the patch ? "];
+}

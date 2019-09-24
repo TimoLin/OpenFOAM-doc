@@ -1,0 +1,34 @@
+digraph "facePtA"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node816 [label="facePtA",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node816 -> Node817 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node817 [label="Foam::AveragingMethods\l::Dual::Dual",height=0.2,width=0.4,color="black",URL="$a24210.html#a4e90e259d050ad479f6e3c6763a1cdf6",tooltip="Constructors. "];
+  Node816 -> Node818 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node818 [label="Foam::polyMeshTetDecomposition\l::faceTetIndices",height=0.2,width=0.4,color="red",URL="$a27418.html#ac928a304995a9b54928d97ec634a6270",tooltip="Return the tet decomposition of the given face, with. "];
+  Node816 -> Node1015 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1015 [label="Foam::cellPointWeight\l::findTetrahedron",height=0.2,width=0.4,color="black",URL="$a22922.html#aecec3ccb37ced505c339363e0803800a"];
+  Node816 -> Node1016 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1016 [label="Foam::cellPointWeight\l::findTriangle",height=0.2,width=0.4,color="black",URL="$a22922.html#a58a370be784ce48f88d340ab2ab15ac8"];
+  Node1016 -> Node1015 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node816 -> Node1017 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1017 [label="Foam::interpolationCellPoint\l\< Foam::Vector \>::interpolate",height=0.2,width=0.4,color="black",URL="$a22926.html#a2aa471347e771a266bcb702f1d5b7469",tooltip="Interpolate field to the given point in the tetrahedron. "];
+  Node816 -> Node1018 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1018 [label="Foam::AveragingMethods\l::Moment::Moment",height=0.2,width=0.4,color="black",URL="$a24214.html#a9aaf777932fca7644bb6f00f3a2b8749",tooltip="Constructors. "];
+  Node816 -> Node1019 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1019 [label="operator==",height=0.2,width=0.4,color="black",URL="$a27422.html#a2637c3f0606783babe7b40097a391ed0"];
+  Node816 -> Node1020 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1020 [label="Foam::wallBoundedParticle\l::trackToEdge",height=0.2,width=0.4,color="black",URL="$a28794.html#aff365968e28acf42244334b7c926dee6",tooltip="Track particle to a given position and returns 1.0 if the. "];
+  Node816 -> Node1010 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1010 [label="Foam::polyMeshTetDecomposition\l::triangleTetIndices",height=0.2,width=0.4,color="red",URL="$a27418.html#a58706d0e14fb9b9a20f1d19ef6671605",tooltip="Return the tet decomposition of the given triangle of the given face. "];
+  Node1010 -> Node818 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node816 -> Node1021 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1021 [label="Foam::AveragingMethod\l\< Foam::Vector \>::write",height=0.2,width=0.4,color="black",URL="$a23898.html#ad48b7b943e88478c15879659cce7aebc",tooltip="Write using setting from DB. "];
+  Node816 -> Node1022 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1022 [label="Foam::AveragingMethods\l::Dual::~Dual",height=0.2,width=0.4,color="red",URL="$a24210.html#a5c08eca007ade69ea650619db86d50b6",tooltip="Destructor. "];
+  Node816 -> Node1024 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1024 [label="~tetIndices",height=0.2,width=0.4,color="black",URL="$a27422.html#a52b1a39b24c081f0ef6f3fb7039fe5f5",tooltip="Destructor. "];
+}

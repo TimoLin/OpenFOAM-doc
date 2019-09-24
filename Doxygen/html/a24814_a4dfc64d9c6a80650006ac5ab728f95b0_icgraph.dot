@@ -1,0 +1,20 @@
+digraph "setFaceInfo"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node275 [label="setFaceInfo",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node275 -> Node276 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node276 [label="Foam::hexRef8::consistent\lSlowRefinement",height=0.2,width=0.4,color="red",URL="$a21654.html#a11f117689e45448afaf2192041730bc8",tooltip="Like consistentRefinement but slower: "];
+  Node275 -> Node281 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node281 [label="mesh",height=0.2,width=0.4,color="black",URL="$a24814.html#ae78c91f8ff731c07ccc4351d9fe861ba",tooltip="Access mesh. "];
+  Node281 -> Node282 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node282 [label="Foam::combine::operator()",height=0.2,width=0.4,color="black",URL="$a24810.html#aa5387b4bb395a2cc76e4ff25f8d0f43f"];
+  Node275 -> Node282 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node275 -> Node283 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node283 [label="Foam::fvc::spread",height=0.2,width=0.4,color="red",URL="$a21134.html#a8a82f265e99ca3a2aa0d656f2388b991"];
+  Node275 -> Node293 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node293 [label="Foam::fvc::sweep",height=0.2,width=0.4,color="red",URL="$a21134.html#a0ba98d69297b54282b0a15e74ec2ec67"];
+  Node293 -> Node283 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

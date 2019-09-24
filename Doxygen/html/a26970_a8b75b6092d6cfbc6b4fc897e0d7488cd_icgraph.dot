@@ -1,0 +1,13 @@
+digraph "cellOffsets"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2396 [label="cellOffsets",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2396 -> Node2397 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2397 [label="procCommunicator",height=0.2,width=0.4,color="black",URL="$a26970.html#aef473de7b89ece6d9dc85ba7979e485a",tooltip="Communicator for current level or -1. "];
+  Node2397 -> Node2398 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2398 [label="processorAgglomerate",height=0.2,width=0.4,color="black",URL="$a26970.html#a0f449fd7000147afdf5b21346399e5e3",tooltip="Whether to agglomerate across processors. "];
+  Node2396 -> Node2398 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

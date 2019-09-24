@@ -1,0 +1,47 @@
+digraph "setUnrefinement"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node7371 [label="setUnrefinement",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node7371 -> Node7372 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7372 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node7371 -> Node7415 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7415 [label="Foam::refinementHistory\l::active",height=0.2,width=0.4,color="black",URL="$a21690.html#ad9735e23cb0888fb98e1c5893aecff7e",tooltip="Is there unrefinement history. Note that this will fall over if. "];
+  Node7371 -> Node7416 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7416 [label="checkMesh",height=0.2,width=0.4,color="red",URL="$a21654.html#a432ff341842268fa21b8363e6b2c45b9",tooltip="Debug: Check coupled mesh for correctness. "];
+  Node7416 -> Node7372 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7416 -> Node7380 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7380 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node7416 -> Node7420 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7420 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node7371 -> Node7753 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7753 [label="Foam::refinementHistory\l::combineCells",height=0.2,width=0.4,color="red",URL="$a21690.html#a30037f784aec0ddfbcb4143fbc737ca7",tooltip="Store combining 8 cells into master. "];
+  Node7371 -> Node7777 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7777 [label="Foam::removeFaces::\lcompatibleRemoves",height=0.2,width=0.4,color="red",URL="$a21702.html#af6c2649f4a13659418a764f194a42dc6",tooltip="Find faces including those with cells which have the same mastercell. "];
+  Node7777 -> Node7372 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7777 -> Node7728 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7728 [label="Foam::min",height=0.2,width=0.4,color="black",URL="$a21124.html#a253e112ad2d56d96230ff39ea7f442dc"];
+  Node7777 -> Node7420 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7777 -> Node7778 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7778 [label="Foam::removeFaces::\lsetRefinement",height=0.2,width=0.4,color="red",URL="$a21702.html#aa64a3bc5eb9317256be6646095e690d9",tooltip="Play commands into polyTopoChange to remove faces. "];
+  Node7778 -> Node7380 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7778 -> Node7734 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7734 [label="Foam::regIOobject::\lwrite",height=0.2,width=0.4,color="red",URL="$a26334.html#ad48b7b943e88478c15879659cce7aebc",tooltip="Write using setting from DB. "];
+  Node7778 -> Node7372 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7778 -> Node7420 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7371 -> Node7380 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7371 -> Node7728 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7371 -> Node7884 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7884 [label="Foam::IOobject::objectPath",height=0.2,width=0.4,color="red",URL="$a26142.html#a3a7ece5c1251c6be1f7812d4dba5fb7a",tooltip="Return complete path + object name. "];
+  Node7371 -> Node7895 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7895 [label="setInstance",height=0.2,width=0.4,color="red",URL="$a21654.html#af44817e5a0340574e0dd5d2d863d75d1"];
+  Node7895 -> Node7380 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7895 -> Node7420 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7371 -> Node7778 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7371 -> Node7420 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7371 -> Node7497 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7497 [label="Foam::HashTable::size",height=0.2,width=0.4,color="black",URL="$a25702.html#a47b3bf30da1eb3ab8076b5fbe00e0494",tooltip="Return number of elements in table. "];
+  Node7371 -> Node7734 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

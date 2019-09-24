@@ -1,0 +1,40 @@
+digraph "calcInterpolationWeights"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4535 [label="calcInterpolationWeights",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4535 -> Node4536 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4536 [label="calcInterpolationWeights",height=0.2,width=0.4,color="red",URL="$a25538.html#a768b2579b1527d0ff32f34472f1b6a53",tooltip="Calculate linear interpolation weights for point (guaranteed to be. "];
+  Node4536 -> Node4540 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4540 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node4536 -> Node4541 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4541 [label="Foam::max",height=0.2,width=0.4,color="black",URL="$a21124.html#ac993e906cf2774ae77e666bc24e81733"];
+  Node4535 -> Node4542 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4542 [label="classify",height=0.2,width=0.4,color="red",URL="$a25538.html#a6f0ceda49a3cd2fbd6ab9655fd370e03",tooltip="Test point on plane of triangle to see if on edge or point or inside. "];
+  Node4542 -> Node4543 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4543 [label="Foam::PrimitivePatch\l::points",height=0.2,width=0.4,color="black",URL="$a27538.html#aa3c7d968f31c88780c663876f64ef6a6",tooltip="Return reference to global points. "];
+  Node4535 -> Node4559 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4559 [label="Foam::PointHit::distance",height=0.2,width=0.4,color="black",URL="$a27558.html#a288a3ea8e3ee215a5e12afc1002ed4e6",tooltip="Return distance to hit. "];
+  Node4535 -> Node4560 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4560 [label="Foam::FixedList::fcIndex",height=0.2,width=0.4,color="black",URL="$a25894.html#a512534dbc231b74b95ff84902c1b2087",tooltip="Return the forward circular index, i.e. the next index. "];
+  Node4535 -> Node4561 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4561 [label="Foam::PointHit::hit",height=0.2,width=0.4,color="black",URL="$a27558.html#aee8dc30bf27cefe419b15f96e594c155",tooltip="Is there a hit. "];
+  Node4535 -> Node4540 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4535 -> Node4541 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4535 -> Node4562 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4562 [label="Foam::min",height=0.2,width=0.4,color="black",URL="$a21124.html#a253e112ad2d56d96230ff39ea7f442dc"];
+  Node4535 -> Node4563 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4563 [label="Foam::triangle::nearestPoint\lClassify",height=0.2,width=0.4,color="red",URL="$a27606.html#a5cfdbad496729c2d03b7b01864c9669b",tooltip="Find the nearest point to p on the triangle and classify it: "];
+  Node4563 -> Node4540 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4535 -> Node4543 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4535 -> Node4566 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4566 [label="Foam::PointHit::rawPoint",height=0.2,width=0.4,color="black",URL="$a27558.html#a479a270e3db1518fd61b8a756455786b",tooltip="Return point with no checking. "];
+  Node4535 -> Node4567 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4567 [label="s",height=0.2,width=0.4,color="black",URL="$a18905.html#abb9c4233033fad2ad0206cd4adad3b9f"];
+  Node4535 -> Node4568 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4568 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node4535 -> Node4569 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4569 [label="Foam::triFace::tri",height=0.2,width=0.4,color="black",URL="$a27234.html#aefa11b7c72b64f1e1389537cd22970c1",tooltip="Return the triangle. "];
+}

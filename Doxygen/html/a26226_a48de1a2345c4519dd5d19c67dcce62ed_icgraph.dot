@@ -1,0 +1,14 @@
+digraph "fail"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node20979 [label="fail",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node20979 -> Node20980 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20980 [label="operator void *",height=0.2,width=0.4,color="black",URL="$a26226.html#ac34a13938612201ccf01b9d70b1eeae7",tooltip="Return non-zero if the stream has not failed. "];
+  Node20979 -> Node20981 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20981 [label="operator!",height=0.2,width=0.4,color="black",URL="$a26226.html#a61efd4196a96540ee018fee8791f3f10",tooltip="Return true if the stream has failed. "];
+  Node20979 -> Node20982 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20982 [label="print",height=0.2,width=0.4,color="red",URL="$a26226.html#aa61247f481294e0822e293753513bd29",tooltip="Print description of IOstream to Ostream. "];
+}

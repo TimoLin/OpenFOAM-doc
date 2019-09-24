@@ -1,0 +1,29 @@
+digraph "mixture"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node164 [label="mixture",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node164 -> Node165 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node165 [label="cellMixture",height=0.2,width=0.4,color="black",URL="$a30162.html#ab56d949074d4eadb6cb2f2bf0152c3f0"];
+  Node164 -> Node166 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node166 [label="cellProducts",height=0.2,width=0.4,color="black",URL="$a30162.html#a8eba2d9e113516dc93594ebc15fa9595"];
+  Node164 -> Node167 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node167 [label="cellReactants",height=0.2,width=0.4,color="black",URL="$a30162.html#ad9d6cb8ed9a292541a34c914d0b05e63"];
+  Node164 -> Node168 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node168 [label="patchFaceMixture",height=0.2,width=0.4,color="black",URL="$a30162.html#a3837d5effc02e5f6f3fbc6cab0926ab7"];
+  Node168 -> Node165 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node164 -> Node169 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node169 [label="patchFaceProducts",height=0.2,width=0.4,color="black",URL="$a30162.html#a1880727b2076469eeb2ba7698b6c9572"];
+  Node169 -> Node166 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node164 -> Node170 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node170 [label="patchFaceReactants",height=0.2,width=0.4,color="black",URL="$a30162.html#a471f87b16652feb2945dac472022e76e"];
+  Node170 -> Node167 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node164 -> Node171 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node171 [label="stoicRatio",height=0.2,width=0.4,color="black",URL="$a30162.html#aefa83c30b8aa20f42f8ece5ce19f9836"];
+  Node171 -> Node166 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node171 -> Node169 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node164 -> Node172 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node172 [label="veryInhomogeneousMixture",height=0.2,width=0.4,color="black",URL="$a30162.html#abd17a8f205cb3699d6ba400cb4fde9d1",tooltip="Construct from dictionary and mesh. "];
+}

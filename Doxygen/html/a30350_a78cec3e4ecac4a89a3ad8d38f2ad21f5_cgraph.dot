@@ -1,0 +1,19 @@
+digraph "write"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node78 [label="write",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node78 -> Node79 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node79 [label="Foam::dictionary::add",height=0.2,width=0.4,color="red",URL="$a26014.html#ac2ddcab42322c8d8af5e5830ab4d431b",tooltip="Add a new entry. "];
+  Node78 -> Node122 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node122 [label="Foam::IOstream::check",height=0.2,width=0.4,color="red",URL="$a26226.html#a367eb3425fc4e8270e2aa961df8ac8a5",tooltip="Check IOstream status for given operation. "];
+  Node78 -> Node128 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node128 [label="Foam::dictionaryName\l::dictName",height=0.2,width=0.4,color="red",URL="$a26010.html#a1294668acf090a15a78e04c1c22a048c",tooltip="Return the local dictionary name (final part of scoped name) "];
+  Node78 -> Node130 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node130 [label="Foam::indent",height=0.2,width=0.4,color="red",URL="$a21124.html#ae297c57ea5b952a8bc9e4f30f7ea8701",tooltip="Indent stream. "];
+  Node78 -> Node132 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node132 [label="Foam::operator\<\<",height=0.2,width=0.4,color="red",URL="$a21124.html#ae86a76a63deefbe1a4490c873ad8e1b2"];
+  Node132 -> Node122 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

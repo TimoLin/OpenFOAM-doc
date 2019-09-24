@@ -1,0 +1,28 @@
+digraph "yPlus"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node123 [label="yPlus",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node123 -> Node124 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node124 [label="Foam::GeometricField\l::boundaryField",height=0.2,width=0.4,color="black",URL="$a22434.html#a3c6c1a789b48ea0c5e8bff64f9c14f2d",tooltip="Return reference to GeometricBoundaryField. "];
+  Node123 -> Node125 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node125 [label="calcUTau",height=0.2,width=0.4,color="red",URL="$a29038.html#a24807ec3405a761fb6380573614a3040",tooltip="Calculate the friction velocity. "];
+  Node125 -> Node124 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node125 -> Node141 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node141 [label="Foam::compressible\l::turbulenceModel::mu",height=0.2,width=0.4,color="red",URL="$a30818.html#a54025d7e9635694b562bfb981e31e6da",tooltip="Return the laminar viscosity. "];
+  Node125 -> Node143 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node143 [label="Foam::compressible\l::turbulenceModel::rho",height=0.2,width=0.4,color="black",URL="$a30818.html#a85451bc9acf825ab1d3c3c143714bc38",tooltip="Access function to density field. "];
+  Node125 -> Node146 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node146 [label="Foam::compressible\l::turbulenceModel::y",height=0.2,width=0.4,color="black",URL="$a30818.html#a152c527a6b3137685b03893a7a3a73eb",tooltip="Return the near wall distances. "];
+  Node123 -> Node147 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node147 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node123 -> Node141 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node123 -> Node143 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node123 -> Node148 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node148 [label="Foam::fvPatchField\l::snGrad",height=0.2,width=0.4,color="black",URL="$a22354.html#a4e21804a54c15c57d187b21feff6f267",tooltip="Return patch-normal gradient. "];
+  Node123 -> Node149 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node149 [label="Foam::compressible\l::turbulenceModel::U",height=0.2,width=0.4,color="black",URL="$a30818.html#a536d168d7b335fe81f506f232b5b4872",tooltip="Access function to velocity field. "];
+  Node123 -> Node146 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

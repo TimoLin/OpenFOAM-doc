@@ -1,0 +1,12 @@
+digraph "avgDim"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node922 [label="avgDim",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node922 -> Node923 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node923 [label="Foam::boundaryMesh\l::getNearest",height=0.2,width=0.4,color="red",URL="$a21430.html#a7cfb30aa0fa4868d8a08ec928d0c1315",tooltip="Get bMesh index of nearest face for every boundary face in. "];
+  Node922 -> Node926 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node926 [label="Foam::treeBoundBox\l::typDim",height=0.2,width=0.4,color="black",URL="$a27618.html#ad5a4c823e532a2ffe4a6d8081b387652",tooltip="Typical dimension length,height,width. "];
+}

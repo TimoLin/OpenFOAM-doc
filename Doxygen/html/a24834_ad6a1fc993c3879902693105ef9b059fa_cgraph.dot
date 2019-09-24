@@ -1,0 +1,19 @@
+digraph "faceToEdge"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node490 [label="faceToEdge",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node490 -> Node491 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node491 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node490 -> Node534 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node534 [label="edgeToFace",height=0.2,width=0.4,color="red",URL="$a24834.html#a07f8a8889b2251ab012810f2e7f566ef",tooltip="Propagate from edge to face. Returns total number of faces. "];
+  Node534 -> Node491 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node534 -> Node499 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node499 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node534 -> Node536 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node536 [label="Foam::returnReduce",height=0.2,width=0.4,color="red",URL="$a21124.html#a8d528a67d2a9c6fe4fb94bc86872624b"];
+  Node490 -> Node499 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node490 -> Node536 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

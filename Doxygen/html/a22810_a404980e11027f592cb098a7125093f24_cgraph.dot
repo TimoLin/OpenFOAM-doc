@@ -1,0 +1,15 @@
+digraph "interpolate"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node383 [label="interpolate",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node383 -> Node384 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node384 [label="interfaceInternalField",height=0.2,width=0.4,color="black",URL="$a22810.html#aa8871ae0f8409c5f343da9516cd8c846",tooltip="Return the values of the given internal data adjacent to. "];
+  Node384 -> Node385 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node385 [label="internalFieldTransfer",height=0.2,width=0.4,color="black",URL="$a22810.html#a237c9448fbff6fcefb820f4076a58f26",tooltip="Return neighbour field. "];
+  Node383 -> Node385 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node383 -> Node386 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node386 [label="Foam::cyclicAMIPolyPatch\l::interpolate",height=0.2,width=0.4,color="black",URL="$a24946.html#a7bb266ad4e025949d6e7c460e332253e",tooltip="Interpolate field. "];
+}

@@ -1,0 +1,18 @@
+digraph "subsetMesh"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1134 [label="subsetMesh",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1134 -> Node1135 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1135 [label="sortedZones",height=0.2,width=0.4,color="red",URL="$a29574.html#a3ef52fedf8e3a917988a6f58d5fc3273",tooltip="Sort faces according to zoneIds. "];
+  Node1135 -> Node1152 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1152 [label="Foam::fileFormats::\lAC3DsurfaceFormat::write",height=0.2,width=0.4,color="black",URL="$a29582.html#a8eea7f3ea6f24bb7a37ee7ef16a1ad10",tooltip="Write UnsortedMeshedSurface, the output is always sorted by zones. "];
+  Node1135 -> Node1143 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1143 [label="zoneToc",height=0.2,width=0.4,color="red",URL="$a29574.html#adc84fd65ce1212a7745d7e69a0fa9250",tooltip="Return const access to the zone table-of-contents. "];
+  Node1134 -> Node1153 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1153 [label="subsetMesh",height=0.2,width=0.4,color="black",URL="$a29574.html#a313b9e8f75ec5883c4317aba0eb09e9d",tooltip="Return new surface. "];
+  Node1134 -> Node1152 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1134 -> Node1143 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

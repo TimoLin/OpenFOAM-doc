@@ -1,0 +1,23 @@
+digraph "map"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4 [label="map",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="Foam::centredCECCellToFace\lStencilObject::centredCECCellTo\lFaceStencilObject",height=0.2,width=0.4,color="black",URL="$a22706.html#aed500b88db9ee98d0e199f75320058e9",tooltip="Construct from uncompacted face stencil. "];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="Foam::centredCFCCellToFace\lStencilObject::centredCFCCellTo\lFaceStencilObject",height=0.2,width=0.4,color="black",URL="$a22710.html#a72e1b2c15a4b5e767731254c51d90c9c",tooltip="Construct from uncompacted face stencil. "];
+  Node4 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="Foam::centredCPCCellToFace\lStencilObject::centredCPCCellTo\lFaceStencilObject",height=0.2,width=0.4,color="black",URL="$a22714.html#ac67f9a7b7e325cfc82f3d6718f1c7763",tooltip="Construct from uncompacted face stencil. "];
+  Node4 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="Foam::centredFECCellToFace\lStencilObject::centredFECCellTo\lFaceStencilObject",height=0.2,width=0.4,color="black",URL="$a22718.html#ae28c5d9c7890cb731fb8d77e1adac291",tooltip="Construct from uncompacted face stencil. "];
+  Node4 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="collectData",height=0.2,width=0.4,color="red",URL="$a22674.html#ab00d7f17ec3e649fcb4d3a317102aa24",tooltip="Use map to get the data into stencil order. "];
+  Node4 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16 [label="compact",height=0.2,width=0.4,color="red",URL="$a22674.html#a043cdfc194924194e381a986c229569e",tooltip="After removing elements from the stencil adapt the schedule (map). "];
+  Node4 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="weightedSum",height=0.2,width=0.4,color="red",URL="$a22674.html#a997060236f826bbe61543e12798b3ec0",tooltip="Sum vol field contributions to create face values. "];
+  Node11 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,17 @@
+digraph "YLiquid"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node124 [label="YLiquid",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node124 -> Node125 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node125 [label="Foam::ReactingMultiphase\lParcel::iNew::operator()",height=0.2,width=0.4,color="black",URL="$a23918.html#a8e53dcd3a280e798784183966985f401"];
+  Node124 -> Node126 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node126 [label="writeFields",height=0.2,width=0.4,color="red",URL="$a23910.html#a64adf0008b4736131ce199c3a2c5ffd7",tooltip="Write. "];
+  Node126 -> Node125 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node124 -> Node128 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node128 [label="YGas",height=0.2,width=0.4,color="red",URL="$a23910.html#a81cb48c6e2ec9df2e414162d5993020d",tooltip="Return const access to mass fractions of gases. "];
+  Node128 -> Node125 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node128 -> Node126 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

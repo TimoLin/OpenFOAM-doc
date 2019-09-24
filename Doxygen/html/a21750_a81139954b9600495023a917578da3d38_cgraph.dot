@@ -1,0 +1,24 @@
+digraph "attached"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node358 [label="attached",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node358 -> Node359 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node359 [label="changeTopology",height=0.2,width=0.4,color="red",URL="$a21750.html#a837dedbb253fe1b4140e2fc1112e95e9",tooltip="Check for topology change. "];
+  Node358 -> Node365 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node365 [label="modifyMotionPoints",height=0.2,width=0.4,color="red",URL="$a21750.html#ac05c3f18da75b17c4b6c13757cacbff1",tooltip="Modify motion points to comply with the topological change. "];
+  Node358 -> Node474 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node474 [label="pointProjection",height=0.2,width=0.4,color="black",URL="$a21750.html#a32843be218c0faf3dc7996d1c2ed0a31",tooltip="Return projected points for a slave patch. "];
+  Node358 -> Node475 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node475 [label="setRefinement",height=0.2,width=0.4,color="black",URL="$a21750.html#aadadb4738345f2cf19cc7fc0dd3ad3ff",tooltip="Insert the layer addition/removal instructions. "];
+  Node358 -> Node476 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node476 [label="setTolerances",height=0.2,width=0.4,color="red",URL="$a21750.html#a2bc7d056737d685d6f9fe9f6268cde77",tooltip="Set the tolerances from the values in a dictionary. "];
+  Node358 -> Node482 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node482 [label="updateMesh",height=0.2,width=0.4,color="red",URL="$a21750.html#ad57565956fd4064299f4bd3c4eebb1d4",tooltip="Force recalculation of locally stored data on topological change. "];
+  Node358 -> Node485 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node485 [label="write",height=0.2,width=0.4,color="red",URL="$a21750.html#a293fdfec8bdfbd5c3913ab4c9f3454ff",tooltip="Write. "];
+  Node358 -> Node492 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node492 [label="writeDict",height=0.2,width=0.4,color="red",URL="$a21750.html#a99e013320e2bb0118f0c2857a9193f62",tooltip="Write dictionary. "];
+}

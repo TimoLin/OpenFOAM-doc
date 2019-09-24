@@ -1,0 +1,31 @@
+digraph "size"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node8 [label="size",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="band",height=0.2,width=0.4,color="red",URL="$a26850.html#a90a5be24211deb5a30bd2b9d72b28cd8",tooltip="Calculate bandwidth and profile of addressing. "];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="lowerAddr",height=0.2,width=0.4,color="black",URL="$a26850.html#acd71c2321f86cb61103e8d46142d19b3",tooltip="Return lower addressing. "];
+  Node9 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="upperAddr",height=0.2,width=0.4,color="black",URL="$a26850.html#ac0baafb7743d958e9e27804c8c53f1b8",tooltip="Return upper addressing. "];
+  Node9 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 -> Node83 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node83 [label="losortAddr",height=0.2,width=0.4,color="black",URL="$a26850.html#acf1703f300003dd9e50b3268d9a6b7e4",tooltip="Return losort addressing. "];
+  Node8 -> Node84 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node84 [label="losortStartAddr",height=0.2,width=0.4,color="black",URL="$a26850.html#a7fa7f9a17640a88fb18eafca87cb5a58",tooltip="Return losort start addressing. "];
+  Node8 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 -> Node85 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node85 [label="ownerStartAddr",height=0.2,width=0.4,color="black",URL="$a26850.html#a05940a760e9646268e38d70660fd4627",tooltip="Return owner start addressing. "];
+  Node8 -> Node86 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node86 [label="patchAddr",height=0.2,width=0.4,color="black",URL="$a26850.html#afe45d3f196bb2fd7dcbcb70fc2674ea3",tooltip="Return patch to internal addressing given patch number. "];
+  Node8 -> Node87 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node87 [label="patchSchedule",height=0.2,width=0.4,color="black",URL="$a26850.html#a766d957f33cabfd9c9916c91d002bfcf"];
+  Node8 -> Node88 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node88 [label="triIndex",height=0.2,width=0.4,color="red",URL="$a26850.html#afe60b4ce8347859fa8ce1eb6ca64328f",tooltip="Return off-diagonal index given owner and neighbour label. "];
+  Node88 -> Node85 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node88 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

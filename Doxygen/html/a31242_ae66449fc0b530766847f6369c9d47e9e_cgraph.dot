@@ -1,0 +1,20 @@
+digraph "calculateTurbulenceFields"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1934 [label="calculateTurbulenceFields",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1934 -> Node1935 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1935 [label="calculate",height=0.2,width=0.4,color="red",URL="$a31242.html#a9b10d949afa36a0fe772c66e94719865",tooltip="Calculate the epsilon and G. "];
+  Node1935 -> Node2302 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2302 [label="Foam::fvPatch::faceCells",height=0.2,width=0.4,color="red",URL="$a22870.html#afbfac825732ef2770fff4261b4e930e9",tooltip="Return faceCells. "];
+  Node1934 -> Node2051 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2051 [label="Foam::UList::empty",height=0.2,width=0.4,color="black",URL="$a25698.html#a644718bb2fb240de962dc3c9a1fdf0dc",tooltip="Return true if the UList is empty (ie, size() is zero). "];
+  Node1934 -> Node2312 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2312 [label="epsilonPatch",height=0.2,width=0.4,color="red",URL="$a31242.html#ac95bedc5fd79298c03928cf1924a7b23",tooltip="Helper function to return non-const access to an epsilon patch. "];
+  Node2312 -> Node1934 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1934 -> Node2302 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1934 -> Node2311 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2311 [label="Foam::fvPatchField\l::patch",height=0.2,width=0.4,color="black",URL="$a22354.html#aca0923a4611f6166ffd8fa14d81864a4",tooltip="Return patch. "];
+}

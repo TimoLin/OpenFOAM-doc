@@ -1,0 +1,20 @@
+digraph "atan"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node38524 [label="atan",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node38524 -> Node38525 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node38525 [label="atan2",height=0.2,width=0.4,color="black",URL="$a21124.html#a9d45ac659e1f4191f75f0fe34ad7f596"];
+  Node38524 -> Node38526 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node38526 [label="Foam::compressible\l::mutURoughWallFunctionFvPatch\lScalarField::calcYPlus",height=0.2,width=0.4,color="red",URL="$a30710.html#ad8e694d783badd5959d78884358ffb9f",tooltip="Calculate yPLus. "];
+  Node38524 -> Node38530 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node38530 [label="cmptMag",height=0.2,width=0.4,color="red",URL="$a12539.html#a9180528922650a6b9a3b302e27e621b9"];
+  Node38524 -> Node38585 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node38585 [label="stabilise",height=0.2,width=0.4,color="black",URL="$a21124.html#a0f54b8f830b5ec7eb36ed5ccda6d7b1e"];
+  Node38524 -> Node38586 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node38586 [label="sumProd",height=0.2,width=0.4,color="black",URL="$a21124.html#a5b480f6156c25bef4de87d86094e87ea"];
+  Node38524 -> Node38587 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node38587 [label="Foam::supersonicFreestream\lFvPatchVectorField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a22262.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+}

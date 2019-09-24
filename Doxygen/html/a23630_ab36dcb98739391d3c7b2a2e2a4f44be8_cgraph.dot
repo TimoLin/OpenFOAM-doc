@@ -1,0 +1,26 @@
+digraph "calculate"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node278 [label="calculate",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node278 -> Node279 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node279 [label="Foam::SLGThermo::carrier",height=0.2,width=0.4,color="red",URL="$a30182.html#a2260ad95f8a442cc428618661191f3e9",tooltip="Return reference to the gaseous components. "];
+  Node278 -> Node323 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node323 [label="Foam::exp",height=0.2,width=0.4,color="black",URL="$a21124.html#a12bca6c677fcf0977532179c3cb9bb89"];
+  Node278 -> Node324 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node324 [label="Foam::min",height=0.2,width=0.4,color="black",URL="$a21124.html#a253e112ad2d56d96230ff39ea7f442dc"];
+  Node278 -> Node325 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node325 [label="Foam::constant::mathematical::pi",height=0.2,width=0.4,color="black",URL="$a21162.html#a731b8788a4c01586c35266c7ca4fed04"];
+  Node278 -> Node326 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node326 [label="Foam::pow",height=0.2,width=0.4,color="red",URL="$a21124.html#a7500c8e9d27a442adc75e287de074c7c"];
+  Node278 -> Node330 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node330 [label="Foam::solidMixtureProperties\l::properties",height=0.2,width=0.4,color="black",URL="$a29970.html#a68a19e37f2239db75a5685d5c1993dcb",tooltip="Return the solidProperties properties. "];
+  Node278 -> Node331 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node331 [label="Foam::SLGThermo::solids",height=0.2,width=0.4,color="red",URL="$a30182.html#acdd1697a0de186428b8da9ce8b75ef19",tooltip="Return reference to the global (additional) solids. "];
+  Node278 -> Node363 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node363 [label="sqr",height=0.2,width=0.4,color="red",URL="$a12539.html#a557bbac590ed5ce51116be69fe4faa96"];
+  Node278 -> Node355 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node355 [label="Foam::basicMultiComponent\lMixture::Y",height=0.2,width=0.4,color="black",URL="$a30130.html#a98fc615b86ae04a5a00a36c8fb619a16",tooltip="Return the mass-fraction fields. "];
+}

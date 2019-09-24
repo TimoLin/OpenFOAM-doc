@@ -1,0 +1,19 @@
+digraph "scalarInterfaces"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node821 [label="scalarInterfaces",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node821 -> Node822 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node822 [label="interfaces",height=0.2,width=0.4,color="red",URL="$a26514.html#a6c015f4f39c9d97026d8e07936069bab",tooltip="Return a list of pointers for each patch field with only those. "];
+  Node822 -> Node821 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node822 -> Node868 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node868 [label="Foam::UPtrList\< const\l LduInterfaceField\< Type\l \> \>::set",height=0.2,width=0.4,color="black",URL="$a25990.html#a2d4fe99e7a41d6359b3c1946995622a0",tooltip="Is element set. "];
+  Node822 -> Node869 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node869 [label="Foam::PtrList\< PatchField\l\< Type \> \>::size",height=0.2,width=0.4,color="black",URL="$a25914.html#a47b3bf30da1eb3ab8076b5fbe00e0494",tooltip="Return the number of elements in the PtrList. "];
+  Node821 -> Node868 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node821 -> Node869 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node821 -> Node870 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node870 [label="writeEntry",height=0.2,width=0.4,color="red",URL="$a26514.html#a7c03447f7f0471351fe57a41b62c8686",tooltip="Write boundary field as dictionary entry. "];
+}

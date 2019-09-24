@@ -1,0 +1,22 @@
+digraph "rotationTensor"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node128719 [label="rotationTensor",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node128719 -> Node128720 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node128720 [label="Foam::triad::align",height=0.2,width=0.4,color="black",URL="$a28426.html#a1fe4572dabb9add39ee52b55b3fd9c7d",tooltip="Align this triad with the given vector v. "];
+  Node128719 -> Node128721 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node128721 [label="Foam::wedgePolyPatch\l::calcGeometry",height=0.2,width=0.4,color="black",URL="$a27470.html#a58bb4c0382e9ee570811fb3f005a0a97",tooltip="Calculate the patch geometry. "];
+  Node128719 -> Node128722 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node128722 [label="Foam::cyclicPolyPatch\l::calcTransforms",height=0.2,width=0.4,color="black",URL="$a27434.html#afb48497736bbafb1fbb000cd218d1779",tooltip="Recalculate the transformation tensors. "];
+  Node128719 -> Node128723 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node128723 [label="Foam::coupledPolyPatch\l::calcTransformTensors",height=0.2,width=0.4,color="red",URL="$a27426.html#a9d4253385a22a2eef36016591dcd52cd",tooltip="Calculate the transformation tensors. "];
+  Node128719 -> Node128729 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node128729 [label="Foam::molecule::constant\lProperties::constantProperties",height=0.2,width=0.4,color="black",URL="$a24394.html#a48f10350a2cae9811619cc14159099d6",tooltip="Construct from dictionary. "];
+  Node128719 -> Node128730 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node128730 [label="Foam::sixDoFRigidBodyMotion\lRestraints::linearAxialAngularSpring\l::restrain",height=0.2,width=0.4,color="red",URL="$a29502.html#a5a33f13a3b2e956e9be8cfaffc87a34b",tooltip="Calculate the restraint position, force and moment. "];
+  Node128719 -> Node128734 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node128734 [label="Foam::sixDoFRigidBodyMotion\lRestraints::tabulatedAxialAngular\lSpring::restrain",height=0.2,width=0.4,color="red",URL="$a29526.html#a5a33f13a3b2e956e9be8cfaffc87a34b",tooltip="Calculate the restraint position, force and moment. "];
+}

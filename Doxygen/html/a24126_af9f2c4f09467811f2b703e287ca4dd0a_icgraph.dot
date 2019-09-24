@@ -1,0 +1,23 @@
+digraph "Sp"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node48 [label="Sp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node48 -> Node49 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node49 [label="Foam::SprayParcel::\lcalcBreakup",height=0.2,width=0.4,color="red",URL="$a24534.html#af788f9bd434c7cabde1b08a11956ae1a",tooltip="Correct parcel properties according to breakup model. "];
+  Node48 -> Node55 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node55 [label="Foam::SphereDragForce\l::calcCoupled",height=0.2,width=0.4,color="red",URL="$a24118.html#afaf626ee39da50a44d12588b5cb987d9",tooltip="Calculate the coupled force. "];
+  Node48 -> Node58 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node58 [label="Foam::NonSphereDragForce\l::calcCoupled",height=0.2,width=0.4,color="red",URL="$a24110.html#afaf626ee39da50a44d12588b5cb987d9",tooltip="Calculate the non-coupled force. "];
+  Node48 -> Node61 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node61 [label="Foam::ParticleForce\l::calcCoupled",height=0.2,width=0.4,color="red",URL="$a24154.html#afaf626ee39da50a44d12588b5cb987d9",tooltip="Calculate the coupled force. "];
+  Node48 -> Node64 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node64 [label="Foam::ParticleForce\l::calcNonCoupled",height=0.2,width=0.4,color="red",URL="$a24154.html#a0e3253e601c7db3a3db9d3c921218fd9",tooltip="Calculate the non-coupled force. "];
+  Node64 -> Node61 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node48 -> Node65 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node65 [label="Foam::KinematicParcel\l::calcVelocity",height=0.2,width=0.4,color="black",URL="$a23878.html#ad4b1064c43d78ec6b1e82eb57c3a1071"];
+  Node48 -> Node66 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node66 [label="forceSuSp",height=0.2,width=0.4,color="black",URL="$a24126.html#a324dbe4dcbfb258b953394ac878a2b33",tooltip="Construct given two components. "];
+}

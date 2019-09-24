@@ -1,0 +1,23 @@
+digraph "write"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node316 [label="write",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node316 -> Node317 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node317 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node316 -> Node319 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node319 [label="Foam::entry::keyword",height=0.2,width=0.4,color="black",URL="$a26022.html#a524d765e79e84690b9c13f55191b85c7",tooltip="Return keyword. "];
+  Node316 -> Node320 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node320 [label="Foam::UList::operator[]",height=0.2,width=0.4,color="black",URL="$a25698.html#a851e28f7788bbc82f5a4aa9f0efdefe4",tooltip="Return element of UList. "];
+  Node316 -> Node321 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node321 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a47b3bf30da1eb3ab8076b5fbe00e0494",tooltip="Return the number of elements in the UList. "];
+  Node316 -> Node322 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node322 [label="Foam::token::type",height=0.2,width=0.4,color="black",URL="$a26306.html#acc719f52fcbac7cb134576dc93632867"];
+  Node316 -> Node323 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node323 [label="Foam::Ostream::write",height=0.2,width=0.4,color="black",URL="$a26238.html#a81a19ad9e4098b4701cc8bab9a59d78b",tooltip="Write next token to stream. "];
+  Node316 -> Node324 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node324 [label="Foam::Ostream::writeKeyword",height=0.2,width=0.4,color="red",URL="$a26238.html#a3c58b2bb9174ea3c4a5fa58095d1290e",tooltip="Write the keyword followed by an appropriate indentation. "];
+  Node324 -> Node323 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

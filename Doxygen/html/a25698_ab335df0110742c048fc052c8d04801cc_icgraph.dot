@@ -1,0 +1,12 @@
+digraph "checkSize"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1978 [label="checkSize",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1978 -> Node1979 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1979 [label="Foam::UList::greater\l::operator()",height=0.2,width=0.4,color="black",URL="$a25986.html#a49202d8cfd6e19f3d43c028252050ed7"];
+  Node1978 -> Node1980 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1980 [label="Foam::SubList\< point\l \>::SubList",height=0.2,width=0.4,color="black",URL="$a25978.html#a96707c6b2429de78ed29d11c6a2f58df",tooltip="Construct from UList and sub-list size. "];
+}

@@ -1,0 +1,15 @@
+digraph "PackedList&lt; nBits &gt;"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node0 [label="PackedList\< nBits \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="PackedListCore",height=0.2,width=0.4,color="black",URL="$a25942.html",tooltip="Template-invariant bits for PackedList. "];
+  Node2 -> Node0 [dir="back",color="firebrick4",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="List\< unsigned int \>",height=0.2,width=0.4,color="red",URL="$a25694.html"];
+  Node0 -> Node6 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< 1 \>" ,fontname="FreeSans"];
+  Node6 [label="PackedList\< 1 \>",height=0.2,width=0.4,color="red",URL="$a25938.html"];
+  Node0 -> Node8 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< 2 \>" ,fontname="FreeSans"];
+  Node8 [label="PackedList\< 2 \>",height=0.2,width=0.4,color="black",URL="$a25938.html"];
+}

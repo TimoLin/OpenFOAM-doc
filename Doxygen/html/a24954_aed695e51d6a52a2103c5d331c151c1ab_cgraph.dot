@@ -1,0 +1,36 @@
+digraph "type"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node6 [label="type",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="enterDomain",height=0.2,width=0.4,color="black",URL="$a24954.html#a1c008aaee97634da747f7cf632c79727",tooltip="Reverse of leaveDomain. "];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="updateCell",height=0.2,width=0.4,color="black",URL="$a24954.html#a402fd87a5650f70109426abaa7a115c1",tooltip="Influence of neighbouring face. "];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="updateFace",height=0.2,width=0.4,color="black",URL="$a24954.html#a46d57c763c5ec212aa6a12e35643cba5",tooltip="Influence of neighbouring cell. "];
+  Node6 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="equal",height=0.2,width=0.4,color="black",URL="$a24954.html#a3f31a72f294393353768670bd8096c97",tooltip="Same (like operator==) "];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="operator==",height=0.2,width=0.4,color="black",URL="$a24954.html#a4da03dcaf60807b28d6fda82f2427f87"];
+  Node11 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12 [label="leaveDomain",height=0.2,width=0.4,color="black",URL="$a24954.html#a5dc02fbe6709cffccef3513253dc8527",tooltip="Convert any absolute coordinates into relative to (patch)face. "];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13 [label="transform",height=0.2,width=0.4,color="black",URL="$a24954.html#a165ad8560abc6370113f30a2b4da560f",tooltip="Apply rotation matrix to any coordinates. "];
+  Node13 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14 [label="operator!=",height=0.2,width=0.4,color="black",URL="$a24954.html#a707ec5f61a6168eddd604546893591b4"];
+  Node6 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15 [label="sameGeometry",height=0.2,width=0.4,color="black",URL="$a24954.html#aede93467639a2b564abd045687a2c899",tooltip="Check for identical geometrical data. Used for cyclics checking. "];
+  Node15 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16 [label="valid",height=0.2,width=0.4,color="black",URL="$a24954.html#aa4ad85c1548bba1f67ef9566c82f7baa",tooltip="Check whether origin has been changed at all or. "];
+  Node16 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

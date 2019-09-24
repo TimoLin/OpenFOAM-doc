@@ -1,0 +1,23 @@
+digraph "readIfModified"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node12667 [label="readIfModified",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node12667 -> Node12668 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12668 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node12667 -> Node12670 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12670 [label="Foam::Time::getFile",height=0.2,width=0.4,color="red",URL="$a26350.html#a433f30075e4f25b25fe66e326e3cf2c5",tooltip="Get name of file being watched (using handle) "];
+  Node12667 -> Node12672 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12672 [label="modified",height=0.2,width=0.4,color="red",URL="$a26334.html#a5146474f106b82e0ea2cc2e11653aca9",tooltip="Return true if the object&#39;s file (or files for objectRegistry) "];
+  Node12672 -> Node12673 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12673 [label="Foam::IOobject::time",height=0.2,width=0.4,color="red",URL="$a26142.html#a1ed86245b170b9f651f62650b1827500",tooltip="Return time. "];
+  Node12667 -> Node12675 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12675 [label="Foam::IOobject::name",height=0.2,width=0.4,color="black",URL="$a26142.html#acc80e00a8ac919288fb55bd14cc88bf6",tooltip="Return name. "];
+  Node12667 -> Node12676 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12676 [label="read",height=0.2,width=0.4,color="red",URL="$a26334.html#af816873151ddb0126e98bb2f914d8ed5",tooltip="Read object. "];
+  Node12676 -> Node12668 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12676 -> Node12675 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12667 -> Node12673 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

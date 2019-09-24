@@ -1,0 +1,21 @@
+digraph "sync"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node322 [label="sync",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node322 -> Node323 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node323 [label="forAllConstIter",height=0.2,width=0.4,color="red",URL="$a38141.html#ae21e2836509b0fa7f7cedf6493b11b09"];
+  Node322 -> Node625 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node625 [label="Foam::HashSet::insert",height=0.2,width=0.4,color="black",URL="$a25690.html#a49f0753d9652681fc3a81f59951a0ad7",tooltip="Insert a new entry. "];
+  Node322 -> Node433 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node433 [label="Foam::primitiveMesh\l::nPoints",height=0.2,width=0.4,color="black",URL="$a27530.html#a1c886a784a597459dbf2d9470798e9dd"];
+  Node322 -> Node488 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node488 [label="Foam::HashTable\< regIOobject\l *\>::size",height=0.2,width=0.4,color="black",URL="$a25702.html#a47b3bf30da1eb3ab8076b5fbe00e0494",tooltip="Return number of elements in table. "];
+  Node322 -> Node626 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node626 [label="Foam::syncTools::syncPointList",height=0.2,width=0.4,color="red",URL="$a27502.html#a197ed77a9101bdfb37253bd3f507c017",tooltip="Synchronize values on all mesh points. "];
+  Node626 -> Node433 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node322 -> Node593 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node593 [label="Foam::HashTable::transfer",height=0.2,width=0.4,color="black",URL="$a25702.html#a26883d0cdd71dc6200b11fa35ef0c0e4",tooltip="Transfer the contents of the argument table into this table. "];
+}

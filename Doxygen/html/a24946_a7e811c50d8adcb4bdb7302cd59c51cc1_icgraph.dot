@@ -1,0 +1,14 @@
+digraph "AMI"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node975 [label="AMI",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node975 -> Node976 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node976 [label="Foam::cyclicAMIFvPatch::AMI",height=0.2,width=0.4,color="black",URL="$a22810.html#a92c1ccfbe642dd644a870e88786f4de9",tooltip="Return a reference to the AMI interpolator. "];
+  Node975 -> Node977 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node977 [label="Foam::cyclicACMIFvPatch::AMI",height=0.2,width=0.4,color="black",URL="$a22806.html#a92c1ccfbe642dd644a870e88786f4de9",tooltip="Return a reference to the AMI interpolator. "];
+  Node975 -> Node978 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node978 [label="clone",height=0.2,width=0.4,color="black",URL="$a24946.html#afff6d4f7511147e0c8a4b8a5448296ec",tooltip="Construct and return a clone, resetting the face list. "];
+}

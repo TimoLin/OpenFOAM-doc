@@ -1,0 +1,15 @@
+digraph "wallFvPatch"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node0 [label="wallFvPatch",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="fvPatch",height=0.2,width=0.4,color="black",URL="$a22870.html",tooltip="A finiteVolume patch using a polyPatch and a fvBoundaryMesh. "];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="mappedVariableThicknessWall\lFvPatch",height=0.2,width=0.4,color="black",URL="$a28994.html",tooltip="Take thickness field and number of layers and returns deltaCoeffs as 2.0/thickness/nLayers. To be used with 1D thermo baffle. "];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="mappedWallFvPatch",height=0.2,width=0.4,color="black",URL="$a22850.html",tooltip="Foam::mappedWallFvPatch. "];
+  Node0 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="regionCoupledWallFvPatch",height=0.2,width=0.4,color="black",URL="$a22862.html",tooltip="Foam::regionCoupledWallFvPatch. "];
+}

@@ -1,0 +1,22 @@
+digraph "data"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1594 [label="data",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1594 -> Node1595 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1595 [label="Foam::patchDataWave\l::correct",height=0.2,width=0.4,color="black",URL="$a24962.html#a3ae44b28050c3aa494c1d8e18cf618c1",tooltip="Correct for mesh geom/topo changes. "];
+  Node1594 -> Node1596 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1596 [label="Foam::decompositionMethod\l::decompose",height=0.2,width=0.4,color="black",URL="$a28594.html#a9e5348f6d62778dc2721d9646d92c3d2"];
+  Node1594 -> Node1597 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1597 [label="Foam::List\< functionObject\l *\>::List",height=0.2,width=0.4,color="black",URL="$a25694.html#a14f9ee6bb196d1f585f55ea49dc15a0c",tooltip="Construct from Istream. "];
+  Node1594 -> Node1598 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1598 [label="Foam::UList::greater\l::operator()",height=0.2,width=0.4,color="black",URL="$a25986.html#a49202d8cfd6e19f3d43c028252050ed7"];
+  Node1594 -> Node1599 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1599 [label="Foam::PackedList\< 2\l \>::read",height=0.2,width=0.4,color="black",URL="$a25938.html#a223c472410515286cf5050b0b7b37396",tooltip="Clear list and read from stream. "];
+  Node1594 -> Node1600 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1600 [label="Foam::structuredRenumber\l::renumber",height=0.2,width=0.4,color="black",URL="$a29222.html#a43e03f902cbbeb39d4552a7e1cee9e73",tooltip="Return the order in which cells need to be visited, i.e. "];
+  Node1594 -> Node1601 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1601 [label="Foam::UList\< Foam::\lwordRe \>::writeEntry",height=0.2,width=0.4,color="black",URL="$a25698.html#ab40cda08e1d63badc1dbc7c31005601e",tooltip="Write the UList as a dictionary entry with keyword. "];
+}

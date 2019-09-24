@@ -1,0 +1,24 @@
+digraph "yPlus"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1143 [label="yPlus",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1143 -> Node1144 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1144 [label="Foam::GeometricField\l::boundaryField",height=0.2,width=0.4,color="black",URL="$a22434.html#a3c6c1a789b48ea0c5e8bff64f9c14f2d",tooltip="Return reference to GeometricBoundaryField. "];
+  Node1143 -> Node1145 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1145 [label="calcYPlus",height=0.2,width=0.4,color="red",URL="$a31286.html#ad8e694d783badd5959d78884358ffb9f",tooltip="Calculate yPLus. "];
+  Node1145 -> Node1146 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1146 [label="dimensionedInternalField",height=0.2,width=0.4,color="black",URL="$a38438.html#a942cd19121a46cdc649099eb27c74b18"];
+  Node1145 -> Node1147 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1147 [label="Foam::IOobject::groupName",height=0.2,width=0.4,color="black",URL="$a26142.html#ad5705e6da2a025ad75b4cf5d748d7d30"];
+  Node1145 -> Node1149 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1149 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node1145 -> Node1143 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1143 -> Node1146 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1143 -> Node1147 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1143 -> Node1149 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1143 -> Node1510 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1510 [label="Foam::turbulenceModel::U",height=0.2,width=0.4,color="black",URL="$a31314.html#a536d168d7b335fe81f506f232b5b4872",tooltip="Access function to velocity field. "];
+}

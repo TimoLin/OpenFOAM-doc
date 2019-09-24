@@ -1,0 +1,15 @@
+digraph "correctPoints"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node431 [label="correctPoints",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node431 -> Node432 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node432 [label="Foam::motionSmootherAlgo\l::modifyMotionPoints",height=0.2,width=0.4,color="red",URL="$a21550.html#aef244a2351549fb12f3375a347b0cda3",tooltip="Apply optional point constraint (2d correction) "];
+  Node431 -> Node435 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node435 [label="required",height=0.2,width=0.4,color="black",URL="$a25542.html#ac38c1ad34b4444b1e2334d69f9e2cf51",tooltip="Is 2D correction required, i.e. is the mesh a wedge or slab. "];
+  Node435 -> Node432 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node431 -> Node436 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node436 [label="Foam::motionSolver\l::twoDCorrectPoints",height=0.2,width=0.4,color="red",URL="$a21578.html#ab1ef1502d59e9cebac6ce0c412f54a19"];
+}

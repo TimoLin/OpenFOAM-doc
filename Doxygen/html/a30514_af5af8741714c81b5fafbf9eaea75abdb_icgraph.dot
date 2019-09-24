@@ -1,0 +1,21 @@
+digraph "read"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node130 [label="read",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node130 -> Node131 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node131 [label="Foam::viscosityModels\l::Newtonian::read",height=0.2,width=0.4,color="red",URL="$a30506.html#a0efbb4e476c5a62dfa214c481566481c",tooltip="Read transportProperties dictionary. "];
+  Node130 -> Node134 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node134 [label="Foam::viscosityModels\l::CrossPowerLaw::read",height=0.2,width=0.4,color="red",URL="$a30498.html#a0efbb4e476c5a62dfa214c481566481c",tooltip="Read transportProperties dictionary. "];
+  Node130 -> Node137 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node137 [label="Foam::viscosityModels\l::HerschelBulkley::read",height=0.2,width=0.4,color="red",URL="$a30502.html#a0efbb4e476c5a62dfa214c481566481c",tooltip="Read transportProperties dictionary. "];
+  Node130 -> Node140 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node140 [label="Foam::viscosityModels\l::powerLaw::read",height=0.2,width=0.4,color="red",URL="$a30510.html#a0efbb4e476c5a62dfa214c481566481c",tooltip="Read transportProperties dictionary. "];
+  Node130 -> Node143 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node143 [label="Foam::viscosityModels\l::BirdCarreau::read",height=0.2,width=0.4,color="red",URL="$a30494.html#a0efbb4e476c5a62dfa214c481566481c",tooltip="Read transportProperties dictionary. "];
+  Node130 -> Node146 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node146 [label="viscosityProperties",height=0.2,width=0.4,color="black",URL="$a30514.html#ab0da91b923fbe3b57433e806f8883acf",tooltip="Return the phase transport properties dictionary. "];
+  Node146 -> Node130 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

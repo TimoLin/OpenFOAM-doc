@@ -1,0 +1,35 @@
+digraph "overlaps"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node956 [label="overlaps",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node956 -> Node957 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node957 [label="Foam::tetOverlapVolume\l::cellCellOverlapMinDecomp",height=0.2,width=0.4,color="red",URL="$a25482.html#adada80d4c5dabf1bb76d53a6d1c984c3",tooltip="Return true if olverlap volume is greater than threshold. "];
+  Node956 -> Node961 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node961 [label="Foam::tetOverlapVolume\l::cellCellOverlapVolumeMinDecomp",height=0.2,width=0.4,color="red",URL="$a25482.html#a24b9e4efb85a09262259b15b153775b6",tooltip="Calculates the overlap volume. "];
+  Node961 -> Node957 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node956 -> Node963 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node963 [label="Foam::indexedOctree\l\< Foam::treeDataFace\l \>::findLine",height=0.2,width=0.4,color="black",URL="$a25026.html#af654b41bf89d6e3d50c31030ec6bcb24"];
+  Node956 -> Node964 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node964 [label="Foam::dynamicIndexedOctree\l\< Foam::dynamicTreeDataPoint\l \>::findNearest",height=0.2,width=0.4,color="black",URL="$a25610.html#ae090443cbaa3565bc6dc0b28e77793a8",tooltip="Low level: calculate nearest starting from subnode. "];
+  Node956 -> Node965 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node965 [label="Foam::indexedOctree\l\< Foam::treeDataFace\l \>::findNearest",height=0.2,width=0.4,color="black",URL="$a25026.html#abd1691a3fc13b01ad68fb3ca35ec22d8",tooltip="Low level: calculate nearest starting from subnode. "];
+  Node956 -> Node960 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node960 [label="Foam::meshToMeshMethod\l::maskCells",height=0.2,width=0.4,color="black",URL="$a29250.html#a783c8adc8185cd55aa48b3a028ae67fd",tooltip="Return src cell IDs for the overlap region. "];
+  Node956 -> Node966 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node966 [label="Foam::NamedEnum\< direction\lType, 3 \>::names",height=0.2,width=0.4,color="black",URL="$a25998.html#a7350da3a0edd92cd11e6c479c9967dc8"];
+  Node956 -> Node967 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node967 [label="Foam::searchableBox\l::overlaps",height=0.2,width=0.4,color="black",URL="$a25210.html#a08f2ea4b6bed9e040b0e13009dfcc7b3",tooltip="Does any part of the surface overlap the supplied bound box? "];
+  Node956 -> Node968 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node968 [label="Foam::searchableSphere\l::overlaps",height=0.2,width=0.4,color="red",URL="$a25230.html#a3551e1f2a2837eb8b79493199f8e89f8",tooltip="Does any part of the surface overlap the supplied bound box? "];
+  Node956 -> Node970 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node970 [label="Foam::treeDataFace\l::overlaps",height=0.2,width=0.4,color="red",URL="$a25042.html#a1915c0938452ba641c6ccf39df02dfad",tooltip="Does (bb of) shape at index overlap bb. "];
+  Node956 -> Node974 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node974 [label="Foam::treeDataCell\l::overlaps",height=0.2,width=0.4,color="red",URL="$a25630.html#a1915c0938452ba641c6ccf39df02dfad",tooltip="Does (bb of) shape at index overlap bb. "];
+  Node956 -> Node978 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node978 [label="Foam::treeDataPrimitivePatch\l::overlaps",height=0.2,width=0.4,color="red",URL="$a25066.html#a1915c0938452ba641c6ccf39df02dfad",tooltip="Does shape at index overlap bb. "];
+  Node956 -> Node986 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node986 [label="Foam::indexedOctree\l\< Foam::treeDataFace\l \>::overlaps",height=0.2,width=0.4,color="black",URL="$a25026.html#a4ca2bef7dbdb103c2f7f02e34e28b967",tooltip="Helper: does bb intersect a sphere around sample? Or is any. "];
+}

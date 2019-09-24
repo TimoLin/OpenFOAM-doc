@@ -1,0 +1,17 @@
+digraph "markZone"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node826 [label="markZone",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node826 -> Node827 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node827 [label="cleanup",height=0.2,width=0.4,color="black",URL="$a30598.html#a71fb3698346366a55da6e64bdf82a89f",tooltip="Remove non-valid triangles. "];
+  Node827 -> Node828 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node828 [label="patches",height=0.2,width=0.4,color="black",URL="$a30598.html#adf6d6f4f6576d5bd544f3ba396fa3946"];
+  Node826 -> Node829 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node829 [label="markZones",height=0.2,width=0.4,color="red",URL="$a30598.html#a48697e668dcb52e0c3231e9a75ddb8cc",tooltip="(size and) fills faceZone with zone of face. Zone is area "];
+  Node829 -> Node826 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node829 -> Node828 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node826 -> Node828 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

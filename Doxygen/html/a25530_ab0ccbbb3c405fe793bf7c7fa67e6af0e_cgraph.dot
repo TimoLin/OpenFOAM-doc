@@ -1,0 +1,27 @@
+digraph "maxTreeDepth"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node198 [label="maxTreeDepth",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node198 -> Node199 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node199 [label="calcInside",height=0.2,width=0.4,color="red",URL="$a25530.html#a4014a90e0f0782c8e77cc0f682305a2f",tooltip="Calculate for each searchPoint inside/outside status. "];
+  Node199 -> Node222 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node222 [label="findNearest",height=0.2,width=0.4,color="red",URL="$a25530.html#af5a3600f2733be5044e5a922676eb346"];
+  Node222 -> Node225 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node225 [label="nearest",height=0.2,width=0.4,color="red",URL="$a25530.html#a3a96dab9a48956014f4a324b1bbc263d",tooltip="Calculate nearest point on surface for single searchPoint. Returns. "];
+  Node225 -> Node227 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node227 [label="findLine",height=0.2,width=0.4,color="red",URL="$a25530.html#a9a2507891d1eabd4513fc05da267158f"];
+  Node227 -> Node228 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node228 [label="findLineAny",height=0.2,width=0.4,color="red",URL="$a25530.html#a9d3dd2d4f8a82670f84a4fd9356b2512"];
+  Node228 -> Node230 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node230 [label="findLineAll",height=0.2,width=0.4,color="red",URL="$a25530.html#a34032d135c7ca49c692751bb148727f6",tooltip="Calculate all intersections from start to end. "];
+  Node198 -> Node227 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node198 -> Node230 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node198 -> Node228 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node198 -> Node222 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node198 -> Node225 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node198 -> Node236 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node236 [label="samples",height=0.2,width=0.4,color="black",URL="$a38939.html#a14d38e99c2caf50fd9f0aa0d5ef88e3b"];
+}

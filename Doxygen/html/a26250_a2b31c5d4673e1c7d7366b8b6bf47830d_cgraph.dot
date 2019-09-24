@@ -1,0 +1,41 @@
+digraph "Pstream"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="Pstream",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="combineGather",height=0.2,width=0.4,color="red",URL="$a26250.html#aedeba5b3a63f833796d48d904dc39b63"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="Foam::T",height=0.2,width=0.4,color="red",URL="$a21124.html#ae57fda0abb14bb0944947c463c6e09d4"];
+  Node0 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16 [label="combineScatter",height=0.2,width=0.4,color="red",URL="$a26250.html#a2eea2c110e936c30c8f66b7326c69be5",tooltip="Scatter data. Reverse of combineGather. "];
+  Node16 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node0 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17 [label="exchange",height=0.2,width=0.4,color="red",URL="$a26250.html#a2d2ace3cba51ad6d7e3b88d34fa236c3",tooltip="Exchange data. Sends sendData, receives into recvData, sets. "];
+  Node17 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node0 -> Node63 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node63 [label="gather",height=0.2,width=0.4,color="red",URL="$a26250.html#ac820bc187d8204d9063ce1f77dcf87da",tooltip="Gather data. Apply bop to combine Value. "];
+  Node63 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node0 -> Node64 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node64 [label="gatherList",height=0.2,width=0.4,color="red",URL="$a26250.html#afbdf64fb42cd760690d51a9a321792d9",tooltip="Gather data but keep individual values separate. "];
+  Node0 -> Node68 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node68 [label="listCombineGather",height=0.2,width=0.4,color="red",URL="$a26250.html#a8c0e5044dc4a942cf62b06797c3a743f"];
+  Node0 -> Node69 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node69 [label="listCombineScatter",height=0.2,width=0.4,color="red",URL="$a26250.html#adfd4915b68ab7181dccb847976286e56",tooltip="Scatter data. Reverse of combineGather. "];
+  Node0 -> Node70 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node70 [label="mapCombineGather",height=0.2,width=0.4,color="red",URL="$a26250.html#ab0d015456e1aebecc6f0e06668de1437"];
+  Node0 -> Node71 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node71 [label="mapCombineScatter",height=0.2,width=0.4,color="red",URL="$a26250.html#a8989a48f795cff7dd8f59d00c094e484",tooltip="Scatter data. Reverse of combineGather. "];
+  Node0 -> Node72 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node72 [label="Foam::UPstream::msgType",height=0.2,width=0.4,color="black",URL="$a26270.html#ae5b8fe6652f6320aa6c7f5c44b6f01b7",tooltip="Message tag of standard messages. "];
+  Node0 -> Node73 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node73 [label="scatter",height=0.2,width=0.4,color="red",URL="$a26250.html#a00bc7d5a0b660cfa53523561af48def2",tooltip="Scatter data. Distribute without modification. Reverse of gather. "];
+  Node73 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node0 -> Node74 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node74 [label="scatterList",height=0.2,width=0.4,color="red",URL="$a26250.html#a23c38ee54f04c9d53a327db9edbdb7f0",tooltip="Scatter data. Reverse of gatherList. "];
+  Node0 -> Node78 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node78 [label="Foam::DynamicList::\lsetCapacity",height=0.2,width=0.4,color="black",URL="$a25890.html#a3769bf93f15609625d62b693c566bcd1",tooltip="Alter the size of the underlying storage. "];
+  Node0 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

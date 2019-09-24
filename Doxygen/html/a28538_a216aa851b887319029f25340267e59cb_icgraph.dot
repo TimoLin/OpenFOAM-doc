@@ -1,0 +1,23 @@
+digraph "clear"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node83 [label="clear",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node83 -> Node84 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node84 [label="Foam::wordRe::clear",height=0.2,width=0.4,color="black",URL="$a28262.html#ac8bb3912a3ce86b15842e79d0b421204",tooltip="Clear string and precompiled regular expression. "];
+  Node83 -> Node85 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node85 [label="Foam::wordRe::compile",height=0.2,width=0.4,color="black",URL="$a28262.html#a11b21f77f07ca14719c9b66eb04649d7",tooltip="Possibly compile the regular expression, with greater control. "];
+  Node83 -> Node86 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node86 [label="ngroups",height=0.2,width=0.4,color="red",URL="$a28538.html#a07d1b4830531b3d9149273026e4e5aa6",tooltip="Return the number of (groups) "];
+  Node83 -> Node88 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node88 [label="Foam::wordRe::operator=",height=0.2,width=0.4,color="black",URL="$a28262.html#a395cc696a27ba5686e78fb76ff0e1ad9",tooltip="Assign copy. "];
+  Node83 -> Node89 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node89 [label="set",height=0.2,width=0.4,color="black",URL="$a28538.html#ac721bd3ae303c4a7f63a10f2c7be6c9c",tooltip="Compile pattern into a regular expression, optionally ignoring. "];
+  Node89 -> Node85 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node83 -> Node90 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node90 [label="Foam::wordRe::uncompile",height=0.2,width=0.4,color="black",URL="$a28262.html#a1fb03e7cbc65ba30bf06c43d690d5edd",tooltip="Frees precompiled regular expression, making wordRe a literal. "];
+  Node83 -> Node91 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node91 [label="~regExp",height=0.2,width=0.4,color="black",URL="$a28538.html#ac521a2a5042ecf39f83ae0c66ccefcd4",tooltip="Destructor. "];
+}

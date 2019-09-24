@@ -1,0 +1,15 @@
+digraph "triangulate"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2972 [label="triangulate",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2972 -> Node2973 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2973 [label="extraEdges",height=0.2,width=0.4,color="black",URL="$a21430.html#a9cfb4135bbc6e583439d6bc0a9ab0a81",tooltip="Indices into edges of additional edges. "];
+  Node2972 -> Node2974 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2974 [label="getNTris",height=0.2,width=0.4,color="black",URL="$a21430.html#adcc9597c256145a91322cdf8651888fe",tooltip="Simple triangulation of face subset. TotalNTris is total number. "];
+  Node2972 -> Node2975 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2975 [label="writeTriSurface",height=0.2,width=0.4,color="black",URL="$a21430.html#a0c63d9c1e5332d6903632f01589a53e5",tooltip="Write to file. "];
+  Node2975 -> Node2973 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

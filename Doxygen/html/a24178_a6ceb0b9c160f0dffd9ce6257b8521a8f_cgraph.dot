@@ -1,0 +1,36 @@
+digraph "patchInteractionDataList"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node5 [label="patchInteractionDataList",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="Foam::DynamicList::\lappend",height=0.2,width=0.4,color="black",URL="$a25890.html#a7b67b42af715604376ad63a681dee6d8",tooltip="Append an element at the end of the list. "];
+  Node5 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="applyToPatch",height=0.2,width=0.4,color="black",URL="$a24178.html#a1dc302e1a069c73e881555feae3ef168",tooltip="Return label of group containing patch id. "];
+  Node5 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="Foam::polyMesh::boundaryMesh",height=0.2,width=0.4,color="black",URL="$a27410.html#a9f2b68c134340291eda6197f47f25484",tooltip="Return boundary mesh. "];
+  Node5 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="Foam::polyPatch::coupled",height=0.2,width=0.4,color="black",URL="$a27478.html#a39c01db0e66d00fe0621a0c7e5fc4ead",tooltip="Return true if this patch is geometrically coupled (i.e. faces and. "];
+  Node5 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="Foam::UList::empty",height=0.2,width=0.4,color="black",URL="$a25698.html#a644718bb2fb240de962dc3c9a1fdf0dc",tooltip="Return true if the UList is empty (ie, size() is zero). "];
+  Node5 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node5 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13 [label="Foam::exit",height=0.2,width=0.4,color="red",URL="$a21124.html#a06ca7250d8e89caf05243ec094843642"];
+  Node5 -> Node58 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node58 [label="Foam::findStrings",height=0.2,width=0.4,color="red",URL="$a21124.html#a24d78dbd0055269ca2a05f27a1edebff",tooltip="Return true if string matches one of the regular expressions. "];
+  Node5 -> Node64 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node64 [label="Foam::patchIdentifier\l::index",height=0.2,width=0.4,color="black",URL="$a27122.html#a4a438520bb14406481732edc13c119c7",tooltip="Return the index of this patch in the boundaryMesh. "];
+  Node5 -> Node65 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node65 [label="Foam::patchIdentifier\l::name",height=0.2,width=0.4,color="black",URL="$a27122.html#acc80e00a8ac919288fb55bd14cc88bf6",tooltip="Return name. "];
+  Node5 -> Node66 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node66 [label="Foam::polyBoundaryMesh\l::names",height=0.2,width=0.4,color="red",URL="$a27402.html#ada6aa4fc7adb36994dc5e27d319a3acc",tooltip="Return a list of patch names. "];
+  Node5 -> Node68 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node68 [label="patchInteractionDataList",height=0.2,width=0.4,color="black",URL="$a24178.html#aa4a1e806290a1314bfed80834b65de80",tooltip="Construct null. "];
+  Node5 -> Node69 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node69 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node5 -> Node70 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node70 [label="Foam::List::transfer",height=0.2,width=0.4,color="black",URL="$a25694.html#a25ad1d2084d16b234b0cf91c07e832c0",tooltip="Transfer the contents of the argument List into this list. "];
+}

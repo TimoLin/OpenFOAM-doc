@@ -1,0 +1,14 @@
+digraph "distribute"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1724 [label="distribute",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1724 -> Node1725 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1725 [label="Foam::meshRefinement\l::balance",height=0.2,width=0.4,color="red",URL="$a24662.html#a64feb4b7a4116efb2111d5adf88b50a3",tooltip="Redecompose according to cell count. "];
+  Node1724 -> Node1732 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1732 [label="countCells",height=0.2,width=0.4,color="red",URL="$a21454.html#aa57d1bab8fea555d3ee75a5d2e6411cd",tooltip="Helper function: count cells per processor in wanted distribution. "];
+  Node1732 -> Node1725 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1732 -> Node1724 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

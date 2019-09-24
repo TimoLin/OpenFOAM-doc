@@ -1,0 +1,14 @@
+digraph "Taverage"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node22 [label="Taverage",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node22 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23 [label="Foam::SprayParcel::\lcalcAtomization",height=0.2,width=0.4,color="red",URL="$a24534.html#a56afb8fb801bc0e2fc6afa3eb81d2cf2",tooltip="Correct parcel properties according to atomization model. "];
+  Node22 -> Node29 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node29 [label="Foam::AtomizationModel\l\< Foam::SprayCloud\< Foam\l::DsmcCloud \> \>::clone",height=0.2,width=0.4,color="black",URL="$a24522.html#a3c5dc41485f2037aa988d99e90266e94",tooltip="Construct and return a clone. "];
+  Node22 -> Node30 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node30 [label="Foam::AtomizationModel\l\< Foam::SprayCloud\< Foam\l::DsmcCloud \> \>::initLiquidCore",height=0.2,width=0.4,color="black",URL="$a24522.html#a97b21d092f8f8d11186002fb1658dd4c",tooltip="initial value of liquidCore "];
+}

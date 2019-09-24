@@ -1,0 +1,15 @@
+digraph "deregister"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node5 [label="deregister",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="Foam::DLListBase::remove",height=0.2,width=0.4,color="red",URL="$a25806.html#a261132ea9ca45a3412fc3388d66a99a0",tooltip="Remove and return element. "];
+  Node5 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="Foam::DLListBase::removeHead",height=0.2,width=0.4,color="black",URL="$a25806.html#aa3a15a64d327a1310d7d074c727d0ae1",tooltip="Remove and return head. "];
+  Node5 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="Foam::DLListBase::replace",height=0.2,width=0.4,color="red",URL="$a25806.html#a558d4ce342e507544899dbc09f280bda",tooltip="Replace oldLink with newLink and return element. "];
+  Node9 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

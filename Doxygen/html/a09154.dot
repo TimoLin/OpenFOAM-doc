@@ -1,0 +1,18 @@
+digraph "src/OpenFOAM/db/IOstreams/Pstreams/UIPstream.H"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node77 [label="src/OpenFOAM/db/IOstreams\l/Pstreams/UIPstream.H",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node77 -> Node78 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node78 [label="src/OpenFOAM/db/IOstreams\l/Pstreams/IPstream.H",height=0.2,width=0.4,color="red",URL="$a09122.html"];
+  Node78 -> Node82 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node82 [label="src/OpenFOAM/db/IOstreams\l/Pstreams/gatherScatter.C",height=0.2,width=0.4,color="black",URL="$a09113.html",tooltip="Gather data from all processors onto single processor according to some communication schedule (usual..."];
+  Node77 -> Node82 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node77 -> Node86 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node86 [label="src/OpenFOAM/db/IOstreams\l/Pstreams/UIPstream.C",height=0.2,width=0.4,color="black",URL="$a09149.html"];
+  Node77 -> Node87 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node87 [label="src/Pstream/dummy/UIPread.C",height=0.2,width=0.4,color="black",URL="$a39659.html",tooltip="Read from UIPstream. "];
+  Node77 -> Node88 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node88 [label="src/Pstream/mpi/UIPread.C",height=0.2,width=0.4,color="black",URL="$a39662.html",tooltip="Read from UIPstream. "];
+}

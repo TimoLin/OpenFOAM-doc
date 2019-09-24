@@ -1,0 +1,20 @@
+digraph "PhaseChangeModel&lt; CloudType &gt;"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="PhaseChangeModel\< CloudType \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="CloudSubModelBase\<\l CloudType \>",height=0.2,width=0.4,color="red",URL="$a24006.html",tooltip="Base class for cloud sub-models. "];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="LiquidEvaporation\<\l CloudType \>",height=0.2,width=0.4,color="black",URL="$a24314.html",tooltip="Liquid evaporation model. "];
+  Node0 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="LiquidEvaporationBoil\l\< CloudType \>",height=0.2,width=0.4,color="black",URL="$a24318.html",tooltip="Liquid evaporation model. "];
+  Node0 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="NoPhaseChange\< CloudType \>",height=0.2,width=0.4,color="black",URL="$a24322.html",tooltip="Dummy phase change model for &#39;none&#39;. "];
+  Node0 -> Node6 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< Foam::ReactingCloud\l\< CloudType \> \>" ,fontname="FreeSans"];
+  Node6 [label="PhaseChangeModel\< Foam\l::ReactingCloud\< CloudType \> \>",height=0.2,width=0.4,color="black",URL="$a23810.html"];
+  Node0 -> Node7 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< Foam::ReactingCloud\l\< Foam::DsmcCloud \> \>" ,fontname="FreeSans"];
+  Node7 [label="PhaseChangeModel\< Foam\l::ReactingCloud\< Foam\l::DsmcCloud \> \>",height=0.2,width=0.4,color="black",URL="$a23810.html"];
+}

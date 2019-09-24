@@ -1,0 +1,19 @@
+digraph "elementTypes"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node614 [label="elementTypes",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node614 -> Node615 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node615 [label="reconstruct",height=0.2,width=0.4,color="red",URL="$a21306.html#a7dd013b2d8fc94af2649cccf9491dfcc",tooltip="Reconstruct part characteristics (eg, element types) from Istream. "];
+  Node614 -> Node619 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node619 [label="writeData",height=0.2,width=0.4,color="red",URL="$a21306.html#a25900c366cb0a98321899fde6c66dab7",tooltip="write reconstruction information for the object "];
+  Node614 -> Node622 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node622 [label="writeGeometry",height=0.2,width=0.4,color="black",URL="$a21306.html#ad366d45808e1044938e86223d1fc7859",tooltip="Helper: write geometry given the pointField. "];
+  Node614 -> Node623 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node623 [label="writeScalarField",height=0.2,width=0.4,color="red",URL="$a21306.html#a8cfd135436f8106a467405eff79e702c",tooltip="write scalar field "];
+  Node614 -> Node629 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node629 [label="writeVectorField",height=0.2,width=0.4,color="red",URL="$a21306.html#a328a6a37fbfa6b10e7a79662dcfc803e",tooltip="write vector field components "];
+  Node629 -> Node623 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

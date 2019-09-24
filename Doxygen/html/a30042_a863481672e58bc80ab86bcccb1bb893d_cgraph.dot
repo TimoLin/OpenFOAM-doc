@@ -1,0 +1,26 @@
+digraph "Sh"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1025 [label="Sh",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1025 -> Node1026 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1026 [label="Foam::basicThermo::Cpv",height=0.2,width=0.4,color="black",URL="$a29734.html#a8ef6b02f0ee51039c3741cf05f1a6a7c",tooltip="Heat capacity at constant pressure/volume [J/kg/K]. "];
+  Node1025 -> Node1027 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1027 [label="Foam::basicThermo::he",height=0.2,width=0.4,color="black",URL="$a29734.html#a662d59ddd0d78a76cd9838b63db0dc27",tooltip="Enthalpy/Internal energy [J/kg]. "];
+  Node1025 -> Node1028 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1028 [label="Foam::pow3",height=0.2,width=0.4,color="red",URL="$a21124.html#a2e8f5d970ee4fb466536c3c46bae91fe"];
+  Node1025 -> Node1032 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1032 [label="Rp",height=0.2,width=0.4,color="black",URL="$a30042.html#ae4246644477ec623cc2c49d14dbe2709",tooltip="Source term component (for power of T^4) "];
+  Node1025 -> Node1033 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1033 [label="Ru",height=0.2,width=0.4,color="black",URL="$a30042.html#ab87afb2045920c3917ad5c66d44a2bfa",tooltip="Source term component (constant) "];
+  Node1025 -> Node1034 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1034 [label="Foam::fvm::Sp",height=0.2,width=0.4,color="black",URL="$a21135.html#a67e0938495ebeac7ad57361957720554"];
+  Node1025 -> Node1035 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1035 [label="ST",height=0.2,width=0.4,color="black",URL="$a30042.html#a7effa79bfe78154a74780d1b775abb3c",tooltip="Temperature source term. "];
+  Node1035 -> Node1033 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1035 -> Node1034 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1035 -> Node1032 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1035 -> Node1028 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

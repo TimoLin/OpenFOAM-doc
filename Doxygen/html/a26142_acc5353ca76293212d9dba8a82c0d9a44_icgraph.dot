@@ -1,0 +1,14 @@
+digraph "readHeader"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node21679 [label="readHeader",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node21679 -> Node21680 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21680 [label="objectPath",height=0.2,width=0.4,color="red",URL="$a26142.html#a3a7ece5c1251c6be1f7812d4dba5fb7a",tooltip="Return complete path + object name. "];
+  Node21679 -> Node21836 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21836 [label="Foam::fileFormats::\lextendedEdgeMeshFormat::read",height=0.2,width=0.4,color="red",URL="$a21790.html#a464ebd67acbdff0014d4dae69e3ec4be",tooltip="Read from file. "];
+  Node21679 -> Node21839 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21839 [label="Foam::fileFormats::\ledgeMeshFormat::read",height=0.2,width=0.4,color="black",URL="$a21758.html#a464ebd67acbdff0014d4dae69e3ec4be",tooltip="Read from file. "];
+}

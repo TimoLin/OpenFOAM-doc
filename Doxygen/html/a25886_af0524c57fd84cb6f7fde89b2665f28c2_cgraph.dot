@@ -1,0 +1,16 @@
+digraph "Distribution"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3 [label="Distribution",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="binWidth",height=0.2,width=0.4,color="black",URL="$a25886.html#ae0774993efd12bcba4fb1101bfabecc9",tooltip="Return the bin width. "];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="d",height=0.2,width=0.4,color="black",URL="$a38951.html#aa182a9055736468dd160f12649a01fd1"];
+  Node3 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="Distribution",height=0.2,width=0.4,color="black",URL="$a25886.html#a97e7a46e54c1954b71dbf6e135c469ac",tooltip="Construct null. "];
+  Node3 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="listStarts",height=0.2,width=0.4,color="black",URL="$a25886.html#a60b5a7a0fdfa3f5af23e7de3ad1b9bb7",tooltip="Return the List start bin indices. "];
+}

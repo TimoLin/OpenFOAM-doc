@@ -1,0 +1,20 @@
+digraph "transportProperties"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3 [label="transportProperties",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="Foam::forces::devRhoReff",height=0.2,width=0.4,color="black",URL="$a28830.html#aedf05483d3f92845e23b6dae794b8712",tooltip="Return the effective viscous stress (laminar + turbulent). "];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="forAll",height=0.2,width=0.4,color="black",URL="$a39023.html#af0cf7e16280edc6e8e8554bb4addadce"];
+  Node3 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="if",height=0.2,width=0.4,color="black",URL="$a15950.html#a20319f1221a4cd6a165ff5c1c5323080"];
+  Node3 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="Foam::forces::mu",height=0.2,width=0.4,color="black",URL="$a28830.html#a61af64ec81cce6c587b942b6403ea7c6",tooltip="Dynamic viscosity field. "];
+  Node3 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="Foam::incompressible\l::alphatJayatillekeWallFunction\lFvPatchScalarField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a30950.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node3 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="Foam::incompressible\l::turbulentHeatFluxTemperature\lFvPatchScalarField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a31094.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+}

@@ -1,0 +1,17 @@
+digraph "add"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node121 [label="add",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node121 -> Node122 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node122 [label="Foam::component",height=0.2,width=0.4,color="red",URL="$a21124.html#a38788135ad21a6daaf3af2a761b33508"];
+  Node121 -> Node124 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node124 [label="index",height=0.2,width=0.4,color="red",URL="$a25886.html#afc2c6ca23397ec9240c9974ac5c7d0a9",tooltip="Return the appropriate List index for the given bin index. "];
+  Node121 -> Node131 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node131 [label="Foam::neg",height=0.2,width=0.4,color="red",URL="$a21124.html#aad5b44612e484eb87fcea79a3d19ee04"];
+  Node121 -> Node135 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node135 [label="normalised",height=0.2,width=0.4,color="red",URL="$a25886.html#afca6f7c7669c2f125c5b4760ed9ee1c2",tooltip="Return the normalised distribution (probability density) "];
+  Node135 -> Node122 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

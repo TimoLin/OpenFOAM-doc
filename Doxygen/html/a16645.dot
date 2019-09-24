@@ -1,0 +1,28 @@
+digraph "src/thermophysicalModels/specie/thermo/janaf/janafThermo.H"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node87 [label="src/thermophysicalModels\l/specie/thermo/janaf/janafThermo.H",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node87 -> Node88 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node88 [label="src/thermophysicalModels\l/basic/psiThermo/psiThermos.C",height=0.2,width=0.4,color="black",URL="$a15464.html"];
+  Node87 -> Node89 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node89 [label="src/thermophysicalModels\l/basic/rhoThermo/rhoThermos.C",height=0.2,width=0.4,color="black",URL="$a15479.html"];
+  Node87 -> Node90 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node90 [label="src/thermophysicalModels\l/reactionThermo/psiReactionThermo\l/psiReactionThermos.C",height=0.2,width=0.4,color="black",URL="$a16223.html"];
+  Node87 -> Node91 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node91 [label="src/thermophysicalModels\l/reactionThermo/psiuReactionThermo\l/psiuReactionThermos.C",height=0.2,width=0.4,color="black",URL="$a16238.html"];
+  Node87 -> Node92 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node92 [label="src/thermophysicalModels\l/reactionThermo/rhoReactionThermo\l/rhoReactionThermos.C",height=0.2,width=0.4,color="black",URL="$a16247.html"];
+  Node87 -> Node93 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node93 [label="src/thermophysicalModels\l/specie/include/thermoPhysicsTypes.H",height=0.2,width=0.4,color="red",URL="$a16463.html",tooltip="Type definitions for thermo-physics models. "];
+  Node93 -> Node90 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node93 -> Node92 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node87 -> Node110 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node110 [label="src/thermophysicalModels\l/specie/reaction/reactions\l/makeReaction.H",height=0.2,width=0.4,color="red",URL="$a16547.html",tooltip="Macros for instantiating reactions on given thermo packages. "];
+  Node87 -> Node111 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node111 [label="src/thermophysicalModels\l/specie/thermo/janaf/janafThermo.C",height=0.2,width=0.4,color="black",URL="$a16640.html"];
+  Node87 -> Node112 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node112 [label="src/thermophysicalModels\l/specie/thermo/janaf/janafThermoI.H",height=0.2,width=0.4,color="black",URL="$a16646.html"];
+  Node112 -> Node87 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

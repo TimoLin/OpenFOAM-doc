@@ -1,0 +1,28 @@
+digraph "boundingSpheres"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1286 [label="boundingSpheres",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1286 -> Node1287 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1287 [label="coordinates",height=0.2,width=0.4,color="red",URL="$a25258.html#ad938704f9b1700904bb272de893ceacb",tooltip="Get representative set of element coordinates. "];
+  Node1287 -> Node1286 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1287 -> Node1289 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1289 [label="Foam::PrimitivePatch\l\< labelledTri, ::Foam\l::List, pointField, point\l \>::points",height=0.2,width=0.4,color="black",URL="$a27538.html#aa3c7d968f31c88780c663876f64ef6a6",tooltip="Return reference to global points. "];
+  Node1286 -> Node1291 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1291 [label="Foam::magSqr",height=0.2,width=0.4,color="black",URL="$a21124.html#ae6fff2c6981e6d9618aa5038e69def6e"];
+  Node1286 -> Node1292 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1292 [label="Foam::max",height=0.2,width=0.4,color="black",URL="$a21124.html#ac993e906cf2774ae77e666bc24e81733"];
+  Node1286 -> Node1293 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1293 [label="Foam::UList::operator[]",height=0.2,width=0.4,color="black",URL="$a25698.html#a851e28f7788bbc82f5a4aa9f0efdefe4",tooltip="Return element of UList. "];
+  Node1286 -> Node1289 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1286 -> Node1294 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1294 [label="Foam::List::setSize",height=0.2,width=0.4,color="black",URL="$a25694.html#aedb985ffeaf1bdbfeccc2a8730405703",tooltip="Reset size of List. "];
+  Node1286 -> Node1295 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1295 [label="size",height=0.2,width=0.4,color="red",URL="$a25258.html#a03bc1200aac252c4d3e18657d700b71c",tooltip="Range of local indices that can be returned. "];
+  Node1295 -> Node1286 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1295 -> Node1287 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1286 -> Node1651 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1651 [label="Foam::sqr",height=0.2,width=0.4,color="red",URL="$a21124.html#a277dc11c581d53826ab5090b08f3b17b"];
+}

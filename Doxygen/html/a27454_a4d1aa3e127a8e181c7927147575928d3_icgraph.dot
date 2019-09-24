@@ -1,0 +1,31 @@
+digraph "neighbProcNo"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node400 [label="neighbProcNo",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node400 -> Node401 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node401 [label="Foam::processorCyclicPoly\lPatch::calcGeometry",height=0.2,width=0.4,color="black",URL="$a27458.html#a99ee15e7e7eff38649dece8470111742",tooltip="Calculate the patch geometry with externally. "];
+  Node400 -> Node402 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node402 [label="calcGeometry",height=0.2,width=0.4,color="black",URL="$a27454.html#a99ee15e7e7eff38649dece8470111742",tooltip="Calculate the patch geometry with externally. "];
+  Node400 -> Node403 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node403 [label="Foam::PointEdgeWave\l::countPatchType",height=0.2,width=0.4,color="black",URL="$a24858.html#a774d50194a0ab5809347d4eb20808ff6"];
+  Node400 -> Node404 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node404 [label="Foam::processorFvPatch\l::neighbProcNo",height=0.2,width=0.4,color="red",URL="$a22826.html#aec39d4012734e316110f2d070624fa71",tooltip="Return neigbour processor number. "];
+  Node400 -> Node406 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node406 [label="Foam::processorPointPatch\l::neighbProcNo",height=0.2,width=0.4,color="red",URL="$a27294.html#a4d1aa3e127a8e181c7927147575928d3",tooltip="Return neigbour processor number. "];
+  Node400 -> Node409 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node409 [label="Foam::fvMeshDistribute\l::printCoupleInfo",height=0.2,width=0.4,color="red",URL="$a21454.html#a0b2e9e5ba94679bbc5d807ecf02687e2",tooltip="Print some info on coupling data. "];
+  Node400 -> Node421 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node421 [label="Foam::FaceCellWave\l::setFaceInfo",height=0.2,width=0.4,color="red",URL="$a24814.html#a4dfc64d9c6a80650006ac5ab728f95b0",tooltip="Set initial changed faces. "];
+  Node400 -> Node454 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node454 [label="Foam::syncTools::syncBoundary\lFaceList",height=0.2,width=0.4,color="red",URL="$a27502.html#a1885668646afb3cf257512c56daa9b2f",tooltip="Synchronize values on boundary faces only. "];
+  Node400 -> Node643 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node643 [label="Foam::syncTools::syncEdgeMap",height=0.2,width=0.4,color="red",URL="$a27502.html#a154ac086463b8d7a0eed8c4539d3ab73",tooltip="Synchronize values on selected edges. "];
+  Node643 -> Node648 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node648 [label="Foam::syncTools::syncPointMap",height=0.2,width=0.4,color="red",URL="$a27502.html#a08bdf5c6403dd4367d1714c3d5b4145d",tooltip="Synchronize values on selected points. "];
+  Node400 -> Node562 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node562 [label="Foam::syncTools::syncFaceList",height=0.2,width=0.4,color="black",URL="$a27502.html#abbce369b7f4597ea87c95f9b17cb707f"];
+  Node400 -> Node648 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

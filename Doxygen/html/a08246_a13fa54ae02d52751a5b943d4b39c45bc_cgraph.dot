@@ -1,0 +1,26 @@
+digraph "dtris2"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node214 [label="dtris2",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node214 -> Node215 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node215 [label="d2vec_permute",height=0.2,width=0.4,color="red",URL="$a08246.html#a9bc37ec307ae322974e16f08cd449eb1"];
+  Node214 -> Node264 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node264 [label="d2vec_sort_heap_index_a",height=0.2,width=0.4,color="red",URL="$a08246.html#a428c974cfb7d2d3670c07ef8ca329476"];
+  Node214 -> Node266 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node266 [label="d_epsilon",height=0.2,width=0.4,color="black",URL="$a08246.html#adbb9227db329a95b79f56bc1bc599a36"];
+  Node214 -> Node267 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node267 [label="d_max",height=0.2,width=0.4,color="black",URL="$a08246.html#ab9cd1be2b32c8f3033da3cdae42d8a08"];
+  Node214 -> Node268 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node268 [label="lrline",height=0.2,width=0.4,color="red",URL="$a08246.html#a11552411107462b23641a61cc03058e2"];
+  Node268 -> Node267 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node214 -> Node274 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node274 [label="perm_inv",height=0.2,width=0.4,color="red",URL="$a08246.html#a806c769e1274d27767caa6125ced8729"];
+  Node214 -> Node276 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node276 [label="swapec",height=0.2,width=0.4,color="red",URL="$a08246.html#a8d9841a89931ae4f0e26f12076fbd241"];
+  Node214 -> Node285 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node285 [label="vbedg",height=0.2,width=0.4,color="red",URL="$a08246.html#a485d6ec02b7cc5657f342cd65d3770c2"];
+  Node285 -> Node268 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

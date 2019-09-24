@@ -1,0 +1,16 @@
+digraph "rhoEff"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node182 [label="rhoEff",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node182 -> Node183 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node183 [label="Foam::virtualMassModel::Cvm",height=0.2,width=0.4,color="black",URL="$a32202.html#aa8035092d352bc4d77626b7132e69928",tooltip="Virtual mass coefficient. "];
+  Node182 -> Node184 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node184 [label="Foam::IOobject::groupName",height=0.2,width=0.4,color="black",URL="$a26142.html#ad5705e6da2a025ad75b4cf5d748d7d30"];
+  Node182 -> Node185 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node185 [label="Foam::twoPhaseSystem\l::otherPhase",height=0.2,width=0.4,color="black",URL="$a32386.html#a21dba21eddc0728483db4760c08b11c6",tooltip="Return the phase not given as an argument. "];
+  Node182 -> Node186 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node186 [label="Foam::twoPhaseSystem\l::virtualMass",height=0.2,width=0.4,color="black",URL="$a32386.html#a74aa7f35d28d17db2666172dadf706b4",tooltip="Return the virtual mass model for the supplied phase. "];
+}

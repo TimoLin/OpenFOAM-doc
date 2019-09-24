@@ -1,0 +1,14 @@
+digraph "operator+="
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node388 [label="operator+=",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node388 -> Node389 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node389 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node388 -> Node390 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node390 [label="set",height=0.2,width=0.4,color="red",URL="$a28426.html#a8dcce865f47761c1850b984068d0b972",tooltip="Is the vector in the direction d set. "];
+  Node388 -> Node436 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node436 [label="Foam::sign",height=0.2,width=0.4,color="red",URL="$a21124.html#a221fd301d6c49c5bd4a6c0f5ccb893b2"];
+}

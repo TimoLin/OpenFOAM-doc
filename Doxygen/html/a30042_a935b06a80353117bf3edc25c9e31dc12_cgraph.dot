@@ -1,0 +1,25 @@
+digraph "radiation"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node955 [label="radiation",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node955 -> Node956 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node956 [label="absorptionEmission",height=0.2,width=0.4,color="red",URL="$a30042.html#a13bb92b69a3b9f8feed2ffe079fd5f28",tooltip="Access to absorptionEmission model. "];
+  Node955 -> Node1000 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1000 [label="Rp",height=0.2,width=0.4,color="black",URL="$a30042.html#ae4246644477ec623cc2c49d14dbe2709",tooltip="Source term component (for power of T^4) "];
+  Node955 -> Node1001 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1001 [label="Ru",height=0.2,width=0.4,color="black",URL="$a30042.html#ab87afb2045920c3917ad5c66d44a2bfa",tooltip="Source term component (constant) "];
+  Node955 -> Node1002 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1002 [label="Sh",height=0.2,width=0.4,color="red",URL="$a30042.html#a863481672e58bc80ab86bcccb1bb893d",tooltip="Energy source term. "];
+  Node1002 -> Node1001 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1002 -> Node1000 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1002 -> Node1010 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1010 [label="ST",height=0.2,width=0.4,color="red",URL="$a30042.html#a7effa79bfe78154a74780d1b775abb3c",tooltip="Temperature source term. "];
+  Node1010 -> Node1001 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1010 -> Node1000 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node955 -> Node1011 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1011 [label="soot",height=0.2,width=0.4,color="red",URL="$a30042.html#addaa5439caeaf65e994b11688d987b3f",tooltip="Access to soot Model. "];
+  Node955 -> Node1010 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

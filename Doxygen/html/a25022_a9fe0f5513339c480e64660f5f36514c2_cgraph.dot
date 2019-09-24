@@ -1,0 +1,32 @@
+digraph "setCanonical"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node77 [label="setCanonical",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node77 -> Node78 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node78 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node77 -> Node121 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node121 [label="end",height=0.2,width=0.4,color="black",URL="$a25022.html#a2dfff661be9612d4970f7089db23ca3a",tooltip="iterator set to beyond the end of the walk. "];
+  Node77 -> Node83 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node83 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node77 -> Node122 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node122 [label="Foam::primitiveMesh\l::faceNeighbour",height=0.2,width=0.4,color="black",URL="$a27530.html#acd9489a2ac1ec02451fef1f415386694",tooltip="Face face-neighbour addressing. "];
+  Node77 -> Node123 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node123 [label="Foam::primitiveMesh\l::faceOwner",height=0.2,width=0.4,color="black",URL="$a27530.html#a95a88187f795e30779aa3bac679d9bfc",tooltip="Face face-owner addresing. "];
+  Node77 -> Node124 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node124 [label="Foam::primitiveMesh\l::faces",height=0.2,width=0.4,color="black",URL="$a27530.html#a3669b3b29537f3a55bbd2ffa8c749f41",tooltip="Return faces. "];
+  Node77 -> Node125 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node125 [label="Foam::primitiveMesh\l::isInternalFace",height=0.2,width=0.4,color="red",URL="$a27530.html#ae3e48ad9ec4c5132ec7d3d702ad17c9e",tooltip="Return true if given face label is internal to the mesh. "];
+  Node77 -> Node127 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node127 [label="Foam::face::nextLabel",height=0.2,width=0.4,color="red",URL="$a27218.html#a8d8ab7da5fc0315042faf1b6dcf64f4a",tooltip="Next vertex on face. "];
+  Node77 -> Node130 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node130 [label="operator++",height=0.2,width=0.4,color="black",URL="$a25022.html#a373ca9638250f9443dcf86934a465507",tooltip="Step to next face. Uses no edge addressing! "];
+  Node130 -> Node78 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node130 -> Node123 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node130 -> Node125 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node130 -> Node122 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node77 -> Node131 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node131 [label="Foam::primitiveMesh\l::points",height=0.2,width=0.4,color="black",URL="$a27530.html#ad0e408ab3f867b58e419eb1cd8c2dbb6",tooltip="Return mesh points. "];
+}

@@ -1,0 +1,15 @@
+digraph "diameterModel"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node0 [label="diameterModel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="constant",height=0.2,width=0.4,color="black",URL="$a32050.html",tooltip="Constant dispersed-phase particle diameter model. "];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="IATE",height=0.2,width=0.4,color="black",URL="$a32342.html",tooltip="IATE (Interfacial Area Transport Equation) bubble diameter model. "];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="isothermal",height=0.2,width=0.4,color="black",URL="$a32058.html",tooltip="Isothermal dispersed-phase particle diameter model. "];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

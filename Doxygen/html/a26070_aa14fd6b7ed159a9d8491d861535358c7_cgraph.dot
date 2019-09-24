@@ -1,0 +1,14 @@
+digraph "checkSecurity"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node423 [label="checkSecurity",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node423 -> Node424 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node424 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node423 -> Node426 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node426 [label="Foam::exit",height=0.2,width=0.4,color="red",URL="$a21124.html#a06ca7250d8e89caf05243ec094843642"];
+  Node423 -> Node471 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node471 [label="Foam::isAdministrator",height=0.2,width=0.4,color="black",URL="$a21124.html#a2eeb0f9489e064936f6b7090fa81ee37",tooltip="Is user administrator. "];
+}

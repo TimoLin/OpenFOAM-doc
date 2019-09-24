@@ -1,0 +1,23 @@
+digraph "readData"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2987 [label="readData",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2987 -> Node2988 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2988 [label="Foam::IOstream::bad",height=0.2,width=0.4,color="black",URL="$a26226.html#a9f7290a5d70f30e1b1b42c8ac4a6082d",tooltip="Return true if stream is corrupted. "];
+  Node2987 -> Node2989 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2989 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node2987 -> Node2991 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2991 [label="Foam::UPstream::master",height=0.2,width=0.4,color="red",URL="$a26270.html#a36af549940a0aae3733774649594489f",tooltip="Am I the master process. "];
+  Node2987 -> Node2993 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2993 [label="name",height=0.2,width=0.4,color="red",URL="$a26158.html#ade4113569ef0db70665fded275a5e38e",tooltip="Name function is needed to disambiguate those inherited. "];
+  Node2987 -> Node2995 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2995 [label="Foam::IOobject::objectPath",height=0.2,width=0.4,color="red",URL="$a26142.html#a3a7ece5c1251c6be1f7812d4dba5fb7a",tooltip="Return complete path + object name. "];
+  Node2995 -> Node3297 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3297 [label="Foam::IOobject::writeHeader",height=0.2,width=0.4,color="red",URL="$a26142.html#ae7d7d31a4ff63361dd3f6490835938e8",tooltip="Write header. "];
+  Node2987 -> Node3302 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3302 [label="writeData",height=0.2,width=0.4,color="red",URL="$a26158.html#a25900c366cb0a98321899fde6c66dab7",tooltip="WriteData function required for regIOobject write operation. "];
+  Node2987 -> Node3297 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,20 @@
+digraph "distances"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node291 [label="distances",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node291 -> Node292 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node292 [label="findNearestEdge",height=0.2,width=0.4,color="red",URL="$a24682.html#a65f7221fcffc8cd4124db95a166c222f",tooltip="Find nearest point on nearest feature edge. Sets. "];
+  Node292 -> Node348 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node348 [label="findNearestRegionEdge",height=0.2,width=0.4,color="red",URL="$a24682.html#a446be44c7493a941d15d17ae45ba2581",tooltip="Find nearest point on nearest region edge. Sets. "];
+  Node348 -> Node376 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node376 [label="findNearestPoint",height=0.2,width=0.4,color="red",URL="$a24682.html#a02ca0be1e44c1ac479b2f0a1e82bada5",tooltip="Find nearest feature point. Sets. "];
+  Node291 -> Node376 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node291 -> Node348 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node291 -> Node377 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node377 [label="maxDistance",height=0.2,width=0.4,color="red",URL="$a24682.html#a276eb92577ce348e944927b3579a0872",tooltip="Highest distance of all features. "];
+  Node291 -> Node378 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node378 [label="samples",height=0.2,width=0.4,color="black",URL="$a38939.html#a14d38e99c2caf50fd9f0aa0d5ef88e3b"];
+}

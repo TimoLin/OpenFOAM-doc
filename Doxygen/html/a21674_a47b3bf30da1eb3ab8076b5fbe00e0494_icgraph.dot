@@ -1,0 +1,17 @@
+digraph "size"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node86 [label="size",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node86 -> Node87 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node87 [label="Foam::decompositionMethod\l::calcCellCells",height=0.2,width=0.4,color="red",URL="$a28594.html#a86727d8c968e3ae5d8f394879e2b3c8a",tooltip="Helper: determine (local or global) cellCells from mesh. "];
+  Node86 -> Node93 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node93 [label="operator()",height=0.2,width=0.4,color="black",URL="$a21674.html#a84a20df81afb694c3c9b221dfb08fe4f",tooltip="Return as List<Container> "];
+  Node86 -> Node94 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node94 [label="setSize",height=0.2,width=0.4,color="red",URL="$a21674.html#a110ca51fc7e0ea5905cc62ebdf41a5e4",tooltip="Reset size of CompactListList. "];
+  Node94 -> Node87 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node86 -> Node110 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node110 [label="sizes",height=0.2,width=0.4,color="black",URL="$a21674.html#aa9991d5808074d44c8f67b74819492d4",tooltip="Return sizes (to be used e.g. for construction) "];
+}

@@ -1,0 +1,21 @@
+digraph "midpoint"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node639 [label="midpoint",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node639 -> Node640 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node640 [label="Foam::dynamicIndexedOctree\l\< Foam::dynamicTreeDataPoint\l \>::overlaps",height=0.2,width=0.4,color="black",URL="$a25610.html#a4ca2bef7dbdb103c2f7f02e34e28b967",tooltip="Helper: does bb intersect a sphere around sample? Or is any. "];
+  Node639 -> Node641 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node641 [label="Foam::indexedOctree\l\< Foam::treeDataFace\l \>::overlaps",height=0.2,width=0.4,color="black",URL="$a25026.html#a4ca2bef7dbdb103c2f7f02e34e28b967",tooltip="Helper: does bb intersect a sphere around sample? Or is any. "];
+  Node639 -> Node642 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node642 [label="Foam::treeBoundBox\l::searchOrder",height=0.2,width=0.4,color="red",URL="$a27618.html#a4755b78bc3e7e11bc866f45baccf8fdc",tooltip="Calculates optimal order to look for nearest to point. "];
+  Node639 -> Node644 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node644 [label="Foam::treeBoundBox\l::subBbox",height=0.2,width=0.4,color="red",URL="$a27618.html#a52721173da6ba7cf4b2519dd97c5d8bc",tooltip="Sub box given by octant number. Midpoint calculated. "];
+  Node644 -> Node640 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node644 -> Node641 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node639 -> Node652 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node652 [label="Foam::treeBoundBox\l::subOctant",height=0.2,width=0.4,color="red",URL="$a27618.html#ab5953d77fa0625a101d04fa6a0294efa",tooltip="Returns octant number given point and the calculated midpoint. "];
+  Node652 -> Node640 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

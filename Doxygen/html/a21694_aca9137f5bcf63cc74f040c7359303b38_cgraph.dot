@@ -1,0 +1,20 @@
+digraph "operator!="
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node116 [label="operator!=",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node116 -> Node117 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node117 [label="operator==",height=0.2,width=0.4,color="red",URL="$a21694.html#a27b7cf85832ec6c72f174b7f7fcc7fd4"];
+  Node116 -> Node119 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node119 [label="Foam::refinementHistory\l::refinementHistory",height=0.2,width=0.4,color="red",URL="$a21690.html#abdde36146e178ec3c82147ab8e08b54f",tooltip="Construct (read) given an IOobject. "];
+  Node116 -> Node436 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node436 [label="Foam::refinementHistory\l::splitCells",height=0.2,width=0.4,color="black",URL="$a21690.html#a0b8774b3e8d3b35aace53d5a20439fee",tooltip="Storage for splitCell8s. "];
+  Node116 -> Node437 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node437 [label="Foam::refinementHistory\l::TypeName",height=0.2,width=0.4,color="black",URL="$a21690.html#a29fed16939c7c189360d8db56fd8e6c0"];
+  Node116 -> Node438 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node438 [label="Foam::refinementHistory\l::visibleCells",height=0.2,width=0.4,color="black",URL="$a21690.html#a1dd5e1e53d1498657f07a2087f3eafa3",tooltip="Per cell in the current mesh (i.e. visible) either -1 (unrefined) "];
+  Node116 -> Node439 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node439 [label="Foam::refinementHistory\l::writeDebug",height=0.2,width=0.4,color="red",URL="$a21690.html#a229cff31748bb7e631ba7d39c7e7d45f",tooltip="Debug write. "];
+}

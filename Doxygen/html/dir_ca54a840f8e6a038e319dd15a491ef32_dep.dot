@@ -1,0 +1,18 @@
+digraph "applications/utilities/mesh/generation/foamyHexMesh/conformalVoronoiMesh/cellSizeControlSurfaces/surfaceCellSizeFunction/nonUniformField" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="FreeSans"];
+  edge [ labelfontsize="10", labelfontname="FreeSans"];
+  subgraph clusterdir_fc62bd3073cdfde4a017d0480d72ac48 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="surfaceCellSizeFunction" fontname="FreeSans", fontsize="10", URL="dir_fc62bd3073cdfde4a017d0480d72ac48.html"]
+  dir_ca54a840f8e6a038e319dd15a491ef32 [shape=box, label="nonUniformField", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_ca54a840f8e6a038e319dd15a491ef32.html"];
+  }
+  dir_cb977a762f37908c5901377382527373 [shape=box label="cellSizeCalculationType" color="red" URL="dir_cb977a762f37908c5901377382527373.html"];
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_2a30fdf78c3e59eb3985e07526b5f2b0 [shape=box label="surfaceCellSizeFunction" URL="dir_2a30fdf78c3e59eb3985e07526b5f2b0.html"];
+  dir_cb977a762f37908c5901377382527373->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="8", labeldistance=1.5 headhref="dir_000369_000577.html"];
+  dir_ca54a840f8e6a038e319dd15a491ef32->dir_cb977a762f37908c5901377382527373 [headlabel="1", labeldistance=1.5 headhref="dir_000373_000369.html"];
+  dir_ca54a840f8e6a038e319dd15a491ef32->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="2", labeldistance=1.5 headhref="dir_000373_000577.html"];
+  dir_ca54a840f8e6a038e319dd15a491ef32->dir_2a30fdf78c3e59eb3985e07526b5f2b0 [headlabel="1", labeldistance=1.5 headhref="dir_000373_000374.html"];
+  dir_2a30fdf78c3e59eb3985e07526b5f2b0->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="4", labeldistance=1.5 headhref="dir_000374_000577.html"];
+}

@@ -1,0 +1,20 @@
+digraph "version"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node33190 [label="version",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node33190 -> Node33191 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node33191 [label="Foam::Field\< Foam::\lVector2D \>::Field",height=0.2,width=0.4,color="black",URL="$a26466.html#a7c7798a471c99613de775e23bbe76b8f",tooltip="Construct from a dictionary entry. "];
+  Node33190 -> Node33192 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node33192 [label="Foam::operator\>\>",height=0.2,width=0.4,color="black",URL="$a21124.html#a344c39133fb7fe328b95949dc30872f1"];
+  Node33190 -> Node33193 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node33193 [label="Foam::IOobject::readHeader",height=0.2,width=0.4,color="red",URL="$a26142.html#acc5353ca76293212d9dba8a82c0d9a44",tooltip="Read header. "];
+  Node33190 -> Node33354 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node33354 [label="Foam::mappedPatchBase\l::readListOrField",height=0.2,width=0.4,color="red",URL="$a25094.html#ab5e64ae976c301737f883167857ec318",tooltip="Helper to read field or non-uniform list from dictionary. "];
+  Node33190 -> Node33394 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node33394 [label="Foam::setversion",height=0.2,width=0.4,color="red",URL="$a21124.html#aa285bf2bba3269a4d547f8abbf4aa871"];
+  Node33190 -> Node33197 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node33197 [label="Foam::IOobject::writeHeader",height=0.2,width=0.4,color="black",URL="$a26142.html#a9ee0b27f25db9fc7ba06426c302f8a45",tooltip="Write header. Allow override of type. "];
+}

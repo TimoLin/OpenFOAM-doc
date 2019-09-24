@@ -1,0 +1,36 @@
+digraph "checkIn"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node678 [label="checkIn",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node678 -> Node679 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node679 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node678 -> Node722 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node722 [label="Foam::Time::addWatch",height=0.2,width=0.4,color="black",URL="$a26350.html#a2d3ae032c4ceedc94ba259753f942557",tooltip="Add watching of a file. Returns handle. "];
+  Node678 -> Node723 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node723 [label="Foam::objectRegistry\l::checkIn",height=0.2,width=0.4,color="red",URL="$a26326.html#a4b0cce89930b944edff10feca86767f0",tooltip="Add an regIOobject to registry. "];
+  Node723 -> Node687 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node687 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node723 -> Node728 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node728 [label="Foam::IOobject::name",height=0.2,width=0.4,color="black",URL="$a26142.html#acc80e00a8ac919288fb55bd14cc88bf6",tooltip="Return name. "];
+  Node678 -> Node729 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node729 [label="Foam::IOobject::db",height=0.2,width=0.4,color="black",URL="$a26142.html#a65cc75d9f80b1df5c3184fb2274a97f1",tooltip="Return the local objectRegistry. "];
+  Node678 -> Node687 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node678 -> Node730 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node730 [label="f",height=0.2,width=0.4,color="black",URL="$a17900.html#a888be93833ac7a23170555c69c690288"];
+  Node678 -> Node731 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node731 [label="Foam::IOobject::filePath",height=0.2,width=0.4,color="red",URL="$a26142.html#a698f54dd16f5ec2931aeff16fd4878c8",tooltip="Return complete path + object name if the file exists. "];
+  Node678 -> Node728 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node678 -> Node741 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node741 [label="Foam::IOobject::objectPath",height=0.2,width=0.4,color="red",URL="$a26142.html#a3a7ece5c1251c6be1f7812d4dba5fb7a",tooltip="Return complete path + object name. "];
+  Node741 -> Node731 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node741 -> Node728 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node678 -> Node996 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node996 [label="Foam::IOobject::readOpt",height=0.2,width=0.4,color="black",URL="$a26142.html#a81b608e0b8d8e2a8f1bc927cd6076c59"];
+  Node678 -> Node997 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node997 [label="Foam::HashTable::sortedToc",height=0.2,width=0.4,color="black",URL="$a25702.html#a00e373a2c0d6161c4bcdc4453c1bb35e",tooltip="Return the table of contents as a sorted list. "];
+  Node678 -> Node885 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node885 [label="Foam::IOobject::time",height=0.2,width=0.4,color="red",URL="$a26142.html#a1ed86245b170b9f651f62650b1827500",tooltip="Return time. "];
+}

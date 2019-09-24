@@ -1,0 +1,14 @@
+digraph "negate"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node25 [label="negate",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node25 -> Node26 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node26 [label="Foam::GaussSeidelSmoother\l::smooth",height=0.2,width=0.4,color="red",URL="$a26942.html#a8622cba882900a35ce041c544a6134c0",tooltip="Smooth for the given number of sweeps. "];
+  Node25 -> Node28 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node28 [label="Foam::symGaussSeidelSmoother\l::smooth",height=0.2,width=0.4,color="red",URL="$a26950.html#a8622cba882900a35ce041c544a6134c0",tooltip="Smooth for the given number of sweeps. "];
+  Node25 -> Node30 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node30 [label="Foam::nonBlockingGaussSeidel\lSmoother::smooth",height=0.2,width=0.4,color="red",URL="$a26946.html#a84def9b216d3c88d8c9d2e410aa7ff04",tooltip="Smooth for the given number of sweeps. "];
+}

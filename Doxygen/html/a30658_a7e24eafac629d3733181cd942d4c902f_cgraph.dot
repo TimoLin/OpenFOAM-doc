@@ -1,0 +1,40 @@
+digraph "updateCoeffs"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node60 [label="updateCoeffs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node60 -> Node61 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node61 [label="Foam::compressible\l::turbulenceModel::alphaEff",height=0.2,width=0.4,color="black",URL="$a30818.html#ac0cc195242d455ea246acb3bd701d000",tooltip="Return the effective turbulence thermal diffusivity. "];
+  Node60 -> Node62 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node62 [label="Foam::GeometricField\l::boundaryField",height=0.2,width=0.4,color="black",URL="$a22434.html#a3c6c1a789b48ea0c5e8bff64f9c14f2d",tooltip="Return reference to GeometricBoundaryField. "];
+  Node60 -> Node63 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node63 [label="Foam::cbrt",height=0.2,width=0.4,color="red",URL="$a21124.html#aca0b7feea326c0e1e9e04078a319d019"];
+  Node63 -> Node68 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node68 [label="Foam::pow",height=0.2,width=0.4,color="red",URL="$a21124.html#a7500c8e9d27a442adc75e287de074c7c"];
+  Node60 -> Node69 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node69 [label="Foam::basicThermo::Cp",height=0.2,width=0.4,color="black",URL="$a29734.html#aeb42ae5d3914853483e7ef6b13e2ef75",tooltip="Heat capacity at constant pressure [J/kg/K]. "];
+  Node60 -> Node70 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node70 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node60 -> Node71 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node71 [label="Foam::compressible\l::turbulenceModel::mu",height=0.2,width=0.4,color="red",URL="$a30818.html#a54025d7e9635694b562bfb981e31e6da",tooltip="Return the laminar viscosity. "];
+  Node60 -> Node73 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node73 [label="Foam::basicThermo::p",height=0.2,width=0.4,color="black",URL="$a29734.html#a559539638a23431ca4b538c03b46e746",tooltip="Pressure [Pa]. "];
+  Node60 -> Node68 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node60 -> Node74 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node74 [label="Pr",height=0.2,width=0.4,color="black",URL="$a39152.html#a1db7a9e58e450e6ddc830a30f0674a02"];
+  Node60 -> Node75 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node75 [label="Foam::Re",height=0.2,width=0.4,color="red",URL="$a21124.html#affa366970bcbe0f7ccf7c85557a3e12b"];
+  Node60 -> Node78 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node78 [label="Foam::compressible\l::turbulenceModel::rho",height=0.2,width=0.4,color="black",URL="$a30818.html#a85451bc9acf825ab1d3c3c143714bc38",tooltip="Access function to density field. "];
+  Node60 -> Node79 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node79 [label="Foam::sqrt",height=0.2,width=0.4,color="red",URL="$a21124.html#a8616bd62eebf2342a80222fecb1bda71"];
+  Node79 -> Node68 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node60 -> Node80 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node80 [label="Foam::basicThermo::T",height=0.2,width=0.4,color="black",URL="$a29734.html#a36910f175f1b9478cb168b63da0a9904",tooltip="Temperature [K]. "];
+  Node60 -> Node81 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node81 [label="Foam::compressible\l::turbulenceModel::thermo",height=0.2,width=0.4,color="black",URL="$a30818.html#add0b7ef56f878b21b4dec428bb69592a",tooltip="Access function to thermophysical model. "];
+  Node60 -> Node82 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node82 [label="Foam::compressible\l::turbulenceModel::U",height=0.2,width=0.4,color="black",URL="$a30818.html#a536d168d7b335fe81f506f232b5b4872",tooltip="Access function to velocity field. "];
+}

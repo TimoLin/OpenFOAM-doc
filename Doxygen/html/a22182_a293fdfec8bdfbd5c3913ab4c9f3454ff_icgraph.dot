@@ -1,0 +1,13 @@
+digraph "write"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node996 [label="write",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node996 -> Node997 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node997 [label="clone",height=0.2,width=0.4,color="black",URL="$a22182.html#a089f8c8dc7161cb741c2b911efc67d76",tooltip="Construct and return a clone setting internal field reference. "];
+  Node996 -> Node998 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node998 [label="updateCoeffs",height=0.2,width=0.4,color="black",URL="$a22182.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node998 -> Node997 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

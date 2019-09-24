@@ -1,0 +1,16 @@
+digraph "write"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node5805 [label="write",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node5805 -> Node5806 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5806 [label="Foam::mappedPolyPatch\l::write",height=0.2,width=0.4,color="red",URL="$a25106.html#a293fdfec8bdfbd5c3913ab4c9f3454ff",tooltip="Write the polyPatch data as a dictionary. "];
+  Node5805 -> Node5808 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5808 [label="Foam::mappedFieldFvPatch\lField::write",height=0.2,width=0.4,color="red",URL="$a22154.html#a293fdfec8bdfbd5c3913ab4c9f3454ff",tooltip="Write. "];
+  Node5805 -> Node5810 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5810 [label="Foam::mappedWallPolyPatch\l::write",height=0.2,width=0.4,color="red",URL="$a25114.html#a293fdfec8bdfbd5c3913ab4c9f3454ff",tooltip="Write the polyPatch data as a dictionary. "];
+  Node5805 -> Node5812 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5812 [label="Foam::compressible\l::thermalBaffle1DFvPatchScalar\lField::write",height=0.2,width=0.4,color="red",URL="$a30790.html#a293fdfec8bdfbd5c3913ab4c9f3454ff",tooltip="Write. "];
+}

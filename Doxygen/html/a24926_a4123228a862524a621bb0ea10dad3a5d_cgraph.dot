@@ -1,0 +1,14 @@
+digraph "mask"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node811 [label="mask",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node811 -> Node812 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node812 [label="neighbPatch",height=0.2,width=0.4,color="black",URL="$a24926.html#a71795c1c1bf3c08c52803781090706dc",tooltip="Return a reference to the neighbour patch. "];
+  Node811 -> Node813 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node813 [label="Foam::cyclicAMIPolyPatch\l::owner",height=0.2,width=0.4,color="black",URL="$a24946.html#a21dcffdf27811a03e0d7ef231bf18c28",tooltip="Does this side own the patch? "];
+  Node811 -> Node814 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node814 [label="tgtMask",height=0.2,width=0.4,color="red",URL="$a24926.html#a14210e0ff25ca7a46eceed0345c06128",tooltip="Return the mask/weighting for the target patch. "];
+}

@@ -1,0 +1,14 @@
+digraph "surfMesh"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="surfMesh",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="surfaceRegistry",height=0.2,width=0.4,color="red",URL="$a29690.html",tooltip="Wraps the normal objectRegistry with a local instance for surfaces. "];
+  Node8 -> Node0 [dir="back",color="firebrick4",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="MeshedSurfaceIOAllocator",height=0.2,width=0.4,color="black",URL="$a29578.html",tooltip="A helper class for storing points, faces and zones with IO capabilities. "];
+  Node9 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="PrimitivePatch\< face,\l ::Foam::UList, ::Foam\l::SubField\< point \>, point \>",height=0.2,width=0.4,color="red",URL="$a27538.html"];
+}

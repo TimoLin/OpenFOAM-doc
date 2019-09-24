@@ -1,0 +1,46 @@
+digraph "sort"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node11872 [label="sort",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node11872 -> Node11873 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11873 [label="Foam::triSurface::checkEdges",height=0.2,width=0.4,color="red",URL="$a30598.html#a90f5f9407a227d55df8fa9120de9f122",tooltip="Check triply (or more) connected edges. "];
+  Node11872 -> Node11876 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11876 [label="Foam::Time::findTimes",height=0.2,width=0.4,color="red",URL="$a26350.html#a358594437beb51631684afba39f445da",tooltip="Search a given directory for valid time directories. "];
+  Node11872 -> Node11882 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11882 [label="Foam::distribution\l::insertMissingKeys",height=0.2,width=0.4,color="black",URL="$a24386.html#a3c855f53db1ec61ad3d3d5f12b62629e"];
+  Node11882 -> Node11883 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11883 [label="Foam::distribution\l::normalised",height=0.2,width=0.4,color="red",URL="$a24386.html#a8e68a759f0bcb21f4f133737e1318ef6"];
+  Node11882 -> Node11887 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11887 [label="Foam::distribution::raw",height=0.2,width=0.4,color="black",URL="$a24386.html#a875f339724e57c25b4adefa52bda3e10"];
+  Node11872 -> Node11888 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11888 [label="Foam::cellToCellStencil\l::merge",height=0.2,width=0.4,color="black",URL="$a22642.html#aba0dd4e0a59e870bd159bffec78c2ef2",tooltip="Merge two lists. "];
+  Node11872 -> Node11889 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11889 [label="Foam::cellToFaceStencil\l::merge",height=0.2,width=0.4,color="black",URL="$a22686.html#aba0dd4e0a59e870bd159bffec78c2ef2",tooltip="Merge two lists. "];
+  Node11872 -> Node11883 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11872 -> Node11890 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11890 [label="Foam::minEqOp\< labelPair\l \>::operator()",height=0.2,width=0.4,color="black",URL="$a21438.html#a5110bdded347caa6365e4d10554dfc32"];
+  Node11872 -> Node11891 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11891 [label="operator\<\<",height=0.2,width=0.4,color="black",URL="$a21124.html#af60c70d39ca76a929082daf7c3a9806b"];
+  Node11872 -> Node11892 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11892 [label="Foam::primitiveMesh\l::pointCells",height=0.2,width=0.4,color="black",URL="$a27530.html#a852e3afb9be80c737f8eea3861cd817d",tooltip="pointCells using pointFaces "];
+  Node11872 -> Node11893 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11893 [label="polyMeshZipUpCells",height=0.2,width=0.4,color="black",URL="$a21124.html#ab957fb2d74d8de84991a6246e876ecd2"];
+  Node11872 -> Node11887 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11872 -> Node11894 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11894 [label="Foam::fvMeshSubset\l::setCellSubset",height=0.2,width=0.4,color="red",URL="$a22790.html#a7007bf1daafcf75caa93fdb67143236e",tooltip="Set the subset. Create \"oldInternalFaces\" patch for exposed. "];
+  Node11872 -> Node11896 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11896 [label="Foam::ParSortableList\l::sort",height=0.2,width=0.4,color="red",URL="$a25970.html#a47fdc9eea42b6975cdc835bb2e08810e",tooltip="(stable) sort the list (if changed after construction time) "];
+  Node11872 -> Node11898 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11898 [label="sort",height=0.2,width=0.4,color="black",URL="$a21124.html#ac0042a3fb96da7e97289a3a299273cd4"];
+  Node11872 -> Node11899 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11899 [label="Foam::IOobjectList\l::sortedNames",height=0.2,width=0.4,color="black",URL="$a26146.html#a8e682fa46249d4eade5e06da358a2dbd",tooltip="Return the sorted list of names of the IOobjects of given class. "];
+  Node11872 -> Node11900 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11900 [label="Foam::objectRegistry\l::sortedNames",height=0.2,width=0.4,color="black",URL="$a26326.html#a8e682fa46249d4eade5e06da358a2dbd",tooltip="Return the sorted list of names of IOobjects of given class name. "];
+  Node11872 -> Node11901 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11901 [label="Foam::HashTable\< Foam\l::phase *\>::sortedToc",height=0.2,width=0.4,color="black",URL="$a25702.html#a00e373a2c0d6161c4bcdc4453c1bb35e",tooltip="Return the table of contents as a sorted list. "];
+  Node11872 -> Node11902 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11902 [label="Foam::sortLabelledTri\l::sortLabelledTri",height=0.2,width=0.4,color="black",URL="$a30582.html#a001d9cfc5814719731c59eed17b07dbc",tooltip="Construct from surface, sorting the faces according to patch. "];
+}

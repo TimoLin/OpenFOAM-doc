@@ -1,0 +1,28 @@
+digraph "size"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node63 [label="size",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node63 -> Node64 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node64 [label="Foam::meshRefinement\l::calculateEdgeWeights",height=0.2,width=0.4,color="red",URL="$a24662.html#a655628b19efe5c0aa6b8bb6726cc5848",tooltip="Helper: calculate edge weights (1/length) "];
+  Node63 -> Node68 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node68 [label="Foam::primitiveMesh\l::checkClosedBoundary",height=0.2,width=0.4,color="red",URL="$a27530.html#a930bca98a0d534f2dc0f0d0c550011a6",tooltip="Check boundary for closedness. "];
+  Node63 -> Node75 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node75 [label="Foam::meshRefinement\l::gAverage",height=0.2,width=0.4,color="red",URL="$a24662.html#a7e4205ba28cb720bb897769658b2bcc2",tooltip="Helper: calculate average. "];
+  Node63 -> Node93 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node93 [label="Foam::PackedList\< 2\l \>::operator=",height=0.2,width=0.4,color="black",URL="$a25938.html#ad0e9f7f1ad1d256949e4a88357345ff7",tooltip="Assignment operator. "];
+  Node63 -> Node94 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node94 [label="Foam::PackedBoolList\l::subset",height=0.2,width=0.4,color="red",URL="$a25934.html#a668afa3b74e76fcb97bc329983c5e787",tooltip="Subset with the specified list. "];
+  Node63 -> Node96 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node96 [label="Foam::syncTools::syncEdgeList",height=0.2,width=0.4,color="black",URL="$a27502.html#ac1b1cf2409615321e41fa44e97e23061"];
+  Node63 -> Node97 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node97 [label="Foam::syncTools::syncFaceList",height=0.2,width=0.4,color="black",URL="$a27502.html#abbce369b7f4597ea87c95f9b17cb707f"];
+  Node63 -> Node98 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node98 [label="Foam::syncTools::syncPointList",height=0.2,width=0.4,color="black",URL="$a27502.html#a66344f300480fd9182a928f64fd31b54"];
+  Node63 -> Node99 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node99 [label="Foam::meshRefinement\l::weightedSum",height=0.2,width=0.4,color="red",URL="$a24662.html#afd1fa532ab6ec81dde2fafe9a3ba7430",tooltip="Helper: weighted sum (over all subset of mesh points) by. "];
+  Node63 -> Node103 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node103 [label="Foam::PackedList\< 2\l \>::write",height=0.2,width=0.4,color="black",URL="$a25938.html#af9de36a208703725e7dc847f855b8831",tooltip="Write, optionally with indexedOutput. "];
+}

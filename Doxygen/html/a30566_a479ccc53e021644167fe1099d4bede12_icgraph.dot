@@ -1,0 +1,16 @@
+digraph "region"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node11 [label="region",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12 [label="Foam::booleanSurface\l::booleanSurface",height=0.2,width=0.4,color="black",URL="$a25486.html#af9badecab2d5cf9894182caa82611921",tooltip="Construct from surfaces and operation. Surfaces need to be closed. "];
+  Node11 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13 [label="Foam::NamedEnum\< direction\lType, 3 \>::names",height=0.2,width=0.4,color="black",URL="$a25998.html#a7350da3a0edd92cd11e6c479c9967dc8"];
+  Node11 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14 [label="Foam::boundaryMesh\l::readTriSurface",height=0.2,width=0.4,color="red",URL="$a21430.html#a2ee25ae613c57256a825ff088edc0839",tooltip="Read from triSurface. "];
+  Node11 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16 [label="Foam::triSurface::triSurf\lInstance",height=0.2,width=0.4,color="red",URL="$a30598.html#a1ab8d8beae9ae13c09674c78df71224a",tooltip="Name of triSurface directory to use. "];
+}

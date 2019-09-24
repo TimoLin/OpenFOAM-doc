@@ -1,0 +1,14 @@
+digraph "propsDict"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="propsDict",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="Foam::fv::pressureGradient\lExplicitSource::pressureGradient\lExplicitSource",height=0.2,width=0.4,color="black",URL="$a23474.html#a32f51edca29bee26c1e8fd5d6c479f10",tooltip="Construct from explicit source name and mesh. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="Foam::fieldAverage\l::readAveragingProperties",height=0.2,width=0.4,color="black",URL="$a28706.html#acdc49190984d3223cc808b5a80986fac",tooltip="Read averaging properties - steps and time. "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="Foam::fieldAverage\l::writeAveragingProperties",height=0.2,width=0.4,color="black",URL="$a28706.html#ae182b304cb745fe7e05a6660b8e4b748",tooltip="Write averaging properties - steps and time. "];
+}

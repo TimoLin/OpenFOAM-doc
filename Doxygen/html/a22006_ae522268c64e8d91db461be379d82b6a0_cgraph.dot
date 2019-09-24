@@ -1,0 +1,15 @@
+digraph "cyclicPatch"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node118 [label="cyclicPatch",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node118 -> Node119 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node119 [label="neighbourPatchField",height=0.2,width=0.4,color="red",URL="$a22006.html#a4fe542ac94c13b57506fb9e9add72dcc",tooltip="Return reference to neighbour patchField. "];
+  Node119 -> Node123 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node123 [label="updateInterfaceMatrix",height=0.2,width=0.4,color="black",URL="$a22006.html#a4144bb27e8739ab5a673b3da1e245e17",tooltip="Update result field based on interface functionality. "];
+  Node118 -> Node124 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node124 [label="patchNeighbourField",height=0.2,width=0.4,color="red",URL="$a22006.html#ad9ef4c75c0a3daf9ba43fa389d84bfb0",tooltip="Return neighbour coupled internal cell data. "];
+  Node118 -> Node123 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

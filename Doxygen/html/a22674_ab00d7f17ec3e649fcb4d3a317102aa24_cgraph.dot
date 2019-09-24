@@ -1,0 +1,19 @@
+digraph "collectData"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node51 [label="collectData",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node51 -> Node52 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node52 [label="Foam::extendedCellToFace\lStencil::collectData",height=0.2,width=0.4,color="black",URL="$a22670.html#a5ad2e7543e803240f0dd50eac039ea73",tooltip="Use map to get the data into stencil order. "];
+  Node51 -> Node53 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node53 [label="map",height=0.2,width=0.4,color="black",URL="$a22674.html#a6f719d71f56ee9f97626c13b322ea4fe",tooltip="Return reference to the parallel distribution map. "];
+  Node51 -> Node54 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node54 [label="stencil",height=0.2,width=0.4,color="red",URL="$a22674.html#a411eaf3a58bffc0f951bec8db6ceeba6",tooltip="Return reference to the stencil. "];
+  Node54 -> Node51 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node51 -> Node57 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node57 [label="weightedSum",height=0.2,width=0.4,color="red",URL="$a22674.html#a997060236f826bbe61543e12798b3ec0",tooltip="Sum vol field contributions to create face values. "];
+  Node57 -> Node53 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node57 -> Node54 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

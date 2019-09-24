@@ -1,0 +1,22 @@
+digraph "pointNormals"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3058 [label="pointNormals",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3058 -> Node3059 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3059 [label="Foam::meshTools::calcBox\lPointNormals",height=0.2,width=0.4,color="black",URL="$a21153.html#a4ba6200a07a6aab35485561987f60185",tooltip="Calculate point normals on a &#39;box&#39; mesh (all edges aligned with. "];
+  Node3058 -> Node3060 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3060 [label="Foam::PrimitivePatch\l\< Face, ::Foam::List,\l pointField, point \>::\lfaceNormals",height=0.2,width=0.4,color="black",URL="$a27538.html#ad96a54bba336ea57f59f0da350d3c265",tooltip="Return face normals for patch. "];
+  Node3058 -> Node3061 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3061 [label="Foam::PrimitivePatch\l\< Face, ::Foam::List,\l pointField, point \>::\lisInternalEdge",height=0.2,width=0.4,color="black",URL="$a27538.html#ac2458a175e66b555e443539d6c726e06",tooltip="Is internal edge? "];
+  Node3058 -> Node3062 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3062 [label="Foam::slidingInterface\l::modifyMotionPoints",height=0.2,width=0.4,color="red",URL="$a21750.html#ac05c3f18da75b17c4b6c13757cacbff1",tooltip="Modify motion points to comply with the topological change. "];
+  Node3058 -> Node3064 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3064 [label="Foam::surfaceLocation\l::normal",height=0.2,width=0.4,color="red",URL="$a25518.html#a1369a05753c199e11f35bfd39df6ca37",tooltip="Normal. Approximate for points. "];
+  Node3058 -> Node3066 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3066 [label="Foam::facePointPatch\l::pointNormals",height=0.2,width=0.4,color="red",URL="$a27322.html#a9c0e7b62399087dd555b023632ac529a",tooltip="Return point unit normals. "];
+  Node3058 -> Node3073 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3073 [label="Foam::triSurfaceTools\l::surfaceNormal",height=0.2,width=0.4,color="red",URL="$a25538.html#a5a2f59dd14e51dca5fcbadd65696f1df",tooltip="Triangle (unit) normal. If nearest point to triangle on edge use. "];
+}

@@ -1,0 +1,21 @@
+digraph "getEdgeFaces"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1385 [label="getEdgeFaces",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1385 -> Node1386 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1386 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node1385 -> Node1429 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1429 [label="Foam::primitiveMesh\l::edgeFaces",height=0.2,width=0.4,color="red",URL="$a27530.html#ad38ecd2902727a890ebd437731c271c8"];
+  Node1429 -> Node1386 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1385 -> Node1434 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1434 [label="Foam::primitiveMesh\l::edges",height=0.2,width=0.4,color="black",URL="$a27530.html#a21d764179912ddda5c6f95193c289846",tooltip="Return mesh edges. Uses calcEdges. "];
+  Node1385 -> Node1452 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1452 [label="faceOnCell",height=0.2,width=0.4,color="red",URL="$a21153.html#ae8119e36b45b1e47f91cdcb57222986d",tooltip="Is face used by cell. "];
+  Node1385 -> Node1458 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1458 [label="otherEdge",height=0.2,width=0.4,color="red",URL="$a21153.html#ae03c08ba46f970c3b70bfdd6fccdf664",tooltip="Return label of other edge (out of candidates edgeLabels) "];
+  Node1458 -> Node1434 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1458 -> Node1386 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

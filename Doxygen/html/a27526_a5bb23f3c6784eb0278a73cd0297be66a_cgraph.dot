@@ -1,0 +1,18 @@
+digraph "gatherAndMerge"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node245 [label="gatherAndMerge",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node245 -> Node246 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node246 [label="Foam::inplaceRenumber",height=0.2,width=0.4,color="red",URL="$a21124.html#a9b337312524f331043d60cc58a96a5e1",tooltip="Inplace renumber the values of a list. "];
+  Node245 -> Node252 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node252 [label="Foam::mergePoints",height=0.2,width=0.4,color="black",URL="$a21124.html#a91cf82266e8f08da4a95ebafddc2f61d",tooltip="Sorts and merges points. All points closer than/equal mergeTol get merged. "];
+  Node245 -> Node253 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node253 [label="Foam::PrimitivePatch\l::points",height=0.2,width=0.4,color="black",URL="$a27538.html#aa3c7d968f31c88780c663876f64ef6a6",tooltip="Return reference to global points. "];
+  Node245 -> Node254 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node254 [label="Foam::ListListOps::\lsubSizes",height=0.2,width=0.4,color="red",URL="$a21154.html#a9b8fc489be99b2de335a7555707c6203",tooltip="Gets sizes of sublists. "];
+  Node245 -> Node263 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node263 [label="Foam::List::transfer",height=0.2,width=0.4,color="black",URL="$a25694.html#a25ad1d2084d16b234b0cf91c07e832c0",tooltip="Transfer the contents of the argument List into this list. "];
+}

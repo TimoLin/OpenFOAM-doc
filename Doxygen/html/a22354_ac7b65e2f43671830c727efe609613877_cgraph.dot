@@ -1,0 +1,32 @@
+digraph "gradientBoundaryCoeffs"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1989 [label="gradientBoundaryCoeffs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1989 -> Node1990 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1990 [label="check",height=0.2,width=0.4,color="red",URL="$a22354.html#aeef19c2d54307084ed455a0317db1c54",tooltip="Check fvPatchField<Type> against given fvPatchField<Type> "];
+  Node1989 -> Node2034 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2034 [label="manipulateMatrix",height=0.2,width=0.4,color="black",URL="$a22354.html#a918a7a9b6883ae2da430decb238332e0",tooltip="Manipulate matrix. "];
+  Node1989 -> Node2035 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2035 [label="operator*=",height=0.2,width=0.4,color="red",URL="$a22354.html#a9afcc088cdd9804177e31cf8b7b92a13"];
+  Node1989 -> Node2037 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2037 [label="operator+=",height=0.2,width=0.4,color="black",URL="$a22354.html#aa821d3d7270ec19f8741dd62c6459baa"];
+  Node1989 -> Node2038 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2038 [label="operator-=",height=0.2,width=0.4,color="black",URL="$a22354.html#a56d48dd1bd9acff3ab00a51c5971bb7a"];
+  Node1989 -> Node2039 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2039 [label="operator/=",height=0.2,width=0.4,color="red",URL="$a22354.html#ada84c5b1b6373d51394fb24808818394"];
+  Node1989 -> Node2040 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2040 [label="operator=",height=0.2,width=0.4,color="black",URL="$a22354.html#a6a896c9a07142ef7985d976d61181176"];
+  Node1989 -> Node2041 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2041 [label="operator==",height=0.2,width=0.4,color="black",URL="$a22354.html#a3798c4d56e6290b68ef3c55d814a11ed"];
+  Node1989 -> Node2042 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2042 [label="Foam::type",height=0.2,width=0.4,color="red",URL="$a21124.html#aec48583af672626378f501eb9fc32cd1",tooltip="Return the file type: DIRECTORY or FILE. "];
+  Node1989 -> Node2048 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2048 [label="write",height=0.2,width=0.4,color="red",URL="$a22354.html#a293fdfec8bdfbd5c3913ab4c9f3454ff",tooltip="Write. "];
+  Node2048 -> Node2042 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2048 -> Node2052 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2052 [label="writeEntryIfDifferent",height=0.2,width=0.4,color="red",URL="$a22354.html#a23a62a1f637a5b9e0e52777511ccc95a",tooltip="Helper function to write the keyword and entry only if the. "];
+  Node1989 -> Node2052 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

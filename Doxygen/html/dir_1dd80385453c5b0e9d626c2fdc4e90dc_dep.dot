@@ -1,0 +1,35 @@
+digraph "src/OpenFOAM/primitives/SymmTensor" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="FreeSans"];
+  edge [ labelfontsize="10", labelfontname="FreeSans"];
+  subgraph clusterdir_3e50f45338116b169052b428016851aa {
+    graph [ bgcolor="#ddddee", pencolor="black", label="primitives" fontname="FreeSans", fontsize="10", URL="dir_3e50f45338116b169052b428016851aa.html"]
+  subgraph clusterdir_1dd80385453c5b0e9d626c2fdc4e90dc {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_1dd80385453c5b0e9d626c2fdc4e90dc.html"];
+    dir_1dd80385453c5b0e9d626c2fdc4e90dc [shape=plaintext label="SymmTensor"];
+    dir_593996c4442bae58e48e899892b5ce1b [shape=box label="labelSymmTensor" color="black" fillcolor="white" style="filled" URL="dir_593996c4442bae58e48e899892b5ce1b.html"];
+    dir_1dfacc31a457b9e9bed8cd9ee06ee6cc [shape=box label="symmTensor" color="black" fillcolor="white" style="filled" URL="dir_1dfacc31a457b9e9bed8cd9ee06ee6cc.html"];
+  }
+  }
+  dir_15da0e2a135f43ffeb4645c968ce8ac7 [shape=box label="Tensor" color="red" URL="dir_15da0e2a135f43ffeb4645c968ce8ac7.html"];
+  dir_6ef5fbba1c02603637a533e2f686aa62 [shape=box label="Vector" color="red" URL="dir_6ef5fbba1c02603637a533e2f686aa62.html"];
+  dir_67e43ffa00fdb90d8ab20f3d61175616 [shape=box label="VectorSpace" URL="dir_67e43ffa00fdb90d8ab20f3d61175616.html"];
+  dir_b065e1a4bed1b058c87ac57271f42191 [shape=box label="SphericalTensor" color="red" URL="dir_b065e1a4bed1b058c87ac57271f42191.html"];
+  dir_1b29830830533868fb04f0e807b2ad78 [shape=box label="contiguous" URL="dir_1b29830830533868fb04f0e807b2ad78.html"];
+  dir_15da0e2a135f43ffeb4645c968ce8ac7->dir_6ef5fbba1c02603637a533e2f686aa62 [headlabel="2", labeldistance=1.5 headhref="dir_002236_002245.html"];
+  dir_15da0e2a135f43ffeb4645c968ce8ac7->dir_1dfacc31a457b9e9bed8cd9ee06ee6cc [headlabel="2", labeldistance=1.5 headhref="dir_002236_002233.html"];
+  dir_15da0e2a135f43ffeb4645c968ce8ac7->dir_b065e1a4bed1b058c87ac57271f42191 [headlabel="3", labeldistance=1.5 headhref="dir_002236_002216.html"];
+  dir_15da0e2a135f43ffeb4645c968ce8ac7->dir_1b29830830533868fb04f0e807b2ad78 [headlabel="2", labeldistance=1.5 headhref="dir_002236_002166.html"];
+  dir_593996c4442bae58e48e899892b5ce1b->dir_1b29830830533868fb04f0e807b2ad78 [headlabel="1", labeldistance=1.5 headhref="dir_002232_002166.html"];
+  dir_6ef5fbba1c02603637a533e2f686aa62->dir_67e43ffa00fdb90d8ab20f3d61175616 [headlabel="1", labeldistance=1.5 headhref="dir_002245_002253.html"];
+  dir_6ef5fbba1c02603637a533e2f686aa62->dir_1b29830830533868fb04f0e807b2ad78 [headlabel="3", labeldistance=1.5 headhref="dir_002245_002166.html"];
+  dir_1dfacc31a457b9e9bed8cd9ee06ee6cc->dir_1b29830830533868fb04f0e807b2ad78 [headlabel="1", labeldistance=1.5 headhref="dir_002233_002166.html"];
+  dir_b065e1a4bed1b058c87ac57271f42191->dir_6ef5fbba1c02603637a533e2f686aa62 [headlabel="1", labeldistance=1.5 headhref="dir_002216_002245.html"];
+  dir_b065e1a4bed1b058c87ac57271f42191->dir_67e43ffa00fdb90d8ab20f3d61175616 [headlabel="1", labeldistance=1.5 headhref="dir_002216_002253.html"];
+  dir_b065e1a4bed1b058c87ac57271f42191->dir_1b29830830533868fb04f0e807b2ad78 [headlabel="2", labeldistance=1.5 headhref="dir_002216_002166.html"];
+  dir_1dd80385453c5b0e9d626c2fdc4e90dc->dir_15da0e2a135f43ffeb4645c968ce8ac7 [headlabel="1", labeldistance=1.5 headhref="dir_002231_002236.html"];
+  dir_1dd80385453c5b0e9d626c2fdc4e90dc->dir_6ef5fbba1c02603637a533e2f686aa62 [headlabel="1", labeldistance=1.5 headhref="dir_002231_002245.html"];
+  dir_1dd80385453c5b0e9d626c2fdc4e90dc->dir_67e43ffa00fdb90d8ab20f3d61175616 [headlabel="1", labeldistance=1.5 headhref="dir_002231_002253.html"];
+  dir_1dd80385453c5b0e9d626c2fdc4e90dc->dir_b065e1a4bed1b058c87ac57271f42191 [headlabel="1", labeldistance=1.5 headhref="dir_002231_002216.html"];
+}

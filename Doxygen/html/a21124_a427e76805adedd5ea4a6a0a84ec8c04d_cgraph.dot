@@ -1,0 +1,25 @@
+digraph "det"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node40980 [label="det",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node40980 -> Node40981 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node40981 [label="det",height=0.2,width=0.4,color="black",URL="$a21124.html#a0661214f1c72feedb965c88d685f8036"];
+  Node40981 -> Node40982 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node40982 [label="Foam::dimensioned::\ldimensions",height=0.2,width=0.4,color="black",URL="$a26366.html#a512673c2674ca2d38885f1bb5f6994fb",tooltip="Return const reference to dimensions. "];
+  Node40981 -> Node40983 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node40983 [label="Foam::dimensioned::name",height=0.2,width=0.4,color="black",URL="$a26366.html#ade4113569ef0db70665fded275a5e38e",tooltip="Return const reference to name. "];
+  Node40981 -> Node40984 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node40984 [label="pow",height=0.2,width=0.4,color="black",URL="$a21124.html#a7500c8e9d27a442adc75e287de074c7c"];
+  Node40984 -> Node40982 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node40984 -> Node40983 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node40984 -> Node40985 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node40985 [label="Foam::dimensioned::\lvalue",height=0.2,width=0.4,color="black",URL="$a26366.html#a7948200a26c85fc3a83ffa510a91d668",tooltip="Return const reference to value. "];
+  Node40981 -> Node40985 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node40980 -> Node40982 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node40980 -> Node40983 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node40980 -> Node40984 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node40980 -> Node40985 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,14 @@
+digraph "merge"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node248 [label="merge",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node248 -> Node249 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node249 [label="classification",height=0.2,width=0.4,color="black",URL="$a25498.html#aa395f27f47b2d4d0025c6b66419f2d96",tooltip="For every intersection the classification status. "];
+  Node249 -> Node248 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node248 -> Node250 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node250 [label="removeDegenerates",height=0.2,width=0.4,color="red",URL="$a25498.html#ad0d81f63bedf7adf479d3512ac49ae21",tooltip="Resolve ties. Shuffles points so all edge - face intersections. "];
+  Node250 -> Node249 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,16 @@
+digraph "fluid"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node81 [label="fluid",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node81 -> Node82 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node82 [label="alphaMax",height=0.2,width=0.4,color="black",URL="$a31934.html#a5168f07bc44a5b1290dd6a8e3b0e2309",tooltip="Optional maximum phase-fraction (e.g. packing limit) "];
+  Node81 -> Node83 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node83 [label="d",height=0.2,width=0.4,color="black",URL="$a31934.html#a79ddb0165075bc1c7739cad3c6a4078f"];
+  Node81 -> Node84 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node84 [label="otherPhase",height=0.2,width=0.4,color="black",URL="$a31934.html#a71db3c445b7e9ba369fa6f2881c32c24",tooltip="Return the other phase in this two-phase system. "];
+  Node81 -> Node85 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node85 [label="turbulence",height=0.2,width=0.4,color="black",URL="$a31934.html#a46b3209e5acc63802072a89d0aff193e",tooltip="Return the turbulence model. "];
+}

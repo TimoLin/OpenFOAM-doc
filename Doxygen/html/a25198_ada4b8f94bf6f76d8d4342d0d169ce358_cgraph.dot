@@ -1,0 +1,30 @@
+digraph "findDuplicateFacePairs"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node205 [label="findDuplicateFacePairs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node205 -> Node206 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node206 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node205 -> Node249 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node249 [label="Foam::polyMesh::boundaryMesh",height=0.2,width=0.4,color="black",URL="$a27410.html#a9f2b68c134340291eda6197f47f25484",tooltip="Return boundary mesh. "];
+  Node205 -> Node250 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node250 [label="findDuplicateFaces",height=0.2,width=0.4,color="red",URL="$a25198.html#a6a37b082fe46b394cc065a8dfa76f62c",tooltip="Helper routine to find baffles (two boundary faces using the. "];
+  Node250 -> Node206 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node250 -> Node205 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node250 -> Node253 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node253 [label="Foam::primitiveMesh\l::nInternalFaces",height=0.2,width=0.4,color="black",URL="$a27530.html#aa6c7965af1f30d16d9125deb981cbdb0"];
+  Node205 -> Node255 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node255 [label="Foam::identity",height=0.2,width=0.4,color="black",URL="$a21124.html#a36af96cb841435845fffb4fe69208490",tooltip="Create identity map (map[i] == i) of given length. "];
+  Node205 -> Node256 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node256 [label="Foam::IOobject::name",height=0.2,width=0.4,color="black",URL="$a26142.html#acc80e00a8ac919288fb55bd14cc88bf6",tooltip="Return name. "];
+  Node205 -> Node257 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node257 [label="Foam::primitiveMesh\l::nFaces",height=0.2,width=0.4,color="black",URL="$a27530.html#abe602c985a3c9ffa67176e969e77ca6f"];
+  Node205 -> Node253 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node205 -> Node258 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node258 [label="Foam::polyBoundaryMesh\l::whichPatch",height=0.2,width=0.4,color="red",URL="$a27402.html#aa2ff13fd90903c4f4cdfe81b48b2bb92",tooltip="Return patch index for a given face label. "];
+  Node258 -> Node257 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node258 -> Node206 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node258 -> Node253 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,14 @@
+digraph "setGood"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node151 [label="setGood",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node151 -> Node152 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node152 [label="Foam::ITstream::ITstream",height=0.2,width=0.4,color="black",URL="$a26322.html#aa2ee5d29179a98eb58b6bd9cac214043",tooltip="Construct from components. "];
+  Node151 -> Node153 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node153 [label="Foam::ITstream::rewind",height=0.2,width=0.4,color="red",URL="$a26322.html#a05672413dc96a628155fb940ab50362d",tooltip="Rewind and return the stream so that it may be read again. "];
+  Node151 -> Node157 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node157 [label="Foam::UOPstream::UOPstream",height=0.2,width=0.4,color="black",URL="$a26262.html#a7096a8e20d3c8aaa2130d861e91d0d4c",tooltip="Construct given process index to send to and optional buffer size,. "];
+}

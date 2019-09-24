@@ -1,0 +1,25 @@
+digraph "mergePoints"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2049 [label="mergePoints",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2049 -> Node2050 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2050 [label="Foam::PrimitivePatch\l::localFaces",height=0.2,width=0.4,color="black",URL="$a27538.html#aa4bd29e9c9de3d53e26aa2bf2e803c60",tooltip="Return patch faces addressing into local point list. "];
+  Node2049 -> Node2051 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2051 [label="Foam::PrimitivePatch\l::localPoints",height=0.2,width=0.4,color="black",URL="$a27538.html#aca6c65ee2831bb6795149af7635640a2",tooltip="Return pointField of points in patch. "];
+  Node2049 -> Node2052 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2052 [label="Foam::mergePoints",height=0.2,width=0.4,color="black",URL="$a21124.html#a91cf82266e8f08da4a95ebafddc2f61d",tooltip="Sorts and merges points. All points closer than/equal mergeTol get merged. "];
+  Node2049 -> Node2053 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2053 [label="Foam::PrimitivePatch\l::nPoints",height=0.2,width=0.4,color="black",URL="$a27538.html#a1c886a784a597459dbf2d9470798e9dd",tooltip="Return number of points supporting patch faces. "];
+  Node2049 -> Node2054 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2054 [label="Foam::triSurface::patches",height=0.2,width=0.4,color="black",URL="$a30598.html#a81f967856b4a58b0c942fe0a0dcdf627"];
+  Node2049 -> Node2055 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2055 [label="Foam::FixedList::setSize",height=0.2,width=0.4,color="black",URL="$a25894.html#aedb985ffeaf1bdbfeccc2a8730405703",tooltip="Dummy setSize function. "];
+  Node2049 -> Node2056 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2056 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node2049 -> Node2057 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2057 [label="surfaceNormal",height=0.2,width=0.4,color="red",URL="$a25538.html#a5a2f59dd14e51dca5fcbadd65696f1df",tooltip="Triangle (unit) normal. If nearest point to triangle on edge use. "];
+  Node2057 -> Node2050 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

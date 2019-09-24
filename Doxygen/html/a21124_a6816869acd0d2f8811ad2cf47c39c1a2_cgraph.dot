@@ -1,0 +1,13 @@
+digraph "operator&lt;&lt;"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node51752 [label="operator\<\<",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node51752 -> Node51753 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node51753 [label="Foam::IOstream::check",height=0.2,width=0.4,color="red",URL="$a26226.html#a367eb3425fc4e8270e2aa961df8ac8a5",tooltip="Check IOstream status for given operation. "];
+  Node51752 -> Node51802 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node51802 [label="Foam::dimensionSet\l::write",height=0.2,width=0.4,color="red",URL="$a26370.html#affe73e770350e3df39b9ad05ea58da0e",tooltip="Write using provided units. "];
+  Node51802 -> Node51753 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

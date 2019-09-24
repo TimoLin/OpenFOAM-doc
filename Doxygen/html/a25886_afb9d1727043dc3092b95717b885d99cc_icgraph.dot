@@ -1,0 +1,18 @@
+digraph "raw"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node193 [label="raw",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node193 -> Node194 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node194 [label="cumulativeRaw",height=0.2,width=0.4,color="red",URL="$a25886.html#af87b4a2d9e4c35e69820b8ff99abaf20",tooltip="Return the cumulative total bin weights and integration. "];
+  Node194 -> Node196 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node196 [label="write",height=0.2,width=0.4,color="black",URL="$a25886.html#a78760e5242dcf482000bb432f6bbc0f2",tooltip="Write the distribution to file: key normalised raw. "];
+  Node193 -> Node197 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node197 [label="normalised",height=0.2,width=0.4,color="red",URL="$a25886.html#afca6f7c7669c2f125c5b4760ed9ee1c2",tooltip="Return the normalised distribution (probability density) "];
+  Node197 -> Node196 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node193 -> Node200 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node200 [label="operator=",height=0.2,width=0.4,color="black",URL="$a25886.html#af4c95da6a1f84053cea75e28025f3fc0"];
+  Node193 -> Node196 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

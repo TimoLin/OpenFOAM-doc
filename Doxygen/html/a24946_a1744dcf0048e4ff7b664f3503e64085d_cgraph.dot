@@ -1,0 +1,14 @@
+digraph "initMovePoints"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node561 [label="initMovePoints",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node561 -> Node562 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node562 [label="Foam::polyPatch::initMove\lPoints",height=0.2,width=0.4,color="red",URL="$a27478.html#aef8ac59e1db03a1fc368b9ce9a25dbb5",tooltip="Initialise the patches for moving points. "];
+  Node561 -> Node565 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node565 [label="movePoints",height=0.2,width=0.4,color="red",URL="$a24946.html#a60983bf9f9ad6158ce126c2d96eb1acc",tooltip="Correct patches after moving points. "];
+  Node561 -> Node564 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node564 [label="Foam::PrimitivePatch\l::movePoints",height=0.2,width=0.4,color="black",URL="$a27538.html#a4fb366d4fdab7f8f6bcb1cd811d0fb8a",tooltip="Correct patch after moving points. "];
+}

@@ -1,0 +1,20 @@
+digraph "New"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1078 [label="New",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1078 -> Node1079 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1079 [label="Foam::debug::controlDict",height=0.2,width=0.4,color="red",URL="$a21163.html#a99ec32314c649e103ec5b70effea2d96",tooltip="The central control dictionary. "];
+  Node1078 -> Node1085 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1085 [label="Foam::exit",height=0.2,width=0.4,color="red",URL="$a21124.html#a06ca7250d8e89caf05243ec094843642"];
+  Node1078 -> Node1146 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1146 [label="Foam::HashTable::find",height=0.2,width=0.4,color="black",URL="$a25702.html#a76b2c74ebd9f33fa9f76261b027ffc11",tooltip="Find and return an iterator set at the hashedEntry. "];
+  Node1078 -> Node1147 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1147 [label="Foam::dictionary::lookup\lOrDefault",height=0.2,width=0.4,color="red",URL="$a26014.html#a69ee064dcc6d649df523e02e5c242922",tooltip="Find and return a T,. "];
+  Node1078 -> Node1152 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1152 [label="Foam::lduMesh::thisDb",height=0.2,width=0.4,color="red",URL="$a27126.html#a83b4b6e6a43285477e284433f80eed1b",tooltip="Return the object registry. "];
+  Node1078 -> Node1203 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1203 [label="Foam::objectRegistry\l::time",height=0.2,width=0.4,color="black",URL="$a26326.html#a0d94096809fe3376b29a2a29ca11bb18",tooltip="Return time. "];
+}

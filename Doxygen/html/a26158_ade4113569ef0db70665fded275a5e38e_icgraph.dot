@@ -1,0 +1,21 @@
+digraph "name"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node959 [label="name",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node959 -> Node960 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node960 [label="Foam::regionModels\l::regionModel::interRegionAMI",height=0.2,width=0.4,color="red",URL="$a28998.html#ae6f98cf640b80963b57aa58591e37009",tooltip="Create or return a new inter-region AMI object. "];
+  Node959 -> Node962 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node962 [label="IOdictionary",height=0.2,width=0.4,color="black",URL="$a26158.html#a668d1ac4fd646613b3a8063bd830a724",tooltip="Construct given an IOobject. "];
+  Node959 -> Node963 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node963 [label="Foam::IOOutputFilter\l::name",height=0.2,width=0.4,color="black",URL="$a26130.html#a754ce9966caae1ee331378bf4a87269b",tooltip="Return name. "];
+  Node959 -> Node964 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node964 [label="Foam::regionModels\l::regionModel::nbrCoupledPatchID",height=0.2,width=0.4,color="red",URL="$a28998.html#a815489a8e5ceebec990123eab576d2ef",tooltip="Return the coupled patch ID paired with coupled patch. "];
+  Node964 -> Node960 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node959 -> Node967 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node967 [label="readData",height=0.2,width=0.4,color="red",URL="$a26158.html#ac3b3d77e7369ae2785973778644137c5",tooltip="ReadData function required for regIOobject read operation. "];
+  Node959 -> Node1014 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1014 [label="Foam::Time::readDict",height=0.2,width=0.4,color="red",URL="$a26350.html#a09f8bbb748b599cf713fa2e07ec7e0b4",tooltip="Read the control dictionary and set the write controls etc. "];
+}

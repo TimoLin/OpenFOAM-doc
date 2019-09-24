@@ -1,0 +1,18 @@
+digraph "read"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node949 [label="read",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node949 -> Node950 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node950 [label="Foam::radiation::noRadiation\l::read",height=0.2,width=0.4,color="black",URL="$a30030.html#af816873151ddb0126e98bb2f914d8ed5",tooltip="Read radiationProperties dictionary. "];
+  Node949 -> Node951 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node951 [label="Foam::radiation::opaqueSolid\l::read",height=0.2,width=0.4,color="black",URL="$a30034.html#af816873151ddb0126e98bb2f914d8ed5",tooltip="Read radiationProperties dictionary. "];
+  Node949 -> Node952 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node952 [label="Foam::radiation::P1\l::read",height=0.2,width=0.4,color="black",URL="$a30038.html#af816873151ddb0126e98bb2f914d8ed5",tooltip="Read radiation properties dictionary. "];
+  Node949 -> Node953 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node953 [label="Foam::radiation::viewFactor\l::read",height=0.2,width=0.4,color="black",URL="$a30046.html#af816873151ddb0126e98bb2f914d8ed5",tooltip="Read radiation properties dictionary. "];
+  Node949 -> Node954 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node954 [label="Foam::radiation::fvDOM\l::read",height=0.2,width=0.4,color="black",URL="$a30022.html#af816873151ddb0126e98bb2f914d8ed5",tooltip="Read radiation properties dictionary. "];
+}

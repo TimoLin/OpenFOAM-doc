@@ -1,0 +1,24 @@
+digraph "type"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node22 [label="type",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node22 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23 [label="Foam::token::compound\l::compound",height=0.2,width=0.4,color="black",URL="$a26310.html#a73a0e0103a597c22c270606809833aa4",tooltip="Construct null. "];
+  Node22 -> Node24 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node24 [label="Foam::operator\<\<",height=0.2,width=0.4,color="black",URL="$a21124.html#a609e356ecf969e67ae8ffc4d99dc9c64"];
+  Node22 -> Node25 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node25 [label="Foam::ISstream::read",height=0.2,width=0.4,color="red",URL="$a26286.html#a3d4b02e5b143d1a4ba9a5b34f11b4ed1",tooltip="Return next token from stream. "];
+  Node22 -> Node27 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node27 [label="Foam::UIPstream::read",height=0.2,width=0.4,color="black",URL="$a26258.html#a3d4b02e5b143d1a4ba9a5b34f11b4ed1",tooltip="Return next token from stream. "];
+  Node22 -> Node28 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node28 [label="Foam::prefixOSstream\l::write",height=0.2,width=0.4,color="red",URL="$a26294.html#a52c3f56f115b2b9b1b7db001a3784003",tooltip="Write next token to stream. "];
+  Node22 -> Node31 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node31 [label="Foam::OSstream::write",height=0.2,width=0.4,color="red",URL="$a26290.html#a52c3f56f115b2b9b1b7db001a3784003",tooltip="Write next token to stream. "];
+  Node22 -> Node44 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node44 [label="Foam::UOPstream::write",height=0.2,width=0.4,color="black",URL="$a26262.html#a52c3f56f115b2b9b1b7db001a3784003",tooltip="Write next token to stream. "];
+  Node22 -> Node45 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node45 [label="Foam::primitiveEntry\l::write",height=0.2,width=0.4,color="black",URL="$a26058.html#abba3093e9056aa1033a534c5f3df0a80",tooltip="Write, optionally with contents only (no keyword, etc) "];
+}

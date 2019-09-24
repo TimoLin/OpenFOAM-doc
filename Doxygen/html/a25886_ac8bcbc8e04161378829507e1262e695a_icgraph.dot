@@ -1,0 +1,15 @@
+digraph "validLimits"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node65 [label="validLimits",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node65 -> Node66 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node66 [label="index",height=0.2,width=0.4,color="red",URL="$a25886.html#afc2c6ca23397ec9240c9974ac5c7d0a9",tooltip="Return the appropriate List index for the given bin index. "];
+  Node65 -> Node71 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node71 [label="normalised",height=0.2,width=0.4,color="red",URL="$a25886.html#afca6f7c7669c2f125c5b4760ed9ee1c2",tooltip="Return the normalised distribution (probability density) "];
+  Node65 -> Node73 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node73 [label="raw",height=0.2,width=0.4,color="red",URL="$a25886.html#afb9d1727043dc3092b95717b885d99cc",tooltip="Return the distribution of the total bin weights. "];
+  Node73 -> Node71 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,41 @@
+digraph "updateCoeffs"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node919 [label="updateCoeffs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node919 -> Node920 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node920 [label="Foam::GeometricField\l::boundaryField",height=0.2,width=0.4,color="black",URL="$a22434.html#a3c6c1a789b48ea0c5e8bff64f9c14f2d",tooltip="Return reference to GeometricBoundaryField. "];
+  Node919 -> Node921 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node921 [label="Foam::incompressible\l::turbulenceModel::k",height=0.2,width=0.4,color="black",URL="$a31102.html#a513c40f9ed37e2baed10984c3c4c57a9",tooltip="Return the turbulence kinetic energy. "];
+  Node919 -> Node922 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node922 [label="Foam::log",height=0.2,width=0.4,color="black",URL="$a21124.html#a6e89590da9859ad497977e08f110d4b5"];
+  Node919 -> Node923 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node923 [label="Foam::dictionary::lookup",height=0.2,width=0.4,color="red",URL="$a26014.html#a6a0727fa523e48977e27348663def509",tooltip="Find and return an entry data stream. "];
+  Node919 -> Node1068 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1068 [label="Foam::max",height=0.2,width=0.4,color="black",URL="$a21124.html#ac993e906cf2774ae77e666bc24e81733"];
+  Node919 -> Node1224 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1224 [label="Foam::incompressible\l::turbulenceModel::nu",height=0.2,width=0.4,color="red",URL="$a31102.html#aa739f3daeda1884fecc84f2b36a24021",tooltip="Return the laminar viscosity. "];
+  Node1224 -> Node921 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node919 -> Node1195 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1195 [label="Foam::pow",height=0.2,width=0.4,color="red",URL="$a21124.html#a7500c8e9d27a442adc75e287de074c7c"];
+  Node919 -> Node1283 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1283 [label="Pr",height=0.2,width=0.4,color="black",URL="$a39152.html#a1db7a9e58e450e6ddc830a30f0674a02"];
+  Node919 -> Node1284 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1284 [label="Psmooth",height=0.2,width=0.4,color="red",URL="$a30950.html#aa2cd0fd71a8a64cec37c28fa850d0ecd",tooltip="`P&#39; function "];
+  Node1284 -> Node1195 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1284 -> Node1286 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1286 [label="yPlusTherm",height=0.2,width=0.4,color="red",URL="$a30950.html#a9785c9a0d1e4a659334db330c7d640ca",tooltip="Calculate y+ at the edge of the thermal laminar sublayer. "];
+  Node1286 -> Node922 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node919 -> Node1289 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1289 [label="Foam::sqrt",height=0.2,width=0.4,color="red",URL="$a21124.html#a8616bd62eebf2342a80222fecb1bda71"];
+  Node1289 -> Node1195 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node919 -> Node1290 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1290 [label="transportProperties",height=0.2,width=0.4,color="black",URL="$a39050.html#a65fd81edd498429493340273242f1830"];
+  Node919 -> Node1291 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1291 [label="Foam::fvPatchField\l::updateCoeffs",height=0.2,width=0.4,color="black",URL="$a22354.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node919 -> Node1292 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1292 [label="Foam::incompressible\l::turbulenceModel::y",height=0.2,width=0.4,color="black",URL="$a31102.html#a152c527a6b3137685b03893a7a3a73eb",tooltip="Return the near wall distances. "];
+  Node919 -> Node1286 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

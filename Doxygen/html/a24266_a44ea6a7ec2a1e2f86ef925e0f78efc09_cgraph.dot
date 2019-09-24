@@ -1,0 +1,13 @@
+digraph "tau"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node30 [label="tau",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node30 -> Node31 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node31 [label="dTaudTheta",height=0.2,width=0.4,color="red",URL="$a24266.html#a9d326c9d0293a0872ca85acf4784a7a6",tooltip="Collision stress derivaive w.r.t. the volume fraction. "];
+  Node31 -> Node33 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node33 [label="Foam::pow",height=0.2,width=0.4,color="red",URL="$a21124.html#a7500c8e9d27a442adc75e287de074c7c"];
+  Node30 -> Node33 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

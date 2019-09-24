@@ -1,0 +1,17 @@
+digraph "write"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node344 [label="write",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node344 -> Node345 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node345 [label="Foam::operator\<\<",height=0.2,width=0.4,color="red",URL="$a21124.html#ae86a76a63deefbe1a4490c873ad8e1b2"];
+  Node344 -> Node498 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node498 [label="read",height=0.2,width=0.4,color="red",URL="$a21758.html#a22c713e4cb4d8f5a7c987c659e74ed80",tooltip="Read edgeMesh components from stream. "];
+  Node498 -> Node532 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node532 [label="~edgeMeshFormat",height=0.2,width=0.4,color="black",URL="$a21758.html#a73cdb8b67f1d5d9f85b8fe76cc9e9588",tooltip="Destructor. "];
+  Node344 -> Node533 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node533 [label="write",height=0.2,width=0.4,color="black",URL="$a21758.html#a01c3b83ec613ee5baee3f67a188e98b1",tooltip="Write object. "];
+  Node344 -> Node532 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

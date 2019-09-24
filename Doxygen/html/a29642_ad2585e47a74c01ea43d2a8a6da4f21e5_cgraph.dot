@@ -1,0 +1,26 @@
+digraph "writeAscii"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node271 [label="writeAscii",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node271 -> Node272 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node272 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node271 -> Node274 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node274 [label="Foam::exit",height=0.2,width=0.4,color="red",URL="$a21124.html#a06ca7250d8e89caf05243ec094843642"];
+  Node271 -> Node319 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node319 [label="Foam::MeshedSurface\l::faces",height=0.2,width=0.4,color="black",URL="$a29566.html#a16c6d36f7c961d037a44e5c235d9aa15",tooltip="Return const access to the faces. "];
+  Node271 -> Node309 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node309 [label="Foam::IOstream::good",height=0.2,width=0.4,color="black",URL="$a26226.html#abdcc7f96f487faadc7769afcf58fe992",tooltip="Return true if next operation might succeed. "];
+  Node271 -> Node320 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node320 [label="Foam::PrimitivePatch\l\< Face, ::Foam::List,\l pointField, point \>::\lpoints",height=0.2,width=0.4,color="black",URL="$a27538.html#aa3c7d968f31c88780c663876f64ef6a6",tooltip="Return reference to global points. "];
+  Node271 -> Node321 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node321 [label="Foam::UnsortedMeshedSurface\l::sortedZones",height=0.2,width=0.4,color="red",URL="$a29574.html#a3ef52fedf8e3a917988a6f58d5fc3273",tooltip="Sort faces according to zoneIds. "];
+  Node271 -> Node357 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node357 [label="writeBinary",height=0.2,width=0.4,color="red",URL="$a29642.html#a3c9f7310b853c8ab0e75e5f2db117e7c",tooltip="Write surface mesh components by proxy (as BINARY) "];
+  Node357 -> Node274 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node271 -> Node365 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node365 [label="Foam::UnsortedMeshedSurface\l::zoneToc",height=0.2,width=0.4,color="red",URL="$a29574.html#adc84fd65ce1212a7745d7e69a0fa9250",tooltip="Return const access to the zone table-of-contents. "];
+  Node365 -> Node321 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

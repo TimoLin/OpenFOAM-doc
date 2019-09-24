@@ -1,0 +1,13 @@
+digraph "setUnrefinement"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node7904 [label="setUnrefinement",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node7904 -> Node7905 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7905 [label="consistentUnrefinement",height=0.2,width=0.4,color="red",URL="$a21654.html#abf9b3d2f2aab0f68bcd539d27b46cfcf",tooltip="Given proposed. "];
+  Node7905 -> Node7907 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7907 [label="level0EdgeLength",height=0.2,width=0.4,color="red",URL="$a21654.html#a5038ef57fdb5e24db3472bc037c5a270",tooltip="Typical edge length between unrefined points. "];
+  Node7904 -> Node7907 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

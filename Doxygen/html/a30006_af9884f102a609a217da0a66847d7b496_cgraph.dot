@@ -1,0 +1,19 @@
+digraph "emissivityMethod"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node63 [label="emissivityMethod",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node63 -> Node64 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node64 [label="autoMap",height=0.2,width=0.4,color="black",URL="$a30006.html#a0ab0c43ce90d756c88dd81e3d0a9eef5",tooltip="Map (and resize as needed) from self given a mapping object. "];
+  Node64 -> Node65 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node65 [label="rmap",height=0.2,width=0.4,color="black",URL="$a30006.html#a713277715ccc0a5ef466b0516d44731f",tooltip="Reverse map the given fvPatchField onto this fvPatchField. "];
+  Node65 -> Node65 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node63 -> Node66 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node66 [label="emissivity",height=0.2,width=0.4,color="red",URL="$a30006.html#a7db0692125f65db90f74422c70f29f3c",tooltip="Calculate corresponding emissivity field. "];
+  Node66 -> Node64 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node63 -> Node65 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node63 -> Node525 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node525 [label="write",height=0.2,width=0.4,color="red",URL="$a30006.html#a293fdfec8bdfbd5c3913ab4c9f3454ff",tooltip="Write. "];
+}

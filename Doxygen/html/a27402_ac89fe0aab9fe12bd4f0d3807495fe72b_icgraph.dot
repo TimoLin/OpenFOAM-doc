@@ -1,0 +1,47 @@
+digraph "findPatchID"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3297 [label="findPatchID",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3297 -> Node3298 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3298 [label="Foam::fvMeshTools::\laddPatch",height=0.2,width=0.4,color="red",URL="$a21458.html#a590f160ae7ad17fa6394045ac077b9bf",tooltip="Add patch. Inserts patch before all processor patches. "];
+  Node3297 -> Node3311 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3311 [label="Foam::meshRefinement\l::addPatch",height=0.2,width=0.4,color="red",URL="$a24662.html#a7648b2de2bf053048ba38532a8cf73a1",tooltip="Helper:add patch to mesh. Update all registered fields. "];
+  Node3297 -> Node3316 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3316 [label="Foam::inverseFaceDistance\lDiffusivity::correct",height=0.2,width=0.4,color="black",URL="$a23362.html#a3ae44b28050c3aa494c1d8e18cf618c1",tooltip="Correct the motion diffusivity. "];
+  Node3297 -> Node3317 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3317 [label="Foam::directions::directions",height=0.2,width=0.4,color="black",URL="$a21490.html#ab3b223d63d30550e67ee99206b60b63f",tooltip="Construct from mesh and dictionary and optional 2D corrector. "];
+  Node3297 -> Node3318 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3318 [label="Foam::patchProbes::\lfindElements",height=0.2,width=0.4,color="black",URL="$a29262.html#a852f621399b6ee1f3467e69a1d5fe8b4",tooltip="Find elements containing patchProbes. "];
+  Node3297 -> Node3319 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3319 [label="Foam::meshToMesh::interpolation\lMethodAMI",height=0.2,width=0.4,color="black",URL="$a29254.html#aef7049b730f1c37232e66c147569b92b",tooltip="Conversion between mesh and patch interpolation methods. "];
+  Node3297 -> Node3320 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3320 [label="Foam::mappedPatchFieldBase\l::mappedField",height=0.2,width=0.4,color="red",URL="$a22162.html#a64601fddebd792642d8cefb7b7cd93f9",tooltip="Map sampleField onto *this patch. "];
+  Node3297 -> Node3322 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3322 [label="mesh",height=0.2,width=0.4,color="red",URL="$a27402.html#ae78c91f8ff731c07ccc4351d9fe861ba",tooltip="Return the mesh reference. "];
+  Node3322 -> Node3320 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3322 -> Node3356 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3356 [label="Foam::regionCoupledBase\l::neighbPatchID",height=0.2,width=0.4,color="red",URL="$a25182.html#afc2149e80f0785ace675c205b80eb6bc",tooltip="Neighbour patch ID. "];
+  Node3297 -> Node3410 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3410 [label="Foam::meshRefinement\l::meshedPatches",height=0.2,width=0.4,color="red",URL="$a24662.html#a99d01ffe5a584e7f602fdceb6cbd4a6b",tooltip="Get patchIDs for patches added in addMeshedPatch. "];
+  Node3297 -> Node3356 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3297 -> Node3411 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3411 [label="Foam::processorCyclicPoly\lPatch::referPatchID",height=0.2,width=0.4,color="red",URL="$a27458.html#a86b7a7712f1ee31a8ca7722d7911accf",tooltip="Referring patchID. "];
+  Node3297 -> Node3434 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3434 [label="Foam::sampledCuttingPlane\l::sampledCuttingPlane",height=0.2,width=0.4,color="black",URL="$a29362.html#aecbcf2c3dfc39ff92ce64d94953147be",tooltip="Construct from dictionary. "];
+  Node3297 -> Node3435 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3435 [label="Foam::sampledIsoSurface\l::sampledIsoSurface",height=0.2,width=0.4,color="black",URL="$a29354.html#a292a1d14dcf9c7e12fd820f84bd3eefc",tooltip="Construct from dictionary. "];
+  Node3297 -> Node3436 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3436 [label="Foam::mappedPatchBase\l::samplePolyPatch",height=0.2,width=0.4,color="red",URL="$a25094.html#a8f81235fc833f4500edd224fb8ecd146",tooltip="Get the patch on the region. "];
+  Node3297 -> Node3437 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3437 [label="Foam::fvMeshSubset\l::setCellSubset",height=0.2,width=0.4,color="red",URL="$a22790.html#a7007bf1daafcf75caa93fdb67143236e",tooltip="Set the subset. Create \"oldInternalFaces\" patch for exposed. "];
+  Node3297 -> Node3439 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3439 [label="Foam::decompositionMethod\l::setConstraints",height=0.2,width=0.4,color="red",URL="$a28594.html#a36608a91d1c00b41284eaf46b895387c",tooltip="Helper: extract constraints: "];
+  Node3297 -> Node3441 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3441 [label="Foam::fvMeshSubset\l::setLargeCellSubset",height=0.2,width=0.4,color="red",URL="$a22790.html#aa5aecd31ebb23c10811eb60949808165",tooltip="Set the subset from all cells with region == currentRegion. "];
+  Node3441 -> Node3437 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3297 -> Node3447 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3447 [label="Foam::outletMappedUniform\lInletFvPatchField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a22198.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+}

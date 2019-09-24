@@ -1,0 +1,14 @@
+digraph "caseName"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2242 [label="caseName",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2242 -> Node2243 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2243 [label="Foam::getEnv",height=0.2,width=0.4,color="red",URL="$a21124.html#aa811843798d715931c4c97ff949a89f3",tooltip="Return environment variable of given name. "];
+  Node2242 -> Node2246 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2246 [label="Foam::string::replace",height=0.2,width=0.4,color="red",URL="$a28250.html#a7e6adc1b53baf219bd57e7c9fa7b9f4b",tooltip="Replace first occurence of sub-string oldStr with newStr. "];
+  Node2242 -> Node2248 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2248 [label="Foam::string::string",height=0.2,width=0.4,color="black",URL="$a28250.html#ac698246cbee3afc43cba80f3d9a71d69",tooltip="Construct null. "];
+}

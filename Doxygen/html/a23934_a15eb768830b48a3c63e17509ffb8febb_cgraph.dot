@@ -1,0 +1,33 @@
+digraph "operator()"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2 [label="operator()",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="Foam::ReactingParcel\l::calc",height=0.2,width=0.4,color="red",URL="$a23922.html#a1c2aa9de8e2381d1a7be78bd687fd255",tooltip="Update parcel properties over the time interval. "];
+  Node2 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19 [label="Foam::ReactingParcel\l::cellValueSourceCorrection",height=0.2,width=0.4,color="red",URL="$a23922.html#a12514aea0fca411ec9a08597bd2e709d",tooltip="Correct cell values using latest transfer information. "];
+  Node19 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20 [label="Foam::ReactingParcel\l::correctSurfaceValues",height=0.2,width=0.4,color="red",URL="$a23922.html#abf5f172a3acd1b1e7f81f2d0f1ca3b81",tooltip="Correct surface values due to emitted species. "];
+  Node20 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20 -> Node87 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node87 [label="Foam::T",height=0.2,width=0.4,color="red",URL="$a21124.html#ae57fda0abb14bb0944947c463c6e09d4"];
+  Node2 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 -> Node93 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node93 [label="Foam::ReactingParcel\l::mass0",height=0.2,width=0.4,color="black",URL="$a23922.html#a9dd5838e90f34566d1631e11067479da",tooltip="Return const access to initial particle mass [kg]. "];
+  Node2 -> Node94 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node94 [label="Foam::ReactingParcel::pc",height=0.2,width=0.4,color="black",URL="$a23922.html#a887323de0af0c7c455b818edce55f5fa",tooltip="Return the owner cell pressure [Pa]. "];
+  Node2 -> Node95 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node95 [label="Foam::ReactingParcel\l::readFields",height=0.2,width=0.4,color="red",URL="$a23922.html#aef842d059922eaaa167c7b8c37378e17",tooltip="Read. "];
+  Node2 -> Node100 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node100 [label="Foam::ReactingParcel\l::setCellValues",height=0.2,width=0.4,color="red",URL="$a23922.html#a41280fa67cfd5c60a05387baa00989df",tooltip="Set cell values. "];
+  Node100 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 -> Node87 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 -> Node101 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node101 [label="Foam::ReactingParcel\l::writeFields",height=0.2,width=0.4,color="red",URL="$a23922.html#a64adf0008b4736131ce199c3a2c5ffd7",tooltip="Write. "];
+  Node101 -> Node351 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node351 [label="Foam::ReactingParcel::Y",height=0.2,width=0.4,color="black",URL="$a23922.html#a6848f342ceff8ea19de9aa136677370f",tooltip="Return const access to mass fractions of mixture []. "];
+  Node2 -> Node351 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

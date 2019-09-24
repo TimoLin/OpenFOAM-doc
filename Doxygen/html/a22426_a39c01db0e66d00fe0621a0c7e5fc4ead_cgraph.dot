@@ -1,0 +1,30 @@
+digraph "coupled"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2558 [label="coupled",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2558 -> Node2559 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2559 [label="autoMap",height=0.2,width=0.4,color="red",URL="$a22426.html#a0ab0c43ce90d756c88dd81e3d0a9eef5",tooltip="Map (and resize as needed) from self given a mapping object. "];
+  Node2559 -> Node2561 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2561 [label="rmap",height=0.2,width=0.4,color="red",URL="$a22426.html#a2a4e2ff4d089213c5003eb8cff760b29",tooltip="Reverse map the given fvsPatchField onto this fvsPatchField. "];
+  Node2558 -> Node2563 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2563 [label="check",height=0.2,width=0.4,color="red",URL="$a22426.html#ac687f237fb4c58ded7b1f471861f1c5b",tooltip="Check fvsPatchField<Type> against given fvsPatchField<Type> "];
+  Node2563 -> Node2559 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2558 -> Node2607 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2607 [label="operator*=",height=0.2,width=0.4,color="red",URL="$a22426.html#af02e8ea066fad79587522f2292cdf1bc"];
+  Node2558 -> Node2610 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2610 [label="operator+=",height=0.2,width=0.4,color="red",URL="$a22426.html#abb8527b970bbb84e2a909464f2292da6"];
+  Node2558 -> Node2612 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2612 [label="operator-=",height=0.2,width=0.4,color="red",URL="$a22426.html#a98f7529b04eff2f8653f665c1e51bf09"];
+  Node2558 -> Node2614 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2614 [label="operator/=",height=0.2,width=0.4,color="red",URL="$a22426.html#ab48562ec0316ad4224410a9faa90b98c"];
+  Node2558 -> Node2616 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2616 [label="operator=",height=0.2,width=0.4,color="red",URL="$a22426.html#a6a896c9a07142ef7985d976d61181176"];
+  Node2558 -> Node2618 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2618 [label="operator==",height=0.2,width=0.4,color="red",URL="$a22426.html#a45f612e32be0f7ab4272d5e192dc9154"];
+  Node2558 -> Node2561 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2558 -> Node2619 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2619 [label="write",height=0.2,width=0.4,color="red",URL="$a22426.html#a293fdfec8bdfbd5c3913ab4c9f3454ff",tooltip="Write. "];
+}

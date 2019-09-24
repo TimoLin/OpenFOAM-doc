@@ -1,0 +1,14 @@
+digraph "decompose"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node32 [label="decompose",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node32 -> Node33 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node33 [label="decompose",height=0.2,width=0.4,color="black",URL="$a28622.html#a3dc1a5b88e04251d88c036f77b676032",tooltip="Like decompose but with uniform weights on the points. "];
+  Node32 -> Node34 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34 [label="parallelAware",height=0.2,width=0.4,color="black",URL="$a28622.html#a633a6cc754e8e20720ad646c342afa3f",tooltip="Is method parallel aware (i.e. does it synchronize domains across. "];
+  Node32 -> Node35 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node35 [label="simpleGeomDecomp",height=0.2,width=0.4,color="black",URL="$a28622.html#afa98ade1b6064e26779d29d8909488c7",tooltip="Construct given the decomposition dictionary. "];
+}

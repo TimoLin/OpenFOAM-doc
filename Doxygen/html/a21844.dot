@@ -1,0 +1,14 @@
+digraph "coordSet"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node23 [label="coordSet",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node24 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node24 [label="pointField",height=0.2,width=0.4,color="red",URL="$a26466.html"];
+  Node34 -> Node23 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" curveDist_" ,fontname="FreeSans"];
+  Node34 [label="List\< scalar \>",height=0.2,width=0.4,color="red",URL="$a25694.html"];
+  Node36 -> Node23 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" name_" ,fontname="FreeSans"];
+  Node36 [label="word",height=0.2,width=0.4,color="red",URL="$a28258.html",tooltip="A class for handling words, derived from string. "];
+  Node36 -> Node36 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" null" ,fontname="FreeSans"];
+}

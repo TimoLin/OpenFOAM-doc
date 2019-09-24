@@ -1,0 +1,47 @@
+digraph "nEdges"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node18923 [label="nEdges",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node18923 -> Node18924 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18924 [label="Foam::edgeCollapser\l::consistentCollapse",height=0.2,width=0.4,color="red",URL="$a21642.html#a7e2bf473b4c7a583afaf66ea4927f247",tooltip="Ensure that the collapse is parallel consistent and update. "];
+  Node18923 -> Node18927 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18927 [label="Foam::polyMeshFilter\l::copyMesh",height=0.2,width=0.4,color="black",URL="$a21598.html#a6d46f578539dd45f89a6ea89738c75b5",tooltip="Return a copy of an fvMesh. "];
+  Node18927 -> Node18928 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18928 [label="Foam::polyMeshFilter\l::filterEdges",height=0.2,width=0.4,color="black",URL="$a21598.html#ad478c9d800707f297552317d2f03cbce",tooltip="Filter edges only. "];
+  Node18923 -> Node18929 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18929 [label="Foam::meshRefinement\l::createZoneBaffles",height=0.2,width=0.4,color="red",URL="$a24662.html#a79af0bcc267d8fda8b3f4e683cac915b",tooltip="Create baffles for faces straddling zoned surfaces. Return. "];
+  Node18923 -> Node18932 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18932 [label="edgeCells",height=0.2,width=0.4,color="red",URL="$a27530.html#addd6d1fd65f617ff40cde4479560c2c3"];
+  Node18923 -> Node18941 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18941 [label="edgeFaces",height=0.2,width=0.4,color="red",URL="$a27530.html#ad38ecd2902727a890ebd437731c271c8"];
+  Node18923 -> Node19004 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19004 [label="Foam::edgeVertex::edgeTo\lEVert",height=0.2,width=0.4,color="red",URL="$a21494.html#a1e202b1ab8a96e5fbd02958e29524d24",tooltip="Convert edgeI to eVert. "];
+  Node18923 -> Node18972 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18972 [label="Foam::directionInfo\l::edgeToFaceIndex",height=0.2,width=0.4,color="red",URL="$a21486.html#ae91026257717a2d46454adf53e72da4d",tooltip="Given edge on hex cell find corresponding edge on face. Is either. "];
+  Node18923 -> Node19007 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19007 [label="Foam::polyMeshFilter\l::filter",height=0.2,width=0.4,color="black",URL="$a21598.html#a55dba161bb0a72849b0af234e4cb7e5d",tooltip="Filter edges and faces. "];
+  Node18923 -> Node18928 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18923 -> Node19008 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19008 [label="Foam::syncTools::getMaster\lEdges",height=0.2,width=0.4,color="red",URL="$a27502.html#a96d0f41e2ad80738744f967818ff34a2",tooltip="Get per edge whether it is uncoupled or a master of a. "];
+  Node18923 -> Node18958 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18958 [label="Foam::addPatchCellLayer\l::globalEdgeFaces",height=0.2,width=0.4,color="red",URL="$a21626.html#aeea8524ff2d092f53488dd1cb593c58e",tooltip="Per patch edge the pp faces (in global indices) using it. Uses. "];
+  Node18923 -> Node19012 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19012 [label="Foam::edgeVertex::isEdge",height=0.2,width=0.4,color="red",URL="$a21494.html#a41bb4fbf7e5af9ad942e457104c9e4d1",tooltip="is eVert an edge? "];
+  Node18923 -> Node19018 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19018 [label="Foam::cellFeatures\l::isFeaturePoint",height=0.2,width=0.4,color="red",URL="$a24978.html#a064ae94fdd1fdbb9360aae5489993fe3",tooltip="Are two edges connected at feature point? "];
+  Node18923 -> Node19021 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19021 [label="nInternal0Edges",height=0.2,width=0.4,color="black",URL="$a27530.html#abe1f7d5372cc5103b38f5b791ca76020",tooltip="Internal edges (i.e. not on boundary face) using. "];
+  Node18923 -> Node19022 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19022 [label="nInternal1Edges",height=0.2,width=0.4,color="black",URL="$a27530.html#a5dada1b24de5d68bb3903d1e9e6104f6",tooltip="Internal edges using 0 or 1 boundary point. "];
+  Node18923 -> Node19023 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19023 [label="nInternalEdges",height=0.2,width=0.4,color="black",URL="$a27530.html#ac3a114a989f593d0844725f0e2364537",tooltip="Internal edges using 0,1 or 2 boundary points. "];
+  Node18923 -> Node19024 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19024 [label="Foam::syncTools::syncEdgeList",height=0.2,width=0.4,color="red",URL="$a27502.html#a5ed3e64d2ef89e3823674727ea1b3d58",tooltip="Synchronize values on all mesh edges. "];
+  Node19024 -> Node18927 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19024 -> Node18958 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19024 -> Node18924 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19024 -> Node18929 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

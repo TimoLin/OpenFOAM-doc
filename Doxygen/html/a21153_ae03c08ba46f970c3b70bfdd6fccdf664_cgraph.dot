@@ -1,0 +1,18 @@
+digraph "otherEdge"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1610 [label="otherEdge",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1610 -> Node1611 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1611 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node1610 -> Node1654 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1654 [label="Foam::primitiveMesh\l::edges",height=0.2,width=0.4,color="black",URL="$a27530.html#a21d764179912ddda5c6f95193c289846",tooltip="Return mesh edges. Uses calcEdges. "];
+  Node1610 -> Node1655 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1655 [label="Foam::edge::end",height=0.2,width=0.4,color="red",URL="$a27210.html#a5ac1c619caccdf5bcf8c3d58a409849f",tooltip="Return end vertex label. "];
+  Node1610 -> Node1657 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1657 [label="otherFace",height=0.2,width=0.4,color="red",URL="$a21153.html#a38973075afca54f6ee816cab3b8bff7e",tooltip="Return face on cell using edgeI but not faceI. Throws error. "];
+  Node1610 -> Node1794 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1794 [label="Foam::edge::start",height=0.2,width=0.4,color="red",URL="$a27210.html#afe56bdd2031bbf8321e35e2330c0b990",tooltip="Return start vertex label. "];
+}

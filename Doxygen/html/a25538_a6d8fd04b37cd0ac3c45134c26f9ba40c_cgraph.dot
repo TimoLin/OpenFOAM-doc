@@ -1,0 +1,29 @@
+digraph "trackToEdge"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4672 [label="trackToEdge",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4672 -> Node4673 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4673 [label="Foam::PrimitivePatch\l::edgeFaces",height=0.2,width=0.4,color="black",URL="$a27538.html#ad38ecd2902727a890ebd437731c271c8",tooltip="Return edge-face addressing. "];
+  Node4672 -> Node4674 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4674 [label="Foam::surfaceLocation\l::elementType",height=0.2,width=0.4,color="black",URL="$a25518.html#a330a534b855e6ab71363eefb6c455014"];
+  Node4672 -> Node4675 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4675 [label="Foam::PointIndexHit::hit",height=0.2,width=0.4,color="black",URL="$a27566.html#aee8dc30bf27cefe419b15f96e594c155",tooltip="Is there a hit. "];
+  Node4672 -> Node4676 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4676 [label="Foam::PointIndexHit\l::index",height=0.2,width=0.4,color="black",URL="$a27566.html#a4a438520bb14406481732edc13c119c7",tooltip="Return index. "];
+  Node4672 -> Node4677 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4677 [label="Foam::PrimitivePatch\l::pointFaces",height=0.2,width=0.4,color="black",URL="$a27538.html#acc347dd5dd3557af888ac3dd86d90d22",tooltip="Return point-face addressing. "];
+  Node4672 -> Node4678 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4678 [label="Foam::PointIndexHit\l::rawPoint",height=0.2,width=0.4,color="black",URL="$a27566.html#a479a270e3db1518fd61b8a756455786b",tooltip="Return point with no checking. "];
+  Node4672 -> Node4679 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4679 [label="Foam::PointIndexHit\l::setMiss",height=0.2,width=0.4,color="black",URL="$a27566.html#a1e37efa237c2d65dc84234313a6f84c5"];
+  Node4672 -> Node4680 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4680 [label="track",height=0.2,width=0.4,color="black",URL="$a25538.html#af4b1f3e416f4fde67a1e6843a4e1c19e",tooltip="Track from edge to edge across surface. Uses trackToEdge. "];
+  Node4680 -> Node4672 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4680 -> Node4675 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4680 -> Node4681 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4681 [label="Foam::surfaceLocation\l::triangle",height=0.2,width=0.4,color="black",URL="$a25518.html#ad3f539631dea41eb6c70c82dd4178abb"];
+  Node4672 -> Node4681 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

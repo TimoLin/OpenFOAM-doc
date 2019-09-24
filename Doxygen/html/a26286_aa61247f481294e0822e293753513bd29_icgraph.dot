@@ -1,0 +1,14 @@
+digraph "print"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node10246 [label="print",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node10246 -> Node10247 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10247 [label="Foam::IStringStream\l::print",height=0.2,width=0.4,color="red",URL="$a26298.html#aa61247f481294e0822e293753513bd29",tooltip="Print description to Ostream. "];
+  Node10246 -> Node15159 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15159 [label="Foam::IFstream::print",height=0.2,width=0.4,color="black",URL="$a26182.html#aa61247f481294e0822e293753513bd29",tooltip="Print description of IOstream to Ostream. "];
+  Node10246 -> Node15160 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15160 [label="stdStream",height=0.2,width=0.4,color="black",URL="$a26286.html#a8878267f8d2a05012f4a2aca51c685ee",tooltip="Const access to underlying std::istream. "];
+}

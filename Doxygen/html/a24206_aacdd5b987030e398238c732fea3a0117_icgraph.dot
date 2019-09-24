@@ -1,0 +1,13 @@
+digraph "add"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node36 [label="add",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node36 -> Node37 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node37 [label="clone",height=0.2,width=0.4,color="black",URL="$a24206.html#ac381531cd6a0b2093de96a75f026a2a0",tooltip="Construct and return a clone. "];
+  Node36 -> Node38 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node38 [label="~Basic",height=0.2,width=0.4,color="black",URL="$a24206.html#a48bd20d75846c3952efc30dda1b4e0dc",tooltip="Destructor. "];
+  Node38 -> Node37 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

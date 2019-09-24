@@ -1,0 +1,18 @@
+digraph "frequency"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node91 [label="frequency",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node91 -> Node92 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node92 [label="autoMap",height=0.2,width=0.4,color="red",URL="$a22190.html#a0ab0c43ce90d756c88dd81e3d0a9eef5",tooltip="Map (and resize as needed) from self given a mapping object. "];
+  Node92 -> Node147 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node147 [label="rmap",height=0.2,width=0.4,color="red",URL="$a22190.html#abe233fd0f00c5f2012c2a8f57f20f5cb",tooltip="Reverse map the given fvPatchField onto this fvPatchField. "];
+  Node147 -> Node147 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node91 -> Node147 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node91 -> Node148 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node148 [label="updateCoeffs",height=0.2,width=0.4,color="red",URL="$a22190.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node91 -> Node150 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node150 [label="write",height=0.2,width=0.4,color="red",URL="$a22190.html#a293fdfec8bdfbd5c3913ab4c9f3454ff",tooltip="Write. "];
+}

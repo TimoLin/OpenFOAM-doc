@@ -1,0 +1,16 @@
+digraph "toPrimary"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1155 [label="toPrimary",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1155 -> Node1156 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1156 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node1155 -> Node1199 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1199 [label="Foam::mappedPatchBase\l::reverseDistribute",height=0.2,width=0.4,color="red",URL="$a25094.html#a13c4f025f05fb3315ab61558bbe82f07",tooltip="Wrapper around map/interpolate data distribution. "];
+  Node1155 -> Node1615 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1615 [label="toRegion",height=0.2,width=0.4,color="red",URL="$a28998.html#ab8a36c74a68dd829699b84bab8923ed1",tooltip="Convert a primary region field to the local region. "];
+  Node1615 -> Node1156 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1615 -> Node1155 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

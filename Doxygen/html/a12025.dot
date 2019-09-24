@@ -1,0 +1,32 @@
+digraph "src/OpenFOAM/meshes/primitiveShapes/line/linePointRef.H"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node92 [label="src/OpenFOAM/meshes\l/primitiveShapes/line\l/linePointRef.H",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node92 -> Node93 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node93 [label="src/meshTools/indexedOctree\l/treeDataEdge.H",height=0.2,width=0.4,color="red",URL="$a07550.html"];
+  Node93 -> Node156 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node156 [label="src/meshTools/triSurface\l/surfaceFeatures/surfaceFeatures.C",height=0.2,width=0.4,color="black",URL="$a08216.html"];
+  Node92 -> Node157 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node157 [label="src/meshTools/indexedOctree\l/treeDataPoint.H",height=0.2,width=0.4,color="red",URL="$a07562.html"];
+  Node157 -> Node156 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node92 -> Node160 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node160 [label="src/meshTools/searchable\lSurface/searchableSurface.H",height=0.2,width=0.4,color="red",URL="$a07820.html"];
+  Node92 -> Node156 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node92 -> Node539 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node539 [label="src/OpenFOAM/algorithms\l/dynamicIndexedOctree\l/dynamicIndexedOctree.C",height=0.2,width=0.4,color="black",URL="$a08369.html"];
+  Node92 -> Node540 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node540 [label="src/OpenFOAM/algorithms\l/dynamicIndexedOctree\l/dynamicTreeDataPoint.H",height=0.2,width=0.4,color="red",URL="$a08381.html"];
+  Node92 -> Node542 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node542 [label="src/OpenFOAM/algorithms\l/indexedOctree/indexedOctree.C",height=0.2,width=0.4,color="black",URL="$a08384.html"];
+  Node92 -> Node543 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node543 [label="src/OpenFOAM/meshes\l/meshShapes/edge/edge.H",height=0.2,width=0.4,color="red",URL="$a11300.html"];
+  Node543 -> Node3737 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3737 [label="src/surfMesh/surfaceFormats\l/obj/OBJstream.H",height=0.2,width=0.4,color="red",URL="$a15128.html"];
+  Node92 -> Node3762 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3762 [label="src/OpenFOAM/meshes\l/primitiveShapes/triangle\l/triangle.H",height=0.2,width=0.4,color="red",URL="$a12104.html"];
+  Node92 -> Node2905 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2905 [label="src/sampling/cuttingPlane\l/cuttingPlane.C",height=0.2,width=0.4,color="black",URL="$a14495.html"];
+  Node92 -> Node3737 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

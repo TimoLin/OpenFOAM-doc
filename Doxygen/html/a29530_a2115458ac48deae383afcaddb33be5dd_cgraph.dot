@@ -1,0 +1,22 @@
+digraph "status"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1576 [label="status",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1576 -> Node1577 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1577 [label="centreOfMass",height=0.2,width=0.4,color="black",URL="$a29530.html#a003e6817514212bf18f7039085cf0202",tooltip="Return the current centre of mass. "];
+  Node1577 -> Node1578 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1578 [label="transform",height=0.2,width=0.4,color="red",URL="$a29530.html#a538a8aa596e3b9cc2a16563d338bf3e9",tooltip="Transform the given initial state point by the current motion. "];
+  Node1578 -> Node1579 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1579 [label="centreOfRotation",height=0.2,width=0.4,color="red",URL="$a29530.html#ac69bb45c63cd2a8b38afc3ea65090515",tooltip="Return the current centre of rotation. "];
+  Node1576 -> Node1579 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1576 -> Node1582 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1582 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node1576 -> Node1584 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1584 [label="omega",height=0.2,width=0.4,color="red",URL="$a29530.html#a82d25f29aa98277a0f9e7db54a5f7eee",tooltip="Return the angular velocity in the global frame. "];
+  Node1576 -> Node1589 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1589 [label="orientation",height=0.2,width=0.4,color="black",URL="$a29530.html#a228c3ca986a5f34cf19ef679f8d80906",tooltip="Return the orientation tensor, Q. "];
+  Node1576 -> Node1578 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

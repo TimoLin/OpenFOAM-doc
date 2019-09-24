@@ -1,0 +1,16 @@
+digraph "operator&lt;&lt;"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node116452 [label="operator\<\<",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node116452 -> Node116453 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node116453 [label="Foam::IOstream::check",height=0.2,width=0.4,color="red",URL="$a26226.html#a367eb3425fc4e8270e2aa961df8ac8a5",tooltip="Check IOstream status for given operation. "];
+  Node116452 -> Node116502 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node116502 [label="Foam::UList::empty",height=0.2,width=0.4,color="black",URL="$a25698.html#a644718bb2fb240de962dc3c9a1fdf0dc",tooltip="Return true if the UList is empty (ie, size() is zero). "];
+  Node116452 -> Node116503 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node116503 [label="Foam::UList::last",height=0.2,width=0.4,color="black",URL="$a25698.html#aef07c02ea1c27bdb5906043b399e0ff0",tooltip="Return the last element of the list. "];
+  Node116452 -> Node116504 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node116504 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+}

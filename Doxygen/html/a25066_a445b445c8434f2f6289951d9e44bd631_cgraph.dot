@@ -1,0 +1,16 @@
+digraph "patch"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node144 [label="patch",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node144 -> Node145 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node145 [label="findIntersection",height=0.2,width=0.4,color="red",URL="$a25066.html#a210153d7c41d79965657a6f10acedba1",tooltip="Helper: find intersection of line with shapes. "];
+  Node145 -> Node144 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node144 -> Node157 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node157 [label="getVolumeType",height=0.2,width=0.4,color="red",URL="$a25066.html#a15235ed1771e8b8e1000ec7d5f0410a3",tooltip="Get type (inside,outside,mixed,unknown) of point w.r.t. surface. "];
+  Node157 -> Node212 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node212 [label="overlaps",height=0.2,width=0.4,color="red",URL="$a25066.html#a1915c0938452ba641c6ccf39df02dfad",tooltip="Does shape at index overlap bb. "];
+  Node144 -> Node212 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

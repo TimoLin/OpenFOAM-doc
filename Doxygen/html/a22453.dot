@@ -1,0 +1,13 @@
+digraph "d2dt2Scheme&lt; Type &gt;"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node0 [label="d2dt2Scheme\< Type \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="refCount",height=0.2,width=0.4,color="black",URL="$a27094.html",tooltip="Reference counter for various OpenFOAM components. "];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="EulerD2dt2Scheme\< Type \>",height=0.2,width=0.4,color="black",URL="$a22458.html",tooltip="First-order Euler implicit d2dt2 using the current and two previous time-step values. "];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="steadyStateD2dt2Scheme\l\< Type \>",height=0.2,width=0.4,color="black",URL="$a22462.html",tooltip="SteadyState d2dt2 which returns 0. "];
+}

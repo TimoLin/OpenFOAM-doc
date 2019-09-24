@@ -1,0 +1,13 @@
+digraph "coeffs"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node329 [label="coeffs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node329 -> Node330 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node330 [label="absorptionCoeffs",height=0.2,width=0.4,color="red",URL="$a30014.html#a90801abef1106957bb62e7ded751381a"];
+  Node329 -> Node332 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node332 [label="~absorptionCoeffs",height=0.2,width=0.4,color="black",URL="$a30014.html#ab16b3298bd5d4fc2f99329cee828bd7f",tooltip="Destructor. "];
+  Node332 -> Node330 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

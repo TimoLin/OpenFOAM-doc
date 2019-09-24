@@ -1,0 +1,15 @@
+digraph "src/OpenFOAM/containers/LinkedLists/accessTypes/LPtrList" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="FreeSans"];
+  edge [ labelfontsize="10", labelfontname="FreeSans"];
+  subgraph clusterdir_57bc99d9bbe398ddf18eacd9434279ec {
+    graph [ bgcolor="#ddddee", pencolor="black", label="accessTypes" fontname="FreeSans", fontsize="10", URL="dir_57bc99d9bbe398ddf18eacd9434279ec.html"]
+  dir_497da6cd9f3716736bc0c7164bc6486d [shape=box, label="LPtrList", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_497da6cd9f3716736bc0c7164bc6486d.html"];
+  }
+  dir_a1fa2454b4ff7e0fb39d648dca253bc3 [shape=box label="LList" URL="dir_a1fa2454b4ff7e0fb39d648dca253bc3.html"];
+  dir_63c634f7a7cfd679ac26c67fb30fc32f [shape=box label="db" color="red" URL="dir_63c634f7a7cfd679ac26c67fb30fc32f.html"];
+  dir_a1fa2454b4ff7e0fb39d648dca253bc3->dir_63c634f7a7cfd679ac26c67fb30fc32f [headlabel="3", labeldistance=1.5 headhref="dir_001760_001787.html"];
+  dir_497da6cd9f3716736bc0c7164bc6486d->dir_a1fa2454b4ff7e0fb39d648dca253bc3 [headlabel="1", labeldistance=1.5 headhref="dir_001761_001760.html"];
+  dir_497da6cd9f3716736bc0c7164bc6486d->dir_63c634f7a7cfd679ac26c67fb30fc32f [headlabel="3", labeldistance=1.5 headhref="dir_001761_001787.html"];
+}

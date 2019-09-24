@@ -1,0 +1,18 @@
+digraph "setSize"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node134 [label="setSize",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node134 -> Node135 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node135 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node134 -> Node178 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node178 [label="clear",height=0.2,width=0.4,color="red",URL="$a21674.html#ac8bb3912a3ce86b15842e79d0b421204",tooltip="Clear the CompactListList, i.e. set sizes to zero. "];
+  Node134 -> Node182 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node182 [label="Foam::List::setSize",height=0.2,width=0.4,color="black",URL="$a25694.html#aedb985ffeaf1bdbfeccc2a8730405703",tooltip="Reset size of List. "];
+  Node134 -> Node183 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node183 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node134 -> Node184 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node184 [label="size",height=0.2,width=0.4,color="black",URL="$a21674.html#a47b3bf30da1eb3ab8076b5fbe00e0494",tooltip="Return the primary size, i.e. the number of rows. "];
+}

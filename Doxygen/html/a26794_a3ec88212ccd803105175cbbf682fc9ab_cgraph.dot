@@ -1,0 +1,13 @@
+digraph "read"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1365 [label="read",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1365 -> Node1366 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1366 [label="normFactor",height=0.2,width=0.4,color="red",URL="$a26794.html#a6aa0b30e627d50b23f0a20f8f7e87482",tooltip="Return the matrix norm used to normalise the residual for the. "];
+  Node1365 -> Node1397 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1397 [label="readControls",height=0.2,width=0.4,color="red",URL="$a26794.html#aa431c382ed4170712dab339fbfd87f5b",tooltip="Read the control parameters from the controlDict_. "];
+  Node1397 -> Node1365 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

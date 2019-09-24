@@ -1,0 +1,20 @@
+digraph "clone"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node24 [label="clone",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node24 -> Node25 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node25 [label="angularOscillatingDisplacement\lPointPatchVectorField",height=0.2,width=0.4,color="black",URL="$a23394.html#a1501352582debab88474342ddc0574ad",tooltip="Construct from patch and internal field. "];
+  Node24 -> Node26 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node26 [label="autoMap",height=0.2,width=0.4,color="red",URL="$a23394.html#a29ce2a7cdc96cffba66b33b9ab1355a4",tooltip="Map (and resize as needed) from self given a mapping object. "];
+  Node26 -> Node28 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node28 [label="rmap",height=0.2,width=0.4,color="red",URL="$a23394.html#aab3d2f411d5ceff80ad8f9839885b8cc",tooltip="Reverse map the given pointPatchField onto this pointPatchField. "];
+  Node24 -> Node28 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node24 -> Node30 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node30 [label="updateCoeffs",height=0.2,width=0.4,color="red",URL="$a23394.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node30 -> Node43 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node43 [label="write",height=0.2,width=0.4,color="red",URL="$a23394.html#a293fdfec8bdfbd5c3913ab4c9f3454ff",tooltip="Write. "];
+  Node24 -> Node43 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

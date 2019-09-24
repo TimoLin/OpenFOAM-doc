@@ -1,0 +1,18 @@
+digraph "cyclicFvPatchField&lt; Type &gt;"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="cyclicFvPatchField\l\< Type \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="cyclicLduInterfaceField",height=0.2,width=0.4,color="black",URL="$a26866.html",tooltip="Abstract base class for cyclic coupled interfaces. "];
+  Node2 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="coupledFvPatchField\l\< Type \>",height=0.2,width=0.4,color="red",URL="$a21974.html",tooltip="Abstract base class for coupled patches. "];
+  Node0 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13 [label="cyclicSlipFvPatchField\l\< Type \>",height=0.2,width=0.4,color="black",URL="$a22018.html",tooltip="This boundary condition is a light wrapper around the cyclicFvPatchField condition, providing no new functionality. "];
+  Node0 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14 [label="jumpCyclicFvPatchField\l\< Type \>",height=0.2,width=0.4,color="red",URL="$a22026.html",tooltip="This boundary condition provides a base class for coupled-cyclic conditions with a specified &#39;jump&#39; (..."];
+  Node0 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22 [label="nonuniformTransformCyclic\lFvPatchField\< Type \>",height=0.2,width=0.4,color="black",URL="$a22034.html",tooltip="This boundary condition enforces a cyclic condition between a pair of boundaries, incorporating a non..."];
+}

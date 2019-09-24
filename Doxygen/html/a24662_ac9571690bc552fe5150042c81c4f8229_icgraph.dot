@@ -1,0 +1,13 @@
+digraph "refine"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4028 [label="refine",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4028 -> Node4029 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4029 [label="refineCandidates",height=0.2,width=0.4,color="red",URL="$a24662.html#ae450c73ceb3bc0a2918dd8557aedefb7",tooltip="Calculate list of cells to refine. "];
+  Node4029 -> Node4032 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4032 [label="userFaceData",height=0.2,width=0.4,color="black",URL="$a24662.html#a2cb6efa4184bedfbed60b069881c26a3"];
+  Node4028 -> Node4032 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

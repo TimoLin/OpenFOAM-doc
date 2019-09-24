@@ -1,0 +1,12 @@
+digraph "writeData"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node731 [label="writeData",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node731 -> Node732 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node732 [label="Foam::porosityModel\l::iNew::operator()",height=0.2,width=0.4,color="black",URL="$a21922.html#aad80947cf7029ef329606d2b1ebe3939"];
+  Node731 -> Node733 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node733 [label="Foam::porosityModelList\l::writeData",height=0.2,width=0.4,color="black",URL="$a21926.html#a4c658e15d7e8f5819cdc0eedbbbeb85e",tooltip="Write data to Ostream. "];
+}

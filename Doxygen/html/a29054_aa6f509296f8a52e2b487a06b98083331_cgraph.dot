@@ -1,0 +1,13 @@
+digraph "kappa"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1244 [label="kappa",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1244 -> Node1245 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1245 [label="D",height=0.2,width=0.4,color="red",URL="$a29054.html#af7ddb503657d6210602b1705c4321e64",tooltip="Return diffusivity [m2/s]. "];
+  Node1245 -> Node1246 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1246 [label="Foam::dictionary::lookup",height=0.2,width=0.4,color="red",URL="$a26014.html#a6a0727fa523e48977e27348663def509",tooltip="Find and return an entry data stream. "];
+  Node1244 -> Node1246 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

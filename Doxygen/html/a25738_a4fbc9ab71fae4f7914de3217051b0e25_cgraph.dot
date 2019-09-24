@@ -1,0 +1,17 @@
+digraph "erase"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node329 [label="erase",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node329 -> Node330 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node330 [label="begin",height=0.2,width=0.4,color="black",URL="$a25738.html#ae3638512e33995aabd8153846ef02936",tooltip="iterator set to the beginning of the StaticHashTable "];
+  Node329 -> Node331 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node331 [label="end",height=0.2,width=0.4,color="black",URL="$a25738.html#abc870e1050852bb792e4782bd067893c",tooltip="iterator set to beyond the end of the StaticHashTable "];
+  Node329 -> Node332 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node332 [label="erase",height=0.2,width=0.4,color="red",URL="$a25738.html#a66e436ff66ccd6b02f8523842220fe6e",tooltip="Erase an hashed entry specified by given iterator. "];
+  Node332 -> Node331 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node329 -> Node335 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node335 [label="found",height=0.2,width=0.4,color="red",URL="$a25738.html#a53c7b4e6eeaec85bca5f66ccc19cafc6",tooltip="Return true if hashed entry is found in table. "];
+}

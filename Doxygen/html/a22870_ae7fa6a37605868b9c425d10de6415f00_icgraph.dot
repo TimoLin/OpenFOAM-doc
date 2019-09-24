@@ -1,0 +1,18 @@
+digraph "deltaCoeffs"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1534 [label="deltaCoeffs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1534 -> Node1535 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1535 [label="patchSlice",height=0.2,width=0.4,color="black",URL="$a22870.html#abafaae120d11327175dacc1109283746",tooltip="Slice list to patch. "];
+  Node1534 -> Node1536 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1536 [label="Foam::totalFlowRateAdvective\lDiffusiveFvPatchScalarField\l::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a30794.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node1534 -> Node1538 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1538 [label="Foam::filmPyrolysisRadiative\lCoupledMixedFvPatchScalarField\l::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a28982.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node1534 -> Node1540 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1540 [label="Foam::compressible\l::turbulentTemperatureCoupled\lBaffleMixedFvPatchScalarField\l::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a30802.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node1534 -> Node1542 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1542 [label="Foam::compressible\l::turbulentTemperatureRadCoupled\lMixedFvPatchScalarField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a30806.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+}

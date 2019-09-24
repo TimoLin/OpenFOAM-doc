@@ -1,0 +1,22 @@
+digraph "read"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node333 [label="read",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node333 -> Node334 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node334 [label="Foam::sixDoFRigidBodyMotion\lConstraints::orientation::read",height=0.2,width=0.4,color="red",URL="$a29486.html#a64da2087e03e55d0dddd0cd6e5ac05ea",tooltip="Update properties from given dictionary. "];
+  Node333 -> Node339 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node339 [label="Foam::sixDoFRigidBodyMotion\lConstraints::axis::read",height=0.2,width=0.4,color="red",URL="$a29478.html#a64da2087e03e55d0dddd0cd6e5ac05ea",tooltip="Update properties from given dictionary. "];
+  Node333 -> Node344 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node344 [label="Foam::sixDoFRigidBodyMotion\lConstraints::point::read",height=0.2,width=0.4,color="red",URL="$a29494.html#a64da2087e03e55d0dddd0cd6e5ac05ea",tooltip="Update properties from given dictionary. "];
+  Node333 -> Node350 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node350 [label="Foam::sixDoFRigidBodyMotion\lConstraints::line::read",height=0.2,width=0.4,color="red",URL="$a29482.html#a64da2087e03e55d0dddd0cd6e5ac05ea",tooltip="Update properties from given dictionary. "];
+  Node333 -> Node356 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node356 [label="Foam::sixDoFRigidBodyMotion\lConstraints::plane::read",height=0.2,width=0.4,color="red",URL="$a29490.html#a64da2087e03e55d0dddd0cd6e5ac05ea",tooltip="Update properties from given dictionary. "];
+  Node333 -> Node362 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node362 [label="setCentreOfRotation",height=0.2,width=0.4,color="black",URL="$a29498.html#a6cb2ea83557f15bc4843e89d6c807e2a",tooltip="Set the centre of rotation if not the centre of mass. "];
+  Node333 -> Node363 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node363 [label="~sixDoFRigidBodyMotionConstraint",height=0.2,width=0.4,color="black",URL="$a29498.html#ac933b3d9959638c761fe11722b497a12",tooltip="Destructor. "];
+}

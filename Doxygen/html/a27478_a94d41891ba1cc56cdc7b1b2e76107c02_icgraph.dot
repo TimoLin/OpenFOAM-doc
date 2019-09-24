@@ -1,0 +1,17 @@
+digraph "constraintType"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2598 [label="constraintType",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2598 -> Node2599 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2599 [label="constraintTypes",height=0.2,width=0.4,color="black",URL="$a27478.html#a0332049c12f6133863c992e8274422a1",tooltip="Return a list of all the constraint patch types. "];
+  Node2599 -> Node2600 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2600 [label="start",height=0.2,width=0.4,color="red",URL="$a27478.html#a6bfd3e3abb11e98bdb4b98671cec1234",tooltip="Return start label of this patch in the polyMesh face list. "];
+  Node2598 -> Node3153 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3153 [label="Foam::meshToMesh::interpolation\lMethodAMI",height=0.2,width=0.4,color="black",URL="$a29254.html#aef7049b730f1c37232e66c147569b92b",tooltip="Conversion between mesh and patch interpolation methods. "];
+  Node2598 -> Node3154 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3154 [label="Foam::meshRefinement\l::meshedPatches",height=0.2,width=0.4,color="red",URL="$a24662.html#a99d01ffe5a584e7f602fdceb6cbd4a6b",tooltip="Get patchIDs for patches added in addMeshedPatch. "];
+  Node2598 -> Node2600 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

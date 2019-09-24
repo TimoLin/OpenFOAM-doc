@@ -1,0 +1,22 @@
+digraph "syncData"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2161 [label="syncData",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2161 -> Node2162 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2162 [label="Foam::PatchTools::edgeNormals",height=0.2,width=0.4,color="black",URL="$a27526.html#a48f55bbbe3632b208e3f15dc9ca17103"];
+  Node2161 -> Node2163 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2163 [label="mergePoints",height=0.2,width=0.4,color="red",URL="$a27334.html#aa4df94c65c44d0e38bcd229cd913f042",tooltip="Helper for merging (collocated!) mesh point data. "];
+  Node2163 -> Node2177 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2177 [label="nTotalCells",height=0.2,width=0.4,color="red",URL="$a27334.html#af5f312e4d0bc5cbcc088e7c247d3a97a",tooltip="Return total number of cells in decomposed mesh. "];
+  Node2161 -> Node2177 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2161 -> Node2200 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2200 [label="Foam::minEqOp\< labelPair\l \>::operator()",height=0.2,width=0.4,color="black",URL="$a21438.html#a5110bdded347caa6365e4d10554dfc32"];
+  Node2161 -> Node2201 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2201 [label="Foam::syncTools::syncEdgeList",height=0.2,width=0.4,color="red",URL="$a27502.html#a5ed3e64d2ef89e3823674727ea1b3d58",tooltip="Synchronize values on all mesh edges. "];
+  Node2201 -> Node2248 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2248 [label="Foam::syncTools::syncPointList",height=0.2,width=0.4,color="black",URL="$a27502.html#a334197e1b70d6e0b87da5cb827940dd4",tooltip="Synchronize values on selected mesh points. "];
+  Node2161 -> Node2248 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

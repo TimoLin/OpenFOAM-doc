@@ -1,0 +1,18 @@
+digraph "Wall boundary Conditions"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir=LR;
+  Node4 [label="Thermophysical boundary\l conditions",height=0.2,width=0.4,color="black",URL="$a21109.html"];
+  Node2 [label="Inlet boundary Conditions",height=0.2,width=0.4,color="black",URL="$a21093.html"];
+  Node3 [label="Generic boundary Conditions",height=0.2,width=0.4,color="black",URL="$a21095.html"];
+  Node5 [label="RAS incompressible\l boundary conditions",height=0.2,width=0.4,color="black",URL="$a21118.html"];
+  Node1 [label="Boundary Conditions",height=0.2,width=0.4,color="black",URL="$a21091.html"];
+  Node0 [label="Wall boundary Conditions",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1->Node0 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node2 [shape=plaintext, label="Foam::SRFVelocityFvPatch\lVectorField\nFoam::fixedFluxPressureFv\lPatchScalarField", color="orange", dir="none", style="dashed"];
+  Node0->Node3 [shape=plaintext, label="Foam::fixedNormalSlipFvPatch\lField\nFoam::partialSlipFvPatch\lField\nFoam::rotatingWallVelocity\lFvPatchVectorField\nFoam::slipFvPatchField\nFoam::translatingWallVelocity\lFvPatchVectorField\nFoam::alphaContactAngleFv\lPatchScalarField", color="orange", dir="none", style="dashed"];
+  Node0->Node4 [shape=plaintext, label="Foam::externalWallHeatFlux\lTemperatureFvPatchScalarField\nFoam::wallHeatTransferFv\lPatchScalarField", color="orange", dir="none", style="dashed"];
+  Node0->Node5 [shape=plaintext, label="Foam::incompressible\l::turbulentHeatFluxTemperature\lFvPatchScalarField", color="orange", dir="none", style="dashed"];
+}

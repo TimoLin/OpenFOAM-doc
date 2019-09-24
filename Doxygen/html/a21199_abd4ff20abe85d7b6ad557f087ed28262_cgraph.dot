@@ -1,0 +1,12 @@
+digraph "GetNumberOfDataSets"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node21 [label="GetNumberOfDataSets",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node21 -> Node22 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22 [label="Foam::vtkPV4Readers\l::partInfo::block",height=0.2,width=0.4,color="black",URL="$a31778.html#a08ebdd462579b605c38acc499036cc1e",tooltip="Return the block holding these datasets. "];
+  Node21 -> Node23 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23 [label="getSelected",height=0.2,width=0.4,color="red",URL="$a21199.html#adae6486219c77725d52a3061e66066ef",tooltip="Retrieve the current selections as a wordHashSet. "];
+}

@@ -1,0 +1,14 @@
+digraph "reconstruct"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node337 [label="reconstruct",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node337 -> Node338 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node338 [label="Foam::ensightPartCells\l::ensightPartCells",height=0.2,width=0.4,color="black",URL="$a21314.html#a60e3079b5dfbc1e19dd3f7a44ad4fb2b",tooltip="Reconstruct part characteristics (eg, element types) from Istream. "];
+  Node337 -> Node339 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node339 [label="Foam::ensightPartFaces\l::ensightPartFaces",height=0.2,width=0.4,color="black",URL="$a21318.html#ae83696be3fda810908c7a15610248753",tooltip="Reconstruct part characteristics (eg, element types) from Istream. "];
+  Node337 -> Node340 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node340 [label="Foam::ensightPart::\llocalPoints::localPoints",height=0.2,width=0.4,color="black",URL="$a21310.html#a221f8e3528b4abbd9a0180aacc83b11c",tooltip="construct for mesh points "];
+}

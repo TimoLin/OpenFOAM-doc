@@ -1,0 +1,25 @@
+digraph "writeTriSurface"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node775 [label="writeTriSurface",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node775 -> Node776 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node776 [label="getNearest",height=0.2,width=0.4,color="red",URL="$a21430.html#a7cfb30aa0fa4868d8a08ec928d0c1315",tooltip="Get bMesh index of nearest face for every boundary face in. "];
+  Node776 -> Node777 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node777 [label="mesh",height=0.2,width=0.4,color="red",URL="$a21430.html#a6d5e6463d124593c34d8d925916d41d7"];
+  Node775 -> Node1295 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1295 [label="getNTris",height=0.2,width=0.4,color="red",URL="$a21430.html#ab52907085a976b41dedbf27be10de6e9",tooltip="Simple triangulation of face subset. Returns number of triangles. "];
+  Node1295 -> Node777 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node775 -> Node777 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node775 -> Node861 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node861 [label="Foam::patchIdentifier\l::name",height=0.2,width=0.4,color="black",URL="$a27122.html#acc80e00a8ac919288fb55bd14cc88bf6",tooltip="Return name. "];
+  Node775 -> Node862 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node862 [label="Foam::patchIdentifier\l::physicalType",height=0.2,width=0.4,color="black",URL="$a27122.html#a98ebcf41881ab4e16eea80415cf75f07",tooltip="Return the optional physical type of the patch. "];
+  Node775 -> Node1298 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1298 [label="Foam::boundaryPatch\l::start",height=0.2,width=0.4,color="black",URL="$a21434.html#a6bfd3e3abb11e98bdb4b98671cec1234"];
+  Node775 -> Node1299 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1299 [label="triangulate",height=0.2,width=0.4,color="red",URL="$a21430.html#a4ab09278dde78b929027adabb6ff3fe6",tooltip="Simple triangulation of face subset. TotalNTris is total number. "];
+  Node1299 -> Node777 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

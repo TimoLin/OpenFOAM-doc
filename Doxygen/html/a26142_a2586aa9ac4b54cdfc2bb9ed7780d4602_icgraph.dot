@@ -1,0 +1,23 @@
+digraph "clone"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2497 [label="clone",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2497 -> Node2498 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2498 [label="Foam::attachPolyTopoChanger\l::attach",height=0.2,width=0.4,color="red",URL="$a21606.html#a655f9a7493e609affecc9d220fb2a843",tooltip="Attach mesh. By default filter out empty patches. "];
+  Node2497 -> Node2500 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2500 [label="Foam::polyTopoChange\l::makeMesh",height=0.2,width=0.4,color="red",URL="$a21678.html#a53cd346c4116b75d2e9540d07c212149",tooltip="Create new mesh with old mesh patches. "];
+  Node2497 -> Node2620 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2620 [label="Foam::searchableSurface\l::iNew::operator()",height=0.2,width=0.4,color="black",URL="$a25238.html#ab149874a204c545d982924aaa2664b24"];
+  Node2497 -> Node2621 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2621 [label="Foam::polyMesh::readUpdate",height=0.2,width=0.4,color="red",URL="$a27410.html#a9d298b9dbcdbe96c85e7ea556233a8c2",tooltip="Update the mesh based on the mesh files saved in. "];
+  Node2497 -> Node2625 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2625 [label="Foam::searchableSurfaces\l::searchableSurfaces",height=0.2,width=0.4,color="black",URL="$a25246.html#a728d2d5193c640e1884f841fccc9c21f",tooltip="Construct from dictionary and whether to construct names always. "];
+  Node2497 -> Node2626 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2626 [label="Foam::fvMeshSubset\l::setCellSubset",height=0.2,width=0.4,color="red",URL="$a22790.html#a7007bf1daafcf75caa93fdb67143236e",tooltip="Set the subset. Create \"oldInternalFaces\" patch for exposed. "];
+  Node2497 -> Node2628 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2628 [label="Foam::fvMeshSubset\l::setLargeCellSubset",height=0.2,width=0.4,color="red",URL="$a22790.html#aa5aecd31ebb23c10811eb60949808165",tooltip="Set the subset from all cells with region == currentRegion. "];
+  Node2628 -> Node2626 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

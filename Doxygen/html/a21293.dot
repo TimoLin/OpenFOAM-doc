@@ -1,0 +1,16 @@
+digraph "singleStepCombustion&lt; CombThermoType, ThermoType &gt;"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="singleStepCombustion\l\< CombThermoType, ThermoType \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="CombThermoType",height=0.2,width=0.4,color="grey75"];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="diffusion\< CombThermoType,\l ThermoType \>",height=0.2,width=0.4,color="black",URL="$a21234.html",tooltip="Simple diffusion-based combustion model based on the principle mixed is burnt. Additional parameter C..."];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="FSD\< CombThermoType,\l ThermoType \>",height=0.2,width=0.4,color="black",URL="$a21238.html",tooltip="Flame Surface Dennsity (FDS) combustion model. "];
+  Node0 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="infinitelyFastChemistry\l\< CombThermoType, ThermoType \>",height=0.2,width=0.4,color="black",URL="$a21254.html",tooltip="Simple infinitely fast chemistry combustion model based on the principle mixed is burnt..."];
+}

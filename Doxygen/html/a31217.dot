@@ -1,0 +1,11 @@
+digraph "Smagorinsky&lt; BasicTurbulenceModel &gt;"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node0 [label="Smagorinsky\< BasicTurbulence\lModel \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="LESeddyViscosity\< BasicTurbulence\lModel \>",height=0.2,width=0.4,color="red",URL="$a31206.html",tooltip="Eddy viscosity LES SGS model base class. "];
+  Node0 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="SmagorinskyZhang\< BasicTurbulence\lModel \>",height=0.2,width=0.4,color="black",URL="$a31174.html",tooltip="The Smagorinsky SGS model including bubble-generated turbulence. "];
+}

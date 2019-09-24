@@ -1,0 +1,13 @@
+digraph "write"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node105 [label="write",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node105 -> Node106 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node106 [label="clone",height=0.2,width=0.4,color="black",URL="$a29490.html#a1ba6f72dda3e0a59b115784933135bd2",tooltip="Construct and return a clone. "];
+  Node105 -> Node107 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node107 [label="read",height=0.2,width=0.4,color="red",URL="$a29490.html#a64da2087e03e55d0dddd0cd6e5ac05ea",tooltip="Update properties from given dictionary. "];
+  Node107 -> Node106 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

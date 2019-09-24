@@ -1,0 +1,12 @@
+digraph "gather"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node95 [label="gather",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node95 -> Node96 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node96 [label="Pstream",height=0.2,width=0.4,color="black",URL="$a26250.html#a2b31c5d4673e1c7d7366b8b6bf47830d",tooltip="Construct given optional buffer size. "];
+  Node95 -> Node97 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node97 [label="Foam::reduce",height=0.2,width=0.4,color="red",URL="$a21124.html#a7ffd6af4acc2eb9ba72ee296b5ecda23"];
+}

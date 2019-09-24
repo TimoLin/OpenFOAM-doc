@@ -1,0 +1,21 @@
+digraph "consistentUnrefinement"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node6830 [label="consistentUnrefinement",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node6830 -> Node6831 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6831 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node6830 -> Node6839 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6839 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node6830 -> Node6874 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6874 [label="Foam::reduce",height=0.2,width=0.4,color="red",URL="$a21124.html#a7ffd6af4acc2eb9ba72ee296b5ecda23"];
+  Node6874 -> Node6839 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6830 -> Node6889 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6889 [label="setUnrefinement",height=0.2,width=0.4,color="red",URL="$a21654.html#aa4246c753057abd6ecf4b510ee30bd99",tooltip="Remove some refinement. Needs to be supplied output of. "];
+  Node6889 -> Node6831 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6889 -> Node6839 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6830 -> Node6895 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6895 [label="Foam::syncTools::swapBoundary\lFaceList",height=0.2,width=0.4,color="red",URL="$a27502.html#a30e4f2ce2c2399c35f5d674bdb7c07fd",tooltip="Swap coupled boundary face values. "];
+}

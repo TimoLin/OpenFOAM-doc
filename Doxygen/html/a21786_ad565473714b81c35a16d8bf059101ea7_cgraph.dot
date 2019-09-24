@@ -1,0 +1,30 @@
+digraph "allNearestFeatureEdges"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node591 [label="allNearestFeatureEdges",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node591 -> Node592 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node592 [label="Foam::edgeMesh::edges",height=0.2,width=0.4,color="black",URL="$a21754.html#a21d764179912ddda5c6f95193c289846",tooltip="Return edges. "];
+  Node591 -> Node593 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node593 [label="edgeTreesByType",height=0.2,width=0.4,color="red",URL="$a21786.html#afa97552d0c5faeb838d8dea82fded8ea",tooltip="Demand driven construction of octree for boundary edges by type. "];
+  Node593 -> Node595 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node595 [label="Foam::edgeMesh::points",height=0.2,width=0.4,color="black",URL="$a21754.html#ac44123fc1265297c41a43c3b62fdb4c2",tooltip="Return points. "];
+  Node593 -> Node592 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node591 -> Node599 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node599 [label="Foam::PointHit::hit",height=0.2,width=0.4,color="black",URL="$a27558.html#aee8dc30bf27cefe419b15f96e594c155",tooltip="Is there a hit. "];
+  Node591 -> Node600 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node600 [label="Foam::edge::line",height=0.2,width=0.4,color="red",URL="$a27210.html#a7e77f7ccd244bd2018175b700da722ca",tooltip="Return edge line. "];
+  Node591 -> Node604 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node604 [label="Foam::line::nearestDist",height=0.2,width=0.4,color="red",URL="$a27550.html#a0ab00eab07060abff696ebe967f3fce0",tooltip="Return nearest distance to line from a given point. "];
+  Node591 -> Node595 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node591 -> Node607 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node607 [label="Foam::PointHit::rawPoint",height=0.2,width=0.4,color="black",URL="$a27558.html#a479a270e3db1518fd61b8a756455786b",tooltip="Return point with no checking. "];
+  Node591 -> Node608 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node608 [label="Foam::List::setSize",height=0.2,width=0.4,color="black",URL="$a25694.html#aedb985ffeaf1bdbfeccc2a8730405703",tooltip="Reset size of List. "];
+  Node591 -> Node609 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node609 [label="Foam::PtrList::size",height=0.2,width=0.4,color="black",URL="$a25914.html#a47b3bf30da1eb3ab8076b5fbe00e0494",tooltip="Return the number of elements in the PtrList. "];
+  Node591 -> Node610 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node610 [label="Foam::List::transfer",height=0.2,width=0.4,color="black",URL="$a25694.html#a25ad1d2084d16b234b0cf91c07e832c0",tooltip="Transfer the contents of the argument List into this list. "];
+}

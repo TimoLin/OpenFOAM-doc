@@ -1,0 +1,24 @@
+digraph "meshPointMap"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2466 [label="meshPointMap",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2466 -> Node2467 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2467 [label="Foam::autoSnapDriver\l::getZoneSurfacePoints",height=0.2,width=0.4,color="red",URL="$a24622.html#a9b0617c77e1e71c70428238e6246484e",tooltip="Get points both on patch and facezone. "];
+  Node2466 -> Node2472 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2472 [label="Foam::globalPoints\l::globalPoints",height=0.2,width=0.4,color="black",URL="$a27342.html#a5b9bf5e73479291de2416412bc6f1da8",tooltip="Construct from mesh and patch of coupled faces. Difference with. "];
+  Node2466 -> Node2473 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2473 [label="Foam::PrimitivePatch\l\< Face, ::Foam::List,\l pointField, point \>::\lisInternalEdge",height=0.2,width=0.4,color="black",URL="$a27538.html#ac2458a175e66b555e443539d6c726e06",tooltip="Is internal edge? "];
+  Node2466 -> Node2474 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2474 [label="Foam::PatchTools::matchPoints",height=0.2,width=0.4,color="black",URL="$a27526.html#a53abaec4e100007300e11cedf4c5b772",tooltip="Find corresponding points on patches sharing the same points. "];
+  Node2466 -> Node2475 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2475 [label="Foam::globalMeshData\l::mergePoints",height=0.2,width=0.4,color="black",URL="$a27334.html#a03a8d5391e6747cf67d4f4f2158f8488",tooltip="Helper for merging (collocated!) patch point data. "];
+  Node2466 -> Node2476 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2476 [label="Foam::PrimitivePatch\l\< Face, ::Foam::List,\l pointField, point \>::\lmeshPoints",height=0.2,width=0.4,color="red",URL="$a27538.html#a52e3a457780fe74b31d39dc046bce1d8",tooltip="Return labelList of mesh points in patch. They are constructed. "];
+  Node2466 -> Node2482 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2482 [label="Foam::PatchTools::pointNormals",height=0.2,width=0.4,color="black",URL="$a27526.html#ab60186b13b96788288ecfa924a6950d2"];
+  Node2466 -> Node2483 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2483 [label="Foam::syncTools::syncPointList",height=0.2,width=0.4,color="black",URL="$a27502.html#a334197e1b70d6e0b87da5cb827940dd4",tooltip="Synchronize values on selected mesh points. "];
+}

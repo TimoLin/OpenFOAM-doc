@@ -1,0 +1,26 @@
+digraph "getVertexVertices"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node157 [label="getVertexVertices",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node157 -> Node158 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node158 [label="Foam::PrimitivePatch\l::edges",height=0.2,width=0.4,color="black",URL="$a27538.html#a21d764179912ddda5c6f95193c289846",tooltip="Return list of edges, address into LOCAL point list. "];
+  Node157 -> Node159 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node159 [label="Foam::edge::end",height=0.2,width=0.4,color="red",URL="$a27210.html#a5ac1c619caccdf5bcf8c3d58a409849f",tooltip="Return end vertex label. "];
+  Node157 -> Node161 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node161 [label="Foam::HashSet::insert",height=0.2,width=0.4,color="black",URL="$a25690.html#a49f0753d9652681fc3a81f59951a0ad7",tooltip="Insert a new entry. "];
+  Node157 -> Node162 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node162 [label="otherFace",height=0.2,width=0.4,color="red",URL="$a25538.html#acb1d26ee4d249b6be4e063b3b9cae689",tooltip="Get face connected to edge not faceI. "];
+  Node157 -> Node223 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node223 [label="Foam::edge::otherVertex",height=0.2,width=0.4,color="black",URL="$a27210.html#abdf093da438a74d23c7552fc545bf0c4",tooltip="Given one vertex, return the other. "];
+  Node223 -> Node159 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node223 -> Node215 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node215 [label="Foam::edge::start",height=0.2,width=0.4,color="red",URL="$a27210.html#afe56bdd2031bbf8321e35e2330c0b990",tooltip="Return start vertex label. "];
+  Node157 -> Node218 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node218 [label="Foam::PrimitivePatch\l::pointEdges",height=0.2,width=0.4,color="black",URL="$a27538.html#a219060536b044c749e6178283665d632",tooltip="Return point-edge addressing. "];
+  Node157 -> Node215 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node157 -> Node224 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node224 [label="Foam::HashTable::toc",height=0.2,width=0.4,color="black",URL="$a25702.html#a1717015c0033bc9eed654353eed0461b",tooltip="Return the table of contents. "];
+}

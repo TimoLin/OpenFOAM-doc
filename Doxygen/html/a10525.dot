@@ -1,0 +1,16 @@
+digraph "src/OpenFOAM/matrices/LduMatrix/LduMatrix/LduInterfaceField/LduInterfaceField.H"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node103 [label="src/OpenFOAM/matrices\l/LduMatrix/LduMatrix\l/LduInterfaceField/LduInterface\lField.H",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node103 -> Node104 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node104 [label="src/finiteVolume/fields\l/fvPatchFields/basic/coupled\l/coupledFvPatchField.H",height=0.2,width=0.4,color="red",URL="$a01433.html"];
+  Node104 -> Node184 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node184 [label="src/regionCoupled/derived\lFvPatchFields/energyRegionCoupled\l/energyRegionCoupledFvPatchScalarField.H",height=0.2,width=0.4,color="red",URL="$a14021.html"];
+  Node103 -> Node186 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node186 [label="src/OpenFOAM/matrices\l/LduMatrix/LduMatrix\l/LduInterfaceField/LduInterface\lFieldPtrsList.H",height=0.2,width=0.4,color="red",URL="$a10526.html",tooltip="List of coupled interface fields to be used in coupling. "];
+  Node103 -> Node1888 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1888 [label="src/OpenFOAM/matrices\l/LduMatrix/LduMatrix\l/LduInterfaceField/LduInterface\lFields.C",height=0.2,width=0.4,color="black",URL="$a10529.html"];
+  Node103 -> Node184 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,18 @@
+digraph "refPoint"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node510 [label="refPoint",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node510 -> Node511 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node511 [label="Foam::NamedEnum\< direction\lType, 3 \>::names",height=0.2,width=0.4,color="black",URL="$a25998.html#a7350da3a0edd92cd11e6c479c9967dc8"];
+  Node510 -> Node512 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node512 [label="Foam::tetrahedron::\lstoreOp::operator()",height=0.2,width=0.4,color="black",URL="$a27598.html#a1983d18f6e6e7de5141bea5b0d6716c4"];
+  Node510 -> Node513 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node513 [label="planeIntersect",height=0.2,width=0.4,color="red",URL="$a27570.html#ac7fe66682d1b70507e370d886af36dab",tooltip="Return the cutting line between this plane and another. "];
+  Node510 -> Node518 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node518 [label="Foam::cuttingPlane\l::reCut",height=0.2,width=0.4,color="red",URL="$a29234.html#afc5a74b0ae963b8d5e674c5e8085a158",tooltip="recut mesh with existing planeDesc, restricted to a list of cells "];
+  Node510 -> Node520 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node520 [label="Foam::searchablePlane\l::size",height=0.2,width=0.4,color="black",URL="$a25222.html#a03bc1200aac252c4d3e18657d700b71c",tooltip="Range of local indices that can be returned. "];
+}

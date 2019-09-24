@@ -1,0 +1,28 @@
+digraph "operator="
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node287 [label="operator=",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node287 -> Node288 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node288 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node287 -> Node331 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node331 [label="binWidth",height=0.2,width=0.4,color="black",URL="$a25886.html#ae0774993efd12bcba4fb1101bfabecc9",tooltip="Return the bin width. "];
+  Node287 -> Node332 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node332 [label="Foam::component",height=0.2,width=0.4,color="red",URL="$a21124.html#a38788135ad21a6daaf3af2a761b33508"];
+  Node287 -> Node334 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node334 [label="d",height=0.2,width=0.4,color="black",URL="$a38951.html#aa182a9055736468dd160f12649a01fd1"];
+  Node287 -> Node335 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node335 [label="Foam::UList::first",height=0.2,width=0.4,color="black",URL="$a25698.html#a1c9828bc3de9502754d944c95a2ce0d9",tooltip="Return the first element of the list. "];
+  Node287 -> Node336 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node336 [label="index",height=0.2,width=0.4,color="red",URL="$a25886.html#afc2c6ca23397ec9240c9974ac5c7d0a9",tooltip="Return the appropriate List index for the given bin index. "];
+  Node287 -> Node343 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node343 [label="Foam::max",height=0.2,width=0.4,color="black",URL="$a21124.html#ac993e906cf2774ae77e666bc24e81733"];
+  Node287 -> Node344 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node344 [label="Foam::neg",height=0.2,width=0.4,color="red",URL="$a21124.html#aad5b44612e484eb87fcea79a3d19ee04"];
+  Node287 -> Node348 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node348 [label="raw",height=0.2,width=0.4,color="red",URL="$a25886.html#afb9d1727043dc3092b95717b885d99cc",tooltip="Return the distribution of the total bin weights. "];
+  Node348 -> Node332 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node348 -> Node335 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

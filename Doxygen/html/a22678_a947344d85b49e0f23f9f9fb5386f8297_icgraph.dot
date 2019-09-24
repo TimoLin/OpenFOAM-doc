@@ -1,0 +1,18 @@
+digraph "ownStencil"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node139 [label="ownStencil",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node139 -> Node140 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node140 [label="Foam::pureUpwindCFCCellTo\lFaceStencilObject::pureUpwindCFCCell\lToFaceStencilObject",height=0.2,width=0.4,color="black",URL="$a22722.html#a57685e7983e08b0af7bd791a5012017b",tooltip="Construct from uncompacted face stencil. "];
+  Node139 -> Node141 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node141 [label="Foam::upwindCECCellToFace\lStencilObject::upwindCECCellTo\lFaceStencilObject",height=0.2,width=0.4,color="black",URL="$a22726.html#a1604d2b4a4148e8296f419fda9d7f453",tooltip="Construct from uncompacted face stencil. "];
+  Node139 -> Node142 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node142 [label="Foam::upwindCFCCellToFace\lStencilObject::upwindCFCCellTo\lFaceStencilObject",height=0.2,width=0.4,color="black",URL="$a22730.html#a3acb1627b980d76e6f3c09c424005f4f",tooltip="Construct from uncompacted face stencil. "];
+  Node139 -> Node143 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node143 [label="Foam::upwindCPCCellToFace\lStencilObject::upwindCPCCellTo\lFaceStencilObject",height=0.2,width=0.4,color="black",URL="$a22734.html#afc74e3f21c5fbba3bae59601165db696",tooltip="Construct from uncompacted face stencil. "];
+  Node139 -> Node144 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node144 [label="Foam::upwindFECCellToFace\lStencilObject::upwindFECCellTo\lFaceStencilObject",height=0.2,width=0.4,color="black",URL="$a22738.html#a67d43cff287cd626d9d5b0837b78cefd",tooltip="Construct from uncompacted face stencil. "];
+}

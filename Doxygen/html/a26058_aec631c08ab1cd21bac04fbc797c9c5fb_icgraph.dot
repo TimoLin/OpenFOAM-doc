@@ -1,0 +1,20 @@
+digraph "read"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node288 [label="read",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node288 -> Node289 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node289 [label="Foam::functionEntries\l::includeIfPresentEntry\l::execute",height=0.2,width=0.4,color="black",URL="$a26046.html#a05e7c2e0049c47ef8c3bab8696b6ac1a",tooltip="Execute the functionEntry in a primitiveEntry context. "];
+  Node288 -> Node290 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node290 [label="Foam::functionEntries\l::calcEntry::execute",height=0.2,width=0.4,color="black",URL="$a26026.html#a05e7c2e0049c47ef8c3bab8696b6ac1a",tooltip="Execute the functionEntry in a primitiveEntry context. "];
+  Node288 -> Node291 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node291 [label="Foam::functionEntries\l::includeEntry::execute",height=0.2,width=0.4,color="black",URL="$a26038.html#a05e7c2e0049c47ef8c3bab8696b6ac1a",tooltip="Execute the functionEntry in a primitiveEntry context. "];
+  Node288 -> Node292 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node292 [label="Foam::functionEntries\l::includeEtcEntry::execute",height=0.2,width=0.4,color="black",URL="$a26042.html#a05e7c2e0049c47ef8c3bab8696b6ac1a",tooltip="Execute the functionEntry in a primitiveEntry context. "];
+  Node288 -> Node293 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node293 [label="Foam::functionEntries\l::codeStream::execute",height=0.2,width=0.4,color="black",URL="$a26030.html#a05e7c2e0049c47ef8c3bab8696b6ac1a",tooltip="Execute the functionEntry in a primitiveEntry context. "];
+  Node288 -> Node294 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node294 [label="isStream",height=0.2,width=0.4,color="black",URL="$a26058.html#a1b3fc75aa6c14f8da0e3c6cb55498a0b",tooltip="Return true because this entry is a stream. "];
+}

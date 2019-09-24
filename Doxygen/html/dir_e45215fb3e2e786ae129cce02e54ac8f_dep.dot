@@ -1,0 +1,30 @@
+digraph "src/turbulenceModels/compressible/RAS/derivedFvPatchFields" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="FreeSans"];
+  edge [ labelfontsize="10", labelfontname="FreeSans"];
+  subgraph clusterdir_6cad2976a3dc5b3cc78cf862aa6ed72d {
+    graph [ bgcolor="#ddddee", pencolor="black", label="RAS" fontname="FreeSans", fontsize="10", URL="dir_6cad2976a3dc5b3cc78cf862aa6ed72d.html"]
+  subgraph clusterdir_e45215fb3e2e786ae129cce02e54ac8f {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_e45215fb3e2e786ae129cce02e54ac8f.html"];
+    dir_e45215fb3e2e786ae129cce02e54ac8f [shape=plaintext label="derivedFvPatchFields"];
+    dir_0fe11698e0003f0cd421c727af563429 [shape=box label="convectiveHeatTransfer" color="black" fillcolor="white" style="filled" URL="dir_0fe11698e0003f0cd421c727af563429.html"];
+    dir_8ffe81777985e23ee6b43c417c2bdd6f [shape=box label="doc" color="black" fillcolor="white" style="filled" URL="dir_8ffe81777985e23ee6b43c417c2bdd6f.html"];
+    dir_6078c4035d9fa914f77d2d266ef4a358 [shape=box label="turbulentMixingLengthDissipationRateInlet" color="black" fillcolor="white" style="filled" URL="dir_6078c4035d9fa914f77d2d266ef4a358.html"];
+    dir_bc7d6670dc97c11734e228e93dab2373 [shape=box label="turbulentMixingLengthFrequencyInlet" color="black" fillcolor="white" style="filled" URL="dir_bc7d6670dc97c11734e228e93dab2373.html"];
+    dir_57bffec370706ce9fca446a37660003b [shape=box label="wallFunctions" color="red" fillcolor="white" style="filled" URL="dir_57bffec370706ce9fca446a37660003b.html"];
+  }
+  }
+  dir_9bd15774b555cf7259a6fa18f99fe99b [shape=box label="finiteVolume" color="red" URL="dir_9bd15774b555cf7259a6fa18f99fe99b.html"];
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8 [shape=box label="OpenFOAM" color="red" URL="dir_c5473ff19b20e6ec4dfe5c310b3778a8.html"];
+  dir_9bd15774b555cf7259a6fa18f99fe99b->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="712", labeldistance=1.5 headhref="dir_000749_001732.html"];
+  dir_bc7d6670dc97c11734e228e93dab2373->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="4", labeldistance=1.5 headhref="dir_002871_000749.html"];
+  dir_bc7d6670dc97c11734e228e93dab2373->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="1", labeldistance=1.5 headhref="dir_002871_001732.html"];
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="2", labeldistance=1.5 headhref="dir_001732_000749.html"];
+  dir_0fe11698e0003f0cd421c727af563429->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="2", labeldistance=1.5 headhref="dir_002863_000749.html"];
+  dir_0fe11698e0003f0cd421c727af563429->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="1", labeldistance=1.5 headhref="dir_002863_001732.html"];
+  dir_6078c4035d9fa914f77d2d266ef4a358->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="4", labeldistance=1.5 headhref="dir_002865_000749.html"];
+  dir_6078c4035d9fa914f77d2d266ef4a358->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="1", labeldistance=1.5 headhref="dir_002865_001732.html"];
+  dir_57bffec370706ce9fca446a37660003b->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="53", labeldistance=1.5 headhref="dir_002874_000749.html"];
+  dir_57bffec370706ce9fca446a37660003b->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="18", labeldistance=1.5 headhref="dir_002874_001732.html"];
+}

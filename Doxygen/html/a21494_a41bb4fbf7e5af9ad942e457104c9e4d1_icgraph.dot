@@ -1,0 +1,24 @@
+digraph "isEdge"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node693 [label="isEdge",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node693 -> Node694 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node694 [label="Foam::geomCellLooper::cut",height=0.2,width=0.4,color="black",URL="$a21474.html#a993c7c95766fcf44b50607ec8701d577",tooltip="Same but now also base point of cut provided (instead of always. "];
+  Node693 -> Node695 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node695 [label="getEdge",height=0.2,width=0.4,color="red",URL="$a21494.html#a4cfb706c40b0c7beeb1b83b466e5cb2e",tooltip="convert eVert to edge label "];
+  Node695 -> Node697 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node697 [label="Foam::meshCutAndRemove\l::setRefinement",height=0.2,width=0.4,color="red",URL="$a21502.html#a5b289474e53287a9460c322f12434dec",tooltip="Do actual cutting with cut description. Inserts mesh changes. "];
+  Node695 -> Node699 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node699 [label="Foam::meshCutter::setRefinement",height=0.2,width=0.4,color="red",URL="$a21506.html#ad6964ecaeb84631835d8a4e51bf706bb",tooltip="Do actual cutting with cut description. Inserts mesh changes. "];
+  Node693 -> Node704 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node704 [label="getVertex",height=0.2,width=0.4,color="red",URL="$a21494.html#aed8480197c0ee0ced2d717ef7b8ab63b",tooltip="convert eVert to vertex label "];
+  Node704 -> Node697 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node704 -> Node699 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node693 -> Node706 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node706 [label="isEdge",height=0.2,width=0.4,color="black",URL="$a21494.html#ae2049575f6cb89736ee2acb87a0d1336"];
+  Node693 -> Node697 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node693 -> Node699 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

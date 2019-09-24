@@ -1,0 +1,20 @@
+digraph "procLduInterface"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="procLduInterface",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="Foam::processorLduInterface\l::comm",height=0.2,width=0.4,color="black",URL="$a26862.html#a28ed0554ff28e2947c49b335f621d507",tooltip="Return communicator used for parallel communication. "];
+  Node0 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="Foam::exit",height=0.2,width=0.4,color="red",URL="$a21124.html#a06ca7250d8e89caf05243ec094843642"];
+  Node0 -> Node49 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node49 [label="Foam::lduInterfaceField\l::interface",height=0.2,width=0.4,color="black",URL="$a26870.html#a71b80f4abe8a7ad0081b34696b99bb0c",tooltip="Return the interface. "];
+  Node0 -> Node50 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node50 [label="Foam::processorLduInterface\l::myProcNo",height=0.2,width=0.4,color="black",URL="$a26862.html#a50c7f9dd7d661a78f9080a5987e2bde6",tooltip="Return processor number (rank in communicator) "];
+  Node0 -> Node51 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node51 [label="Foam::processorLduInterface\l::neighbProcNo",height=0.2,width=0.4,color="black",URL="$a26862.html#a323ec1a7e57c11dafa80824b243a28b4",tooltip="Return neigbour processor number (rank in communicator) "];
+  Node0 -> Node52 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node52 [label="Foam::processorLduInterface::tag",height=0.2,width=0.4,color="black",URL="$a26862.html#ac9df32a76dd2d3e7d53f8eebc75204c7",tooltip="Return message tag used for sending. "];
+}

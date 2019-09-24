@@ -1,0 +1,15 @@
+digraph "components"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4554 [label="components",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4554 -> Node4555 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4555 [label="Foam::DynamicList::\lappend",height=0.2,width=0.4,color="black",URL="$a25890.html#a7b67b42af715604376ad63a681dee6d8",tooltip="Append an element at the end of the list. "];
+  Node4554 -> Node4556 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4556 [label="component",height=0.2,width=0.4,color="black",URL="$a28234.html#ad9bcd5652877fd9b988adf3745c1b198",tooltip="Return a single component of the path. "];
+  Node4556 -> Node4554 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4554 -> Node4557 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4557 [label="Foam::DynamicList::xfer",height=0.2,width=0.4,color="black",URL="$a25890.html#a48f43ee271fb2edb0fb241b72af0e59c",tooltip="Transfer contents to the Xfer container as a plain List. "];
+}

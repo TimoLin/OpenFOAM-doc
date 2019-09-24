@@ -1,0 +1,21 @@
+digraph "XiEqModel"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node6 [label="XiEqModel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node7 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" Nv_" ,fontname="FreeSans"];
+  Node7 [label="GeometricField\< scalar,\l fvPatchField, volMesh \>",height=0.2,width=0.4,color="red",URL="$a22434.html"];
+  Node23 -> Node7 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< scalar, fvPatchField,\l volMesh \>" ,fontname="FreeSans"];
+  Node23 [label="GeometricField\< Type,\l PatchField, GeoMesh \>",height=0.2,width=0.4,color="red",URL="$a22434.html",tooltip="Generic GeometricField class. "];
+  Node25 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" thermo_" ,fontname="FreeSans"];
+  Node25 [label="psiuReactionThermo",height=0.2,width=0.4,color="red",URL="$a30174.html",tooltip="Foam::psiuReactionThermo. "];
+  Node31 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" XiEqModelCoeffs_" ,fontname="FreeSans"];
+  Node31 [label="dictionary",height=0.2,width=0.4,color="red",URL="$a26014.html",tooltip="A list of keyword definitions, which are a keyword followed by any number of values (e..."];
+  Node31 -> Node31 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" null" ,fontname="FreeSans"];
+  Node48 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" nsv_" ,fontname="FreeSans"];
+  Node48 [label="GeometricField\< symmTensor,\l fvPatchField, volMesh \>",height=0.2,width=0.4,color="red",URL="$a22434.html"];
+  Node23 -> Node48 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< symmTensor, fvPatchField,\l volMesh \>" ,fontname="FreeSans"];
+  Node23 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" Su_" ,fontname="FreeSans"];
+}

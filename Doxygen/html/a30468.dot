@@ -1,0 +1,11 @@
+digraph "topoChangerFvMesh"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node36 [label="topoChangerFvMesh",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node37 -> Node36 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node37 [label="dynamicFvMesh",height=0.2,width=0.4,color="red",URL="$a21358.html",tooltip="Abstract base class for geometry and/or topology changing fvMesh. "];
+  Node73 -> Node36 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" topoChanger_" ,fontname="FreeSans"];
+  Node73 [label="polyTopoChanger",height=0.2,width=0.4,color="red",URL="$a21734.html",tooltip="List of mesh modifiers defining the mesh dynamics. "];
+}

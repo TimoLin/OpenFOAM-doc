@@ -1,0 +1,30 @@
+digraph "sameRegion"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node54 [label="sameRegion",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node54 -> Node55 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node55 [label="AMI",height=0.2,width=0.4,color="red",URL="$a25182.html#a7e811c50d8adcb4bdb7302cd59c51cc1",tooltip="Return a reference to the AMI interpolator. "];
+  Node54 -> Node99 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node99 [label="fld",height=0.2,width=0.4,color="black",URL="$a18899.html#a378472d1f8b33eeefbda63a947476c8c"];
+  Node54 -> Node100 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node100 [label="interpolate",height=0.2,width=0.4,color="black",URL="$a25182.html#a05f9da785fabd880c4a17a02b2365cb9",tooltip="Interpolate field. "];
+  Node54 -> Node101 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node101 [label="neighbPatch",height=0.2,width=0.4,color="red",URL="$a25182.html#ab784732583dec0d0eb28b94c73330cc2",tooltip="Return a reference to the neighbour patch. "];
+  Node101 -> Node238 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node238 [label="order",height=0.2,width=0.4,color="red",URL="$a25182.html#aa9533329384a73e819a040bcde1b4b3d",tooltip="Return new ordering for primitivePatch. "];
+  Node54 -> Node239 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node239 [label="neighbPatchID",height=0.2,width=0.4,color="red",URL="$a25182.html#afc2149e80f0785ace675c205b80eb6bc",tooltip="Neighbour patch ID. "];
+  Node54 -> Node238 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node54 -> Node241 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node241 [label="owner",height=0.2,width=0.4,color="black",URL="$a25182.html#a21dcffdf27811a03e0d7ef231bf18c28",tooltip="Does this side own the patch? "];
+  Node241 -> Node242 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node242 [label="surfPtr",height=0.2,width=0.4,color="red",URL="$a25182.html#a9f816d46870e7842532ae562aa6ff1d6",tooltip="Return a reference to the projection surface. "];
+  Node54 -> Node246 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node246 [label="regionCoupleType",height=0.2,width=0.4,color="black",URL="$a25182.html#ace0e0e96cb912de97b6bb8ef19066af5",tooltip="Return the type. "];
+  Node54 -> Node242 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node54 -> Node247 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node247 [label="write",height=0.2,width=0.4,color="red",URL="$a25182.html#a293fdfec8bdfbd5c3913ab4c9f3454ff",tooltip="Write the polyPatch data as a dictionary. "];
+}

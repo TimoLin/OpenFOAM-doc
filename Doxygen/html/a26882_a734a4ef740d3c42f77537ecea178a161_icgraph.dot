@@ -1,0 +1,48 @@
+digraph "lower"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node195 [label="lower",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node195 -> Node196 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node196 [label="Foam::DILUPreconditioner\l::calcReciprocalD",height=0.2,width=0.4,color="red",URL="$a26906.html#a0e2f579bbf250828b4e3f250dbadf455",tooltip="Calculate the reciprocal of the preconditioned diagonal. "];
+  Node195 -> Node200 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node200 [label="faceH",height=0.2,width=0.4,color="black",URL="$a26882.html#abd7a060a63362a6984b7e7bd72308d68"];
+  Node195 -> Node201 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node201 [label="Foam::fv::gaussConvection\lScheme::fvmDiv",height=0.2,width=0.4,color="red",URL="$a22446.html#ad6edbed7fbf0c42fcc63dee2f3ee3bf3"];
+  Node195 -> Node211 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node211 [label="Foam::GAMGSolver::GAMGSolver",height=0.2,width=0.4,color="black",URL="$a27002.html#aa0bdfcc22c05f62778e77b175b6fdd66",tooltip="Construct from lduMatrix and solver controls. "];
+  Node195 -> Node212 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node212 [label="H",height=0.2,width=0.4,color="black",URL="$a26882.html#a3dc09d787913c10fb48ee4a07d78587f"];
+  Node195 -> Node213 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node213 [label="H1",height=0.2,width=0.4,color="red",URL="$a26882.html#a090039c15b52321e7a7a6a90c0a29bbe"];
+  Node195 -> Node246 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node246 [label="Foam::LUscalarMatrix\l::LUscalarMatrix",height=0.2,width=0.4,color="black",URL="$a27054.html#aebab11f1a492c2f8e5e99c3e138253ce",tooltip="Construct from lduMatrix and perform LU decomposition. "];
+  Node195 -> Node247 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node247 [label="negSumDiag",height=0.2,width=0.4,color="red",URL="$a26882.html#a7ad351a572b04686613ec1f9650ad95c"];
+  Node247 -> Node201 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node195 -> Node227 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node227 [label="operator*=",height=0.2,width=0.4,color="red",URL="$a26882.html#a8b7e3e95bdfe12c335fe5d27d6d4fa9f"];
+  Node195 -> Node221 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node221 [label="operator+=",height=0.2,width=0.4,color="red",URL="$a26882.html#aba4577bbc1ccadb63a82720d75378b4a"];
+  Node195 -> Node224 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node224 [label="operator-=",height=0.2,width=0.4,color="red",URL="$a26882.html#ad74d793450215c8520bbee8e3084139d"];
+  Node195 -> Node248 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node248 [label="Foam::operator\<\<",height=0.2,width=0.4,color="black",URL="$a21124.html#afe9574a3d35090f9665105ec551d0679"];
+  Node195 -> Node249 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node249 [label="operator=",height=0.2,width=0.4,color="red",URL="$a26882.html#a0ce71b9a590f3426bdfe3401df8df1fb"];
+  Node195 -> Node252 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node252 [label="patchSchedule",height=0.2,width=0.4,color="black",URL="$a26882.html#a073c4059b610f8e1c1aee75fb7b074ab",tooltip="Return the patch evaluation schedule. "];
+  Node195 -> Node253 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node253 [label="Foam::GaussSeidelSmoother\l::smooth",height=0.2,width=0.4,color="red",URL="$a26942.html#a8622cba882900a35ce041c544a6134c0",tooltip="Smooth for the given number of sweeps. "];
+  Node195 -> Node255 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node255 [label="Foam::symGaussSeidelSmoother\l::smooth",height=0.2,width=0.4,color="red",URL="$a26950.html#a8622cba882900a35ce041c544a6134c0",tooltip="Smooth for the given number of sweeps. "];
+  Node195 -> Node257 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node257 [label="Foam::nonBlockingGaussSeidel\lSmoother::smooth",height=0.2,width=0.4,color="red",URL="$a26946.html#a84def9b216d3c88d8c9d2e410aa7ff04",tooltip="Smooth for the given number of sweeps. "];
+  Node195 -> Node259 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node259 [label="sumDiag",height=0.2,width=0.4,color="red",URL="$a26882.html#a2034fb6b7d0fc02febd7b511e063d285"];
+  Node195 -> Node260 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node260 [label="sumMagOffDiag",height=0.2,width=0.4,color="red",URL="$a26882.html#abcea6927adad977b250dc984505099f0"];
+  Node260 -> Node247 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

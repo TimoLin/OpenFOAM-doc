@@ -1,0 +1,17 @@
+digraph "write"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node714 [label="write",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node714 -> Node715 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node715 [label="e1",height=0.2,width=0.4,color="red",URL="$a25006.html#ab99bd1d59a45b22b3ca4e584f63883e9",tooltip="Return local Cartesian x-axis. "];
+  Node714 -> Node717 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node717 [label="e2",height=0.2,width=0.4,color="red",URL="$a25006.html#a1d0c4934ad696b063cf0791d295aa7e9",tooltip="Return local Cartesian y-axis. "];
+  Node714 -> Node719 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node719 [label="e3",height=0.2,width=0.4,color="red",URL="$a25006.html#ac1398080ba7864f25e4619dc2e602dee",tooltip="Return local Cartesian z-axis. "];
+  Node719 -> Node714 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node714 -> Node728 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node728 [label="Foam::Ostream::writeKeyword",height=0.2,width=0.4,color="red",URL="$a26238.html#a3c58b2bb9174ea3c4a5fa58095d1290e",tooltip="Write the keyword followed by an appropriate indentation. "];
+}

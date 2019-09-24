@@ -1,0 +1,28 @@
+digraph "constrainDisplacement"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node585 [label="constrainDisplacement",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node585 -> Node586 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node586 [label="constrainCorners",height=0.2,width=0.4,color="red",URL="$a23282.html#ac76c88ff18a78925cf0fcc2eec75af40",tooltip="Apply patch-patch constraints only. "];
+  Node585 -> Node588 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node588 [label="Foam::GeometricField\l::correctBoundaryConditions",height=0.2,width=0.4,color="black",URL="$a22434.html#acaf6878ef900e593c4b20812f1b567d6",tooltip="Correct boundary field. "];
+  Node585 -> Node591 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node591 [label="Foam::twoDPointCorrector\l::correctDisplacement",height=0.2,width=0.4,color="red",URL="$a25542.html#a7920dcdc7bb2067d0672c9d098195c91",tooltip="Correct motion displacements. "];
+  Node585 -> Node589 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node589 [label="Foam::GeometricField\l::internalField",height=0.2,width=0.4,color="black",URL="$a22434.html#a9536140d36d69bbac40496f6b817aa0a",tooltip="Return internal field. "];
+  Node585 -> Node753 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node753 [label="Foam::MeshObject\< pointMesh,\l UpdateableMeshObject, pointConstraints\l \>::mesh",height=0.2,width=0.4,color="black",URL="$a27138.html#a01ab9073608556f8f4a0f9e0005cbd00"];
+  Node585 -> Node610 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node610 [label="Foam::DimensionedField\l::mesh",height=0.2,width=0.4,color="black",URL="$a26390.html#a8f1110830348a1448a14ab5e3cf47e3b",tooltip="Return mesh. "];
+  Node585 -> Node754 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node754 [label="Foam::MeshObject\< polyMesh,\l UpdateableMeshObject, twoDPoint\lCorrector \>::New",height=0.2,width=0.4,color="black",URL="$a27138.html#ab61cc2091ec1fd7e08e8948e84235a05"];
+  Node585 -> Node755 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node755 [label="setPatchFields",height=0.2,width=0.4,color="red",URL="$a23282.html#a1b6bb2c50c9e39688aa71d2263865d68",tooltip="Helper: set patchField values from internal values (on. "];
+  Node755 -> Node586 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node585 -> Node759 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node759 [label="syncUntransformedData",height=0.2,width=0.4,color="red",URL="$a23282.html#a60a2f4543c7dc5c768bd06768d7004c6",tooltip="Helper: sync data on collocated points only. "];
+  Node759 -> Node755 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

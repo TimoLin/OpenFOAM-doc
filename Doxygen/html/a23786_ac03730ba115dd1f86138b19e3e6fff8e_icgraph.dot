@@ -1,0 +1,12 @@
+digraph "UTrans"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node120 [label="UTrans",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node120 -> Node121 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node121 [label="Foam::KinematicCloud\l\< Foam::DsmcCloud \>::\lcloneBare",height=0.2,width=0.4,color="black",URL="$a23786.html#a519c85b79b984c70934c244a934588ca",tooltip="Construct and return bare clone based on (this) with new name. "];
+  Node120 -> Node122 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node122 [label="Foam::KinematicCloud\l\< Foam::DsmcCloud \>::\lrelaxSources",height=0.2,width=0.4,color="black",URL="$a23786.html#a1dda0eeb0d071a4a102739a96f4532f3",tooltip="Apply relaxation to (steady state) cloud sources. "];
+}

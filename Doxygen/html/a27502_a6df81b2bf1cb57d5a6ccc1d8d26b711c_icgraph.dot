@@ -1,0 +1,14 @@
+digraph "syncBoundaryFacePositions"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4280 [label="syncBoundaryFacePositions",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4280 -> Node4281 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4281 [label="Foam::meshRefinement\l::checkData",height=0.2,width=0.4,color="red",URL="$a24662.html#a2c4ac7a26c8a7aeb644c5d0f345f3f4e",tooltip="Debugging: check that all faces still obey start()>end() "];
+  Node4280 -> Node4287 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4287 [label="Foam::hexRef8::setRefinement",height=0.2,width=0.4,color="red",URL="$a21654.html#a59cb8a999be096950b6cc4f7c457426b",tooltip="Insert refinement. All selected cells will be split into 8. "];
+  Node4280 -> Node4293 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4293 [label="syncBoundaryFaceList",height=0.2,width=0.4,color="black",URL="$a27502.html#a5fc78125c6b4108250dd617a0fe10111",tooltip="Synchronize values on boundary faces only. "];
+}

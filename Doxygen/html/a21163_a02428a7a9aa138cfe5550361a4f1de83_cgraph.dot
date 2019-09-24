@@ -1,0 +1,25 @@
+digraph "switchSet"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2543 [label="switchSet",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2543 -> Node2544 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2544 [label="controlDict",height=0.2,width=0.4,color="red",URL="$a21163.html#a99ec32314c649e103ec5b70effea2d96",tooltip="The central control dictionary. "];
+  Node2544 -> Node2543 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2543 -> Node2558 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2558 [label="Foam::entry::dict",height=0.2,width=0.4,color="black",URL="$a26022.html#abd246c36ef3a3776f7d6e517dc9621af",tooltip="Return dictionary if this entry is a dictionary. "];
+  Node2543 -> Node2548 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2548 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node2543 -> Node2550 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2550 [label="Foam::exit",height=0.2,width=0.4,color="red",URL="$a21124.html#a06ca7250d8e89caf05243ec094843642"];
+  Node2543 -> Node2559 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2559 [label="Foam::entry::isDict",height=0.2,width=0.4,color="red",URL="$a26022.html#a33b200039e283c4ad4ad9a4756ffafd1",tooltip="Return true if this entry is a dictionary. "];
+  Node2559 -> Node2558 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2543 -> Node2609 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2609 [label="Foam::dictionary::lookup\lEntryPtr",height=0.2,width=0.4,color="black",URL="$a26014.html#a63ca8c5575e79a6e04b8a1e1c4c1d958",tooltip="Find and return an entry data stream pointer if present. "];
+  Node2609 -> Node2609 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2543 -> Node2569 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2569 [label="Foam::dictionaryName\l::name",height=0.2,width=0.4,color="black",URL="$a26010.html#aba53f1f9c8fadfa65f4099af10df348c",tooltip="Return the dictionary name. "];
+}

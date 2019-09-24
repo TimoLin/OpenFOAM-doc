@@ -1,0 +1,18 @@
+digraph "alphaEff"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node734 [label="alphaEff",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node734 -> Node735 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node735 [label="Foam::basicThermo::\lalphaEff",height=0.2,width=0.4,color="black",URL="$a29734.html#a8e5eaed6f3aa8f1b0197aef32c36ae23",tooltip="Effective thermal diffusivity of mixture [kg/m/s]. "];
+  Node734 -> Node736 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node736 [label="Foam::compressible\l::turbulenceModel::alphat",height=0.2,width=0.4,color="black",URL="$a30818.html#a0503152b53bc320b7656ba486cbd69da",tooltip="Return the turbulence thermal diffusivity. "];
+  Node734 -> Node737 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node737 [label="correct",height=0.2,width=0.4,color="red",URL="$a30758.html#a3ae44b28050c3aa494c1d8e18cf618c1",tooltip="Solve the turbulence equations and correct the turbulence viscosity. "];
+  Node734 -> Node739 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node739 [label="read",height=0.2,width=0.4,color="red",URL="$a30758.html#af816873151ddb0126e98bb2f914d8ed5",tooltip="Read RASProperties dictionary. "];
+  Node734 -> Node1080 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1080 [label="Foam::compressible\l::turbulenceModel::thermo",height=0.2,width=0.4,color="black",URL="$a30818.html#add0b7ef56f878b21b4dec428bb69592a",tooltip="Access function to thermophysical model. "];
+}

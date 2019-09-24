@@ -1,0 +1,16 @@
+digraph "pointPairDistance"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node80 [label="pointPairDistance",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node80 -> Node81 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node81 [label="foamyHexMeshControls",height=0.2,width=0.4,color="black",URL="$a31450.html#a5d5c08c500309b8927c3567396ad4af5",tooltip="Return the foamyHexMeshControls object. "];
+  Node80 -> Node82 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node82 [label="mixedFeaturePointDistance",height=0.2,width=0.4,color="red",URL="$a31450.html#a55b1c1b352f990c0d726c52ec68a1688",tooltip="Return the local mixed feature point placement distance. "];
+  Node82 -> Node80 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node82 -> Node81 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node80 -> Node111 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node111 [label="Foam::cvControls::pointPair\lDistanceCoeff",height=0.2,width=0.4,color="black",URL="$a31490.html#af4998b3f46b5d58584f2039475f53c54",tooltip="Return the pointPairDistanceCoeff. "];
+}

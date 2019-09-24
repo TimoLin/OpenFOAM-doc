@@ -1,0 +1,11 @@
+digraph "searchablePlateFeatures"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node2 [label="searchablePlateFeatures",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="searchableSurfaceFeatures",height=0.2,width=0.4,color="black",URL="$a31582.html",tooltip="Decorator that returns the features of a searchable surface. "];
+  Node4 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" edges" ,fontname="FreeSans"];
+  Node4 [label="List\< T \>",height=0.2,width=0.4,color="red",URL="$a25694.html",tooltip="A 1D array of objects of type <T>, where the size of the vector is known and used for subscript bound..."];
+}

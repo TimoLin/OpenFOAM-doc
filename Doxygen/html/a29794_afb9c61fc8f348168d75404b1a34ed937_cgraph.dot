@@ -1,0 +1,21 @@
+digraph "jacobian"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node110 [label="jacobian",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node110 -> Node111 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node111 [label="Foam::Reaction::kf",height=0.2,width=0.4,color="black",URL="$a30330.html#ae5cd124c004fbe29669769d275a8b321",tooltip="Forward rate constant. "];
+  Node111 -> Node112 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node112 [label="Foam::Reaction::kr",height=0.2,width=0.4,color="black",URL="$a30330.html#a0ece0a68edcdda61344b7d5b1537e79c",tooltip="Reverse rate constant from the given forward rate constant. "];
+  Node110 -> Node112 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node110 -> Node113 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node113 [label="Foam::Reaction::lhs",height=0.2,width=0.4,color="black",URL="$a30330.html#a6761a05de6d2e857d0187e5bd7ff6b61"];
+  Node110 -> Node114 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node114 [label="Foam::max",height=0.2,width=0.4,color="black",URL="$a21124.html#ac993e906cf2774ae77e666bc24e81733"];
+  Node110 -> Node115 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node115 [label="Foam::pow",height=0.2,width=0.4,color="red",URL="$a21124.html#a7500c8e9d27a442adc75e287de074c7c"];
+  Node110 -> Node119 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node119 [label="Foam::Reaction::rhs",height=0.2,width=0.4,color="black",URL="$a30330.html#a1307353445aae5aae36cd5a86f3f64f0"];
+}

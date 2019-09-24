@@ -1,0 +1,31 @@
+digraph "src/OpenFOAM/meshes/primitiveMesh/PrimitivePatch/PrimitivePatch.C"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node0 [label="src/OpenFOAM/meshes\l/primitiveMesh/PrimitivePatch\l/PrimitivePatch.C",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="Map.H",height=0.2,width=0.4,color="red",URL="$a08489.html"];
+  Node0 -> Node47 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node47 [label="PrimitivePatchAddressing.C",height=0.2,width=0.4,color="red",URL="$a11954.html",tooltip="This function calculates the list of patch edges, defined on the list of points supporting the patch..."];
+  Node0 -> Node144 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node144 [label="PrimitivePatchEdgeLoops.C",height=0.2,width=0.4,color="red",URL="$a11966.html",tooltip="Create the list of loops of outside vertices. Goes wrong on multiply connected edges (loops will be u..."];
+  Node0 -> Node145 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node145 [label="PrimitivePatchClear.C",height=0.2,width=0.4,color="red",URL="$a11963.html"];
+  Node0 -> Node147 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node147 [label="PrimitivePatchBdryPoints.C",height=0.2,width=0.4,color="red",URL="$a11957.html"];
+  Node0 -> Node148 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node148 [label="PrimitivePatchLocalPoint\lOrder.C",height=0.2,width=0.4,color="red",URL="$a11969.html",tooltip="Orders the local points on the patch for most efficient search. "];
+  Node0 -> Node149 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node149 [label="PrimitivePatchMeshData.C",height=0.2,width=0.4,color="red",URL="$a11972.html"];
+  Node149 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node0 -> Node150 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node150 [label="PrimitivePatchMeshEdges.C",height=0.2,width=0.4,color="red",URL="$a11975.html"];
+  Node0 -> Node151 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node151 [label="PrimitivePatchPointAddressing.C",height=0.2,width=0.4,color="red",URL="$a11981.html",tooltip="Point addressing on the patch: pointEdges and pointFaces. "];
+  Node0 -> Node152 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node152 [label="PrimitivePatchProjectPoints.C",height=0.2,width=0.4,color="red",URL="$a11984.html",tooltip="For every point on the patch find the closest face on the target side. Return a target face label for..."];
+  Node0 -> Node154 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node154 [label="PrimitivePatchCheck.C",height=0.2,width=0.4,color="red",URL="$a11960.html",tooltip="Checks topology of the patch. "];
+  Node154 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

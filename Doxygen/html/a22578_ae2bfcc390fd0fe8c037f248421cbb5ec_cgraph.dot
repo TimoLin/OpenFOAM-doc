@@ -1,0 +1,46 @@
+digraph "fvmLaplacianUncorrected"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node478 [label="fvmLaplacianUncorrected",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node478 -> Node479 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node479 [label="Foam::fvMatrix::boundary\lCoeffs",height=0.2,width=0.4,color="black",URL="$a22358.html#a7afb1e50a188e5984f79504d63486d71",tooltip="fvBoundary scalar field containing pseudo-matrix coeffs "];
+  Node478 -> Node480 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node480 [label="Foam::GeometricField\l::boundaryField",height=0.2,width=0.4,color="black",URL="$a22434.html#a3c6c1a789b48ea0c5e8bff64f9c14f2d",tooltip="Return reference to GeometricBoundaryField. "];
+  Node478 -> Node481 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node481 [label="Foam::GeometricField\l::component",height=0.2,width=0.4,color="black",URL="$a22434.html#ab1ef8613f4a1aa4376b197a65941c5c0",tooltip="Return a component of the field. "];
+  Node478 -> Node482 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node482 [label="Foam::fvPatchField\l::coupled",height=0.2,width=0.4,color="black",URL="$a22354.html#a39c01db0e66d00fe0621a0c7e5fc4ead",tooltip="Return true if this patch field is coupled. "];
+  Node478 -> Node483 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node483 [label="Foam::surfaceInterpolation\l::deltaCoeffs",height=0.2,width=0.4,color="black",URL="$a23274.html#ab0b5a64a75600c28974f6287b4cd6c75",tooltip="Return reference to cell-centre difference coefficients. "];
+  Node478 -> Node484 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node484 [label="Foam::DimensionedField\l::dimensions",height=0.2,width=0.4,color="black",URL="$a26390.html#a66989c1e0666e0d0c93a2056ce75599e",tooltip="Return dimensions. "];
+  Node478 -> Node485 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node485 [label="fvcLaplacian",height=0.2,width=0.4,color="red",URL="$a22578.html#a3b7763d1c413ef4161fb02b170ba7194"];
+  Node485 -> Node487 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node487 [label="Foam::IOobject::name",height=0.2,width=0.4,color="black",URL="$a26142.html#acc80e00a8ac919288fb55bd14cc88bf6",tooltip="Return name. "];
+  Node478 -> Node941 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node941 [label="Foam::fvc::grad",height=0.2,width=0.4,color="red",URL="$a21134.html#a7c00ec90ecc15ed3005255e42c52827a"];
+  Node941 -> Node487 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node941 -> Node941 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node478 -> Node943 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node943 [label="Foam::fvPatchField\l::gradientBoundaryCoeffs",height=0.2,width=0.4,color="black",URL="$a22354.html#a0c64c12a121f293fd2a45a39e6f0db4e",tooltip="Return the matrix source coefficients corresponding to the. "];
+  Node478 -> Node804 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node804 [label="Foam::fvPatchField\l::gradientInternalCoeffs",height=0.2,width=0.4,color="black",URL="$a22354.html#aaaea44d60138d121cba097f25938911e",tooltip="Return the matrix diagonal coefficients corresponding to the. "];
+  Node478 -> Node509 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node509 [label="Foam::IOobject::instance",height=0.2,width=0.4,color="black",URL="$a26142.html#acac6de003b420b848571b5064e50ed89"];
+  Node478 -> Node944 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node944 [label="Foam::fvMatrix::internal\lCoeffs",height=0.2,width=0.4,color="black",URL="$a22358.html#a70f63c0b305ac3c1b02423e6e5d28115",tooltip="fvBoundary scalar field containing pseudo-matrix coeffs "];
+  Node478 -> Node617 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node617 [label="Foam::GeometricField\l::internalField",height=0.2,width=0.4,color="black",URL="$a22434.html#a9536140d36d69bbac40496f6b817aa0a",tooltip="Return internal field. "];
+  Node478 -> Node945 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node945 [label="Foam::fvc::interpolate",height=0.2,width=0.4,color="red",URL="$a21134.html#addbc18784300dd0955a9bf79f8e2c43b"];
+  Node478 -> Node487 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node478 -> Node883 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node883 [label="Foam::lduMatrix::negSumDiag",height=0.2,width=0.4,color="red",URL="$a26882.html#a7ad351a572b04686613ec1f9650ad95c"];
+  Node883 -> Node865 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node865 [label="Foam::lduMatrix::upper",height=0.2,width=0.4,color="red",URL="$a26882.html#a11672a767f497e24dce3ff31da13d9d0"];
+  Node478 -> Node865 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

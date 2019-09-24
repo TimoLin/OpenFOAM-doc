@@ -1,0 +1,21 @@
+digraph "regions"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node155 [label="regions",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node155 -> Node156 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node156 [label="bounds",height=0.2,width=0.4,color="black",URL="$a25234.html#ab52ef1a9bdfbce51dd006adeaafbb6ca",tooltip="Return non-const access to the boundBox to allow it to be set. "];
+  Node155 -> Node157 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node157 [label="Foam::refinementSurfaces\l::findHigherIntersection",height=0.2,width=0.4,color="red",URL="$a24686.html#ab922b885ce753bb5ea4242b5d15f8cee",tooltip="Find intersection of edge. Return -1 or first surface. "];
+  Node157 -> Node159 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node159 [label="Foam::refinementSurfaces\l::setMinLevelFields",height=0.2,width=0.4,color="red",URL="$a24686.html#ad4b11621a132f1dc63549c371e1afdcd",tooltip="Calculate minLevelFields. "];
+  Node155 -> Node161 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node161 [label="Foam::refinementSurfaces\l::refinementSurfaces",height=0.2,width=0.4,color="black",URL="$a24686.html#a3eecea7df2307ad6efac0393c421de74",tooltip="Construct from surfaces and dictionary. "];
+  Node155 -> Node162 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node162 [label="Foam::searchableSurfaceWith\lGaps::regions",height=0.2,width=0.4,color="black",URL="$a25254.html#a6408047a21e1ae2eac9b6ddbfc60ace9",tooltip="Names of regions. "];
+  Node155 -> Node163 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node163 [label="Foam::searchableSurfaces\l::searchableSurfaces",height=0.2,width=0.4,color="black",URL="$a25246.html#a728d2d5193c640e1884f841fccc9c21f",tooltip="Construct from dictionary and whether to construct names always. "];
+  Node155 -> Node159 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

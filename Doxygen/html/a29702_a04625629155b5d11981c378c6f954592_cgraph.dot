@@ -1,0 +1,12 @@
+digraph "updatePointsRef"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node533 [label="updatePointsRef",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node533 -> Node534 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node534 [label="Foam::PrimitivePatch\l\< face, ::Foam::UList,\l ::Foam::SubField\< point\l \>, point \>::points",height=0.2,width=0.4,color="black",URL="$a27538.html#aa3c7d968f31c88780c663876f64ef6a6",tooltip="Return reference to global points. "];
+  Node533 -> Node535 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node535 [label="storedPoints",height=0.2,width=0.4,color="red",URL="$a29702.html#a42d63b7b3dcf589fbe1c4cd2bc8e3d9b",tooltip="Non-const access to global points. "];
+}

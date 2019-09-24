@@ -1,0 +1,29 @@
+digraph "coupled"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node218 [label="coupled",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node218 -> Node219 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node219 [label="evaluate",height=0.2,width=0.4,color="red",URL="$a22038.html#ab9de8baa38a38ec4603e74eb6d5f8f73",tooltip="Evaluate the patch field. "];
+  Node219 -> Node221 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node221 [label="Foam::coupledFvPatchField\l::snGrad",height=0.2,width=0.4,color="black",URL="$a21974.html#a55db17a8a73495ae1c04e4b2af71c4a9",tooltip="Return patch-normal gradient. "];
+  Node218 -> Node222 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node222 [label="initEvaluate",height=0.2,width=0.4,color="red",URL="$a22038.html#a65e53e9af7fa5ef0659db31b6d0763b0",tooltip="Initialise the evaluation of the patch field. "];
+  Node222 -> Node219 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node218 -> Node225 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node225 [label="initInterfaceMatrixUpdate",height=0.2,width=0.4,color="red",URL="$a22038.html#a4aa231b00ad3efb2f5543ec242689eb2",tooltip="Initialise neighbour matrix update. "];
+  Node225 -> Node270 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node270 [label="updateInterfaceMatrix",height=0.2,width=0.4,color="red",URL="$a22038.html#a4144bb27e8739ab5a673b3da1e245e17",tooltip="Update result field based on interface functionality. "];
+  Node270 -> Node225 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node218 -> Node250 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node250 [label="Foam::UPstream::parRun",height=0.2,width=0.4,color="black",URL="$a26270.html#adbb27f04b5705440fb8b09f278059011",tooltip="Is this a parallel run? "];
+  Node218 -> Node271 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node271 [label="patchNeighbourField",height=0.2,width=0.4,color="red",URL="$a22038.html#ae9b3d13a6c322e4b3132078e6883e9cf",tooltip="Return neighbour field given internal field. "];
+  Node271 -> Node222 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node218 -> Node272 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node272 [label="ready",height=0.2,width=0.4,color="black",URL="$a22038.html#ae0659ce466366fc566dc1425c658a019",tooltip="Is all data available. "];
+  Node218 -> Node221 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node218 -> Node270 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

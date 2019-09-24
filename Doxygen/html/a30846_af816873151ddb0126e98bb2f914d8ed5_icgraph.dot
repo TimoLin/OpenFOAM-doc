@@ -1,0 +1,24 @@
+digraph "read"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1930 [label="read",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1930 -> Node1931 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1931 [label="nuSgs",height=0.2,width=0.4,color="black",URL="$a30846.html#abde47ef2bb39f49cb72a765c4fd8cc3c",tooltip="Return the SGS viscosity. "];
+  Node1930 -> Node1932 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1932 [label="Foam::incompressible\l::LESModels::spectEddyVisc::read",height=0.2,width=0.4,color="red",URL="$a30918.html#af816873151ddb0126e98bb2f914d8ed5",tooltip="Read LESProperties dictionary. "];
+  Node1930 -> Node1934 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1934 [label="Foam::incompressible\l::LESModels::Smagorinsky::read",height=0.2,width=0.4,color="red",URL="$a30894.html#af816873151ddb0126e98bb2f914d8ed5",tooltip="Read LESProperties dictionary. "];
+  Node1930 -> Node1944 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1944 [label="Foam::incompressible\l::LESModels::oneEqEddy::read",height=0.2,width=0.4,color="red",URL="$a30886.html#af816873151ddb0126e98bb2f914d8ed5",tooltip="Read LESProperties dictionary. "];
+  Node1930 -> Node1947 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1947 [label="Foam::incompressible\l::LESModels::homogeneousDyn\lOneEqEddy::read",height=0.2,width=0.4,color="red",URL="$a30854.html#af816873151ddb0126e98bb2f914d8ed5",tooltip="Read LESProperties dictionary. "];
+  Node1930 -> Node1950 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1950 [label="Foam::incompressible\l::LESModels::homogeneousDyn\lSmagorinsky::read",height=0.2,width=0.4,color="red",URL="$a30858.html#af816873151ddb0126e98bb2f914d8ed5",tooltip="Read LESProperties dictionary. "];
+  Node1930 -> Node1952 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1952 [label="Foam::incompressible\l::LESModels::dynOneEqEddy::read",height=0.2,width=0.4,color="red",URL="$a30842.html#af816873151ddb0126e98bb2f914d8ed5",tooltip="Read LESProperties dictionary. "];
+  Node1930 -> Node1955 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1955 [label="Foam::incompressible\l::LESModels::dynLagrangian::read",height=0.2,width=0.4,color="red",URL="$a30838.html#af816873151ddb0126e98bb2f914d8ed5",tooltip="Read LESProperties dictionary. "];
+}

@@ -1,0 +1,18 @@
+digraph "readGeometry"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node332 [label="readGeometry",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node332 -> Node333 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node333 [label="cullPoints",height=0.2,width=0.4,color="red",URL="$a21334.html#a9cf5a7beabb5d847accad5ac5db12d89",tooltip="Remove unused points. "];
+  Node332 -> Node344 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node344 [label="readBoundary",height=0.2,width=0.4,color="red",URL="$a21334.html#aaa5ec51e2b805018e53dda083fdaf762",tooltip="Read boundary (cell/face) definitions. "];
+  Node332 -> Node407 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node407 [label="readCells",height=0.2,width=0.4,color="red",URL="$a21334.html#ac92ac489841efbc9ad374e345bdb2cc2",tooltip="Read cell connectivities from file. "];
+  Node332 -> Node414 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node414 [label="readPoints",height=0.2,width=0.4,color="red",URL="$a21334.html#ac1489cb5b82a59c9fd17448d67891ea0",tooltip="Read points from file. "];
+  Node332 -> Node415 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node415 [label="STARCD",height=0.2,width=0.4,color="black",URL="$a21334.html#ad290149dbf6089034d5ff9130c1a2189",tooltip="Disallow default bitwise copy construct. "];
+}

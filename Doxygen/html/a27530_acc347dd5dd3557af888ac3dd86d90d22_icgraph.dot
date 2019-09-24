@@ -1,0 +1,31 @@
+digraph "pointFaces"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node34483 [label="pointFaces",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node34483 -> Node34484 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34484 [label="Foam::decompositionMethod\l::decompose",height=0.2,width=0.4,color="black",URL="$a28594.html#a9e5348f6d62778dc2721d9646d92c3d2"];
+  Node34483 -> Node34485 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34485 [label="edgeFaces",height=0.2,width=0.4,color="black",URL="$a27530.html#ad873263059fd0b4758b0994795a01f0f",tooltip="edgeFaces using pointFaces, edges, pointEdges "];
+  Node34483 -> Node34486 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34486 [label="Foam::cellLooper::getVert\lFacesNonEdge",height=0.2,width=0.4,color="red",URL="$a21470.html#a0cf36eaabe014e03f3d71a1be2b98154",tooltip="Get faces (on cell) connected to vertI which are not using edgeI. "];
+  Node34483 -> Node34489 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34489 [label="Foam::cellCuts::nonAnchor\lPoints",height=0.2,width=0.4,color="red",URL="$a21466.html#a99cdc1288c329f2654ead522706957a6",tooltip="Invert anchor point selection. "];
+  Node34483 -> Node34498 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34498 [label="Foam::listPlusEqOp\l::operator()",height=0.2,width=0.4,color="black",URL="$a24626.html#a2bca5855a51bffee2f0fe2aacc4aba10"];
+  Node34483 -> Node34499 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34499 [label="pointCells",height=0.2,width=0.4,color="black",URL="$a27530.html#a852e3afb9be80c737f8eea3861cd817d",tooltip="pointCells using pointFaces "];
+  Node34483 -> Node34500 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34500 [label="Foam::polyMeshZipUpCells",height=0.2,width=0.4,color="black",URL="$a21124.html#ab957fb2d74d8de84991a6246e876ecd2"];
+  Node34483 -> Node34501 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34501 [label="Foam::decompositionMethod\l::setConstraints",height=0.2,width=0.4,color="red",URL="$a28594.html#a36608a91d1c00b41284eaf46b895387c",tooltip="Helper: extract constraints: "];
+  Node34501 -> Node34484 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34483 -> Node34509 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34509 [label="Foam::perfectInterface\l::setRefinement",height=0.2,width=0.4,color="black",URL="$a21586.html#a7253b581bef08b26159ea0e738a8883a",tooltip="Insert the layer addition/removal instructions. "];
+  Node34483 -> Node34510 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34510 [label="Foam::edgeCollapser\l::setRefinement",height=0.2,width=0.4,color="red",URL="$a21642.html#a788f5a11a20efd0f4a6a8ab78be4efeb",tooltip="Play commands into polyTopoChange to create mesh. "];
+  Node34483 -> Node34512 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34512 [label="Foam::meshRefinement\l::splitMesh",height=0.2,width=0.4,color="red",URL="$a24662.html#a08f4ea0b833b94c474aa41d492a55d31",tooltip="Split off (with optional buffer layers) unreachable areas. "];
+}

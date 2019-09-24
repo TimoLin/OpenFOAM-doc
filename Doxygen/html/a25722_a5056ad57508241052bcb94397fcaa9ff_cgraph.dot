@@ -1,0 +1,14 @@
+digraph "iterator"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4 [label="iterator",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="iterator",height=0.2,width=0.4,color="black",URL="$a25722.html#a67d652c2433cf9217ed2a1485092fdd1",tooltip="Construct null (end iterator) "];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="Foam::HashTable::iterator\lBase::iteratorBase",height=0.2,width=0.4,color="black",URL="$a25718.html#aaac009feacc7795b6481cb8fc6a6571e",tooltip="Construct null - equivalent to an &#39;end&#39; position. "];
+  Node4 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="Foam::T",height=0.2,width=0.4,color="red",URL="$a21124.html#ae57fda0abb14bb0944947c463c6e09d4"];
+}

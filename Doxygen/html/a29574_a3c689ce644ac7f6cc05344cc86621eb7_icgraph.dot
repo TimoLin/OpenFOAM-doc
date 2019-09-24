@@ -1,0 +1,23 @@
+digraph "zoneIds"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node818 [label="zoneIds",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node818 -> Node819 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node819 [label="reset",height=0.2,width=0.4,color="red",URL="$a29574.html#a647d7ea5042b93e16179dd2d4079447d",tooltip="Transfer components (points, faces, zone ids). "];
+  Node819 -> Node821 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node821 [label="zoneToc",height=0.2,width=0.4,color="red",URL="$a29574.html#adc84fd65ce1212a7745d7e69a0fa9250",tooltip="Return const access to the zone table-of-contents. "];
+  Node821 -> Node822 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node822 [label="Foam::fileFormats::\lGTSsurfaceFormat::write",height=0.2,width=0.4,color="black",URL="$a29598.html#a8eea7f3ea6f24bb7a37ee7ef16a1ad10",tooltip="Write UnsortedMeshedSurface, the output remains unsorted. "];
+  Node821 -> Node824 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node824 [label="Foam::fileFormats::\lTRIsurfaceFormat::write",height=0.2,width=0.4,color="black",URL="$a29658.html#a8eea7f3ea6f24bb7a37ee7ef16a1ad10",tooltip="Write UnsortedMeshedSurface,. "];
+  Node818 -> Node822 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node818 -> Node825 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node825 [label="Foam::fileFormats::\lVTKsurfaceFormat::write",height=0.2,width=0.4,color="black",URL="$a29666.html#a8eea7f3ea6f24bb7a37ee7ef16a1ad10",tooltip="Write UnsortedMeshedSurface, the output remains unsorted. "];
+  Node818 -> Node824 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node818 -> Node826 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node826 [label="Foam::fileFormats::\lSTLsurfaceFormat::writeBinary",height=0.2,width=0.4,color="black",URL="$a29642.html#a3ccd88d5b6604a437b6e0c7fbf16cf64",tooltip="Write UnsortedMeshedSurface (as BINARY) unsorted by zone. "];
+  Node818 -> Node821 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

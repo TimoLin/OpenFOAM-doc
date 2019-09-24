@@ -1,0 +1,16 @@
+digraph "flags"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node40464 [label="flags",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node40464 -> Node40465 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node40465 [label="lineNumber",height=0.2,width=0.4,color="black",URL="$a26226.html#aa38e2be17593d4b0f9769e80f4ff2e25",tooltip="Set the stream line number. "];
+  Node40464 -> Node40466 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node40466 [label="setBad",height=0.2,width=0.4,color="red",URL="$a26226.html#a638b33dd25b3cd8ea7e846f04fd6a6a3",tooltip="Set stream to be bad. "];
+  Node40464 -> Node40532 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node40532 [label="setf",height=0.2,width=0.4,color="red",URL="$a26226.html#a1666889b5cd4293d18eace0e70fa8a7a",tooltip="Set flags of stream. "];
+  Node40464 -> Node40606 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node40606 [label="unsetf",height=0.2,width=0.4,color="red",URL="$a26226.html#af57e927a0657752abc0cd5eb73082ff1",tooltip="Unset flags of stream. "];
+}

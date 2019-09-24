@@ -1,0 +1,16 @@
+digraph "pointRemoved"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node494 [label="pointRemoved",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node494 -> Node495 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node495 [label="faceNeighbour",height=0.2,width=0.4,color="red",URL="$a21678.html#ac0226836c6afb225e82b34f85b7c5d2c"];
+  Node494 -> Node499 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node499 [label="modifyPoint",height=0.2,width=0.4,color="red",URL="$a21678.html#ad83e85fd833a84d24f0a29064ed6163d",tooltip="Modify coordinate. "];
+  Node499 -> Node495 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node494 -> Node608 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node608 [label="removePoint",height=0.2,width=0.4,color="red",URL="$a21678.html#a01afb06197fad38def20100780f8aa52",tooltip="Remove/merge point. "];
+  Node608 -> Node495 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

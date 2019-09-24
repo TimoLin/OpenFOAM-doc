@@ -1,0 +1,16 @@
+digraph "read"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node5120 [label="read",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node5120 -> Node5121 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5121 [label="Foam::IOstream::bad",height=0.2,width=0.4,color="black",URL="$a26226.html#a9f7290a5d70f30e1b1b42c8ac4a6082d",tooltip="Return true if stream is corrupted. "];
+  Node5120 -> Node5122 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5122 [label="Foam::exit",height=0.2,width=0.4,color="red",URL="$a21124.html#a06ca7250d8e89caf05243ec094843642"];
+  Node5120 -> Node5168 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5168 [label="putback",height=0.2,width=0.4,color="red",URL="$a26286.html#aa685529cedb07a4b339c5a87c84b597a",tooltip="Raw, low-level putback character function. "];
+  Node5120 -> Node5173 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5173 [label="Foam::word::valid",height=0.2,width=0.4,color="red",URL="$a28258.html#a02301e1d2e6a0a6d1ebb1ecd038872e3",tooltip="Is this character valid for a word. "];
+}

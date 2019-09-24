@@ -1,0 +1,22 @@
+digraph "edgeFaces"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node52915 [label="edgeFaces",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node52915 -> Node52916 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node52916 [label="Foam::DynamicList::\lappend",height=0.2,width=0.4,color="black",URL="$a25890.html#a7b67b42af715604376ad63a681dee6d8",tooltip="Append an element at the end of the list. "];
+  Node52915 -> Node52917 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node52917 [label="Foam::DynamicList::\lclear",height=0.2,width=0.4,color="black",URL="$a25890.html#ac8bb3912a3ce86b15842e79d0b421204",tooltip="Clear the addressed list, i.e. set the size to zero. "];
+  Node52915 -> Node52918 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node52918 [label="edgeFaces",height=0.2,width=0.4,color="red",URL="$a27530.html#ad38ecd2902727a890ebd437731c271c8"];
+  Node52915 -> Node52965 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node52965 [label="edges",height=0.2,width=0.4,color="black",URL="$a27530.html#a21d764179912ddda5c6f95193c289846",tooltip="Return mesh edges. Uses calcEdges. "];
+  Node52915 -> Node52983 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node52983 [label="hasEdgeFaces",height=0.2,width=0.4,color="black",URL="$a27530.html#aead94001dd01a9f5f6223ff055d87794"];
+  Node52915 -> Node52984 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node52984 [label="pointFaces",height=0.2,width=0.4,color="red",URL="$a27530.html#acc347dd5dd3557af888ac3dd86d90d22"];
+  Node52915 -> Node52970 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node52970 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+}

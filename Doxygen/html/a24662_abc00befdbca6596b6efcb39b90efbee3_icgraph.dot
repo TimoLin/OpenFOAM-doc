@@ -1,0 +1,13 @@
+digraph "doRemovePoints"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node13627 [label="doRemovePoints",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node13627 -> Node13628 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13628 [label="mergePatchFacesUndo",height=0.2,width=0.4,color="black",URL="$a24662.html#a46abeca243f55035145fe45edc956bef",tooltip="Merge coplanar faces. preserveFaces is != -1 for faces. "];
+  Node13628 -> Node13629 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13629 [label="userFaceData",height=0.2,width=0.4,color="black",URL="$a24662.html#a2cb6efa4184bedfbed60b069881c26a3"];
+  Node13627 -> Node13629 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

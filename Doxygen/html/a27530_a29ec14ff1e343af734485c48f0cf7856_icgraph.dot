@@ -1,0 +1,26 @@
+digraph "cellEdges"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node34514 [label="cellEdges",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node34514 -> Node34515 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34515 [label="Foam::polyDualMesh\l::calcFeatures",height=0.2,width=0.4,color="red",URL="$a21354.html#a9462253b504fad04ae7194f1f17469c8",tooltip="Helper function to create feature edges and points based on. "];
+  Node34514 -> Node34517 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34517 [label="cellEdges",height=0.2,width=0.4,color="black",URL="$a27530.html#aa8f3c979c238982d15fd48beb8c76ca9",tooltip="cellEdges using cells, pointFaces, edges, pointEdges "];
+  Node34514 -> Node34518 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34518 [label="Foam::cellFeatures\l::cellFeatures",height=0.2,width=0.4,color="black",URL="$a24978.html#aeed7f08aefc296470b955695aee41dae",tooltip="Construct from cell in mesh. "];
+  Node34514 -> Node34519 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34519 [label="Foam::geomCellLooper::cut",height=0.2,width=0.4,color="black",URL="$a21474.html#a993c7c95766fcf44b50607ec8701d577",tooltip="Same but now also base point of cut provided (instead of always. "];
+  Node34514 -> Node34520 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34520 [label="Foam::meshTools::cutDirToEdge",height=0.2,width=0.4,color="red",URL="$a21153.html#a56664f3017553939ea9760e96b9e24f2",tooltip="Reverse of edgeToCutDir: given direction find edge bundle and. "];
+  Node34514 -> Node34529 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34529 [label="edgeCells",height=0.2,width=0.4,color="red",URL="$a27530.html#addd6d1fd65f617ff40cde4479560c2c3"];
+  Node34514 -> Node34538 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34538 [label="faceEdges",height=0.2,width=0.4,color="black",URL="$a27530.html#ade4497728ccb43d99494ac38c04e5ea9"];
+  Node34514 -> Node34539 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34539 [label="Foam::cellLooper::getMis\lAlignedEdge",height=0.2,width=0.4,color="red",URL="$a21470.html#a63c57a46b1a0b2c5c62c0890e1d0ed84",tooltip="Return edge from cellEdges that is most perpendicular. "];
+  Node34514 -> Node34540 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34540 [label="Foam::cellCuts::nonAnchor\lPoints",height=0.2,width=0.4,color="red",URL="$a21466.html#a99cdc1288c329f2654ead522706957a6",tooltip="Invert anchor point selection. "];
+}

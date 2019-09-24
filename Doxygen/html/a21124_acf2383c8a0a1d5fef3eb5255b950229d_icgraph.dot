@@ -1,0 +1,30 @@
+digraph "cmptMag"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node64703 [label="cmptMag",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node64703 -> Node64704 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node64704 [label="Foam::coupledPolyPatch\l::calcFaceTol",height=0.2,width=0.4,color="red",URL="$a27426.html#ad3d3e65f39a047092bc000d938b3adf1",tooltip="Calculate typical tolerance per face. Is currently max distance. "];
+  Node64703 -> Node64708 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node64708 [label="cmptAv",height=0.2,width=0.4,color="black",URL="$a21124.html#aa09808b9488e6627242c2f32f87c2298"];
+  Node64703 -> Node64709 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node64709 [label="cmptMag",height=0.2,width=0.4,color="black",URL="$a21124.html#abce2806c40c0f7fd7aa326accd80dc73"];
+  Node64703 -> Node64710 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node64710 [label="cmptProduct",height=0.2,width=0.4,color="red",URL="$a21124.html#a43efbf7dd7cb35751a70f798be574555"];
+  Node64703 -> Node64713 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node64713 [label="Foam::searchableBox\l::findNearestOnEdge",height=0.2,width=0.4,color="red",URL="$a25210.html#a945928aebbefd2d65c7cd3807020bb93",tooltip="Calculate nearest point on edge. "];
+  Node64703 -> Node64716 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node64716 [label="Foam::Kmesh::Kmesh",height=0.2,width=0.4,color="black",URL="$a28946.html#a5a51b3510445fa907070c7052b6fc25c",tooltip="Construct from fvMesh. "];
+  Node64703 -> Node64717 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node64717 [label="Foam::LduMatrix::solver\l::normFactor",height=0.2,width=0.4,color="red",URL="$a26794.html#a6aa0b30e627d50b23f0a20f8f7e87482",tooltip="Return the matrix norm used to normalise the residual for the. "];
+  Node64703 -> Node64724 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node64724 [label="Foam::fieldValues::\lfaceSource::processSameType\lValues",height=0.2,width=0.4,color="red",URL="$a28726.html#a41d519fb17fb326997de3ffb25384387",tooltip="Apply the &#39;operation&#39; to the values. Operation has to. "];
+  Node64703 -> Node64730 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node64730 [label="Foam::fieldValues::\lcellSource::processValues",height=0.2,width=0.4,color="red",URL="$a28722.html#a3ee3ef0dce4b4491df744d2af65f4d0f",tooltip="Apply the &#39;operation&#39; to the values. "];
+  Node64703 -> Node64733 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node64733 [label="Foam::fvMatrix::relax",height=0.2,width=0.4,color="red",URL="$a22358.html#a06343b944c91a56352ebf646011c212e",tooltip="Relax matrix (for steady-state solution). "];
+  Node64703 -> Node64742 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node64742 [label="sumCmptMag",height=0.2,width=0.4,color="black",URL="$a21124.html#ae971c2cc8a25a387e0dc15b873c5c5f5"];
+}

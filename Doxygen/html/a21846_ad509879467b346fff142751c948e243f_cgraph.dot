@@ -1,0 +1,17 @@
+digraph "curveDist"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node28 [label="curveDist",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node28 -> Node29 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node29 [label="hasVectorAxis",height=0.2,width=0.4,color="black",URL="$a21846.html#a2f0fc64ec6269a2507d97fee350acbb9",tooltip="Is axis specification a vector. "];
+  Node29 -> Node30 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node30 [label="scalarCoord",height=0.2,width=0.4,color="red",URL="$a21846.html#ae6a6abb009b265fdbf1fc3609c10355c",tooltip="Get coordinate of point according to axis specification. "];
+  Node28 -> Node30 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node28 -> Node81 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node81 [label="vectorCoord",height=0.2,width=0.4,color="black",URL="$a21846.html#aaf6aa255cc78d8577d04d07446e1ed6e",tooltip="Get point according to axis=\"xyz\" specification. "];
+  Node28 -> Node82 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node82 [label="write",height=0.2,width=0.4,color="red",URL="$a21846.html#a84ca8fa40b9dd104c93d1a4fae89d009"];
+}

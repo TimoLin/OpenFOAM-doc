@@ -1,0 +1,32 @@
+digraph "checkFaceFlatness"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node5777 [label="checkFaceFlatness",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node5777 -> Node5778 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5778 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node5777 -> Node5821 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5821 [label="checkFaceArea",height=0.2,width=0.4,color="red",URL="$a21562.html#a462b3d04e6ddc005ef107c6e4ed30aeb",tooltip="Small faces. "];
+  Node5821 -> Node5822 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5822 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node5821 -> Node5823 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5823 [label="Foam::HashSet::insert",height=0.2,width=0.4,color="black",URL="$a25690.html#a49f0753d9652681fc3a81f59951a0ad7",tooltip="Insert a new entry. "];
+  Node5821 -> Node5824 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5824 [label="Foam::reduce",height=0.2,width=0.4,color="red",URL="$a21124.html#a7ffd6af4acc2eb9ba72ee296b5ecda23"];
+  Node5824 -> Node5786 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5786 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node5821 -> Node5786 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5777 -> Node5786 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5777 -> Node5921 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5921 [label="Foam::polyMesh::faces",height=0.2,width=0.4,color="black",URL="$a27410.html#a431c0a24765f0bb6d32f6a03ce0e9b57",tooltip="Return raw faces. "];
+  Node5921 -> Node5778 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5777 -> Node5823 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5777 -> Node5822 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5777 -> Node5922 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5922 [label="Foam::face::nextLabel",height=0.2,width=0.4,color="red",URL="$a27218.html#a8d8ab7da5fc0315042faf1b6dcf64f4a",tooltip="Next vertex on face. "];
+  Node5777 -> Node5824 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5777 -> Node5827 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5827 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+}

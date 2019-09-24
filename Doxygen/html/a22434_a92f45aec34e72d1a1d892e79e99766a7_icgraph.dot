@@ -1,0 +1,38 @@
+digraph "dimensionedInternalField"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node34 [label="dimensionedInternalField",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node34 -> Node35 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node35 [label="Foam::combustionModels\l::singleStepCombustion::dQ",height=0.2,width=0.4,color="black",URL="$a21294.html#a4343f5b2b50b83854a7bf6c2732c2450",tooltip="Heat release rate calculated from fuel consumption rate matrix. "];
+  Node34 -> Node36 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node36 [label="Foam::solidChemistryModel::dQ",height=0.2,width=0.4,color="black",URL="$a30194.html#af6dc62b219d3abdbea763cef068aefa4",tooltip="Return the heat release, i.e. enthalpy/sec [m2/s3]. "];
+  Node34 -> Node37 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node37 [label="Foam::chemistryModel::dQ",height=0.2,width=0.4,color="black",URL="$a29794.html#af6dc62b219d3abdbea763cef068aefa4",tooltip="Return the heat release, i.e. enthalpy/sec [kg/m2/s3]. "];
+  Node34 -> Node38 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node38 [label="Foam::fvMeshSubset\l::interpolate",height=0.2,width=0.4,color="black",URL="$a22790.html#aafbadde192d2cc55a2187276131af954",tooltip="Map surface field. "];
+  Node34 -> Node39 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node39 [label="Foam::laplaceFilter\l::laplaceFilter",height=0.2,width=0.4,color="black",URL="$a31134.html#a87f186f0b5de562cf1f79251fec52491",tooltip="Construct from components. "];
+  Node34 -> Node40 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node40 [label="Foam::meshToMesh::mapSrc\lToTgt",height=0.2,width=0.4,color="black",URL="$a29254.html#aa52304bfe65a07b28d83a1ba9a735b0d",tooltip="Interpolate a field with a defined operation. Values. "];
+  Node34 -> Node41 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node41 [label="Foam::meshToMesh::mapTgt\lToSrc",height=0.2,width=0.4,color="black",URL="$a29254.html#aac80084ba0ad35909f0979860566cdfd",tooltip="Interpolate a field with a defined operation. Values. "];
+  Node34 -> Node42 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node42 [label="Foam::fvMeshAdder::\lMapVolFields",height=0.2,width=0.4,color="black",URL="$a21450.html#a46a9dc762edc65a8de2d5f8e47dca058",tooltip="Map all volFields of Type. "];
+  Node34 -> Node43 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node43 [label="Foam::GeometricField\l\< vector, pointPatchField,\l pointMesh \>::null",height=0.2,width=0.4,color="black",URL="$a22434.html#ac8e78b2b70fc0c890aedf7cde2c712f1",tooltip="Return a null geometric field. "];
+  Node34 -> Node44 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node44 [label="Foam::GeometricField\l\< vector, pointPatchField,\l pointMesh \>::operator/=",height=0.2,width=0.4,color="black",URL="$a22434.html#af439522bbd05639f4e870217c9cc4d3d"];
+  Node34 -> Node45 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node45 [label="Foam::GeometricField\l\< vector, pointPatchField,\l pointMesh \>::operator=",height=0.2,width=0.4,color="black",URL="$a22434.html#ae246d5ce16082300e22af3ff1b727766"];
+  Node34 -> Node46 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node46 [label="Foam::GeometricField\l\< vector, pointPatchField,\l pointMesh \>::operator==",height=0.2,width=0.4,color="black",URL="$a22434.html#a6381380e7eabc0bb22e86f2513a2c1d5"];
+  Node34 -> Node47 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node47 [label="Foam::radiation::P1::Ru",height=0.2,width=0.4,color="black",URL="$a30038.html#a28f31f600eaba62963f10050bfff1b08",tooltip="Source term component (constant) "];
+  Node34 -> Node48 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node48 [label="Foam::radiation::fvDOM::Ru",height=0.2,width=0.4,color="black",URL="$a30022.html#a28f31f600eaba62963f10050bfff1b08",tooltip="Source term component (constant) "];
+  Node34 -> Node49 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node49 [label="Foam::uniformInterpolated\lDisplacementPointPatchVectorField\l::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a23422.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+}

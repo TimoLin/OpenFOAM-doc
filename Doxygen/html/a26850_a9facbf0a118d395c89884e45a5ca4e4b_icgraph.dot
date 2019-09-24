@@ -1,0 +1,38 @@
+digraph "size"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node89 [label="size",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node89 -> Node90 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node90 [label="Foam::pairGAMGAgglomeration\l::agglomerate",height=0.2,width=0.4,color="black",URL="$a26974.html#a70a79dc9e89583565e07c680157e7823",tooltip="Calculate and return agglomeration. "];
+  Node89 -> Node91 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node91 [label="Foam::GAMGAgglomeration\l::agglomerateLduAddressing",height=0.2,width=0.4,color="black",URL="$a26970.html#a1f8676d38e3715d5330beb58b7883c90",tooltip="Assemble coarse mesh addressing. "];
+  Node89 -> Node92 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node92 [label="band",height=0.2,width=0.4,color="black",URL="$a26850.html#a90a5be24211deb5a30bd2b9d72b28cd8",tooltip="Calculate bandwidth and profile of addressing. "];
+  Node92 -> Node89 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node92 -> Node93 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node93 [label="Foam::GAMGAgglomeration\l::compactLevels",height=0.2,width=0.4,color="black",URL="$a26970.html#a7aa50f494f31bbb03ef092eeedd906e0",tooltip="Shrink the number of levels to that specified. "];
+  Node89 -> Node94 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node94 [label="Foam::GAMGAgglomeration\l::checkRestriction",height=0.2,width=0.4,color="red",URL="$a26970.html#ac6f2eee543459c0116f73cbde0b7b146",tooltip="Given restriction determines if coarse cells are connected. "];
+  Node89 -> Node93 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node89 -> Node101 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node101 [label="Foam::LduMatrix::diag",height=0.2,width=0.4,color="red",URL="$a26790.html#afd3add8997f8b9231f6d34b388cd7f3a"];
+  Node89 -> Node137 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node137 [label="Foam::dummyAgglomeration\l::dummyAgglomeration",height=0.2,width=0.4,color="black",URL="$a26966.html#a1b5be175500d32caaf792483977e8d74",tooltip="Construct given mesh and controls. "];
+  Node89 -> Node138 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node138 [label="Foam::lduPrimitiveMesh\l::gather",height=0.2,width=0.4,color="red",URL="$a27134.html#ad7514c3eec68fa18c472b5dfe1c2b5a4",tooltip="Gather meshes from other processors onto procIDs[0]. "];
+  Node89 -> Node142 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node142 [label="Foam::GAMGProcAgglomeration\l::globalCellCells",height=0.2,width=0.4,color="red",URL="$a26982.html#a59b7daeb97bb6479a59cdeacff965dc5",tooltip="Debug: calculate global cell-cells. "];
+  Node89 -> Node140 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node140 [label="Foam::lduPrimitiveMesh\l::lduPrimitiveMesh",height=0.2,width=0.4,color="black",URL="$a27134.html#aeae1eb8af27cafdc116980dd48968d19",tooltip="Construct by combining multiple meshes. The meshes come from. "];
+  Node89 -> Node144 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node144 [label="Foam::LUscalarMatrix\l::LUscalarMatrix",height=0.2,width=0.4,color="black",URL="$a27054.html#aebab11f1a492c2f8e5e99c3e138253ce",tooltip="Construct from lduMatrix and perform LU decomposition. "];
+  Node89 -> Node145 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node145 [label="Foam::MGridGenGAMGAgglomeration\l::MGridGenGAMGAgglomeration",height=0.2,width=0.4,color="black",URL="$a23298.html#ad90d6181883d17cf991ff0cde7243627",tooltip="Construct given mesh and controls. "];
+  Node89 -> Node146 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node146 [label="Foam::LduMatrix::source",height=0.2,width=0.4,color="red",URL="$a26790.html#a3790e293cade7097b919633ed263158c"];
+  Node89 -> Node148 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node148 [label="Foam::lduMesh::thisDb",height=0.2,width=0.4,color="red",URL="$a27126.html#a83b4b6e6a43285477e284433f80eed1b",tooltip="Return the object registry. "];
+}

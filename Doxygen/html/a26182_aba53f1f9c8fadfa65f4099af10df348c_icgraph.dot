@@ -1,0 +1,37 @@
+digraph "name"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node57 [label="name",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node57 -> Node58 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node58 [label="Foam::functionEntries\l::includeEntry::execute",height=0.2,width=0.4,color="red",URL="$a26038.html#a0aa3070c44783d911c1f7924042f1cea",tooltip="Execute the functionEntry in a sub-dict context. "];
+  Node57 -> Node62 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node62 [label="Foam::functionEntries\l::includeEtcEntry::execute",height=0.2,width=0.4,color="black",URL="$a26042.html#a0aa3070c44783d911c1f7924042f1cea",tooltip="Execute the functionEntry in a sub-dict context. "];
+  Node57 -> Node63 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node63 [label="Foam::argList::parse",height=0.2,width=0.4,color="red",URL="$a26662.html#a00aad68f835a5c0bcb8920505bb0bd10",tooltip="Parse. "];
+  Node57 -> Node67 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node67 [label="Foam::parseNASCoord",height=0.2,width=0.4,color="black",URL="$a21124.html#a663c47a91dbc4b5b9064c385189002be"];
+  Node67 -> Node68 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node68 [label="Foam::fileFormats::\lNASedgeFormat::read",height=0.2,width=0.4,color="red",URL="$a21770.html#a464ebd67acbdff0014d4dae69e3ec4be",tooltip="Read from a file. "];
+  Node67 -> Node71 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node71 [label="Foam::fileFormats::\lNASsurfaceFormat::read",height=0.2,width=0.4,color="red",URL="$a29602.html#a464ebd67acbdff0014d4dae69e3ec4be",tooltip="Read from a file. "];
+  Node57 -> Node68 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node57 -> Node71 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node57 -> Node74 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node74 [label="Foam::fileFormats::\lSTARCDsurfaceFormat::read",height=0.2,width=0.4,color="red",URL="$a29630.html#a464ebd67acbdff0014d4dae69e3ec4be",tooltip="Read from file. "];
+  Node57 -> Node77 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node77 [label="Foam::fileFormats::\lSTARCDedgeFormat::read",height=0.2,width=0.4,color="red",URL="$a21778.html#a464ebd67acbdff0014d4dae69e3ec4be",tooltip="Read from file. "];
+  Node57 -> Node80 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node80 [label="Foam::externalCoupledMixed\lFvPatchField\< scalar \>\l::readData",height=0.2,width=0.4,color="black",URL="$a22082.html#ac8359e8bcf6353236b55efd985a8796b",tooltip="Read data from external source. "];
+  Node57 -> Node81 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node81 [label="Foam::fileFormats::\lSTARCDCore::readHeader",height=0.2,width=0.4,color="red",URL="$a21886.html#a583e8391677afc552ce88c2ce67e508e",tooltip="Read header. "];
+  Node81 -> Node77 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node81 -> Node83 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node83 [label="Foam::fileFormats::\lSTARCDCore::readPoints",height=0.2,width=0.4,color="red",URL="$a21886.html#a72132a8799b05e40e6436869b5f17693",tooltip="Read points from a (.vrt) file. "];
+  Node83 -> Node77 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node57 -> Node88 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node88 [label="Foam::meshReaders::\lSTARCD::readHeader",height=0.2,width=0.4,color="red",URL="$a21334.html#a5beda48cb9728cd30a1a100a77e7f17c",tooltip="Read header. "];
+  Node57 -> Node83 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

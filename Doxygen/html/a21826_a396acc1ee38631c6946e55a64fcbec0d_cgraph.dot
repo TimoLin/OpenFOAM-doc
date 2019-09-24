@@ -1,0 +1,24 @@
+digraph "maxBottomLayer"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node38 [label="maxBottomLayer",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node38 -> Node39 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node39 [label="curLift",height=0.2,width=0.4,color="red",URL="$a21826.html#a7139238b07334e8eee7c1148602182e6",tooltip="Return current lift. "];
+  Node39 -> Node41 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node41 [label="lift",height=0.2,width=0.4,color="red",URL="$a21826.html#a3f2011ba1a4551db1639dcc7f6be1586",tooltip="Return valve lift given crank angle in degrees. "];
+  Node38 -> Node98 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node98 [label="curVelocity",height=0.2,width=0.4,color="red",URL="$a21826.html#ab102fa397f53e58b09d93a2aebdac96b",tooltip="Return valve velocity for current time-step. "];
+  Node98 -> Node39 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node98 -> Node41 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node38 -> Node101 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node101 [label="isOpen",height=0.2,width=0.4,color="red",URL="$a21826.html#a002ed331862370f434b7befe331b5a0b",tooltip="Is the valve open? "];
+  Node101 -> Node41 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node38 -> Node41 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node38 -> Node102 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node102 [label="movingPatchIDs",height=0.2,width=0.4,color="red",URL="$a21826.html#a55a4dda5c766467c400926d50a9aff7f",tooltip="Return list of active patch labels for the valve head. "];
+  Node38 -> Node106 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node106 [label="writeDict",height=0.2,width=0.4,color="red",URL="$a21826.html#a99e013320e2bb0118f0c2857a9193f62",tooltip="Write dictionary. "];
+}

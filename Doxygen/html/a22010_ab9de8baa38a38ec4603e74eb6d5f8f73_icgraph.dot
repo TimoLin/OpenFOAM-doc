@@ -1,0 +1,13 @@
+digraph "evaluate"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node263 [label="evaluate",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node263 -> Node264 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node264 [label="cyclicACMIPatch",height=0.2,width=0.4,color="black",URL="$a22010.html#a9fd5d26cb4c738b5b9afdf8544523658",tooltip="Return local reference cast into the cyclic AMI patch. "];
+  Node263 -> Node265 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node265 [label="initEvaluate",height=0.2,width=0.4,color="red",URL="$a22010.html#a65e53e9af7fa5ef0659db31b6d0763b0",tooltip="Initialise the evaluation of the patch field. "];
+  Node265 -> Node264 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,14 @@
+digraph "ensightPartFaces"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ensightPartFaces",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="classify",height=0.2,width=0.4,color="black",URL="$a21318.html#aaa4411da66845075365e176f9ecfd2ad",tooltip="Classify the face shapes, set elemLists. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="ensightPartFaces",height=0.2,width=0.4,color="black",URL="$a21318.html#acfae1169fb035948d068ef96f4ecfbe9",tooltip="Construct part with number, description, points and faces. "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="New",height=0.2,width=0.4,color="black",URL="$a21318.html#a01e4bc01a450823337184c69ca265835",tooltip="Reconstruct part characteristics on freestore from Istream. "];
+}

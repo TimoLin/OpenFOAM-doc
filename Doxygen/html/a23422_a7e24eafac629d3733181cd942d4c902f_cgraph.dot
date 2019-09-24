@@ -1,0 +1,46 @@
+digraph "updateCoeffs"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node435 [label="updateCoeffs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node435 -> Node436 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node436 [label="Foam::GeometricField\l::correctBoundaryConditions",height=0.2,width=0.4,color="black",URL="$a22434.html#acaf6878ef900e593c4b20812f1b567d6",tooltip="Correct boundary field. "];
+  Node435 -> Node437 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node437 [label="d",height=0.2,width=0.4,color="black",URL="$a38951.html#aa182a9055736468dd160f12649a01fd1"];
+  Node435 -> Node438 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node438 [label="Foam::pointPatchField\l\< vector \>::dimensionedInternal\lField",height=0.2,width=0.4,color="black",URL="$a22946.html#ab736cefcc694e7c262ad4d1dabcd5e79",tooltip="Return dimensioned internal field reference. "];
+  Node435 -> Node439 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node439 [label="Foam::GeometricField\l::dimensionedInternalField",height=0.2,width=0.4,color="black",URL="$a22434.html#a92f45aec34e72d1a1d892e79e99766a7",tooltip="Return dimensioned internal field. "];
+  Node435 -> Node440 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node440 [label="forAllConstIter",height=0.2,width=0.4,color="red",URL="$a38141.html#ae21e2836509b0fa7f7cedf6493b11b09"];
+  Node435 -> Node742 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node742 [label="Foam::objectRegistry\l::lookupObject",height=0.2,width=0.4,color="red",URL="$a26326.html#a8b49296f8410366342c524250612c2aa",tooltip="Lookup and return the object of the given Type. "];
+  Node742 -> Node742 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node435 -> Node621 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node621 [label="Foam::name",height=0.2,width=0.4,color="red",URL="$a21124.html#adcb0df2bd4953cb6bb390272d8263c3a",tooltip="Return a string representation of a complex. "];
+  Node435 -> Node747 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node747 [label="Foam::interpolationWeights::New",height=0.2,width=0.4,color="red",URL="$a26750.html#a9c16f96eb264349faebd1e04f84fc996",tooltip="Return a reference to the selected interpolationWeights. "];
+  Node435 -> Node749 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node749 [label="Foam::pointPatchField\l\< vector \>::patchInternalField",height=0.2,width=0.4,color="red",URL="$a22946.html#acb7f087df7d84101b86667e2a5a78997",tooltip="Return field created from appropriate internal field values. "];
+  Node749 -> Node749 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node435 -> Node751 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node751 [label="Foam::objectRegistry\l::subRegistry",height=0.2,width=0.4,color="red",URL="$a26326.html#a43332aab593e47d90d329357fd0adafe",tooltip="Lookup and return a const sub-objectRegistry. Optionally create. "];
+  Node751 -> Node621 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node435 -> Node753 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node753 [label="Foam::pointMesh::thisDb",height=0.2,width=0.4,color="red",URL="$a27246.html#a5f5bc984783118ded801fa381b2a4719",tooltip="Return database. For now is its polyMesh. "];
+  Node435 -> Node692 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node692 [label="Foam::IOobject::time",height=0.2,width=0.4,color="red",URL="$a26142.html#a1ed86245b170b9f651f62650b1827500",tooltip="Return time. "];
+  Node435 -> Node764 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node764 [label="Foam::Time::timeName",height=0.2,width=0.4,color="black",URL="$a26350.html#ad9d86fef6eca18797c786726cf925179",tooltip="Return time name of given scalar time. "];
+  Node435 -> Node765 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node765 [label="Foam::TimeState::timeOutput\lValue",height=0.2,width=0.4,color="red",URL="$a26362.html#a62127fab330c01695c0dd1691c6b6ce3",tooltip="Return current time value. "];
+  Node435 -> Node766 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node766 [label="Foam::HashTable::toc",height=0.2,width=0.4,color="black",URL="$a25702.html#a1717015c0033bc9eed654353eed0461b",tooltip="Return the table of contents. "];
+  Node435 -> Node767 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node767 [label="Foam::valuePointPatchField\l::updateCoeffs",height=0.2,width=0.4,color="black",URL="$a26574.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node435 -> Node768 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node768 [label="Foam::pointPatchField\l\< vector \>::updated",height=0.2,width=0.4,color="red",URL="$a22946.html#adb515d6ca9be66613efaaeb72c9709db",tooltip="Return true if the boundary condition has already been updated. "];
+  Node768 -> Node749 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

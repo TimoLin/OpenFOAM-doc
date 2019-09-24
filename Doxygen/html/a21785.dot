@@ -1,0 +1,13 @@
+digraph "extendedEdgeMesh"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node0 [label="extendedEdgeMesh",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="edgeMesh",height=0.2,width=0.4,color="red",URL="$a21754.html",tooltip="Points connected by edges. "];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="extendedFeatureEdgeMesh",height=0.2,width=0.4,color="black",URL="$a21794.html",tooltip="extendedEdgeMesh + IO. "];
+  Node0 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="extendedEdgeMeshFormat",height=0.2,width=0.4,color="black",URL="$a21790.html",tooltip="Provide a means of reading/writing the single-file OpenFOAM extendedEdgeMesh format. "];
+}

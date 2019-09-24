@@ -1,0 +1,22 @@
+digraph "syncFaceList"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4294 [label="syncFaceList",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4294 -> Node4295 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4295 [label="Foam::primitiveMesh\l::nFaces",height=0.2,width=0.4,color="black",URL="$a27530.html#abe602c985a3c9ffa67176e969e77ca6f"];
+  Node4294 -> Node4296 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4296 [label="Foam::primitiveMesh\l::nInternalFaces",height=0.2,width=0.4,color="black",URL="$a27530.html#aa6c7965af1f30d16d9125deb981cbdb0"];
+  Node4294 -> Node4297 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4297 [label="syncBoundaryFaceList",height=0.2,width=0.4,color="red",URL="$a27502.html#a1885668646afb3cf257512c56daa9b2f",tooltip="Synchronize values on boundary faces only. "];
+  Node4297 -> Node4295 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4297 -> Node4296 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4297 -> Node4294 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4294 -> Node4418 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4418 [label="syncFacePositions",height=0.2,width=0.4,color="red",URL="$a27502.html#a7ae518045a79b8f299ca4d64db0b96b4",tooltip="Synchronize locations on all mesh faces. "];
+  Node4418 -> Node4295 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4418 -> Node4296 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4418 -> Node4297 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,14 @@
+digraph "codedMixedFvPatchField&lt; Type &gt;"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node11 [label="codedMixedFvPatchField\l\< Type \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node12 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12 [label="mixedFvPatchField\<\l Type \>",height=0.2,width=0.4,color="red",URL="$a21990.html",tooltip="This boundary condition provides a base class for &#39;mixed&#39; type boundary conditions, i.e. conditions that mix fixed value and patch-normal gradient conditions. "];
+  Node21 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21 [label="codedBase",height=0.2,width=0.4,color="black",URL="$a26062.html",tooltip="Base class for function objects and boundary conditions using dynamic code. "];
+  Node22 -> Node11 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" codeTemplateH\ncodeTemplateC" ,fontname="FreeSans"];
+  Node22 [label="word",height=0.2,width=0.4,color="red",URL="$a28258.html",tooltip="A class for handling words, derived from string. "];
+  Node22 -> Node22 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" null" ,fontname="FreeSans"];
+}

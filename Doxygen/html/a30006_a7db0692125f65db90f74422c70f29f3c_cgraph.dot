@@ -1,0 +1,30 @@
+digraph "emissivity"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node527 [label="emissivity",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node527 -> Node528 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node528 [label="Foam::radiation::radiation\lModel::absorptionEmission",height=0.2,width=0.4,color="red",URL="$a30042.html#a13bb92b69a3b9f8feed2ffe079fd5f28",tooltip="Access to absorptionEmission model. "];
+  Node527 -> Node572 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node572 [label="autoMap",height=0.2,width=0.4,color="red",URL="$a30006.html#a0ab0c43ce90d756c88dd81e3d0a9eef5",tooltip="Map (and resize as needed) from self given a mapping object. "];
+  Node527 -> Node574 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node574 [label="boundaryField",height=0.2,width=0.4,color="black",URL="$a38171.html#add1ce21d07963eec9c9e492fa6bf5c4a"];
+  Node527 -> Node575 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node575 [label="Foam::mappedPatchBase\l::distribute",height=0.2,width=0.4,color="red",URL="$a25094.html#abc1fef854aa7627739504e6f5408dd79",tooltip="Wrapper around map/interpolate data distribution. "];
+  Node527 -> Node875 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node875 [label="Foam::radiation::absorption\lEmissionModel::e",height=0.2,width=0.4,color="black",URL="$a30050.html#a14354b894128f0d1a4a23af11d02cb8e",tooltip="Emission coefficient (net) "];
+  Node527 -> Node537 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node537 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node527 -> Node578 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node578 [label="Foam::exit",height=0.2,width=0.4,color="red",URL="$a21124.html#a06ca7250d8e89caf05243ec094843642"];
+  Node527 -> Node876 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node876 [label="Foam::patchIdentifier\l::index",height=0.2,width=0.4,color="black",URL="$a27122.html#a4a438520bb14406481732edc13c119c7",tooltip="Return the index of this patch in the boundaryMesh. "];
+  Node527 -> Node877 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node877 [label="Foam::mappedPatchBase\l::sampleMesh",height=0.2,width=0.4,color="red",URL="$a25094.html#a75f4352dcd205ea34f90ada907f95091",tooltip="Get the region mesh. "];
+  Node527 -> Node950 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node950 [label="Foam::mappedPatchBase\l::samplePolyPatch",height=0.2,width=0.4,color="red",URL="$a25094.html#a8f81235fc833f4500edd224fb8ecd146",tooltip="Get the patch on the region. "];
+  Node950 -> Node537 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node950 -> Node578 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

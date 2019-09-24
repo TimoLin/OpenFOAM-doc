@@ -1,0 +1,43 @@
+digraph "addToTransformIndex"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node85 [label="addToTransformIndex",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node85 -> Node86 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node86 [label="Foam::polyMesh::boundaryMesh",height=0.2,width=0.4,color="black",URL="$a27410.html#a9f2b68c134340291eda6197f47f25484",tooltip="Return boundary mesh. "];
+  Node85 -> Node87 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node87 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node85 -> Node89 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node89 [label="Foam::exit",height=0.2,width=0.4,color="red",URL="$a21124.html#a06ca7250d8e89caf05243ec094843642"];
+  Node85 -> Node134 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node134 [label="Foam::Pair::first",height=0.2,width=0.4,color="black",URL="$a27638.html#af9a77dbc46937c80ca5fceef711c7628",tooltip="Return first. "];
+  Node85 -> Node135 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node135 [label="Foam::vectorTensorTransform\l::hasR",height=0.2,width=0.4,color="black",URL="$a27698.html#a9d0aa4bee6e8352f1c939d91fe96748e"];
+  Node85 -> Node136 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node136 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node85 -> Node137 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node137 [label="minimumTransformIndex",height=0.2,width=0.4,color="red",URL="$a27690.html#af4f7e1b27247d7622a8c39abdd1f5b9d",tooltip="Combine two transformIndices. "];
+  Node85 -> Node141 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node141 [label="Foam::IOobject::name",height=0.2,width=0.4,color="black",URL="$a26142.html#acc80e00a8ac919288fb55bd14cc88bf6",tooltip="Return name. "];
+  Node85 -> Node142 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node142 [label="Foam::vectorTensorTransform::R",height=0.2,width=0.4,color="black",URL="$a27698.html#a2f536ccb6dd221a9455428a524f602be"];
+  Node85 -> Node143 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node143 [label="Foam::Pair::second",height=0.2,width=0.4,color="black",URL="$a27638.html#a8830e4ad5e9523343cc9288f59931b5f",tooltip="Return second. "];
+  Node85 -> Node144 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node144 [label="Foam::sign",height=0.2,width=0.4,color="red",URL="$a21124.html#a221fd301d6c49c5bd4a6c0f5ccb893b2"];
+  Node85 -> Node148 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node148 [label="Foam::vectorTensorTransform::t",height=0.2,width=0.4,color="black",URL="$a27698.html#ac90b4495e032d0efeb603179edc4cb8c"];
+  Node85 -> Node149 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node149 [label="Foam::tr",height=0.2,width=0.4,color="red",URL="$a21124.html#a16888f82e1accdb4c88dc9573a1dd02e"];
+  Node85 -> Node150 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node150 [label="transformIndex",height=0.2,width=0.4,color="black",URL="$a27690.html#a045b8e246ccc41fb39e9918a1c9fb783",tooltip="Transform carried by the object. "];
+  Node150 -> Node143 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node85 -> Node151 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node151 [label="Foam::Tensor::xx",height=0.2,width=0.4,color="black",URL="$a27634.html#a1b97c7c1ed81b4fb23da8dcb71a8cd2a"];
+  Node85 -> Node152 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node152 [label="Foam::Tensor::yy",height=0.2,width=0.4,color="black",URL="$a27634.html#aba9d77023a5662b9c2d3639d5de555a0"];
+  Node85 -> Node153 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node153 [label="Foam::Tensor::zz",height=0.2,width=0.4,color="black",URL="$a27634.html#a831c4848d01bfcc8d717b7ef92f2cd4b"];
+}

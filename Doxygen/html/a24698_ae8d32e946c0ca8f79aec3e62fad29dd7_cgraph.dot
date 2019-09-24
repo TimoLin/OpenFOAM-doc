@@ -1,0 +1,34 @@
+digraph "k"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node87 [label="k",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node87 -> Node88 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node88 [label="correctAfterParallelTransfer",height=0.2,width=0.4,color="red",URL="$a24698.html#a01ac7583003103c090b0e2d3810052e8",tooltip="Convert processor patch addressing to the global equivalents. "];
+  Node87 -> Node142 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node142 [label="hitCyclicPatch",height=0.2,width=0.4,color="black",URL="$a24698.html#a264165039e187beeec096ad4d38749de",tooltip="Overridable function to handle the particle hitting a cyclic. "];
+  Node142 -> Node143 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node143 [label="hitProcessorPatch",height=0.2,width=0.4,color="black",URL="$a24698.html#a14f5c2f6515b821449df47a8dacccac9"];
+  Node143 -> Node144 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node144 [label="hitWallPatch",height=0.2,width=0.4,color="black",URL="$a24698.html#a83ddd4996e7a12d68168442c5f04ca72",tooltip="Overridable function to handle the particle hitting a wallPatch. "];
+  Node144 -> Node145 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node145 [label="hitPatch",height=0.2,width=0.4,color="black",URL="$a24698.html#a4caf1bad861c1ac81a4479c6de40ec58",tooltip="Overridable function to handle the particle hitting a patch. "];
+  Node145 -> Node146 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node146 [label="hitWedgePatch",height=0.2,width=0.4,color="black",URL="$a24698.html#a2fd0be2c03210ee48c5c2960983c7a55",tooltip="Overridable function to handle the particle hitting a wedge. "];
+  Node146 -> Node147 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node147 [label="hitSymmetryPlanePatch",height=0.2,width=0.4,color="black",URL="$a24698.html#a1662f39340584699bf43b05eac1dbe55",tooltip="Overridable function to handle the particle hitting a. "];
+  Node147 -> Node148 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node148 [label="hitSymmetryPatch",height=0.2,width=0.4,color="black",URL="$a24698.html#af4f75b6ee8912c50cb421e9ec59410dc",tooltip="Overridable function to handle the particle hitting a. "];
+  Node148 -> Node142 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node87 -> Node145 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node87 -> Node143 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node87 -> Node148 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node87 -> Node147 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node87 -> Node144 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node87 -> Node146 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node87 -> Node149 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node149 [label="move",height=0.2,width=0.4,color="red",URL="$a24698.html#aa3b793966d64802fdf262dd4d14d21ed",tooltip="Track all particles to their end point. "];
+  Node149 -> Node145 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

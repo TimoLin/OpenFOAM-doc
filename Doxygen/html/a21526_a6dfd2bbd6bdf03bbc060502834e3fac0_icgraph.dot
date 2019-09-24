@@ -1,0 +1,14 @@
+digraph "isMaster"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node205 [label="isMaster",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node205 -> Node206 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node206 [label="Foam::undoableMeshCutter\l::getAddedCells",height=0.2,width=0.4,color="red",URL="$a21518.html#ab5ebffca83676b163aefa40518831e37",tooltip="Like getSplitFaces but returns map from original to added cell. "];
+  Node205 -> Node208 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node208 [label="Foam::undoableMeshCutter\l::getSplitFaces",height=0.2,width=0.4,color="red",URL="$a21518.html#a1e3a8bd512524e4ded9885f9dcfdcb16",tooltip="Calculate split faces from current liveCells. Only. "];
+  Node205 -> Node209 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node209 [label="slave",height=0.2,width=0.4,color="black",URL="$a21526.html#a752604aa6cc4a47b96807e1b8260ebc3"];
+}

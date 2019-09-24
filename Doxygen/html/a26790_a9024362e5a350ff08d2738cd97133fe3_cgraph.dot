@@ -1,0 +1,18 @@
+digraph "sumMagOffDiag"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node962 [label="sumMagOffDiag",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node962 -> Node963 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node963 [label="cmptMag",height=0.2,width=0.4,color="red",URL="$a12539.html#a9180528922650a6b9a3b302e27e621b9"];
+  Node962 -> Node1003 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1003 [label="lower",height=0.2,width=0.4,color="red",URL="$a26790.html#aed8d4c3b9386a81ed7ff9f44cb736255"];
+  Node1003 -> Node1006 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1006 [label="Foam::UList::size",height=0.2,width=0.4,color="black",URL="$a25698.html#a47b3bf30da1eb3ab8076b5fbe00e0494",tooltip="Return the number of elements in the UList. "];
+  Node962 -> Node1006 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node962 -> Node1007 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1007 [label="upper",height=0.2,width=0.4,color="red",URL="$a26790.html#a53e005fd695b53bc8dd07c670f533b39"];
+  Node1007 -> Node1006 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,48 @@
+digraph "smooth"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node19442 [label="smooth",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node19442 -> Node19443 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19443 [label="Foam::List::append",height=0.2,width=0.4,color="black",URL="$a25694.html#a399dd2bf0d9a32016717dc90126f016b",tooltip="Append an element at the end of the list. "];
+  Node19442 -> Node19444 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19444 [label="Foam::polyMesh::boundaryMesh",height=0.2,width=0.4,color="black",URL="$a27410.html#a9f2b68c134340291eda6197f47f25484",tooltip="Return boundary mesh. "];
+  Node19442 -> Node19445 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19445 [label="Foam::GeometricField\l::correctBoundaryConditions",height=0.2,width=0.4,color="black",URL="$a22434.html#acaf6878ef900e593c4b20812f1b567d6",tooltip="Correct boundary field. "];
+  Node19442 -> Node19446 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19446 [label="Foam::polyPatch::coupled",height=0.2,width=0.4,color="black",URL="$a27478.html#a39c01db0e66d00fe0621a0c7e5fc4ead",tooltip="Return true if this patch is geometrically coupled (i.e. faces and. "];
+  Node19442 -> Node19447 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19447 [label="Foam::polyMesh::faceOwner",height=0.2,width=0.4,color="black",URL="$a27410.html#a57752b49bfee23ca1944c3fb0493974f",tooltip="Return face owner. "];
+  Node19442 -> Node19448 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19448 [label="Foam::polyMesh::globalData",height=0.2,width=0.4,color="red",URL="$a27410.html#a5e9cb8eb9e52843d336386b13423d19c",tooltip="Return parallel info. "];
+  Node19442 -> Node19451 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19451 [label="Foam::DimensionedField\l::mesh",height=0.2,width=0.4,color="black",URL="$a26390.html#a8f1110830348a1448a14ab5e3cf47e3b",tooltip="Return mesh. "];
+  Node19442 -> Node19452 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19452 [label="Foam::primitiveMesh\l::nCells",height=0.2,width=0.4,color="black",URL="$a27530.html#a13b94bdb0926552bf78ad5210a73a3d5"];
+  Node19442 -> Node19453 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19453 [label="Foam::fvMesh::neighbour",height=0.2,width=0.4,color="red",URL="$a22766.html#aab1a7f2af09b33005a527e107c7b3fad",tooltip="Internal face neighbour. "];
+  Node19442 -> Node19522 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19522 [label="Foam::primitiveMesh\l::nFaces",height=0.2,width=0.4,color="black",URL="$a27530.html#abe602c985a3c9ffa67176e969e77ca6f"];
+  Node19442 -> Node19749 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19749 [label="Foam::globalMeshData\l::nTotalCells",height=0.2,width=0.4,color="red",URL="$a27334.html#af5f312e4d0bc5cbcc088e7c247d3a97a",tooltip="Return total number of cells in decomposed mesh. "];
+  Node19442 -> Node19467 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19467 [label="Foam::fvMesh::owner",height=0.2,width=0.4,color="red",URL="$a22766.html#a16e7eb254c4fd2d1d7ac4d5d71f6c9f9",tooltip="Internal face owner. "];
+  Node19442 -> Node19888 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19888 [label="spread",height=0.2,width=0.4,color="red",URL="$a21134.html#a8a82f265e99ca3a2aa0d656f2388b991"];
+  Node19888 -> Node19451 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19888 -> Node19522 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19888 -> Node19452 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19888 -> Node19467 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19888 -> Node19453 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19888 -> Node19444 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19888 -> Node19446 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19888 -> Node19754 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19754 [label="Foam::polyPatch::start",height=0.2,width=0.4,color="red",URL="$a27478.html#a6bfd3e3abb11e98bdb4b98671cec1234",tooltip="Return start label of this patch in the polyMesh face list. "];
+  Node19754 -> Node19446 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19888 -> Node19447 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19888 -> Node19443 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19888 -> Node19445 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19442 -> Node19754 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

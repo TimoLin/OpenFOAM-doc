@@ -1,0 +1,16 @@
+digraph "FitData&lt; FitDataType, ExtendedStencil, Polynomial &gt;"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="FitData\< FitDataType,\l ExtendedStencil, Polynomial \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="MeshObject\< fvMesh,\l MoveableMeshObject,\l FitDataType \>",height=0.2,width=0.4,color="red",URL="$a27138.html"];
+  Node0 -> Node15 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< CentredFitData\< Polynomial\l \>, extendedCentredCellToFaceStencil,\l Polynomial \>" ,fontname="FreeSans"];
+  Node15 [label="FitData\< CentredFitData\l\< Polynomial \>, extendedCentred\lCellToFaceStencil, Polynomial \>",height=0.2,width=0.4,color="red",URL="$a23170.html"];
+  Node0 -> Node17 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< UpwindFitData\< Polynomial\l \>, extendedUpwindCellToFaceStencil,\l Polynomial \>" ,fontname="FreeSans"];
+  Node17 [label="FitData\< UpwindFitData\l\< Polynomial \>, extendedUpwind\lCellToFaceStencil, Polynomial \>",height=0.2,width=0.4,color="red",URL="$a23170.html"];
+  Node0 -> Node19 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< CentredFitSnGradData\l\< Polynomial \>, extendedCentred\lCellToFaceStencil, Polynomial \>" ,fontname="FreeSans"];
+  Node19 [label="FitData\< CentredFitSnGrad\lData\< Polynomial \>, extendedCentred\lCellToFaceStencil, Polynomial \>",height=0.2,width=0.4,color="red",URL="$a23170.html"];
+}

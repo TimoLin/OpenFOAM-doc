@@ -1,0 +1,13 @@
+digraph "kappa"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node674 [label="kappa",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node674 -> Node675 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node675 [label="Foam::ReactingParcel\l::correctSurfaceValues",height=0.2,width=0.4,color="red",URL="$a23922.html#abf5f172a3acd1b1e7f81f2d0f1ca3b81",tooltip="Correct surface values due to emitted species. "];
+  Node674 -> Node681 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node681 [label="species",height=0.2,width=0.4,color="red",URL="$a30130.html#ab084ae67cf447fdf6058617bad7a13c2",tooltip="Return the table of species. "];
+  Node681 -> Node675 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

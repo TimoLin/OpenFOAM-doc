@@ -1,0 +1,37 @@
+digraph "treeByRegion"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node27 [label="treeByRegion",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node27 -> Node28 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node28 [label="Foam::PatchTools::calcBounds",height=0.2,width=0.4,color="red",URL="$a27526.html#a23386088c59e643ed53d59ff85ca7f8d"];
+  Node28 -> Node30 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node30 [label="Foam::boundBox::max",height=0.2,width=0.4,color="black",URL="$a27102.html#a43279cd20862e64a21c8c82ee6c2441b",tooltip="Maximum describing the bounding box. "];
+  Node28 -> Node32 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node32 [label="Foam::boundBox::min",height=0.2,width=0.4,color="black",URL="$a27102.html#a41bea928bbb72b904d07db28570b07bd",tooltip="Minimum describing the bounding box. "];
+  Node27 -> Node35 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node35 [label="Foam::treeBoundBox\l::extend",height=0.2,width=0.4,color="red",URL="$a27618.html#aa587a09f8f1ac8b806f9f1314f0e0733",tooltip="Return slightly wider bounding box. "];
+  Node35 -> Node30 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node35 -> Node32 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node27 -> Node43 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node43 [label="findNearest",height=0.2,width=0.4,color="red",URL="$a25526.html#a0fa36fcaf116953105bbee9871d05b0c",tooltip="Find the nearest point on the surface out of the regions. "];
+  Node43 -> Node46 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node46 [label="Foam::indexedOctree\l::perturbTol",height=0.2,width=0.4,color="black",URL="$a25026.html#a41778d781ef1c7653c69f36a1d5b983c",tooltip="Get the perturbation tolerance. "];
+  Node43 -> Node47 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node47 [label="Foam::triSurfaceSearch\l::tolerance",height=0.2,width=0.4,color="black",URL="$a25530.html#a403d191d8d31d9941405ef8a6992240d",tooltip="Return tolerance to use in searches. "];
+  Node43 -> Node27 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node27 -> Node30 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node27 -> Node110 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node110 [label="Foam::triSurfaceSearch\l::maxTreeDepth",height=0.2,width=0.4,color="red",URL="$a25530.html#ab0ccbbb3c405fe793bf7c7fa67e6af0e",tooltip="Return max tree depth of octree. "];
+  Node27 -> Node32 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node27 -> Node46 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node27 -> Node53 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node53 [label="rndGen",height=0.2,width=0.4,color="black",URL="$a38939.html#ab8597af4c8d0209c2e0c9b1982782bfb"];
+  Node27 -> Node112 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node112 [label="Foam::HashTable::size",height=0.2,width=0.4,color="black",URL="$a25702.html#a47b3bf30da1eb3ab8076b5fbe00e0494",tooltip="Return number of elements in table. "];
+  Node27 -> Node49 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node49 [label="Foam::triSurfaceSearch\l::surface",height=0.2,width=0.4,color="black",URL="$a25530.html#abf28bf4987657fadcee184f52c42c24d",tooltip="Return reference to the surface. "];
+  Node27 -> Node47 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

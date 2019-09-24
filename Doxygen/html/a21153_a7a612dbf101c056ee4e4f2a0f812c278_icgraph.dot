@@ -1,0 +1,17 @@
+digraph "walkFace"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2470 [label="walkFace",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2470 -> Node2471 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2471 [label="edgeToCutDir",height=0.2,width=0.4,color="red",URL="$a21153.html#aaae026ffd1b269c8a220c6bb1bc95fa7",tooltip="Given edge on hex find all &#39;parallel&#39; (i.e. non-connected) "];
+  Node2471 -> Node2473 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2473 [label="getParallelEdges",height=0.2,width=0.4,color="red",URL="$a21153.html#ae148ab8affa9ff06dbc08eb830e20a41",tooltip="Given edge on hex find other &#39;parallel&#39;, non-connected edges. "];
+  Node2470 -> Node2480 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2480 [label="Foam::directionInfo\l::edgeToFaceIndex",height=0.2,width=0.4,color="red",URL="$a21486.html#ae91026257717a2d46454adf53e72da4d",tooltip="Given edge on hex cell find corresponding edge on face. Is either. "];
+  Node2470 -> Node2473 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2470 -> Node2492 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2492 [label="otherCell",height=0.2,width=0.4,color="red",URL="$a21153.html#a27becdad7805cd82a048fa554a29ccbf",tooltip="Return cell on other side of face. Throws error. "];
+}

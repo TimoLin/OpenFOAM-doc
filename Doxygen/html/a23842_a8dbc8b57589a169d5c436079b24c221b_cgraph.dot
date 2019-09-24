@@ -1,0 +1,15 @@
+digraph "clone"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node19 [label="clone",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node19 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20 [label="beta",height=0.2,width=0.4,color="black",URL="$a39152.html#a8c8c91fc032b25dcc9e3d971fac17272"];
+  Node19 -> Node21 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21 [label="integrate",height=0.2,width=0.4,color="red",URL="$a23842.html#ae187f49a29e06fd203ac71d19583d280",tooltip="Perform the integration. "];
+  Node19 -> Node24 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node24 [label="~Euler",height=0.2,width=0.4,color="black",URL="$a23842.html#a28fa60483b97cd53ce2f6566616fd977",tooltip="Destructor. "];
+  Node24 -> Node21 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

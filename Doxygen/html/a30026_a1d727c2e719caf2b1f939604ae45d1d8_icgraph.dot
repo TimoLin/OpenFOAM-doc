@@ -1,0 +1,16 @@
+digraph "Qem"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node123 [label="Qem",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node123 -> Node124 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node124 [label="Qin",height=0.2,width=0.4,color="red",URL="$a30026.html#a7f0d33f4cdbc41bae3160a82c16f5e95",tooltip="Return non-const access to the boundary incident heat flux. "];
+  Node124 -> Node126 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node126 [label="Foam::radiation::wideBand\lDiffusiveRadiationMixedFvPatch\lScalarField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a30010.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node124 -> Node129 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node129 [label="Foam::radiation::greyDiffusive\lRadiationMixedFvPatchScalarField\l::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a29990.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node123 -> Node126 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node123 -> Node129 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

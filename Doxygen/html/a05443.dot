@@ -1,0 +1,28 @@
+digraph "src/lagrangian/intermediate/parcels/Templates/KinematicParcel/KinematicParcel.H"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node345 [label="src/lagrangian/intermediate\l/parcels/Templates/KinematicParcel\l/KinematicParcel.H",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node345 -> Node346 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node346 [label="src/lagrangian/coalCombustion\l/coalParcel/coalParcel.H",height=0.2,width=0.4,color="red",URL="$a04925.html"];
+  Node345 -> Node351 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node351 [label="src/lagrangian/intermediate\l/parcels/derived/basicKinematic\lCollidingParcel/basicKinematicColliding\lParcel.H",height=0.2,width=0.4,color="red",URL="$a05270.html"];
+  Node345 -> Node357 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node357 [label="src/lagrangian/intermediate\l/parcels/derived/basicKinematic\lMPPICParcel/basicKinematicMPPICParcel.H",height=0.2,width=0.4,color="red",URL="$a05279.html"];
+  Node345 -> Node362 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node362 [label="src/lagrangian/intermediate\l/parcels/derived/basicKinematic\lParcel/basicKinematicParcel.H",height=0.2,width=0.4,color="red",URL="$a05288.html"];
+  Node345 -> Node367 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node367 [label="src/lagrangian/intermediate\l/parcels/derived/basicReactingMultiphase\lParcel/basicReactingMultiphaseParcel.H",height=0.2,width=0.4,color="red",URL="$a05297.html"];
+  Node345 -> Node372 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node372 [label="src/lagrangian/intermediate\l/parcels/derived/basicReactingParcel\l/basicReactingParcel.H",height=0.2,width=0.4,color="red",URL="$a05306.html"];
+  Node345 -> Node377 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node377 [label="src/lagrangian/intermediate\l/parcels/derived/basicThermoParcel\l/basicThermoParcel.H",height=0.2,width=0.4,color="red",URL="$a05315.html"];
+  Node345 -> Node382 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node382 [label="src/lagrangian/intermediate\l/parcels/Templates/KinematicParcel\l/KinematicParcel.C",height=0.2,width=0.4,color="black",URL="$a05438.html"];
+  Node345 -> Node383 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node383 [label="src/lagrangian/intermediate\l/parcels/Templates/KinematicParcel\l/KinematicParcelIO.C",height=0.2,width=0.4,color="black",URL="$a05447.html"];
+  Node383 -> Node382 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node345 -> Node384 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node384 [label="src/lagrangian/spray\l/parcels/derived/basicSpray\lParcel/basicSprayParcel.H",height=0.2,width=0.4,color="red",URL="$a06665.html"];
+}

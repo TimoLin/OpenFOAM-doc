@@ -1,0 +1,24 @@
+digraph "cmptMax"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node64614 [label="cmptMax",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node64614 -> Node64615 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node64615 [label="Foam::porosityModel\l::adjustNegativeResistance",height=0.2,width=0.4,color="black",URL="$a21918.html#abf7157b4c2d79c69807c194bdfbc61cd",tooltip="Adjust negative resistance values to be multiplier of max value. "];
+  Node64614 -> Node64616 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node64616 [label="Foam::searchableSurfaceCollection\l::boundingSpheres",height=0.2,width=0.4,color="red",URL="$a25242.html#a4f9baf018af105a4cd6d9c008d4d04ec",tooltip="Get bounding spheres (centre and radius squared), one per element. "];
+  Node64614 -> Node64619 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node64619 [label="Foam::coupledPolyPatch\l::calcFaceTol",height=0.2,width=0.4,color="red",URL="$a27426.html#ad3d3e65f39a047092bc000d938b3adf1",tooltip="Calculate typical tolerance per face. Is currently max distance. "];
+  Node64614 -> Node64623 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node64623 [label="cmptMax",height=0.2,width=0.4,color="black",URL="$a21124.html#a5abc2641f32806e7d501a5f88cbe6580"];
+  Node64614 -> Node64624 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node64624 [label="mag",height=0.2,width=0.4,color="black",URL="$a21124.html#abe6d3434b6355cd07327f5c6ba987d2a"];
+  Node64614 -> Node64625 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node64625 [label="Foam::boundBox::maxDim",height=0.2,width=0.4,color="black",URL="$a27102.html#afc32f1d11400c493742e2fefab4cde35",tooltip="Largest length/height/width dimension. "];
+  Node64614 -> Node64626 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node64626 [label="Foam::fvMatrix::relax",height=0.2,width=0.4,color="red",URL="$a22358.html#a06343b944c91a56352ebf646011c212e",tooltip="Relax matrix (for steady-state solution). "];
+  Node64614 -> Node64635 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node64635 [label="stabilise",height=0.2,width=0.4,color="black",URL="$a21124.html#a0c3e646b0e62ce00f0782d4cb697b511"];
+}

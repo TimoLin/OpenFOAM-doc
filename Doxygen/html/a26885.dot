@@ -1,0 +1,17 @@
+digraph "lduMatrix::solver"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node0 [label="lduMatrix::solver",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="diagonalSolver",height=0.2,width=0.4,color="black",URL="$a26958.html",tooltip="Foam::diagonalSolver. "];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="GAMGSolver",height=0.2,width=0.4,color="red",URL="$a27002.html",tooltip="Geometric agglomerated algebraic multigrid solver. "];
+  Node0 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="PBiCG",height=0.2,width=0.4,color="red",URL="$a27042.html",tooltip="Preconditioned bi-conjugate gradient solver for asymmetric lduMatrices using a run-time selectable pr..."];
+  Node0 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="PCG",height=0.2,width=0.4,color="red",URL="$a27046.html",tooltip="Preconditioned conjugate gradient solver for symmetric lduMatrices using a run-time selectable precon..."];
+  Node0 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="smoothSolver",height=0.2,width=0.4,color="black",URL="$a27050.html",tooltip="Iterative solver for symmetric and asymetric matrices which uses a run-time selected smoother e..."];
+}

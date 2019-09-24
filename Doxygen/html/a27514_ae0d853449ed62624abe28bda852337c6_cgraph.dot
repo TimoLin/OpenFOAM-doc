@@ -1,0 +1,19 @@
+digraph "checkParallelSync"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node680 [label="checkParallelSync",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node680 -> Node681 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node681 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node680 -> Node683 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node683 [label="Foam::name",height=0.2,width=0.4,color="red",URL="$a21124.html#adcb0df2bd4953cb6bb390272d8263c3a",tooltip="Return a string representation of a complex. "];
+  Node680 -> Node686 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node686 [label="Foam::primitiveMesh\l::nPoints",height=0.2,width=0.4,color="black",URL="$a27530.html#a1c886a784a597459dbf2d9470798e9dd"];
+  Node680 -> Node687 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node687 [label="Foam::polyMesh::points",height=0.2,width=0.4,color="red",URL="$a27410.html#ac44123fc1265297c41a43c3b62fdb4c2",tooltip="Return raw points. "];
+  Node680 -> Node729 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node729 [label="Foam::syncTools::syncPointList",height=0.2,width=0.4,color="red",URL="$a27502.html#a197ed77a9101bdfb37253bd3f507c017",tooltip="Synchronize values on all mesh points. "];
+  Node729 -> Node686 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

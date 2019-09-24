@@ -1,0 +1,16 @@
+digraph "addFaceZonesToMesh"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1556 [label="addFaceZonesToMesh",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1556 -> Node1557 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1557 [label="addCellZonesToMesh",height=0.2,width=0.4,color="red",URL="$a24690.html#aa53d4178cbd81300b311053db36e519d"];
+  Node1557 -> Node1558 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1558 [label="faceType",height=0.2,width=0.4,color="black",URL="$a24690.html#a7f6d29fa7b92a7be3b719672c3c9508d",tooltip="How to handle face of surfaces with a faceZone. "];
+  Node1557 -> Node1582 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1582 [label="Foam::meshRefinement\l::zonify",height=0.2,width=0.4,color="red",URL="$a24662.html#a90cf965dfe02eb20f11a4a8c6035747f",tooltip="Put faces/cells into zones according to surface specification. "];
+  Node1556 -> Node1558 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1556 -> Node1582 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

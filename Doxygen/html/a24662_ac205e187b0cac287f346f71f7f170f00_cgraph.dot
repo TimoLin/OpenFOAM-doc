@@ -1,0 +1,26 @@
+digraph "refineAndBalance"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4033 [label="refineAndBalance",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4033 -> Node4034 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4034 [label="balanceAndRefine",height=0.2,width=0.4,color="red",URL="$a24662.html#a02af88fa15d03fdfdc48254ccdd2a45c",tooltip="Balance before refining some cells. "];
+  Node4034 -> Node4035 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4035 [label="Foam::UPstream::nProcs",height=0.2,width=0.4,color="red",URL="$a26270.html#aada0e04d8127eda8ee95be0772754a4f",tooltip="Number of processes in parallel run. "];
+  Node4034 -> Node4037 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4037 [label="Foam::returnReduce",height=0.2,width=0.4,color="red",URL="$a21124.html#a8d528a67d2a9c6fe4fb94bc86872624b"];
+  Node4037 -> Node4035 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4034 -> Node4057 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4057 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node4034 -> Node4041 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4041 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node4034 -> Node4058 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4058 [label="write",height=0.2,width=0.4,color="black",URL="$a19709.html#a8f30b3c2179b03a7acf273e9dea43342"];
+  Node4033 -> Node4041 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4033 -> Node4057 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4033 -> Node4035 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4033 -> Node4037 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4033 -> Node4058 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

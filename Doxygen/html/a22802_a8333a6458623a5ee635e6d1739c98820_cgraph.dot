@@ -1,0 +1,20 @@
+digraph "neighbFvPatch"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node263 [label="neighbFvPatch",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node263 -> Node264 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node264 [label="Foam::fvPatch::boundaryMesh",height=0.2,width=0.4,color="black",URL="$a22870.html#adeb163bcd9dd47dcdc4a8f2ccf1c53eb",tooltip="Return boundaryMesh reference. "];
+  Node263 -> Node265 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node265 [label="delta",height=0.2,width=0.4,color="red",URL="$a22802.html#a8c83ba56d8c5964b15844718d953be71",tooltip="Return delta (P to N) vectors across coupled patch. "];
+  Node265 -> Node269 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node269 [label="interfaceInternalField",height=0.2,width=0.4,color="black",URL="$a22802.html#aa8871ae0f8409c5f343da9516cd8c846",tooltip="Return the values of the given internal data adjacent to. "];
+  Node269 -> Node270 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node270 [label="internalFieldTransfer",height=0.2,width=0.4,color="black",URL="$a22802.html#a237c9448fbff6fcefb820f4076a58f26",tooltip="Return neighbour field. "];
+  Node263 -> Node269 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node263 -> Node270 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node263 -> Node271 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node271 [label="Foam::cyclicPolyPatch\l::neighbPatchID",height=0.2,width=0.4,color="red",URL="$a27434.html#afc2149e80f0785ace675c205b80eb6bc",tooltip="Neighbour patchID. "];
+}

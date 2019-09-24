@@ -1,0 +1,13 @@
+digraph "consistentSlowRefinement"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3607 [label="consistentSlowRefinement",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3607 -> Node3608 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3608 [label="consistentRefinement",height=0.2,width=0.4,color="red",URL="$a21654.html#ae0e017f6d6cf5b2b9edf14177593128e",tooltip="Given valid mesh and current cell level and proposed. "];
+  Node3608 -> Node3610 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3610 [label="level0EdgeLength",height=0.2,width=0.4,color="red",URL="$a21654.html#a5038ef57fdb5e24db3472bc037c5a270",tooltip="Typical edge length between unrefined points. "];
+  Node3607 -> Node3610 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,44 @@
+digraph "tetBasePtIs"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node10160 [label="tetBasePtIs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node10160 -> Node10161 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10161 [label="bounds",height=0.2,width=0.4,color="red",URL="$a27410.html#af0b8fd78dbff2bbd5d76f5c2e8569fbe",tooltip="Return mesh bounding box. "];
+  Node10161 -> Node10226 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10226 [label="Foam::refinementParameters\l::findCells",height=0.2,width=0.4,color="red",URL="$a24638.html#af2728099813df8ba8e59e0f5e27e8e11",tooltip="Checks that cells are in mesh. Returns cells they are in. "];
+  Node10161 -> Node10238 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10238 [label="Foam::meshRefinement\l::mergeBaffles",height=0.2,width=0.4,color="red",URL="$a24662.html#aa959f1ef1377d3a4eaac5ff099280e50",tooltip="Merge baffles. Gets pairs of faces. "];
+  Node10160 -> Node10188 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10188 [label="Foam::particle::crossEdge\lConnectedFace",height=0.2,width=0.4,color="red",URL="$a23586.html#ae442e1bec92480b4f50c527b934edddb",tooltip="Cross the from the given face across the given edge of the. "];
+  Node10188 -> Node10192 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10192 [label="Foam::particle::tetNeighbour",height=0.2,width=0.4,color="black",URL="$a23586.html#a346b0d2e5e19c928f696668d3f9d0776",tooltip="Modify the tet owner data by crossing triI. "];
+  Node10192 -> Node10193 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10193 [label="Foam::particle::trackToFace",height=0.2,width=0.4,color="black",URL="$a23586.html#a843767f232f5b61884dcd757558591e0"];
+  Node10160 -> Node10261 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10261 [label="Foam::mappedPatchBase\l::facePoint",height=0.2,width=0.4,color="red",URL="$a25094.html#aa44d3b70b3248025314d97bdbfe1b1ba",tooltip="Get a point on the face given a face decomposition method: "];
+  Node10160 -> Node10295 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10295 [label="Foam::mappedPatchBase\l::facePoints",height=0.2,width=0.4,color="red",URL="$a25094.html#a07740d4a505ec8efad942345ccfc861e",tooltip="Get the points from face-centre-decomposition face centres. "];
+  Node10160 -> Node10296 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10296 [label="Foam::polyMeshTetDecomposition\l::faceTetIndices",height=0.2,width=0.4,color="red",URL="$a27418.html#ac928a304995a9b54928d97ec634a6270",tooltip="Return the tet decomposition of the given face, with. "];
+  Node10160 -> Node10331 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10331 [label="findCell",height=0.2,width=0.4,color="red",URL="$a27410.html#a9ed562792df1c0cdb8d582e5cefdc716",tooltip="Find cell enclosing this location (-1 if not in mesh) "];
+  Node10331 -> Node10226 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10160 -> Node10226 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10160 -> Node10350 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10350 [label="Foam::patchProbes::\lfindElements",height=0.2,width=0.4,color="black",URL="$a29262.html#a852f621399b6ee1f3467e69a1d5fe8b4",tooltip="Find elements containing patchProbes. "];
+  Node10160 -> Node10238 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10160 -> Node10351 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10351 [label="Foam::meshSearch::meshSearch",height=0.2,width=0.4,color="black",URL="$a25118.html#a9d3d7f33351ce7b606f1a3bb028982ee",tooltip="Construct from components. Constructs bb slightly bigger than. "];
+  Node10160 -> Node10352 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10352 [label="Foam::tetDecomposer\l::setRefinement",height=0.2,width=0.4,color="red",URL="$a21726.html#aeb1123afb6f39d7eb332698e53fc5610",tooltip="Insert all changes into meshMod to convert the polyMesh into. "];
+  Node10160 -> Node10355 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10355 [label="Foam::tetIndices::tetIndices",height=0.2,width=0.4,color="black",URL="$a27422.html#ac6677f9a5a79f56dcaabf997d7b29ad9",tooltip="Construct from cell, face, pt description of tet. "];
+  Node10160 -> Node10192 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10160 -> Node10193 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10160 -> Node10356 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10356 [label="Foam::polyMeshTetDecomposition\l::triangleTetIndices",height=0.2,width=0.4,color="red",URL="$a27418.html#a58706d0e14fb9b9a20f1d19ef6671605",tooltip="Return the tet decomposition of the given triangle of the given face. "];
+  Node10356 -> Node10296 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,22 @@
+digraph "distribute"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node12380 [label="distribute",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node12380 -> Node12381 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12381 [label="Foam::autoPtr::clear",height=0.2,width=0.4,color="black",URL="$a25958.html#ac8bb3912a3ce86b15842e79d0b421204",tooltip="Delete object (if the pointer is valid) and set pointer to NULL. "];
+  Node12380 -> Node12382 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12382 [label="Foam::mapDistributePolyMesh\l::distributeFaceData",height=0.2,width=0.4,color="red",URL="$a27378.html#a7f7d65b835f7fe8dd3475f180aabd986",tooltip="distribute list of face data "];
+  Node12380 -> Node12434 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12434 [label="Foam::treeBoundBox\l::extend",height=0.2,width=0.4,color="red",URL="$a27618.html#aa587a09f8f1ac8b806f9f1314f0e0733",tooltip="Return slightly wider bounding box. "];
+  Node12380 -> Node12445 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12445 [label="meshBb",height=0.2,width=0.4,color="black",URL="$a19523.html#a0176e422098b8fabb3f79470df1cd6e8"];
+  Node12380 -> Node12446 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12446 [label="rndGen",height=0.2,width=0.4,color="black",URL="$a38939.html#ab8597af4c8d0209c2e0c9b1982782bfb"];
+  Node12380 -> Node12447 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12447 [label="updateMesh",height=0.2,width=0.4,color="red",URL="$a24662.html#a40c42acbe53bccc55da8fbe26a3076d1",tooltip="Update for external change to mesh. changedFaces are in new mesh. "];
+  Node12380 -> Node12449 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12449 [label="Foam::autoPtr::valid",height=0.2,width=0.4,color="black",URL="$a25958.html#a315419f26d3c59fa143b49b90a019049",tooltip="Return true if the autoPtr valid (ie, the pointer is set). "];
+}

@@ -1,0 +1,28 @@
+digraph "operator="
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4071 [label="operator=",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4071 -> Node4072 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4072 [label="Foam::dictionary::add",height=0.2,width=0.4,color="red",URL="$a26014.html#ac2ddcab42322c8d8af5e5830ab4d431b",tooltip="Add a new entry. "];
+  Node4071 -> Node4115 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4115 [label="addCellZones",height=0.2,width=0.4,color="red",URL="$a21342.html#ab62ddf3f5719031d66f82307da8dfc11",tooltip="Classify tableIds into cellZones according to the cellTable. "];
+  Node4115 -> Node4127 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4127 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node4115 -> Node4129 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4129 [label="Foam::polyMesh::cellZones",height=0.2,width=0.4,color="red",URL="$a27410.html#a935f422baa4405e3bb1d9e230b08f824",tooltip="Return cell zone mesh. "];
+  Node4071 -> Node4129 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4071 -> Node4136 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4136 [label="Foam::HashTable::clear",height=0.2,width=0.4,color="black",URL="$a25702.html#ac8bb3912a3ce86b15842e79d0b421204",tooltip="Clear all entries from table. "];
+  Node4071 -> Node4137 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4137 [label="Foam::HashTable::insert",height=0.2,width=0.4,color="black",URL="$a25702.html#a5eee1e0e199ad59b9cb3916cd42156e0",tooltip="Insert a new hashedEntry. "];
+  Node4071 -> Node4138 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4138 [label="Foam::ZoneMesh::names",height=0.2,width=0.4,color="black",URL="$a27522.html#ada6aa4fc7adb36994dc5e27d319a3acc",tooltip="Return a list of zone names. "];
+  Node4071 -> Node4139 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4139 [label="Foam::primitiveMesh\l::nCells",height=0.2,width=0.4,color="black",URL="$a27530.html#a13b94bdb0926552bf78ad5210a73a3d5"];
+  Node4071 -> Node4140 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4140 [label="Foam::HashTable\< T,\l label, Hash\< label\l \> \>::operator=",height=0.2,width=0.4,color="black",URL="$a25702.html#ab08fb00d67b7f3aeca707447df8580c5",tooltip="Assignment. "];
+  Node4071 -> Node4127 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

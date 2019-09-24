@@ -1,0 +1,13 @@
+digraph "solidChemistryModel&lt; CompType, SolidThermo &gt;"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node0 [label="solidChemistryModel\l\< CompType, SolidThermo \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="CompType",height=0.2,width=0.4,color="grey75"];
+  Node2 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="ODESystem",height=0.2,width=0.4,color="black",URL="$a25606.html",tooltip="Abstract base class for the systems of ordinary differential equations. "];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="pyrolysisChemistryModel\l\< CompType, SolidThermo \>",height=0.2,width=0.4,color="black",URL="$a30190.html",tooltip="Pyrolysis chemistry model. It includes gas phase in the solid reaction. "];
+}

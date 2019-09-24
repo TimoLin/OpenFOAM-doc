@@ -1,0 +1,27 @@
+digraph "src/thermophysicalModels/reactionThermo/psiuReactionThermo/psiuReactionThermo.H"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node310 [label="src/thermophysicalModels\l/reactionThermo/psiuReactionThermo\l/psiuReactionThermo.H",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node310 -> Node311 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node311 [label="src/thermophysicalModels\l/laminarFlameSpeed/laminarFlame\lSpeed/laminarFlameSpeed.H",height=0.2,width=0.4,color="red",URL="$a15581.html"];
+  Node310 -> Node324 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node324 [label="src/thermophysicalModels\l/reactionThermo/derivedFvPatch\lFields/fixedUnburntEnthalpy\l/fixedUnburntEnthalpyFvPatchScalarField.C",height=0.2,width=0.4,color="black",URL="$a16133.html"];
+  Node310 -> Node325 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node325 [label="src/thermophysicalModels\l/reactionThermo/derivedFvPatch\lFields/gradientUnburntEnthalpy\l/gradientUnburntEnthalpyFvPatchScalarField.C",height=0.2,width=0.4,color="black",URL="$a16139.html"];
+  Node310 -> Node326 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node326 [label="src/thermophysicalModels\l/reactionThermo/derivedFvPatch\lFields/mixedUnburntEnthalpy\l/mixedUnburntEnthalpyFvPatchScalarField.C",height=0.2,width=0.4,color="black",URL="$a16145.html"];
+  Node310 -> Node327 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node327 [label="src/thermophysicalModels\l/reactionThermo/psiuReactionThermo\l/psiuReactionThermo.C",height=0.2,width=0.4,color="black",URL="$a16232.html"];
+  Node310 -> Node328 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node328 [label="src/thermophysicalModels\l/reactionThermo/psiuReactionThermo\l/psiuReactionThermos.C",height=0.2,width=0.4,color="black",URL="$a16238.html"];
+  Node310 -> Node329 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node329 [label="applications/solvers\l/combustion/PDRFoam/PDRModels\l/dragModels/PDRDragModel/PDRDragModel.H",height=0.2,width=0.4,color="red",URL="$a19799.html"];
+  Node310 -> Node331 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node331 [label="applications/solvers\l/combustion/PDRFoam/XiModels\l/XiEqModels/XiEqModel/XiEqModel.H",height=0.2,width=0.4,color="red",URL="$a19874.html"];
+  Node310 -> Node338 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node338 [label="applications/solvers\l/combustion/PDRFoam/XiModels\l/XiGModels/XiGModel/XiGModel.H",height=0.2,width=0.4,color="red",URL="$a19895.html"];
+  Node310 -> Node342 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node342 [label="applications/solvers\l/combustion/PDRFoam/XiModels\l/XiModel/XiModel.H",height=0.2,width=0.4,color="red",URL="$a19904.html"];
+}

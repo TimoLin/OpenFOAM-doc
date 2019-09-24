@@ -1,0 +1,13 @@
+digraph "pointNormals"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node14 [label="pointNormals",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node14 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15 [label="applyConstraint",height=0.2,width=0.4,color="red",URL="$a27282.html#a0278544fed3fb66dca87ab7ecd9e429f",tooltip="Accumulate the effect of constraint direction of this patch. "];
+  Node15 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20 [label="Foam::facePointPatch\l::pointNormals",height=0.2,width=0.4,color="red",URL="$a27322.html#a9c0e7b62399087dd555b023632ac529a",tooltip="Return point unit normals. "];
+}

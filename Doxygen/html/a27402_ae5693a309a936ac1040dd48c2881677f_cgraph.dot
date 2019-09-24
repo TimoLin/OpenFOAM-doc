@@ -1,0 +1,16 @@
+digraph "updateMesh"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node6014 [label="updateMesh",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node6014 -> Node6015 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6015 [label="Foam::PstreamBuffers\l::finishedSends",height=0.2,width=0.4,color="black",URL="$a26254.html#a9a9e71480e6b0d1b6d8ef3450eb576ce",tooltip="Mark all sends as having been done. This will start receives. "];
+  Node6014 -> Node6016 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6016 [label="Foam::polyMesh::globalData",height=0.2,width=0.4,color="red",URL="$a27410.html#a5e9cb8eb9e52843d336386b13423d19c",tooltip="Return parallel info. "];
+  Node6014 -> Node6019 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6019 [label="Foam::ProcessorTopology\l::patchSchedule",height=0.2,width=0.4,color="black",URL="$a27614.html#a073c4059b610f8e1c1aee75fb7b074ab",tooltip="Order in which the patches should be initialised/evaluated. "];
+  Node6014 -> Node6020 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6020 [label="reorder",height=0.2,width=0.4,color="red",URL="$a27402.html#a95c28578fe12550673a1a0917d8fb7f7",tooltip="Reorders patches. Ordering does not have to be done in. "];
+}

@@ -1,0 +1,15 @@
+digraph "getState"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node11838 [label="getState",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node11838 -> Node11839 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11839 [label="getFile",height=0.2,width=0.4,color="red",URL="$a26350.html#a433f30075e4f25b25fe66e326e3cf2c5",tooltip="Get name of file being watched (using handle) "];
+  Node11839 -> Node12673 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12673 [label="runTimeModifiable",height=0.2,width=0.4,color="black",URL="$a26350.html#a6b0d82b6a40b7f9c7627d6ccffd54c82",tooltip="Supports re-reading. "];
+  Node11838 -> Node13864 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13864 [label="Foam::regIOobject::\lmodified",height=0.2,width=0.4,color="red",URL="$a26334.html#a5146474f106b82e0ea2cc2e11653aca9",tooltip="Return true if the object&#39;s file (or files for objectRegistry) "];
+  Node11838 -> Node12673 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

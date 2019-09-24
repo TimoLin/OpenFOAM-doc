@@ -1,0 +1,18 @@
+digraph "mesh"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node18 [label="mesh",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node18 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19 [label="Foam::algebraicPairGAMGAgglomeration\l::algebraicPairGAMGAgglomeration",height=0.2,width=0.4,color="black",URL="$a26962.html#a100f93cde4cdbf0de8796d5d6c4d9677",tooltip="Construct given mesh and controls. "];
+  Node18 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20 [label="Foam::GAMGAgglomeration::New",height=0.2,width=0.4,color="black",URL="$a26970.html#a0d901b6490746539e307bba0fd8b729a",tooltip="Return the selected matrix agglomerator. "];
+  Node18 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21 [label="Foam::PCG::solve",height=0.2,width=0.4,color="red",URL="$a27046.html#ad38597d099f9905e3f399b01af791bcb",tooltip="Solve the matrix with this solver. "];
+  Node18 -> Node25 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node25 [label="Foam::PBiCG::solve",height=0.2,width=0.4,color="red",URL="$a27042.html#ad38597d099f9905e3f399b01af791bcb",tooltip="Solve the matrix with this solver. "];
+  Node18 -> Node28 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node28 [label="Foam::smoothSolver\l::solve",height=0.2,width=0.4,color="red",URL="$a27050.html#ad38597d099f9905e3f399b01af791bcb",tooltip="Solve the matrix with this solver. "];
+}

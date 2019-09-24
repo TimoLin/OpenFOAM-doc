@@ -1,0 +1,28 @@
+digraph "setFaceArea"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node123 [label="setFaceArea",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node123 -> Node124 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node124 [label="Foam::polyPatch::coupled",height=0.2,width=0.4,color="black",URL="$a27478.html#a39c01db0e66d00fe0621a0c7e5fc4ead",tooltip="Return true if this patch is geometrically coupled (i.e. faces and. "];
+  Node123 -> Node125 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node125 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node123 -> Node127 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node127 [label="Foam::identity",height=0.2,width=0.4,color="black",URL="$a21124.html#a36af96cb841435845fffb4fe69208490",tooltip="Create identity map (map[i] == i) of given length. "];
+  Node123 -> Node128 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node128 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node123 -> Node129 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node129 [label="Foam::reduce",height=0.2,width=0.4,color="red",URL="$a21124.html#a7ffd6af4acc2eb9ba72ee296b5ecda23"];
+  Node129 -> Node125 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node123 -> Node145 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node145 [label="Foam::polyPatch::start",height=0.2,width=0.4,color="red",URL="$a27478.html#a6bfd3e3abb11e98bdb4b98671cec1234",tooltip="Return start label of this patch in the polyMesh face list. "];
+  Node145 -> Node124 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node123 -> Node153 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node153 [label="Foam::syncTools::swapBoundary\lFaceList",height=0.2,width=0.4,color="red",URL="$a27502.html#a30e4f2ce2c2399c35f5d674bdb7c07fd",tooltip="Swap coupled boundary face values. "];
+  Node123 -> Node343 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node343 [label="Foam::type",height=0.2,width=0.4,color="red",URL="$a21124.html#aec48583af672626378f501eb9fc32cd1",tooltip="Return the file type: DIRECTORY or FILE. "];
+  Node123 -> Node351 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node351 [label="Foam::Ostream::write",height=0.2,width=0.4,color="black",URL="$a26238.html#a81a19ad9e4098b4701cc8bab9a59d78b",tooltip="Write next token to stream. "];
+}

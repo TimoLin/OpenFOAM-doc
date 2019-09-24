@@ -1,0 +1,33 @@
+digraph "calcGeometry"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node102 [label="calcGeometry",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node102 -> Node103 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node103 [label="Foam::patchIdentifier\l::index",height=0.2,width=0.4,color="black",URL="$a27122.html#a4a438520bb14406481732edc13c119c7",tooltip="Return the index of this patch in the boundaryMesh. "];
+  Node102 -> Node104 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node104 [label="initMovePoints",height=0.2,width=0.4,color="red",URL="$a27454.html#a2bad1de417e8eb8f09a4ed66147a3274",tooltip="Initialise the patches for moving points. "];
+  Node104 -> Node109 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node109 [label="movePoints",height=0.2,width=0.4,color="red",URL="$a27454.html#aacd07914399d9e26077bb4ed6a0ed2a2",tooltip="Correct patches after moving points. "];
+  Node102 -> Node172 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node172 [label="initUpdateMesh",height=0.2,width=0.4,color="red",URL="$a27454.html#aba14098b759b2f349996ba9d0c33544c",tooltip="Initialise the update of the patch topology. "];
+  Node102 -> Node109 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node102 -> Node181 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node181 [label="myProcNo",height=0.2,width=0.4,color="black",URL="$a27454.html#a0571accf3382ea80a31c29c8c9d8c88a",tooltip="Return processor number. "];
+  Node102 -> Node182 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node182 [label="Foam::patchIdentifier\l::name",height=0.2,width=0.4,color="black",URL="$a27122.html#acc80e00a8ac919288fb55bd14cc88bf6",tooltip="Return name. "];
+  Node102 -> Node183 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node183 [label="neighbProcNo",height=0.2,width=0.4,color="black",URL="$a27454.html#a4d1aa3e127a8e181c7927147575928d3",tooltip="Return neigbour processor number. "];
+  Node102 -> Node184 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node184 [label="processorPolyPatch",height=0.2,width=0.4,color="black",URL="$a27454.html#a970b550f6c36def6055c11beadbd420b",tooltip="Construct from components. "];
+  Node102 -> Node185 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node185 [label="Foam::polyPatch::start",height=0.2,width=0.4,color="red",URL="$a27478.html#a6bfd3e3abb11e98bdb4b98671cec1234",tooltip="Return start label of this patch in the polyMesh face list. "];
+  Node102 -> Node194 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node194 [label="Foam::coupledPolyPatch\l::transform",height=0.2,width=0.4,color="red",URL="$a27426.html#a25e79347ecb20da8543ed4e461fc1ed2",tooltip="Type of transform. "];
+  Node102 -> Node196 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node196 [label="TypeName",height=0.2,width=0.4,color="black",URL="$a27454.html#acb956fb1a70a81e943ddbb348ecebd30",tooltip="Runtime type information. "];
+  Node102 -> Node197 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node197 [label="updateMesh",height=0.2,width=0.4,color="red",URL="$a27454.html#a06139aa7a91eeed82560f0c3d03d1845",tooltip="Update of the patch topology. "];
+}

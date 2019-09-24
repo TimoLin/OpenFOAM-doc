@@ -1,0 +1,13 @@
+digraph "isRefined"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node101 [label="isRefined",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node101 -> Node102 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node102 [label="Foam::hexRef8::consistent\lSlowRefinement",height=0.2,width=0.4,color="red",URL="$a21654.html#a11f117689e45448afaf2192041730bc8",tooltip="Like consistentRefinement but slower: "];
+  Node101 -> Node107 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node107 [label="updateCell",height=0.2,width=0.4,color="red",URL="$a21682.html#a2a0853faba483444954ad0530cc2a717",tooltip="Influence of neighbouring face. "];
+  Node107 -> Node101 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

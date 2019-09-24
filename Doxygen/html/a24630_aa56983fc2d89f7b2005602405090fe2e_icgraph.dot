@@ -1,0 +1,16 @@
+digraph "firstLayerThickness"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node375 [label="firstLayerThickness",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node375 -> Node376 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node376 [label="expansionRatio",height=0.2,width=0.4,color="red",URL="$a24630.html#acf17ba8644df8cad8ebd2acd9ea653d4"];
+  Node376 -> Node383 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node383 [label="layerExpansionRatio",height=0.2,width=0.4,color="black",URL="$a24630.html#afa54f4870d53860a9655a9da26a4d0eb",tooltip="Determine expansion ratio. Uses two of the four parameters. "];
+  Node376 -> Node382 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node382 [label="meshShrinker",height=0.2,width=0.4,color="red",URL="$a24630.html#ab7463e0a43e792284bb1c6171ed4592f",tooltip="Type of mesh shrinker. "];
+  Node375 -> Node383 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node375 -> Node382 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

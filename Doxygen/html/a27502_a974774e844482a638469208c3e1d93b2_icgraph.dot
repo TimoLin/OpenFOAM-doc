@@ -1,0 +1,13 @@
+digraph "getInternalOrMasterFaces"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node10556 [label="getInternalOrMasterFaces",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node10556 -> Node10557 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10557 [label="getMasterFaces",height=0.2,width=0.4,color="red",URL="$a27502.html#a46e7fd91866d97d6f21c35b1a892f0c4",tooltip="Get per face whether it is uncoupled or a master of a. "];
+  Node10557 -> Node10567 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10567 [label="syncEdgePositions",height=0.2,width=0.4,color="black",URL="$a27502.html#a0855467e61ed50e1853e9d586d9c2fc9",tooltip="Synchronize locations on selected edges. "];
+  Node10556 -> Node10567 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

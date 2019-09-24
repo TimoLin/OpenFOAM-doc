@@ -1,0 +1,14 @@
+digraph "applyLowWeightCorrection"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node980 [label="applyLowWeightCorrection",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node980 -> Node981 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node981 [label="Foam::cyclicAMIFvPatch\l::applyLowWeightCorrection",height=0.2,width=0.4,color="black",URL="$a22810.html#af24c165759cdd174fd05d955dafb0a0e",tooltip="Return true if applying the low weight correction. "];
+  Node980 -> Node982 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node982 [label="clone",height=0.2,width=0.4,color="black",URL="$a24946.html#afff6d4f7511147e0c8a4b8a5448296ec",tooltip="Construct and return a clone, resetting the face list. "];
+  Node980 -> Node983 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node983 [label="Foam::FaceCellWave\l::setFaceInfo",height=0.2,width=0.4,color="red",URL="$a24814.html#a4dfc64d9c6a80650006ac5ab728f95b0",tooltip="Set initial changed faces. "];
+}

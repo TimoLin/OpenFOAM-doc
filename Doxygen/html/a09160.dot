@@ -1,0 +1,18 @@
+digraph "src/OpenFOAM/db/IOstreams/Pstreams/UOPstream.H"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node71 [label="src/OpenFOAM/db/IOstreams\l/Pstreams/UOPstream.H",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node71 -> Node72 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node72 [label="src/OpenFOAM/db/IOstreams\l/Pstreams/OPstream.H",height=0.2,width=0.4,color="red",URL="$a09128.html"];
+  Node72 -> Node76 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node76 [label="src/OpenFOAM/db/IOstreams\l/Pstreams/gatherScatter.C",height=0.2,width=0.4,color="black",URL="$a09113.html",tooltip="Gather data from all processors onto single processor according to some communication schedule (usual..."];
+  Node71 -> Node76 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node71 -> Node80 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node80 [label="src/OpenFOAM/db/IOstreams\l/Pstreams/UOPstream.C",height=0.2,width=0.4,color="black",URL="$a09155.html",tooltip="Write primitive and binary block from UOPstream. "];
+  Node71 -> Node81 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node81 [label="src/Pstream/dummy/UOPwrite.C",height=0.2,width=0.4,color="black",URL="$a39665.html",tooltip="Write primitive and binary block from OPstream. "];
+  Node71 -> Node82 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node82 [label="src/Pstream/mpi/UOPwrite.C",height=0.2,width=0.4,color="black",URL="$a39668.html",tooltip="Write primitive and binary block from OPstream. "];
+}

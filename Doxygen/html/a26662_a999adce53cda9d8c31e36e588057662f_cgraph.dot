@@ -1,0 +1,19 @@
+digraph "checkRootCase"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3238 [label="checkRootCase",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3238 -> Node3239 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3239 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node3238 -> Node3241 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3241 [label="Foam::isDir",height=0.2,width=0.4,color="red",URL="$a21124.html#a9c9cf5d33b9c5961f835aefe5d860c5a",tooltip="Does the name exist as a DIRECTORY in the file system? "];
+  Node3238 -> Node3247 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3247 [label="Foam::UPstream::master",height=0.2,width=0.4,color="red",URL="$a26270.html#a36af549940a0aae3733774649594489f",tooltip="Am I the master process. "];
+  Node3238 -> Node3249 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3249 [label="path",height=0.2,width=0.4,color="red",URL="$a26662.html#abe7b9078c8e7356c6131b70a8f729372",tooltip="Return the path to the caseName. "];
+  Node3249 -> Node3251 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3251 [label="rootPath",height=0.2,width=0.4,color="black",URL="$a26662.html#acd8b76d490fcd84954a20f8e59ff3807",tooltip="Return root path. "];
+  Node3238 -> Node3251 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,13 @@
+digraph "regionCoupledBaseFvPatch"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node0 [label="regionCoupledBaseFvPatch",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="regionCoupledLduInterface",height=0.2,width=0.4,color="black",URL="$a25170.html",tooltip="An abstract base class for region coupled interfaces. "];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="regionCoupledFvPatch",height=0.2,width=0.4,color="black",URL="$a22858.html",tooltip="Common functionality for regionCoupleFvPatch and regionCoupledWallFvPatch. "];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="regionCoupledWallFvPatch",height=0.2,width=0.4,color="black",URL="$a22862.html",tooltip="Foam::regionCoupledWallFvPatch. "];
+}

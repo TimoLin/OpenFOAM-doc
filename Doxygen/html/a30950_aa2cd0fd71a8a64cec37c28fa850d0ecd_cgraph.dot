@@ -1,0 +1,14 @@
+digraph "Psmooth"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node354 [label="Psmooth",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node354 -> Node355 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node355 [label="Foam::exp",height=0.2,width=0.4,color="black",URL="$a21124.html#a12bca6c677fcf0977532179c3cb9bb89"];
+  Node354 -> Node356 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node356 [label="Foam::pow",height=0.2,width=0.4,color="red",URL="$a21124.html#a7500c8e9d27a442adc75e287de074c7c"];
+  Node354 -> Node360 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node360 [label="yPlusTherm",height=0.2,width=0.4,color="red",URL="$a30950.html#a9785c9a0d1e4a659334db330c7d640ca",tooltip="Calculate y+ at the edge of the thermal laminar sublayer. "];
+}

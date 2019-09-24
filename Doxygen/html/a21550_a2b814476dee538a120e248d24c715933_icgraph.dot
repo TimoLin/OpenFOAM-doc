@@ -1,0 +1,14 @@
+digraph "setErrorReduction"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node731 [label="setErrorReduction",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node731 -> Node732 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node732 [label="movePoints",height=0.2,width=0.4,color="red",URL="$a21550.html#a6515a3b20e9603401422337166c347f2",tooltip="Update for new mesh geometry. "];
+  Node731 -> Node734 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node734 [label="Foam::autoSnapDriver\l::preSmoothPatch",height=0.2,width=0.4,color="red",URL="$a24622.html#a5328524e4037f1f8ecb542c16492d6b9",tooltip="Smooth the mesh (patch and internal) to increase visibility. "];
+  Node731 -> Node738 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node738 [label="Foam::autoSnapDriver\l::scaleMesh",height=0.2,width=0.4,color="red",URL="$a24622.html#a4b8f2c5757f4d8cd95f8e1830e44c179",tooltip="Do the hard work: move the mesh according to displacement,. "];
+}

@@ -1,0 +1,14 @@
+digraph "laplaceFilter"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="laplaceFilter",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="Foam::GeometricField\l::dimensionedInternalField",height=0.2,width=0.4,color="black",URL="$a22434.html#a92f45aec34e72d1a1d892e79e99766a7",tooltip="Return dimensioned internal field. "];
+  Node0 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="Foam::pow",height=0.2,width=0.4,color="red",URL="$a21124.html#a7500c8e9d27a442adc75e287de074c7c"];
+  Node0 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="Foam::fvMesh::V",height=0.2,width=0.4,color="red",URL="$a22766.html#a154893d1a508aff074b16eaeaa396aea",tooltip="Return cell volumes. "];
+}

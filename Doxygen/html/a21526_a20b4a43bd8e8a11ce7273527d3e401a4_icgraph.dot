@@ -1,0 +1,28 @@
+digraph "parent"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node65 [label="parent",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node65 -> Node66 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node66 [label="Foam::undoableMeshCutter\l::getAddedCells",height=0.2,width=0.4,color="red",URL="$a21518.html#ab5ebffca83676b163aefa40518831e37",tooltip="Like getSplitFaces but returns map from original to added cell. "];
+  Node65 -> Node68 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node68 [label="getOther",height=0.2,width=0.4,color="red",URL="$a21526.html#ae470ddffb5db2f30deda7a5fd0ce23b4",tooltip="Returns other half of split cell. I.e. slave if this is master. "];
+  Node68 -> Node69 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node69 [label="Foam::undoableMeshCutter\l::~undoableMeshCutter",height=0.2,width=0.4,color="black",URL="$a21518.html#a86e36f80426fa758376ea57884f500fb",tooltip="Destructor. "];
+  Node68 -> Node70 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node70 [label="Foam::undoableMeshCutter\l::getSplitFaces",height=0.2,width=0.4,color="red",URL="$a21518.html#a1e3a8bd512524e4ded9885f9dcfdcb16",tooltip="Calculate split faces from current liveCells. Only. "];
+  Node68 -> Node66 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node65 -> Node70 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node65 -> Node72 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node72 [label="isMaster",height=0.2,width=0.4,color="red",URL="$a21526.html#a6dfd2bbd6bdf03bbc060502834e3fac0",tooltip="Check if this is master cell of split. "];
+  Node72 -> Node70 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node72 -> Node66 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node65 -> Node73 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node73 [label="Foam::undoableMeshCutter\l::removeSplitFaces",height=0.2,width=0.4,color="red",URL="$a21518.html#afded860e134d9338c8bf9641a8c5e3c2",tooltip="Remove some refinement. Needs to be supplied subset of. "];
+  Node73 -> Node66 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node65 -> Node74 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node74 [label="~splitCell",height=0.2,width=0.4,color="black",URL="$a21526.html#a9f8da6a47b2bcec1159d371859687d63",tooltip="Destructor. "];
+  Node65 -> Node69 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

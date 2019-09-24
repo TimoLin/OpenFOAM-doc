@@ -1,0 +1,17 @@
+digraph "hitPatch"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node243 [label="hitPatch",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node243 -> Node244 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node244 [label="Foam::IOstream::check",height=0.2,width=0.4,color="red",URL="$a26226.html#a367eb3425fc4e8270e2aa961df8ac8a5",tooltip="Check IOstream status for given operation. "];
+  Node243 -> Node293 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node293 [label="Foam::IOstream::format",height=0.2,width=0.4,color="black",URL="$a26226.html#a33bbef3587114a06f7bdc0b91ba57ed9",tooltip="Return current stream format. "];
+  Node243 -> Node294 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node294 [label="Foam::operator\<\<",height=0.2,width=0.4,color="red",URL="$a21124.html#ae86a76a63deefbe1a4490c873ad8e1b2"];
+  Node294 -> Node244 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node243 -> Node296 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node296 [label="Foam::Ostream::write",height=0.2,width=0.4,color="black",URL="$a26238.html#a81a19ad9e4098b4701cc8bab9a59d78b",tooltip="Write next token to stream. "];
+}

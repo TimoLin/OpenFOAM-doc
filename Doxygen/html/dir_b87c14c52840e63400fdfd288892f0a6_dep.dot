@@ -1,0 +1,12 @@
+digraph "applications/solvers/compressible/rhoCentralFoam/BCs/mixedFixedValueSlip" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="FreeSans"];
+  edge [ labelfontsize="10", labelfontname="FreeSans"];
+  subgraph clusterdir_54c0031b8ef4373f0f738562c5f5a67d {
+    graph [ bgcolor="#ddddee", pencolor="black", label="BCs" fontname="FreeSans", fontsize="10", URL="dir_54c0031b8ef4373f0f738562c5f5a67d.html"]
+  dir_b87c14c52840e63400fdfd288892f0a6 [shape=box, label="mixedFixedValueSlip", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_b87c14c52840e63400fdfd288892f0a6.html"];
+  }
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_b87c14c52840e63400fdfd288892f0a6->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="3", labeldistance=1.5 headhref="dir_000101_000577.html"];
+}

@@ -1,0 +1,25 @@
+digraph "boundingSpheres"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node150 [label="boundingSpheres",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node150 -> Node151 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node151 [label="Foam::face::centre",height=0.2,width=0.4,color="red",URL="$a27218.html#a87a4cbbb775d06be2c2f27bdab4ddb04",tooltip="Centre point of face. "];
+  Node150 -> Node155 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node155 [label="f",height=0.2,width=0.4,color="black",URL="$a17900.html#a888be93833ac7a23170555c69c690288"];
+  Node150 -> Node156 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node156 [label="Foam::boundBox::faces",height=0.2,width=0.4,color="black",URL="$a27102.html#a71ead990d42034167acc8657c7c23dc3",tooltip="Return faces with correct point order. "];
+  Node156 -> Node157 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node157 [label="Foam::List::setSize",height=0.2,width=0.4,color="black",URL="$a25694.html#aedb985ffeaf1bdbfeccc2a8730405703",tooltip="Reset size of List. "];
+  Node150 -> Node158 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node158 [label="Foam::magSqr",height=0.2,width=0.4,color="black",URL="$a21124.html#ae6fff2c6981e6d9618aa5038e69def6e"];
+  Node150 -> Node159 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node159 [label="Foam::max",height=0.2,width=0.4,color="black",URL="$a21124.html#ac993e906cf2774ae77e666bc24e81733"];
+  Node150 -> Node160 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node160 [label="Foam::treeBoundBox\l::points",height=0.2,width=0.4,color="red",URL="$a27618.html#affb7cf1209e1e3af9a19a21860268ee5",tooltip="vertex coordinates. In octant coding. "];
+  Node150 -> Node157 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node150 -> Node164 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node164 [label="Foam::sqr",height=0.2,width=0.4,color="red",URL="$a21124.html#a277dc11c581d53826ab5090b08f3b17b"];
+}

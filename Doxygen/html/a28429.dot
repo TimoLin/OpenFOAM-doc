@@ -1,0 +1,11 @@
+digraph "Tuple2&lt; Type1, Type2 &gt;"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node0 [label="Tuple2\< Type1, Type2 \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< vector, scalar \>" ,fontname="FreeSans"];
+  Node1 [label="Tuple2\< vector, scalar \>",height=0.2,width=0.4,color="red",URL="$a28430.html"];
+  Node0 -> Node3 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< label, vector \>" ,fontname="FreeSans"];
+  Node3 [label="Tuple2\< label, vector \>",height=0.2,width=0.4,color="red",URL="$a28430.html"];
+}

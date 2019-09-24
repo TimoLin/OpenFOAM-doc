@@ -1,0 +1,23 @@
+digraph "removeFiles"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node27830 [label="removeFiles",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node27830 -> Node27831 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node27831 [label="Foam::isDir",height=0.2,width=0.4,color="red",URL="$a21124.html#a9c9cf5d33b9c5961f835aefe5d860c5a",tooltip="Does the name exist as a DIRECTORY in the file system? "];
+  Node27830 -> Node27837 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node27837 [label="meshDir",height=0.2,width=0.4,color="red",URL="$a27410.html#a35bc3ae2032ce6d7dda00f90cd70414a",tooltip="Return the local mesh directory (dbDir()/meshSubDir) "];
+  Node27830 -> Node28181 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node28181 [label="Foam::Time::path",height=0.2,width=0.4,color="red",URL="$a26350.html#a3a68a482f9904838898709bec94fedc5",tooltip="Return path. "];
+  Node27830 -> Node28121 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node28121 [label="Foam::rm",height=0.2,width=0.4,color="red",URL="$a21124.html#a24dbcb779312aba1a80a0b57a3a7f1ad",tooltip="Remove a file, returning true if successful otherwise false. "];
+  Node27830 -> Node28120 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node28120 [label="Foam::rmDir",height=0.2,width=0.4,color="red",URL="$a21124.html#a94f85dc184bdb0495e62488fda627038",tooltip="Remove a dirctory and its contents. "];
+  Node28120 -> Node28121 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node27830 -> Node28186 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node28186 [label="thisDb",height=0.2,width=0.4,color="black",URL="$a27410.html#a5f5bc984783118ded801fa381b2a4719",tooltip="Return the object registry. "];
+  Node27830 -> Node27852 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node27852 [label="Foam::objectRegistry\l::time",height=0.2,width=0.4,color="black",URL="$a26326.html#a0d94096809fe3376b29a2a29ca11bb18",tooltip="Return time. "];
+}

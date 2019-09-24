@@ -1,0 +1,22 @@
+digraph "nonOverlapPatchID"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node581 [label="nonOverlapPatchID",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node581 -> Node582 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node582 [label="calcGeometry",height=0.2,width=0.4,color="red",URL="$a24926.html#a58bb4c0382e9ee570811fb3f005a0a97",tooltip="Calculate the patch geometry. "];
+  Node581 -> Node591 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node591 [label="Foam::exit",height=0.2,width=0.4,color="red",URL="$a21124.html#a06ca7250d8e89caf05243ec094843642"];
+  Node581 -> Node638 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node638 [label="Foam::polyPatch::faceAreas",height=0.2,width=0.4,color="red",URL="$a27478.html#a129c714af51a28e963f5f445235715b9",tooltip="Return face normals. "];
+  Node581 -> Node641 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node641 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node581 -> Node642 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node642 [label="Foam::patchIdentifier\l::name",height=0.2,width=0.4,color="black",URL="$a27122.html#acc80e00a8ac919288fb55bd14cc88bf6",tooltip="Return name. "];
+  Node581 -> Node643 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node643 [label="Foam::name",height=0.2,width=0.4,color="red",URL="$a21124.html#adcb0df2bd4953cb6bb390272d8263c3a",tooltip="Return a string representation of a complex. "];
+  Node581 -> Node646 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node646 [label="Foam::type",height=0.2,width=0.4,color="red",URL="$a21124.html#aec48583af672626378f501eb9fc32cd1",tooltip="Return the file type: DIRECTORY or FILE. "];
+}

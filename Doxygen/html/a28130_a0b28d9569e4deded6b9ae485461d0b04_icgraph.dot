@@ -1,0 +1,47 @@
+digraph "v"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node98 [label="v",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node98 -> Node99 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node99 [label="Foam::conjugate",height=0.2,width=0.4,color="red",URL="$a21124.html#ad09d60e9d059b4444d1c703dd7f19ea5",tooltip="Return the conjugate of the given quaternion. "];
+  Node99 -> Node101 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node101 [label="invTransform",height=0.2,width=0.4,color="red",URL="$a28130.html#aee0060723827f8272f2f50aaaf57c1eb",tooltip="Rotate the given vector anti-clockwise. "];
+  Node98 -> Node109 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node109 [label="eulerAngles",height=0.2,width=0.4,color="black",URL="$a28130.html#a444d9e2b5bde3b160f12a502d7968abf",tooltip="Return a vector of euler angles (rotations in radians about. "];
+  Node98 -> Node110 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node110 [label="Foam::exp",height=0.2,width=0.4,color="black",URL="$a21124.html#a733c206623204e615acf6b84cd41b911",tooltip="Exponent of a quaternion. "];
+  Node98 -> Node111 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node111 [label="Foam::inv",height=0.2,width=0.4,color="black",URL="$a21124.html#a0309a86559573a27aeb5a706f9fe7b02",tooltip="Return the inverse of the given quaternion. "];
+  Node98 -> Node101 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node98 -> Node112 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node112 [label="Foam::magSqr",height=0.2,width=0.4,color="black",URL="$a21124.html#a79fff2d5f6b6ad747d1e857a91871714"];
+  Node98 -> Node113 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node113 [label="Foam::name",height=0.2,width=0.4,color="black",URL="$a21124.html#a4450437b1718a3a13fafc63a525e7ce3",tooltip="Return a string representation of a quaternion. "];
+  Node98 -> Node114 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node114 [label="normalize",height=0.2,width=0.4,color="black",URL="$a28130.html#acd0de676568888d848beb97dcc53ae47"];
+  Node98 -> Node115 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node115 [label="Foam::operator*",height=0.2,width=0.4,color="black",URL="$a21124.html#a1a97802e4a7d20b0101b21b94baec802"];
+  Node98 -> Node116 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node116 [label="operator*=",height=0.2,width=0.4,color="red",URL="$a28130.html#a8627cfb3833e85a679dcfbeacb13c5b3"];
+  Node98 -> Node119 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node119 [label="Foam::operator+",height=0.2,width=0.4,color="black",URL="$a21124.html#a46c9cab4fef0262c77e300ac44182fc7"];
+  Node98 -> Node120 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node120 [label="Foam::operator-",height=0.2,width=0.4,color="black",URL="$a21124.html#a94fd88bca6e309854ca0ed64fd00e704"];
+  Node98 -> Node121 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node121 [label="Foam::operator/",height=0.2,width=0.4,color="black",URL="$a21124.html#a0932249ae3d87d3601be0b57a117bfff"];
+  Node98 -> Node122 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node122 [label="Foam::operator\<\<",height=0.2,width=0.4,color="black",URL="$a21124.html#a003e5f26ff4e9ffeccd2a7b20c29a652"];
+  Node98 -> Node123 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node123 [label="operator=",height=0.2,width=0.4,color="black",URL="$a28130.html#a2830db3ea176f9128a74a64ac05ebb8a"];
+  Node98 -> Node124 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node124 [label="Foam::operator==",height=0.2,width=0.4,color="black",URL="$a21124.html#a8e02206e54fe065ca7085cc02bad260b"];
+  Node98 -> Node125 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node125 [label="Foam::operator\>\>",height=0.2,width=0.4,color="black",URL="$a21124.html#a15eae71511e774e10007c7275425a944"];
+  Node98 -> Node126 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node126 [label="Foam::pow",height=0.2,width=0.4,color="black",URL="$a21124.html#ad204fcf4c745d7611215c46831dc9aad",tooltip="Power of a quaternion. "];
+  Node98 -> Node127 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node127 [label="R",height=0.2,width=0.4,color="red",URL="$a28130.html#a404ff2284fce8af4f811e0447c9e37f2",tooltip="The rotation tensor corresponding the quaternion. "];
+}

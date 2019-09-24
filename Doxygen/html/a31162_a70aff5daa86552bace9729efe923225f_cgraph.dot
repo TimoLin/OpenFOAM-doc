@@ -1,0 +1,20 @@
+digraph "~incompressibleTurbulenceModel"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2 [label="~incompressibleTurbulence\lModel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="devReff",height=0.2,width=0.4,color="black",URL="$a31162.html#a326a60284c8611b8d684da3ed60d59fb",tooltip="Return the effective stress tensor including the laminar stress. "];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="divDevReff",height=0.2,width=0.4,color="black",URL="$a31162.html#a2fe41bb94b1df0e86fe7a6c83a78c5ad",tooltip="Return the source term for the momentum equation. "];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="mu",height=0.2,width=0.4,color="black",URL="$a31162.html#a61af64ec81cce6c587b942b6403ea7c6",tooltip="Return the laminar dynamic viscosity. "];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="muEff",height=0.2,width=0.4,color="black",URL="$a31162.html#a22da1693e7026da4cca23fd60bd6c53b",tooltip="Return the effective dynamic viscosity. "];
+  Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="mut",height=0.2,width=0.4,color="black",URL="$a31162.html#a684f91d188b02bf1455bb6b9d186259e",tooltip="Return the turbulence dynamic viscosity. "];
+  Node2 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="Foam::turbulenceModel::U",height=0.2,width=0.4,color="black",URL="$a31314.html#a536d168d7b335fe81f506f232b5b4872",tooltip="Access function to velocity field. "];
+}

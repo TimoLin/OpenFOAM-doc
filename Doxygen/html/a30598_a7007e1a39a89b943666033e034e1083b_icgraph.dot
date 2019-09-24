@@ -1,0 +1,16 @@
+digraph "operator="
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1249 [label="operator=",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1249 -> Node1250 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1250 [label="Foam::booleanSurface\l::booleanSurface",height=0.2,width=0.4,color="black",URL="$a25486.html#af9badecab2d5cf9894182caa82611921",tooltip="Construct from surfaces and operation. Surfaces need to be closed. "];
+  Node1249 -> Node1251 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1251 [label="Foam::distributedTriSurface\lMesh::distribute",height=0.2,width=0.4,color="red",URL="$a28642.html#a30b981a389a43e4853d4dec45e4e5edb",tooltip="Set bounds of surface. Bounds currently set as list of. "];
+  Node1249 -> Node1261 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1261 [label="Foam::intersectedSurface\l::intersectedSurface",height=0.2,width=0.4,color="black",URL="$a25494.html#a6e95ab0cf81f4521899580c0caaaf6e7",tooltip="Construct from surface and intersection. isFirstSurface is needed. "];
+  Node1249 -> Node1262 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1262 [label="patches",height=0.2,width=0.4,color="black",URL="$a30598.html#adf6d6f4f6576d5bd544f3ba396fa3946"];
+}

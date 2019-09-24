@@ -1,0 +1,22 @@
+digraph "execute"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node70 [label="execute",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node70 -> Node71 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node71 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node70 -> Node73 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node73 [label="Foam::exit",height=0.2,width=0.4,color="red",URL="$a21124.html#a06ca7250d8e89caf05243ec094843642"];
+  Node70 -> Node92 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node92 [label="Foam::dictionaryName\l::name",height=0.2,width=0.4,color="black",URL="$a26010.html#aba53f1f9c8fadfa65f4099af10df348c",tooltip="Return the dictionary name. "];
+  Node70 -> Node118 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node118 [label="Foam::IFstream::name",height=0.2,width=0.4,color="black",URL="$a26182.html#aba53f1f9c8fadfa65f4099af10df348c",tooltip="Return the name of the stream. "];
+  Node70 -> Node119 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node119 [label="Foam::IOstream::name",height=0.2,width=0.4,color="black",URL="$a26226.html#a41b2d01e5fd6e1bc71a895d8b8a86308",tooltip="Return the name of the stream. "];
+  Node70 -> Node120 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node120 [label="Foam::fileName::path",height=0.2,width=0.4,color="black",URL="$a28234.html#abe7b9078c8e7356c6131b70a8f729372",tooltip="Return directory path name (part before last /) "];
+  Node70 -> Node121 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node121 [label="Foam::dictionary::read",height=0.2,width=0.4,color="black",URL="$a26014.html#ab6e27a0a7953d55de8b58e77078d82b9",tooltip="Read dictionary from Istream. "];
+}

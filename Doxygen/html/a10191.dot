@@ -1,0 +1,33 @@
+digraph "src/OpenFOAM/global/argList/argList.C"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node0 [label="src/OpenFOAM/global\l/argList/argList.C",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="argList.H",height=0.2,width=0.4,color="red",URL="$a10193.html"];
+  Node1 -> Node88 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node88 [label="OSspecific.H",height=0.2,width=0.4,color="red",URL="$a10370.html",tooltip="Functions used by OpenFOAM that are specific to POSIX compliant operating systems and need to be repl..."];
+  Node0 -> Node88 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node0 -> Node98 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node98 [label="clock.H",height=0.2,width=0.4,color="red",URL="$a10205.html"];
+  Node0 -> Node100 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node100 [label="IFstream.H",height=0.2,width=0.4,color="red",URL="$a09059.html"];
+  Node0 -> Node102 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node102 [label="dictionary.H",height=0.2,width=0.4,color="red",URL="$a08804.html"];
+  Node0 -> Node112 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node112 [label="IOobject.H",height=0.2,width=0.4,color="red",URL="$a08987.html"];
+  Node0 -> Node115 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node115 [label="JobInfo.H",height=0.2,width=0.4,color="red",URL="$a10274.html"];
+  Node115 -> Node102 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node0 -> Node65 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node65 [label="labelList.H",height=0.2,width=0.4,color="red",URL="$a12380.html"];
+  Node0 -> Node119 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node119 [label="regIOobject.H",height=0.2,width=0.4,color="red",URL="$a09251.html"];
+  Node119 -> Node112 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node119 -> Node88 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node0 -> Node121 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node121 [label="dynamicCode.H",height=0.2,width=0.4,color="red",URL="$a08909.html"];
+  Node0 -> Node33 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node33 [label="cctype",height=0.2,width=0.4,color="grey75"];
+}

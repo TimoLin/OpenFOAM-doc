@@ -1,0 +1,14 @@
+digraph "~spectEddyVisc"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node14 [label="~spectEddyVisc",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node14 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15 [label="Foam::incompressible\l::LESModel::correct",height=0.2,width=0.4,color="red",URL="$a30874.html#a3ae44b28050c3aa494c1d8e18cf618c1",tooltip="Correct Eddy-Viscosity and related properties. "];
+  Node14 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19 [label="k",height=0.2,width=0.4,color="red",URL="$a30918.html#a2e01d66cd4db498fd5e869ea66925978",tooltip="Return SGS kinetic energy. "];
+  Node14 -> Node391 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node391 [label="read",height=0.2,width=0.4,color="red",URL="$a30918.html#af816873151ddb0126e98bb2f914d8ed5",tooltip="Read LESProperties dictionary. "];
+}

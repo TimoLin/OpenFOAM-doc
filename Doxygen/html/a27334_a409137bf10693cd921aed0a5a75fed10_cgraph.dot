@@ -1,0 +1,24 @@
+digraph "geometricSharedPoints"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1382 [label="geometricSharedPoints",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1382 -> Node1383 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1383 [label="Foam::polyMesh::bounds",height=0.2,width=0.4,color="red",URL="$a27410.html#af0b8fd78dbff2bbd5d76f5c2e8569fbe",tooltip="Return mesh bounding box. "];
+  Node1382 -> Node1536 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1536 [label="Foam::combineReduce",height=0.2,width=0.4,color="red",URL="$a21124.html#af09dedba9f523ce6a02baaa029393764"];
+  Node1382 -> Node1539 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1539 [label="Foam::boundBox::mag",height=0.2,width=0.4,color="red",URL="$a27102.html#a9b53370021569e27db1ddfb33196232f",tooltip="The magnitude of the bounding box span. "];
+  Node1382 -> Node1540 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1540 [label="Foam::mergePoints",height=0.2,width=0.4,color="black",URL="$a21124.html#a91cf82266e8f08da4a95ebafddc2f61d",tooltip="Sorts and merges points. All points closer than/equal mergeTol get merged. "];
+  Node1382 -> Node1471 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1471 [label="Foam::polyMesh::points",height=0.2,width=0.4,color="red",URL="$a27410.html#ac44123fc1265297c41a43c3b62fdb4c2",tooltip="Return raw points. "];
+  Node1382 -> Node1541 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1541 [label="sharedPointLabels",height=0.2,width=0.4,color="black",URL="$a27334.html#a7ea06a0f94bf7c119a76af3be79bfec2",tooltip="Return indices of local points that are globally shared. "];
+  Node1382 -> Node1542 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1542 [label="sharedPoints",height=0.2,width=0.4,color="red",URL="$a27334.html#ab7d3835b5505a69d153631e4c4865136",tooltip="Collect coordinates of shared points on all processors. "];
+  Node1542 -> Node1471 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1542 -> Node1541 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

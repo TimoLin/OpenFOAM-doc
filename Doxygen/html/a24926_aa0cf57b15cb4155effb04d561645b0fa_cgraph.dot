@@ -1,0 +1,19 @@
+digraph "setNeighbourFaceAreas"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node254 [label="setNeighbourFaceAreas",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node254 -> Node255 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node255 [label="Foam::cp",height=0.2,width=0.4,color="red",URL="$a21124.html#a90b626bb0848617906ac62a5570c010f",tooltip="Copy, recursively if necessary, the source to the destination. "];
+  Node255 -> Node260 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node260 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node254 -> Node260 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node254 -> Node325 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node325 [label="Foam::polyPatch::faceAreas",height=0.2,width=0.4,color="red",URL="$a27478.html#a129c714af51a28e963f5f445235715b9",tooltip="Return face normals. "];
+  Node254 -> Node328 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node328 [label="faceAreas0",height=0.2,width=0.4,color="black",URL="$a24926.html#adb99a6c32b7e79295de941fcfbb8d668",tooltip="Return access to the original patch face areas. "];
+  Node254 -> Node329 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node329 [label="nonOverlapPatch",height=0.2,width=0.4,color="red",URL="$a24926.html#a393c20e8e90bcd64649901bd64b64f49",tooltip="Return a const reference to the non-overlapping patch. "];
+}

@@ -1,0 +1,19 @@
+digraph "currentTetIndices"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3479 [label="currentTetIndices",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3479 -> Node3480 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3480 [label="currentTet",height=0.2,width=0.4,color="red",URL="$a23586.html#a92dfe2573db5f1757b382eb60ee35c4e",tooltip="Return the geometry of the current tet that the. "];
+  Node3480 -> Node3481 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3481 [label="~particle",height=0.2,width=0.4,color="black",URL="$a23586.html#a21cc76910d09c0550f6ce9f2ed3b2f52",tooltip="Destructor. "];
+  Node3479 -> Node3495 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3495 [label="normal",height=0.2,width=0.4,color="red",URL="$a23586.html#ad626ef30cf97c5bcf2b81d102ad70096",tooltip="Return the normal of the tri on tetFaceI_ for the. "];
+  Node3495 -> Node3481 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3479 -> Node3506 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3506 [label="oldNormal",height=0.2,width=0.4,color="black",URL="$a23586.html#a103a5d52bb7895466021f23678821b40",tooltip="Return the normal of the tri on tetFaceI_ for the. "];
+  Node3506 -> Node3481 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3479 -> Node3481 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

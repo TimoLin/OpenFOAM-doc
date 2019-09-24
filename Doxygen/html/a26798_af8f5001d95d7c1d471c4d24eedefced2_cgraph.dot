@@ -1,0 +1,20 @@
+digraph "New"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node11 [label="New",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12 [label="Foam::LduMatrix::asymmetric",height=0.2,width=0.4,color="red",URL="$a26790.html#aff45003a4c4226b1f6f4e5e24d382e03"];
+  Node11 -> Node42 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node42 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node11 -> Node33 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node33 [label="Foam::exit",height=0.2,width=0.4,color="red",URL="$a21124.html#a06ca7250d8e89caf05243ec094843642"];
+  Node11 -> Node163 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node163 [label="Foam::dictionary::lookup",height=0.2,width=0.4,color="red",URL="$a26014.html#a6a0727fa523e48977e27348663def509",tooltip="Find and return an entry data stream. "];
+  Node11 -> Node403 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node403 [label="smoother",height=0.2,width=0.4,color="black",URL="$a26798.html#a26c8e31b54c9c2e46eb36241579909db"];
+  Node11 -> Node159 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node159 [label="Foam::LduMatrix::symmetric",height=0.2,width=0.4,color="black",URL="$a26790.html#a054885c66384c7bbfc59b9916d5be00f"];
+}

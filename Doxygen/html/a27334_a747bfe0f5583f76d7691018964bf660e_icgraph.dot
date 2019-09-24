@@ -1,0 +1,16 @@
+digraph "globalPointSlavesMap"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2458 [label="globalPointSlavesMap",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2458 -> Node2459 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2459 [label="Foam::PointEdgeWave\l::countPatchType",height=0.2,width=0.4,color="black",URL="$a24858.html#a774d50194a0ab5809347d4eb20808ff6"];
+  Node2458 -> Node2460 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2460 [label="nTotalCells",height=0.2,width=0.4,color="red",URL="$a27334.html#af5f312e4d0bc5cbcc088e7c247d3a97a",tooltip="Return total number of cells in decomposed mesh. "];
+  Node2458 -> Node2483 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2483 [label="Foam::PatchTools::pointNormals",height=0.2,width=0.4,color="black",URL="$a27526.html#ab60186b13b96788288ecfa924a6950d2"];
+  Node2458 -> Node2484 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2484 [label="Foam::syncTools::syncPointList",height=0.2,width=0.4,color="black",URL="$a27502.html#a334197e1b70d6e0b87da5cb827940dd4",tooltip="Synchronize values on selected mesh points. "];
+}

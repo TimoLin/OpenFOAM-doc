@@ -1,0 +1,13 @@
+digraph "clone"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node80 [label="clone",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node80 -> Node81 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node81 [label="clone",height=0.2,width=0.4,color="black",URL="$a25106.html#adbf8c0a436d777bd346c3ab2a4b087df",tooltip="Construct and return a clone, resetting the boundary mesh. "];
+  Node81 -> Node82 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node82 [label="mappedPolyPatch",height=0.2,width=0.4,color="red",URL="$a25106.html#a3204b30aa6f9ab05950a8dc142b4a6a3",tooltip="Construct from components. "];
+  Node80 -> Node82 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,11 @@
+digraph "targetCoeffTrim"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node2 [label="targetCoeffTrim",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="trimModel",height=0.2,width=0.4,color="red",URL="$a23518.html",tooltip="Trim model base class. "];
+  Node71 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" theta_\ntarget_" ,fontname="FreeSans"];
+  Node71 [label="Vector\< scalar \>",height=0.2,width=0.4,color="red",URL="$a28442.html"];
+}

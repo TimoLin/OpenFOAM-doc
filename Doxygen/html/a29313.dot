@@ -1,0 +1,28 @@
+digraph "sampledSet"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="sampledSet",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="coordSet",height=0.2,width=0.4,color="red",URL="$a21846.html",tooltip="Holds list of sampling positions. "];
+  Node0 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12 [label="arraySet",height=0.2,width=0.4,color="black",URL="$a29278.html"];
+  Node0 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13 [label="circleSet",height=0.2,width=0.4,color="black",URL="$a29282.html",tooltip="Samples along a circular path. "];
+  Node0 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14 [label="cloudSet",height=0.2,width=0.4,color="black",URL="$a29286.html"];
+  Node0 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15 [label="faceOnlySet",height=0.2,width=0.4,color="red",URL="$a29290.html"];
+  Node0 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 [label="patchCloudSet",height=0.2,width=0.4,color="black",URL="$a29302.html",tooltip="Like cloudSet but samples nearest patch face. "];
+  Node0 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19 [label="patchSeedSet",height=0.2,width=0.4,color="black",URL="$a29306.html",tooltip="Initialises points on or just off patch. "];
+  Node0 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20 [label="polyLineSet",height=0.2,width=0.4,color="black",URL="$a29310.html",tooltip="Sample along poly line defined by a list of points (knots) "];
+  Node0 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21 [label="triSurfaceMeshPointSet",height=0.2,width=0.4,color="black",URL="$a29334.html",tooltip="sampleSet from all points of a triSurfaceMesh. "];
+  Node0 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22 [label="uniformSet",height=0.2,width=0.4,color="black",URL="$a29338.html"];
+}

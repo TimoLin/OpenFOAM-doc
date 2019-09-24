@@ -1,0 +1,36 @@
+digraph "t"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node14 [label="t",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node14 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15 [label="Foam::globalIndexAndTransform\l::addToTransformIndex",height=0.2,width=0.4,color="red",URL="$a27690.html#ae12df20b0dd6402143a55db4e120ff36",tooltip="Add patch transformation to transformIndex. Return new. "];
+  Node14 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17 [label="Foam::contiguous\< vector\lTensorTransform \>",height=0.2,width=0.4,color="black",URL="$a21124.html#a6ce157d2f9ca6e142ae0545daa13fae0",tooltip="Data associated with vectorTensorTransform type are contiguous. "];
+  Node14 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 [label="Foam::globalIndexAndTransform\l::globalIndexAndTransform",height=0.2,width=0.4,color="black",URL="$a27690.html#a6a82addd80d8b6487e55a787d3e0369d",tooltip="Construct from components. "];
+  Node14 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19 [label="Foam::inv",height=0.2,width=0.4,color="black",URL="$a21124.html#af1f1db0442fbe206b589f124f968731b",tooltip="Return the inverse of the given vectorTensorTransform. "];
+  Node14 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20 [label="invTransformPosition",height=0.2,width=0.4,color="red",URL="$a27698.html#a9fc50d19a7daa800a64cf478a9880702",tooltip="Inverse transform the given position. "];
+  Node14 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23 [label="Foam::name",height=0.2,width=0.4,color="black",URL="$a21124.html#a8be9167a2a1446ac75fbf8a6f04cbcd8",tooltip="Return a string representation of a vectorTensorTransform. "];
+  Node14 -> Node24 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node24 [label="Foam::operator+",height=0.2,width=0.4,color="black",URL="$a21124.html#af4aa948c49789548c539cf09d8529fe8"];
+  Node14 -> Node25 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node25 [label="operator+=",height=0.2,width=0.4,color="black",URL="$a27698.html#a340eb948ebf6fa1ec4f49ba722ebb813"];
+  Node14 -> Node26 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node26 [label="Foam::operator-",height=0.2,width=0.4,color="black",URL="$a21124.html#a7343d22a001563fd49e240b66ba681bf"];
+  Node14 -> Node27 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node27 [label="operator-=",height=0.2,width=0.4,color="black",URL="$a27698.html#a827f878aebde63162abe3ee81422d1e1"];
+  Node14 -> Node28 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node28 [label="Foam::operator\<\<",height=0.2,width=0.4,color="black",URL="$a21124.html#aef21d6af1ad101aa8dda5cb498a950b3"];
+  Node14 -> Node29 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node29 [label="operator=",height=0.2,width=0.4,color="black",URL="$a27698.html#a2830db3ea176f9128a74a64ac05ebb8a"];
+  Node14 -> Node30 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node30 [label="Foam::operator==",height=0.2,width=0.4,color="black",URL="$a21124.html#a1702cdf4aab06e680e9fe6092feb1bce"];
+  Node14 -> Node31 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node31 [label="transformPosition",height=0.2,width=0.4,color="red",URL="$a27698.html#ae27d8f564ed7ce3f9885907c3a790d37",tooltip="Transform the given position. "];
+}

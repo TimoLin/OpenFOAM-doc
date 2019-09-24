@@ -1,0 +1,35 @@
+digraph "nearestDist"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node87 [label="nearestDist",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node87 -> Node88 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node88 [label="Foam::IOstream::check",height=0.2,width=0.4,color="red",URL="$a26226.html#a367eb3425fc4e8270e2aa961df8ac8a5",tooltip="Check IOstream status for given operation. "];
+  Node87 -> Node137 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node137 [label="Foam::PointHit::distance",height=0.2,width=0.4,color="black",URL="$a27558.html#a288a3ea8e3ee215a5e12afc1002ed4e6",tooltip="Return distance to hit. "];
+  Node87 -> Node138 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node138 [label="end",height=0.2,width=0.4,color="black",URL="$a27550.html#a2c98aa18669f9e2463339c6c4254654d",tooltip="Return second vertex. "];
+  Node87 -> Node139 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node139 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node87 -> Node140 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node140 [label="Foam::magSqr",height=0.2,width=0.4,color="black",URL="$a21124.html#ae6fff2c6981e6d9618aa5038e69def6e"];
+  Node87 -> Node141 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node141 [label="Foam::max",height=0.2,width=0.4,color="black",URL="$a21124.html#ac993e906cf2774ae77e666bc24e81733"];
+  Node87 -> Node142 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node142 [label="Foam::min",height=0.2,width=0.4,color="black",URL="$a21124.html#a253e112ad2d56d96230ff39ea7f442dc"];
+  Node87 -> Node143 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node143 [label="nearestDist",height=0.2,width=0.4,color="red",URL="$a27550.html#a0ab00eab07060abff696ebe967f3fce0",tooltip="Return nearest distance to line from a given point. "];
+  Node143 -> Node139 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node87 -> Node145 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node145 [label="Foam::PointHit::rawPoint",height=0.2,width=0.4,color="black",URL="$a27558.html#a479a270e3db1518fd61b8a756455786b",tooltip="Return point with no checking. "];
+  Node87 -> Node146 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node146 [label="Foam::Istream::readBegin",height=0.2,width=0.4,color="red",URL="$a26234.html#a0f770b511770a752d65282976e8a8078"];
+  Node87 -> Node151 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node151 [label="Foam::Istream::readEnd",height=0.2,width=0.4,color="red",URL="$a26234.html#a092d231ce97840ca80cad9b0e98acbb8"];
+  Node87 -> Node152 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node152 [label="s",height=0.2,width=0.4,color="black",URL="$a18905.html#abb9c4233033fad2ad0206cd4adad3b9f"];
+  Node87 -> Node153 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node153 [label="start",height=0.2,width=0.4,color="black",URL="$a27550.html#a049c862e6cf686ab64fd3e9cb34736e6",tooltip="Return first vertex. "];
+}

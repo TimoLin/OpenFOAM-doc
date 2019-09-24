@@ -1,0 +1,41 @@
+digraph "solve"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node732 [label="solve",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node732 -> Node733 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node733 [label="Foam::UList::begin",height=0.2,width=0.4,color="black",URL="$a25698.html#a8a0643ef7f391465066f7f07d45ce934",tooltip="Return an iterator to begin traversing the UList. "];
+  Node732 -> Node734 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node734 [label="beta",height=0.2,width=0.4,color="black",URL="$a39152.html#a8c8c91fc032b25dcc9e3d971fac17272"];
+  Node732 -> Node735 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node735 [label="Foam::SolverPerformance\l::checkConvergence",height=0.2,width=0.4,color="red",URL="$a26810.html#ab5771e4f4a15c47b3c719a33255be433",tooltip="Check, store and return convergence. "];
+  Node735 -> Node736 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node736 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node732 -> Node742 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node742 [label="Foam::SolverPerformance\l::checkSingularity",height=0.2,width=0.4,color="red",URL="$a26810.html#aa749321b47d58d648449b01539ebaeaf",tooltip="Singularity test. "];
+  Node732 -> Node736 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node732 -> Node743 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node743 [label="Foam::SolverPerformance\l::finalResidual",height=0.2,width=0.4,color="black",URL="$a26810.html#aac1f6730c95125fda417066ca5fdb1b6",tooltip="Return final residual. "];
+  Node732 -> Node744 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node744 [label="Foam::lduMatrix::preconditioner\l::getName",height=0.2,width=0.4,color="red",URL="$a26894.html#ac59fad692d6ce7568c8086fe89073005",tooltip="Find the preconditioner name (directly or from a sub-dictionary) "];
+  Node744 -> Node1045 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1045 [label="Foam::lduMatrix::preconditioner::New",height=0.2,width=0.4,color="red",URL="$a26894.html#a10c523f8a576f467c2ebf477d43107b7",tooltip="Return a new preconditioner. "];
+  Node1045 -> Node736 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node732 -> Node1082 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1082 [label="Foam::gSumMag",height=0.2,width=0.4,color="black",URL="$a21124.html#a26d80c1ea4d10f541c7c35259d0671df"];
+  Node732 -> Node1083 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1083 [label="Foam::gSumProd",height=0.2,width=0.4,color="red",URL="$a21124.html#a12c90553f60a8289f2ca9ce82f46b381"];
+  Node732 -> Node1092 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1092 [label="Foam::SolverPerformance\l::initialResidual",height=0.2,width=0.4,color="black",URL="$a26810.html#aa934099b8c3787257b11a24bbfc10042",tooltip="Return initial residual. "];
+  Node732 -> Node853 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node853 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node732 -> Node1093 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1093 [label="Foam::lduMatrix::mesh",height=0.2,width=0.4,color="black",URL="$a26882.html#a389d9c5b9626c6fecf05a6773c77418b",tooltip="Return the LDU mesh from which the addressing is obtained. "];
+  Node732 -> Node1045 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node732 -> Node1094 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1094 [label="Foam::SolverPerformance\l::nIterations",height=0.2,width=0.4,color="black",URL="$a26810.html#aebdd923017ce4b390cac177fb99671fe",tooltip="Return number of iterations. "];
+  Node732 -> Node838 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node838 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+}

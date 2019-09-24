@@ -1,0 +1,12 @@
+digraph "valid"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node42 [label="valid",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node42 -> Node43 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node43 [label="Foam::IOstream::compressionEnum",height=0.2,width=0.4,color="red",URL="$a26226.html#af210ddb71f4235fd1d2233e1f7e49bab",tooltip="Return compression of given compression name. "];
+  Node42 -> Node2069 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2069 [label="Switch",height=0.2,width=0.4,color="black",URL="$a27626.html#ae6eab8472522a842f0e9c256a98c045d",tooltip="Construct from integer values (treats integer as bool value) "];
+}

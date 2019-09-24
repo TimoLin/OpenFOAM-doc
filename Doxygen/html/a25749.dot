@@ -1,0 +1,12 @@
+digraph "StaticHashTable&lt; T, Key, Hash &gt;::Iterator&lt; TRef, TableRef &gt;"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="StaticHashTable\< T,\l Key, Hash \>::Iterator\l\< TRef, TableRef \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< const T &, const\l StaticHashTable\< T,\l Key, Hash \> &\>" ,fontname="FreeSans"];
+  Node1 [label="Iterator\< const T &,\l const StaticHashTable\l\< T, Key, Hash \> &\>",height=0.2,width=0.4,color="black",URL="$a25750.html"];
+  Node0 -> Node2 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< T &, StaticHashTable\l\< T, Key, Hash \> &\>" ,fontname="FreeSans"];
+  Node2 [label="Iterator\< T &, StaticHash\lTable\< T, Key, Hash \> &\>",height=0.2,width=0.4,color="black",URL="$a25750.html"];
+}

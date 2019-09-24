@@ -1,0 +1,31 @@
+digraph "kinematicSingleLayer"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node21 [label="kinematicSingleLayer",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node22 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22 [label="surfaceFilmModel",height=0.2,width=0.4,color="red",URL="$a29178.html",tooltip="Base class for surface film models. "];
+  Node95 -> Node22 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" g_" ,fontname="FreeSans"];
+  Node95 [label="dimensioned\< Type \>",height=0.2,width=0.4,color="black",URL="$a26366.html",tooltip="Generic dimensioned Type class. "];
+  Node96 -> Node21 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" rhoSpPrimary_\nalpha_\nmu_\npSpPrimary_\nrhoPrimary_\npSp_\ndelta_\nrho_\nmuPrimary\l_\nprimaryMass\lTrans_\n..." ,fontname="FreeSans"];
+  Node96 [label="GeometricField\< scalar,\l fvPatchField, volMesh \>",height=0.2,width=0.4,color="red",URL="$a22434.html"];
+  Node48 -> Node21 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" momentumPredictor_" ,fontname="FreeSans"];
+  Node48 [label="Switch",height=0.2,width=0.4,color="black",URL="$a27626.html",tooltip="A simple wrapper around bool so that it can be read as a word: true/false, on/off, yes/no, y/n, t/f, or none. "];
+  Node105 -> Node21 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" filmThermo_" ,fontname="FreeSans"];
+  Node105 [label="autoPtr\< Foam::regionModels\l::surfaceFilmModels::filmThermo\lModel \>",height=0.2,width=0.4,color="red",URL="$a25958.html"];
+  Node106 -> Node21 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" injection_" ,fontname="FreeSans"];
+  Node106 [label="injectionModelList",height=0.2,width=0.4,color="red",URL="$a29106.html"];
+  Node110 -> Node21 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" phi_" ,fontname="FreeSans"];
+  Node110 [label="GeometricField\< scalar,\l fvsPatchField, surfaceMesh \>",height=0.2,width=0.4,color="red",URL="$a22434.html"];
+  Node95 -> Node21 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" deltaSmall_" ,fontname="FreeSans"];
+  Node112 -> Node21 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" forces_" ,fontname="FreeSans"];
+  Node112 [label="forceList",height=0.2,width=0.4,color="red",URL="$a29086.html"];
+  Node114 -> Node21 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" turbulence_" ,fontname="FreeSans"];
+  Node114 [label="autoPtr\< Foam::regionModels\l::surfaceFilmModels::filmTurbulence\lModel \>",height=0.2,width=0.4,color="red",URL="$a25958.html"];
+  Node115 -> Node21 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" availableMass_" ,fontname="FreeSans"];
+  Node115 [label="Field\< scalar \>",height=0.2,width=0.4,color="red",URL="$a26466.html"];
+  Node119 -> Node21 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" USpPrimary_\nUPrimary_\nUw_\nU_\nUs_\nUSp_" ,fontname="FreeSans"];
+  Node119 [label="GeometricField\< vector,\l fvPatchField, volMesh \>",height=0.2,width=0.4,color="red",URL="$a22434.html"];
+}

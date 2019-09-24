@@ -1,0 +1,20 @@
+digraph "packing"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node45 [label="packing",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node45 -> Node46 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node46 [label="Foam::PackedList\< 2\l \>::capacity",height=0.2,width=0.4,color="black",URL="$a25938.html#a564a7790acc7ff1a57a1f32759f7a58a",tooltip="The number of elements that can be stored before reallocating. "];
+  Node45 -> Node47 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node47 [label="Foam::PackedList::iterator\lBase::get",height=0.2,width=0.4,color="red",URL="$a25946.html#abfcf69bb151aaad5278ad4eaaf7dc891",tooltip="Get value as unsigned, no range-checking. "];
+  Node45 -> Node49 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node49 [label="Foam::PackedList\< 2\l \>::operator=",height=0.2,width=0.4,color="black",URL="$a25938.html#a2c5b11c36b03e179830b2cf26d1d414c",tooltip="Assignment of all entries to the given value. Takes linear time. "];
+  Node45 -> Node50 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node50 [label="Foam::PackedList\< 2\l \>::resize",height=0.2,width=0.4,color="black",URL="$a25938.html#a269162b4a99f0b5255951cfe3309f517",tooltip="Reset addressable list size, does not shrink the allocated size. "];
+  Node45 -> Node51 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node51 [label="Foam::PackedList::iterator\lBase::set",height=0.2,width=0.4,color="black",URL="$a25946.html#aa3b41d3aa0522ba6ebd9ebd38e523184",tooltip="Set value, returning true if changed, no range-checking. "];
+  Node45 -> Node52 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node52 [label="Foam::PackedList\< 2\l \>::setCapacity",height=0.2,width=0.4,color="black",URL="$a25938.html#a3769bf93f15609625d62b693c566bcd1",tooltip="Alter the size of the underlying storage. "];
+}

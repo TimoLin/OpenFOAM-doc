@@ -1,0 +1,16 @@
+digraph "~DILUPreconditioner"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node14 [label="~DILUPreconditioner",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node14 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15 [label="calcReciprocalD",height=0.2,width=0.4,color="red",URL="$a26906.html#a0e2f579bbf250828b4e3f250dbadf455",tooltip="Calculate the reciprocal of the preconditioned diagonal. "];
+  Node15 -> Node24 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node24 [label="precondition",height=0.2,width=0.4,color="red",URL="$a26906.html#a42d7d978aff9dd42518052155211d753",tooltip="Return wA the preconditioned form of residual rA. "];
+  Node24 -> Node25 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node25 [label="preconditionT",height=0.2,width=0.4,color="red",URL="$a26906.html#a800789670822d739f732ed60b677c016",tooltip="Return wT the transpose-matrix preconditioned form of residual rT. "];
+  Node14 -> Node24 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14 -> Node25 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

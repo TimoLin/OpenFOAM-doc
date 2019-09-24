@@ -1,0 +1,20 @@
+digraph "Ls"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node775 [label="Ls",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node775 -> Node776 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node776 [label="Foam::max",height=0.2,width=0.4,color="black",URL="$a21124.html#ac993e906cf2774ae77e666bc24e81733"];
+  Node775 -> Node777 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node777 [label="Foam::incompressible\l::turbulenceModel::nu",height=0.2,width=0.4,color="red",URL="$a31102.html#aa739f3daeda1884fecc84f2b36a24021",tooltip="Return the laminar viscosity. "];
+  Node775 -> Node803 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node803 [label="Foam::pow",height=0.2,width=0.4,color="red",URL="$a21124.html#a7500c8e9d27a442adc75e287de074c7c"];
+  Node775 -> Node1138 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1138 [label="Foam::pow025",height=0.2,width=0.4,color="red",URL="$a21124.html#af8d7dc24dfce32ee37c1210e616966e1"];
+  Node775 -> Node1139 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1139 [label="Foam::pow3",height=0.2,width=0.4,color="red",URL="$a21124.html#a2e8f5d970ee4fb466536c3c46bae91fe"];
+  Node775 -> Node1140 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1140 [label="v2f",height=0.2,width=0.4,color="red",URL="$a31090.html#afcaf886b62fb9125560e3d46a0bcd94c",tooltip="Construct from components. "];
+}

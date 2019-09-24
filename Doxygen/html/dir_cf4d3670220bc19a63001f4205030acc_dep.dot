@@ -1,0 +1,24 @@
+digraph "applications/solvers/multiphase/twoPhaseEulerFoam/phaseCompressibleTurbulenceModels/kineticTheoryModels/kineticTheoryModel" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="FreeSans"];
+  edge [ labelfontsize="10", labelfontname="FreeSans"];
+  subgraph clusterdir_18940e7e4fb44f9ad3a0587e01140041 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="kineticTheoryModels" fontname="FreeSans", fontsize="10", URL="dir_18940e7e4fb44f9ad3a0587e01140041.html"]
+  dir_cf4d3670220bc19a63001f4205030acc [shape=box, label="kineticTheoryModel", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_cf4d3670220bc19a63001f4205030acc.html"];
+  }
+  dir_457aacccdf25eced75bbda085efde982 [shape=box label="radialModel" color="red" URL="dir_457aacccdf25eced75bbda085efde982.html"];
+  dir_68267d1309a1af8e8297ef4c3efbcdba [shape=box label="src" color="red" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+  dir_0105b01121de7b92f68615c3d021d922 [shape=box label="frictionalStressModel" color="red" URL="dir_0105b01121de7b92f68615c3d021d922.html"];
+  dir_8a87f5759e8efc37b819fa36188b226f [shape=box label="granularPressureModel" color="red" URL="dir_8a87f5759e8efc37b819fa36188b226f.html"];
+  dir_ba321717d448fd8e54ed59d33003675b [shape=box label="conductivityModel" color="red" URL="dir_ba321717d448fd8e54ed59d33003675b.html"];
+  dir_457aacccdf25eced75bbda085efde982->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="4", labeldistance=1.5 headhref="dir_000256_000577.html"];
+  dir_0105b01121de7b92f68615c3d021d922->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="4", labeldistance=1.5 headhref="dir_000247_000577.html"];
+  dir_8a87f5759e8efc37b819fa36188b226f->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="4", labeldistance=1.5 headhref="dir_000251_000577.html"];
+  dir_ba321717d448fd8e54ed59d33003675b->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="4", labeldistance=1.5 headhref="dir_000239_000577.html"];
+  dir_cf4d3670220bc19a63001f4205030acc->dir_457aacccdf25eced75bbda085efde982 [headlabel="1", labeldistance=1.5 headhref="dir_000255_000256.html"];
+  dir_cf4d3670220bc19a63001f4205030acc->dir_68267d1309a1af8e8297ef4c3efbcdba [headlabel="2", labeldistance=1.5 headhref="dir_000255_000577.html"];
+  dir_cf4d3670220bc19a63001f4205030acc->dir_0105b01121de7b92f68615c3d021d922 [headlabel="1", labeldistance=1.5 headhref="dir_000255_000247.html"];
+  dir_cf4d3670220bc19a63001f4205030acc->dir_8a87f5759e8efc37b819fa36188b226f [headlabel="1", labeldistance=1.5 headhref="dir_000255_000251.html"];
+  dir_cf4d3670220bc19a63001f4205030acc->dir_ba321717d448fd8e54ed59d33003675b [headlabel="1", labeldistance=1.5 headhref="dir_000255_000239.html"];
+}

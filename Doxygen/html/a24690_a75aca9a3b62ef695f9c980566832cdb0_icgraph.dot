@@ -1,0 +1,13 @@
+digraph "getAllClosedNamedSurfaces"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1264 [label="getAllClosedNamedSurfaces",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1264 -> Node1265 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1265 [label="faceType",height=0.2,width=0.4,color="black",URL="$a24690.html#a7f6d29fa7b92a7be3b719672c3c9508d",tooltip="How to handle face of surfaces with a faceZone. "];
+  Node1264 -> Node1266 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1266 [label="getUnclosedNamedSurfaces",height=0.2,width=0.4,color="red",URL="$a24690.html#aade0789e6b036b2004c5669a8ead2b3c",tooltip="Get indices of surfaces with a cellZone that are unclosed. "];
+  Node1266 -> Node1265 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

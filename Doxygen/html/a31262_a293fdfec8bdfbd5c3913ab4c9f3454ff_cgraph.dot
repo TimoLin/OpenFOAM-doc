@@ -1,0 +1,16 @@
+digraph "write"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node490 [label="write",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node490 -> Node491 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node491 [label="Foam::makePatchTypeField",height=0.2,width=0.4,color="black",URL="$a21124.html#a44a8c9a8ab08f6bf1f84bf3dab3f82a2"];
+  Node490 -> Node492 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node492 [label="Foam::fvPatchField\l::write",height=0.2,width=0.4,color="red",URL="$a22354.html#a293fdfec8bdfbd5c3913ab4c9f3454ff",tooltip="Write. "];
+  Node490 -> Node504 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node504 [label="Foam::Field::writeEntry",height=0.2,width=0.4,color="black",URL="$a26466.html#a7c03447f7f0471351fe57a41b62c8686",tooltip="Write the field as a dictionary entry. "];
+  Node490 -> Node505 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node505 [label="Foam::nutWallFunctionFvPatch\lScalarField::writeLocalEntries",height=0.2,width=0.4,color="red",URL="$a31290.html#a320f9d385b60c3b94e52b9e3d7164231",tooltip="Write local wall function variables. "];
+}

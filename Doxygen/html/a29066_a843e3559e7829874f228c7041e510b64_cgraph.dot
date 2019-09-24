@@ -1,0 +1,20 @@
+digraph "sigma"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1224 [label="sigma",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1224 -> Node1225 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1225 [label="Foam::regionModels\l::surfaceFilmModels\l::filmSubModelBase::owner",height=0.2,width=0.4,color="black",URL="$a29050.html#a9002aeea87356bb78bf0dabcf1f745d8",tooltip="Return const access to the owner surface film model. "];
+  Node1224 -> Node1226 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1226 [label="Foam::regionModels\l::surfaceFilmModels\l::kinematicSingleLayer\l::pPrimary",height=0.2,width=0.4,color="black",URL="$a29042.html#ae516893af7107592d00c2d7dd424c799",tooltip="Pressure / [Pa]. "];
+  Node1224 -> Node1227 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1227 [label="Foam::sqr",height=0.2,width=0.4,color="red",URL="$a21124.html#a277dc11c581d53826ab5090b08f3b17b"];
+  Node1224 -> Node1231 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1231 [label="Foam::regionModels\l::surfaceFilmModels\l::thermoSingleLayer::T",height=0.2,width=0.4,color="black",URL="$a29182.html#a4cdc587a2b31f4bae995d375d3e9aeab",tooltip="Return the film mean temperature [K]. "];
+  Node1224 -> Node1232 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1232 [label="thermoFilm",height=0.2,width=0.4,color="red",URL="$a29066.html#a0147da7db80761ef000c09159b8d6149",tooltip="Return a reference to a thermo film. "];
+  Node1224 -> Node1280 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1280 [label="Foam::type",height=0.2,width=0.4,color="red",URL="$a21124.html#aec48583af672626378f501eb9fc32cd1",tooltip="Return the file type: DIRECTORY or FILE. "];
+}

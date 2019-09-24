@@ -1,0 +1,16 @@
+digraph "subsetMesh"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node928 [label="subsetMesh",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node928 -> Node929 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node929 [label="Foam::booleanSurface\l::booleanSurface",height=0.2,width=0.4,color="black",URL="$a25486.html#a88e679563079efe444d5005b5d5e0716",tooltip="Construct from surfaces and face labels to keep. "];
+  Node928 -> Node930 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node930 [label="patches",height=0.2,width=0.4,color="black",URL="$a30598.html#adf6d6f4f6576d5bd544f3ba396fa3946"];
+  Node928 -> Node931 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node931 [label="subsetMeshMap",height=0.2,width=0.4,color="red",URL="$a30598.html#ab98a1f3e0d776683ac546b4a75bdd0aa",tooltip="&#39;Create&#39; sub mesh, including only faces for which "];
+  Node931 -> Node930 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node931 -> Node928 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

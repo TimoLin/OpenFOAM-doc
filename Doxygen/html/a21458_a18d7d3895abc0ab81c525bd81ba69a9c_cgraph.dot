@@ -1,0 +1,17 @@
+digraph "reorderPatches"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node127 [label="reorderPatches",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node127 -> Node128 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node128 [label="Foam::fvMesh::boundary",height=0.2,width=0.4,color="black",URL="$a22766.html#a1fc8b179063cf5d6805da64ff1975126",tooltip="Return reference to boundary mesh. "];
+  Node127 -> Node129 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node129 [label="Foam::polyMesh::boundaryMesh",height=0.2,width=0.4,color="black",URL="$a27410.html#a9f2b68c134340291eda6197f47f25484",tooltip="Return boundary mesh. "];
+  Node127 -> Node130 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node130 [label="Foam::PtrList::reorder",height=0.2,width=0.4,color="black",URL="$a25914.html#a7d239b46753df3dec8b986f9172316af",tooltip="Reorders elements. Ordering does not have to be done in. "];
+  Node127 -> Node131 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node131 [label="Foam::polyBoundaryMesh\l::reorder",height=0.2,width=0.4,color="black",URL="$a27402.html#a95c28578fe12550673a1a0917d8fb7f7",tooltip="Reorders patches. Ordering does not have to be done in. "];
+  Node131 -> Node130 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

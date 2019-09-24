@@ -1,0 +1,24 @@
+digraph "ThermoCloud&lt; CloudType &gt;"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node28 [label="ThermoCloud\< CloudType \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node29 -> Node28 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node29 [label="CloudType",height=0.2,width=0.4,color="red",URL="$a23686.html",tooltip="Templated base class for dsmc cloud. "];
+  Node60 -> Node28 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node60 [label="thermoCloud",height=0.2,width=0.4,color="black",URL="$a23750.html",tooltip="Virtual abstract base class for templated ThermoCloud. "];
+  Node61 -> Node28 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" radAreaPT4_\nradAreaP_\nhsTrans_\nradT4_\nhsCoeff_" ,fontname="FreeSans"];
+  Node61 [label="autoPtr\< Foam::Dimensioned\lField\< scalar, Foam::volMesh \> \>",height=0.2,width=0.4,color="red",URL="$a25958.html"];
+  Node63 -> Node28 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" TIntegrator_" ,fontname="FreeSans"];
+  Node63 [label="autoPtr\< Foam::Integration\lScheme \>",height=0.2,width=0.4,color="red",URL="$a25958.html"];
+  Node64 -> Node28 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" radiation_" ,fontname="FreeSans"];
+  Node64 [label="Switch",height=0.2,width=0.4,color="black",URL="$a27626.html",tooltip="A simple wrapper around bool so that it can be read as a word: true/false, on/off, yes/no, y/n, t/f, or none. "];
+  Node65 -> Node28 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" thermo_" ,fontname="FreeSans"];
+  Node65 [label="SLGThermo",height=0.2,width=0.4,color="red",URL="$a30182.html",tooltip="Thermo package for (S)olids (L)iquids and (G)ases Takes reference to thermo package, and provides: "];
+  Node66 -> Node28 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" p_\nT_" ,fontname="FreeSans"];
+  Node66 [label="GeometricField\< Type,\l PatchField, GeoMesh \>",height=0.2,width=0.4,color="red",URL="$a22434.html",tooltip="Generic GeometricField class. "];
+  Node75 -> Node28 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" heatTransferModel_" ,fontname="FreeSans"];
+  Node75 [label="autoPtr\< Foam::HeatTransfer\lModel\< Foam::ThermoCloud\l\< CloudType \> \> \>",height=0.2,width=0.4,color="red",URL="$a25958.html"];
+}

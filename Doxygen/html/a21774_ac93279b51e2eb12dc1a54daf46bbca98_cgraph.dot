@@ -1,0 +1,34 @@
+digraph "write"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node105 [label="write",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node105 -> Node106 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node106 [label="Foam::clock::dateTime",height=0.2,width=0.4,color="red",URL="$a26670.html#a634bbc3b8e07db90bfa7b628bc3b46b0",tooltip="Return the current wall-clock date/time as a string. "];
+  Node105 -> Node110 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node110 [label="Foam::edgeMesh::edges",height=0.2,width=0.4,color="black",URL="$a21754.html#a21d764179912ddda5c6f95193c289846",tooltip="Return edges. "];
+  Node105 -> Node111 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node111 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node105 -> Node113 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node113 [label="Foam::exit",height=0.2,width=0.4,color="red",URL="$a21124.html#a06ca7250d8e89caf05243ec094843642"];
+  Node105 -> Node148 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node148 [label="Foam::IOstream::good",height=0.2,width=0.4,color="black",URL="$a26226.html#abdcc7f96f487faadc7769afcf58fe992",tooltip="Return true if next operation might succeed. "];
+  Node105 -> Node158 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node158 [label="Foam::fileName::lessExt",height=0.2,width=0.4,color="black",URL="$a28234.html#a6807d1f6ee241b17aec7652ecce48f6e",tooltip="Return file name without extension (part before last .) "];
+  Node105 -> Node159 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node159 [label="Foam::OFstream::name",height=0.2,width=0.4,color="black",URL="$a26190.html#aba53f1f9c8fadfa65f4099af10df348c",tooltip="Return the name of the stream. "];
+  Node105 -> Node160 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node160 [label="Foam::fileName::name",height=0.2,width=0.4,color="black",URL="$a28234.html#a433b30fb3a93b9b4d07204699a319ca5",tooltip="Return file name (part beyond last /) "];
+  Node105 -> Node161 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node161 [label="Foam::edgeMesh::points",height=0.2,width=0.4,color="black",URL="$a21754.html#ac44123fc1265297c41a43c3b62fdb4c2",tooltip="Return points. "];
+  Node105 -> Node162 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node162 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node105 -> Node163 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node163 [label="Foam::Vector::x",height=0.2,width=0.4,color="black",URL="$a28442.html#a63327976e5a8359700064a02ae22548e"];
+  Node105 -> Node164 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node164 [label="Foam::Vector::y",height=0.2,width=0.4,color="black",URL="$a28442.html#a1ee865f676fbac703a49c6654dd3ad74"];
+  Node105 -> Node165 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node165 [label="Foam::Vector::z",height=0.2,width=0.4,color="black",URL="$a28442.html#a1c8320b15610de211ec70ef966581423"];
+}

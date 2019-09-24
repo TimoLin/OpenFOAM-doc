@@ -1,0 +1,36 @@
+digraph "rotorDiskSource"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2 [label="rotorDiskSource",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="option",height=0.2,width=0.4,color="red",URL="$a23446.html",tooltip="Finite volume options abtract base class. Provides a base set of controls, e.g. "];
+  Node48 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" points_" ,fontname="FreeSans"];
+  Node48 [label="List\< Foam::Vector \>",height=0.2,width=0.4,color="red",URL="$a25694.html"];
+  Node52 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" geometryModeTypeNames_" ,fontname="FreeSans"];
+  Node52 [label="NamedEnum\< geometryModeType, 2 \>",height=0.2,width=0.4,color="red",URL="$a25998.html"];
+  Node53 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" trim_" ,fontname="FreeSans"];
+  Node53 [label="autoPtr\< Foam::trimModel \>",height=0.2,width=0.4,color="red",URL="$a25958.html"];
+  Node54 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" area_" ,fontname="FreeSans"];
+  Node54 [label="List\< scalar \>",height=0.2,width=0.4,color="red",URL="$a25694.html"];
+  Node56 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" inletFlowTypeNames_" ,fontname="FreeSans"];
+  Node56 [label="NamedEnum\< inletFlowType, 3 \>",height=0.2,width=0.4,color="red",URL="$a25998.html"];
+  Node48 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" x_" ,fontname="FreeSans"];
+  Node57 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" blade_" ,fontname="FreeSans"];
+  Node57 [label="bladeModel",height=0.2,width=0.4,color="red",URL="$a23482.html",tooltip="Blade model class. "];
+  Node54 -> Node57 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" chord_\nradius_\ntwist_" ,fontname="FreeSans"];
+  Node61 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" localAxesRotation_" ,fontname="FreeSans"];
+  Node61 [label="autoPtr\< Foam::localAxes\lRotation \>",height=0.2,width=0.4,color="red",URL="$a25958.html"];
+  Node62 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" coordSys_" ,fontname="FreeSans"];
+  Node62 [label="cylindricalCS",height=0.2,width=0.4,color="red",URL="$a25018.html",tooltip="Cylindrical coordinate system. "];
+  Node64 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" invR_\nR_" ,fontname="FreeSans"];
+  Node64 [label="List\< Foam::Tensor \>",height=0.2,width=0.4,color="red",URL="$a25694.html"];
+  Node66 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" profiles_" ,fontname="FreeSans"];
+  Node66 [label="profileModelList",height=0.2,width=0.4,color="red",URL="$a23494.html",tooltip="Base class for profile models. "];
+  Node69 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" inletVelocity_" ,fontname="FreeSans"];
+  Node69 [label="Vector\< scalar \>",height=0.2,width=0.4,color="red",URL="$a28442.html"];
+  Node75 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" flap_" ,fontname="FreeSans"];
+  Node75 [label="flapData",height=0.2,width=0.4,color="black",URL="$a23506.html"];
+}

@@ -1,0 +1,26 @@
+digraph "PatchInteractionModel&lt; CloudType &gt;"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="PatchInteractionModel\l\< CloudType \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="CloudSubModelBase\<\l CloudType \>",height=0.2,width=0.4,color="red",URL="$a24006.html",tooltip="Base class for cloud sub-models. "];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="LocalInteraction\< CloudType \>",height=0.2,width=0.4,color="black",URL="$a24170.html",tooltip="Patch interaction specified on a patch-by-patch basis. "];
+  Node0 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="MultiInteraction\< CloudType \>",height=0.2,width=0.4,color="black",URL="$a24182.html",tooltip="Runs multiple patch interaction models in turn. Takes dictionary where all the subdictionaries are th..."];
+  Node0 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="NoInteraction\< CloudType \>",height=0.2,width=0.4,color="black",URL="$a24186.html",tooltip="Dummy class for &#39;none&#39; option - will raise an error if any functions are called that require return v..."];
+  Node0 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="Rebound\< CloudType \>",height=0.2,width=0.4,color="black",URL="$a24190.html",tooltip="Simple rebound patch interaction model. "];
+  Node0 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="StandardWallInteraction\l\< CloudType \>",height=0.2,width=0.4,color="black",URL="$a24194.html",tooltip="Wall interaction model. Three choices: "];
+  Node0 -> Node8 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< Foam::KinematicCloud\l\< Foam::DsmcCloud \> \>" ,fontname="FreeSans"];
+  Node8 [label="PatchInteractionModel\l\< Foam::KinematicCloud\l\< Foam::DsmcCloud \> \>",height=0.2,width=0.4,color="black",URL="$a23774.html"];
+  Node0 -> Node9 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< Foam::KinematicCloud\l\< CloudType \> \>" ,fontname="FreeSans"];
+  Node9 [label="PatchInteractionModel\l\< Foam::KinematicCloud\l\< CloudType \> \>",height=0.2,width=0.4,color="black",URL="$a23774.html"];
+  Node0 -> Node10 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< Foam::DsmcCloud \>" ,fontname="FreeSans"];
+  Node10 [label="PatchInteractionModel\l\< Foam::DsmcCloud \>",height=0.2,width=0.4,color="black",URL="$a23774.html"];
+}

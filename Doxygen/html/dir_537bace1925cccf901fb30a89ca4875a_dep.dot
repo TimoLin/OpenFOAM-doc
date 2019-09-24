@@ -1,0 +1,29 @@
+digraph "src/OpenFOAM/primitives/DiagTensor" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="FreeSans"];
+  edge [ labelfontsize="10", labelfontname="FreeSans"];
+  subgraph clusterdir_3e50f45338116b169052b428016851aa {
+    graph [ bgcolor="#ddddee", pencolor="black", label="primitives" fontname="FreeSans", fontsize="10", URL="dir_3e50f45338116b169052b428016851aa.html"]
+  subgraph clusterdir_537bace1925cccf901fb30a89ca4875a {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_537bace1925cccf901fb30a89ca4875a.html"];
+    dir_537bace1925cccf901fb30a89ca4875a [shape=plaintext label="DiagTensor"];
+    dir_91218ede25c8ca6bb6f79e9a68111b81 [shape=box label="diagTensor" color="black" fillcolor="white" style="filled" URL="dir_91218ede25c8ca6bb6f79e9a68111b81.html"];
+  }
+  }
+  dir_15da0e2a135f43ffeb4645c968ce8ac7 [shape=box label="Tensor" color="red" URL="dir_15da0e2a135f43ffeb4645c968ce8ac7.html"];
+  dir_b065e1a4bed1b058c87ac57271f42191 [shape=box label="SphericalTensor" color="red" URL="dir_b065e1a4bed1b058c87ac57271f42191.html"];
+  dir_1b29830830533868fb04f0e807b2ad78 [shape=box label="contiguous" URL="dir_1b29830830533868fb04f0e807b2ad78.html"];
+  dir_1dd80385453c5b0e9d626c2fdc4e90dc [shape=box label="SymmTensor" color="red" URL="dir_1dd80385453c5b0e9d626c2fdc4e90dc.html"];
+  dir_91218ede25c8ca6bb6f79e9a68111b81->dir_1b29830830533868fb04f0e807b2ad78 [headlabel="1", labeldistance=1.5 headhref="dir_002169_002166.html"];
+  dir_15da0e2a135f43ffeb4645c968ce8ac7->dir_b065e1a4bed1b058c87ac57271f42191 [headlabel="3", labeldistance=1.5 headhref="dir_002236_002216.html"];
+  dir_15da0e2a135f43ffeb4645c968ce8ac7->dir_1b29830830533868fb04f0e807b2ad78 [headlabel="2", labeldistance=1.5 headhref="dir_002236_002166.html"];
+  dir_15da0e2a135f43ffeb4645c968ce8ac7->dir_1dd80385453c5b0e9d626c2fdc4e90dc [headlabel="3", labeldistance=1.5 headhref="dir_002236_002231.html"];
+  dir_537bace1925cccf901fb30a89ca4875a->dir_15da0e2a135f43ffeb4645c968ce8ac7 [headlabel="1", labeldistance=1.5 headhref="dir_002168_002236.html"];
+  dir_537bace1925cccf901fb30a89ca4875a->dir_b065e1a4bed1b058c87ac57271f42191 [headlabel="1", labeldistance=1.5 headhref="dir_002168_002216.html"];
+  dir_537bace1925cccf901fb30a89ca4875a->dir_1dd80385453c5b0e9d626c2fdc4e90dc [headlabel="1", labeldistance=1.5 headhref="dir_002168_002231.html"];
+  dir_b065e1a4bed1b058c87ac57271f42191->dir_1b29830830533868fb04f0e807b2ad78 [headlabel="2", labeldistance=1.5 headhref="dir_002216_002166.html"];
+  dir_1dd80385453c5b0e9d626c2fdc4e90dc->dir_15da0e2a135f43ffeb4645c968ce8ac7 [headlabel="1", labeldistance=1.5 headhref="dir_002231_002236.html"];
+  dir_1dd80385453c5b0e9d626c2fdc4e90dc->dir_b065e1a4bed1b058c87ac57271f42191 [headlabel="1", labeldistance=1.5 headhref="dir_002231_002216.html"];
+  dir_1dd80385453c5b0e9d626c2fdc4e90dc->dir_1b29830830533868fb04f0e807b2ad78 [headlabel="2", labeldistance=1.5 headhref="dir_002231_002166.html"];
+}

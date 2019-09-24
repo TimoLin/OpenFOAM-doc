@@ -1,0 +1,22 @@
+digraph "uniformDiffusivity"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="uniformDiffusivity",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="motionDiffusivity",height=0.2,width=0.4,color="black",URL="$a23382.html",tooltip="Abstract base class for cell-centre mesh motion diffusivity. "];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="directionalDiffusivity",height=0.2,width=0.4,color="black",URL="$a23350.html",tooltip="Directional finite volume mesh motion diffusivity. "];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="inverseDistanceDiffusivity",height=0.2,width=0.4,color="black",URL="$a23358.html",tooltip="Inverse distance to the given patches motion diffusivity. "];
+  Node0 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="inverseFaceDistanceDiffusivity",height=0.2,width=0.4,color="black",URL="$a23362.html",tooltip="Inverse distance to the given patches motion diffusivity. "];
+  Node0 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="inversePointDistanceDiffusivity",height=0.2,width=0.4,color="black",URL="$a23366.html",tooltip="Inverse distance to the given patches motion diffusivity. "];
+  Node0 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="inverseVolumeDiffusivity",height=0.2,width=0.4,color="black",URL="$a23370.html",tooltip="Inverse cell-volume motion diffusivity. "];
+  Node0 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="motionDirectionalDiffusivity",height=0.2,width=0.4,color="black",URL="$a23386.html",tooltip="MotionDirectional finite volume mesh motion diffusivity. "];
+}

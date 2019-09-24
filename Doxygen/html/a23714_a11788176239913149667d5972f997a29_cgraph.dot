@@ -1,0 +1,24 @@
+digraph "sigmaTcR"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node25 [label="sigmaTcR",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node25 -> Node26 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node26 [label="collide",height=0.2,width=0.4,color="red",URL="$a23714.html#af028e1d3dc9aba7d1abd7d124b8a9a27",tooltip="Apply collision. "];
+  Node26 -> Node29 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node29 [label="Foam::DsmcCloud::constProps",height=0.2,width=0.4,color="black",URL="$a23686.html#a2b3761dd2c3d4969ca743a686175a69b",tooltip="Return all of the constant properties. "];
+  Node26 -> Node30 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node30 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node25 -> Node29 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node25 -> Node39 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node39 [label="Foam::exp",height=0.2,width=0.4,color="black",URL="$a21124.html#a12bca6c677fcf0977532179c3cb9bb89"];
+  Node25 -> Node40 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node40 [label="Foam::lgamma",height=0.2,width=0.4,color="black",URL="$a21124.html#a26ec6e5e1885acc36bdb70464a4d694e"];
+  Node25 -> Node30 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node25 -> Node41 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node41 [label="Foam::constant::mathematical::pi",height=0.2,width=0.4,color="black",URL="$a21162.html#a731b8788a4c01586c35266c7ca4fed04"];
+  Node25 -> Node34 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34 [label="Foam::pow",height=0.2,width=0.4,color="red",URL="$a21124.html#a7500c8e9d27a442adc75e287de074c7c"];
+}

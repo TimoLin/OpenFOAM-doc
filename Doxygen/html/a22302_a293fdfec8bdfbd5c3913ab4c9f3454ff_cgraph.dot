@@ -1,0 +1,15 @@
+digraph "write"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node144 [label="write",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node144 -> Node145 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node145 [label="Foam::makePatchTypeField",height=0.2,width=0.4,color="black",URL="$a21124.html#a44a8c9a8ab08f6bf1f84bf3dab3f82a2"];
+  Node144 -> Node146 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node146 [label="Foam::fvPatchField\l::write",height=0.2,width=0.4,color="red",URL="$a22354.html#a293fdfec8bdfbd5c3913ab4c9f3454ff",tooltip="Write. "];
+  Node146 -> Node154 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node154 [label="Foam::Ostream::writeKeyword",height=0.2,width=0.4,color="red",URL="$a26238.html#a3c58b2bb9174ea3c4a5fa58095d1290e",tooltip="Write the keyword followed by an appropriate indentation. "];
+  Node144 -> Node154 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

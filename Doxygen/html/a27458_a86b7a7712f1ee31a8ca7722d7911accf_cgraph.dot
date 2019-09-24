@@ -1,0 +1,19 @@
+digraph "referPatchID"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node451 [label="referPatchID",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node451 -> Node452 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node452 [label="Foam::polyPatch::boundaryMesh",height=0.2,width=0.4,color="black",URL="$a27478.html#a729e6b97bfa357ec46f60ff7f2e7779a",tooltip="Return boundaryMesh reference. "];
+  Node451 -> Node453 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node453 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node451 -> Node455 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node455 [label="Foam::exit",height=0.2,width=0.4,color="red",URL="$a21124.html#a06ca7250d8e89caf05243ec094843642"];
+  Node451 -> Node500 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node500 [label="Foam::polyBoundaryMesh\l::findPatchID",height=0.2,width=0.4,color="red",URL="$a27402.html#ac89fe0aab9fe12bd4f0d3807495fe72b",tooltip="Find patch index given a name. "];
+  Node500 -> Node453 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node451 -> Node504 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node504 [label="Foam::polyBoundaryMesh\l::names",height=0.2,width=0.4,color="red",URL="$a27402.html#ada6aa4fc7adb36994dc5e27d319a3acc",tooltip="Return a list of patch names. "];
+}

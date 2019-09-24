@@ -1,0 +1,30 @@
+digraph "edgeNormals"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node411 [label="edgeNormals",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node411 -> Node412 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node412 [label="Foam::mapDistribute\l::constructSize",height=0.2,width=0.4,color="black",URL="$a27362.html#aafa5c5eaac08986c309d43bb80c2ab1f",tooltip="Constructed data size. "];
+  Node411 -> Node413 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node413 [label="Foam::PrimitivePatch\l::edgeFaces",height=0.2,width=0.4,color="black",URL="$a27538.html#ad38ecd2902727a890ebd437731c271c8",tooltip="Return edge-face addressing. "];
+  Node411 -> Node414 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node414 [label="Foam::PrimitivePatch\l::faceNormals",height=0.2,width=0.4,color="black",URL="$a27538.html#ad96a54bba336ea57f59f0da350d3c265",tooltip="Return face normals for patch. "];
+  Node411 -> Node415 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node415 [label="Foam::polyMesh::globalData",height=0.2,width=0.4,color="red",URL="$a27410.html#a5e9cb8eb9e52843d336386b13423d19c",tooltip="Return parallel info. "];
+  Node411 -> Node418 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node418 [label="Foam::globalMeshData\l::globalEdgeSlaves",height=0.2,width=0.4,color="black",URL="$a27334.html#afa581a6489608d506bd89d856d025035"];
+  Node411 -> Node419 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node419 [label="Foam::globalMeshData\l::globalEdgeSlavesMap",height=0.2,width=0.4,color="black",URL="$a27334.html#a8ade9363e1031c5b5623b27388bf9252"];
+  Node411 -> Node420 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node420 [label="Foam::globalMeshData\l::globalEdgeTransformedSlaves",height=0.2,width=0.4,color="black",URL="$a27334.html#a26441ca5632603facc931e1293df059d"];
+  Node411 -> Node421 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node421 [label="Foam::globalMeshData\l::globalTransforms",height=0.2,width=0.4,color="black",URL="$a27334.html#ac9bc896b4902c5873e7314dcc15477c8",tooltip="Global transforms numbering. "];
+  Node411 -> Node422 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node422 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node411 -> Node423 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node423 [label="Foam::PrimitivePatch\l::nEdges",height=0.2,width=0.4,color="black",URL="$a27538.html#a086513bcff1a3f1684e1a3879dd90deb",tooltip="Return number of edges in patch. "];
+  Node411 -> Node424 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node424 [label="Foam::globalMeshData\l::syncData",height=0.2,width=0.4,color="red",URL="$a27334.html#a81fffc5ec4bfe50dd3ba0a3ca38ee2f1",tooltip="Helper: synchronise data with transforms. "];
+}

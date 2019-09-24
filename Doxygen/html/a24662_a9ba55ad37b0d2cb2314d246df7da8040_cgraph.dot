@@ -1,0 +1,42 @@
+digraph "checkCoupledFaceZones"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2332 [label="checkCoupledFaceZones",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2332 -> Node2333 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2333 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node2332 -> Node2376 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2376 [label="calculateEdgeWeights",height=0.2,width=0.4,color="red",URL="$a24662.html#a655628b19efe5c0aa6b8bb6726cc5848",tooltip="Helper: calculate edge weights (1/length) "];
+  Node2332 -> Node2398 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2398 [label="Foam::exit",height=0.2,width=0.4,color="red",URL="$a21124.html#a06ca7250d8e89caf05243ec094843642"];
+  Node2332 -> Node2427 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2427 [label="Foam::polyMesh::faceZones",height=0.2,width=0.4,color="black",URL="$a27410.html#af216614a0f9997169eea2cade46dc9ba",tooltip="Return face zone mesh. "];
+  Node2332 -> Node2428 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2428 [label="Foam::Pstream::gatherList",height=0.2,width=0.4,color="red",URL="$a26250.html#afbdf64fb42cd760690d51a9a321792d9",tooltip="Gather data but keep individual values separate. "];
+  Node2428 -> Node2429 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2429 [label="Foam::UPstream::nProcs",height=0.2,width=0.4,color="red",URL="$a26270.html#aada0e04d8127eda8ee95be0772754a4f",tooltip="Number of processes in parallel run. "];
+  Node2428 -> Node2333 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2428 -> Node2430 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2430 [label="Foam::UPstream::myProcNo",height=0.2,width=0.4,color="black",URL="$a26270.html#afc74d89573de32a3032c916f8cdd1733",tooltip="Number of this process (starting from masterNo() = 0) "];
+  Node2332 -> Node2430 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2332 -> Node2438 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2438 [label="Foam::zone::name",height=0.2,width=0.4,color="red",URL="$a27518.html#acc80e00a8ac919288fb55bd14cc88bf6",tooltip="Return name. "];
+  Node2332 -> Node2449 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2449 [label="Foam::IOobject::name",height=0.2,width=0.4,color="black",URL="$a26142.html#acc80e00a8ac919288fb55bd14cc88bf6",tooltip="Return name. "];
+  Node2332 -> Node2450 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2450 [label="Foam::ZoneMesh::names",height=0.2,width=0.4,color="black",URL="$a27522.html#ada6aa4fc7adb36994dc5e27d319a3acc",tooltip="Return a list of zone names. "];
+  Node2332 -> Node2410 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2410 [label="Foam::primitiveMesh\l::nFaces",height=0.2,width=0.4,color="black",URL="$a27530.html#abe602c985a3c9ffa67176e969e77ca6f"];
+  Node2332 -> Node2451 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2451 [label="Foam::primitiveMesh\l::nInternalFaces",height=0.2,width=0.4,color="black",URL="$a27530.html#aa6c7965af1f30d16d9125deb981cbdb0"];
+  Node2332 -> Node2429 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2332 -> Node2452 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2452 [label="Foam::Pstream::scatterList",height=0.2,width=0.4,color="red",URL="$a26250.html#a23c38ee54f04c9d53a327db9edbdb7f0",tooltip="Scatter data. Reverse of gatherList. "];
+  Node2452 -> Node2429 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2452 -> Node2333 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2452 -> Node2430 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2332 -> Node2456 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2456 [label="Foam::syncTools::swapBoundary\lFaceList",height=0.2,width=0.4,color="red",URL="$a27502.html#a30e4f2ce2c2399c35f5d674bdb7c07fd",tooltip="Swap coupled boundary face values. "];
+}

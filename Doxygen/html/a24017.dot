@@ -1,0 +1,11 @@
+digraph "PairModel&lt; CloudType &gt;"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node0 [label="PairModel\< CloudType \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="PairSpringSliderDashpot\l\< CloudType \>",height=0.2,width=0.4,color="black",URL="$a24030.html",tooltip="Pair forces between particles colliding with a spring, slider, damper model. "];
+  Node0 -> Node2 [dir="back",color="orange",fontsize="10",style="dashed",label=" \< Foam::DsmcCloud \>" ,fontname="FreeSans"];
+  Node2 [label="PairModel\< Foam::DsmcCloud \>",height=0.2,width=0.4,color="black",URL="$a24018.html"];
+}

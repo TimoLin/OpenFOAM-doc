@@ -1,0 +1,16 @@
+digraph "externalCoupledMixedFvPatchField&lt; Type &gt;"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node12 [label="externalCoupledMixedFvPatch\lField\< Type \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node13 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13 [label="mixedFvPatchField\<\l Type \>",height=0.2,width=0.4,color="red",URL="$a21990.html",tooltip="This boundary condition provides a base class for &#39;mixed&#39; type boundary conditions, i.e. conditions that mix fixed value and patch-normal gradient conditions. "];
+  Node22 -> Node12 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" patchKey" ,fontname="FreeSans"];
+  Node22 [label="string",height=0.2,width=0.4,color="red",URL="$a28250.html",tooltip="A class for handling character strings derived from std::string. "];
+  Node22 -> Node22 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" null" ,fontname="FreeSans"];
+  Node24 -> Node12 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" lockName" ,fontname="FreeSans"];
+  Node24 [label="word",height=0.2,width=0.4,color="black",URL="$a28258.html",tooltip="A class for handling words, derived from string. "];
+  Node22 -> Node24 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node24 -> Node24 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" null" ,fontname="FreeSans"];
+}

@@ -1,0 +1,20 @@
+digraph "parcelsToInject"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1445 [label="parcelsToInject",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1445 -> Node1446 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1446 [label="averageParcelMass",height=0.2,width=0.4,color="black",URL="$a24074.html#a8d6e9910b3b4ee07b11d7637b97348e2",tooltip="Return the average parcel mass over the injection period. "];
+  Node1446 -> Node1447 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1447 [label="clone",height=0.2,width=0.4,color="black",URL="$a24074.html#ac6d7055f88f8ceb366a9f64d3ba635e0",tooltip="Construct and return a clone. "];
+  Node1445 -> Node1447 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1445 -> Node1448 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1448 [label="injectSteadyState",height=0.2,width=0.4,color="red",URL="$a24074.html#a9c90fd504e4159250942be6d20db9095",tooltip="Main injection loop - steady-state. "];
+  Node1448 -> Node1447 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1445 -> Node1450 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1450 [label="timeEnd",height=0.2,width=0.4,color="red",URL="$a24074.html#afd5e776d9ab536787996546ab74c728d",tooltip="Return the end-of-injection time. "];
+  Node1450 -> Node1446 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1450 -> Node1447 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

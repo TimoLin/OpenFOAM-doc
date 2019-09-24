@@ -1,0 +1,21 @@
+digraph "transform"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1646 [label="transform",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1646 -> Node1647 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1647 [label="centreOfRotation",height=0.2,width=0.4,color="red",URL="$a29530.html#ac69bb45c63cd2a8b38afc3ea65090515",tooltip="Return the current centre of rotation. "];
+  Node1646 -> Node1649 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1649 [label="s",height=0.2,width=0.4,color="black",URL="$a18905.html#abb9c4233033fad2ad0206cd4adad3b9f"];
+  Node1646 -> Node1650 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1650 [label="Foam::slerp",height=0.2,width=0.4,color="red",URL="$a21124.html#ad99931d1155936b2d8aa2ce6651bce06",tooltip="Spherical linear interpolation of quaternions. "];
+  Node1646 -> Node1657 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1657 [label="Foam::T",height=0.2,width=0.4,color="red",URL="$a21124.html#ae57fda0abb14bb0944947c463c6e09d4"];
+  Node1646 -> Node1658 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1658 [label="Foam::septernion::transform",height=0.2,width=0.4,color="red",URL="$a28182.html#a9238fc61b8fc08c41a1f1be6cc31b3e0",tooltip="Transform the given vector. "];
+  Node1646 -> Node1666 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1666 [label="transform",height=0.2,width=0.4,color="red",URL="$a29530.html#a538a8aa596e3b9cc2a16563d338bf3e9",tooltip="Transform the given initial state point by the current motion. "];
+  Node1666 -> Node1647 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

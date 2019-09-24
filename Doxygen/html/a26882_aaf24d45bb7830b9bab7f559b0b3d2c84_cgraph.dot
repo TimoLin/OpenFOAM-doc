@@ -1,0 +1,19 @@
+digraph "sumA"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1074 [label="sumA",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1074 -> Node1075 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1075 [label="Foam::UList::begin",height=0.2,width=0.4,color="black",URL="$a25698.html#a8a0643ef7f391465066f7f07d45ce934",tooltip="Return an iterator to begin traversing the UList. "];
+  Node1074 -> Node1076 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1076 [label="Foam::diag",height=0.2,width=0.4,color="red",URL="$a21124.html#a8cdb0ba0633c91ed7041368519cd217c"];
+  Node1074 -> Node1081 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1081 [label="residual",height=0.2,width=0.4,color="red",URL="$a26882.html#a0d945b22e88eed13c032943a09bb63ea"];
+  Node1081 -> Node1075 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1081 -> Node1076 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1081 -> Node1083 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1083 [label="Foam::UPtrList::set",height=0.2,width=0.4,color="black",URL="$a25990.html#a2d4fe99e7a41d6359b3c1946995622a0",tooltip="Is element set. "];
+  Node1074 -> Node1083 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

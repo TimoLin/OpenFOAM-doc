@@ -1,0 +1,41 @@
+digraph "src/finiteVolume/cfdTools/general/include/fvCFD.H"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node0 [label="src/finiteVolume/cfdTools\l/general/include/fvCFD.H",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="parRun.H",height=0.2,width=0.4,color="red",URL="$a10199.html"];
+  Node0 -> Node83 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node83 [label="Time.H",height=0.2,width=0.4,color="red",URL="$a09311.html"];
+  Node0 -> Node157 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node157 [label="fvMesh.H",height=0.2,width=0.4,color="red",URL="$a03533.html"];
+  Node0 -> Node290 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node290 [label="fvc.H",height=0.2,width=0.4,color="red",URL="$a02924.html"];
+  Node0 -> Node325 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node325 [label="fvMatrices.H",height=0.2,width=0.4,color="red",URL="$a03272.html",tooltip="A special matrix type and solver, designed for finite volume solutions of scalar equations. "];
+  Node0 -> Node363 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node363 [label="fvm.H",height=0.2,width=0.4,color="red",URL="$a03053.html"];
+  Node0 -> Node369 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node369 [label="linear.H",height=0.2,width=0.4,color="grey75"];
+  Node0 -> Node370 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node370 [label="uniformDimensionedFields.H",height=0.2,width=0.4,color="red",URL="$a10187.html"];
+  Node0 -> Node353 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node353 [label="calculatedFvPatchFields.H",height=0.2,width=0.4,color="red",URL="$a01424.html"];
+  Node0 -> Node372 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node372 [label="fixedValueFvPatchFields.H",height=0.2,width=0.4,color="red",URL="$a01484.html"];
+  Node0 -> Node374 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node374 [label="adjustPhi.H",height=0.2,width=0.4,color="red",URL="$a01205.html",tooltip="For cases which do no have a pressure boundary adjust the balance of fluxes to obey continuity..."];
+  Node0 -> Node375 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node375 [label="findRefCell.H",height=0.2,width=0.4,color="red",URL="$a01217.html",tooltip="Find the reference cell nearest (in index) to the given cell but which is not on a cyclic..."];
+  Node0 -> Node376 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node376 [label="constants.H",height=0.2,width=0.4,color="red",URL="$a10217.html"];
+  Node0 -> Node90 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node90 [label="OSspecific.H",height=0.2,width=0.4,color="red",URL="$a10370.html",tooltip="Functions used by OpenFOAM that are specific to POSIX compliant operating systems and need to be repl..."];
+  Node0 -> Node383 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node383 [label="argList.H",height=0.2,width=0.4,color="red",URL="$a10193.html"];
+  Node383 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node383 -> Node90 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node0 -> Node391 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node391 [label="timeSelector.H",height=0.2,width=0.4,color="red",URL="$a09326.html"];
+}

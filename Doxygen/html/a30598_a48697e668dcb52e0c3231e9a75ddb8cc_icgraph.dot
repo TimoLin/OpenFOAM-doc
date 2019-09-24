@@ -1,0 +1,18 @@
+digraph "markZones"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node896 [label="markZones",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node896 -> Node897 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node897 [label="Foam::booleanSurface\l::booleanSurface",height=0.2,width=0.4,color="black",URL="$a25486.html#a88e679563079efe444d5005b5d5e0716",tooltip="Construct from surfaces and face labels to keep. "];
+  Node896 -> Node898 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node898 [label="markZone",height=0.2,width=0.4,color="red",URL="$a30598.html#a831447aa47e16df42f717c6f527c648b",tooltip="Fill faceZone with currentZone for every face reachable. "];
+  Node898 -> Node896 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node898 -> Node900 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node900 [label="patches",height=0.2,width=0.4,color="black",URL="$a30598.html#adf6d6f4f6576d5bd544f3ba396fa3946"];
+  Node896 -> Node901 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node901 [label="Foam::orientedSurface\l::orient",height=0.2,width=0.4,color="black",URL="$a25506.html#aa4acb2637dc6e4cca4ebfa19424b5d43",tooltip="Flip faces such that normals are consistent with point: "];
+  Node896 -> Node900 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,21 @@
+digraph "readHeader"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node63 [label="readHeader",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node63 -> Node64 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node64 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node63 -> Node72 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node72 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node63 -> Node107 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node107 [label="Foam::ISstream::getLine",height=0.2,width=0.4,color="red",URL="$a26286.html#a94b82bd8f7d8cdaa83c9c70b7c919f78",tooltip="Raw, low-level getline into a string function. "];
+  Node63 -> Node99 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node99 [label="Foam::IOstream::good",height=0.2,width=0.4,color="black",URL="$a26226.html#abdcc7f96f487faadc7769afcf58fe992",tooltip="Return true if next operation might succeed. "];
+  Node63 -> Node109 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node109 [label="Foam::IFstream::name",height=0.2,width=0.4,color="black",URL="$a26182.html#aba53f1f9c8fadfa65f4099af10df348c",tooltip="Return the name of the stream. "];
+  Node63 -> Node110 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node110 [label="writeHeader",height=0.2,width=0.4,color="red",URL="$a21886.html#a22e88f3f48919f40209868c785a7789c",tooltip="Write header for fileType (CELL|VERTEX|BOUNDARY) "];
+  Node110 -> Node72 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

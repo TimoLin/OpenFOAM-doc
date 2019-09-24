@@ -1,0 +1,33 @@
+digraph "above"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node53 [label="above",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node53 -> Node54 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node54 [label="Foam::Pstream::combineGather",height=0.2,width=0.4,color="red",URL="$a26250.html#aedeba5b3a63f833796d48d904dc39b63"];
+  Node53 -> Node82 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node82 [label="Foam::Pstream::combineScatter",height=0.2,width=0.4,color="red",URL="$a26250.html#a2eea2c110e936c30c8f66b7326c69be5",tooltip="Scatter data. Reverse of combineGather. "];
+  Node53 -> Node84 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node84 [label="Foam::Pstream::gather",height=0.2,width=0.4,color="red",URL="$a26250.html#ac820bc187d8204d9063ce1f77dcf87da",tooltip="Gather data. Apply bop to combine Value. "];
+  Node53 -> Node1287 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1287 [label="Foam::Pstream::gatherList",height=0.2,width=0.4,color="red",URL="$a26250.html#afbdf64fb42cd760690d51a9a321792d9",tooltip="Gather data but keep individual values separate. "];
+  Node53 -> Node1317 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1317 [label="Foam::Pstream::listCombine\lGather",height=0.2,width=0.4,color="red",URL="$a26250.html#a8c0e5044dc4a942cf62b06797c3a743f"];
+  Node53 -> Node1327 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1327 [label="Foam::Pstream::listCombine\lScatter",height=0.2,width=0.4,color="red",URL="$a26250.html#adfd4915b68ab7181dccb847976286e56",tooltip="Scatter data. Reverse of combineGather. "];
+  Node53 -> Node1329 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1329 [label="Foam::Pstream::mapCombine\lGather",height=0.2,width=0.4,color="red",URL="$a26250.html#ab0d015456e1aebecc6f0e06668de1437"];
+  Node53 -> Node1332 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1332 [label="Foam::Pstream::mapCombine\lScatter",height=0.2,width=0.4,color="red",URL="$a26250.html#a8989a48f795cff7dd8f59d00c094e484",tooltip="Scatter data. Reverse of combineGather. "];
+  Node53 -> Node1334 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1334 [label="operator==",height=0.2,width=0.4,color="red",URL="$a26274.html#a403df1763ef8184d717c71ef63d837d7"];
+  Node53 -> Node1339 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1339 [label="Foam::regIOobject::read",height=0.2,width=0.4,color="red",URL="$a26334.html#af816873151ddb0126e98bb2f914d8ed5",tooltip="Read object. "];
+  Node53 -> Node2617 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2617 [label="Foam::Pstream::scatter",height=0.2,width=0.4,color="red",URL="$a26250.html#a00bc7d5a0b660cfa53523561af48def2",tooltip="Scatter data. Distribute without modification. Reverse of gather. "];
+  Node2617 -> Node1339 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node53 -> Node1336 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1336 [label="Foam::Pstream::scatterList",height=0.2,width=0.4,color="red",URL="$a26250.html#a23c38ee54f04c9d53a327db9edbdb7f0",tooltip="Scatter data. Reverse of gatherList. "];
+}

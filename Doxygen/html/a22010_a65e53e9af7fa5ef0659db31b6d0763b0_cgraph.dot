@@ -1,0 +1,14 @@
+digraph "initEvaluate"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node245 [label="initEvaluate",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node245 -> Node246 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node246 [label="evaluate",height=0.2,width=0.4,color="red",URL="$a22010.html#ab9de8baa38a38ec4603e74eb6d5f8f73",tooltip="Evaluate the patch field. "];
+  Node245 -> Node252 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node252 [label="Foam::fvPatchField\l::evaluate",height=0.2,width=0.4,color="black",URL="$a22354.html#a3b59c070ab0408e3bbb21927540159f4",tooltip="Evaluate the patch field, sets Updated to false. "];
+  Node245 -> Node253 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node253 [label="Foam::fvPatchField\l::updated",height=0.2,width=0.4,color="black",URL="$a22354.html#adb515d6ca9be66613efaaeb72c9709db",tooltip="Return true if the boundary condition has already been updated. "];
+}

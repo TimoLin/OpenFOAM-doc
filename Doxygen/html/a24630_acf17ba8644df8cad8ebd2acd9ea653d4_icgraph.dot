@@ -1,0 +1,18 @@
+digraph "expansionRatio"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node352 [label="expansionRatio",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node352 -> Node353 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node353 [label="finalLayerThicknessRatio",height=0.2,width=0.4,color="red",URL="$a24630.html#a0daf64082d13da98739f34f4a0b5e866",tooltip="Determine ratio of final layer thickness to. "];
+  Node353 -> Node358 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node358 [label="meshShrinker",height=0.2,width=0.4,color="red",URL="$a24630.html#ab7463e0a43e792284bb1c6171ed4592f",tooltip="Type of mesh shrinker. "];
+  Node352 -> Node359 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node359 [label="layerExpansionRatio",height=0.2,width=0.4,color="black",URL="$a24630.html#afa54f4870d53860a9655a9da26a4d0eb",tooltip="Determine expansion ratio. Uses two of the four parameters. "];
+  Node352 -> Node360 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node360 [label="layerThickness",height=0.2,width=0.4,color="red",URL="$a24630.html#a8ef599a7b0b1a220b3704456c0eab91a",tooltip="Determine overall thickness. Uses two of the four parameters. "];
+  Node360 -> Node358 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node352 -> Node358 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,18 @@
+digraph "solve"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node16 [label="solve",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node16 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17 [label="Foam::ODESystem::derivatives",height=0.2,width=0.4,color="black",URL="$a25606.html#ace3a2c5d7e8dfc90926fb5d1ae2e6786",tooltip="Calculate the derivatives in dydx. "];
+  Node16 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 [label="Foam::ODESystem::jacobian",height=0.2,width=0.4,color="black",URL="$a25606.html#a2ac73d58c3f008beaafc51f4684ed4d2",tooltip="Calculate the Jacobian of the system. "];
+  Node16 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19 [label="Foam::LUBacksubstitute",height=0.2,width=0.4,color="red",URL="$a21124.html#a3a4fbcdd330a7cdba4ce12676ad9cb3e",tooltip="LU back-substitution with given source, returning the solution. "];
+  Node16 -> Node22 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22 [label="Foam::LUDecompose",height=0.2,width=0.4,color="red",URL="$a21124.html#a4c90a8a26de44c9bed71aef2138ce997",tooltip="LU decompose the matrix with pivoting. "];
+  Node16 -> Node24 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node24 [label="Foam::ODESolver::normalize\lError",height=0.2,width=0.4,color="red",URL="$a25554.html#a7656ba3e8575685fe1f2d0ed1df1902a",tooltip="Return the nomalized scalar error. "];
+}

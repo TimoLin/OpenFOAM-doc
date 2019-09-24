@@ -1,0 +1,20 @@
+digraph "operator()"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3 [label="operator()",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node3 -> Node47 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node47 [label="Foam::tetrahedron::d",height=0.2,width=0.4,color="red",URL="$a27586.html#af2b8331e5e58cc6e0b30e002fe715aa5"];
+  Node3 -> Node49 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node49 [label="Foam::FixedList::fcIndex",height=0.2,width=0.4,color="black",URL="$a25894.html#a512534dbc231b74b95ff84902c1b2087",tooltip="Return the forward circular index, i.e. the next index. "];
+  Node3 -> Node50 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node50 [label="Foam::plane::normal",height=0.2,width=0.4,color="black",URL="$a27570.html#a7561a676d5a3fa90384c444758baac4c",tooltip="Return plane normal. "];
+  Node3 -> Node51 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node51 [label="Foam::plane::refPoint",height=0.2,width=0.4,color="black",URL="$a27570.html#a7223767562e3dabf175946fb83a13237",tooltip="Return or return plane base point. "];
+  Node3 -> Node52 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node52 [label="Foam::tetrahedron::\lsliceWithPlane",height=0.2,width=0.4,color="red",URL="$a27586.html#ad7600f0e49299bfc467751f91e6435f1",tooltip="Decompose tet into tets above and below plane. "];
+}

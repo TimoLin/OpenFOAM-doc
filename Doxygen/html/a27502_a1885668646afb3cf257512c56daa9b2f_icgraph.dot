@@ -1,0 +1,39 @@
+digraph "syncBoundaryFaceList"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2434 [label="syncBoundaryFaceList",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2434 -> Node2435 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2435 [label="Foam::cellToFaceStencil\l::calcFaceStencil",height=0.2,width=0.4,color="red",URL="$a22686.html#a75899a6e0677e40388327173f197eb45",tooltip="Collect cell neighbours into extended stencil. "];
+  Node2434 -> Node2442 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2442 [label="Foam::removePoints\l::getUnrefimentSet",height=0.2,width=0.4,color="red",URL="$a21722.html#afdfc17d52782dd8fc76db118ce9c74e0",tooltip="Given set of faces to restore calculates a consistent set of. "];
+  Node2434 -> Node2448 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2448 [label="Foam::minEqOpFace::\loperator()",height=0.2,width=0.4,color="black",URL="$a25194.html#addccbfe6235f4e2b4483404bc0177a92"];
+  Node2434 -> Node2449 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2449 [label="swapBoundaryFaceList",height=0.2,width=0.4,color="red",URL="$a27502.html#a30e4f2ce2c2399c35f5d674bdb7c07fd",tooltip="Swap coupled boundary face values. "];
+  Node2449 -> Node2516 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2516 [label="syncFacePositions",height=0.2,width=0.4,color="black",URL="$a27502.html#a7ae518045a79b8f299ca4d64db0b96b4",tooltip="Synchronize locations on all mesh faces. "];
+  Node2516 -> Node2517 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2517 [label="syncFaceList",height=0.2,width=0.4,color="red",URL="$a27502.html#abed40ebf1b90b365509600f5e7b004b7",tooltip="Synchronize values on all mesh faces. "];
+  Node2517 -> Node2546 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2546 [label="syncBoundaryFacePositions",height=0.2,width=0.4,color="red",URL="$a27502.html#a6df81b2bf1cb57d5a6ccc1d8d26b711c",tooltip="Synchronize locations on boundary faces only. "];
+  Node2546 -> Node2547 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2547 [label="syncBoundaryFaceList",height=0.2,width=0.4,color="black",URL="$a27502.html#a5fc78125c6b4108250dd617a0fe10111",tooltip="Synchronize values on boundary faces only. "];
+  Node2517 -> Node2434 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2434 -> Node2557 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2557 [label="swapBoundaryFacePositions",height=0.2,width=0.4,color="red",URL="$a27502.html#aeb004d7a883cc5739401dacfccfae7ec",tooltip="Swap coupled positions. "];
+  Node2557 -> Node2449 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2434 -> Node2553 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2553 [label="swapFaceList",height=0.2,width=0.4,color="red",URL="$a27502.html#a0a2ccad77335dc7f9439d3933cf109e0",tooltip="Swap coupled face values. "];
+  Node2553 -> Node2557 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2434 -> Node2547 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2434 -> Node2546 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2434 -> Node2638 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2638 [label="syncEdgeList",height=0.2,width=0.4,color="black",URL="$a27502.html#a86e90a506551c4d498997468519bdbb6",tooltip="Synchronize values on selected mesh edges. "];
+  Node2434 -> Node2639 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2639 [label="syncEdgePositions",height=0.2,width=0.4,color="black",URL="$a27502.html#a856208c1a72ee81082bed51edf38e9ea",tooltip="Synchronize locations on selected mesh edges. "];
+  Node2434 -> Node2517 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2434 -> Node2516 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

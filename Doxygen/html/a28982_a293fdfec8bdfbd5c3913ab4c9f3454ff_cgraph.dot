@@ -1,0 +1,16 @@
+digraph "write"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1094 [label="write",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1094 -> Node1095 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1095 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node1094 -> Node1097 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1097 [label="Foam::makePatchTypeField",height=0.2,width=0.4,color="black",URL="$a21124.html#a44a8c9a8ab08f6bf1f84bf3dab3f82a2"];
+  Node1094 -> Node1098 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1098 [label="write",height=0.2,width=0.4,color="black",URL="$a19709.html#a8f30b3c2179b03a7acf273e9dea43342"];
+  Node1094 -> Node1099 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1099 [label="Foam::temperatureCoupled\lBase::write",height=0.2,width=0.4,color="red",URL="$a30786.html#a293fdfec8bdfbd5c3913ab4c9f3454ff",tooltip="Write. "];
+}

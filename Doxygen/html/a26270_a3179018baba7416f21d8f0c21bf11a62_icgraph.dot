@@ -1,0 +1,23 @@
+digraph "freeCommunicator"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node108 [label="freeCommunicator",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node108 -> Node109 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node109 [label="allocateCommunicator",height=0.2,width=0.4,color="red",URL="$a26270.html#ac189f05f0e20e7aa80f737f225250bd5",tooltip="Allocate a new communicator. "];
+  Node109 -> Node115 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node115 [label="UPstream",height=0.2,width=0.4,color="black",URL="$a26270.html#a47ca3cebb1145f967f56f63a7fac7f0c",tooltip="Construct given optional buffer size. "];
+  Node108 -> Node115 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node108 -> Node116 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node116 [label="Foam::UPstream::communicator\l::~communicator",height=0.2,width=0.4,color="black",URL="$a26282.html#ac586eb5ce83fe28c67bbdb4d3b841df4"];
+  Node108 -> Node117 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node117 [label="Foam::eagerGAMGProcAgglomeration\l::~eagerGAMGProcAgglomeration",height=0.2,width=0.4,color="red",URL="$a26978.html#ae9ec4abfa4fb416e43e76c8244ebc767",tooltip="Destructor. "];
+  Node108 -> Node119 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node119 [label="Foam::manualGAMGProcAgglomeration\l::~manualGAMGProcAgglomeration",height=0.2,width=0.4,color="red",URL="$a26986.html#a49707f364a73bdc81d2a125230348e96",tooltip="Destructor. "];
+  Node108 -> Node121 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node121 [label="Foam::masterCoarsestGAMGProc\lAgglomeration::~masterCoarsestGAMGProc\lAgglomeration",height=0.2,width=0.4,color="red",URL="$a26990.html#aa23ca9ca558aa478dc09643f73556881",tooltip="Destructor. "];
+  Node108 -> Node123 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node123 [label="Foam::procFacesGAMGProcAgglomeration\l::~procFacesGAMGProcAgglomeration",height=0.2,width=0.4,color="black",URL="$a26998.html#ad5b21d4b78e8f13b844ea3cb315bc8c7",tooltip="Destructor. "];
+}

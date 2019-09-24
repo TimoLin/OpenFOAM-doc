@@ -1,0 +1,24 @@
+digraph "changePatchType"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2579 [label="changePatchType",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2579 -> Node2580 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2580 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node2579 -> Node2623 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2623 [label="changeFaces",height=0.2,width=0.4,color="red",URL="$a21430.html#aa3edbdb390a2b28fbb17a16562278186",tooltip="Recalculate face ordering and patches. Return old to new. "];
+  Node2623 -> Node2580 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2623 -> Node2626 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2626 [label="Foam::patchIdentifier\l::name",height=0.2,width=0.4,color="black",URL="$a27122.html#acc80e00a8ac919288fb55bd14cc88bf6",tooltip="Return name. "];
+  Node2623 -> Node2628 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2628 [label="Foam::boundaryPatch\l::size",height=0.2,width=0.4,color="black",URL="$a21434.html#a9facbf0a118d395c89884e45a5ca4e4b"];
+  Node2623 -> Node2629 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2629 [label="Foam::boundaryPatch\l::start",height=0.2,width=0.4,color="black",URL="$a21434.html#a6bfd3e3abb11e98bdb4b98671cec1234"];
+  Node2579 -> Node2633 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2633 [label="Foam::patchIdentifier\l::index",height=0.2,width=0.4,color="black",URL="$a27122.html#a4a438520bb14406481732edc13c119c7",tooltip="Return the index of this patch in the boundaryMesh. "];
+  Node2579 -> Node2626 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2579 -> Node2628 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2579 -> Node2629 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

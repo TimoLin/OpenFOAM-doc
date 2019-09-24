@@ -1,0 +1,12 @@
+digraph "remove"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node32280 [label="remove",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node32280 -> Node32281 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node32281 [label="Foam::functionEntries\l::removeEntry::execute",height=0.2,width=0.4,color="black",URL="$a26054.html#a0aa3070c44783d911c1f7924042f1cea",tooltip="Execute the functionEntry in a sub-dict context. "];
+  Node32280 -> Node32282 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node32282 [label="Foam::IOerror::SafeFatal\lIOError",height=0.2,width=0.4,color="red",URL="$a26086.html#a2587907b4e929cdc3e1e17ef88318c77",tooltip="Print basic message and exit. Uses cerr if streams not constructed. "];
+}

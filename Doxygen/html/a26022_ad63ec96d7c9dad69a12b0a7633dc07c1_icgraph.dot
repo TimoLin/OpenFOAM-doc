@@ -1,0 +1,12 @@
+digraph "clone"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node7 [label="clone",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="Foam::dictionary::add",height=0.2,width=0.4,color="black",URL="$a26014.html#a3e88d4c1ab6c66fe2b549c387e426f29",tooltip="Add an entry. "];
+  Node7 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="Foam::dictionary::set",height=0.2,width=0.4,color="black",URL="$a26014.html#aa38cb24271faece390b73c21d81ad8d5",tooltip="Assign a new entry, overwrite any existing entry. "];
+}

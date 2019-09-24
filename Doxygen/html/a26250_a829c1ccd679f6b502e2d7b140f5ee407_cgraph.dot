@@ -1,0 +1,15 @@
+digraph "mapCombineScatter"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4209 [label="mapCombineScatter",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4209 -> Node4210 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4210 [label="Foam::UPstream::linearCommunication",height=0.2,width=0.4,color="black",URL="$a26270.html#af7ec282f2581c26d06e2375a17174591",tooltip="Communication schedule for linear all-to-master (proc 0) "];
+  Node4210 -> Node4211 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4211 [label="Foam::UPstream::treeCommunication",height=0.2,width=0.4,color="black",URL="$a26270.html#afaa38d3b4ac099268cc3081da637d147",tooltip="Communication schedule for tree all-to-master (proc 0) "];
+  Node4209 -> Node4212 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4212 [label="Foam::UPstream::nProcs",height=0.2,width=0.4,color="red",URL="$a26270.html#aada0e04d8127eda8ee95be0772754a4f",tooltip="Number of processes in parallel run. "];
+  Node4209 -> Node4211 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

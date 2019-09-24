@@ -1,0 +1,19 @@
+digraph "points"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1668 [label="points",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1668 -> Node1669 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1669 [label="Foam::distributedTriSurface\lMesh::distribute",height=0.2,width=0.4,color="red",URL="$a28642.html#a30b981a389a43e4853d4dec45e4e5edb",tooltip="Set bounds of surface. Bounds currently set as list of. "];
+  Node1668 -> Node1679 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1679 [label="Foam::NamedEnum\< direction\lType, 3 \>::names",height=0.2,width=0.4,color="black",URL="$a25998.html#a7350da3a0edd92cd11e6c479c9967dc8"];
+  Node1668 -> Node1680 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1680 [label="size",height=0.2,width=0.4,color="red",URL="$a25258.html#a03bc1200aac252c4d3e18657d700b71c",tooltip="Range of local indices that can be returned. "];
+  Node1680 -> Node1669 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1668 -> Node1684 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1684 [label="Foam::triSurfaceMeshPoint\lSet::triSurfaceMeshPointSet",height=0.2,width=0.4,color="black",URL="$a29334.html#a7946bec146a05b6d03220861af81d72a",tooltip="Construct from dictionary. "];
+  Node1668 -> Node1685 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1685 [label="Foam::searchableSurfaces\l::writeStats",height=0.2,width=0.4,color="red",URL="$a25246.html#a9dd03ce1c730a8e2cd76aa6ce7937c88",tooltip="Write some stats. "];
+}

@@ -1,0 +1,13 @@
+digraph "postPatch"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node193 [label="postPatch",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node193 -> Node194 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node194 [label="clone",height=0.2,width=0.4,color="black",URL="$a23986.html#ac06f60505978b74330f728e176449866",tooltip="Construct and return a clone. "];
+  Node193 -> Node195 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node195 [label="preEvolve",height=0.2,width=0.4,color="black",URL="$a23986.html#acc0c9e165d2cf19698ab1a7672a29ab6",tooltip="Pre-evolve hook. "];
+  Node195 -> Node194 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

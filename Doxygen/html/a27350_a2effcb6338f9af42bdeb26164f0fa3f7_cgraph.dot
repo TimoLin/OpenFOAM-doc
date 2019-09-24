@@ -1,0 +1,16 @@
+digraph "directAddressing"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node104 [label="directAddressing",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node104 -> Node105 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node105 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node104 -> Node148 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node148 [label="direct",height=0.2,width=0.4,color="black",URL="$a27350.html#ae76ee987311e5a64ff3eb5857c82a76a",tooltip="Is the mapping direct. "];
+  Node104 -> Node149 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node149 [label="Foam::mapPolyMesh::\lfaceMap",height=0.2,width=0.4,color="black",URL="$a27386.html#af618d1e4110025c66bae41ba7411a5ce",tooltip="Old face map. "];
+  Node104 -> Node150 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node150 [label="insertedObjects",height=0.2,width=0.4,color="red",URL="$a27350.html#acdbb80a9d9daff09e7145118b9a90b80",tooltip="Are there any inserted faces. "];
+}

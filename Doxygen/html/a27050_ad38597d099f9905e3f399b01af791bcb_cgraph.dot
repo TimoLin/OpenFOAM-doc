@@ -1,0 +1,33 @@
+digraph "solve"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node717 [label="solve",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node717 -> Node718 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node718 [label="Foam::SolverPerformance\l::checkConvergence",height=0.2,width=0.4,color="red",URL="$a26810.html#ab5771e4f4a15c47b3c719a33255be433",tooltip="Check, store and return convergence. "];
+  Node718 -> Node719 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node719 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node717 -> Node725 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node725 [label="Foam::lduMesh::comm",height=0.2,width=0.4,color="black",URL="$a27126.html#a28ed0554ff28e2947c49b335f621d507",tooltip="Return communicator used for parallel communication. "];
+  Node717 -> Node719 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node717 -> Node726 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node726 [label="Foam::SolverPerformance\l::finalResidual",height=0.2,width=0.4,color="black",URL="$a26810.html#aac1f6730c95125fda417066ca5fdb1b6",tooltip="Return final residual. "];
+  Node717 -> Node727 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node727 [label="Foam::gSumMag",height=0.2,width=0.4,color="black",URL="$a21124.html#a26d80c1ea4d10f541c7c35259d0671df"];
+  Node717 -> Node728 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node728 [label="Foam::SolverPerformance\l::initialResidual",height=0.2,width=0.4,color="black",URL="$a26810.html#aa934099b8c3787257b11a24bbfc10042",tooltip="Return initial residual. "];
+  Node717 -> Node729 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node729 [label="Foam::messageStream\l::masterStream",height=0.2,width=0.4,color="red",URL="$a26098.html#a0edcebd1d86ac65765e16f155d17b351",tooltip="Convert to OSstream. "];
+  Node729 -> Node719 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node717 -> Node734 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node734 [label="Foam::lduMatrix::mesh",height=0.2,width=0.4,color="black",URL="$a26882.html#a389d9c5b9626c6fecf05a6773c77418b",tooltip="Return the LDU mesh from which the addressing is obtained. "];
+  Node717 -> Node735 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node735 [label="Foam::lduMatrix::smoother::New",height=0.2,width=0.4,color="red",URL="$a26890.html#a8d5691dd7f25aa4a7f95ac1e786df099",tooltip="Return a new smoother. "];
+  Node735 -> Node719 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node717 -> Node1070 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1070 [label="Foam::SolverPerformance\l::nIterations",height=0.2,width=0.4,color="black",URL="$a26810.html#aebdd923017ce4b390cac177fb99671fe",tooltip="Return number of iterations. "];
+  Node717 -> Node757 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node757 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+}

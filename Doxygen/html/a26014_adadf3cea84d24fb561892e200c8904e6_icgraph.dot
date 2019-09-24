@@ -1,0 +1,18 @@
+digraph "subDictPtr"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node21290 [label="subDictPtr",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node21290 -> Node21291 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21291 [label="Foam::regionModels\l::regionModel::read",height=0.2,width=0.4,color="black",URL="$a28998.html#a6ce0c64db98eb6144d363dbfc86104eb",tooltip="Read control parameters from dictionary. "];
+  Node21290 -> Node21292 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21292 [label="Foam::LESModel::read",height=0.2,width=0.4,color="red",URL="$a31214.html#af816873151ddb0126e98bb2f914d8ed5",tooltip="Read model coefficients if they have changed. "];
+  Node21290 -> Node21294 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21294 [label="Foam::RASModel\< PhaseCompressible\lTurbulenceModel\< phaseModel\l \> \>::read",height=0.2,width=0.4,color="black",URL="$a31306.html#af816873151ddb0126e98bb2f914d8ed5",tooltip="Read model coefficients if they have changed. "];
+  Node21290 -> Node21295 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21295 [label="Foam::compressible\l::RASModel::read",height=0.2,width=0.4,color="red",URL="$a30758.html#af816873151ddb0126e98bb2f914d8ed5",tooltip="Read RASProperties dictionary. "];
+  Node21290 -> Node21318 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21318 [label="Foam::compressible\l::LESModel::read",height=0.2,width=0.4,color="red",URL="$a30634.html#af816873151ddb0126e98bb2f914d8ed5",tooltip="Read LESProperties dictionary. "];
+}

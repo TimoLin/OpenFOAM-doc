@@ -1,0 +1,18 @@
+digraph "applyToSet"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node620 [label="applyToSet",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node620 -> Node621 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node621 [label="Foam::DynamicList::\lappend",height=0.2,width=0.4,color="black",URL="$a25890.html#a7b67b42af715604376ad63a681dee6d8",tooltip="Append an element at the end of the list. "];
+  Node620 -> Node622 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node622 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node620 -> Node624 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node624 [label="Foam::primitiveMesh\l::faceAreas",height=0.2,width=0.4,color="red",URL="$a27530.html#adefd042a02b5fa7ab8ab95063a631420"];
+  Node620 -> Node676 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node676 [label="forAllConstIter",height=0.2,width=0.4,color="red",URL="$a38141.html#ae21e2836509b0fa7f7cedf6493b11b09"];
+  Node620 -> Node674 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node674 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+}

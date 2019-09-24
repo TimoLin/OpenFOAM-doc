@@ -1,0 +1,27 @@
+digraph "operator-="
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1503 [label="operator-=",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1503 -> Node1504 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1504 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node1503 -> Node1547 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1547 [label="asymmetric",height=0.2,width=0.4,color="red",URL="$a26790.html#aff45003a4c4226b1f6f4e5e24d382e03"];
+  Node1547 -> Node1503 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1503 -> Node1550 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1550 [label="Foam::diag",height=0.2,width=0.4,color="red",URL="$a21124.html#a8cdb0ba0633c91ed7041368519cd217c"];
+  Node1503 -> Node1617 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1617 [label="diag",height=0.2,width=0.4,color="red",URL="$a26790.html#afd3add8997f8b9231f6d34b388cd7f3a"];
+  Node1503 -> Node1649 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1649 [label="diagonal",height=0.2,width=0.4,color="black",URL="$a26790.html#a07795eb142354cdea3eb82dabf695491"];
+  Node1503 -> Node1560 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1560 [label="lower",height=0.2,width=0.4,color="red",URL="$a26790.html#aed8d4c3b9386a81ed7ff9f44cb736255"];
+  Node1503 -> Node1650 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1650 [label="source",height=0.2,width=0.4,color="red",URL="$a26790.html#a3790e293cade7097b919633ed263158c"];
+  Node1503 -> Node1651 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1651 [label="symmetric",height=0.2,width=0.4,color="black",URL="$a26790.html#a054885c66384c7bbfc59b9916d5be00f"];
+  Node1503 -> Node1565 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1565 [label="upper",height=0.2,width=0.4,color="red",URL="$a26790.html#a53e005fd695b53bc8dd07c670f533b39"];
+}

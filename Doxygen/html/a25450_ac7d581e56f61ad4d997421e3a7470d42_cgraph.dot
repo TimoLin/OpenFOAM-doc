@@ -1,0 +1,20 @@
+digraph "updateMesh"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4057 [label="updateMesh",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4057 -> Node4058 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4058 [label="Foam::mapPolyMesh::\lreverseFaceMap",height=0.2,width=0.4,color="black",URL="$a27386.html#a90aeffdd46fec5934a7816ca40984af2",tooltip="Reverse face map. "];
+  Node4057 -> Node4059 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4059 [label="Foam::List::setSize",height=0.2,width=0.4,color="black",URL="$a25694.html#aedb985ffeaf1bdbfeccc2a8730405703",tooltip="Reset size of List. "];
+  Node4057 -> Node4060 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4060 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node4057 -> Node4061 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4061 [label="Foam::List::transfer",height=0.2,width=0.4,color="black",URL="$a25694.html#a25ad1d2084d16b234b0cf91c07e832c0",tooltip="Transfer the contents of the argument List into this list. "];
+  Node4057 -> Node4062 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4062 [label="updateSet",height=0.2,width=0.4,color="red",URL="$a25450.html#afc9e2e914d3928dd7281d2ac71452052",tooltip="Sort addressing and make faceSet part consistent with addressing. "];
+  Node4057 -> Node4479 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4479 [label="writeDebug",height=0.2,width=0.4,color="red",URL="$a25450.html#ac2ad209fd237c922034b7caa5bda5048",tooltip="Write maxLen items with label and coordinates. "];
+}

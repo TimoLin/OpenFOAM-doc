@@ -1,0 +1,23 @@
+digraph "clone"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node87 [label="clone",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node87 -> Node88 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node88 [label="add",height=0.2,width=0.4,color="red",URL="$a24214.html#aacdd5b987030e398238c732fea3a0117",tooltip="Member Functions. "];
+  Node88 -> Node90 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node90 [label="interpolate",height=0.2,width=0.4,color="red",URL="$a24214.html#a832be612fa01f76401e18af4c549f6e0",tooltip="Interpolate. "];
+  Node90 -> Node91 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node91 [label="interpolateGrad",height=0.2,width=0.4,color="red",URL="$a24214.html#a3d490b91d0771aa9aa017855b16b1196",tooltip="Interpolate gradient. "];
+  Node87 -> Node92 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node92 [label="internalField",height=0.2,width=0.4,color="black",URL="$a24214.html#a145c699d051d7e78340de71353011d4f",tooltip="Return an internal field of the average. "];
+  Node87 -> Node93 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node93 [label="internalFieldGrad",height=0.2,width=0.4,color="black",URL="$a24214.html#aca2be38f854d37bd907e039184b6a8bc",tooltip="Return an internal field of the gradient. "];
+  Node87 -> Node90 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node87 -> Node91 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node87 -> Node94 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node94 [label="~Moment",height=0.2,width=0.4,color="black",URL="$a24214.html#a416aced319972d560812d53abbc11ed5",tooltip="Destructor. "];
+  Node94 -> Node88 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

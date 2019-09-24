@@ -1,0 +1,18 @@
+digraph "matchShape"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node974 [label="matchShape",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node974 -> Node975 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node975 [label="isA",height=0.2,width=0.4,color="black",URL="$a27190.html#acd2adf1fc5f522ebdfcfdad416351c14",tooltip="Exact match. Uses faceSizeMatch. "];
+  Node975 -> Node976 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node976 [label="nMaxVertPerFace",height=0.2,width=0.4,color="black",URL="$a27190.html#a5ac043a530206e8d395704f140cd3f8a"];
+  Node974 -> Node977 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node977 [label="matches",height=0.2,width=0.4,color="red",URL="$a27190.html#aaf80614ee28c6bfadb117557442c1bed",tooltip="Like isA but also constructs a cellShape (if shape matches) "];
+  Node977 -> Node976 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node974 -> Node976 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node974 -> Node979 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node979 [label="~tetWedgeMatcher",height=0.2,width=0.4,color="black",URL="$a27190.html#a69a029a238ac5485cc75bfc3b46b8df4",tooltip="Destructor. "];
+}

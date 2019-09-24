@@ -1,0 +1,26 @@
+digraph "ppSlave"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node224 [label="ppSlave",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node224 -> Node225 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node225 [label="internalOrBoundaryPoint",height=0.2,width=0.4,color="red",URL="$a31474.html#a72f583b78c213918ed94860b4f005a5f",tooltip="Either original internal point or master of pointPair. "];
+  Node225 -> Node227 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node227 [label="internalPoint",height=0.2,width=0.4,color="black",URL="$a31474.html#abaab9733e915382c34b89c9b3b764b48",tooltip="Is point internal, i.e. not on boundary. "];
+  Node224 -> Node227 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node224 -> Node228 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node228 [label="mirrorPoint",height=0.2,width=0.4,color="black",URL="$a31474.html#a1617506576ba3a5c5bf6719784250d5e",tooltip="Is point a mirror point. "];
+  Node224 -> Node229 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node229 [label="nearBoundary",height=0.2,width=0.4,color="black",URL="$a31474.html#a5672d7ff1ab911ab8ae4dd0849e1d517",tooltip="Is point internal and near the boundary. "];
+  Node224 -> Node230 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node230 [label="nearOrOnBoundary",height=0.2,width=0.4,color="red",URL="$a31474.html#a84aecbfd61123c1019aa58fa5b31ac2c",tooltip="Is point near the boundary or part of the boundary definition. "];
+  Node230 -> Node229 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node224 -> Node233 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node233 [label="pairPoint",height=0.2,width=0.4,color="black",URL="$a31474.html#add505ea8d94cd8882b27bed67dc81bcf",tooltip="Either master or slave of pointPair. "];
+  Node224 -> Node234 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node234 [label="CGAL::pointPair",height=0.2,width=0.4,color="red",URL="$a21190.html#a4953345b69a927aa98a8ce459aafeb62"];
+  Node224 -> Node237 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node237 [label="ppMaster",height=0.2,width=0.4,color="black",URL="$a31474.html#aa73204a1cf78fc408c389c4f4e371982",tooltip="Master of a pointPair is the lowest numbered one. "];
+}

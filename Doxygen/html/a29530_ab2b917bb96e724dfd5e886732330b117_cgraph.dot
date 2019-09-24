@@ -1,0 +1,15 @@
+digraph "velocity"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1601 [label="velocity",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1601 -> Node1602 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1602 [label="centreOfRotation",height=0.2,width=0.4,color="red",URL="$a29530.html#ac69bb45c63cd2a8b38afc3ea65090515",tooltip="Return the current centre of rotation. "];
+  Node1601 -> Node1604 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1604 [label="omega",height=0.2,width=0.4,color="red",URL="$a29530.html#a82d25f29aa98277a0f9e7db54a5f7eee",tooltip="Return the angular velocity in the global frame. "];
+  Node1601 -> Node1609 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1609 [label="transform",height=0.2,width=0.4,color="red",URL="$a29530.html#a538a8aa596e3b9cc2a16563d338bf3e9",tooltip="Transform the given initial state point by the current motion. "];
+  Node1609 -> Node1602 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

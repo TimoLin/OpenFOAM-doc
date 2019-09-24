@@ -1,0 +1,19 @@
+digraph "functionEntry"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node0 [label="functionEntry",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="calcEntry",height=0.2,width=0.4,color="black",URL="$a26026.html",tooltip="Uses dynamic compilation to provide calculating functionality for entering dictionary entries..."];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="codeStream",height=0.2,width=0.4,color="black",URL="$a26030.html",tooltip="Dictionary entry that contains C++ OpenFOAM code that is compiled to generate the entry itself..."];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="includeEntry",height=0.2,width=0.4,color="red",URL="$a26038.html",tooltip="Specify an include file when reading dictionaries, expects a single string to follow. "];
+  Node0 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="includeEtcEntry",height=0.2,width=0.4,color="black",URL="$a26042.html",tooltip="Specify an etc file to include when reading dictionaries, expects a single string to follow..."];
+  Node0 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="inputModeEntry",height=0.2,width=0.4,color="black",URL="$a26050.html",tooltip="Specify the input mode when reading dictionaries, expects a single word to follow. "];
+  Node0 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="removeEntry",height=0.2,width=0.4,color="black",URL="$a26054.html",tooltip="Remove a dictionary entry. "];
+}

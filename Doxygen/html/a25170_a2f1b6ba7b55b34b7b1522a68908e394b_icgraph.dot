@@ -1,0 +1,12 @@
+digraph "nbrMesh"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node25 [label="nbrMesh",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node25 -> Node26 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node26 [label="Foam::regionCoupledBaseGAMGInterface\l::nbrMesh",height=0.2,width=0.4,color="red",URL="$a25158.html#a5d1b05ed8eea31e2abbd1ae43dbf3bf3",tooltip="Return AMI. "];
+  Node25 -> Node28 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node28 [label="regionCoupledLduInterface",height=0.2,width=0.4,color="black",URL="$a25170.html#a75008f63d90f3d4ca1fe521b634fdd2b",tooltip="Construct null. "];
+}

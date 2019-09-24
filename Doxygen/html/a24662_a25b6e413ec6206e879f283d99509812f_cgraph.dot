@@ -1,0 +1,24 @@
+digraph "mergeEdgesUndo"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node14953 [label="mergeEdgesUndo",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node14953 -> Node14954 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14954 [label="Foam::removePoints\l::countPointUsage",height=0.2,width=0.4,color="red",URL="$a21722.html#a1ebf47520484c4d57ed98c8e41db43d9",tooltip="Mark in pointCanBeDeleted the points that can be deleted. "];
+  Node14954 -> Node14964 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14964 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node14954 -> Node15013 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15013 [label="Foam::returnReduce",height=0.2,width=0.4,color="red",URL="$a21124.html#a8d528a67d2a9c6fe4fb94bc86872624b"];
+  Node14953 -> Node14975 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14975 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node14953 -> Node15013 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14953 -> Node15363 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15363 [label="Foam::removePoints\l::savedFaceLabels",height=0.2,width=0.4,color="black",URL="$a21722.html#ad49edd0ba0c172415221ddbf58aacd13",tooltip="If undoable: affected face labels. Already restored faces. "];
+  Node14953 -> Node14964 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14953 -> Node15364 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15364 [label="write",height=0.2,width=0.4,color="black",URL="$a19709.html#a8f30b3c2179b03a7acf273e9dea43342"];
+  Node14953 -> Node15243 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15243 [label="Foam::Ostream::write",height=0.2,width=0.4,color="black",URL="$a26238.html#a81a19ad9e4098b4701cc8bab9a59d78b",tooltip="Write next token to stream. "];
+}

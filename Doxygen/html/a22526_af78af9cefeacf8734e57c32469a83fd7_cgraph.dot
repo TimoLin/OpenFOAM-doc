@@ -1,0 +1,17 @@
+digraph "gradScheme"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3854 [label="gradScheme",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3854 -> Node3855 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3855 [label="Foam::UList::empty",height=0.2,width=0.4,color="black",URL="$a25698.html#a644718bb2fb240de962dc3c9a1fdf0dc",tooltip="Return true if the UList is empty (ie, size() is zero). "];
+  Node3854 -> Node3856 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3856 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node3854 -> Node3858 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3858 [label="Foam::dictionary::found",height=0.2,width=0.4,color="red",URL="$a26014.html#adcd3d5d43253006ef145e56b43025d28",tooltip="Search dictionary for given keyword. "];
+  Node3858 -> Node3858 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3854 -> Node3860 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3860 [label="Foam::dictionary::lookup",height=0.2,width=0.4,color="red",URL="$a26014.html#a6a0727fa523e48977e27348663def509",tooltip="Find and return an entry data stream. "];
+}

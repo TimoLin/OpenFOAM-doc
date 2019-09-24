@@ -1,0 +1,21 @@
+digraph "decompose"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node328 [label="decompose",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node328 -> Node329 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node329 [label="Foam::meshRefinement\l::balance",height=0.2,width=0.4,color="red",URL="$a24662.html#a64feb4b7a4116efb2111d5adf88b50a3",tooltip="Redecompose according to cell count. "];
+  Node328 -> Node336 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node336 [label="calcCellCells",height=0.2,width=0.4,color="red",URL="$a28594.html#a86727d8c968e3ae5d8f394879e2b3c8a",tooltip="Helper: determine (local or global) cellCells from mesh. "];
+  Node328 -> Node342 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node342 [label="decompose",height=0.2,width=0.4,color="black",URL="$a28594.html#a2376f7e493ee5b78a1e3ea1b25bc6247",tooltip="Like decompose but with uniform weights on the points. "];
+  Node328 -> Node343 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node343 [label="nDomains",height=0.2,width=0.4,color="red",URL="$a28594.html#a1b33774b594eb59235dd8774688ba2a9"];
+  Node328 -> Node346 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node346 [label="New",height=0.2,width=0.4,color="red",URL="$a28594.html#a47ca28831643e4a7962a948aeef1a8e5",tooltip="Return a reference to the selected decomposition method. "];
+  Node328 -> Node348 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node348 [label="setConstraints",height=0.2,width=0.4,color="red",URL="$a28594.html#a36608a91d1c00b41284eaf46b895387c",tooltip="Helper: extract constraints: "];
+  Node348 -> Node329 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

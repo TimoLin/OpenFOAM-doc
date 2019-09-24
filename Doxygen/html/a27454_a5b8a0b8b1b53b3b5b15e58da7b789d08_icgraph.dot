@@ -1,0 +1,17 @@
+digraph "neighbPoints"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node808 [label="neighbPoints",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node808 -> Node809 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node809 [label="Foam::PointEdgeWave\l::countPatchType",height=0.2,width=0.4,color="black",URL="$a24858.html#a774d50194a0ab5809347d4eb20808ff6"];
+  Node808 -> Node810 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node810 [label="neighbFaceCellCentres",height=0.2,width=0.4,color="black",URL="$a27454.html#af9fd1ef68b2e004553f6c5c88cba6e8b",tooltip="Return processor-neighbbour patch neighbour cell centres. "];
+  Node808 -> Node811 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node811 [label="Foam::syncTools::syncEdgeMap",height=0.2,width=0.4,color="red",URL="$a27502.html#a154ac086463b8d7a0eed8c4539d3ab73",tooltip="Synchronize values on selected edges. "];
+  Node811 -> Node817 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node817 [label="Foam::syncTools::syncPointMap",height=0.2,width=0.4,color="red",URL="$a27502.html#a08bdf5c6403dd4367d1714c3d5b4145d",tooltip="Synchronize values on selected points. "];
+  Node808 -> Node817 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

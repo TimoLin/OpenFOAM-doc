@@ -1,0 +1,31 @@
+digraph "checkParallelSync"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2551 [label="checkParallelSync",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2551 -> Node2552 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2552 [label="Foam::polyMesh::boundaryMesh",height=0.2,width=0.4,color="black",URL="$a27410.html#a9f2b68c134340291eda6197f47f25484",tooltip="Return boundary mesh. "];
+  Node2551 -> Node2553 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2553 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node2551 -> Node2555 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2555 [label="Foam::primitiveMesh\l::isInternalFace",height=0.2,width=0.4,color="black",URL="$a27530.html#ae3e48ad9ec4c5132ec7d3d702ad17c9e",tooltip="Return true if given face label is internal to the mesh. "];
+  Node2555 -> Node2556 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2556 [label="Foam::primitiveMesh\l::nInternalFaces",height=0.2,width=0.4,color="black",URL="$a27530.html#aa6c7965af1f30d16d9125deb981cbdb0"];
+  Node2551 -> Node2557 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2557 [label="Foam::name",height=0.2,width=0.4,color="red",URL="$a21124.html#adcb0df2bd4953cb6bb390272d8263c3a",tooltip="Return a string representation of a complex. "];
+  Node2551 -> Node2560 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2560 [label="Foam::IOobject::name",height=0.2,width=0.4,color="black",URL="$a26142.html#acc80e00a8ac919288fb55bd14cc88bf6",tooltip="Return name. "];
+  Node2551 -> Node2561 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2561 [label="Foam::primitiveMesh\l::nFaces",height=0.2,width=0.4,color="black",URL="$a27530.html#abe602c985a3c9ffa67176e969e77ca6f"];
+  Node2551 -> Node2556 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2551 -> Node2562 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2562 [label="Foam::returnReduce",height=0.2,width=0.4,color="red",URL="$a21124.html#a8d528a67d2a9c6fe4fb94bc86872624b"];
+  Node2551 -> Node2582 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2582 [label="Foam::syncTools::swapBoundary\lFaceList",height=0.2,width=0.4,color="red",URL="$a27502.html#a30e4f2ce2c2399c35f5d674bdb7c07fd",tooltip="Swap coupled boundary face values. "];
+  Node2551 -> Node2931 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2931 [label="Foam::polyBoundaryMesh\l::whichPatch",height=0.2,width=0.4,color="red",URL="$a27402.html#aa2ff13fd90903c4f4cdfe81b48b2bb92",tooltip="Return patch index for a given face label. "];
+  Node2931 -> Node2561 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2931 -> Node2556 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

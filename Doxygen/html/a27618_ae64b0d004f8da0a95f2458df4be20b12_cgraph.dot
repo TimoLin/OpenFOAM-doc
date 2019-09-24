@@ -1,0 +1,25 @@
+digraph "posBits"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node275 [label="posBits",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node275 -> Node276 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node276 [label="calcExtremities",height=0.2,width=0.4,color="red",URL="$a27618.html#a0e899b5b80c2f31047bccee7f435a554",tooltip="Calculate nearest and furthest (to point) vertex coords of. "];
+  Node276 -> Node278 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node278 [label="Foam::boundBox::min",height=0.2,width=0.4,color="black",URL="$a27102.html#a41bea928bbb72b904d07db28570b07bd",tooltip="Minimum describing the bounding box. "];
+  Node276 -> Node279 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node279 [label="Foam::Vector::x",height=0.2,width=0.4,color="black",URL="$a28442.html#a63327976e5a8359700064a02ae22548e"];
+  Node276 -> Node280 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node280 [label="Foam::boundBox::max",height=0.2,width=0.4,color="black",URL="$a27102.html#a43279cd20862e64a21c8c82ee6c2441b",tooltip="Maximum describing the bounding box. "];
+  Node276 -> Node281 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node281 [label="Foam::Vector::y",height=0.2,width=0.4,color="black",URL="$a28442.html#a1ee865f676fbac703a49c6654dd3ad74"];
+  Node276 -> Node282 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node282 [label="Foam::Vector::z",height=0.2,width=0.4,color="black",URL="$a28442.html#a1c8320b15610de211ec70ef966581423"];
+  Node275 -> Node280 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node275 -> Node278 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node275 -> Node279 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node275 -> Node281 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node275 -> Node282 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

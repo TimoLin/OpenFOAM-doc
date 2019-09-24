@@ -1,0 +1,38 @@
+digraph "regionModel"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node29 [label="regionModel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node30 -> Node29 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node30 [label="IOdictionary",height=0.2,width=0.4,color="red",URL="$a26158.html",tooltip="IOdictionary is derived from dictionary and IOobject to give the dictionary automatic IO functionalit..."];
+  Node38 -> Node30 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node38 [label="dictionary",height=0.2,width=0.4,color="red",URL="$a26014.html",tooltip="A list of keyword definitions, which are a keyword followed by any number of values (e..."];
+  Node38 -> Node38 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" null" ,fontname="FreeSans"];
+  Node51 -> Node29 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" outputPropertiesPtr_" ,fontname="FreeSans"];
+  Node51 [label="autoPtr\< Foam::IOdictionary \>",height=0.2,width=0.4,color="red",URL="$a25958.html"];
+  Node53 -> Node29 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" infoOutput_\nactive_" ,fontname="FreeSans"];
+  Node53 [label="Switch",height=0.2,width=0.4,color="black",URL="$a27626.html",tooltip="A simple wrapper around bool so that it can be read as a word: true/false, on/off, yes/no, y/n, t/f, or none. "];
+  Node54 -> Node29 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" functions_" ,fontname="FreeSans"];
+  Node54 [label="regionModelFunctionObjectList",height=0.2,width=0.4,color="red",URL="$a29010.html"];
+  Node29 -> Node54 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" owner_" ,fontname="FreeSans"];
+  Node38 -> Node54 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" dict_" ,fontname="FreeSans"];
+  Node57 -> Node29 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" primaryMesh_" ,fontname="FreeSans"];
+  Node57 [label="fvMesh",height=0.2,width=0.4,color="red",URL="$a22766.html",tooltip="Mesh data needed to do the Finite Volume discretisation. "];
+  Node71 -> Node29 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" regionMeshPtr_" ,fontname="FreeSans"];
+  Node71 [label="autoPtr\< Foam::fvMesh \>",height=0.2,width=0.4,color="red",URL="$a25958.html"];
+  Node38 -> Node29 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" coeffs_" ,fontname="FreeSans"];
+  Node72 -> Node29 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" primaryPatchIDs_\nintCoupledPatchIDs_" ,fontname="FreeSans"];
+  Node72 [label="List\< label \>",height=0.2,width=0.4,color="red",URL="$a25694.html"];
+  Node76 -> Node29 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" interRegionAMINames_" ,fontname="FreeSans"];
+  Node76 [label="List\< word \>",height=0.2,width=0.4,color="red",URL="$a25694.html"];
+  Node78 -> Node29 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" time_" ,fontname="FreeSans"];
+  Node78 [label="Time",height=0.2,width=0.4,color="red",URL="$a26350.html",tooltip="Class to control time during OpenFOAM simulations that is also the top-level objectRegistry. "];
+  Node62 -> Node78 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" controlDictName" ,fontname="FreeSans"];
+  Node62 [label="word",height=0.2,width=0.4,color="red",URL="$a28258.html",tooltip="A class for handling words, derived from string. "];
+  Node62 -> Node62 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" null" ,fontname="FreeSans"];
+  Node62 -> Node29 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" regionName_\nmodelName_" ,fontname="FreeSans"];
+  Node98 -> Node29 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" interRegionAMI_" ,fontname="FreeSans"];
+  Node98 [label="PtrList\< Foam::PtrList\l\< Foam::AMIInterpolation \> \>",height=0.2,width=0.4,color="red",URL="$a25914.html"];
+}

@@ -1,0 +1,30 @@
+digraph "doRemovePoints"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node13147 [label="doRemovePoints",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node13147 -> Node13148 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13148 [label="Foam::polyTopoChange\l::changeMesh",height=0.2,width=0.4,color="red",URL="$a21678.html#a1b105b13373ba9f1c7685f873b250cf2",tooltip="Inplace changes mesh without change of patches. "];
+  Node13148 -> Node13149 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13149 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node13148 -> Node13206 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13206 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node13147 -> Node13281 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13281 [label="doRestorePoints",height=0.2,width=0.4,color="red",URL="$a24662.html#a53184ae27cf1ac7a736faed4abf1c9d6"];
+  Node13281 -> Node13148 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13281 -> Node13610 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13610 [label="Foam::removePoints\l::updateMesh",height=0.2,width=0.4,color="red",URL="$a21722.html#ad57565956fd4064299f4bd3c4eebb1d4",tooltip="Force recalculation of locally stored data on topological change. "];
+  Node13610 -> Node13206 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13281 -> Node13206 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13281 -> Node13149 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13147 -> Node13149 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13147 -> Node13625 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13625 [label="Foam::removePoints\l::savedFaceLabels",height=0.2,width=0.4,color="black",URL="$a21722.html#ad49edd0ba0c172415221ddbf58aacd13",tooltip="If undoable: affected face labels. Already restored faces. "];
+  Node13147 -> Node13624 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13624 [label="Foam::removePoints\l::setRefinement",height=0.2,width=0.4,color="red",URL="$a21722.html#a9e4bbed42eb828caa39cf0e1c437bb88",tooltip="Play commands into polyTopoChange to remove points. Gets. "];
+  Node13624 -> Node13206 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13147 -> Node13206 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13147 -> Node13610 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,13 @@
+digraph "autoMap"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4665 [label="autoMap",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4665 -> Node4666 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4666 [label="check",height=0.2,width=0.4,color="black",URL="$a22426.html#ac687f237fb4c58ded7b1f471861f1c5b",tooltip="Check fvsPatchField<Type> against given fvsPatchField<Type> "];
+  Node4666 -> Node4667 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4667 [label="coupled",height=0.2,width=0.4,color="red",URL="$a22426.html#a39c01db0e66d00fe0621a0c7e5fc4ead",tooltip="Return true if this patch field is coupled. "];
+  Node4665 -> Node4667 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

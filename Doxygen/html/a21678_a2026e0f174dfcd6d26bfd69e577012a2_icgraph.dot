@@ -1,0 +1,27 @@
+digraph "modifyFace"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2193 [label="modifyFace",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2193 -> Node2194 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2194 [label="addFace",height=0.2,width=0.4,color="red",URL="$a21678.html#aa4403c8bc86c5f108a55465c5f62d90c",tooltip="Add face to cells. Return new face label. "];
+  Node2194 -> Node2197 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2197 [label="faceNeighbour",height=0.2,width=0.4,color="red",URL="$a21678.html#ac0226836c6afb225e82b34f85b7c5d2c"];
+  Node2194 -> Node2199 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2199 [label="Foam::NamedEnum\< direction\lType, 3 \>::names",height=0.2,width=0.4,color="black",URL="$a25998.html#a7350da3a0edd92cd11e6c479c9967dc8"];
+  Node2194 -> Node2217 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2217 [label="setAction",height=0.2,width=0.4,color="red",URL="$a21678.html#a40a23962b792d24f4cb999f5b55aece2",tooltip="For compatibility with polyTopoChange: set topological action. "];
+  Node2217 -> Node2197 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2194 -> Node2302 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2302 [label="Foam::meshRefinement\l::splitFaces",height=0.2,width=0.4,color="red",URL="$a24662.html#adc2ba2409d333b615b019f154aa236ea",tooltip="Split faces into two. "];
+  Node2193 -> Node2197 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2193 -> Node2199 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2193 -> Node2217 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2193 -> Node2303 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2303 [label="Foam::duplicatePoints\l::setRefinement",height=0.2,width=0.4,color="red",URL="$a21638.html#a159a54964aa4001ff24e9fb05834750a",tooltip="Play commands into polyTopoChange to duplicate points. Gets. "];
+  Node2193 -> Node2246 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2246 [label="Foam::edgeCollapser\l::setRefinement",height=0.2,width=0.4,color="red",URL="$a21642.html#a788f5a11a20efd0f4a6a8ab78be4efeb",tooltip="Play commands into polyTopoChange to create mesh. "];
+  Node2193 -> Node2302 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

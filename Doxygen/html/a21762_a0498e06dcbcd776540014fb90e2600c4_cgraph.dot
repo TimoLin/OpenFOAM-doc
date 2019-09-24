@@ -1,0 +1,28 @@
+digraph "getLineNoComment"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4 [label="getLineNoComment",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="checkSupport",height=0.2,width=0.4,color="red",URL="$a21762.html#adc9c27fa793257f88a57c1a24e3a7dfd"];
+  Node4 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="Foam::TimePaths::constant",height=0.2,width=0.4,color="red",URL="$a26354.html#ab16cfc6e7be33ff5683a856ae077433c",tooltip="Return constant name. "];
+  Node4 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12 [label="Foam::ISstream::getLine",height=0.2,width=0.4,color="red",URL="$a26286.html#a94b82bd8f7d8cdaa83c9c70b7c919f78",tooltip="Raw, low-level getline into a string function. "];
+  Node4 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14 [label="Foam::IOstream::good",height=0.2,width=0.4,color="black",URL="$a26226.html#abdcc7f96f487faadc7769afcf58fe992",tooltip="Return true if next operation might succeed. "];
+  Node4 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15 [label="Foam::isFile",height=0.2,width=0.4,color="red",URL="$a21124.html#a1cf13d004cf482571af182540a8d1526",tooltip="Does the name exist as a FILE in the file system? "];
+  Node4 -> Node21 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21 [label="Foam::name",height=0.2,width=0.4,color="red",URL="$a21124.html#adcb0df2bd4953cb6bb390272d8263c3a",tooltip="Return a string representation of a complex. "];
+  Node4 -> Node24 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node24 [label="Foam::Time::path",height=0.2,width=0.4,color="red",URL="$a26350.html#a3a68a482f9904838898709bec94fedc5",tooltip="Return path. "];
+  Node4 -> Node29 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node29 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node4 -> Node30 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node30 [label="Foam::TimeState::timeOutput\lValue",height=0.2,width=0.4,color="red",URL="$a26362.html#a62127fab330c01695c0dd1691c6b6ce3",tooltip="Return current time value. "];
+  Node4 -> Node33 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node33 [label="Foam::Time::times",height=0.2,width=0.4,color="red",URL="$a26350.html#a0f58059cccf9dd69a247e85600d346fe",tooltip="Search the case for valid time directories. "];
+}

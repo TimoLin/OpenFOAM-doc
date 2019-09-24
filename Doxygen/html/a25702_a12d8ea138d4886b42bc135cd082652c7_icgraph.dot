@@ -1,0 +1,38 @@
+digraph "erase"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3971 [label="erase",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3971 -> Node3972 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3972 [label="Foam::objectRegistry\l::checkOut",height=0.2,width=0.4,color="red",URL="$a26326.html#a0b55f69ea0e88182692871ec13dc62db",tooltip="Remove an regIOobject from registry. "];
+  Node3971 -> Node4015 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4015 [label="Foam::cellTable::combine",height=0.2,width=0.4,color="black",URL="$a21342.html#a8f772dc348dc8f16911640a1c4157cb2",tooltip="Combine tableIds together. "];
+  Node3971 -> Node4016 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4016 [label="Foam::cyclicPolyPatch\l::coupledEdges",height=0.2,width=0.4,color="red",URL="$a27434.html#a4c970d354b1bca8ccb1dff0855586ed7",tooltip="Return connected edges (from patch local to neighbour patch local). "];
+  Node3971 -> Node4264 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4264 [label="Foam::HashTable\< Foam\l::phase *\>::erase",height=0.2,width=0.4,color="black",URL="$a25702.html#aa68f27749086b8dc0019f5fe040f5acf",tooltip="Remove entries given by the listed keys from this HashTable. "];
+  Node3971 -> Node4265 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4265 [label="Foam::polyBoundaryMesh\l::matchGroups",height=0.2,width=0.4,color="red",URL="$a27402.html#aabd198b93730ce56969e96d23875ab87",tooltip="Match the patches to groups. Returns all the (fully matched) groups. "];
+  Node3971 -> Node4441 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4441 [label="Foam::polyTopoChange\l::modifyFace",height=0.2,width=0.4,color="red",URL="$a21678.html#a2026e0f174dfcd6d26bfd69e577012a2",tooltip="Modify vertices or cell of face. "];
+  Node3971 -> Node4474 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4474 [label="Foam::polyTopoChange\l::modifyPoint",height=0.2,width=0.4,color="red",URL="$a21678.html#ad83e85fd833a84d24f0a29064ed6163d",tooltip="Modify coordinate. "];
+  Node3971 -> Node4476 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4476 [label="Foam::polyBoundaryMesh\l::neighbourEdges",height=0.2,width=0.4,color="red",URL="$a27402.html#a430d61af7deb5b3579553b92d7a3034c",tooltip="Per patch the edges on the neighbouring patch. Is for every external. "];
+  Node3971 -> Node4477 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4477 [label="Foam::probes::prepare",height=0.2,width=0.4,color="black",URL="$a29266.html#a5e55cd815681cedddeb894b90ef68173",tooltip="Classify field type and Open/close file streams,. "];
+  Node3971 -> Node4478 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4478 [label="Foam::polyTopoChange\l::removeCell",height=0.2,width=0.4,color="red",URL="$a21678.html#acf9e473b5df98a1b8ac08a32301b575c",tooltip="Remove/merge cell. "];
+  Node3971 -> Node4479 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4479 [label="Foam::polyTopoChange\l::removeFace",height=0.2,width=0.4,color="red",URL="$a21678.html#a5045d04a88d2f7bcc35f2ce0e652d168",tooltip="Remove/merge face. "];
+  Node3971 -> Node4472 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4472 [label="Foam::polyTopoChange\l::removePoint",height=0.2,width=0.4,color="red",URL="$a21678.html#a01afb06197fad38def20100780f8aa52",tooltip="Remove/merge point. "];
+  Node3971 -> Node4480 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4480 [label="Foam::HashSet\< Foam\l::word \>::unset",height=0.2,width=0.4,color="black",URL="$a25690.html#a8254423a34c8f5eec22bd695751ca43a",tooltip="Unset the specified key - same as erase. "];
+  Node3971 -> Node4481 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4481 [label="Foam::vtkUnstructuredReader\l::vtkUnstructuredReader",height=0.2,width=0.4,color="red",URL="$a21890.html#a46b4c08a407cacfb19ee3ca393efb807",tooltip="Construct from Istream, read all. "];
+  Node3971 -> Node4482 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4482 [label="Foam::regionSizeDistribution\l::write",height=0.2,width=0.4,color="red",URL="$a28766.html#aac759501cf6c7895a70eecbef0226ae1",tooltip="Calculate the regionSizeDistribution and write. "];
+}

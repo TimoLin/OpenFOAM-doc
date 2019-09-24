@@ -1,0 +1,12 @@
+digraph "readControls"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node358 [label="readControls",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node358 -> Node359 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node359 [label="Foam::lduMatrix::solver\l::readControls",height=0.2,width=0.4,color="black",URL="$a26886.html#aa431c382ed4170712dab339fbfd87f5b",tooltip="Read the control parameters from the controlDict_. "];
+  Node358 -> Node360 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node360 [label="solve",height=0.2,width=0.4,color="red",URL="$a27050.html#ad38597d099f9905e3f399b01af791bcb",tooltip="Solve the matrix with this solver. "];
+}

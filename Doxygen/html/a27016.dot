@@ -1,0 +1,11 @@
+digraph "processorGAMGInterfaceField"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node5 [label="processorGAMGInterfaceField",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="GAMGInterfaceField",height=0.2,width=0.4,color="red",URL="$a27010.html",tooltip="Abstract base class for GAMG agglomerated interface fields. "];
+  Node8 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="processorLduInterfaceField",height=0.2,width=0.4,color="black",URL="$a26874.html",tooltip="Abstract base class for processor coupled interfaces. "];
+}

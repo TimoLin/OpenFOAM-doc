@@ -1,0 +1,12 @@
+digraph "checkTopology"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3097 [label="checkTopology",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3097 -> Node3098 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3098 [label="Foam::PrimitivePatch\l\< Face, ::Foam::List,\l pointField, point \>::\lisInternalEdge",height=0.2,width=0.4,color="black",URL="$a27538.html#ac2458a175e66b555e443539d6c726e06",tooltip="Is internal edge? "];
+  Node3097 -> Node3099 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3099 [label="Foam::PrimitivePatch\l\< Face, ::Foam::List,\l pointField, point \>::\lsurfaceType",height=0.2,width=0.4,color="black",URL="$a27538.html#a83142268ded0240e0ec13f89904a8ae3",tooltip="Calculate surface type formed by patch. "];
+}

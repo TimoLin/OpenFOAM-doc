@@ -1,0 +1,14 @@
+digraph "syncPointData"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2531 [label="syncPointData",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2531 -> Node2532 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2532 [label="nTotalCells",height=0.2,width=0.4,color="red",URL="$a27334.html#af5f312e4d0bc5cbcc088e7c247d3a97a",tooltip="Return total number of cells in decomposed mesh. "];
+  Node2531 -> Node2555 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2555 [label="syncData",height=0.2,width=0.4,color="black",URL="$a27334.html#a7d700e093b43c29921c0d6c45b386691",tooltip="Helper: synchronise data without transforms. "];
+  Node2531 -> Node2556 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2556 [label="Foam::syncTools::syncPointList",height=0.2,width=0.4,color="red",URL="$a27502.html#a197ed77a9101bdfb37253bd3f507c017",tooltip="Synchronize values on all mesh points. "];
+}

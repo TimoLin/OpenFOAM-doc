@@ -1,0 +1,12 @@
+digraph "indexedOctree&lt; Type &gt;::node"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node1 [label="indexedOctree\< Type\l \>::node",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" subNodes_" ,fontname="FreeSans"];
+  Node2 [label="FixedList\< Foam::labelBits, 8 \>",height=0.2,width=0.4,color="red",URL="$a25894.html"];
+  Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" bb_" ,fontname="FreeSans"];
+  Node4 [label="treeBoundBox",height=0.2,width=0.4,color="red",URL="$a27618.html",tooltip="Standard boundBox + extra functionality for use in octree. "];
+  Node4 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" greatBox\ninvertedBox" ,fontname="FreeSans"];
+}

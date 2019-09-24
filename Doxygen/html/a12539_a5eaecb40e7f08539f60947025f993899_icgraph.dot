@@ -1,0 +1,22 @@
+digraph "equal"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2515 [label="equal",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2515 -> Node2516 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2516 [label="Foam::species::thermo::Kc",height=0.2,width=0.4,color="red",URL="$a30390.html#a22ae3971a23730ac916023f658877fe0",tooltip="Equilibrium constant i.t.o. molar concentration. "];
+  Node2515 -> Node2518 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2518 [label="Foam::species::thermo::Kn",height=0.2,width=0.4,color="red",URL="$a30390.html#adbad44c9e9691cd4dc97840fb83b75ef",tooltip="Equilibrium constant [] i.t.o. number of moles. "];
+  Node2518 -> Node2519 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2519 [label="Foam::species::thermo::Kx",height=0.2,width=0.4,color="red",URL="$a30390.html#a175ad13d4d9084aed7cd0f5868042c40",tooltip="Equilibrium constant [] i.t.o. mole-fractions. "];
+  Node2519 -> Node2516 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2515 -> Node2519 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2515 -> Node2520 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2520 [label="Foam::UILList\< DLListBase,\l Foam::molecule \>::operator==",height=0.2,width=0.4,color="black",URL="$a25790.html#a1b9758554bfddfbf6b9dbe9a5cbb3c44",tooltip="Equality operation on ULists of the same type. "];
+  Node2515 -> Node2521 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2521 [label="Foam::FixedList\< bool,\l Foam::pTraits\< Type\l \>::nComponents \>::operator==",height=0.2,width=0.4,color="black",URL="$a25894.html#a572ef2fd42d8ccb10af579dd517e0c03",tooltip="Equality operation on FixedLists of the same type. "];
+  Node2515 -> Node2522 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2522 [label="Foam::UList\< Foam::\lwordRe \>::operator==",height=0.2,width=0.4,color="black",URL="$a25698.html#aae7e4cdee75204fe2784c82bba0e7b83",tooltip="Equality operation on ULists of the same type. "];
+}

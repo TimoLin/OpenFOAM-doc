@@ -1,0 +1,48 @@
+digraph "listCombineGather"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4026 [label="listCombineGather",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4026 -> Node4027 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4027 [label="Foam::meshRefinement\l::balance",height=0.2,width=0.4,color="red",URL="$a24662.html#a64feb4b7a4116efb2111d5adf88b50a3",tooltip="Redecompose according to cell count. "];
+  Node4026 -> Node4034 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4034 [label="Foam::forces::calcForces\lMoment",height=0.2,width=0.4,color="red",URL="$a28830.html#a71e93fd80e1ccacbf30c602b4ea11abc",tooltip="Calculate the forces and moments. "];
+  Node4026 -> Node4040 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4040 [label="Foam::radiation::viewFactor\l::calculate",height=0.2,width=0.4,color="black",URL="$a30046.html#afe1d8348c24e6589bc7c0b3f689316a7",tooltip="Solve system of equation(s) "];
+  Node4026 -> Node4041 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4041 [label="combineScatter",height=0.2,width=0.4,color="black",URL="$a26250.html#aca0c5c69df01302f98555cacd74a967a",tooltip="Like above but switches between linear/tree communication. "];
+  Node4026 -> Node4042 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4042 [label="Foam::regionModels\l::surfaceFilmModels\l::patchInjection::correct",height=0.2,width=0.4,color="black",URL="$a29110.html#a8c67db65404877aac3731246ffb15754",tooltip="Correct. "];
+  Node4026 -> Node4043 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4043 [label="Foam::patchProbes::\lfindElements",height=0.2,width=0.4,color="black",URL="$a29262.html#a852f621399b6ee1f3467e69a1d5fe8b4",tooltip="Find elements containing patchProbes. "];
+  Node4026 -> Node4044 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4044 [label="Foam::mappedPatchBase\l::findSamples",height=0.2,width=0.4,color="red",URL="$a25094.html#a5b45dd96de2566fe120ce82fd632868c",tooltip="Find cells/faces containing samples. "];
+  Node4026 -> Node4048 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4048 [label="Foam::regionModels\l::surfaceFilmModels\l::injectionModelList::info",height=0.2,width=0.4,color="red",URL="$a29106.html#a535c2aef67becff77ed292ab0eceb44c",tooltip="Provide some info. "];
+  Node4026 -> Node4030 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4030 [label="Foam::meshRefinement\l::mergeBaffles",height=0.2,width=0.4,color="red",URL="$a24662.html#aa959f1ef1377d3a4eaac5ff099280e50",tooltip="Merge baffles. Gets pairs of faces. "];
+  Node4026 -> Node4051 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4051 [label="Foam::ifEqEqOp::operator()",height=0.2,width=0.4,color="black",URL="$a21650.html#a11b523ea721588ff21a031254c7eb98b"];
+  Node4026 -> Node4052 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4052 [label="Foam::nearestEqOp::\loperator()",height=0.2,width=0.4,color="black",URL="$a29394.html#a7125bb052e112a423cd8082006cdac3b"];
+  Node4026 -> Node4053 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4053 [label="Foam::regionModels\l::surfaceFilmModels\l::patchInjection::patchInjected\lMassTotals",height=0.2,width=0.4,color="black",URL="$a29110.html#a757f55ba1fba3e06a509248826a09cab",tooltip="Accumulate the total mass injected for the patches into the. "];
+  Node4053 -> Node4042 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4026 -> Node4054 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4054 [label="Foam::meshRefinement\l::printMeshInfo",height=0.2,width=0.4,color="red",URL="$a24662.html#a5f2793031a24693c73d09dfecd26debb",tooltip="Print some mesh stats. "];
+  Node4054 -> Node4030 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4026 -> Node4055 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4055 [label="Pstream",height=0.2,width=0.4,color="black",URL="$a26250.html#a2b31c5d4673e1c7d7366b8b6bf47830d",tooltip="Construct given optional buffer size. "];
+  Node4026 -> Node4056 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4056 [label="Foam::patchProbes::\lsample",height=0.2,width=0.4,color="black",URL="$a29262.html#a84607d02ba42af254a8072b9a7369807"];
+  Node4026 -> Node4057 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4057 [label="Foam::probes::sample",height=0.2,width=0.4,color="black",URL="$a29266.html#a84607d02ba42af254a8072b9a7369807"];
+  Node4026 -> Node4058 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4058 [label="Foam::fvMeshSubset\l::setLargeCellSubset",height=0.2,width=0.4,color="red",URL="$a22790.html#aa5aecd31ebb23c10811eb60949808165",tooltip="Set the subset from all cells with region == currentRegion. "];
+  Node4026 -> Node4069 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4069 [label="Foam::patchInjectionBase\l::updateMesh",height=0.2,width=0.4,color="black",URL="$a24102.html#a6d43ae10cf9dba5b6063e706ab5534e3",tooltip="Update patch geometry and derived info for injection locations. "];
+  Node4026 -> Node4070 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4070 [label="Foam::fileMonitor::\lupdateStates",height=0.2,width=0.4,color="red",URL="$a28526.html#ac38a777da12c7343e8414b4f20c1ce69",tooltip="Check state of all files. Updates state_. "];
+}

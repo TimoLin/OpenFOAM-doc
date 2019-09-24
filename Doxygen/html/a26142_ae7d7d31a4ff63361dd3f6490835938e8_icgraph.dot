@@ -1,0 +1,31 @@
+digraph "writeHeader"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node22510 [label="writeHeader",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node22510 -> Node22511 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22511 [label="objectPath",height=0.2,width=0.4,color="red",URL="$a26142.html#a3a7ece5c1251c6be1f7812d4dba5fb7a",tooltip="Return complete path + object name. "];
+  Node22511 -> Node22565 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22565 [label="Foam::IOdictionary\l::readData",height=0.2,width=0.4,color="red",URL="$a26158.html#ac3b3d77e7369ae2785973778644137c5",tooltip="ReadData function required for regIOobject read operation. "];
+  Node22511 -> Node22634 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22634 [label="Foam::meshReader::warnDuplicates",height=0.2,width=0.4,color="red",URL="$a21326.html#a2638db035b2a192cbe57e864292f2823",tooltip="Warn about repeated names. "];
+  Node22511 -> Node22635 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22635 [label="Foam::boundaryRegion\l::writeDict",height=0.2,width=0.4,color="red",URL="$a21338.html#a5e0e3f6379801645b054898461a759fb",tooltip="Write constant/boundaryRegion for later reuse. "];
+  Node22511 -> Node22642 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22642 [label="Foam::cellTable::writeDict",height=0.2,width=0.4,color="red",URL="$a21342.html#ac541ca9cdaa39c51c673abb39b0ed033",tooltip="write constant/cellTable for later reuse "];
+  Node22510 -> Node22565 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22510 -> Node22667 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22667 [label="readHeader",height=0.2,width=0.4,color="red",URL="$a26142.html#acc5353ca76293212d9dba8a82c0d9a44",tooltip="Read header. "];
+  Node22667 -> Node22511 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22510 -> Node22634 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22510 -> Node22672 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22672 [label="Foam::fileFormats::\ledgeMeshFormat::write",height=0.2,width=0.4,color="black",URL="$a21758.html#ac93279b51e2eb12dc1a54daf46bbca98",tooltip="Write edgeMesh with a mimicked IOobject header. "];
+  Node22510 -> Node22673 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22673 [label="Foam::interpolationLookUp\lTable\< scalar \>::write",height=0.2,width=0.4,color="black",URL="$a26730.html#ae0b0b4d53d2a9eaa3ec03b4a3f11d87c",tooltip="Write lookup table to filename. "];
+  Node22510 -> Node22674 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22674 [label="Foam::MeshedSurfaceProxy\l::write",height=0.2,width=0.4,color="black",URL="$a29570.html#a03ad3ee4a132dfc225aebe1d58914ad9",tooltip="Write to database. "];
+  Node22510 -> Node22635 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22510 -> Node22642 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

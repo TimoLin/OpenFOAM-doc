@@ -1,0 +1,18 @@
+digraph "surfPtr"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3282 [label="surfPtr",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3282 -> Node3283 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3283 [label="Foam::polyMesh::boundaryMesh",height=0.2,width=0.4,color="black",URL="$a27410.html#a9f2b68c134340291eda6197f47f25484",tooltip="Return boundary mesh. "];
+  Node3282 -> Node3284 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3284 [label="Foam::TimePaths::constant",height=0.2,width=0.4,color="red",URL="$a26354.html#ab16cfc6e7be33ff5683a856ae077433c",tooltip="Return constant name. "];
+  Node3282 -> Node3286 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3286 [label="Foam::polyBoundaryMesh\l::mesh",height=0.2,width=0.4,color="red",URL="$a27402.html#ae78c91f8ff731c07ccc4351d9fe861ba",tooltip="Return the mesh reference. "];
+  Node3282 -> Node3462 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3462 [label="Foam::searchableSurface::New",height=0.2,width=0.4,color="red",URL="$a25234.html#a9dee63d319c83c226c226575d5f61084",tooltip="Return a reference to the selected searchableSurface. "];
+  Node3282 -> Node3463 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3463 [label="Foam::objectRegistry\l::time",height=0.2,width=0.4,color="black",URL="$a26326.html#a0d94096809fe3376b29a2a29ca11bb18",tooltip="Return time. "];
+}

@@ -1,0 +1,21 @@
+digraph "interpolateBoundaryField"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node457 [label="interpolateBoundaryField",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node457 -> Node458 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node458 [label="boundary",height=0.2,width=0.4,color="black",URL="$a17900.html#a658027ecaee450b6533bd8d019d2c1f5"];
+  Node457 -> Node459 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node459 [label="Foam::GeometricField\l::internalField",height=0.2,width=0.4,color="black",URL="$a22434.html#a9536140d36d69bbac40496f6b817aa0a",tooltip="Return internal field. "];
+  Node457 -> Node460 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node460 [label="Foam::MeshObject\< fvMesh,\l UpdateableMeshObject,\l volPointInterpolation \>::mesh",height=0.2,width=0.4,color="black",URL="$a27138.html#a01ab9073608556f8f4a0f9e0005cbd00"];
+  Node457 -> Node461 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node461 [label="Foam::PrimitivePatch\l::meshPoints",height=0.2,width=0.4,color="black",URL="$a27538.html#a52e3a457780fe74b31d39dc046bce1d8",tooltip="Return labelList of mesh points in patch. They are constructed. "];
+  Node457 -> Node462 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node462 [label="Foam::PrimitivePatch\l::pointFaces",height=0.2,width=0.4,color="black",URL="$a27538.html#acc347dd5dd3557af888ac3dd86d90d22",tooltip="Return point-face addressing. "];
+  Node457 -> Node463 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node463 [label="Foam::pointConstraints\l::syncUntransformedData",height=0.2,width=0.4,color="red",URL="$a23282.html#a60a2f4543c7dc5c768bd06768d7004c6",tooltip="Helper: sync data on collocated points only. "];
+  Node463 -> Node461 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

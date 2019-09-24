@@ -1,0 +1,13 @@
+digraph "cyclicPointPatch"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node0 [label="cyclicPointPatch",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="coupledFacePointPatch",height=0.2,width=0.4,color="red",URL="$a27314.html",tooltip="coupled patch for post-processing. Used as the base class for processor and cyclic pointPatches ..."];
+  Node0 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="cyclicSlipPointPatch",height=0.2,width=0.4,color="black",URL="$a27282.html",tooltip="Cyclic patch with slip constraint. "];
+  Node0 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="nonuniformTransformCyclic\lPointPatch",height=0.2,width=0.4,color="black",URL="$a27290.html",tooltip="Cyclic patch with slip constraint. "];
+}

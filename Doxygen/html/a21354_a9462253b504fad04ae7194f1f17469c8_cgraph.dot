@@ -1,0 +1,42 @@
+digraph "calcFeatures"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node98 [label="calcFeatures",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node98 -> Node99 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node99 [label="Foam::polyMesh::boundaryMesh",height=0.2,width=0.4,color="black",URL="$a27410.html#a9f2b68c134340291eda6197f47f25484",tooltip="Return boundary mesh. "];
+  Node98 -> Node100 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node100 [label="Foam::primitiveMesh\l::cellEdges",height=0.2,width=0.4,color="black",URL="$a27530.html#a29ec14ff1e343af734485c48f0cf7856"];
+  Node98 -> Node101 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node101 [label="Foam::primitiveMesh\l::edgeFaces",height=0.2,width=0.4,color="red",URL="$a27530.html#ad38ecd2902727a890ebd437731c271c8"];
+  Node101 -> Node102 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node102 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node98 -> Node146 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node146 [label="Foam::primitiveMesh\l::edges",height=0.2,width=0.4,color="black",URL="$a27530.html#a21d764179912ddda5c6f95193c289846",tooltip="Return mesh edges. Uses calcEdges. "];
+  Node98 -> Node102 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node98 -> Node167 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node167 [label="Foam::polyMesh::faceOwner",height=0.2,width=0.4,color="black",URL="$a27410.html#a57752b49bfee23ca1944c3fb0493974f",tooltip="Return face owner. "];
+  Node98 -> Node168 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node168 [label="Foam::polyMesh::faces",height=0.2,width=0.4,color="red",URL="$a27410.html#a431c0a24765f0bb6d32f6a03ce0e9b57",tooltip="Return raw faces. "];
+  Node98 -> Node169 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node169 [label="Foam::OFstream::name",height=0.2,width=0.4,color="black",URL="$a26190.html#aba53f1f9c8fadfa65f4099af10df348c",tooltip="Return the name of the stream. "];
+  Node98 -> Node170 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node170 [label="Foam::primitiveMesh\l::nFaces",height=0.2,width=0.4,color="black",URL="$a27530.html#abe602c985a3c9ffa67176e969e77ca6f"];
+  Node98 -> Node171 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node171 [label="Foam::primitiveMesh\l::nInternalFaces",height=0.2,width=0.4,color="black",URL="$a27530.html#aa6c7965af1f30d16d9125deb981cbdb0"];
+  Node98 -> Node162 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node162 [label="Foam::primitiveMesh\l::pointEdges",height=0.2,width=0.4,color="black",URL="$a27530.html#a219060536b044c749e6178283665d632"];
+  Node98 -> Node172 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node172 [label="Foam::polyMesh::points",height=0.2,width=0.4,color="red",URL="$a27410.html#ac44123fc1265297c41a43c3b62fdb4c2",tooltip="Return raw points. "];
+  Node98 -> Node147 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node147 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node98 -> Node173 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node173 [label="Foam::polyPatch::start",height=0.2,width=0.4,color="red",URL="$a27478.html#a6bfd3e3abb11e98bdb4b98671cec1234",tooltip="Return start label of this patch in the polyMesh face list. "];
+  Node98 -> Node181 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node181 [label="Foam::List::transfer",height=0.2,width=0.4,color="black",URL="$a25694.html#a25ad1d2084d16b234b0cf91c07e832c0",tooltip="Transfer the contents of the argument List into this list. "];
+  Node98 -> Node182 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node182 [label="Foam::meshTools::writeOBJ",height=0.2,width=0.4,color="red",URL="$a21153.html#afd76c6ccc8ee4a5957f0232218167c17",tooltip="Write obj representation of point. "];
+  Node182 -> Node102 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

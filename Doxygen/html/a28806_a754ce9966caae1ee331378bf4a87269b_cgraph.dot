@@ -1,0 +1,22 @@
+digraph "name"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node8 [label="name",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="end",height=0.2,width=0.4,color="black",URL="$a28806.html#aaf81d3fdaf258088d7692fa70cece087",tooltip="Execute the averaging at the final time-loop, currently does nothing. "];
+  Node8 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="execute",height=0.2,width=0.4,color="black",URL="$a28806.html#a61af3e60b94ae3e748f6fbac1e794af7",tooltip="Execute the averaging. "];
+  Node8 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="movePoints",height=0.2,width=0.4,color="black",URL="$a28806.html#aa414dddde48d2a3eb6ac5df618faea9f",tooltip="Update for mesh point-motion. "];
+  Node8 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12 [label="read",height=0.2,width=0.4,color="red",URL="$a28806.html#aa9b8764750bd9ff67ca32b6551dc7847",tooltip="Read the field average data. "];
+  Node8 -> Node360 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node360 [label="timeSet",height=0.2,width=0.4,color="black",URL="$a28806.html#a9637c56f3ddc45f3ce62ec07dbe2228f",tooltip="Called when time was set at the end of the Time::operator++. "];
+  Node8 -> Node361 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node361 [label="updateMesh",height=0.2,width=0.4,color="black",URL="$a28806.html#ad57565956fd4064299f4bd3c4eebb1d4",tooltip="Update for changes of mesh. "];
+  Node8 -> Node362 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node362 [label="write",height=0.2,width=0.4,color="red",URL="$a28806.html#aac759501cf6c7895a70eecbef0226ae1",tooltip="Calculate the field average data and write. "];
+}

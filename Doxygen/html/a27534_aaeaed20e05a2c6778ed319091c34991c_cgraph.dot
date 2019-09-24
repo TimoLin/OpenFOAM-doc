@@ -1,0 +1,26 @@
+digraph "cellDeterminant"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node528 [label="cellDeterminant",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node528 -> Node529 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node529 [label="Foam::primitiveMesh\l::cells",height=0.2,width=0.4,color="black",URL="$a27530.html#af19bf800d725a623c7b1d0101d65e7d3"];
+  Node528 -> Node530 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node530 [label="Foam::det",height=0.2,width=0.4,color="red",URL="$a21124.html#a0661214f1c72feedb965c88d685f8036"];
+  Node528 -> Node535 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node535 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node528 -> Node536 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node536 [label="Foam::primitiveMesh\l::nCells",height=0.2,width=0.4,color="black",URL="$a27530.html#a13b94bdb0926552bf78ad5210a73a3d5"];
+  Node528 -> Node537 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node537 [label="scalarField",height=0.2,width=0.4,color="black",URL="$a19001.html#afcd8855c276a98ae9604b35c8fb5b81e"];
+  Node528 -> Node538 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node538 [label="sqr",height=0.2,width=0.4,color="red",URL="$a12539.html#a557bbac590ed5ce51116be69fe4faa96"];
+  Node528 -> Node540 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node540 [label="Foam::SymmTensor::xx",height=0.2,width=0.4,color="black",URL="$a28270.html#a1b97c7c1ed81b4fb23da8dcb71a8cd2a"];
+  Node528 -> Node541 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node541 [label="Foam::SymmTensor::yy",height=0.2,width=0.4,color="black",URL="$a28270.html#aba9d77023a5662b9c2d3639d5de555a0"];
+  Node528 -> Node542 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node542 [label="Foam::SymmTensor::zz",height=0.2,width=0.4,color="black",URL="$a28270.html#a831c4848d01bfcc8d717b7ef92f2cd4b"];
+}

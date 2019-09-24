@@ -1,0 +1,24 @@
+digraph "sampledPlane"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node8 [label="sampledPlane",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="Foam::polyMesh::cellZones",height=0.2,width=0.4,color="red",URL="$a27410.html#a935f422baa4405e3bb1d9e230b08f824",tooltip="Return cell zone mesh. "];
+  Node8 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node8 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14 [label="Foam::ZoneMesh::findIndex",height=0.2,width=0.4,color="black",URL="$a27522.html#a49bc032e1976b4c0ae1f82fb4ddf8679",tooltip="Return zone index for the first match, return -1 if not found. "];
+  Node8 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15 [label="Foam::dictionary::found",height=0.2,width=0.4,color="red",URL="$a26014.html#adcd3d5d43253006ef145e56b43025d28",tooltip="Search dictionary for given keyword. "];
+  Node15 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17 [label="Foam::coordinateSystem\l::globalPosition",height=0.2,width=0.4,color="black",URL="$a25010.html#a43efaed0d8e760050d0fa01f9b432f79",tooltip="Convert from position in local coordinate system to global. "];
+  Node8 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 [label="Foam::coordinateSystem\l::globalVector",height=0.2,width=0.4,color="black",URL="$a25010.html#a074eef0d95c3a3a2b8e72de6932380c1",tooltip="Convert from vector components in local coordinate system to. "];
+  Node8 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19 [label="Foam::dictionary::readIf\lPresent",height=0.2,width=0.4,color="red",URL="$a26014.html#ad4bd008e6ee208313f2c3a963ee1170d",tooltip="Find an entry if present, and assign to T. "];
+  Node19 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

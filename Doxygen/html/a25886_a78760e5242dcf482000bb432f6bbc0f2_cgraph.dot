@@ -1,0 +1,29 @@
+digraph "write"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node264 [label="write",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node264 -> Node265 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node265 [label="cumulativeNormalised",height=0.2,width=0.4,color="red",URL="$a25886.html#a11ff6eef0a165a528afd02366ddf85d2",tooltip="Return the cumulative normalised distribution and. "];
+  Node265 -> Node268 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node268 [label="cumulativeRaw",height=0.2,width=0.4,color="red",URL="$a25886.html#af87b4a2d9e4c35e69820b8ff99abaf20",tooltip="Return the cumulative total bin weights and integration. "];
+  Node268 -> Node269 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node269 [label="Foam::UList::first",height=0.2,width=0.4,color="black",URL="$a25698.html#a1c9828bc3de9502754d944c95a2ce0d9",tooltip="Return the first element of the list. "];
+  Node268 -> Node270 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node270 [label="raw",height=0.2,width=0.4,color="red",URL="$a25886.html#afb9d1727043dc3092b95717b885d99cc",tooltip="Return the distribution of the total bin weights. "];
+  Node270 -> Node265 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node270 -> Node269 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node265 -> Node269 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node265 -> Node282 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node282 [label="normalised",height=0.2,width=0.4,color="red",URL="$a25886.html#afca6f7c7669c2f125c5b4760ed9ee1c2",tooltip="Return the normalised distribution (probability density) "];
+  Node282 -> Node269 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node282 -> Node270 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node264 -> Node268 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node264 -> Node284 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node284 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node264 -> Node269 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node264 -> Node282 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node264 -> Node270 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

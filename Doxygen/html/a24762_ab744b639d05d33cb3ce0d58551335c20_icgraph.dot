@@ -1,0 +1,12 @@
+digraph "gradingDescriptor"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="gradingDescriptor",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="gradingDescriptor",height=0.2,width=0.4,color="black",URL="$a24762.html#a1e6e0683d555af14bbadd020e8d6a022",tooltip="Construct from components. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="inv",height=0.2,width=0.4,color="red",URL="$a24762.html#aed2696d7b46bebcffa1f42d201bf189c",tooltip="Return the inverse gradingDescriptor with 1/expansionRatio. "];
+}

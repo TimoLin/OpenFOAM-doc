@@ -1,0 +1,28 @@
+digraph "checkClosedBoundary"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node10496 [label="checkClosedBoundary",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node10496 -> Node10497 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10497 [label="checkClosedCells",height=0.2,width=0.4,color="red",URL="$a27530.html#af0e7222539cef4406854c6aca017cc11",tooltip="Check cells for closedness. "];
+  Node10497 -> Node10498 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10498 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node10497 -> Node10503 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10503 [label="Foam::reduce",height=0.2,width=0.4,color="red",URL="$a21124.html#a7ffd6af4acc2eb9ba72ee296b5ecda23"];
+  Node10503 -> Node10498 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10496 -> Node10833 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10833 [label="cmptMag",height=0.2,width=0.4,color="red",URL="$a12539.html#a9180528922650a6b9a3b302e27e621b9"];
+  Node10833 -> Node10520 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10520 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node10496 -> Node10861 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10861 [label="cmptMax",height=0.2,width=0.4,color="red",URL="$a12539.html#a7c5faef6f02dd084bf6fb08a04a04655"];
+  Node10496 -> Node10498 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10496 -> Node10520 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10496 -> Node10503 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10496 -> Node10506 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10506 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node10496 -> Node10862 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10862 [label="Foam::PackedList::size",height=0.2,width=0.4,color="black",URL="$a25938.html#a47b3bf30da1eb3ab8076b5fbe00e0494",tooltip="Number of entries. "];
+}

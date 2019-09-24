@@ -1,0 +1,35 @@
+digraph "solveEnergy"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node865 [label="solveEnergy",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node865 -> Node866 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node866 [label="Foam::basicThermo::\lalpha",height=0.2,width=0.4,color="black",URL="$a29734.html#adc68ab94e7feaa067900767f398284b2",tooltip="Thermal diffusivity for enthalpy of mixture [kg/m/s]. "];
+  Node865 -> Node867 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node867 [label="Foam::fvm::ddt",height=0.2,width=0.4,color="red",URL="$a21135.html#a2d88eca98ab69b84af7ddb96e35f5a44"];
+  Node865 -> Node918 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node918 [label="Foam::fvc::div",height=0.2,width=0.4,color="red",URL="$a21134.html#a585533948ad80abfe589d920c641f251"];
+  Node865 -> Node871 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node871 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node865 -> Node1170 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1170 [label="Foam::fvc::interpolate",height=0.2,width=0.4,color="black",URL="$a21134.html#addbc18784300dd0955a9bf79f8e2c43b"];
+  Node1170 -> Node871 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node865 -> Node1171 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1171 [label="kappa",height=0.2,width=0.4,color="red",URL="$a28978.html#a2b919c61cb95af34db6fa7946be5ad2d",tooltip="Return the region thermal conductivity [W/m/k]. "];
+  Node865 -> Node1173 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1173 [label="Foam::fvc::laplacian",height=0.2,width=0.4,color="red",URL="$a21134.html#ac75bff389d0405149b204b0d7ac214cd"];
+  Node865 -> Node1175 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1175 [label="Foam::fvm::laplacian",height=0.2,width=0.4,color="red",URL="$a21135.html#a05679b154654e47e9f1e2fbd2bc0bae0"];
+  Node865 -> Node1176 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1176 [label="Foam::regionModels\l::regionModel1D::nMagSf",height=0.2,width=0.4,color="red",URL="$a29002.html#a18898b5c3a878d9c420f03917d0a125d",tooltip="Return the face area magnitudes / [m2]. "];
+  Node865 -> Node1177 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1177 [label="phiGas",height=0.2,width=0.4,color="black",URL="$a28978.html#ade0b97cc26fec200c55189c83fc4d3e5",tooltip="Return the total gas mass flux to primary region [kg/m2/s]. "];
+  Node865 -> Node1178 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1178 [label="Foam::regionModels\l::regionModel::regionMesh",height=0.2,width=0.4,color="red",URL="$a28998.html#a89a37969c20983ee143c612486ce5313",tooltip="Return the region mesh database. "];
+  Node865 -> Node1185 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1185 [label="Foam::fvm::Sp",height=0.2,width=0.4,color="black",URL="$a21135.html#a67e0938495ebeac7ad57361957720554"];
+  Node865 -> Node1186 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1186 [label="T",height=0.2,width=0.4,color="red",URL="$a28978.html#a4cdc587a2b31f4bae995d375d3e9aeab",tooltip="Return const temperature [K]. "];
+}

@@ -1,0 +1,13 @@
+digraph "write"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2664 [label="write",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2664 -> Node2665 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2665 [label="write",height=0.2,width=0.4,color="black",URL="$a26262.html#a0efefd773fa79fc3b687978f9e1ee9ba",tooltip="Write given buffer to given processor. "];
+  Node2664 -> Node2666 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2666 [label="writeQuoted",height=0.2,width=0.4,color="black",URL="$a26262.html#a40c64d7f8975f303da0b0245c16fe906",tooltip="Write std::string surrounded by quotes. "];
+  Node2666 -> Node2665 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

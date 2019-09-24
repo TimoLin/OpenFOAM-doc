@@ -1,0 +1,23 @@
+digraph "calcInvR1"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node104 [label="calcInvR1",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node104 -> Node105 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node105 [label="Foam::polyMesh::boundaryMesh",height=0.2,width=0.4,color="black",URL="$a27410.html#a9f2b68c134340291eda6197f47f25484",tooltip="Return boundary mesh. "];
+  Node104 -> Node106 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node106 [label="calcCosAngle",height=0.2,width=0.4,color="red",URL="$a29094.html#a6595a2ccc657d73bb3e77c3dad18b386",tooltip="Calculate the cosine of the angle between gravity vector and. "];
+  Node106 -> Node189 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node189 [label="Foam::fvMesh::time",height=0.2,width=0.4,color="red",URL="$a22766.html#a0d94096809fe3376b29a2a29ca11bb18",tooltip="Return the top-level database. "];
+  Node106 -> Node385 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node385 [label="Foam::TimeState::outputTime",height=0.2,width=0.4,color="black",URL="$a26362.html#a59fd6e5492ff7a07bf267713f0338fa1",tooltip="Return true if this is an output time (primary or secondary) "];
+  Node106 -> Node237 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node237 [label="Foam::max",height=0.2,width=0.4,color="black",URL="$a21124.html#ac993e906cf2774ae77e666bc24e81733"];
+  Node104 -> Node200 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node200 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node104 -> Node237 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node104 -> Node385 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node104 -> Node189 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,16 @@
+digraph "preconditionT"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1076 [label="preconditionT",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1076 -> Node1077 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1077 [label="Foam::lduMatrix::ClassName",height=0.2,width=0.4,color="black",URL="$a26882.html#a34764ed3917c6d1bb92129403b7ac86f"];
+  Node1076 -> Node1078 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1078 [label="Foam::lduMatrix::lduMatrix",height=0.2,width=0.4,color="black",URL="$a26882.html#aada51ad394c6d4e064ba5689c93a05aa",tooltip="Construct given an LDU addressed mesh. "];
+  Node1076 -> Node1079 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1079 [label="Foam::lduMatrix::solver\l::type",height=0.2,width=0.4,color="black",URL="$a26886.html#a116f50bec7e5649751b6478270a9ee5f",tooltip="Runtime type information. "];
+  Node1076 -> Node1080 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1080 [label="Foam::lduMatrix::~lduMatrix",height=0.2,width=0.4,color="black",URL="$a26882.html#a82c9597167461a286d294e1d95f8544f",tooltip="Destructor. "];
+}

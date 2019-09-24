@@ -1,0 +1,37 @@
+digraph "coupledPatch"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1707 [label="coupledPatch",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1707 -> Node1708 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1708 [label="Foam::createShellMesh\l::calcPointRegions",height=0.2,width=0.4,color="red",URL="$a21442.html#abd09fd2558d9fc41e9a503ce2976fe5f",tooltip="Helper: calculate point regions. The point region is the. "];
+  Node1707 -> Node1713 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1713 [label="Foam::PointEdgeWave\l::countPatchType",height=0.2,width=0.4,color="black",URL="$a24858.html#a774d50194a0ab5809347d4eb20808ff6"];
+  Node1707 -> Node1714 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1714 [label="coupledPatchMeshEdges",height=0.2,width=0.4,color="red",URL="$a27334.html#aa00f3e08eda303a5809080b2474441b3",tooltip="Return map from coupledPatch edges to mesh edges. "];
+  Node1714 -> Node1716 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1716 [label="nTotalCells",height=0.2,width=0.4,color="red",URL="$a27334.html#af5f312e4d0bc5cbcc088e7c247d3a97a",tooltip="Return total number of cells in decomposed mesh. "];
+  Node1707 -> Node1788 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1788 [label="globalEdgeNumbering",height=0.2,width=0.4,color="black",URL="$a27334.html#abfc1c298f80f197e2909adde46222158"];
+  Node1788 -> Node1716 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1707 -> Node1789 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1789 [label="globalPointNumbering",height=0.2,width=0.4,color="black",URL="$a27334.html#aff6f4a945b599a2e788f4bd96075ffc6",tooltip="Numbering of coupled points is according to coupledPatch. "];
+  Node1789 -> Node1790 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1790 [label="mergePoints",height=0.2,width=0.4,color="red",URL="$a27334.html#aa4df94c65c44d0e38bcd229cd913f042",tooltip="Helper for merging (collocated!) mesh point data. "];
+  Node1790 -> Node1716 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1789 -> Node1716 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1707 -> Node1790 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1707 -> Node1716 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1707 -> Node1804 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1804 [label="Foam::PatchTools::pointNormals",height=0.2,width=0.4,color="black",URL="$a27526.html#ab60186b13b96788288ecfa924a6950d2"];
+  Node1707 -> Node1805 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1805 [label="Foam::motionSmootherAlgo\l::setDisplacementPatchFields",height=0.2,width=0.4,color="red",URL="$a21550.html#a1117a26b03c2fa65a7065fe94f32757c",tooltip="Set patch fields on displacement to be consistent with. "];
+  Node1707 -> Node1739 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1739 [label="Foam::syncTools::syncEdgeList",height=0.2,width=0.4,color="black",URL="$a27502.html#a86e90a506551c4d498997468519bdbb6",tooltip="Synchronize values on selected mesh edges. "];
+  Node1707 -> Node1787 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1787 [label="Foam::syncTools::syncPointList",height=0.2,width=0.4,color="black",URL="$a27502.html#a334197e1b70d6e0b87da5cb827940dd4",tooltip="Synchronize values on selected mesh points. "];
+  Node1707 -> Node1793 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1793 [label="Foam::pointConstraints\l::syncUntransformedData",height=0.2,width=0.4,color="red",URL="$a23282.html#a60a2f4543c7dc5c768bd06768d7004c6",tooltip="Helper: sync data on collocated points only. "];
+}

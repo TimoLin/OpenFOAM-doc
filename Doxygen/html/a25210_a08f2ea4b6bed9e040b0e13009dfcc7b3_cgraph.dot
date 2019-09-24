@@ -1,0 +1,30 @@
+digraph "overlaps"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node178 [label="overlaps",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node178 -> Node179 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node179 [label="findLine",height=0.2,width=0.4,color="red",URL="$a25210.html#aadce0231473476a2f789c287c0af3943",tooltip="Find nearest intersection of line between start and end. "];
+  Node179 -> Node229 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node229 [label="findLineAny",height=0.2,width=0.4,color="black",URL="$a25210.html#afe7af761698b84b28dd3b3303edf86bf",tooltip="Find any intersection of line between start and end. "];
+  Node178 -> Node230 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node230 [label="findLineAll",height=0.2,width=0.4,color="red",URL="$a25210.html#a32c00098bc496f0cc93bf1aebc19ee49",tooltip="Get all intersections in order from start to end. "];
+  Node230 -> Node246 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node246 [label="getRegion",height=0.2,width=0.4,color="red",URL="$a25210.html#ab2bcdcc4dd1bdb5a9e1d1025292bdf24",tooltip="From a set of points and indices get the region. "];
+  Node246 -> Node247 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node247 [label="getNormal",height=0.2,width=0.4,color="red",URL="$a25210.html#aa9abdb9ffe5f3cb1c2992ccb3bcc9e48",tooltip="From a set of points and indices get the normal. "];
+  Node247 -> Node248 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node248 [label="getVolumeType",height=0.2,width=0.4,color="red",URL="$a25210.html#a1d3ba31549036f01425643d189858d2a",tooltip="Determine type (inside/outside/mixed) for point. unknown if. "];
+  Node178 -> Node229 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node178 -> Node249 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node249 [label="findNearestOnEdge",height=0.2,width=0.4,color="red",URL="$a25210.html#a945928aebbefd2d65c7cd3807020bb93",tooltip="Calculate nearest point on edge. "];
+  Node178 -> Node247 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node178 -> Node246 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node178 -> Node248 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node178 -> Node257 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node257 [label="Foam::ln",height=0.2,width=0.4,color="red",URL="$a21124.html#aea60636e831c1465e94c96bf1afdce2f",tooltip="Create a softlink. dst should not exist. Returns true if successful. "];
+  Node178 -> Node266 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node266 [label="Foam::boundBox::overlaps",height=0.2,width=0.4,color="red",URL="$a27102.html#a6caa823feb3f4b40eddaa16c88a35f7c",tooltip="Overlaps/touches boundingBox? "];
+}

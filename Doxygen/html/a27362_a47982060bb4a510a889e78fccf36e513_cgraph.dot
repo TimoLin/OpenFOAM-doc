@@ -1,0 +1,14 @@
+digraph "renumber"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node826 [label="renumber",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node826 -> Node827 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node827 [label="Foam::globalIndex::\lisLocal",height=0.2,width=0.4,color="red",URL="$a27330.html#aff6dbd43e99cc9667fe841c1d67046b2",tooltip="Is on local processor. "];
+  Node826 -> Node829 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node829 [label="Foam::globalIndex::\ltoLocal",height=0.2,width=0.4,color="red",URL="$a27330.html#adb55002664ead0ff139348c2cabc9a6e",tooltip="From global to local on current processor. "];
+  Node826 -> Node830 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node830 [label="Foam::globalIndex::\lwhichProcID",height=0.2,width=0.4,color="red",URL="$a27330.html#a2290e78754eefe18bf9f30479d67a004",tooltip="Which processor does global come from? Binary search. "];
+}

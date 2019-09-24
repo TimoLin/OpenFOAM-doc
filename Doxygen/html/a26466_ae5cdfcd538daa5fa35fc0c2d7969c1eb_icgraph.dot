@@ -1,0 +1,31 @@
+digraph "rmap"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4170 [label="rmap",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4170 -> Node4171 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4171 [label="Foam::extendedEdgeMesh::add",height=0.2,width=0.4,color="black",URL="$a21786.html#af07e0aa40a7a71b92a74dd6b77a44ad3",tooltip="Add extendedEdgeMesh. No filtering of duplicates. "];
+  Node4170 -> Node4172 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4172 [label="Foam::Field\< Foam::\lVector2D \>::autoMap",height=0.2,width=0.4,color="black",URL="$a26466.html#ad0217d852e72a5f1434582bed9e52a43",tooltip="Map from self. "];
+  Node4170 -> Node4173 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4173 [label="Foam::extendedEdgeMesh\l::flipNormals",height=0.2,width=0.4,color="black",URL="$a21786.html#ace7a4ec5b5de12179b1d4194ea408066",tooltip="Flip normals. All concave become convex, all internal external. "];
+  Node4170 -> Node4174 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4174 [label="Foam::fvMeshAdder::\lMapVolFields",height=0.2,width=0.4,color="black",URL="$a21450.html#a46a9dc762edc65a8de2d5f8e47dca058",tooltip="Map all volFields of Type. "];
+  Node4170 -> Node4175 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4175 [label="Foam::Field\< Foam::\lVector2D \>::NewCalculatedType",height=0.2,width=0.4,color="black",URL="$a26466.html#ae6bdf47436f49314cb0fc784144bf18f",tooltip="Return a pointer to a new calculatedFvPatchFieldField created on. "];
+  Node4170 -> Node4176 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4176 [label="Foam::compressible\l::mutkRoughWallFunctionFvPatch\lScalarField::rmap",height=0.2,width=0.4,color="red",URL="$a30698.html#a713277715ccc0a5ef466b0516d44731f",tooltip="Reverse map the given fvPatchField onto this fvPatchField. "];
+  Node4170 -> Node4180 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4180 [label="Foam::incompressible\l::nutkRoughWallFunctionFvPatch\lScalarField::rmap",height=0.2,width=0.4,color="red",URL="$a30978.html#a713277715ccc0a5ef466b0516d44731f",tooltip="Reverse map the given fvPatchField onto this fvPatchField. "];
+  Node4170 -> Node4184 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4184 [label="Foam::pressureInletOutlet\lVelocityFvPatchVectorField::rmap",height=0.2,width=0.4,color="red",URL="$a22226.html#a4fe41b169c41bfcd4311c1d1e27a96ed",tooltip="Reverse map the given fvPatchField onto this fvPatchField. "];
+  Node4170 -> Node4189 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4189 [label="Foam::incompressible\l::nutkAtmRoughWallFunctionFv\lPatchScalarField::rmap",height=0.2,width=0.4,color="red",URL="$a30974.html#a713277715ccc0a5ef466b0516d44731f",tooltip="Reverse map the given fvPatchField onto this fvPatchField. "];
+  Node4170 -> Node4193 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4193 [label="Foam::incompressible\l::atmBoundaryLayer::rmap",height=0.2,width=0.4,color="red",URL="$a30926.html#a670094b08fb7f2e53678b72397f942f3",tooltip="Reverse map the given fvPatchField onto this fvPatchField. "];
+  Node4170 -> Node4170 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4170 -> Node4208 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4208 [label="Foam::fvsPatchField\l::rmap",height=0.2,width=0.4,color="red",URL="$a22426.html#a2a4e2ff4d089213c5003eb8cff760b29",tooltip="Reverse map the given fvsPatchField onto this fvsPatchField. "];
+}

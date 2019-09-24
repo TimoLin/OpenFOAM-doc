@@ -1,0 +1,21 @@
+digraph "addInfoObject"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4655 [label="addInfoObject",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4655 -> Node4656 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4656 [label="addOptimisationObject",height=0.2,width=0.4,color="red",URL="$a21163.html#a6eddc51e7248c6785ecaabc32e065f4e",tooltip="Register optimisation switch read/write object. "];
+  Node4656 -> Node4658 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4658 [label="Foam::DictionaryBase\l::lookupPtr",height=0.2,width=0.4,color="black",URL="$a25670.html#ab01c63c55a0fccd0de22cd0e55516fa4",tooltip="Find and return an entry if present, otherwise return NULL. "];
+  Node4656 -> Node4659 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4659 [label="Foam::List::append",height=0.2,width=0.4,color="black",URL="$a25694.html#a399dd2bf0d9a32016717dc90126f016b",tooltip="Append an element at the end of the list. "];
+  Node4656 -> Node4660 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4660 [label="Foam::DictionaryBase\l::append",height=0.2,width=0.4,color="black",URL="$a25670.html#a7d32913c049313f63764cfcad36f372e",tooltip="Add at tail of dictionary. "];
+  Node4655 -> Node4660 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4655 -> Node4659 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4655 -> Node4665 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4665 [label="infoObjects",height=0.2,width=0.4,color="black",URL="$a21163.html#a38ea2048d7509ce4a32ed4e82c65abb6",tooltip="Get access to registered info switch objects. "];
+  Node4655 -> Node4658 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

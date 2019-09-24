@@ -1,0 +1,21 @@
+digraph "mag"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node683 [label="mag",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node683 -> Node684 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node684 [label="Foam::autoSnapDriver\l::calcSnapDistance",height=0.2,width=0.4,color="red",URL="$a24622.html#afd4d0bc8076355e778a983cde07f58af",tooltip="Calculate edge length per patch point. "];
+  Node683 -> Node687 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node687 [label="Foam::layerAdditionRemoval\l::changeTopology",height=0.2,width=0.4,color="black",URL="$a21462.html#a837dedbb253fe1b4140e2fc1112e95e9",tooltip="Check for topology change. "];
+  Node683 -> Node688 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node688 [label="Foam::edgeCollapser\l::markSmallEdges",height=0.2,width=0.4,color="red",URL="$a21642.html#a3bd1111edd1c3822183a5bad2e459d54",tooltip="Mark (in collapseEdge) any edges to collapse. "];
+  Node683 -> Node692 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node692 [label="Foam::surfaceFeatures\l::setFromStatus",height=0.2,width=0.4,color="red",URL="$a25510.html#a3ec4130a2f02e6be2ba97774910eb125",tooltip="Set from status per edge. "];
+  Node692 -> Node694 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node694 [label="Foam::surfaceFeatures\l::trimFeatures",height=0.2,width=0.4,color="red",URL="$a25510.html#af640d0750bcc401bc012c69e60b809a8",tooltip="Delete small sets of edges. Edges are stringed up and any. "];
+  Node683 -> Node701 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node701 [label="Foam::surfaceIntersection\l::surfaceIntersection",height=0.2,width=0.4,color="black",URL="$a25502.html#a0227f78e50cd258d5b10a3f1214bea8f",tooltip="Special: intersect surface with itself. Used to check for. "];
+  Node683 -> Node694 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

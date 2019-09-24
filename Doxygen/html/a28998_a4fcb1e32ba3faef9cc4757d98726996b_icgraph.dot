@@ -1,0 +1,37 @@
+digraph "primaryMesh"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node456 [label="primaryMesh",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node456 -> Node457 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node457 [label="Foam::regionModels\l::thermalBaffleModels\l::noThermo::Cp",height=0.2,width=0.4,color="black",URL="$a29190.html#a733eb9714af55e877dae51b5ee26ec0b",tooltip="Return the film specific heat capacity [J/kg/K]. "];
+  Node456 -> Node458 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node458 [label="Foam::regionModels\l::pyrolysisModels::pyrolysis\lModelCollection::evolve",height=0.2,width=0.4,color="black",URL="$a28974.html#a9e3bb886209d951167cd385c1ffe0b00",tooltip="Evolve regions. "];
+  Node456 -> Node459 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node459 [label="Foam::regionModels\l::surfaceFilmModels\l::liquidFilmThermo::initLiquid",height=0.2,width=0.4,color="red",URL="$a29066.html#a5673e50c4f933c26fce60fdc3fb74323",tooltip="Initialise the liquid pointer. "];
+  Node456 -> Node461 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node461 [label="Foam::regionModels\l::surfaceFilmModels\l::noFilm::primaryMassTrans",height=0.2,width=0.4,color="black",URL="$a29046.html#af63cf41c766b31dad8bc0b9c75fe087b",tooltip="Return mass transfer source - Eulerian phase only. "];
+  Node456 -> Node462 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node462 [label="Foam::regionModels\l::surfaceFilmModels\l::kinematicSingleLayer\l::primaryMassTrans",height=0.2,width=0.4,color="black",URL="$a29042.html#af63cf41c766b31dad8bc0b9c75fe087b",tooltip="Return mass transfer source - Eulerian phase only. "];
+  Node456 -> Node463 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node463 [label="Foam::regionModels\l::surfaceFilmModels\l::noFilm::Sh",height=0.2,width=0.4,color="black",URL="$a29046.html#a53ec9c985ece69490045b438d32d5a7b",tooltip="Return enthalpy source - Eulerian phase only. "];
+  Node456 -> Node464 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node464 [label="Foam::regionModels\l::surfaceFilmModels\l::thermoSingleLayer::Sh",height=0.2,width=0.4,color="black",URL="$a29182.html#a53ec9c985ece69490045b438d32d5a7b",tooltip="Return enthalpy source - Eulerian phase only. "];
+  Node456 -> Node465 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node465 [label="Foam::regionModels\l::surfaceFilmModels\l::kinematicSingleLayer::Sh",height=0.2,width=0.4,color="black",URL="$a29042.html#a53ec9c985ece69490045b438d32d5a7b",tooltip="Return enthalpy source - Eulerian phase only. "];
+  Node456 -> Node466 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node466 [label="Foam::regionModels\l::surfaceFilmModels\l::noFilm::Srho",height=0.2,width=0.4,color="black",URL="$a29046.html#a0fd34d9be91b7ae55aec9d00e630b9b6",tooltip="Return total mass source - Eulerian phase only. "];
+  Node456 -> Node467 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node467 [label="Foam::regionModels\l::surfaceFilmModels\l::thermoSingleLayer::Srho",height=0.2,width=0.4,color="red",URL="$a29182.html#a0fd34d9be91b7ae55aec9d00e630b9b6",tooltip="Return total mass source - Eulerian phase only. "];
+  Node456 -> Node469 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node469 [label="Foam::regionModels\l::surfaceFilmModels\l::kinematicSingleLayer::Srho",height=0.2,width=0.4,color="black",URL="$a29042.html#a0fd34d9be91b7ae55aec9d00e630b9b6",tooltip="Return total mass source - Eulerian phase only. "];
+  Node456 -> Node470 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node470 [label="Foam::regionModels\l::surfaceFilmModels\l::thermoSingleLayer::\ltransferPrimaryRegionSourceFields",height=0.2,width=0.4,color="black",URL="$a29182.html#ad280476804f72e6d48d182e2d0814a46",tooltip="Transfer source fields from the primary region to the film region. "];
+  Node456 -> Node471 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node471 [label="Foam::regionModels\l::surfaceFilmModels\l::kinematicSingleLayer\l::transferPrimaryRegionSourceFields",height=0.2,width=0.4,color="red",URL="$a29042.html#ad280476804f72e6d48d182e2d0814a46",tooltip="Transfer source fields from the primary region to the film region. "];
+  Node471 -> Node470 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node456 -> Node474 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node474 [label="Foam::filmPyrolysisRadiative\lCoupledMixedFvPatchScalarField\l::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a28982.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+}

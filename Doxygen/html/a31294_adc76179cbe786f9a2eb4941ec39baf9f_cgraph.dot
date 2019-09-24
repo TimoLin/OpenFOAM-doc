@@ -1,0 +1,19 @@
+digraph "omegaPatch"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1107 [label="omegaPatch",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1107 -> Node1108 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1108 [label="Foam::GeometricField\l::boundaryField",height=0.2,width=0.4,color="black",URL="$a22434.html#a3c6c1a789b48ea0c5e8bff64f9c14f2d",tooltip="Return reference to GeometricBoundaryField. "];
+  Node1107 -> Node1109 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1109 [label="calculateTurbulenceFields",height=0.2,width=0.4,color="red",URL="$a31294.html#ad354b2bce4bd90afc465c2dff69b24d6",tooltip="Main driver to calculate the turbulence fields. "];
+  Node1109 -> Node1107 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1107 -> Node1487 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1487 [label="Foam::fvPatchField\l::dimensionedInternalField",height=0.2,width=0.4,color="black",URL="$a22354.html#a1067b719c3281eb98ffda55196ca2033",tooltip="Return dimensioned internal field reference. "];
+  Node1107 -> Node1488 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1488 [label="omega",height=0.2,width=0.4,color="red",URL="$a31294.html#a0a19ade47a22371d23b806d6b945dc4a",tooltip="Return non-const access to the master&#39;s omega field. "];
+  Node1488 -> Node1107 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1488 -> Node1488 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

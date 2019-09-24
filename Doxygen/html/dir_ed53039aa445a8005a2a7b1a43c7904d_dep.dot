@@ -1,0 +1,15 @@
+digraph "src/TurbulenceModels/turbulenceModels/laminar" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="FreeSans"];
+  edge [ labelfontsize="10", labelfontname="FreeSans"];
+  subgraph clusterdir_a3dc37bcacf99bb6122ed819dac99f09 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="turbulenceModels" fontname="FreeSans", fontsize="10", URL="dir_a3dc37bcacf99bb6122ed819dac99f09.html"]
+  dir_ed53039aa445a8005a2a7b1a43c7904d [shape=box, label="laminar", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_ed53039aa445a8005a2a7b1a43c7904d.html"];
+  }
+  dir_9bd15774b555cf7259a6fa18f99fe99b [shape=box label="finiteVolume" color="red" URL="dir_9bd15774b555cf7259a6fa18f99fe99b.html"];
+  dir_f4ac237440903b58b2b7b64b0e39044f [shape=box label="TurbulenceModel" URL="dir_f4ac237440903b58b2b7b64b0e39044f.html"];
+  dir_f4ac237440903b58b2b7b64b0e39044f->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="2", labeldistance=1.5 headhref="dir_003054_000749.html"];
+  dir_ed53039aa445a8005a2a7b1a43c7904d->dir_9bd15774b555cf7259a6fa18f99fe99b [headlabel="5", labeldistance=1.5 headhref="dir_000609_000749.html"];
+  dir_ed53039aa445a8005a2a7b1a43c7904d->dir_f4ac237440903b58b2b7b64b0e39044f [headlabel="1", labeldistance=1.5 headhref="dir_000609_003054.html"];
+}

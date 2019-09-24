@@ -1,0 +1,19 @@
+digraph "clone"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node58 [label="clone",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node58 -> Node59 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node59 [label="correct",height=0.2,width=0.4,color="red",URL="$a24170.html#aa1b559cf24cdec3d37b45e290079352d",tooltip="Apply velocity correction. "];
+  Node58 -> Node113 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node113 [label="info",height=0.2,width=0.4,color="black",URL="$a24170.html#a535c2aef67becff77ed292ab0eceb44c",tooltip="Write patch interaction info to stream. "];
+  Node58 -> Node114 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node114 [label="massEscape",height=0.2,width=0.4,color="red",URL="$a24170.html#a7fc175688c117edb5ca9ee0cc8bf6c5a",tooltip="Return access to the massEscape field. "];
+  Node58 -> Node120 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node120 [label="massStick",height=0.2,width=0.4,color="red",URL="$a24170.html#a6d77e61eab3c801161b85459bd1c4087",tooltip="Return access to the massStick field. "];
+  Node120 -> Node59 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node58 -> Node121 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node121 [label="~LocalInteraction",height=0.2,width=0.4,color="black",URL="$a24170.html#a97d5e1d336128c7feeba967ad7603bc4",tooltip="Destructor. "];
+}

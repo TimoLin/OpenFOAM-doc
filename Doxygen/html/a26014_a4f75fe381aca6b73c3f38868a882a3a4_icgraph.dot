@@ -1,0 +1,20 @@
+digraph "clone"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2375 [label="clone",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2375 -> Node2376 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2376 [label="merge",height=0.2,width=0.4,color="red",URL="$a26014.html#af56b3a0b0e4fe1a730c36904c24bbf25",tooltip="Merge entries from the given dictionary. "];
+  Node2375 -> Node3828 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3828 [label="operator+=",height=0.2,width=0.4,color="black",URL="$a26014.html#a9b5d90f7e2cf1adf608a3a516aa9b6ef",tooltip="Include entries from the given dictionary. "];
+  Node2375 -> Node3830 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3830 [label="operator=",height=0.2,width=0.4,color="red",URL="$a26014.html#adafa7d7ab8619be2da838542945c8c90"];
+  Node2375 -> Node3834 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3834 [label="operator\|=",height=0.2,width=0.4,color="black",URL="$a26014.html#abeb4efb2c073541e75b6f7631866b1aa",tooltip="Conditionally include entries from the given dictionary. "];
+  Node2375 -> Node4399 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4399 [label="Foam::preservePatchTypes",height=0.2,width=0.4,color="black",URL="$a21124.html#aa5ba4f565a185dfa03afee2986b82183",tooltip="preserve patch types "];
+  Node2375 -> Node3238 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3238 [label="Foam::refinementSurfaces\l::refinementSurfaces",height=0.2,width=0.4,color="black",URL="$a24686.html#a3eecea7df2307ad6efac0393c421de74",tooltip="Construct from surfaces and dictionary. "];
+}

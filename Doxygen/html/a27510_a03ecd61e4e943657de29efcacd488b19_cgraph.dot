@@ -1,0 +1,37 @@
+digraph "flipMap"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1198 [label="flipMap",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1198 -> Node1199 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1199 [label="checkDefinition",height=0.2,width=0.4,color="red",URL="$a27510.html#a039ec44911bfb8cd28ffd27a600e6fc5",tooltip="Check zone definition. Return true if in error. "];
+  Node1198 -> Node1201 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1201 [label="checkParallelSync",height=0.2,width=0.4,color="red",URL="$a27510.html#ae0d853449ed62624abe28bda852337c6",tooltip="Check whether all procs have faces synchronised. Return. "];
+  Node1198 -> Node1593 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1593 [label="clearAddressing",height=0.2,width=0.4,color="red",URL="$a27510.html#aac1ee7169044dccb262b78097d6ab1a8",tooltip="Clear addressing. "];
+  Node1593 -> Node1595 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1595 [label="resetAddressing",height=0.2,width=0.4,color="red",URL="$a27510.html#a6b41c4445ebfd1e25c16715d2dd69414",tooltip="Reset addressing and flip map (clearing demand-driven data) "];
+  Node1198 -> Node1597 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1597 [label="masterCells",height=0.2,width=0.4,color="black",URL="$a27510.html#a565411e43dce1309e7afc6994f8e1f9a",tooltip="Return labels of master cells (cells next to the master face. "];
+  Node1198 -> Node1598 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1598 [label="meshEdges",height=0.2,width=0.4,color="black",URL="$a27510.html#afdf4c59abcf53eb2d39c9378a77551c3",tooltip="Return global edge index for local edges. "];
+  Node1198 -> Node1599 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1599 [label="movePoints",height=0.2,width=0.4,color="black",URL="$a27510.html#ab62834098bae1d3887f578c700754f39",tooltip="Correct patch after moving points. "];
+  Node1198 -> Node1600 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1600 [label="operator()",height=0.2,width=0.4,color="black",URL="$a27510.html#a779932eb0116a02af200770f14229142",tooltip="Return reference to primitive patch. "];
+  Node1198 -> Node1595 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1198 -> Node1601 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1601 [label="slaveCells",height=0.2,width=0.4,color="black",URL="$a27510.html#afd38cb46a959ddf67fa7617df72e1b05",tooltip="Return labels of slave cells. "];
+  Node1198 -> Node1602 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1602 [label="updateMesh",height=0.2,width=0.4,color="red",URL="$a27510.html#ad57565956fd4064299f4bd3c4eebb1d4",tooltip="Update for changes in topology. "];
+  Node1198 -> Node1604 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1604 [label="whichFace",height=0.2,width=0.4,color="red",URL="$a27510.html#a2a776b244e1eea320ab33cc0a21cf56a",tooltip="Helper function to re-direct to zone::localID(...) "];
+  Node1198 -> Node1606 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1606 [label="write",height=0.2,width=0.4,color="red",URL="$a27510.html#a293fdfec8bdfbd5c3913ab4c9f3454ff",tooltip="Write. "];
+  Node1198 -> Node1607 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1607 [label="writeDict",height=0.2,width=0.4,color="red",URL="$a27510.html#a99e013320e2bb0118f0c2857a9193f62",tooltip="Write dictionary. "];
+  Node1198 -> Node1609 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1609 [label="zoneMesh",height=0.2,width=0.4,color="black",URL="$a27510.html#a7de025cdcbb1f1a73ae026eb2d03fd87",tooltip="Return zoneMesh reference. "];
+}

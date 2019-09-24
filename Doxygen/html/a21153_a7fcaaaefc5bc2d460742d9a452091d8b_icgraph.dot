@@ -1,0 +1,14 @@
+digraph "normEdgeVec"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node32 [label="normEdgeVec",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node32 -> Node33 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node33 [label="calcBoxPointNormals",height=0.2,width=0.4,color="black",URL="$a21153.html#a4ba6200a07a6aab35485561987f60185",tooltip="Calculate point normals on a &#39;box&#39; mesh (all edges aligned with. "];
+  Node32 -> Node34 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34 [label="edgeToCutDir",height=0.2,width=0.4,color="red",URL="$a21153.html#aaae026ffd1b269c8a220c6bb1bc95fa7",tooltip="Given edge on hex find all &#39;parallel&#39; (i.e. non-connected) "];
+  Node32 -> Node43 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node43 [label="Foam::cellLooper::getMis\lAlignedEdge",height=0.2,width=0.4,color="red",URL="$a21470.html#a63c57a46b1a0b2c5c62c0890e1d0ed84",tooltip="Return edge from cellEdges that is most perpendicular. "];
+}

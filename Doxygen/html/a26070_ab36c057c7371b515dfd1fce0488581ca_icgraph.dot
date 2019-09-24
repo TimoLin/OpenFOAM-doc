@@ -1,0 +1,14 @@
+digraph "digestFile"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node708 [label="digestFile",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node708 -> Node709 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node709 [label="codeDirName",height=0.2,width=0.4,color="black",URL="$a26070.html#a03583b008e55aa52fecb01f0df03b665",tooltip="Return the code-dirname. "];
+  Node708 -> Node710 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node710 [label="upToDate",height=0.2,width=0.4,color="black",URL="$a26070.html#a5f9fc6ce737a5e86eb4a3ab11eabfec2",tooltip="Verify if the copied code is up-to-date, based on Make/SHA1Digest. "];
+  Node708 -> Node711 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node711 [label="writeDigest",height=0.2,width=0.4,color="red",URL="$a26070.html#ab628f8171d7bdd58a9c7524e172d245a",tooltip="Write digest to Make/SHA1Digest. "];
+}

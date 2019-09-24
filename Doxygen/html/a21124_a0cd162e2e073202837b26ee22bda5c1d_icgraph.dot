@@ -1,0 +1,21 @@
+digraph "calc"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node131234 [label="calc",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node131234 -> Node131235 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node131235 [label="Foam::radiation::greyMean\lSolidAbsorptionEmission::aCont",height=0.2,width=0.4,color="black",URL="$a30066.html#ace18b83f2647f21524aa32889f66afca",tooltip="Absorption coefficient for continuous phase. "];
+  Node131235 -> Node131236 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node131236 [label="Foam::radiation::greyMean\lSolidAbsorptionEmission::eCont",height=0.2,width=0.4,color="red",URL="$a30066.html#ab58c27229f7c40e4e0feb83ae587d288",tooltip="Emission coefficient for continuous phase. "];
+  Node131234 -> Node131239 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node131239 [label="Foam::SprayParcel::calc",height=0.2,width=0.4,color="red",URL="$a24534.html#a1c2aa9de8e2381d1a7be78bd687fd255",tooltip="Update parcel properties over the time interval. "];
+  Node131234 -> Node131245 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node131245 [label="Foam::patchPatchDist\l::correct",height=0.2,width=0.4,color="red",URL="$a24846.html#a3ae44b28050c3aa494c1d8e18cf618c1",tooltip="Correct for mesh geom/topo changes. "];
+  Node131234 -> Node131236 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node131234 -> Node131247 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node131247 [label="Foam::meshRefinement\l::mergeBaffles",height=0.2,width=0.4,color="red",URL="$a24662.html#aa959f1ef1377d3a4eaac5ff099280e50",tooltip="Merge baffles. Gets pairs of faces. "];
+  Node131234 -> Node131252 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node131252 [label="tryCalc",height=0.2,width=0.4,color="red",URL="$a21124.html#aa027c009a29fc46b2ab1c02f6a1369bf"];
+}

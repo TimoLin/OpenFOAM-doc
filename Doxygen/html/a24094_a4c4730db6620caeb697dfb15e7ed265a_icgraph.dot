@@ -1,0 +1,13 @@
+digraph "parcelsToInject"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node178 [label="parcelsToInject",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node178 -> Node179 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node179 [label="clone",height=0.2,width=0.4,color="black",URL="$a24094.html#ac6d7055f88f8ceb366a9f64d3ba635e0",tooltip="Construct and return a clone. "];
+  Node178 -> Node180 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node180 [label="flowRate",height=0.2,width=0.4,color="black",URL="$a24094.html#a9fda747fdb0b4416780ddeb6989ce9ba",tooltip="Return the total volumetric flow rate across the patch [m3/s]. "];
+  Node180 -> Node179 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

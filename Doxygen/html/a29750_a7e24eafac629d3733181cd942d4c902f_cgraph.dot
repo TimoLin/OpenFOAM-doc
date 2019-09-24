@@ -1,0 +1,26 @@
+digraph "updateCoeffs"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node337 [label="updateCoeffs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node337 -> Node338 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node338 [label="Foam::GeometricField\l::boundaryField",height=0.2,width=0.4,color="black",URL="$a22434.html#a3c6c1a789b48ea0c5e8bff64f9c14f2d",tooltip="Return reference to GeometricBoundaryField. "];
+  Node337 -> Node339 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node339 [label="Foam::basicThermo::Cpv",height=0.2,width=0.4,color="black",URL="$a29734.html#a8ef6b02f0ee51039c3741cf05f1a6a7c",tooltip="Heat capacity at constant pressure/volume [J/kg/K]. "];
+  Node337 -> Node340 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node340 [label="Foam::fvPatchField\l::evaluate",height=0.2,width=0.4,color="black",URL="$a22354.html#a3b59c070ab0408e3bbb21927540159f4",tooltip="Evaluate the patch field, sets Updated to false. "];
+  Node337 -> Node341 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node341 [label="Foam::basicThermo::he",height=0.2,width=0.4,color="black",URL="$a29734.html#a662d59ddd0d78a76cd9838b63db0dc27",tooltip="Enthalpy/Internal energy [J/kg]. "];
+  Node337 -> Node342 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node342 [label="Foam::basicThermo::\llookupThermo",height=0.2,width=0.4,color="red",URL="$a29734.html#a5e08ffb0c5604498e79b10e504b3fb67",tooltip="Generic lookup for each of the related thermodynamics packages. "];
+  Node337 -> Node647 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node647 [label="Foam::makePatchTypeField",height=0.2,width=0.4,color="black",URL="$a21124.html#a44a8c9a8ab08f6bf1f84bf3dab3f82a2"];
+  Node337 -> Node648 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node648 [label="Foam::basicThermo::p",height=0.2,width=0.4,color="black",URL="$a29734.html#a559539638a23431ca4b538c03b46e746",tooltip="Pressure [Pa]. "];
+  Node337 -> Node649 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node649 [label="Foam::fvPatchField\l::snGrad",height=0.2,width=0.4,color="black",URL="$a22354.html#a4e21804a54c15c57d187b21feff6f267",tooltip="Return patch-normal gradient. "];
+  Node337 -> Node650 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node650 [label="Foam::basicThermo::T",height=0.2,width=0.4,color="black",URL="$a29734.html#a36910f175f1b9478cb168b63da0a9904",tooltip="Temperature [K]. "];
+}

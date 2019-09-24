@@ -1,0 +1,15 @@
+digraph "getInsidePointNamedSurfaces"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1363 [label="getInsidePointNamedSurfaces",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1363 -> Node1364 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1364 [label="faceType",height=0.2,width=0.4,color="black",URL="$a24690.html#a7f6d29fa7b92a7be3b719672c3c9508d",tooltip="How to handle face of surfaces with a faceZone. "];
+  Node1363 -> Node1365 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1365 [label="getAllClosedNamedSurfaces",height=0.2,width=0.4,color="red",URL="$a24690.html#a75aca9a3b62ef695f9c980566832cdb0",tooltip="Get indices of surfaces with a cellZone that are closed. "];
+  Node1365 -> Node1364 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1363 -> Node1387 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1387 [label="Foam::meshRefinement\l::zonify",height=0.2,width=0.4,color="red",URL="$a24662.html#a90cf965dfe02eb20f11a4a8c6035747f",tooltip="Put faces/cells into zones according to surface specification. "];
+}

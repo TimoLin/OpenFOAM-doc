@@ -1,0 +1,14 @@
+digraph "pointInCellBB"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node52127 [label="pointInCellBB",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node52127 -> Node52128 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node52128 [label="Foam::boundBox::contains",height=0.2,width=0.4,color="red",URL="$a27102.html#a7e701fa094ffe47c254aea533b94b572",tooltip="Contains point? (inside or on edge) "];
+  Node52127 -> Node52132 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node52132 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node52127 -> Node52133 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node52133 [label="Foam::boundBox::span",height=0.2,width=0.4,color="black",URL="$a27102.html#aef985a837dcf02baf1e4b5c96cabe398",tooltip="The bounding box span (from minimum to maximum) "];
+}

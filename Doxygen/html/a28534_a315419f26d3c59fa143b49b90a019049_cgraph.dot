@@ -1,0 +1,20 @@
+digraph "valid"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node29 [label="valid",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node29 -> Node30 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node30 [label="Foam::IOstream::check",height=0.2,width=0.4,color="red",URL="$a26226.html#a367eb3425fc4e8270e2aa961df8ac8a5",tooltip="Check IOstream status for given operation. "];
+  Node29 -> Node79 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node79 [label="Foam::operator\<\<",height=0.2,width=0.4,color="red",URL="$a21124.html#ae86a76a63deefbe1a4490c873ad8e1b2"];
+  Node79 -> Node30 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node29 -> Node81 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node81 [label="Foam::operator\>\>",height=0.2,width=0.4,color="red",URL="$a21124.html#a44f398e0525f8d7f48cead029868d845"];
+  Node81 -> Node30 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node29 -> Node83 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node83 [label="Foam::Istream::readBegin",height=0.2,width=0.4,color="red",URL="$a26234.html#a0f770b511770a752d65282976e8a8078"];
+  Node29 -> Node88 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node88 [label="Foam::Istream::readEnd",height=0.2,width=0.4,color="red",URL="$a26234.html#a092d231ce97840ca80cad9b0e98acbb8"];
+}

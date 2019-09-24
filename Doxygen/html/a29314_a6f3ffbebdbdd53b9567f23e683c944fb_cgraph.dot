@@ -1,0 +1,26 @@
+digraph "findNearFace"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node732 [label="findNearFace",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node732 -> Node733 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node733 [label="Foam::primitiveMesh\l::cells",height=0.2,width=0.4,color="black",URL="$a27530.html#af19bf800d725a623c7b1d0101d65e7d3"];
+  Node732 -> Node734 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node734 [label="f",height=0.2,width=0.4,color="black",URL="$a17900.html#a888be93833ac7a23170555c69c690288"];
+  Node732 -> Node735 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node735 [label="Foam::polyMesh::faces",height=0.2,width=0.4,color="red",URL="$a27410.html#a431c0a24765f0bb6d32f6a03ce0e9b57",tooltip="Return raw faces. "];
+  Node732 -> Node779 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node779 [label="Foam::PointHit::hit",height=0.2,width=0.4,color="black",URL="$a27558.html#aee8dc30bf27cefe419b15f96e594c155",tooltip="Is there a hit. "];
+  Node732 -> Node780 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node780 [label="Foam::PointHit::hitPoint",height=0.2,width=0.4,color="black",URL="$a27558.html#a0350feff966a8bc8833a84ca454f1e5e",tooltip="Return hit point. "];
+  Node732 -> Node781 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node781 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node732 -> Node782 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node782 [label="Foam::PointHit::missPoint",height=0.2,width=0.4,color="black",URL="$a27558.html#a51c7abb4a3f78f3f6478e5ffbdd56c83",tooltip="Return miss point. "];
+  Node732 -> Node783 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node783 [label="Foam::face::nearestPoint",height=0.2,width=0.4,color="red",URL="$a27218.html#a63a61f4d0eca714a14157cf1dc9b1366",tooltip="Return nearest point to face. "];
+  Node732 -> Node794 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node794 [label="pushIn",height=0.2,width=0.4,color="red",URL="$a29314.html#ac80a479d77127e652bb467f195367fa5",tooltip="Moves sample in direction of -n to it is &#39;inside&#39; of faceI. "];
+}

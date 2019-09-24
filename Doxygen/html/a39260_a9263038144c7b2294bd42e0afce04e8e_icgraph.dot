@@ -1,0 +1,13 @@
+digraph "constrain"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="constrain",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="Foam::motionSmootherAlgo::avg",height=0.2,width=0.4,color="black",URL="$a21550.html#a1e9ece659896c4f16989da23808fd724"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="Foam::motionSmootherAlgo\l::smooth",height=0.2,width=0.4,color="red",URL="$a21550.html#a9573d3e007b37387f7624f7b6a8ceefd",tooltip="Fully explicit smoothing of fields (not positions) "];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

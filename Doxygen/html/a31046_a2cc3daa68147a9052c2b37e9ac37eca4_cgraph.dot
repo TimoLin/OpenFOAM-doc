@@ -1,0 +1,25 @@
+digraph "k"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1866 [label="k",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1866 -> Node1867 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1867 [label="correct",height=0.2,width=0.4,color="red",URL="$a31046.html#a3ae44b28050c3aa494c1d8e18cf618c1",tooltip="Solve the turbulence equations and correct the turbulence viscosity. "];
+  Node1866 -> Node2268 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2268 [label="devReff",height=0.2,width=0.4,color="red",URL="$a31046.html#a5449021fbe915095746a83606a000df4",tooltip="Return the effective stress tensor including the laminar stress. "];
+  Node1866 -> Node2311 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2311 [label="divDevReff",height=0.2,width=0.4,color="red",URL="$a31046.html#a028ac2eaccc9a479009b15cc6e21a89e",tooltip="Return the source term for the momentum equation. "];
+  Node2311 -> Node2312 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2312 [label="divDevRhoReff",height=0.2,width=0.4,color="red",URL="$a31046.html#a1d0345d58cf17e030967c2b77a4477d6",tooltip="Return the source term for the momentum equation. "];
+  Node1866 -> Node2312 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1866 -> Node2314 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2314 [label="epsilon",height=0.2,width=0.4,color="black",URL="$a31046.html#ad79e047917669fbb490d351478651e20",tooltip="Note that epsilonTilda is returned as epsilon. "];
+  Node1866 -> Node2315 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2315 [label="R",height=0.2,width=0.4,color="red",URL="$a31046.html#a89520ba1b936e6ffed0baac06d42349b",tooltip="Return the Reynolds stress tensor. "];
+  Node1866 -> Node2316 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2316 [label="read",height=0.2,width=0.4,color="red",URL="$a31046.html#af816873151ddb0126e98bb2f914d8ed5",tooltip="Read RASProperties dictionary. "];
+  Node1866 -> Node2318 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2318 [label="Foam::incompressible\l::turbulenceModel::U",height=0.2,width=0.4,color="black",URL="$a31102.html#a536d168d7b335fe81f506f232b5b4872",tooltip="Access function to velocity field. "];
+}

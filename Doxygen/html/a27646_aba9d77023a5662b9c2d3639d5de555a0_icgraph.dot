@@ -1,0 +1,28 @@
+digraph "yy"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node26 [label="yy",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node26 -> Node27 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node27 [label="Foam::molecule::constant\lProperties::constantProperties",height=0.2,width=0.4,color="black",URL="$a24394.html#a48f10350a2cae9811619cc14159099d6",tooltip="Construct from dictionary. "];
+  Node26 -> Node28 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node28 [label="Foam::det",height=0.2,width=0.4,color="black",URL="$a21124.html#ac250f908c2eeec7353b359b0cebd1e8f",tooltip="Return the determinant of a diagonal tensor. "];
+  Node26 -> Node29 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node29 [label="Foam::inv",height=0.2,width=0.4,color="black",URL="$a21124.html#aaf621d061b5e01a51191e22c1dc57077",tooltip="Return the inverse of a diagonal tensor. "];
+  Node26 -> Node30 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node30 [label="Foam::molecule::constant\lProperties::linearMolecule",height=0.2,width=0.4,color="red",URL="$a24394.html#aeb2a2b14062fa73f93abea82566a4856"];
+  Node26 -> Node32 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node32 [label="Foam::operator &",height=0.2,width=0.4,color="black",URL="$a21124.html#ae70f6c4e33dd2878ba58dbc0ae2cbea3",tooltip="Inner-product between two diagonal tensors. "];
+  Node26 -> Node33 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node33 [label="Foam::operator+",height=0.2,width=0.4,color="black",URL="$a21124.html#afd3ddb9840be2a7ca902615359e3283e"];
+  Node26 -> Node34 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34 [label="Foam::operator-",height=0.2,width=0.4,color="black",URL="$a21124.html#a2c7fb7bc3807efdfd0a5456730bc84fc"];
+  Node26 -> Node35 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node35 [label="Foam::operator/",height=0.2,width=0.4,color="black",URL="$a21124.html#aa27e874cfb850f9030a3f109d2437758",tooltip="Division of a scalar by a diagonalTensor. "];
+  Node26 -> Node36 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node36 [label="Foam::wedgeFvPatchField\l::snGradTransformDiag",height=0.2,width=0.4,color="red",URL="$a22054.html#ad369a69e9725d4bf2e6f522035c8d53d",tooltip="Return face-gradient transform diagonal. "];
+  Node26 -> Node38 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node38 [label="Foam::tr",height=0.2,width=0.4,color="red",URL="$a21124.html#a9354c5cf1c5094875b098457c7502c2f",tooltip="Return the trace of a diagonal tensor. "];
+}

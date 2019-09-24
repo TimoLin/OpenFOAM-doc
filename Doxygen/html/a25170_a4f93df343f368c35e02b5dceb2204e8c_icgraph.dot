@@ -1,0 +1,12 @@
+digraph "neighbPatch"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node21 [label="neighbPatch",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node21 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22 [label="Foam::regionCoupledBaseGAMGInterface\l::neighbPatch",height=0.2,width=0.4,color="black",URL="$a25158.html#ab7814fcbb72bc308948bf9b23ee7d286",tooltip="Return neighb regionCoupledLduInterface. "];
+  Node21 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23 [label="regionCoupledLduInterface",height=0.2,width=0.4,color="black",URL="$a25170.html#a75008f63d90f3d4ca1fe521b634fdd2b",tooltip="Construct null. "];
+}

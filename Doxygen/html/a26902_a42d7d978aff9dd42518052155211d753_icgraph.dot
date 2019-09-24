@@ -1,0 +1,13 @@
+digraph "precondition"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node41 [label="precondition",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node41 -> Node42 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node42 [label="calcReciprocalD",height=0.2,width=0.4,color="red",URL="$a26902.html#a0e2f579bbf250828b4e3f250dbadf455",tooltip="Calculate the reciprocal of the preconditioned diagonal. "];
+  Node42 -> Node45 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node45 [label="~DICPreconditioner",height=0.2,width=0.4,color="black",URL="$a26902.html#ad0a0289394b3f8b100aa025fb7160ab1",tooltip="Destructor. "];
+  Node41 -> Node45 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

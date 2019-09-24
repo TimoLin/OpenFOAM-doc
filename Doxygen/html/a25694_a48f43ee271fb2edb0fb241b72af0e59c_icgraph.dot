@@ -1,0 +1,46 @@
+digraph "xfer"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node10111 [label="xfer",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node10111 -> Node10112 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10112 [label="Foam::extendedEdgeMesh::add",height=0.2,width=0.4,color="black",URL="$a21786.html#af07e0aa40a7a71b92a74dd6b77a44ad3",tooltip="Add extendedEdgeMesh. No filtering of duplicates. "];
+  Node10111 -> Node10113 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10113 [label="Foam::searchableSurfaces\l::checkIntersection",height=0.2,width=0.4,color="red",URL="$a25246.html#ae7d93eca00dfd746fe60a26feb44fbcc",tooltip="Do surfaces self-intersect or intersect others. "];
+  Node10111 -> Node10120 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10120 [label="Foam::fileFormats::\lsurfaceFormatsCore::\lcheckSupport",height=0.2,width=0.4,color="red",URL="$a29654.html#adc9c27fa793257f88a57c1a24e3a7dfd"];
+  Node10111 -> Node10124 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10124 [label="Foam::fvMeshDistribute\l::distribute",height=0.2,width=0.4,color="red",URL="$a21454.html#acb11a389cf765470aea69d37a526cf1f",tooltip="Send cells to neighbours according to distribution. "];
+  Node10111 -> Node10134 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10134 [label="Foam::distributedTriSurface\lMesh::distribute",height=0.2,width=0.4,color="red",URL="$a28642.html#a30b981a389a43e4853d4dec45e4e5edb",tooltip="Set bounds of surface. Bounds currently set as list of. "];
+  Node10111 -> Node10144 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10144 [label="Foam::mappedPatchBase\l::distribute",height=0.2,width=0.4,color="red",URL="$a25094.html#abc1fef854aa7627739504e6f5408dd79",tooltip="Wrapper around map/interpolate data distribution. "];
+  Node10111 -> Node10176 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10176 [label="Foam::extendedEdgeMesh\l::flipNormals",height=0.2,width=0.4,color="black",URL="$a21786.html#ace7a4ec5b5de12179b1d4194ea408066",tooltip="Flip normals. All concave become convex, all internal external. "];
+  Node10111 -> Node10177 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10177 [label="Foam::NamedEnum\< direction\lType, 3 \>::names",height=0.2,width=0.4,color="black",URL="$a25998.html#a7350da3a0edd92cd11e6c479c9967dc8"];
+  Node10111 -> Node10178 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10178 [label="Foam::minEqOp\< labelPair\l \>::operator()",height=0.2,width=0.4,color="black",URL="$a21438.html#a5110bdded347caa6365e4d10554dfc32"];
+  Node10111 -> Node10179 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10179 [label="Foam::fileFormats::\lOFFsurfaceFormat::read",height=0.2,width=0.4,color="red",URL="$a29614.html#a464ebd67acbdff0014d4dae69e3ec4be",tooltip="Read from file. "];
+  Node10111 -> Node10182 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10182 [label="Foam::fileFormats::\lTRIsurfaceFormat::read",height=0.2,width=0.4,color="red",URL="$a29658.html#a464ebd67acbdff0014d4dae69e3ec4be",tooltip="Read from file. "];
+  Node10111 -> Node10185 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10185 [label="Foam::fileFormats::\lSTLsurfaceFormat::read",height=0.2,width=0.4,color="red",URL="$a29642.html#a464ebd67acbdff0014d4dae69e3ec4be",tooltip="Read from file. "];
+  Node10111 -> Node10188 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10188 [label="Foam::fileFormats::\lSTARCDCore::readPoints",height=0.2,width=0.4,color="red",URL="$a21886.html#a72132a8799b05e40e6436869b5f17693",tooltip="Read points from a (.vrt) file. "];
+  Node10111 -> Node10198 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10198 [label="Foam::mappedPatchBase\l::reverseDistribute",height=0.2,width=0.4,color="red",URL="$a25094.html#a13c4f025f05fb3315ab61558bbe82f07",tooltip="Wrapper around map/interpolate data distribution. "];
+  Node10111 -> Node10199 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10199 [label="Foam::PackedBoolList\l::used",height=0.2,width=0.4,color="red",URL="$a25934.html#ae8fd00075428dc971138e3b0a7f46d07",tooltip="Return indices of the used (true) elements as a list of labels. "];
+  Node10111 -> Node10201 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10201 [label="Foam::PackedList\< 2\l \>::values",height=0.2,width=0.4,color="black",URL="$a25938.html#adea922934795fd30c34f6a5e978cf705",tooltip="Return the values as a list of labels. "];
+  Node10111 -> Node10202 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10202 [label="Foam::AMIInterpolation\l::wordTointerpolationMethod",height=0.2,width=0.4,color="red",URL="$a24866.html#a60e3ed16ffdfe716b129e1e10820c506",tooltip="Convert word to interpolationMethod. "];
+  Node10111 -> Node10205 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10205 [label="Foam::streamLine::write",height=0.2,width=0.4,color="red",URL="$a28770.html#aac759501cf6c7895a70eecbef0226ae1",tooltip="Calculate the field average data and write. "];
+  Node10111 -> Node10207 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10207 [label="Foam::wallBoundedStreamLine\l::write",height=0.2,width=0.4,color="red",URL="$a28806.html#aac759501cf6c7895a70eecbef0226ae1",tooltip="Calculate the field average data and write. "];
+}

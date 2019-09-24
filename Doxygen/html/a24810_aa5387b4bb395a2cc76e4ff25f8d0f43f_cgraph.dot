@@ -1,0 +1,26 @@
+digraph "operator()"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2 [label="operator()",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node2 -> Node46 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node46 [label="Foam::FaceCellWave\l::data",height=0.2,width=0.4,color="black",URL="$a24814.html#a3cb51c6d7125aa51349080ee9eeba567",tooltip="Additional data to be passed into container. "];
+  Node2 -> Node47 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node47 [label="Foam::FaceCellWave\l::mesh",height=0.2,width=0.4,color="red",URL="$a24814.html#ae78c91f8ff731c07ccc4351d9fe861ba",tooltip="Access mesh. "];
+  Node47 -> Node50 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node50 [label="Foam::FaceCellWave\l::setFaceInfo",height=0.2,width=0.4,color="red",URL="$a24814.html#a4dfc64d9c6a80650006ac5ab728f95b0",tooltip="Set initial changed faces. "];
+  Node50 -> Node51 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node51 [label="Foam::polyPatch::start",height=0.2,width=0.4,color="red",URL="$a27478.html#a6bfd3e3abb11e98bdb4b98671cec1234",tooltip="Return start label of this patch in the polyMesh face list. "];
+  Node2 -> Node90 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node90 [label="Foam::cyclicAMIPolyPatch\l::neighbPatch",height=0.2,width=0.4,color="black",URL="$a24946.html#a88ae12bb9d26eaa4a44fa52aa9f145ac",tooltip="Return a reference to the neighbour patch. "];
+  Node2 -> Node91 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node91 [label="Foam::cyclicAMIPolyPatch\l::owner",height=0.2,width=0.4,color="black",URL="$a24946.html#a21dcffdf27811a03e0d7ef231bf18c28",tooltip="Does this side own the patch? "];
+  Node2 -> Node92 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node92 [label="Foam::FaceCellWave\l::propagationTol",height=0.2,width=0.4,color="black",URL="$a24814.html#a49980b97344f10a5c82fe06d6bd6f3cc",tooltip="Access to tolerance. "];
+  Node2 -> Node50 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 -> Node51 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

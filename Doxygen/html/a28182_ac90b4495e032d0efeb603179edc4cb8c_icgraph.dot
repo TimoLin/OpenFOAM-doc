@@ -1,0 +1,44 @@
+digraph "t"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node17 [label="t",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node17 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 [label="Foam::contiguous\< septernion \>",height=0.2,width=0.4,color="black",URL="$a21124.html#af4b73ee820f019d5f7359f07d1cf2d6b",tooltip="Data associated with septernion type are contiguous. "];
+  Node17 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19 [label="Foam::inv",height=0.2,width=0.4,color="black",URL="$a21124.html#a29454029112b143685743f62e092cd02",tooltip="Return the inverse of the given septernion. "];
+  Node17 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20 [label="invTransform",height=0.2,width=0.4,color="black",URL="$a28182.html#aee0060723827f8272f2f50aaaf57c1eb",tooltip="Inverse Transform the given vector. "];
+  Node17 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21 [label="Foam::name",height=0.2,width=0.4,color="black",URL="$a21124.html#a135ca7ba0131b24638d4bf871d8e3a25",tooltip="Return a string representation of a septernion. "];
+  Node17 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22 [label="Foam::operator*",height=0.2,width=0.4,color="black",URL="$a21124.html#a8c9064842f4c256da43719fff06fa462"];
+  Node17 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23 [label="operator*=",height=0.2,width=0.4,color="black",URL="$a28182.html#a25df5e11aa286b67883f4025496729ab"];
+  Node17 -> Node24 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node24 [label="Foam::operator+",height=0.2,width=0.4,color="black",URL="$a21124.html#a61ed9d36aa02369fb98fe88d53677683"];
+  Node17 -> Node25 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node25 [label="operator+=",height=0.2,width=0.4,color="black",URL="$a28182.html#a340eb948ebf6fa1ec4f49ba722ebb813"];
+  Node17 -> Node26 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node26 [label="Foam::operator-",height=0.2,width=0.4,color="black",URL="$a21124.html#a9c0208ce98f9ad6f022ce14f9e192d66"];
+  Node17 -> Node27 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node27 [label="operator-=",height=0.2,width=0.4,color="black",URL="$a28182.html#a827f878aebde63162abe3ee81422d1e1"];
+  Node17 -> Node28 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node28 [label="Foam::operator/",height=0.2,width=0.4,color="black",URL="$a21124.html#a12cddf97e996921f5a96008f88fc3b76"];
+  Node17 -> Node29 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node29 [label="Foam::operator\<\<",height=0.2,width=0.4,color="black",URL="$a21124.html#af0f63017791b0eca60a35ff5c58e380d"];
+  Node17 -> Node30 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node30 [label="operator=",height=0.2,width=0.4,color="black",URL="$a28182.html#a2830db3ea176f9128a74a64ac05ebb8a"];
+  Node17 -> Node31 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node31 [label="Foam::operator==",height=0.2,width=0.4,color="black",URL="$a21124.html#a3ede8d3eaac13eb5d2c2f3622970e87b"];
+  Node17 -> Node32 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node32 [label="Foam::operator\>\>",height=0.2,width=0.4,color="black",URL="$a21124.html#a9173f8a84227e1bf9b282ada0231ef39"];
+  Node17 -> Node33 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node33 [label="Foam::slerp",height=0.2,width=0.4,color="black",URL="$a21124.html#aff844207a9215bddc006930702973436",tooltip="Spherical linear interpolation of septernions. 0 for qa, 1 for qb. "];
+  Node17 -> Node34 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34 [label="transform",height=0.2,width=0.4,color="red",URL="$a28182.html#a9238fc61b8fc08c41a1f1be6cc31b3e0",tooltip="Transform the given vector. "];
+  Node17 -> Node36 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node36 [label="Foam::transform",height=0.2,width=0.4,color="black",URL="$a21124.html#acec6371e424477b49e780312678de07f",tooltip="Transform given vectorField with the given septernion. "];
+}

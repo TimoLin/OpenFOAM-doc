@@ -1,0 +1,22 @@
+digraph "mapRegionPatchInternalField"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3067 [label="mapRegionPatchInternalField",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3067 -> Node3068 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3068 [label="Foam::objectRegistry\l::foundObject",height=0.2,width=0.4,color="red",URL="$a26326.html#afb1fd730975d12fa5bcd4252fbf2b92c",tooltip="Is the named Type found? "];
+  Node3068 -> Node3068 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3067 -> Node3079 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3079 [label="Foam::AMIInterpolation\l::interpolateToSource",height=0.2,width=0.4,color="red",URL="$a24866.html#a4a40563419f839dbb3e342e64a15991a",tooltip="Interpolate from target to source with supplied op. "];
+  Node3067 -> Node3132 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3132 [label="Foam::objectRegistry\l::lookupObject",height=0.2,width=0.4,color="red",URL="$a26326.html#a8b49296f8410366342c524250612c2aa",tooltip="Lookup and return the object of the given Type. "];
+  Node3132 -> Node3132 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3067 -> Node3133 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3133 [label="regionMesh",height=0.2,width=0.4,color="red",URL="$a28998.html#a89a37969c20983ee143c612486ce5313",tooltip="Return the region mesh database. "];
+  Node3133 -> Node3068 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3133 -> Node3132 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3067 -> Node3134 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3134 [label="toPrimary",height=0.2,width=0.4,color="red",URL="$a28998.html#a9eb06bf3e9f3a48d073f510de8eb8463",tooltip="Convert a local region field to the primary region. "];
+}

@@ -1,0 +1,15 @@
+digraph "write"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node189 [label="write",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node189 -> Node190 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node190 [label="read",height=0.2,width=0.4,color="red",URL="$a29658.html#a464ebd67acbdff0014d4dae69e3ec4be",tooltip="Read from file. "];
+  Node190 -> Node192 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node192 [label="~TRIsurfaceFormat",height=0.2,width=0.4,color="black",URL="$a29658.html#adb51900510ab2b130a933d3bce2d9371",tooltip="Destructor. "];
+  Node189 -> Node193 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node193 [label="write",height=0.2,width=0.4,color="black",URL="$a29658.html#a01c3b83ec613ee5baee3f67a188e98b1",tooltip="Write object. "];
+  Node189 -> Node192 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

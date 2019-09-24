@@ -1,0 +1,13 @@
+digraph "chi"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node435 [label="chi",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node435 -> Node436 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node436 [label="calcBreakup",height=0.2,width=0.4,color="red",URL="$a24534.html#af788f9bd434c7cabde1b08a11956ae1a",tooltip="Correct parcel properties according to breakup model. "];
+  Node436 -> Node440 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node440 [label="Foam::SprayParcel::\liNew::operator()",height=0.2,width=0.4,color="black",URL="$a24542.html#a91088952f4c10fdcd976f75ea537a07a"];
+  Node435 -> Node440 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

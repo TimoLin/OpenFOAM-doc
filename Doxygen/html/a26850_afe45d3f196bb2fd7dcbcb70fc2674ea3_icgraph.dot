@@ -1,0 +1,15 @@
+digraph "patchAddr"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4330 [label="patchAddr",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4330 -> Node4331 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4331 [label="Foam::fvMatrix::relax",height=0.2,width=0.4,color="red",URL="$a22358.html#a06343b944c91a56352ebf646011c212e",tooltip="Relax matrix (for steady-state solution). "];
+  Node4330 -> Node4340 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4340 [label="size",height=0.2,width=0.4,color="red",URL="$a26850.html#a9facbf0a118d395c89884e45a5ca4e4b",tooltip="Return number of equations. "];
+  Node4340 -> Node4391 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4391 [label="Foam::lduMesh::thisDb",height=0.2,width=0.4,color="red",URL="$a27126.html#a83b4b6e6a43285477e284433f80eed1b",tooltip="Return the object registry. "];
+  Node4330 -> Node4391 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

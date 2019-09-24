@@ -1,0 +1,19 @@
+digraph "faceMap"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node14 [label="faceMap",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node14 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15 [label="featureEdge",height=0.2,width=0.4,color="black",URL="$a24978.html#ac4b8761cb639d6b442c0813ffa114d66"];
+  Node14 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16 [label="Foam::HashTable::found",height=0.2,width=0.4,color="black",URL="$a25702.html#a9a7a02c333e3e98344a1e5b891c4d985",tooltip="Return true if hashedEntry is found in table. "];
+  Node14 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17 [label="isFeatureEdge",height=0.2,width=0.4,color="black",URL="$a24978.html#a44af682cb917b0b4ac53a8c6fc3424b4",tooltip="Is edge a feature edge (uniquely determined since on cell. "];
+  Node14 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 [label="isFeaturePoint",height=0.2,width=0.4,color="red",URL="$a24978.html#a064ae94fdd1fdbb9360aae5489993fe3",tooltip="Are two edges connected at feature point? "];
+  Node14 -> Node71 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node71 [label="isFeatureVertex",height=0.2,width=0.4,color="red",URL="$a24978.html#a07926fe51d26c1f8e843e8fa91358e7e",tooltip="Is vertexI on faceI used by two edges that form feature. "];
+  Node71 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

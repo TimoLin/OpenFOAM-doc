@@ -1,0 +1,16 @@
+digraph "write"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node140 [label="write",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node140 -> Node141 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node141 [label="Ustar",height=0.2,width=0.4,color="black",URL="$a30926.html#a164ad05c3eacffbd5bc38ccc163a680e",tooltip="Return friction velocity. "];
+  Node140 -> Node142 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node142 [label="Foam::incompressible\l::atmBoundaryLayerInletEpsilon\lFvPatchScalarField::write",height=0.2,width=0.4,color="red",URL="$a30930.html#a293fdfec8bdfbd5c3913ab4c9f3454ff",tooltip="Write. "];
+  Node140 -> Node144 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node144 [label="Foam::incompressible\l::atmBoundaryLayerInletKFvPatch\lScalarField::write",height=0.2,width=0.4,color="red",URL="$a30934.html#a293fdfec8bdfbd5c3913ab4c9f3454ff",tooltip="Write. "];
+  Node140 -> Node146 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node146 [label="Foam::incompressible\l::atmBoundaryLayerInletVelocity\lFvPatchVectorField::write",height=0.2,width=0.4,color="red",URL="$a30938.html#a293fdfec8bdfbd5c3913ab4c9f3454ff",tooltip="Write. "];
+}

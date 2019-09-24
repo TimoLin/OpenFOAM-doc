@@ -1,0 +1,19 @@
+digraph "xfer"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2793 [label="xfer",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2793 -> Node2794 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2794 [label="Foam::PrimitivePatch\l\< face, ::Foam::UList,\l ::Foam::SubField\< point\l \>, point \>::clearGeom",height=0.2,width=0.4,color="black",URL="$a27538.html#a499a7f858dc495c47b618e168fec6372"];
+  Node2793 -> Node2795 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2795 [label="storedFaces",height=0.2,width=0.4,color="red",URL="$a29702.html#ac9f24178e4c011c8d21bbfbf73a8b61b",tooltip="Non-const access to the faces. "];
+  Node2793 -> Node2797 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2797 [label="storedPoints",height=0.2,width=0.4,color="red",URL="$a29702.html#a42d63b7b3dcf589fbe1c4cd2bc8e3d9b",tooltip="Non-const access to global points. "];
+  Node2793 -> Node2799 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2799 [label="storedZones",height=0.2,width=0.4,color="red",URL="$a29702.html#aa4da19498e7e904ff22cf57fc8899360",tooltip="Non-const access to the zones. "];
+  Node2799 -> Node2804 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2804 [label="updateRefs",height=0.2,width=0.4,color="red",URL="$a29702.html#a6f719c5aaff7ed498bd8bf5e8dfa5380",tooltip="Update references to storedPoints/storedFaces. "];
+  Node2793 -> Node2804 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

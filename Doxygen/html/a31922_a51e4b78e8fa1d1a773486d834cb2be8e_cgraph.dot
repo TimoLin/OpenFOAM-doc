@@ -1,0 +1,44 @@
+digraph "he"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node37 [label="he",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node37 -> Node38 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node38 [label="alphaEff",height=0.2,width=0.4,color="black",URL="$a31922.html#a0314ca9b1b0fbab9608f1bc473db5938",tooltip="Effective thermal diffusivity of mixture [J/m/s/K]. "];
+  Node37 -> Node39 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node39 [label="Cp",height=0.2,width=0.4,color="black",URL="$a31922.html#a5c513ba604dd34a301dc860a039670d7",tooltip="Heat capacity at constant pressure [J/kg/K]. "];
+  Node37 -> Node40 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node40 [label="CpByCpv",height=0.2,width=0.4,color="black",URL="$a31922.html#aac0a4f1b9da9dd19c4bdf260b59b2e77",tooltip="Heat capacity ratio []. "];
+  Node37 -> Node41 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node41 [label="Cpv",height=0.2,width=0.4,color="black",URL="$a31922.html#a19d71b49dcc8cbf5e115340b171ea2cb",tooltip="Heat capacity at constant pressure/volume [J/kg/K]. "];
+  Node37 -> Node42 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node42 [label="Cv",height=0.2,width=0.4,color="black",URL="$a31922.html#af9840a82987638c965297ba4b7a526e2",tooltip="Heat capacity at constant volume [J/kg/K]. "];
+  Node37 -> Node43 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node43 [label="gamma",height=0.2,width=0.4,color="black",URL="$a31922.html#a563689b0114827ce1d2145adcf7aa5fb",tooltip="gamma = Cp/Cv [] "];
+  Node37 -> Node44 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node44 [label="hc",height=0.2,width=0.4,color="black",URL="$a31922.html#a24afe814acd29b6cb9795cb017833dbc",tooltip="Chemical enthalpy [J/kg]. "];
+  Node37 -> Node45 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node45 [label="he",height=0.2,width=0.4,color="black",URL="$a31922.html#acf9fd577467f9bb31eb7140fba64aa99",tooltip="Enthalpy/Internal energy [J/kg]. "];
+  Node37 -> Node46 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node46 [label="kappa",height=0.2,width=0.4,color="black",URL="$a31922.html#a38e4767d74bd4cee79e99b3f83e8f7ee",tooltip="Thermal diffusivity for temperature of mixture [J/m/s/K]. "];
+  Node37 -> Node47 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node47 [label="kappaEff",height=0.2,width=0.4,color="black",URL="$a31922.html#a1ce368f67145f845684c2ab00325d07e",tooltip="Effective thermal diffusivity of mixture [J/m/s/K]. "];
+  Node37 -> Node48 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node48 [label="nearInterface",height=0.2,width=0.4,color="black",URL="$a31922.html#a29d83f6c6c498e38e5b6a58907b6845c",tooltip="Indicator of the proximity of the interface. "];
+  Node37 -> Node49 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node49 [label="Foam::basicThermo::p",height=0.2,width=0.4,color="black",URL="$a29734.html#a559539638a23431ca4b538c03b46e746",tooltip="Pressure [Pa]. "];
+  Node37 -> Node50 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node50 [label="rCv",height=0.2,width=0.4,color="black",URL="$a31922.html#ad8d2a4f0d0fbdb41fa21eb33234241a5",tooltip="Return the phase-averaged reciprocal Cv. "];
+  Node37 -> Node51 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node51 [label="rho",height=0.2,width=0.4,color="black",URL="$a31922.html#abae2b563900326333c71dcc9fd878f2d",tooltip="Density [kg/m^3]. "];
+  Node37 -> Node52 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node52 [label="solve",height=0.2,width=0.4,color="black",URL="$a31922.html#af7d39f0eac0af0ed5785935ac72a1e7d",tooltip="Solve for the mixture phase-fractions. "];
+  Node37 -> Node53 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node53 [label="surfaceTensionForce",height=0.2,width=0.4,color="black",URL="$a31922.html#a61254e539d6c09a1bcafaa17a3a31f6d"];
+  Node37 -> Node54 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node54 [label="Foam::basicThermo::T",height=0.2,width=0.4,color="black",URL="$a29734.html#a36910f175f1b9478cb168b63da0a9904",tooltip="Temperature [K]. "];
+  Node37 -> Node55 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node55 [label="THE",height=0.2,width=0.4,color="black",URL="$a31922.html#acc23d811aaf4b2c8eb7384328d98fc52",tooltip="Temperature from enthalpy/internal energy for cell-set. "];
+}

@@ -1,0 +1,21 @@
+digraph "move"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node79 [label="move",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node79 -> Node80 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node80 [label="Foam::polyMesh::boundaryMesh",height=0.2,width=0.4,color="black",URL="$a27410.html#a9f2b68c134340291eda6197f47f25484",tooltip="Return boundary mesh. "];
+  Node79 -> Node81 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node81 [label="Foam::meshTools::constrain\lDirection",height=0.2,width=0.4,color="black",URL="$a21153.html#a05919d3e656fa4d04e9c3918d5b01b24",tooltip="Set the constrained components of directions/velocity to zero. "];
+  Node79 -> Node82 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node82 [label="Foam::meshTools::constrain\lToMeshCentre",height=0.2,width=0.4,color="red",URL="$a21153.html#a26700ec74f3fbbdd3e210599cbaf2073",tooltip="Set the constrained components of position to mesh centre. "];
+  Node82 -> Node85 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node85 [label="Foam::min",height=0.2,width=0.4,color="black",URL="$a21124.html#a253e112ad2d56d96230ff39ea7f442dc"];
+  Node79 -> Node236 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node236 [label="hitPatch",height=0.2,width=0.4,color="red",URL="$a23690.html#a214601691bbcc4cad5b232f322c885fe",tooltip="Overridable function to handle the particle hitting a patch. "];
+  Node79 -> Node85 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node79 -> Node99 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node99 [label="Foam::polyMesh::solutionD",height=0.2,width=0.4,color="red",URL="$a27410.html#af5da6fe74943b72776ccb80f07b4b84b",tooltip="Return the vector of solved-for directions in mesh. "];
+}

@@ -1,0 +1,23 @@
+digraph "checkPointNearness"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node50669 [label="checkPointNearness",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node50669 -> Node50670 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node50670 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node50669 -> Node50672 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node50672 [label="Foam::SortableList\l::indices",height=0.2,width=0.4,color="black",URL="$a25918.html#a28bce53bb8731da2b5f7a7cfb9ae2167",tooltip="Return the list of sorted indices. Updated every sort. "];
+  Node50669 -> Node50673 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node50673 [label="Foam::HashSet::insert",height=0.2,width=0.4,color="black",URL="$a25690.html#a49f0753d9652681fc3a81f59951a0ad7",tooltip="Insert a new entry. "];
+  Node50669 -> Node50674 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node50674 [label="magSqr",height=0.2,width=0.4,color="red",URL="$a12539.html#ab0cd33eb018a643a64ca545601530791"];
+  Node50669 -> Node50676 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node50676 [label="Foam::reduce",height=0.2,width=0.4,color="red",URL="$a21124.html#a7ffd6af4acc2eb9ba72ee296b5ecda23"];
+  Node50676 -> Node50670 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node50669 -> Node50679 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node50679 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node50669 -> Node50692 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node50692 [label="Foam::sqrt",height=0.2,width=0.4,color="red",URL="$a21124.html#a8616bd62eebf2342a80222fecb1bda71"];
+}

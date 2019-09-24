@@ -1,0 +1,24 @@
+digraph "size"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3 [label="size",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="Foam::List\< functionObject\l *\>::append",height=0.2,width=0.4,color="black",URL="$a25694.html#aadbc672b74ab7f3d279e4e92a447f2ea",tooltip="Append a UIndirectList at the end of this list. "];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="Foam::DynamicList\<\l Foam::List\< int \> \>\l::append",height=0.2,width=0.4,color="black",URL="$a25890.html#ae5e044ce7bf5c3fbd6ace649eb511428",tooltip="Append a UIndirectList at the end of this list. "];
+  Node3 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="Foam::mappedPatchBase\l::calcMapping",height=0.2,width=0.4,color="red",URL="$a25094.html#ac836e22594348a2ff396bf9ddba3a49f",tooltip="Calculate mapping. "];
+  Node3 -> Node44 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node44 [label="operator=",height=0.2,width=0.4,color="black",URL="$a22618.html#a4241f45e3948cf10d0e63391007f91cf",tooltip="Assignment from UIndirectList of addressed elements. "];
+  Node3 -> Node45 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node45 [label="Foam::List\< functionObject\l *\>::operator=",height=0.2,width=0.4,color="black",URL="$a25694.html#a4241f45e3948cf10d0e63391007f91cf",tooltip="Assignment from UIndirectList operator. Takes linear time. "];
+  Node3 -> Node46 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node46 [label="Foam::PackedList\< 2\l \>::operator=",height=0.2,width=0.4,color="black",URL="$a25938.html#ac399b20b2023a7dcf1f1ef25b1cb3da6",tooltip="Assignment operator. "];
+  Node3 -> Node47 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node47 [label="Foam::combineFaces\l::setRefinement",height=0.2,width=0.4,color="red",URL="$a21634.html#a67d2bb0d6cac2b27ae250df417ef6942",tooltip="Play commands into polyTopoChange to combine faces. Gets. "];
+  Node3 -> Node53 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node53 [label="Foam::faceZoneSet::\lupdateSet",height=0.2,width=0.4,color="red",URL="$a25450.html#afc9e2e914d3928dd7281d2ac71452052",tooltip="Sort addressing and make faceSet part consistent with addressing. "];
+}

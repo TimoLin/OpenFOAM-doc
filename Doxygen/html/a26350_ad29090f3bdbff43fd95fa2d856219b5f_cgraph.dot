@@ -1,0 +1,24 @@
+digraph "writeObject"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node14128 [label="writeObject",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node14128 -> Node14129 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14129 [label="Foam::dictionary::add",height=0.2,width=0.4,color="red",URL="$a26014.html#ac2ddcab42322c8d8af5e5830ab4d431b",tooltip="Add a new entry. "];
+  Node14128 -> Node14172 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14172 [label="Foam::TimeState::outputTime",height=0.2,width=0.4,color="black",URL="$a26362.html#a59fd6e5492ff7a07bf267713f0338fa1",tooltip="Return true if this is an output time (primary or secondary) "];
+  Node14128 -> Node14173 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14173 [label="Foam::IOobject::path",height=0.2,width=0.4,color="black",URL="$a26142.html#abe7b9078c8e7356c6131b70a8f729372",tooltip="Return complete path. "];
+  Node14128 -> Node14174 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14174 [label="Foam::rmDir",height=0.2,width=0.4,color="red",URL="$a21124.html#a94f85dc184bdb0495e62488fda627038",tooltip="Remove a dirctory and its contents. "];
+  Node14128 -> Node14184 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14184 [label="timeName",height=0.2,width=0.4,color="red",URL="$a26350.html#a90eec0cafc50ed7b6fbbfffe2c5df974",tooltip="Return current time name. "];
+  Node14128 -> Node14186 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14186 [label="Foam::TimeState::timeToUserTime",height=0.2,width=0.4,color="black",URL="$a26362.html#a0e312d5d4789530d8a642218a5079d27",tooltip="Convert the real-time (s) into user-time (e.g. CA deg) "];
+  Node14128 -> Node14187 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14187 [label="Foam::dimensioned::\lvalue",height=0.2,width=0.4,color="black",URL="$a26366.html#a7948200a26c85fc3a83ffa510a91d668",tooltip="Return const reference to value. "];
+  Node14128 -> Node14188 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14188 [label="Foam::objectRegistry\l::writeObject",height=0.2,width=0.4,color="red",URL="$a26326.html#aac52c08633b4e1e66bc6fb382b7ec674",tooltip="Write the objects. "];
+}

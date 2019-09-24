@@ -1,0 +1,16 @@
+digraph "fvSolver"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="fvSolver",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="Foam::fvMatrix::ClassName",height=0.2,width=0.4,color="black",URL="$a22358.html#aafe29e479431452a504ffcfd9fe86b53"];
+  Node0 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="Foam::fvMatrix::fvMatrix",height=0.2,width=0.4,color="red",URL="$a22358.html#aaedfa5273fb5304dfc52e58108e3a0c7",tooltip="Construct given a field to solve for. "];
+  Node0 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="solve",height=0.2,width=0.4,color="black",URL="$a22622.html#ace6ad0aabbb750340fa4fb39990fd7cb",tooltip="Solve returning the solution statistics. "];
+  Node0 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="Foam::fvMatrix::~fvMatrix",height=0.2,width=0.4,color="red",URL="$a22358.html#a5df9d9b8519b327a09188e67b13fbea1",tooltip="Destructor. "];
+}

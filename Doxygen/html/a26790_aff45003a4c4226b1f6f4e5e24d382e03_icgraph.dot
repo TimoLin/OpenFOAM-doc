@@ -1,0 +1,18 @@
+digraph "asymmetric"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node882 [label="asymmetric",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node882 -> Node883 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node883 [label="Foam::LduMatrix::solver::New",height=0.2,width=0.4,color="red",URL="$a26794.html#aa83e6f17133f94a5c4bb906a4991ceed",tooltip="Return a new solver. "];
+  Node882 -> Node885 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node885 [label="Foam::LduMatrix::smoother::New",height=0.2,width=0.4,color="black",URL="$a26798.html#af8f5001d95d7c1d471c4d24eedefced2",tooltip="Return a new smoother. "];
+  Node882 -> Node886 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node886 [label="operator+=",height=0.2,width=0.4,color="black",URL="$a26790.html#a67cb5e721083def89a8775562081caeb"];
+  Node886 -> Node882 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node882 -> Node887 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node887 [label="operator-=",height=0.2,width=0.4,color="black",URL="$a26790.html#ade231ee3b05d977629dbaeeb2c538dae"];
+  Node887 -> Node882 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

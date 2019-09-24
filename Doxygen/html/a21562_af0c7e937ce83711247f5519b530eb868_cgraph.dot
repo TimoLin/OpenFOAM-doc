@@ -1,0 +1,27 @@
+digraph "checkCellDeterminant"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node6797 [label="checkCellDeterminant",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node6797 -> Node6798 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6798 [label="Foam::primitiveMesh\l::cells",height=0.2,width=0.4,color="black",URL="$a27530.html#af19bf800d725a623c7b1d0101d65e7d3"];
+  Node6797 -> Node6799 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6799 [label="checkFaceDotProduct",height=0.2,width=0.4,color="red",URL="$a21562.html#a5014e575335db939bc66eb2fe32ac48f",tooltip="See primitiveMesh. "];
+  Node6799 -> Node6891 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6891 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node6799 -> Node6931 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6931 [label="Foam::reduce",height=0.2,width=0.4,color="red",URL="$a21124.html#a7ffd6af4acc2eb9ba72ee296b5ecda23"];
+  Node6931 -> Node6891 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6797 -> Node6879 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6879 [label="Foam::det",height=0.2,width=0.4,color="red",URL="$a21124.html#a0661214f1c72feedb965c88d685f8036"];
+  Node6797 -> Node6891 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6797 -> Node6930 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6930 [label="Foam::HashSet::insert",height=0.2,width=0.4,color="black",URL="$a25690.html#a49f0753d9652681fc3a81f59951a0ad7",tooltip="Insert a new entry. "];
+  Node6797 -> Node6806 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6806 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node6797 -> Node6863 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6863 [label="Foam::min",height=0.2,width=0.4,color="black",URL="$a21124.html#a253e112ad2d56d96230ff39ea7f442dc"];
+  Node6797 -> Node6931 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

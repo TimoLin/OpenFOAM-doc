@@ -1,0 +1,28 @@
+digraph "planeNormal"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node179 [label="planeNormal",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node179 -> Node180 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node180 [label="correctDisplacement",height=0.2,width=0.4,color="red",URL="$a25542.html#a7920dcdc7bb2067d0672c9d098195c91",tooltip="Correct motion displacements. "];
+  Node180 -> Node187 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node187 [label="correctPoints",height=0.2,width=0.4,color="red",URL="$a25542.html#ac44d87c55ac02d1cc3887892983cc527",tooltip="Correct motion points. "];
+  Node187 -> Node188 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node188 [label="Foam::motionSmootherAlgo\l::modifyMotionPoints",height=0.2,width=0.4,color="red",URL="$a21550.html#aef244a2351549fb12f3375a347b0cda3",tooltip="Apply optional point constraint (2d correction) "];
+  Node187 -> Node193 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node193 [label="required",height=0.2,width=0.4,color="black",URL="$a25542.html#ac38c1ad34b4444b1e2334d69f9e2cf51",tooltip="Is 2D correction required, i.e. is the mesh a wedge or slab. "];
+  Node193 -> Node188 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node180 -> Node193 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node179 -> Node187 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node179 -> Node194 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node194 [label="Foam::directions::directions",height=0.2,width=0.4,color="black",URL="$a21490.html#ab3b223d63d30550e67ee99206b60b63f",tooltip="Construct from mesh and dictionary and optional 2D corrector. "];
+  Node179 -> Node188 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node179 -> Node195 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node195 [label="Foam::NamedEnum\< direction\lType, 3 \>::names",height=0.2,width=0.4,color="black",URL="$a25998.html#a7350da3a0edd92cd11e6c479c9967dc8"];
+  Node179 -> Node196 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node196 [label="normalDir",height=0.2,width=0.4,color="black",URL="$a25542.html#abc73a80767d06f1660c9372a6d55a13d",tooltip="Return direction normal to plane. "];
+  Node196 -> Node193 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node179 -> Node193 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

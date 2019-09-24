@@ -1,0 +1,42 @@
+digraph "resetPrimitives"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node23506 [label="resetPrimitives",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node23506 -> Node23507 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23507 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node23506 -> Node23550 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23550 [label="Foam::primitiveMesh\l::clearAddressing",height=0.2,width=0.4,color="red",URL="$a27530.html#aac1ee7169044dccb262b78097d6ab1a8",tooltip="Clear topological data. "];
+  Node23550 -> Node23515 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23515 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node23506 -> Node23515 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23506 -> Node23552 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23552 [label="faces",height=0.2,width=0.4,color="black",URL="$a27410.html#a431c0a24765f0bb6d32f6a03ce0e9b57",tooltip="Return raw faces. "];
+  Node23552 -> Node23507 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23506 -> Node23553 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23553 [label="Foam::max",height=0.2,width=0.4,color="black",URL="$a21124.html#ac993e906cf2774ae77e666bc24e81733"];
+  Node23506 -> Node23554 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23554 [label="Foam::min",height=0.2,width=0.4,color="black",URL="$a21124.html#a253e112ad2d56d96230ff39ea7f442dc"];
+  Node23506 -> Node23555 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23555 [label="Foam::primitiveMesh\l::nCells",height=0.2,width=0.4,color="black",URL="$a27530.html#a13b94bdb0926552bf78ad5210a73a3d5"];
+  Node23506 -> Node23556 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23556 [label="Foam::primitiveMesh\l::nPoints",height=0.2,width=0.4,color="black",URL="$a27530.html#a1c886a784a597459dbf2d9470798e9dd"];
+  Node23506 -> Node23557 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23557 [label="points",height=0.2,width=0.4,color="black",URL="$a27410.html#ac44123fc1265297c41a43c3b62fdb4c2",tooltip="Return raw points. "];
+  Node23557 -> Node23507 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23506 -> Node23558 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23558 [label="Foam::returnReduce",height=0.2,width=0.4,color="red",URL="$a21124.html#a8d528a67d2a9c6fe4fb94bc86872624b"];
+  Node23506 -> Node23577 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23577 [label="setInstance",height=0.2,width=0.4,color="red",URL="$a27410.html#add9813891a074bebd77384af1717b0bf",tooltip="Set the instance for mesh files. "];
+  Node23577 -> Node23515 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23506 -> Node23562 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23562 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node23506 -> Node23580 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23580 [label="Foam::objectRegistry\l::time",height=0.2,width=0.4,color="black",URL="$a26326.html#a0d94096809fe3376b29a2a29ca11bb18",tooltip="Return time. "];
+  Node23506 -> Node23581 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23581 [label="Foam::List::transfer",height=0.2,width=0.4,color="black",URL="$a25694.html#a25ad1d2084d16b234b0cf91c07e832c0",tooltip="Transfer the contents of the argument List into this list. "];
+  Node23506 -> Node23582 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23582 [label="Foam::polyBoundaryMesh\l::updateMesh",height=0.2,width=0.4,color="red",URL="$a27402.html#ae5693a309a936ac1040dd48c2881677f",tooltip="Correct polyBoundaryMesh after topology update. "];
+}

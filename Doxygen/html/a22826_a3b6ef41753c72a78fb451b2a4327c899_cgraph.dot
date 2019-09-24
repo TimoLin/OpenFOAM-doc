@@ -1,0 +1,21 @@
+digraph "reverseT"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node215 [label="reverseT",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node215 -> Node216 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node216 [label="delta",height=0.2,width=0.4,color="red",URL="$a22826.html#a8c83ba56d8c5964b15844718d953be71",tooltip="Return delta (P to N) vectors across coupled patch. "];
+  Node216 -> Node220 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node220 [label="interfaceInternalField",height=0.2,width=0.4,color="black",URL="$a22826.html#aa8871ae0f8409c5f343da9516cd8c846",tooltip="Return the values of the given internal data adjacent to. "];
+  Node220 -> Node221 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node221 [label="initInternalFieldTransfer",height=0.2,width=0.4,color="black",URL="$a22826.html#aa581889f5fc5f68363d27a235c80c88c",tooltip="Initialise neighbour field transfer. "];
+  Node221 -> Node222 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node222 [label="internalFieldTransfer",height=0.2,width=0.4,color="black",URL="$a22826.html#a237c9448fbff6fcefb820f4076a58f26",tooltip="Return neighbour field. "];
+  Node215 -> Node221 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node215 -> Node220 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node215 -> Node222 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node215 -> Node223 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node223 [label="Foam::coupledPolyPatch\l::reverseT",height=0.2,width=0.4,color="black",URL="$a27426.html#a3b6ef41753c72a78fb451b2a4327c899",tooltip="Return neighbour-cell transformation tensor. "];
+}

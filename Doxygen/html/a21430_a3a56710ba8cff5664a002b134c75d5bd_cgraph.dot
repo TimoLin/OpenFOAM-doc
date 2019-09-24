@@ -1,0 +1,27 @@
+digraph "patchNames"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2391 [label="patchNames",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2391 -> Node2392 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2392 [label="Foam::primitiveMesh\l::edgeFaces",height=0.2,width=0.4,color="red",URL="$a27530.html#ad38ecd2902727a890ebd437731c271c8"];
+  Node2392 -> Node2393 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2393 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node2392 -> Node2451 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2451 [label="Foam::primitiveMesh\l::faceEdges",height=0.2,width=0.4,color="red",URL="$a27530.html#adbfcf489a527a07c33d684834faace79"];
+  Node2451 -> Node2393 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2451 -> Node2438 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2438 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node2451 -> Node2442 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2442 [label="Foam::List::setSize",height=0.2,width=0.4,color="black",URL="$a25694.html#aedb985ffeaf1bdbfeccc2a8730405703",tooltip="Reset size of List. "];
+  Node2391 -> Node2458 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2458 [label="Foam::UList::empty",height=0.2,width=0.4,color="black",URL="$a25698.html#a644718bb2fb240de962dc3c9a1fdf0dc",tooltip="Return true if the UList is empty (ie, size() is zero). "];
+  Node2391 -> Node2393 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2391 -> Node2451 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2391 -> Node2442 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2391 -> Node2438 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2391 -> Node2459 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2459 [label="Foam::polyPatch::start",height=0.2,width=0.4,color="red",URL="$a27478.html#a6bfd3e3abb11e98bdb4b98671cec1234",tooltip="Return start label of this patch in the polyMesh face list. "];
+}

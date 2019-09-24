@@ -1,0 +1,12 @@
+digraph "osRandomDouble"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node109594 [label="osRandomDouble",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node109594 -> Node109595 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node109595 [label="Foam::cachedRandom\l::cachedRandom",height=0.2,width=0.4,color="black",URL="$a28134.html#aa1622abe1f8213f70af7fd41229cca7c",tooltip="Construct given seed and sample count. "];
+  Node109594 -> Node109596 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node109596 [label="Foam::Random::scalar01",height=0.2,width=0.4,color="red",URL="$a28138.html#a51dcadab67756a3100e1d050ae2994e0",tooltip="scalar [0..1] (so including 0,1) "];
+}

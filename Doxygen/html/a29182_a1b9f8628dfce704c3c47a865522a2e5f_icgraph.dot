@@ -1,0 +1,18 @@
+digraph "hs"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1084 [label="hs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1084 -> Node1085 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1085 [label="correctHsForMappedT",height=0.2,width=0.4,color="red",URL="$a29182.html#af85199505c20475372e6e7e6f12c289f",tooltip="Correct sensible enthalpy for mapped temperature fields. "];
+  Node1084 -> Node1089 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1089 [label="hs",height=0.2,width=0.4,color="black",URL="$a29182.html#a473cd0787926bd533bdf1988f36690cc",tooltip="Return sensible enthalpy as a function of temperature. "];
+  Node1084 -> Node1090 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1090 [label="q",height=0.2,width=0.4,color="red",URL="$a29182.html#a2076f4009ab916da44dc2c8af5eaef36",tooltip="Return the wall/surface heat transfer term for the enthalpy equation. "];
+  Node1084 -> Node1091 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1091 [label="thermo",height=0.2,width=0.4,color="red",URL="$a29182.html#a310c581e137ae3aca70a41e865006505",tooltip="Return const reference to the SLGThermo object. "];
+  Node1084 -> Node1094 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1094 [label="thermoSingleLayer",height=0.2,width=0.4,color="black",URL="$a29182.html#a599169c7bc33623aea76634f78847295",tooltip="Construct from components. "];
+}

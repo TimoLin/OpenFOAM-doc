@@ -1,0 +1,16 @@
+digraph "intersection"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node262 [label="intersection",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node262 -> Node263 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node263 [label="Foam::mappedPatchBase\l::facePoint",height=0.2,width=0.4,color="red",URL="$a25094.html#aa44d3b70b3248025314d97bdbfe1b1ba",tooltip="Get a point on the face given a face decomposition method: "];
+  Node262 -> Node298 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node298 [label="Foam::particle::hitWallFaces",height=0.2,width=0.4,color="red",URL="$a23586.html#abf78981c0a99e9f135ebc37efcfd1544"];
+  Node262 -> Node300 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node300 [label="Foam::triFace::intersection",height=0.2,width=0.4,color="red",URL="$a27234.html#ad5d7fcb63824ee7e88be930d911da71a",tooltip="Fast intersection with a ray. "];
+  Node262 -> Node306 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node306 [label="ray",height=0.2,width=0.4,color="red",URL="$a27606.html#a8d96c75750b2e14b93eb7bef0263ad0a",tooltip="Return point intersection with a ray. "];
+}

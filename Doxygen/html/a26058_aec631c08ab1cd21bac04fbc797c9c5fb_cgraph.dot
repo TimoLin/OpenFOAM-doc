@@ -1,0 +1,27 @@
+digraph "read"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node233 [label="read",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node233 -> Node234 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node234 [label="Foam::IOstream::bad",height=0.2,width=0.4,color="black",URL="$a26226.html#a9f7290a5d70f30e1b1b42c8ac4a6082d",tooltip="Return true if stream is corrupted. "];
+  Node233 -> Node235 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node235 [label="Foam::IOstream::fatalCheck",height=0.2,width=0.4,color="red",URL="$a26226.html#a52992bb0e37fe2a5e8f62f37ad234663",tooltip="Check IOstream status for given operation. "];
+  Node235 -> Node234 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node233 -> Node283 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node283 [label="Foam::token::good",height=0.2,width=0.4,color="black",URL="$a26306.html#abdcc7f96f487faadc7769afcf58fe992"];
+  Node233 -> Node256 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node256 [label="Foam::entry::keyword",height=0.2,width=0.4,color="black",URL="$a26022.html#a524d765e79e84690b9c13f55191b85c7",tooltip="Return keyword. "];
+  Node233 -> Node273 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node273 [label="Foam::IOstream::lineNumber",height=0.2,width=0.4,color="black",URL="$a26226.html#a2bca2e504df91006cb4a2b09ba1ac409",tooltip="Return current stream line number. "];
+  Node233 -> Node284 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node284 [label="primitiveEntry",height=0.2,width=0.4,color="black",URL="$a26058.html#a43668f7cd56714e8078fb6c1eb674be7",tooltip="Construct from keyword and a Istream. "];
+  Node233 -> Node285 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node285 [label="Foam::Istream::read",height=0.2,width=0.4,color="black",URL="$a26234.html#a89057c9d9e24ba872ccb8546086498ec",tooltip="Return next token from stream. "];
+  Node233 -> Node286 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node286 [label="Foam::List::setSize",height=0.2,width=0.4,color="black",URL="$a25694.html#aedb985ffeaf1bdbfeccc2a8730405703",tooltip="Reset size of List. "];
+  Node233 -> Node287 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node287 [label="Foam::ITstream::tokenIndex",height=0.2,width=0.4,color="black",URL="$a26322.html#aa5a03766589104a16b2f93914ac81912",tooltip="Return the current token index. "];
+}

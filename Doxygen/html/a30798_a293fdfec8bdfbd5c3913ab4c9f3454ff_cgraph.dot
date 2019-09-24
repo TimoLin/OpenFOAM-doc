@@ -1,0 +1,19 @@
+digraph "write"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node428 [label="write",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node428 -> Node429 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node429 [label="Foam::compressible\l::makePatchTypeField",height=0.2,width=0.4,color="black",URL="$a21173.html#ab1c25a3141d2f250aa615d7356265628"];
+  Node428 -> Node430 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node430 [label="write",height=0.2,width=0.4,color="black",URL="$a19709.html#a8f30b3c2179b03a7acf273e9dea43342"];
+  Node428 -> Node431 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node431 [label="Foam::temperatureCoupled\lBase::write",height=0.2,width=0.4,color="black",URL="$a30786.html#a293fdfec8bdfbd5c3913ab4c9f3454ff",tooltip="Write. "];
+  Node431 -> Node432 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node432 [label="Foam::Ostream::writeKeyword",height=0.2,width=0.4,color="red",URL="$a26238.html#a3c58b2bb9174ea3c4a5fa58095d1290e",tooltip="Write the keyword followed by an appropriate indentation. "];
+  Node428 -> Node436 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node436 [label="Foam::Field::writeEntry",height=0.2,width=0.4,color="black",URL="$a26466.html#a7c03447f7f0471351fe57a41b62c8686",tooltip="Write the field as a dictionary entry. "];
+  Node428 -> Node432 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

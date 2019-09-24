@@ -1,0 +1,20 @@
+digraph "src/OpenFOAM/db/IOstreams/Tstreams" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="FreeSans"];
+  edge [ labelfontsize="10", labelfontname="FreeSans"];
+  subgraph clusterdir_466e4f5b4cc1582939ab4ceba36098d8 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="IOstreams" fontname="FreeSans", fontsize="10", URL="dir_466e4f5b4cc1582939ab4ceba36098d8.html"]
+  dir_cf3d7f5d1d381f5f044d0042e570e596 [shape=box, label="Tstreams", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_cf3d7f5d1d381f5f044d0042e570e596.html"];
+  }
+  dir_d7bb18f9aea880d5d260c6eb9634ad53 [shape=box label="token" URL="dir_d7bb18f9aea880d5d260c6eb9634ad53.html"];
+  dir_5b778b533e0642b15b61ea7e4b236f8c [shape=box label="error" URL="dir_5b778b533e0642b15b61ea7e4b236f8c.html"];
+  dir_3bcf6d087081efad30da69158be5063e [shape=box label="IOstreams" URL="dir_3bcf6d087081efad30da69158be5063e.html"];
+  dir_cf3d7f5d1d381f5f044d0042e570e596->dir_d7bb18f9aea880d5d260c6eb9634ad53 [headlabel="1", labeldistance=1.5 headhref="dir_001837_001836.html"];
+  dir_cf3d7f5d1d381f5f044d0042e570e596->dir_5b778b533e0642b15b61ea7e4b236f8c [headlabel="1", labeldistance=1.5 headhref="dir_001837_001807.html"];
+  dir_cf3d7f5d1d381f5f044d0042e570e596->dir_3bcf6d087081efad30da69158be5063e [headlabel="1", labeldistance=1.5 headhref="dir_001837_001829.html"];
+  dir_d7bb18f9aea880d5d260c6eb9634ad53->dir_5b778b533e0642b15b61ea7e4b236f8c [headlabel="1", labeldistance=1.5 headhref="dir_001836_001807.html"];
+  dir_d7bb18f9aea880d5d260c6eb9634ad53->dir_3bcf6d087081efad30da69158be5063e [headlabel="2", labeldistance=1.5 headhref="dir_001836_001829.html"];
+  dir_3bcf6d087081efad30da69158be5063e->dir_d7bb18f9aea880d5d260c6eb9634ad53 [headlabel="2", labeldistance=1.5 headhref="dir_001829_001836.html"];
+  dir_3bcf6d087081efad30da69158be5063e->dir_5b778b533e0642b15b61ea7e4b236f8c [headlabel="1", labeldistance=1.5 headhref="dir_001829_001807.html"];
+}

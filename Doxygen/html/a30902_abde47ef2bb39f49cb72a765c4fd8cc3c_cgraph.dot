@@ -1,0 +1,28 @@
+digraph "nuSgs"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3207 [label="nuSgs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3207 -> Node3208 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3208 [label="B",height=0.2,width=0.4,color="red",URL="$a30902.html#acf00bc568420cebcbea1c1227f8cdd58",tooltip="Return the sub-grid stress tensor. "];
+  Node3208 -> Node3207 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3208 -> Node3590 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3590 [label="Foam::incompressible\l::turbulenceModel::U",height=0.2,width=0.4,color="black",URL="$a31102.html#a536d168d7b335fe81f506f232b5b4872",tooltip="Access function to velocity field. "];
+  Node3207 -> Node3592 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3592 [label="Foam::incompressible\l::LESModel::correct",height=0.2,width=0.4,color="red",URL="$a30874.html#a3ae44b28050c3aa494c1d8e18cf618c1",tooltip="Correct Eddy-Viscosity and related properties. "];
+  Node3207 -> Node3593 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3593 [label="devReff",height=0.2,width=0.4,color="red",URL="$a30902.html#a5449021fbe915095746a83606a000df4",tooltip="Return the effective sub-grid turbulence stress tensor. "];
+  Node3593 -> Node3590 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3207 -> Node3597 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3597 [label="divDevReff",height=0.2,width=0.4,color="red",URL="$a30902.html#a028ac2eaccc9a479009b15cc6e21a89e",tooltip="Return the deviatoric part of the effective sub-grid. "];
+  Node3597 -> Node3599 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3599 [label="divDevRhoReff",height=0.2,width=0.4,color="red",URL="$a30902.html#a1d0345d58cf17e030967c2b77a4477d6",tooltip="Return the deviatoric part of the effective sub-grid. "];
+  Node3207 -> Node3599 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3207 -> Node3601 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3601 [label="LESRegion",height=0.2,width=0.4,color="red",URL="$a30902.html#a7eef3334e06f2a7760a09b79bf71e55d",tooltip="Return the LES field indicator. "];
+  Node3207 -> Node3603 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3603 [label="read",height=0.2,width=0.4,color="red",URL="$a30902.html#af816873151ddb0126e98bb2f914d8ed5",tooltip="Read LESProperties dictionary. "];
+  Node3207 -> Node3590 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

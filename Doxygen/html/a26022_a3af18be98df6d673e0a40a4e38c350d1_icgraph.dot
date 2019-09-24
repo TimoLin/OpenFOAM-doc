@@ -1,0 +1,47 @@
+digraph "stream"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node10240 [label="stream",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node10240 -> Node10241 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10241 [label="Foam::coordinateSystem\l::coordinateSystem",height=0.2,width=0.4,color="black",URL="$a25010.html#a7fde428d3234bd6b457a8592f7e5dc01",tooltip="Construct from dictionary (default name) "];
+  Node10240 -> Node10242 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10242 [label="Foam::dynamicCodeContext\l::dynamicCodeContext",height=0.2,width=0.4,color="black",URL="$a26074.html#aaf616cf1d1395ba4d720994dc0d56732",tooltip="Construct from a dictionary. "];
+  Node10240 -> Node10243 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10243 [label="Foam::lduMatrix::smoother\l::getName",height=0.2,width=0.4,color="black",URL="$a26890.html#ac59fad692d6ce7568c8086fe89073005",tooltip="Find the smoother name (directly or from a sub-dictionary) "];
+  Node10240 -> Node10244 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10244 [label="Foam::lduMatrix::preconditioner\l::getName",height=0.2,width=0.4,color="red",URL="$a26894.html#ac59fad692d6ce7568c8086fe89073005",tooltip="Find the preconditioner name (directly or from a sub-dictionary) "];
+  Node10240 -> Node10252 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10252 [label="isStream",height=0.2,width=0.4,color="black",URL="$a26022.html#af5381607596c9bc61384456076a1ecdd",tooltip="Return true if this entry is a stream. "];
+  Node10240 -> Node10253 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10253 [label="Foam::dictionary::lookup",height=0.2,width=0.4,color="red",URL="$a26014.html#a6a0727fa523e48977e27348663def509",tooltip="Find and return an entry data stream. "];
+  Node10253 -> Node10243 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10253 -> Node10244 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10253 -> Node11750 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11750 [label="Foam::lduMatrix::smoother::New",height=0.2,width=0.4,color="red",URL="$a26890.html#a8d5691dd7f25aa4a7f95ac1e786df099",tooltip="Return a new smoother. "];
+  Node11750 -> Node10243 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10253 -> Node11754 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11754 [label="Foam::lduMatrix::preconditioner::New",height=0.2,width=0.4,color="red",URL="$a26894.html#a10c523f8a576f467c2ebf477d43107b7",tooltip="Return a new preconditioner. "];
+  Node11754 -> Node10244 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10253 -> Node12034 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12034 [label="Foam::codedFunctionObject\l::read",height=0.2,width=0.4,color="black",URL="$a28874.html#afac0600fef97b05534a595ce00b272ed",tooltip="Read and set the function object if its data have changed. "];
+  Node10240 -> Node12266 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12266 [label="Foam::dictionary::lookup\lOrAddDefault",height=0.2,width=0.4,color="red",URL="$a26014.html#aadafaae6847668979f5ce540f62d6e62",tooltip="Find and return a T, if not found return the given. "];
+  Node12266 -> Node12272 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12272 [label="Foam::dictionary::lookup\lOrDefault",height=0.2,width=0.4,color="red",URL="$a26014.html#a69ee064dcc6d649df523e02e5c242922",tooltip="Find and return a T,. "];
+  Node10240 -> Node12272 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10240 -> Node11750 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10240 -> Node11754 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10240 -> Node10819 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10819 [label="Foam::functionObjectList\l::read",height=0.2,width=0.4,color="red",URL="$a26126.html#af816873151ddb0126e98bb2f914d8ed5",tooltip="Read and set the function objects if their data have changed. "];
+  Node10240 -> Node12034 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10240 -> Node12315 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12315 [label="Foam::fv::CodedSource\l::read",height=0.2,width=0.4,color="black",URL="$a23526.html#a6ce0c64db98eb6144d363dbfc86104eb",tooltip="Read source dictionary. "];
+  Node10240 -> Node12316 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12316 [label="Foam::dictionary::readIf\lPresent",height=0.2,width=0.4,color="red",URL="$a26014.html#ad4bd008e6ee208313f2c3a963ee1170d",tooltip="Find an entry if present, and assign to T. "];
+  Node12316 -> Node12266 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10240 -> Node12356 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12356 [label="Foam::solution::upgradeSolverDict",height=0.2,width=0.4,color="red",URL="$a27078.html#aafb35d9c55b4a97e839ab61b4a0c7d52",tooltip="Update from older solver controls syntax. "];
+}

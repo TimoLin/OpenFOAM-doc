@@ -1,0 +1,17 @@
+digraph "writeData"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node429 [label="writeData",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node429 -> Node430 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node430 [label="Foam::decrIndent",height=0.2,width=0.4,color="red",URL="$a21124.html#a1c3a44e035fae1cd9d5a4a60a7e1c32b",tooltip="Decrement the indent level. "];
+  Node429 -> Node434 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node434 [label="Foam::incrIndent",height=0.2,width=0.4,color="red",URL="$a21124.html#a5baff2b2334a238271b33f039e5dde5c",tooltip="Increment the indent level. "];
+  Node429 -> Node438 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node438 [label="Foam::Ostream::write",height=0.2,width=0.4,color="black",URL="$a26238.html#a81a19ad9e4098b4701cc8bab9a59d78b",tooltip="Write next token to stream. "];
+  Node429 -> Node436 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node436 [label="Foam::Ostream::writeKeyword",height=0.2,width=0.4,color="red",URL="$a26238.html#a3c58b2bb9174ea3c4a5fa58095d1290e",tooltip="Write the keyword followed by an appropriate indentation. "];
+  Node436 -> Node438 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

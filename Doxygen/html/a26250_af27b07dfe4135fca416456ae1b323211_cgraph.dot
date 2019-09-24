@@ -1,0 +1,21 @@
+digraph "gatherList"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4439 [label="gatherList",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4439 -> Node4440 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4440 [label="gatherList",height=0.2,width=0.4,color="red",URL="$a26250.html#afbdf64fb42cd760690d51a9a321792d9",tooltip="Gather data but keep individual values separate. "];
+  Node4440 -> Node4490 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4490 [label="Foam::UPstream::nProcs",height=0.2,width=0.4,color="red",URL="$a26270.html#aada0e04d8127eda8ee95be0772754a4f",tooltip="Number of processes in parallel run. "];
+  Node4439 -> Node4494 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4494 [label="Foam::UPstream::linearCommunication",height=0.2,width=0.4,color="black",URL="$a26270.html#af7ec282f2581c26d06e2375a17174591",tooltip="Communication schedule for linear all-to-master (proc 0) "];
+  Node4494 -> Node4495 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4495 [label="Foam::UPstream::treeCommunication",height=0.2,width=0.4,color="black",URL="$a26270.html#afaa38d3b4ac099268cc3081da637d147",tooltip="Communication schedule for tree all-to-master (proc 0) "];
+  Node4439 -> Node4490 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4439 -> Node4496 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4496 [label="scatterList",height=0.2,width=0.4,color="red",URL="$a26250.html#a23c38ee54f04c9d53a327db9edbdb7f0",tooltip="Scatter data. Reverse of gatherList. "];
+  Node4496 -> Node4490 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4439 -> Node4495 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

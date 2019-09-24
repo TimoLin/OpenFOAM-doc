@@ -1,0 +1,20 @@
+digraph "lookupScopedEntryPtr"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node19201 [label="lookupScopedEntryPtr",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node19201 -> Node19202 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19202 [label="Foam::stringOps::getVariable",height=0.2,width=0.4,color="red",URL="$a21166.html#a0b683838814d3a93044a72f190d693ed",tooltip="Get dictionary or (optionally) environment variable. "];
+  Node19201 -> Node19205 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19205 [label="Foam::stringOps::inplace\lExpand",height=0.2,width=0.4,color="black",URL="$a21166.html#a26c5056d5b559d872fdd2aeaf16b9097",tooltip="Inplace expand occurences of variables according to the dictionary. "];
+  Node19201 -> Node19206 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19206 [label="lookup",height=0.2,width=0.4,color="red",URL="$a26014.html#a6a0727fa523e48977e27348663def509",tooltip="Find and return an entry data stream. "];
+  Node19201 -> Node19201 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19201 -> Node20357 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20357 [label="Foam::entry::New",height=0.2,width=0.4,color="red",URL="$a26022.html#a8a226a546ec766d55192e65b55f87715",tooltip="Construct from Istream and insert into dictionary. "];
+  Node19201 -> Node20356 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20356 [label="substituteScopedKeyword",height=0.2,width=0.4,color="black",URL="$a26014.html#a2bc995b506ef1e06d626af0fcc6a7296",tooltip="Substitute the given scoped keyword prepended by &#39;$&#39; with the. "];
+  Node20356 -> Node20357 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

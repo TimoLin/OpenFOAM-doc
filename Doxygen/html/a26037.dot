@@ -1,0 +1,11 @@
+digraph "includeEntry"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node0 [label="includeEntry",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="functionEntry",height=0.2,width=0.4,color="black",URL="$a26034.html",tooltip="A functionEntry causes entries to be added/manipulated on the specified dictionary given an input str..."];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="includeIfPresentEntry",height=0.2,width=0.4,color="black",URL="$a26046.html",tooltip="Specify a file to include if it exists. Expects a single string to follow. "];
+}

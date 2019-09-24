@@ -1,0 +1,12 @@
+digraph "compatibleRemoves"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node976 [label="compatibleRemoves",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node976 -> Node977 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node977 [label="removeFaces",height=0.2,width=0.4,color="black",URL="$a21702.html#a0b26da20b56c5057849fd15b2132090f",tooltip="Construct from mesh and min cos of angle for boundary faces. "];
+  Node976 -> Node978 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node978 [label="Foam::hexRef8::setUnrefinement",height=0.2,width=0.4,color="red",URL="$a21654.html#aa4246c753057abd6ecf4b510ee30bd99",tooltip="Remove some refinement. Needs to be supplied output of. "];
+}

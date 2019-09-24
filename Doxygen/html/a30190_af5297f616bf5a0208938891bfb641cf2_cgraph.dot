@@ -1,0 +1,22 @@
+digraph "omega"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node146 [label="omega",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node146 -> Node147 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node147 [label="Foam::exp",height=0.2,width=0.4,color="black",URL="$a21124.html#a12bca6c677fcf0977532179c3cb9bb89"];
+  Node146 -> Node148 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node148 [label="Foam::Reaction::kf",height=0.2,width=0.4,color="red",URL="$a30330.html#ae5cd124c004fbe29669769d275a8b321",tooltip="Forward rate constant. "];
+  Node146 -> Node150 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node150 [label="Foam::Reaction::lhs",height=0.2,width=0.4,color="black",URL="$a30330.html#a6761a05de6d2e857d0187e5bd7ff6b61"];
+  Node146 -> Node151 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node151 [label="Foam::max",height=0.2,width=0.4,color="black",URL="$a21124.html#ac993e906cf2774ae77e666bc24e81733"];
+  Node146 -> Node152 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node152 [label="omegaI",height=0.2,width=0.4,color="red",URL="$a30190.html#a81cb5d122f5bc1aeb85c269487e1fa69",tooltip="Return the reaction rate for iReaction. "];
+  Node146 -> Node157 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node157 [label="Foam::pow",height=0.2,width=0.4,color="red",URL="$a21124.html#a7500c8e9d27a442adc75e287de074c7c"];
+  Node146 -> Node172 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node172 [label="s",height=0.2,width=0.4,color="black",URL="$a18905.html#abb9c4233033fad2ad0206cd4adad3b9f"];
+}

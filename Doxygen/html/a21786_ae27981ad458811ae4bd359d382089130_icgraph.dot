@@ -1,0 +1,12 @@
+digraph "pointTree"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node821 [label="pointTree",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node821 -> Node822 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node822 [label="allNearestFeaturePoints",height=0.2,width=0.4,color="red",URL="$a21786.html#a3d27f2ecec0771445021daad5c682975",tooltip="Find all the feature points within searchDistSqr of sample. "];
+  Node821 -> Node825 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node825 [label="nearestFeaturePoint",height=0.2,width=0.4,color="red",URL="$a21786.html#a55b8ec81be05317e524b6d479ffe8a57",tooltip="Find nearest surface edge for the sample point. "];
+}

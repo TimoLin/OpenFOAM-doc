@@ -1,0 +1,25 @@
+digraph "lookupPtr"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node11 [label="lookupPtr",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12 [label="Foam::debug::addDebugObject",height=0.2,width=0.4,color="black",URL="$a21163.html#a307a33df4deaa694b8fd7ed242607880",tooltip="Register debug switch read/write object. "];
+  Node11 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13 [label="Foam::debug::addDimensioned\lConstantObject",height=0.2,width=0.4,color="black",URL="$a21163.html#a46c11e0dcbba357092670dd61708df2f",tooltip="Register DimensionedConstant read/write object. "];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14 [label="Foam::debug::addDimension\lSetObject",height=0.2,width=0.4,color="black",URL="$a21163.html#adb0730a701b776bca83bf4dd31461c65",tooltip="Register DimensionSets read/write object. "];
+  Node14 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15 [label="Foam::debug::addOptimisation\lObject",height=0.2,width=0.4,color="black",URL="$a21163.html#a6eddc51e7248c6785ecaabc32e065f4e",tooltip="Register optimisation switch read/write object. "];
+  Node15 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16 [label="Foam::debug::addInfoObject",height=0.2,width=0.4,color="black",URL="$a21163.html#a8bf3573cf4a04bd59eb73ab3630f2026",tooltip="Register info switch read/write object. "];
+  Node11 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17 [label="Foam::DictionaryBase\l\< DLPtrList\< T \>, T \>\l::found",height=0.2,width=0.4,color="black",URL="$a25670.html#a0c5087968df9e943fc324fd06fb6c661",tooltip="Search DictionaryBase for given keyword. "];
+  Node11 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 [label="Foam::Time::readDict",height=0.2,width=0.4,color="red",URL="$a26350.html#a09f8bbb748b599cf713fa2e07ec7e0b4",tooltip="Read the control dictionary and set the write controls etc. "];
+}

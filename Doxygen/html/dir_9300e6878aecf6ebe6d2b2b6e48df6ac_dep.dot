@@ -1,0 +1,15 @@
+digraph "src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="FreeSans"];
+  edge [ labelfontsize="10", labelfontname="FreeSans"];
+  subgraph clusterdir_cd74d29a05e94118a5acdbfd55a576bf {
+    graph [ bgcolor="#ddddee", pencolor="black", label="cyclicAMI" fontname="FreeSans", fontsize="10", URL="dir_cd74d29a05e94118a5acdbfd55a576bf.html"]
+  dir_9300e6878aecf6ebe6d2b2b6e48df6ac [shape=box, label="cyclicAMIPolyPatch", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_9300e6878aecf6ebe6d2b2b6e48df6ac.html"];
+  }
+  dir_cc283432b470ffbfab40d5c39743e289 [shape=box label="AMIInterpolation" color="red" URL="dir_cc283432b470ffbfab40d5c39743e289.html"];
+  dir_c5473ff19b20e6ec4dfe5c310b3778a8 [shape=box label="OpenFOAM" color="red" URL="dir_c5473ff19b20e6ec4dfe5c310b3778a8.html"];
+  dir_cc283432b470ffbfab40d5c39743e289->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="20", labeldistance=1.5 headhref="dir_001592_001732.html"];
+  dir_9300e6878aecf6ebe6d2b2b6e48df6ac->dir_cc283432b470ffbfab40d5c39743e289 [headlabel="1", labeldistance=1.5 headhref="dir_001617_001592.html"];
+  dir_9300e6878aecf6ebe6d2b2b6e48df6ac->dir_c5473ff19b20e6ec4dfe5c310b3778a8 [headlabel="6", labeldistance=1.5 headhref="dir_001617_001732.html"];
+}

@@ -1,0 +1,19 @@
+digraph "mapper"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node332 [label="mapper",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node332 -> Node333 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node333 [label="Foam::exit",height=0.2,width=0.4,color="red",URL="$a21124.html#a06ca7250d8e89caf05243ec094843642"];
+  Node332 -> Node380 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node380 [label="Foam::patchIdentifier\l::name",height=0.2,width=0.4,color="black",URL="$a27122.html#acc80e00a8ac919288fb55bd14cc88bf6",tooltip="Return name. "];
+  Node332 -> Node381 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node381 [label="Foam::IOobject::name",height=0.2,width=0.4,color="black",URL="$a26142.html#acc80e00a8ac919288fb55bd14cc88bf6",tooltip="Return name. "];
+  Node332 -> Node382 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node382 [label="Foam::IOobject::objectPath",height=0.2,width=0.4,color="red",URL="$a26142.html#a3a7ece5c1251c6be1f7812d4dba5fb7a",tooltip="Return complete path + object name. "];
+  Node382 -> Node381 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node332 -> Node648 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node648 [label="Foam::fvPatch::patch",height=0.2,width=0.4,color="black",URL="$a22870.html#a733fd433f94cab9899e34dcc9709333e",tooltip="Return the polyPatch. "];
+}

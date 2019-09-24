@@ -1,0 +1,19 @@
+digraph "setZones"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1043 [label="setZones",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1043 -> Node1044 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1044 [label="Foam::name",height=0.2,width=0.4,color="red",URL="$a21124.html#adcb0df2bd4953cb6bb390272d8263c3a",tooltip="Return a string representation of a complex. "];
+  Node1043 -> Node1047 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1047 [label="remapFaces",height=0.2,width=0.4,color="red",URL="$a29574.html#ac15d32161096e3b5c83b0a0dee739b65",tooltip="Set new zones from faceMap. "];
+  Node1047 -> Node1057 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1057 [label="Foam::UList::size",height=0.2,width=0.4,color="black",URL="$a25698.html#a47b3bf30da1eb3ab8076b5fbe00e0494",tooltip="Return the number of elements in the UList. "];
+  Node1043 -> Node1049 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1049 [label="Foam::List::setSize",height=0.2,width=0.4,color="black",URL="$a25694.html#aedb985ffeaf1bdbfeccc2a8730405703",tooltip="Reset size of List. "];
+  Node1043 -> Node1053 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1053 [label="size",height=0.2,width=0.4,color="red",URL="$a29574.html#a9facbf0a118d395c89884e45a5ca4e4b",tooltip="The surface size is the number of faces. "];
+  Node1043 -> Node1057 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

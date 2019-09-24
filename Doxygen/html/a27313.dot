@@ -1,0 +1,19 @@
+digraph "coupledFacePointPatch"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node0 [label="coupledFacePointPatch",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="facePointPatch",height=0.2,width=0.4,color="red",URL="$a27322.html",tooltip="A pointPatch based on a polyPatch. "];
+  Node3 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="coupledPointPatch",height=0.2,width=0.4,color="black",URL="$a27270.html",tooltip="coupled patch for post-processing. Used as the base class for processor and cyclic pointPatches ..."];
+  Node0 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="cyclicACMIPointPatch",height=0.2,width=0.4,color="black",URL="$a24918.html",tooltip="Cyclic AMI point patch - place holder only. "];
+  Node0 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="cyclicAMIPointPatch",height=0.2,width=0.4,color="black",URL="$a24938.html",tooltip="Cyclic AMI point patch - place holder only. "];
+  Node0 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="cyclicPointPatch",height=0.2,width=0.4,color="red",URL="$a27278.html",tooltip="Cyclic patch for post-processing. "];
+  Node0 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="processorPointPatch",height=0.2,width=0.4,color="red",URL="$a27294.html",tooltip="Processor patch boundary needs to be such that the ordering of points in the patch is the same on bot..."];
+}

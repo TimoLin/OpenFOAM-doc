@@ -1,0 +1,26 @@
+digraph "findEtcFiles"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node88955 [label="findEtcFiles",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node88955 -> Node88956 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node88956 [label="Foam::List::append",height=0.2,width=0.4,color="black",URL="$a25694.html#a399dd2bf0d9a32016717dc90126f016b",tooltip="Append an element at the end of the list. "];
+  Node88955 -> Node88957 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node88957 [label="Foam::UList::empty",height=0.2,width=0.4,color="black",URL="$a25698.html#a644718bb2fb240de962dc3c9a1fdf0dc",tooltip="Return true if the UList is empty (ie, size() is zero). "];
+  Node88955 -> Node88958 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node88958 [label="endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node88955 -> Node88960 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node88960 [label="exit",height=0.2,width=0.4,color="red",URL="$a21124.html#a06ca7250d8e89caf05243ec094843642"];
+  Node88955 -> Node89005 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node89005 [label="getEnv",height=0.2,width=0.4,color="red",URL="$a21124.html#aa811843798d715931c4c97ff949a89f3",tooltip="Return environment variable of given name. "];
+  Node88955 -> Node89008 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node89008 [label="home",height=0.2,width=0.4,color="red",URL="$a21124.html#ae3d3ec6ddc4a201cdcf369c6a46bcaba",tooltip="Return home directory path name for the current user. "];
+  Node88955 -> Node89009 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node89009 [label="isDir",height=0.2,width=0.4,color="red",URL="$a21124.html#a9c9cf5d33b9c5961f835aefe5d860c5a",tooltip="Does the name exist as a DIRECTORY in the file system? "];
+  Node88955 -> Node89015 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node89015 [label="isFile",height=0.2,width=0.4,color="red",URL="$a21124.html#a1cf13d004cf482571af182540a8d1526",tooltip="Does the name exist as a FILE in the file system? "];
+  Node88955 -> Node89016 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node89016 [label="name",height=0.2,width=0.4,color="red",URL="$a21124.html#adcb0df2bd4953cb6bb390272d8263c3a",tooltip="Return a string representation of a complex. "];
+}

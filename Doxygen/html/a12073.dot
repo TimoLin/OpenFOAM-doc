@@ -1,0 +1,19 @@
+digraph "src/OpenFOAM/meshes/primitiveShapes/point2D/point2D.H"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node46 [label="src/OpenFOAM/meshes\l/primitiveShapes/point2D\l/point2D.H",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node46 -> Node47 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node47 [label="src/OpenFOAM/meshes\l/primitiveShapes/line\l/line.H",height=0.2,width=0.4,color="red",URL="$a12014.html"];
+  Node47 -> Node51 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node51 [label="src/OpenFOAM/meshes\l/primitiveShapes/line\l/linePoint2DRef.H",height=0.2,width=0.4,color="black",URL="$a12020.html"];
+  Node46 -> Node51 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node46 -> Node3726 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3726 [label="src/OpenFOAM/meshes\l/primitiveShapes/objectHit\l/point2DHit.H",height=0.2,width=0.4,color="black",URL="$a12029.html"];
+  Node46 -> Node3727 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3727 [label="src/OpenFOAM/meshes\l/primitiveShapes/point2D\l/point2DField.H",height=0.2,width=0.4,color="black",URL="$a12074.html"];
+  Node46 -> Node3728 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3728 [label="src/OpenFOAM/meshes\l/primitiveShapes/point2D\l/point2DFieldFwd.H",height=0.2,width=0.4,color="red",URL="$a12077.html"];
+  Node3728 -> Node3727 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

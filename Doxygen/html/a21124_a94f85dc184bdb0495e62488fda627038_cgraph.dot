@@ -1,0 +1,17 @@
+digraph "rmDir"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node105205 [label="rmDir",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node105205 -> Node105206 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node105206 [label="endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node105205 -> Node105208 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node105208 [label="path",height=0.2,width=0.4,color="black",URL="$a19364.html#ad8adfaf80503dc99cbb14bf07bf1eb22"];
+  Node105205 -> Node105209 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node105209 [label="rm",height=0.2,width=0.4,color="black",URL="$a21124.html#a24dbcb779312aba1a80a0b57a3a7f1ad",tooltip="Remove a file, returning true if successful otherwise false. "];
+  Node105209 -> Node105206 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node105205 -> Node105210 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node105210 [label="Foam::fileName::type",height=0.2,width=0.4,color="red",URL="$a28234.html#a086278fd4fb02d761aeca44c54afb6fd",tooltip="Return the file type: FILE, DIRECTORY or UNDEFINED. "];
+}

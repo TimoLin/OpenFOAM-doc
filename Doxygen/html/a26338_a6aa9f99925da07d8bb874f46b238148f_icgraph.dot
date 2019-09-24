@@ -1,0 +1,14 @@
+digraph "value"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node9 [label="value",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="Foam::instant::less\l::operator()",height=0.2,width=0.4,color="black",URL="$a26342.html#ad8145a67d7efb356d0ad7c23f9eb9bc0"];
+  Node9 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="Foam::timeSelector\l::selected",height=0.2,width=0.4,color="red",URL="$a26358.html#a37efc590fcd13eded7b091989c08e98d",tooltip="Return true if the given instant is within the ranges. "];
+  Node9 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20 [label="Foam::Time::setTime",height=0.2,width=0.4,color="black",URL="$a26350.html#a99ebfa0c28843766918605a80a422f2d",tooltip="Reset the time and time-index. "];
+}

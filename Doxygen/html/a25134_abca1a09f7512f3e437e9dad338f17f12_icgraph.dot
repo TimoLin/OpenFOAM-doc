@@ -1,0 +1,13 @@
+digraph "leaveDomain"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node60 [label="leaveDomain",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node60 -> Node61 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node61 [label="distance",height=0.2,width=0.4,color="red",URL="$a25134.html#a251b2bdba737b19bc01986128ec87141"];
+  Node60 -> Node66 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node66 [label="sameGeometry",height=0.2,width=0.4,color="red",URL="$a25134.html#aa10a31d823e0b679bbdd0ad48a0eb72d",tooltip="Check for identical geometrical data. Used for cyclics checking. "];
+  Node66 -> Node61 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

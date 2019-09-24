@@ -1,0 +1,25 @@
+digraph "insertFaceCells"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node384 [label="insertFaceCells",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node384 -> Node385 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node385 [label="calcFaceCells",height=0.2,width=0.4,color="red",URL="$a22686.html#ae5e6c7b176e7515ab993bf7549c04d5e",tooltip="Collect cell neighbours of faces in global numbering. "];
+  Node385 -> Node384 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node384 -> Node393 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node393 [label="Foam::polyMesh::faceNeighbour",height=0.2,width=0.4,color="black",URL="$a27410.html#a9fb57b52c700ed61f09ada65412d13e3",tooltip="Return face neighbour. "];
+  Node384 -> Node392 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node392 [label="Foam::polyMesh::faceOwner",height=0.2,width=0.4,color="black",URL="$a27410.html#a57752b49bfee23ca1944c3fb0493974f",tooltip="Return face owner. "];
+  Node384 -> Node767 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node767 [label="globalNumbering",height=0.2,width=0.4,color="black",URL="$a22686.html#a1b3e7faa331b6cfc9b657a67b1632928",tooltip="Global numbering for cells and boundary faces. "];
+  Node384 -> Node766 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node766 [label="Foam::HashSet::insert",height=0.2,width=0.4,color="black",URL="$a25690.html#a49f0753d9652681fc3a81f59951a0ad7",tooltip="Insert a new entry. "];
+  Node384 -> Node768 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node768 [label="mesh",height=0.2,width=0.4,color="black",URL="$a22686.html#ae78c91f8ff731c07ccc4351d9fe861ba"];
+  Node384 -> Node391 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node391 [label="Foam::primitiveMesh\l::nInternalFaces",height=0.2,width=0.4,color="black",URL="$a27530.html#aa6c7965af1f30d16d9125deb981cbdb0"];
+  Node384 -> Node769 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node769 [label="Foam::globalIndex::\ltoGlobal",height=0.2,width=0.4,color="red",URL="$a27330.html#a6e3eb58016c27d6ea3dddea039e43ed5",tooltip="From local to global. "];
+}

@@ -1,0 +1,30 @@
+digraph "syncEdgeList"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1531 [label="syncEdgeList",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1531 -> Node1532 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1532 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node1531 -> Node1575 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1575 [label="Foam::globalMeshData\l::coupledPatchMeshEdges",height=0.2,width=0.4,color="red",URL="$a27334.html#aa00f3e08eda303a5809080b2474441b3",tooltip="Return map from coupledPatch edges to mesh edges. "];
+  Node1531 -> Node1591 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1591 [label="Foam::polyMesh::globalData",height=0.2,width=0.4,color="red",URL="$a27410.html#a5e9cb8eb9e52843d336386b13423d19c",tooltip="Return parallel info. "];
+  Node1531 -> Node1592 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1592 [label="Foam::globalMeshData\l::globalEdgeSlaves",height=0.2,width=0.4,color="black",URL="$a27334.html#afa581a6489608d506bd89d856d025035"];
+  Node1531 -> Node1593 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1593 [label="Foam::globalMeshData\l::globalEdgeSlavesMap",height=0.2,width=0.4,color="black",URL="$a27334.html#a8ade9363e1031c5b5623b27388bf9252"];
+  Node1531 -> Node1594 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1594 [label="Foam::globalMeshData\l::globalEdgeTransformedSlaves",height=0.2,width=0.4,color="black",URL="$a27334.html#a26441ca5632603facc931e1293df059d"];
+  Node1531 -> Node1595 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1595 [label="Foam::globalMeshData\l::globalTransforms",height=0.2,width=0.4,color="black",URL="$a27334.html#ac9bc896b4902c5873e7314dcc15477c8",tooltip="Global transforms numbering. "];
+  Node1531 -> Node1596 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1596 [label="Foam::primitiveMesh\l::nEdges",height=0.2,width=0.4,color="red",URL="$a27530.html#a086513bcff1a3f1684e1a3879dd90deb"];
+  Node1596 -> Node1597 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1597 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node1531 -> Node1597 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1531 -> Node1598 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1598 [label="Foam::globalMeshData\l::syncData",height=0.2,width=0.4,color="red",URL="$a27334.html#a81fffc5ec4bfe50dd3ba0a3ca38ee2f1",tooltip="Helper: synchronise data with transforms. "];
+  Node1598 -> Node1597 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

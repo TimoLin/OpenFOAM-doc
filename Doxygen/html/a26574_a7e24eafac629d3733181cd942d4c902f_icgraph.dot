@@ -1,0 +1,28 @@
+digraph "updateCoeffs"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node68 [label="updateCoeffs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node68 -> Node69 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node69 [label="Foam::valuePointPatchField\l\< vector \>::size",height=0.2,width=0.4,color="black",URL="$a26574.html#a9facbf0a118d395c89884e45a5ca4e4b",tooltip="Return size. "];
+  Node68 -> Node70 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node70 [label="Foam::oscillatingDisplacement\lPointPatchVectorField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a23402.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node68 -> Node72 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node72 [label="Foam::waveDisplacementPoint\lPatchVectorField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a23426.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node68 -> Node74 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node74 [label="Foam::oscillatingVelocity\lPointPatchVectorField::\lupdateCoeffs",height=0.2,width=0.4,color="red",URL="$a23406.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node68 -> Node76 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node76 [label="Foam::angularOscillating\lVelocityPointPatchVectorField\l::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a23398.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node68 -> Node78 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node78 [label="Foam::angularOscillating\lDisplacementPointPatchVector\lField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a23394.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node68 -> Node80 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node80 [label="Foam::uncoupledSixDoFRigid\lBodyDisplacementPointPatchVector\lField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a29474.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node68 -> Node82 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node82 [label="Foam::uniformFixedValuePoint\lPatchField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a26634.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node68 -> Node84 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node84 [label="Foam::uniformInterpolated\lDisplacementPointPatchVectorField\l::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a23422.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node68 -> Node86 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node86 [label="Foam::sixDoFRigidBodyDisplacement\lPointPatchVectorField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a29470.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+}

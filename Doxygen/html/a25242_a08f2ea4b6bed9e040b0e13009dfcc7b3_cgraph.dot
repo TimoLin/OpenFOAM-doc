@@ -1,0 +1,33 @@
+digraph "overlaps"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node381 [label="overlaps",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node381 -> Node382 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node382 [label="distribute",height=0.2,width=0.4,color="black",URL="$a25242.html#a30b981a389a43e4853d4dec45e4e5edb",tooltip="Set bounds of surface. Bounds currently set as list of. "];
+  Node381 -> Node383 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node383 [label="findLine",height=0.2,width=0.4,color="red",URL="$a25242.html#a2a363a8584a3ae8109cce2aaf6436e3f",tooltip="Find first intersection on segment from start to end. "];
+  Node383 -> Node433 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node433 [label="findLineAny",height=0.2,width=0.4,color="black",URL="$a25242.html#a3cb961eda9c4705631ac1b5b1ca29b97",tooltip="Return any intersection on segment from start to end. "];
+  Node433 -> Node434 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node434 [label="findLineAll",height=0.2,width=0.4,color="red",URL="$a25242.html#a32c00098bc496f0cc93bf1aebc19ee49",tooltip="Get all intersections in order from start to end. "];
+  Node434 -> Node436 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node436 [label="getRegion",height=0.2,width=0.4,color="red",URL="$a25242.html#ab2bcdcc4dd1bdb5a9e1d1025292bdf24",tooltip="From a set of points and indices get the region. "];
+  Node436 -> Node437 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node437 [label="getNormal",height=0.2,width=0.4,color="red",URL="$a25242.html#aa9abdb9ffe5f3cb1c2992ccb3bcc9e48",tooltip="From a set of points and indices get the normal. "];
+  Node437 -> Node438 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node438 [label="getVolumeType",height=0.2,width=0.4,color="red",URL="$a25242.html#a1d3ba31549036f01425643d189858d2a",tooltip="Determine type (inside/outside/mixed) for point. unknown if. "];
+  Node438 -> Node382 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node381 -> Node434 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node381 -> Node433 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node381 -> Node443 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node443 [label="getField",height=0.2,width=0.4,color="red",URL="$a25242.html#a8fd35269fdaf69e729c001cdb7846051",tooltip="WIP. From a set of hits (points and. "];
+  Node381 -> Node437 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node381 -> Node436 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node381 -> Node438 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node381 -> Node444 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node444 [label="setField",height=0.2,width=0.4,color="black",URL="$a25242.html#a80d088717fbf31bc3851678ab4071cca",tooltip="WIP. Store element-wise field. "];
+  Node444 -> Node443 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

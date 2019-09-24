@@ -1,0 +1,13 @@
+digraph "calculate"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node33 [label="calculate",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node33 -> Node34 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node34 [label="clone",height=0.2,width=0.4,color="black",URL="$a24334.html#a5444726b464e459eb61adecc68a8b367",tooltip="Construct and return a clone. "];
+  Node33 -> Node35 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node35 [label="~SingleKineticRateDevolatilisation",height=0.2,width=0.4,color="red",URL="$a24334.html#aa5fb0b98b0f466d1dc294225181dba19",tooltip="Destructor. "];
+  Node35 -> Node34 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

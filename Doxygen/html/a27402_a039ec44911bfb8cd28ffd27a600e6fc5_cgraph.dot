@@ -1,0 +1,23 @@
+digraph "checkDefinition"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node5255 [label="checkDefinition",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node5255 -> Node5256 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5256 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node5255 -> Node5258 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5258 [label="Foam::HashSet::insert",height=0.2,width=0.4,color="black",URL="$a25690.html#a49f0753d9652681fc3a81f59951a0ad7",tooltip="Insert a new entry. "];
+  Node5255 -> Node5259 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5259 [label="Foam::IOobject::name",height=0.2,width=0.4,color="black",URL="$a26142.html#acc80e00a8ac919288fb55bd14cc88bf6",tooltip="Return name. "];
+  Node5255 -> Node5260 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5260 [label="Foam::primitiveMesh\l::nInternalFaces",height=0.2,width=0.4,color="black",URL="$a27530.html#aa6c7965af1f30d16d9125deb981cbdb0"];
+  Node5255 -> Node5261 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5261 [label="patchNames",height=0.2,width=0.4,color="black",URL="$a17900.html#a2b0b0d262376a4021c85e70b012ebe4e"];
+  Node5255 -> Node5262 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5262 [label="Foam::reduce",height=0.2,width=0.4,color="red",URL="$a21124.html#a7ffd6af4acc2eb9ba72ee296b5ecda23"];
+  Node5262 -> Node5256 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5255 -> Node5278 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5278 [label="Foam::PtrList::size",height=0.2,width=0.4,color="black",URL="$a25914.html#a47b3bf30da1eb3ab8076b5fbe00e0494",tooltip="Return the number of elements in the PtrList. "];
+}

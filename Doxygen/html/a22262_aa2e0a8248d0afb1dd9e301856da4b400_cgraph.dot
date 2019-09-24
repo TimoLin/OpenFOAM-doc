@@ -1,0 +1,21 @@
+digraph "supersonicFreestreamFvPatchVectorField"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4 [label="supersonicFreestreamFvPatch\lVectorField",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="dimensionedInternalField",height=0.2,width=0.4,color="black",URL="$a38438.html#a942cd19121a46cdc649099eb27c74b18"];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="Foam::exit",height=0.2,width=0.4,color="red",URL="$a21124.html#a06ca7250d8e89caf05243ec094843642"];
+  Node4 -> Node53 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node53 [label="Foam::dictionary::found",height=0.2,width=0.4,color="red",URL="$a26014.html#adcd3d5d43253006ef145e56b43025d28",tooltip="Search dictionary for given keyword. "];
+  Node53 -> Node53 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 -> Node55 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node55 [label="Foam::fvPatch::size",height=0.2,width=0.4,color="black",URL="$a22870.html#a03bc1200aac252c4d3e18657d700b71c",tooltip="Return size. "];
+  Node4 -> Node56 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node56 [label="supersonicFreestreamFvPatch\lVectorField",height=0.2,width=0.4,color="black",URL="$a22262.html#a1528b9723f1daf4a8e6696f926331e51",tooltip="Construct from patch and internal field. "];
+  Node4 -> Node57 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node57 [label="vectorField",height=0.2,width=0.4,color="black",URL="$a19007.html#a26449ea948f1206dbb29e1bc6e5c7c64"];
+}

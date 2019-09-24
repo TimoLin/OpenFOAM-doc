@@ -1,0 +1,16 @@
+digraph "inplaceTrim"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1744 [label="inplaceTrim",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1744 -> Node1745 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1745 [label="inplaceTrimLeft",height=0.2,width=0.4,color="red",URL="$a21166.html#afa4a449abe8c1e46b109802919d0f1c5",tooltip="Trim leading whitespace inplace. "];
+  Node1745 -> Node1747 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1747 [label="s",height=0.2,width=0.4,color="black",URL="$a18905.html#abb9c4233033fad2ad0206cd4adad3b9f"];
+  Node1744 -> Node1748 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1748 [label="inplaceTrimRight",height=0.2,width=0.4,color="red",URL="$a21166.html#a234819fd3bc3b043a6647175bf52e712",tooltip="Trim trailing whitespace inplace. "];
+  Node1748 -> Node1747 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1744 -> Node1747 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

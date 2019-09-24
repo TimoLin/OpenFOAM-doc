@@ -1,0 +1,28 @@
+digraph "W"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node761 [label="W",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node761 -> Node762 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node762 [label="Cp",height=0.2,width=0.4,color="red",URL="$a29842.html#a6f662b495ba9c9d1cbfcee47e1b366eb",tooltip="Calculate the mixture heat capacity [J/(kg K)]. "];
+  Node762 -> Node764 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node764 [label="hl",height=0.2,width=0.4,color="black",URL="$a29842.html#a5fdef6103de8f02389f444948a6c9253",tooltip="Calculate the mixture latent heat [J/kg]. "];
+  Node764 -> Node765 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node765 [label="pv",height=0.2,width=0.4,color="red",URL="$a29842.html#a7b8b4899693f38490f7afb2b76c128d1",tooltip="Calculate the mixture vapour pressure [Pa]. "];
+  Node765 -> Node769 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node769 [label="rho",height=0.2,width=0.4,color="red",URL="$a29842.html#ac55fc9c4f04e5f938072295886280f76",tooltip="Calculate the mixture density [kg/m^3]. "];
+  Node769 -> Node767 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node767 [label="size",height=0.2,width=0.4,color="black",URL="$a29842.html#a9facbf0a118d395c89884e45a5ca4e4b",tooltip="Return the number of liquids in the mixture. "];
+  Node765 -> Node767 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node764 -> Node767 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node762 -> Node767 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node761 -> Node764 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node761 -> Node765 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node761 -> Node769 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node761 -> Node767 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node761 -> Node771 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node771 [label="Y",height=0.2,width=0.4,color="black",URL="$a29842.html#a62d13e1b334e20fdc687dbb9cd711942",tooltip="Returns the mass fractions, given mole fractions. "];
+  Node771 -> Node767 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

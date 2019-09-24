@@ -1,0 +1,26 @@
+digraph "referPatch"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node644 [label="referPatch",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node644 -> Node645 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node645 [label="collocated",height=0.2,width=0.4,color="black",URL="$a27458.html#ad389b83220c77346326729036d47c34a",tooltip="Are faces collocated. Either size 0,1 or length of patch. "];
+  Node644 -> Node646 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node646 [label="forwardT",height=0.2,width=0.4,color="red",URL="$a27458.html#ae135c648b81be5732b7634127e41608d",tooltip="Return face transformation tensor. "];
+  Node644 -> Node655 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node655 [label="owner",height=0.2,width=0.4,color="black",URL="$a27458.html#a357c5e37e5d7c583fa172625b8c11009",tooltip="Does this side own the patch ? "];
+  Node644 -> Node656 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node656 [label="parallel",height=0.2,width=0.4,color="red",URL="$a27458.html#a6f2ad23016ecf05385032d2ea2fea27d",tooltip="Are the cyclic planes parallel. "];
+  Node644 -> Node659 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node659 [label="reverseT",height=0.2,width=0.4,color="red",URL="$a27458.html#a3b6ef41753c72a78fb451b2a4327c899",tooltip="Return neighbour-cell transformation tensor. "];
+  Node644 -> Node661 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node661 [label="separated",height=0.2,width=0.4,color="black",URL="$a27458.html#a6b412b0f0250badc8106cec72d6b875c",tooltip="Are the planes separated. "];
+  Node644 -> Node662 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node662 [label="separation",height=0.2,width=0.4,color="black",URL="$a27458.html#aa19aef17b000bba8d3a1b010b34af485",tooltip="If the planes are separated the separation vector. "];
+  Node644 -> Node663 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node663 [label="transform",height=0.2,width=0.4,color="red",URL="$a27458.html#a25e79347ecb20da8543ed4e461fc1ed2",tooltip="Type of transform. "];
+  Node644 -> Node665 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node665 [label="transformPosition",height=0.2,width=0.4,color="black",URL="$a27458.html#ab40411982a6b7d9b0ed5235f2a26be1c",tooltip="Transform a patch-based position from other side to this side. "];
+}

@@ -1,0 +1,20 @@
+digraph "gAverage"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node67338 [label="gAverage",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node67338 -> Node67339 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node67339 [label="endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node67338 -> Node67341 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node67341 [label="Foam::UPstream::msgType",height=0.2,width=0.4,color="black",URL="$a26270.html#ae5b8fe6652f6320aa6c7f5c44b6f01b7",tooltip="Message tag of standard messages. "];
+  Node67338 -> Node67342 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node67342 [label="s",height=0.2,width=0.4,color="black",URL="$a18905.html#abb9c4233033fad2ad0206cd4adad3b9f"];
+  Node67338 -> Node67343 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node67343 [label="Foam::UList::size",height=0.2,width=0.4,color="black",URL="$a25698.html#a47b3bf30da1eb3ab8076b5fbe00e0494",tooltip="Return the number of elements in the UList. "];
+  Node67338 -> Node67344 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node67344 [label="sum",height=0.2,width=0.4,color="black",URL="$a21124.html#a3d8733143aad0e03b300186ab4bef137"];
+  Node67338 -> Node67345 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node67345 [label="sumReduce",height=0.2,width=0.4,color="red",URL="$a21124.html#af8f70664d4fba9af21b38ce1e5c2b97b"];
+}

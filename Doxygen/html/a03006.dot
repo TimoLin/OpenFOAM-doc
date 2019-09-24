@@ -1,0 +1,19 @@
+digraph "src/finiteVolume/finiteVolume/fvc/fvcReconstructMag.C"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node0 [label="src/finiteVolume/finiteVolume\l/fvc/fvcReconstructMag.C",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="fvcReconstruct.H",height=0.2,width=0.4,color="red",URL="$a03002.html",tooltip="Reconstruct volField from a face flux field. "];
+  Node0 -> Node61 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node61 [label="fvMesh.H",height=0.2,width=0.4,color="red",URL="$a03533.html"];
+  Node0 -> Node269 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node269 [label="volFields.H",height=0.2,width=0.4,color="red",URL="$a02750.html"];
+  Node269 -> Node61 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node0 -> Node301 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node301 [label="surfaceFields.H",height=0.2,width=0.4,color="red",URL="$a02735.html",tooltip="Foam::surfaceFields. "];
+  Node301 -> Node61 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node0 -> Node308 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node308 [label="zeroGradientFvPatchFields.H",height=0.2,width=0.4,color="red",URL="$a01547.html"];
+}

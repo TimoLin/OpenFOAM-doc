@@ -1,0 +1,17 @@
+digraph "faces"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1096 [label="faces",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1096 -> Node1097 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1097 [label="Foam::MeshedSurface\l\< Foam::face \>::MeshedSurface",height=0.2,width=0.4,color="black",URL="$a29566.html#a2143a8295cbe939da33b14560f276356",tooltip="Construct from a surfMesh. "];
+  Node1096 -> Node1098 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1098 [label="nFaces",height=0.2,width=0.4,color="red",URL="$a29702.html#af783acdbe2fe9244b256aa70dae1a87a",tooltip="Return the number of raw faces. "];
+  Node1098 -> Node1112 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1112 [label="size",height=0.2,width=0.4,color="red",URL="$a29702.html#a03bc1200aac252c4d3e18657d700b71c",tooltip="Return number of faces. "];
+  Node1096 -> Node1112 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1096 -> Node1106 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1106 [label="write",height=0.2,width=0.4,color="black",URL="$a29702.html#a2cf877cb99cea4babe90c09bec072732",tooltip="Write to file. "];
+}

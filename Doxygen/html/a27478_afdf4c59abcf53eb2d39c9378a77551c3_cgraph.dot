@@ -1,0 +1,16 @@
+digraph "meshEdges"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node6063 [label="meshEdges",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node6063 -> Node6064 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6064 [label="boundaryMesh",height=0.2,width=0.4,color="black",URL="$a27478.html#a729e6b97bfa357ec46f60ff7f2e7779a",tooltip="Return boundaryMesh reference. "];
+  Node6063 -> Node6065 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6065 [label="Foam::PrimitivePatch\l::edges",height=0.2,width=0.4,color="black",URL="$a27538.html#a21d764179912ddda5c6f95193c289846",tooltip="Return list of edges, address into LOCAL point list. "];
+  Node6063 -> Node6066 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6066 [label="Foam::PrimitivePatch\l::meshEdges",height=0.2,width=0.4,color="black",URL="$a27538.html#a3c91e7d5baf71c37da45885242cd1c7d",tooltip="Return labels of patch edges in the global edge list using. "];
+  Node6063 -> Node6067 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6067 [label="Foam::PrimitivePatch\l::pointEdges",height=0.2,width=0.4,color="black",URL="$a27538.html#a219060536b044c749e6178283665d632",tooltip="Return point-edge addressing. "];
+}

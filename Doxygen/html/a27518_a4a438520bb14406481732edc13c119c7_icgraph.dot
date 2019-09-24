@@ -1,0 +1,14 @@
+digraph "index"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node223 [label="index",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node223 -> Node224 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node224 [label="Foam::pointZone::clone",height=0.2,width=0.4,color="black",URL="$a27514.html#a44deefb2feb9f7062f6f98170f8752c0",tooltip="Construct and return a clone, resetting the zone mesh. "];
+  Node223 -> Node225 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node225 [label="Foam::cellZone::clone",height=0.2,width=0.4,color="black",URL="$a27506.html#ab33515a6b309326b9b187d51b32b103b",tooltip="Construct and return a clone, resetting the zone mesh. "];
+  Node223 -> Node226 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node226 [label="Foam::faceZone::clone",height=0.2,width=0.4,color="black",URL="$a27510.html#a7d10cc9d425eb70428a289daca310bca",tooltip="Construct and return a clone, resetting the zone mesh. "];
+}

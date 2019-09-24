@@ -1,0 +1,24 @@
+digraph "distribute"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4494 [label="distribute",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4494 -> Node4495 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4495 [label="Foam::radiationCoupledBase\l::emissivity",height=0.2,width=0.4,color="red",URL="$a30006.html#a7db0692125f65db90f74422c70f29f3c",tooltip="Calculate corresponding emissivity field. "];
+  Node4494 -> Node4502 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4502 [label="Foam::regionModels\l::regionModel::toRegion",height=0.2,width=0.4,color="red",URL="$a28998.html#ab8a36c74a68dd829699b84bab8923ed1",tooltip="Convert a primary region field to the local region. "];
+  Node4494 -> Node4514 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4514 [label="Foam::mappedVelocityFlux\lFixedValueFvPatchField\l::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a22182.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node4494 -> Node4516 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4516 [label="Foam::mappedFixedInternal\lValueFvPatchField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a22166.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node4494 -> Node4518 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4518 [label="Foam::mappedFlowRateFvPatch\lVectorField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a22178.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node4494 -> Node4509 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4509 [label="Foam::filmPyrolysisRadiative\lCoupledMixedFvPatchScalarField\l::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a28982.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node4494 -> Node4520 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4520 [label="Foam::compressible\l::turbulentTemperatureCoupled\lBaffleMixedFvPatchScalarField\l::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a30802.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node4494 -> Node4522 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4522 [label="Foam::compressible\l::turbulentTemperatureRadCoupled\lMixedFvPatchScalarField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a30806.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+}

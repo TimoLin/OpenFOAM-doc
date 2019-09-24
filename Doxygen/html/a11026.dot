@@ -1,0 +1,29 @@
+digraph "src/OpenFOAM/matrices/scalarMatrices/scalarMatrices.H"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node90 [label="src/OpenFOAM/matrices\l/scalarMatrices/scalarMatrices.H",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node90 -> Node91 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node91 [label="src/ODE/ODESolvers\l/seulex/seulex.H",height=0.2,width=0.4,color="red",URL="$a08345.html"];
+  Node90 -> Node93 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node93 [label="src/ODE/ODESystem/ODESystem.H",height=0.2,width=0.4,color="red",URL="$a08366.html"];
+  Node90 -> Node148 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node148 [label="src/OpenFOAM/dimensionSet\l/dimensionSets.H",height=0.2,width=0.4,color="red",URL="$a09395.html",tooltip="Useful dimension sets. "];
+  Node90 -> Node3069 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3069 [label="src/OpenFOAM/matrices\l/LUscalarMatrix/LUscalarMatrix.H",height=0.2,width=0.4,color="red",URL="$a10985.html"];
+  Node90 -> Node3080 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3080 [label="src/OpenFOAM/matrices\l/scalarMatrices/scalarMatrices.C",height=0.2,width=0.4,color="black",URL="$a11021.html"];
+  Node90 -> Node3081 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3081 [label="src/OpenFOAM/matrices\l/scalarMatrices/scalarMatrices\lTemplates.C",height=0.2,width=0.4,color="black",URL="$a11027.html"];
+  Node90 -> Node3082 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3082 [label="src/OpenFOAM/matrices\l/scalarMatrices/SVD/SVD.H",height=0.2,width=0.4,color="red",URL="$a11033.html"];
+  Node3082 -> Node3080 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3082 -> Node3083 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3083 [label="src/OpenFOAM/matrices\l/scalarMatrices/SVD/SVD.C",height=0.2,width=0.4,color="black",URL="$a11030.html"];
+  Node90 -> Node3083 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node90 -> Node3084 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3084 [label="src/OpenFOAM/matrices\l/simpleMatrix/simpleMatrix.H",height=0.2,width=0.4,color="red",URL="$a11042.html"];
+  Node90 -> Node1954 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1954 [label="src/thermophysicalModels\l/radiationModels/radiationModel\l/viewFactor/viewFactor.H",height=0.2,width=0.4,color="red",URL="$a16013.html"];
+}

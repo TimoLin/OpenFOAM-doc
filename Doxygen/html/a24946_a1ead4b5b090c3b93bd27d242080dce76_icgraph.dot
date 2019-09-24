@@ -1,0 +1,15 @@
+digraph "neighbPatchName"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node763 [label="neighbPatchName",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node763 -> Node764 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node764 [label="Foam::cyclicACMIPolyPatch\l::clone",height=0.2,width=0.4,color="black",URL="$a24926.html#a46b85bc54e0f1c8d54656b24cf2c6e0f",tooltip="Construct and return a clone, resetting the face list. "];
+  Node763 -> Node765 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node765 [label="clone",height=0.2,width=0.4,color="black",URL="$a24946.html#afff6d4f7511147e0c8a4b8a5448296ec",tooltip="Construct and return a clone, resetting the face list. "];
+  Node763 -> Node766 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node766 [label="neighbPatchID",height=0.2,width=0.4,color="red",URL="$a24946.html#afc2149e80f0785ace675c205b80eb6bc",tooltip="Neighbour patch ID. "];
+  Node766 -> Node765 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

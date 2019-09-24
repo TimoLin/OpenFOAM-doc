@@ -1,0 +1,20 @@
+digraph "writeDict"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3008 [label="writeDict",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3008 -> Node3009 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3009 [label="Foam::decrIndent",height=0.2,width=0.4,color="red",URL="$a21124.html#a1c3a44e035fae1cd9d5a4a60a7e1c32b",tooltip="Decrement the indent level. "];
+  Node3008 -> Node3011 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3011 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node3008 -> Node3013 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3013 [label="Foam::incrIndent",height=0.2,width=0.4,color="red",URL="$a21124.html#a5baff2b2334a238271b33f039e5dde5c",tooltip="Increment the indent level. "];
+  Node3008 -> Node3023 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3023 [label="Foam::indent",height=0.2,width=0.4,color="red",URL="$a21124.html#ae297c57ea5b952a8bc9e4f30f7ea8701",tooltip="Indent stream. "];
+  Node3008 -> Node3024 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3024 [label="Foam::type",height=0.2,width=0.4,color="red",URL="$a21124.html#aec48583af672626378f501eb9fc32cd1",tooltip="Return the file type: DIRECTORY or FILE. "];
+  Node3008 -> Node3015 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3015 [label="Foam::Ostream::writeKeyword",height=0.2,width=0.4,color="red",URL="$a26238.html#a3c58b2bb9174ea3c4a5fa58095d1290e",tooltip="Write the keyword followed by an appropriate indentation. "];
+}

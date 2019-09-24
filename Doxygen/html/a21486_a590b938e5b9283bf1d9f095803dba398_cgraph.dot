@@ -1,0 +1,41 @@
+digraph "updateCell"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1569 [label="updateCell",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1569 -> Node1570 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1570 [label="Foam::primitiveMesh\l::edges",height=0.2,width=0.4,color="black",URL="$a27530.html#a21d764179912ddda5c6f95193c289846",tooltip="Return mesh edges. Uses calcEdges. "];
+  Node1569 -> Node1571 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1571 [label="f",height=0.2,width=0.4,color="black",URL="$a17900.html#a888be93833ac7a23170555c69c690288"];
+  Node1569 -> Node1572 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1572 [label="Foam::primitiveMesh\l::faceEdges",height=0.2,width=0.4,color="red",URL="$a27530.html#adbfcf489a527a07c33d684834faace79"];
+  Node1572 -> Node1570 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1572 -> Node1577 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1577 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node1569 -> Node1583 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1583 [label="Foam::polyMesh::faces",height=0.2,width=0.4,color="red",URL="$a27410.html#a431c0a24765f0bb6d32f6a03ce0e9b57",tooltip="Return raw faces. "];
+  Node1569 -> Node1625 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1625 [label="index",height=0.2,width=0.4,color="black",URL="$a21486.html#a4a438520bb14406481732edc13c119c7"];
+  Node1569 -> Node1626 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1626 [label="Foam::isA",height=0.2,width=0.4,color="black",URL="$a21124.html#a7f38c7df863d37f5357047d27dab7711",tooltip="Check if a dynamic_cast to typeid is possible. "];
+  Node1569 -> Node1627 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1627 [label="n",height=0.2,width=0.4,color="red",URL="$a21486.html#ab24331228025b2f3342513002540803b"];
+  Node1627 -> Node1569 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1627 -> Node1635 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1635 [label="updateFace",height=0.2,width=0.4,color="red",URL="$a21486.html#a68c0e148781c615369f963150a4085c0",tooltip="Influence of neighbouring cell. "];
+  Node1635 -> Node1625 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1635 -> Node1627 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1569 -> Node1667 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1667 [label="Foam::meshTools::otherEdge",height=0.2,width=0.4,color="red",URL="$a21153.html#ae03c08ba46f970c3b70bfdd6fccdf664",tooltip="Return label of other edge (out of candidates edgeLabels) "];
+  Node1667 -> Node1570 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1667 -> Node1668 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1668 [label="Foam::edge::start",height=0.2,width=0.4,color="red",URL="$a27210.html#afe56bdd2031bbf8321e35e2330c0b990",tooltip="Return start vertex label. "];
+  Node1667 -> Node1669 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1669 [label="Foam::meshTools::otherFace",height=0.2,width=0.4,color="red",URL="$a21153.html#a38973075afca54f6ee816cab3b8bff7e",tooltip="Return face on cell using edgeI but not faceI. Throws error. "];
+  Node1569 -> Node1669 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1569 -> Node1577 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1569 -> Node1668 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1569 -> Node1635 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

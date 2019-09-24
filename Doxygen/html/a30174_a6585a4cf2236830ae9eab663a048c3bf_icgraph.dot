@@ -1,0 +1,16 @@
+digraph "Tu"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node40 [label="Tu",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node40 -> Node41 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node41 [label="heuBoundaryTypes",height=0.2,width=0.4,color="black",URL="$a30174.html#af3482f1aa6983b4fd1f43b7c0be0d40d"];
+  Node40 -> Node42 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node42 [label="Foam::gradientUnburntEnthalpy\lFvPatchScalarField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a30122.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node40 -> Node44 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node44 [label="Foam::mixedUnburntEnthalpy\lFvPatchScalarField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a30126.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node40 -> Node46 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node46 [label="Foam::fixedUnburntEnthalpy\lFvPatchScalarField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a30118.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+}

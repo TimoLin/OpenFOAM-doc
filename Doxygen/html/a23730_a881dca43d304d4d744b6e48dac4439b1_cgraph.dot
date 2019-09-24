@@ -1,0 +1,40 @@
+digraph "correct"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node35 [label="correct",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node35 -> Node36 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node36 [label="Foam::GeometricField\l::boundaryField",height=0.2,width=0.4,color="black",URL="$a22434.html#a3c6c1a789b48ea0c5e8bff64f9c14f2d",tooltip="Return reference to GeometricBoundaryField. "];
+  Node35 -> Node37 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node37 [label="Foam::DsmcCloud::boundaryT",height=0.2,width=0.4,color="black",URL="$a23686.html#a0abbafca087306d95f1a90709af69aec",tooltip="Return macroscopic temperature. "];
+  Node35 -> Node38 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node38 [label="Foam::DsmcCloud::boundaryU",height=0.2,width=0.4,color="black",URL="$a23686.html#a6ec443fe83a54085ef20a14fa3c214bb",tooltip="Return macroscopic velocity. "];
+  Node35 -> Node39 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node39 [label="Foam::DsmcCloud::constProps",height=0.2,width=0.4,color="black",URL="$a23686.html#a2b3761dd2c3d4969ca743a686175a69b",tooltip="Return all of the constant properties. "];
+  Node35 -> Node40 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node40 [label="Foam::DsmcCloud::equipartition\lInternalEnergy",height=0.2,width=0.4,color="black",URL="$a23686.html#a36a04242625cd6b694de29ffcfc43230",tooltip="Generate a random internal energy, sampled from the. "];
+  Node35 -> Node41 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node41 [label="Foam::patchIdentifier\l::index",height=0.2,width=0.4,color="black",URL="$a27122.html#a4a438520bb14406481732edc13c119c7",tooltip="Return the index of this patch in the boundaryMesh. "];
+  Node35 -> Node42 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node42 [label="Foam::log",height=0.2,width=0.4,color="black",URL="$a21124.html#a6e89590da9859ad497977e08f110d4b5"];
+  Node35 -> Node43 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node43 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node35 -> Node44 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node44 [label="Foam::max",height=0.2,width=0.4,color="black",URL="$a21124.html#ac993e906cf2774ae77e666bc24e81733"];
+  Node35 -> Node45 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node45 [label="rndGen",height=0.2,width=0.4,color="black",URL="$a38939.html#ab8597af4c8d0209c2e0c9b1982782bfb"];
+  Node35 -> Node46 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node46 [label="Foam::DsmcCloud::rndGen",height=0.2,width=0.4,color="black",URL="$a23686.html#a15ae97dd2d17573e849ec14c8ff64df3",tooltip="Return refernce to the random object. "];
+  Node35 -> Node47 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node47 [label="Foam::sqrt",height=0.2,width=0.4,color="red",URL="$a21124.html#a8616bd62eebf2342a80222fecb1bda71"];
+  Node35 -> Node52 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node52 [label="Foam::polyPatch::whichFace",height=0.2,width=0.4,color="red",URL="$a27478.html#a098d4395e909d71f164b847180b88442",tooltip="Return label of face in patch from global face label. "];
+  Node35 -> Node61 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node61 [label="Foam::Vector::x",height=0.2,width=0.4,color="black",URL="$a28442.html#a63327976e5a8359700064a02ae22548e"];
+  Node35 -> Node62 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node62 [label="Foam::Vector::y",height=0.2,width=0.4,color="black",URL="$a28442.html#a1ee865f676fbac703a49c6654dd3ad74"];
+  Node35 -> Node63 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node63 [label="Foam::Vector::z",height=0.2,width=0.4,color="black",URL="$a28442.html#a1c8320b15610de211ec70ef966581423"];
+}

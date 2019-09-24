@@ -1,0 +1,32 @@
+digraph "transferPrimaryRegionSourceFields"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node417 [label="transferPrimaryRegionSource\lFields",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node417 -> Node418 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node418 [label="Foam::dictionary::add",height=0.2,width=0.4,color="red",URL="$a26014.html#ac2ddcab42322c8d8af5e5830ab4d431b",tooltip="Add a new entry. "];
+  Node418 -> Node421 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node421 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node417 -> Node461 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node461 [label="Foam::GeometricField\l::boundaryField",height=0.2,width=0.4,color="black",URL="$a22434.html#a3c6c1a789b48ea0c5e8bff64f9c14f2d",tooltip="Return reference to GeometricBoundaryField. "];
+  Node417 -> Node462 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node462 [label="Foam::GeometricField\l::correctBoundaryConditions",height=0.2,width=0.4,color="black",URL="$a22434.html#acaf6878ef900e593c4b20812f1b567d6",tooltip="Correct boundary field. "];
+  Node417 -> Node463 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node463 [label="Foam::TimeState::deltaTValue",height=0.2,width=0.4,color="black",URL="$a26362.html#aeb7fdbc18a6f908efa70a34e5688436c",tooltip="Return time step value. "];
+  Node417 -> Node421 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node417 -> Node464 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node464 [label="Foam::fvMesh::magSf",height=0.2,width=0.4,color="black",URL="$a22766.html#ae208119f0287991ffba40fb6fecbb365",tooltip="Return cell face area magnitudes. "];
+  Node417 -> Node465 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node465 [label="Foam::regionModels\l::regionModel::outputProperties",height=0.2,width=0.4,color="red",URL="$a28998.html#adec676154bcf91a502be115e6bf5137c",tooltip="Return const access to the output properties dictionary. "];
+  Node417 -> Node466 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node466 [label="Foam::regionModels\l::regionModel::primaryMesh",height=0.2,width=0.4,color="black",URL="$a28998.html#a4fcb1e32ba3faef9cc4757d98726996b",tooltip="Return the reference to the primary mesh database. "];
+  Node417 -> Node467 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node467 [label="Foam::dictionary::readIf\lPresent",height=0.2,width=0.4,color="red",URL="$a26014.html#ad4bd008e6ee208313f2c3a963ee1170d",tooltip="Find an entry if present, and assign to T. "];
+  Node467 -> Node421 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node417 -> Node469 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node469 [label="Foam::returnReduce",height=0.2,width=0.4,color="red",URL="$a21124.html#a8d528a67d2a9c6fe4fb94bc86872624b"];
+  Node417 -> Node488 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node488 [label="Foam::regionModels\l::regionModel::time",height=0.2,width=0.4,color="black",URL="$a28998.html#a1ed86245b170b9f651f62650b1827500",tooltip="Return the reference to the time database. "];
+}

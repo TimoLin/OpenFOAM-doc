@@ -1,0 +1,13 @@
+digraph "updateInterfaceMatrix"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node39 [label="updateInterfaceMatrix",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node39 -> Node40 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node40 [label="interfaceFieldType",height=0.2,width=0.4,color="black",URL="$a22030.html#af5bf19a20fc88622bab16fa60c775129",tooltip="Return the interface type. "];
+  Node39 -> Node41 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node41 [label="patchNeighbourField",height=0.2,width=0.4,color="black",URL="$a22030.html#ae9b3d13a6c322e4b3132078e6883e9cf",tooltip="Return neighbour coupled given internal cell data. "];
+  Node41 -> Node40 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,14 @@
+digraph "viscosityProperties"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node17 [label="viscosityProperties",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node17 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 [label="Foam::mixtureViscosityModels\l::BinghamPlastic::~BinghamPlastic",height=0.2,width=0.4,color="black",URL="$a31946.html#a16cd196770e2a881a709464c50c7d21a",tooltip="Destructor. "];
+  Node17 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19 [label="Foam::mixtureViscosityModels\l::plastic::~plastic",height=0.2,width=0.4,color="black",URL="$a31954.html#ac3b1ff715fda9acda02c2853fd685eab",tooltip="Destructor. "];
+  Node17 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20 [label="Foam::mixtureViscosityModels\l::slurry::~slurry",height=0.2,width=0.4,color="black",URL="$a31958.html#a91ef61bb3fce86c12283ce7877963ed2",tooltip="Destructor. "];
+}

@@ -1,0 +1,14 @@
+digraph "operator=="
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node107 [label="operator==",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node107 -> Node108 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node108 [label="Foam::valuePointPatchField\l\< vector \>::size",height=0.2,width=0.4,color="black",URL="$a26574.html#a9facbf0a118d395c89884e45a5ca4e4b",tooltip="Return size. "];
+  Node107 -> Node109 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node109 [label="Foam::uniformFixedValuePoint\lPatchField::uniformFixedValuePoint\lPatchField",height=0.2,width=0.4,color="black",URL="$a26634.html#a130a36bb0f0d3f538ac057c186067e8a",tooltip="Construct as copy setting internal field reference. "];
+  Node107 -> Node110 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node110 [label="Foam::uniformFixedValuePoint\lPatchField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a26634.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+}

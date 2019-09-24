@@ -1,0 +1,17 @@
+digraph "internalPoint"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node72 [label="internalPoint",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node72 -> Node73 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node73 [label="indexedVertex",height=0.2,width=0.4,color="black",URL="$a31474.html#a96525bdaca046dce8fd23e590e9879c2"];
+  Node72 -> Node74 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node74 [label="internalOrBoundaryPoint",height=0.2,width=0.4,color="black",URL="$a31474.html#a72f583b78c213918ed94860b4f005a5f",tooltip="Either original internal point or master of pointPair. "];
+  Node74 -> Node75 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node75 [label="ppSlave",height=0.2,width=0.4,color="red",URL="$a31474.html#a35b591d1d3910ed85fd53ef389629001",tooltip="Slave of a pointPair is the highest numbered one. "];
+  Node72 -> Node75 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node72 -> Node79 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node79 [label="real",height=0.2,width=0.4,color="black",URL="$a31474.html#afbf10cc7df62643c47a820a9b41546bb",tooltip="Is this a \"real\" point on this processor, i.e. is internal or part. "];
+}

@@ -1,0 +1,35 @@
+digraph "patchSet"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4454 [label="patchSet",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4454 -> Node4455 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4455 [label="Foam::inversePointDistance\lDiffusivity::correct",height=0.2,width=0.4,color="black",URL="$a23366.html#a3ae44b28050c3aa494c1d8e18cf618c1",tooltip="Correct the motion diffusivity. "];
+  Node4454 -> Node4456 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4456 [label="Foam::structuredDecomp\l::decompose",height=0.2,width=0.4,color="red",URL="$a28626.html#a971139d60fbf525c8a4dae56d9a386da",tooltip="Return for every coordinate the wanted processor number. Use the. "];
+  Node4454 -> Node4459 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4459 [label="Foam::cellDistFuncs\l::getPatchIDs",height=0.2,width=0.4,color="black",URL="$a24958.html#a0e204c53114d3100fef2e5cf3d1fe465",tooltip="Return the set of patch IDs corresponding to the given names. "];
+  Node4454 -> Node4460 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4460 [label="Foam::layerParameters\l::layerParameters",height=0.2,width=0.4,color="black",URL="$a24630.html#a0bca0e83ae5dc91bf83bfda4f12ac795",tooltip="Construct from dictionary. "];
+  Node4454 -> Node4461 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4461 [label="mesh",height=0.2,width=0.4,color="red",URL="$a27402.html#ae78c91f8ff731c07ccc4351d9fe861ba",tooltip="Return the mesh reference. "];
+  Node4454 -> Node4551 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4551 [label="Foam::ListPlusEqOp\l::operator()",height=0.2,width=0.4,color="black",URL="$a28762.html#a33f59e84c60f75110e784d87fe239ad9"];
+  Node4454 -> Node4552 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4552 [label="Foam::sampledPatch\l::patchIDs",height=0.2,width=0.4,color="red",URL="$a29366.html#a64d6c654128162a9b7b557f2a5009f73"];
+  Node4454 -> Node4555 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4555 [label="Foam::regionModels\l::surfaceFilmModels\l::patchInjection::patchInjection",height=0.2,width=0.4,color="black",URL="$a29110.html#a152b740d187e325136f51f50c9b798ab",tooltip="Construct from surface film model. "];
+  Node4454 -> Node4556 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4556 [label="Foam::wallShearStress\l::read",height=0.2,width=0.4,color="red",URL="$a28930.html#aa9b8764750bd9ff67ca32b6551dc7847",tooltip="Read the wallShearStress data. "];
+  Node4454 -> Node4558 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4558 [label="Foam::nearWallFields\l::read",height=0.2,width=0.4,color="red",URL="$a28750.html#aa9b8764750bd9ff67ca32b6551dc7847",tooltip="Read the field min/max data. "];
+  Node4454 -> Node4560 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4560 [label="Foam::forces::read",height=0.2,width=0.4,color="red",URL="$a28830.html#aa9b8764750bd9ff67ca32b6551dc7847",tooltip="Read the forces data. "];
+  Node4454 -> Node4563 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4563 [label="Foam::structuredRenumber\l::renumber",height=0.2,width=0.4,color="black",URL="$a29222.html#a43e03f902cbbeb39d4552a7e1cee9e73",tooltip="Return the order in which cells need to be visited, i.e. "];
+  Node4454 -> Node4564 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4564 [label="whichPatch",height=0.2,width=0.4,color="red",URL="$a27402.html#aa2ff13fd90903c4f4cdfe81b48b2bb92",tooltip="Return patch index for a given face label. "];
+  Node4564 -> Node4461 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

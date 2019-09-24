@@ -1,0 +1,13 @@
+digraph "close"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node24 [label="close",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node24 -> Node25 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node25 [label="Foam::dlClose",height=0.2,width=0.4,color="black",URL="$a21124.html#a441a60ac6f348d68c1734f3be1dab07f",tooltip="Close a dlopened library using handle. Return true if successful. "];
+  Node25 -> Node26 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node26 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node24 -> Node26 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

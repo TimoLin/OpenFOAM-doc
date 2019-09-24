@@ -1,0 +1,18 @@
+digraph "operator&gt;&gt;"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node11994 [label="operator\>\>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node11994 -> Node11995 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11995 [label="Foam::functionEntries\l::inputModeEntry::clear",height=0.2,width=0.4,color="black",URL="$a26050.html#ac8bb3912a3ce86b15842e79d0b421204",tooltip="Reset the inputMode to default (ie, merge) "];
+  Node11994 -> Node11996 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11996 [label="Foam::dictionary::clear",height=0.2,width=0.4,color="red",URL="$a26014.html#ac8bb3912a3ce86b15842e79d0b421204",tooltip="Clear the dictionary. "];
+  Node11994 -> Node11998 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11998 [label="Foam::dictionaryName\l::name",height=0.2,width=0.4,color="black",URL="$a26010.html#aba53f1f9c8fadfa65f4099af10df348c",tooltip="Return the dictionary name. "];
+  Node11994 -> Node11999 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11999 [label="Foam::IOstream::name",height=0.2,width=0.4,color="black",URL="$a26226.html#a41b2d01e5fd6e1bc71a895d8b8a86308",tooltip="Return the name of the stream. "];
+  Node11994 -> Node12000 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12000 [label="Foam::dictionary::read",height=0.2,width=0.4,color="black",URL="$a26014.html#ab6e27a0a7953d55de8b58e77078d82b9",tooltip="Read dictionary from Istream. "];
+}

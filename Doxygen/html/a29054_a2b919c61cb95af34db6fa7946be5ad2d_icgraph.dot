@@ -1,0 +1,12 @@
+digraph "kappa"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3141 [label="kappa",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3141 -> Node3142 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3142 [label="Cp",height=0.2,width=0.4,color="black",URL="$a29054.html#ace64ba24a7339288e9b10dfa190183a2",tooltip="Return specific heat capacity [J/kg/K]. "];
+  Node3141 -> Node3143 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3143 [label="Foam::regionModels\l::surfaceFilmModels\l::constantFilmThermo\l::thermoData::thermoData",height=0.2,width=0.4,color="black",URL="$a29058.html#a2acaf05d6f8f3923172d95b93767b96e"];
+}

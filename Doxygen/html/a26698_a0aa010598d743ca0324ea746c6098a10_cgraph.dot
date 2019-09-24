@@ -1,0 +1,20 @@
+digraph "write"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node586 [label="write",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node586 -> Node587 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node587 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node586 -> Node589 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node589 [label="Foam::IOstream::good",height=0.2,width=0.4,color="black",URL="$a26226.html#abdcc7f96f487faadc7769afcf58fe992",tooltip="Return true if next operation might succeed. "];
+  Node586 -> Node590 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node590 [label="Foam::OFstream::name",height=0.2,width=0.4,color="black",URL="$a26190.html#aba53f1f9c8fadfa65f4099af10df348c",tooltip="Return the name of the stream. "];
+  Node586 -> Node591 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node591 [label="Foam::graph::writer::New",height=0.2,width=0.4,color="red",URL="$a26706.html#aa1efbf10766de2edf081edcdfcf436f9",tooltip="Return a reference to the selected writer. "];
+  Node591 -> Node587 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node586 -> Node639 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node639 [label="write",height=0.2,width=0.4,color="black",URL="$a26698.html#a8e266c1d71e1756c7c2c6f66b57ac4f1",tooltip="Write graph to stream in given format. "];
+  Node639 -> Node591 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

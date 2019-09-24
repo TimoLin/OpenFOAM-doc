@@ -1,0 +1,15 @@
+digraph "size"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1054 [label="size",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1054 -> Node1055 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1055 [label="faces",height=0.2,width=0.4,color="red",URL="$a29702.html#a431c0a24765f0bb6d32f6a03ce0e9b57",tooltip="Return faces. "];
+  Node1054 -> Node1057 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1057 [label="nFaces",height=0.2,width=0.4,color="red",URL="$a29702.html#af783acdbe2fe9244b256aa70dae1a87a",tooltip="Return the number of raw faces. "];
+  Node1057 -> Node1055 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1054 -> Node1059 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1059 [label="points",height=0.2,width=0.4,color="red",URL="$a29702.html#ac44123fc1265297c41a43c3b62fdb4c2",tooltip="Return points. "];
+}

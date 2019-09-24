@@ -1,0 +1,35 @@
+digraph "operator[]"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1829 [label="operator[]",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1829 -> Node1830 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1830 [label="checkClosed",height=0.2,width=0.4,color="red",URL="$a25246.html#a61d463809b6bd403ba7179ba17f81876",tooltip="Are all surfaces closed and manifold. "];
+  Node1830 -> Node1834 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1834 [label="regionNames",height=0.2,width=0.4,color="black",URL="$a25246.html#a0dc1c3a7eab469ca542770f4dce82bee"];
+  Node1829 -> Node1835 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1835 [label="checkIntersection",height=0.2,width=0.4,color="red",URL="$a25246.html#ae7d93eca00dfd746fe60a26feb44fbcc",tooltip="Do surfaces self-intersect or intersect others. "];
+  Node1835 -> Node1836 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1836 [label="checkSizes",height=0.2,width=0.4,color="red",URL="$a25246.html#a6fc4bfd72ec36b321f1227370141d07c",tooltip="Are all bounding boxes of similar size. "];
+  Node1836 -> Node1837 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1837 [label="checkNormalOrientation",height=0.2,width=0.4,color="red",URL="$a25246.html#ad545a109b5bca3ae7ac6f4b8c5ec4bb5",tooltip="Are all (triangulated) surfaces consistent normal orientation. "];
+  Node1837 -> Node1834 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1836 -> Node1834 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1835 -> Node1834 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1829 -> Node1837 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1829 -> Node1832 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1832 [label="checkQuality",height=0.2,width=0.4,color="red",URL="$a25246.html#a050736b9e23fd025c636d8a0f6be936d",tooltip="Check triangle quality. "];
+  Node1832 -> Node1835 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1832 -> Node1834 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1829 -> Node1836 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1829 -> Node1838 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1838 [label="operator[]",height=0.2,width=0.4,color="black",URL="$a25246.html#a053847b425f9a02a274c894c01db9c8b",tooltip="Return reference to searchableSurface by name. "];
+  Node1829 -> Node1834 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1829 -> Node1839 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1839 [label="searchableSurfaces",height=0.2,width=0.4,color="black",URL="$a25246.html#a728d2d5193c640e1884f841fccc9c21f",tooltip="Construct from dictionary and whether to construct names always. "];
+  Node1829 -> Node1840 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1840 [label="writeStats",height=0.2,width=0.4,color="red",URL="$a25246.html#a9dd03ce1c730a8e2cd76aa6ce7937c88",tooltip="Write some stats. "];
+  Node1840 -> Node1834 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

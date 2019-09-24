@@ -1,0 +1,13 @@
+digraph "operator()"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node123 [label="operator()",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node123 -> Node124 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node124 [label="masterStream",height=0.2,width=0.4,color="red",URL="$a26098.html#a0edcebd1d86ac65765e16f155d17b351",tooltip="Convert to OSstream. "];
+  Node124 -> Node125 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node125 [label="maxErrors",height=0.2,width=0.4,color="black",URL="$a26098.html#ac2ef54acb6d7197ee9b98f1593b76abf",tooltip="Return the maximum number of errors before program termination. "];
+  Node123 -> Node125 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

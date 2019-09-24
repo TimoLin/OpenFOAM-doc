@@ -1,0 +1,17 @@
+digraph "src/OpenFOAM/db/IOstreams/token/tokenIO.C"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node0 [label="src/OpenFOAM/db/IOstreams\l/token/tokenIO.C",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="error.H",height=0.2,width=0.4,color="red",URL="$a08924.html"];
+  Node0 -> Node38 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node38 [label="token.H",height=0.2,width=0.4,color="red",URL="$a09221.html"];
+  Node38 -> Node21 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21 [label="scalar.H",height=0.2,width=0.4,color="red",URL="$a12533.html"];
+  Node0 -> Node55 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node55 [label="IOstreams.H",height=0.2,width=0.4,color="red",URL="$a09104.html",tooltip="Useful combination of include files which define Sin, Sout and Serr and the use of IO streams general..."];
+  Node55 -> Node38 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node0 -> Node21 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

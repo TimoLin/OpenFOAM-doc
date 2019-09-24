@@ -1,0 +1,45 @@
+digraph "src/OpenFOAM/matrices/lduMatrix/solvers/GAMG/GAMGAgglomerations/GAMGAgglomeration/GAMGAgglomeration.H"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node132 [label="src/OpenFOAM/matrices\l/lduMatrix/solvers/GAMG\l/GAMGAgglomerations/GAMGAgglomeration\l/GAMGAgglomeration.H",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node132 -> Node133 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node133 [label="src/fvAgglomerationMethods\l/MGridGenGamgAgglomeration\l/MGridGenGAMGAgglomeration.H",height=0.2,width=0.4,color="red",URL="$a04355.html"];
+  Node132 -> Node136 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node136 [label="src/meshTools/regionCoupled\l/GAMG/interfaces/regionCoupledGAMGInterface\l/regionCoupledBaseGAMGInterface.H",height=0.2,width=0.4,color="red",URL="$a07709.html"];
+  Node132 -> Node146 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node146 [label="src/OpenFOAM/matrices\l/lduMatrix/solvers/GAMG\l/GAMGAgglomerations/dummyAgglomeration\l/dummyAgglomeration.H",height=0.2,width=0.4,color="red",URL="$a10823.html"];
+  Node132 -> Node148 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node148 [label="src/OpenFOAM/matrices\l/lduMatrix/solvers/GAMG\l/GAMGAgglomerations/GAMGAgglomeration\l/GAMGAgglomerateLduAddressing.C",height=0.2,width=0.4,color="black",URL="$a10826.html"];
+  Node132 -> Node149 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node149 [label="src/OpenFOAM/matrices\l/lduMatrix/solvers/GAMG\l/GAMGAgglomerations/GAMGAgglomeration\l/GAMGAgglomeration.C",height=0.2,width=0.4,color="black",URL="$a10829.html"];
+  Node132 -> Node150 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node150 [label="src/OpenFOAM/matrices\l/lduMatrix/solvers/GAMG\l/GAMGAgglomerations/GAMGAgglomeration\l/GAMGAgglomerationTemplates.C",height=0.2,width=0.4,color="black",URL="$a10835.html"];
+  Node132 -> Node151 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node151 [label="src/OpenFOAM/matrices\l/lduMatrix/solvers/GAMG\l/GAMGAgglomerations/pairGAMGAgglomeration\l/pairGAMGAgglomeration.H",height=0.2,width=0.4,color="red",URL="$a10844.html"];
+  Node151 -> Node149 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node151 -> Node158 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node158 [label="src/OpenFOAM/matrices\l/lduMatrix/solvers/GAMG\l/GAMGProcAgglomerations\l/procFacesGAMGProcAgglomeration\l/procFacesGAMGProcAgglomeration.C",height=0.2,width=0.4,color="black",URL="$a10877.html"];
+  Node132 -> Node159 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node159 [label="src/OpenFOAM/matrices\l/lduMatrix/solvers/GAMG\l/GAMGProcAgglomerations\l/eagerGAMGProcAgglomeration\l/eagerGAMGProcAgglomeration.C",height=0.2,width=0.4,color="black",URL="$a10847.html"];
+  Node132 -> Node160 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node160 [label="src/OpenFOAM/matrices\l/lduMatrix/solvers/GAMG\l/GAMGProcAgglomerations\l/GAMGProcAgglomeration/GAMGProc\lAgglomeration.C",height=0.2,width=0.4,color="black",URL="$a10853.html"];
+  Node132 -> Node161 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node161 [label="src/OpenFOAM/matrices\l/lduMatrix/solvers/GAMG\l/GAMGProcAgglomerations\l/manualGAMGProcAgglomeration\l/manualGAMGProcAgglomeration.C",height=0.2,width=0.4,color="black",URL="$a10859.html"];
+  Node132 -> Node162 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node162 [label="src/OpenFOAM/matrices\l/lduMatrix/solvers/GAMG\l/GAMGProcAgglomerations\l/masterCoarsestGAMGProcAgglomeration\l/masterCoarsestGAMGProcAgglomeration.C",height=0.2,width=0.4,color="black",URL="$a10865.html"];
+  Node132 -> Node163 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node163 [label="src/OpenFOAM/matrices\l/lduMatrix/solvers/GAMG\l/GAMGProcAgglomerations\l/noneGAMGProcAgglomeration\l/noneGAMGProcAgglomeration.C",height=0.2,width=0.4,color="black",URL="$a10871.html"];
+  Node132 -> Node158 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node132 -> Node164 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node164 [label="src/OpenFOAM/matrices\l/lduMatrix/solvers/GAMG\l/GAMGSolver.H",height=0.2,width=0.4,color="red",URL="$a10886.html"];
+  Node132 -> Node172 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node172 [label="src/OpenFOAM/matrices\l/lduMatrix/solvers/GAMG\l/interfaces/GAMGInterface\l/GAMGInterface.H",height=0.2,width=0.4,color="red",URL="$a10937.html"];
+  Node172 -> Node136 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node172 -> Node148 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node172 -> Node149 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node172 -> Node193 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node193 [label="src/OpenFOAM/matrices\l/lduMatrix/solvers/GAMG\l/interfaces/GAMGInterface\l/GAMGInterfaceNew.C",height=0.2,width=0.4,color="black",URL="$a10940.html"];
+  Node132 -> Node193 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

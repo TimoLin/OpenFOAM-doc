@@ -1,0 +1,16 @@
+digraph "clone"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node411 [label="clone",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node411 -> Node412 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node412 [label="cut",height=0.2,width=0.4,color="black",URL="$a21470.html#a5a0b163080358f9bdf288a65de45f235",tooltip="Create cut along circumference of cellI. Gets current mesh cuts. "];
+  Node411 -> Node413 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node413 [label="New",height=0.2,width=0.4,color="red",URL="$a21470.html#aa85b29936be163f8478c7eb3f4081830",tooltip="Return a reference to the selected cellLooper. "];
+  Node411 -> Node616 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node616 [label="Foam::type",height=0.2,width=0.4,color="red",URL="$a21124.html#aec48583af672626378f501eb9fc32cd1",tooltip="Return the file type: DIRECTORY or FILE. "];
+  Node411 -> Node622 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node622 [label="~cellLooper",height=0.2,width=0.4,color="black",URL="$a21470.html#adc3a83338c57f81cae3000b4b020379a",tooltip="Destructor. "];
+}

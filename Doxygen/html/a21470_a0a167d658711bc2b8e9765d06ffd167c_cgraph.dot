@@ -1,0 +1,26 @@
+digraph "getVertEdgesNonFace"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node298 [label="getVertEdgesNonFace",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node298 -> Node299 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node299 [label="Foam::meshTools::edgeOnCell",height=0.2,width=0.4,color="red",URL="$a21153.html#a2d6f6b5315a0e8b9a216372ee6f4a3f4",tooltip="Is edge used by cell. "];
+  Node299 -> Node300 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node300 [label="Foam::findIndex",height=0.2,width=0.4,color="black",URL="$a21124.html#ac16695f83f370df159eed19f92d095fb",tooltip="Find first occurence of given element and return index,. "];
+  Node298 -> Node361 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node361 [label="Foam::primitiveMesh\l::faceEdges",height=0.2,width=0.4,color="red",URL="$a27530.html#adbfcf489a527a07c33d684834faace79"];
+  Node361 -> Node363 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node363 [label="Foam::primitiveMesh\l::pointEdges",height=0.2,width=0.4,color="black",URL="$a27530.html#a219060536b044c749e6178283665d632"];
+  Node361 -> Node347 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node347 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node361 -> Node350 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node350 [label="Foam::List::setSize",height=0.2,width=0.4,color="black",URL="$a25694.html#aedb985ffeaf1bdbfeccc2a8730405703",tooltip="Reset size of List. "];
+  Node298 -> Node300 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node298 -> Node374 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node374 [label="getMisAlignedEdge",height=0.2,width=0.4,color="red",URL="$a21470.html#a63c57a46b1a0b2c5c62c0890e1d0ed84",tooltip="Return edge from cellEdges that is most perpendicular. "];
+  Node298 -> Node363 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node298 -> Node350 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node298 -> Node347 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

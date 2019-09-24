@@ -1,0 +1,28 @@
+digraph "checkFaceVertices"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node45959 [label="checkFaceVertices",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node45959 -> Node45960 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node45960 [label="checkPoints",height=0.2,width=0.4,color="red",URL="$a27530.html#a5b1156ece7de33f0f5e48288fba7163a",tooltip="Check for unused points. "];
+  Node45960 -> Node45961 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node45961 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node45960 -> Node45963 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node45963 [label="Foam::HashSet::insert",height=0.2,width=0.4,color="black",URL="$a25690.html#a49f0753d9652681fc3a81f59951a0ad7",tooltip="Insert a new entry. "];
+  Node45960 -> Node45965 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node45965 [label="Foam::reduce",height=0.2,width=0.4,color="red",URL="$a21124.html#a7ffd6af4acc2eb9ba72ee296b5ecda23"];
+  Node45965 -> Node45961 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node45959 -> Node45961 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node45959 -> Node46094 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node46094 [label="f",height=0.2,width=0.4,color="black",URL="$a17900.html#a888be93833ac7a23170555c69c690288"];
+  Node45959 -> Node45963 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node45959 -> Node46109 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node46109 [label="Foam::max",height=0.2,width=0.4,color="black",URL="$a21124.html#ac993e906cf2774ae77e666bc24e81733"];
+  Node45959 -> Node46260 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node46260 [label="Foam::min",height=0.2,width=0.4,color="black",URL="$a21124.html#a253e112ad2d56d96230ff39ea7f442dc"];
+  Node45959 -> Node45965 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node45959 -> Node45968 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node45968 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+}

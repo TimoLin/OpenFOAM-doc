@@ -1,0 +1,26 @@
+digraph "nuEff"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node11 [label="nuEff",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12 [label="correct",height=0.2,width=0.4,color="black",URL="$a32278.html#aa40b482ba81fd8de31bdba348c184074",tooltip="Solve the kinetic theory equations and correct the viscosity. "];
+  Node11 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13 [label="devRhoReff",height=0.2,width=0.4,color="black",URL="$a32278.html#a342a707ec61b66abf8819c9a6c71df72",tooltip="Return the effective stress tensor. "];
+  Node11 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14 [label="divDevRhoReff",height=0.2,width=0.4,color="black",URL="$a32278.html#a70c6f2b264bc57f5151c900cb136bb20",tooltip="Return the source term for the momentum equation. "];
+  Node11 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15 [label="epsilon",height=0.2,width=0.4,color="black",URL="$a32278.html#ad79e047917669fbb490d351478651e20",tooltip="Return the turbulence kinetic energy dissipation rate. "];
+  Node11 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16 [label="k",height=0.2,width=0.4,color="black",URL="$a32278.html#a2cc3daa68147a9052c2b37e9ac37eca4",tooltip="Return the turbulence kinetic energy. "];
+  Node11 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17 [label="Foam::eddyViscosity\l\< RASModel\< PhaseCompressible\lTurbulenceModel\< phaseModel\l \> \> \>::nut",height=0.2,width=0.4,color="black",URL="$a31198.html#a1f9ef455ae1ef56fcb9c8f8838c6aee2",tooltip="Return the turbulence viscosity. "];
+  Node11 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 [label="pPrime",height=0.2,width=0.4,color="black",URL="$a32278.html#a05d73539f9e240671bea29cf461dfd61",tooltip="Return the phase-pressure&#39;. "];
+  Node11 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19 [label="pPrimef",height=0.2,width=0.4,color="black",URL="$a32278.html#a43f4251b40e33ebde12511f7cdf6ffd5",tooltip="Return the face-phase-pressure&#39;. "];
+  Node11 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20 [label="R",height=0.2,width=0.4,color="black",URL="$a32278.html#a577b084625b71e318cdd3a5375187925",tooltip="Return the Reynolds stress tensor. "];
+}

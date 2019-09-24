@@ -1,0 +1,17 @@
+digraph "localPoints"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4 [label="localPoints",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="Foam::ensightPart::\lisFieldDefined",height=0.2,width=0.4,color="red",URL="$a21306.html#a46d7c8f06a0f6f4f25096e727c5e377e",tooltip="check for fully defined fields "];
+  Node4 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="Foam::ensightPart::\lreconstruct",height=0.2,width=0.4,color="red",URL="$a21306.html#a7dd013b2d8fc94af2649cccf9491dfcc",tooltip="Reconstruct part characteristics (eg, element types) from Istream. "];
+  Node4 -> Node315 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node315 [label="Foam::ensightPart::\lwriteFieldList",height=0.2,width=0.4,color="red",URL="$a21306.html#aeea53b6120de7397e2a611e71abda4d2",tooltip="write a scalar field for idList "];
+  Node4 -> Node321 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node321 [label="Foam::ensightPart::\lwriteHeader",height=0.2,width=0.4,color="red",URL="$a21306.html#aa355fe4e4eaa9c8f6a74199518a0364d",tooltip="write the part header "];
+  Node321 -> Node315 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

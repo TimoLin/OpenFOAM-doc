@@ -1,0 +1,17 @@
+digraph "expand"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node693 [label="expand",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node693 -> Node694 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node694 [label="expand",height=0.2,width=0.4,color="red",URL="$a21166.html#ad71b2438d1f3e1e22ecf86c379cb6c29",tooltip="Expand occurences of variables according to the mapping. "];
+  Node694 -> Node695 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node695 [label="inplaceExpand",height=0.2,width=0.4,color="red",URL="$a21166.html#adf940b7b0788929e0e11ea44e7f9c1bb",tooltip="Inplace expand occurences of variables according to the mapping. "];
+  Node695 -> Node694 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node693 -> Node698 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node698 [label="getVariable",height=0.2,width=0.4,color="red",URL="$a21166.html#a0b683838814d3a93044a72f190d693ed",tooltip="Get dictionary or (optionally) environment variable. "];
+  Node698 -> Node694 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node693 -> Node695 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,15 @@
+digraph "getField"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3208 [label="getField",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3208 -> Node3209 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3209 [label="Foam::distributedTriSurface\lMesh::getField",height=0.2,width=0.4,color="red",URL="$a28642.html#a8fd35269fdaf69e729c001cdb7846051",tooltip="WIP. From a set of hits (points and. "];
+  Node3208 -> Node3216 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3216 [label="setField",height=0.2,width=0.4,color="black",URL="$a25258.html#a80d088717fbf31bc3851678ab4071cca",tooltip="WIP. Store element-wise field. "];
+  Node3216 -> Node3217 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3217 [label="size",height=0.2,width=0.4,color="red",URL="$a25258.html#a03bc1200aac252c4d3e18657d700b71c",tooltip="Range of local indices that can be returned. "];
+  Node3208 -> Node3217 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

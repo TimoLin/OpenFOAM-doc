@@ -1,0 +1,14 @@
+digraph "snGrad"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1275 [label="snGrad",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1275 -> Node1276 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1276 [label="patchInternalField",height=0.2,width=0.4,color="black",URL="$a22354.html#a3b74a67629ed67899295ec63e8f9ae84",tooltip="Return internal field next to patch as patch field. "];
+  Node1275 -> Node1277 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1277 [label="Foam::type",height=0.2,width=0.4,color="red",URL="$a21124.html#aec48583af672626378f501eb9fc32cd1",tooltip="Return the file type: DIRECTORY or FILE. "];
+  Node1275 -> Node1283 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1283 [label="updateCoeffs",height=0.2,width=0.4,color="black",URL="$a22354.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+}

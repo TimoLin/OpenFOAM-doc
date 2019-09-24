@@ -1,0 +1,17 @@
+digraph "read"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1315 [label="read",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1315 -> Node1316 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1316 [label="clear",height=0.2,width=0.4,color="red",URL="$a29574.html#ac8bb3912a3ce86b15842e79d0b421204",tooltip="Clear all storage. "];
+  Node1315 -> Node1355 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1355 [label="New",height=0.2,width=0.4,color="red",URL="$a29574.html#a0d107d720a05dc2039013b162e3571a6",tooltip="Select constructed from filename (explicit extension) "];
+  Node1315 -> Node1404 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1404 [label="transfer",height=0.2,width=0.4,color="red",URL="$a29574.html#a6df38f92358a4c8ec775d27efb154326",tooltip="Transfer the contents of the argument and annul the argument. "];
+  Node1404 -> Node1316 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1315 -> Node1409 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1409 [label="write",height=0.2,width=0.4,color="red",URL="$a29574.html#a8eea7f3ea6f24bb7a37ee7ef16a1ad10",tooltip="Write to file. "];
+}

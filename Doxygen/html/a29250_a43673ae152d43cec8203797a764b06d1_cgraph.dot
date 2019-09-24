@@ -1,0 +1,36 @@
+digraph "writeConnectivity"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node624 [label="writeConnectivity",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node624 -> Node625 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node625 [label="Foam::primitiveMesh\l::cellCentres",height=0.2,width=0.4,color="red",URL="$a27530.html#a7300aee2989c6ec70e39436816461902"];
+  Node624 -> Node686 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node686 [label="Foam::primitiveMesh\l::cells",height=0.2,width=0.4,color="black",URL="$a27530.html#af19bf800d725a623c7b1d0101d65e7d3"];
+  Node624 -> Node627 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node627 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node624 -> Node687 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node687 [label="Foam::polyMesh::faces",height=0.2,width=0.4,color="red",URL="$a27410.html#a431c0a24765f0bb6d32f6a03ce0e9b57",tooltip="Return raw faces. "];
+  Node624 -> Node688 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node688 [label="Foam::UPstream::myProcNo",height=0.2,width=0.4,color="black",URL="$a26270.html#afc74d89573de32a3032c916f8cdd1733",tooltip="Number of this process (starting from masterNo() = 0) "];
+  Node624 -> Node689 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node689 [label="Foam::name",height=0.2,width=0.4,color="red",URL="$a21124.html#adcb0df2bd4953cb6bb390272d8263c3a",tooltip="Return a string representation of a complex. "];
+  Node624 -> Node692 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node692 [label="Foam::IOobject::name",height=0.2,width=0.4,color="black",URL="$a26142.html#acc80e00a8ac919288fb55bd14cc88bf6",tooltip="Return name. "];
+  Node624 -> Node670 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node670 [label="Foam::primitiveMesh\l::nCells",height=0.2,width=0.4,color="black",URL="$a27530.html#a13b94bdb0926552bf78ad5210a73a3d5"];
+  Node624 -> Node651 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node651 [label="Foam::UPstream::parRun",height=0.2,width=0.4,color="black",URL="$a26270.html#adbb27f04b5705440fb8b09f278059011",tooltip="Is this a parallel run? "];
+  Node624 -> Node693 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node693 [label="Foam::cell::points",height=0.2,width=0.4,color="red",URL="$a27162.html#a4e2567850987483918e62f60b312d0d1",tooltip="Return the cell vertices. "];
+  Node624 -> Node699 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node699 [label="Foam::polyMesh::points",height=0.2,width=0.4,color="red",URL="$a27410.html#ac44123fc1265297c41a43c3b62fdb4c2",tooltip="Return raw points. "];
+  Node624 -> Node700 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node700 [label="Foam::Vector::x",height=0.2,width=0.4,color="black",URL="$a28442.html#a63327976e5a8359700064a02ae22548e"];
+  Node624 -> Node701 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node701 [label="Foam::Vector::y",height=0.2,width=0.4,color="black",URL="$a28442.html#a1ee865f676fbac703a49c6654dd3ad74"];
+  Node624 -> Node702 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node702 [label="Foam::Vector::z",height=0.2,width=0.4,color="black",URL="$a28442.html#a1c8320b15610de211ec70ef966581423"];
+}

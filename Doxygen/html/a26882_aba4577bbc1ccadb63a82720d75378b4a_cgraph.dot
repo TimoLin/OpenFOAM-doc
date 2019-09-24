@@ -1,0 +1,23 @@
+digraph "operator+="
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1631 [label="operator+=",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1631 -> Node1632 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1632 [label="asymmetric",height=0.2,width=0.4,color="red",URL="$a26882.html#aff45003a4c4226b1f6f4e5e24d382e03"];
+  Node1632 -> Node1631 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1631 -> Node1710 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1710 [label="diag",height=0.2,width=0.4,color="red",URL="$a26882.html#a9140aaa9630c2cba2fe28369a649f2f0"];
+  Node1631 -> Node1718 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1718 [label="diagonal",height=0.2,width=0.4,color="black",URL="$a26882.html#a07795eb142354cdea3eb82dabf695491"];
+  Node1631 -> Node1667 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1667 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node1631 -> Node1651 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1651 [label="lower",height=0.2,width=0.4,color="red",URL="$a26882.html#a734a4ef740d3c42f77537ecea178a161"];
+  Node1631 -> Node1716 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1716 [label="symmetric",height=0.2,width=0.4,color="black",URL="$a26882.html#a054885c66384c7bbfc59b9916d5be00f"];
+  Node1631 -> Node1654 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1654 [label="upper",height=0.2,width=0.4,color="red",URL="$a26882.html#a11672a767f497e24dce3ff31da13d9d0"];
+}

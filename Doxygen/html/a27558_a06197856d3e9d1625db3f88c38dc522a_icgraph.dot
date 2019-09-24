@@ -1,0 +1,26 @@
+digraph "setPoint"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node500 [label="setPoint",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node500 -> Node501 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node501 [label="Foam::tetrahedron::\lcontainmentSphere",height=0.2,width=0.4,color="red",URL="$a27586.html#a154cc1bba92ebc7738db81bc6891a4d9",tooltip="Return (min)containment sphere, i.e. the smallest sphere with. "];
+  Node500 -> Node503 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node503 [label="Foam::triangle::intersection",height=0.2,width=0.4,color="red",URL="$a27606.html#ac82a9c98ef3be11c0738ec2f39ba8a2c",tooltip="Fast intersection with a ray. "];
+  Node503 -> Node547 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node547 [label="Foam::triangle::ray",height=0.2,width=0.4,color="red",URL="$a27606.html#a8d96c75750b2e14b93eb7bef0263ad0a",tooltip="Return point intersection with a ray. "];
+  Node500 -> Node552 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node552 [label="Foam::face::intersection",height=0.2,width=0.4,color="black",URL="$a27218.html#a007cda05b5771fb424000aa5b9acee92",tooltip="Fast intersection with a ray. "];
+  Node552 -> Node553 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node553 [label="Foam::face::ray",height=0.2,width=0.4,color="red",URL="$a27218.html#a0b9f87e78c11730b3971c2f71df58d37",tooltip="Return potential intersection with face with a ray starting. "];
+  Node500 -> Node558 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node558 [label="Foam::triangle::nearestPoint",height=0.2,width=0.4,color="black",URL="$a27606.html#a924af2d5d36e8b4adaef88840b829cce",tooltip="Return nearest point to line on triangle. Returns hit if. "];
+  Node500 -> Node559 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node559 [label="Foam::face::nearestPoint\lClassify",height=0.2,width=0.4,color="red",URL="$a27218.html#ad0559ed7aa46f06bd75b7373cc9a88b6",tooltip="Return nearest point to face and classify it: "];
+  Node500 -> Node547 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node500 -> Node553 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node500 -> Node581 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node581 [label="Foam::faceCollapser\l::setRefinement",height=0.2,width=0.4,color="red",URL="$a21646.html#a4eb4757ecb940ebe87d1e45559d1bad1",tooltip="Collapse faces along endpoints. Play commands into. "];
+}

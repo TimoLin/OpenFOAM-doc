@@ -1,0 +1,12 @@
+digraph "operator++"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node19 [label="operator++",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node19 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20 [label="Foam::UILList::operator!=",height=0.2,width=0.4,color="black",URL="$a25790.html#ae76e247186699c10a4ebd889592913b4",tooltip="The opposite of the equality operation. Takes linear time. "];
+  Node19 -> Node21 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21 [label="Foam::UILList::operator==",height=0.2,width=0.4,color="black",URL="$a25790.html#a1b9758554bfddfbf6b9dbe9a5cbb3c44",tooltip="Equality operation on ULists of the same type. "];
+}

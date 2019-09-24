@@ -1,0 +1,26 @@
+digraph "src/OpenFOAM/fields/Fields/symmTensorField/symmTensorField.H"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node0 [label="src/OpenFOAM/fields\l/Fields/symmTensorField\l/symmTensorField.H",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="scalarField.H",height=0.2,width=0.4,color="red",URL="$a09656.html"];
+  Node1 -> Node60 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node60 [label="FieldFunctionsM.H",height=0.2,width=0.4,color="black",URL="$a09587.html",tooltip="High performance macro functions for Field<Type> algebra. These expand using either array element acc..."];
+  Node1 -> Node80 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node80 [label="undefFieldFunctionsM.H",height=0.2,width=0.4,color="black",URL="$a09605.html"];
+  Node0 -> Node81 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node81 [label="vectorField.H",height=0.2,width=0.4,color="red",URL="$a09782.html"];
+  Node81 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node0 -> Node86 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node86 [label="sphericalTensor.H",height=0.2,width=0.4,color="red",URL="$a12560.html"];
+  Node0 -> Node89 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node89 [label="symmTensor.H",height=0.2,width=0.4,color="red",URL="$a12707.html"];
+  Node0 -> Node94 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node94 [label="tensor.H",height=0.2,width=0.4,color="red",URL="$a12755.html"];
+  Node94 -> Node86 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node94 -> Node89 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node0 -> Node60 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node0 -> Node80 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

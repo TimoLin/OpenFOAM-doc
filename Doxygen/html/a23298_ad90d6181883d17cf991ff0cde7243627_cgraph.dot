@@ -1,0 +1,24 @@
+digraph "MGridGenGAMGAgglomeration"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="MGridGenGAMGAgglomeration",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="forAllConstIter",height=0.2,width=0.4,color="red",URL="$a38141.html#ae21e2836509b0fa7f7cedf6493b11b09"];
+  Node0 -> Node303 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node303 [label="Foam::lduMesh::interfaces",height=0.2,width=0.4,color="black",URL="$a27126.html#abc0f20b01dc74c48d4f2da3c399f13b9",tooltip="Return a list of pointers for each patch. "];
+  Node0 -> Node304 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node304 [label="Foam::lduMesh::lduAddr",height=0.2,width=0.4,color="black",URL="$a27126.html#af9d1b76b0bf69742df5ae6ea9ccdc729",tooltip="Return ldu addressing. "];
+  Node0 -> Node56 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node56 [label="Foam::dictionary::lookup",height=0.2,width=0.4,color="red",URL="$a26014.html#a6a0727fa523e48977e27348663def509",tooltip="Find and return an entry data stream. "];
+  Node0 -> Node113 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node113 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node0 -> Node305 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node305 [label="Foam::lduAddressing\l::size",height=0.2,width=0.4,color="red",URL="$a26850.html#a9facbf0a118d395c89884e45a5ca4e4b",tooltip="Return number of equations. "];
+  Node0 -> Node332 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node332 [label="Foam::sqrt",height=0.2,width=0.4,color="red",URL="$a21124.html#a8616bd62eebf2342a80222fecb1bda71"];
+  Node0 -> Node333 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node333 [label="Foam::globalIndex::\ltoGlobal",height=0.2,width=0.4,color="red",URL="$a27330.html#a6e3eb58016c27d6ea3dddea039e43ed5",tooltip="From local to global. "];
+}

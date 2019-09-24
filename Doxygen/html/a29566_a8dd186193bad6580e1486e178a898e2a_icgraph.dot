@@ -1,0 +1,13 @@
+digraph "triangulate"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node270 [label="triangulate",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node270 -> Node271 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node271 [label="Foam::MeshedSurface\l\< Foam::face \>::faces",height=0.2,width=0.4,color="black",URL="$a29566.html#a16c6d36f7c961d037a44e5c235d9aa15",tooltip="Return const access to the faces. "];
+  Node270 -> Node272 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node272 [label="Foam::MeshedSurface\l\< Foam::face \>::transcribe",height=0.2,width=0.4,color="black",URL="$a29566.html#a89f858f78ba8ae4e1d6388369558eb85"];
+  Node270 -> Node270 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,19 @@
+digraph "checkDuplicateFaces"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node9180 [label="checkDuplicateFaces",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node9180 -> Node9181 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9181 [label="checkCommonOrder",height=0.2,width=0.4,color="red",URL="$a27530.html#a540f3675abed771df34a79a8998133d2",tooltip="Check that shared points are in consecutive order. "];
+  Node9181 -> Node9182 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9182 [label="forAllConstIter",height=0.2,width=0.4,color="red",URL="$a38141.html#ae21e2836509b0fa7f7cedf6493b11b09"];
+  Node9181 -> Node9279 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9279 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node9181 -> Node9487 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9487 [label="Foam::HashSet::insert",height=0.2,width=0.4,color="black",URL="$a25690.html#a49f0753d9652681fc3a81f59951a0ad7",tooltip="Insert a new entry. "];
+  Node9180 -> Node9182 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9180 -> Node9487 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9180 -> Node9279 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

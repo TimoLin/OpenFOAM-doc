@@ -1,0 +1,33 @@
+digraph "swapBoundaryCellList"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node7204 [label="swapBoundaryCellList",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node7204 -> Node7205 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7205 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node7204 -> Node7248 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7248 [label="Foam::polyMesh::boundaryMesh",height=0.2,width=0.4,color="black",URL="$a27410.html#a9f2b68c134340291eda6197f47f25484",tooltip="Return boundary mesh. "];
+  Node7204 -> Node7249 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7249 [label="Foam::polyPatch::faceCells",height=0.2,width=0.4,color="red",URL="$a27478.html#afbfac825732ef2770fff4261b4e930e9",tooltip="Return face-cell addressing. "];
+  Node7204 -> Node7252 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7252 [label="Foam::primitiveMesh\l::nCells",height=0.2,width=0.4,color="black",URL="$a27530.html#a13b94bdb0926552bf78ad5210a73a3d5"];
+  Node7204 -> Node7253 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7253 [label="Foam::primitiveMesh\l::nFaces",height=0.2,width=0.4,color="black",URL="$a27530.html#abe602c985a3c9ffa67176e969e77ca6f"];
+  Node7204 -> Node7254 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7254 [label="Foam::primitiveMesh\l::nInternalFaces",height=0.2,width=0.4,color="black",URL="$a27530.html#aa6c7965af1f30d16d9125deb981cbdb0"];
+  Node7204 -> Node7255 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7255 [label="Foam::List::setSize",height=0.2,width=0.4,color="black",URL="$a25694.html#aedb985ffeaf1bdbfeccc2a8730405703",tooltip="Reset size of List. "];
+  Node7204 -> Node7256 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7256 [label="Foam::UList::size",height=0.2,width=0.4,color="black",URL="$a25698.html#a47b3bf30da1eb3ab8076b5fbe00e0494",tooltip="Return the number of elements in the UList. "];
+  Node7204 -> Node7257 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7257 [label="Foam::polyPatch::start",height=0.2,width=0.4,color="red",URL="$a27478.html#a6bfd3e3abb11e98bdb4b98671cec1234",tooltip="Return start label of this patch in the polyMesh face list. "];
+  Node7204 -> Node7262 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7262 [label="swapBoundaryFaceList",height=0.2,width=0.4,color="red",URL="$a27502.html#a30e4f2ce2c2399c35f5d674bdb7c07fd",tooltip="Swap coupled boundary face values. "];
+  Node7204 -> Node7264 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7264 [label="swapFaceList",height=0.2,width=0.4,color="red",URL="$a27502.html#a0a2ccad77335dc7f9439d3933cf109e0",tooltip="Swap coupled face values. "];
+  Node7264 -> Node7253 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7264 -> Node7254 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7264 -> Node7204 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

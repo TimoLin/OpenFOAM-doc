@@ -1,0 +1,22 @@
+digraph "polyMesh"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node405 [label="polyMesh",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node405 -> Node406 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node406 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node405 -> Node449 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node449 [label="Foam::max",height=0.2,width=0.4,color="black",URL="$a21124.html#ac993e906cf2774ae77e666bc24e81733"];
+  Node405 -> Node450 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node450 [label="Foam::min",height=0.2,width=0.4,color="black",URL="$a21124.html#a253e112ad2d56d96230ff39ea7f442dc"];
+  Node405 -> Node451 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node451 [label="resetPrimitives",height=0.2,width=0.4,color="red",URL="$a27410.html#a60311eae7150c7ce0566c76ca5a65651",tooltip="Reset mesh primitive data. Assumes all patch info correct. "];
+  Node451 -> Node450 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node451 -> Node449 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node451 -> Node461 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node461 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node451 -> Node406 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node405 -> Node461 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

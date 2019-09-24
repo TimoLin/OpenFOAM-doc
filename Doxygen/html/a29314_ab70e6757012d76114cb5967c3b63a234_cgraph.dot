@@ -1,0 +1,16 @@
+digraph "getCell"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node456 [label="getCell",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node456 -> Node457 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node457 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node456 -> Node500 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node500 [label="calcSign",height=0.2,width=0.4,color="red",URL="$a29314.html#a54d71fd819d337aad76e0a501ad35d41",tooltip="Calculates inproduct of face normal and vector sample-face centre. "];
+  Node456 -> Node554 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node554 [label="Foam::polyMesh::faceNeighbour",height=0.2,width=0.4,color="black",URL="$a27410.html#a9fb57b52c700ed61f09ada65412d13e3",tooltip="Return face neighbour. "];
+  Node456 -> Node530 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node530 [label="Foam::polyMesh::faceOwner",height=0.2,width=0.4,color="black",URL="$a27410.html#a57752b49bfee23ca1944c3fb0493974f",tooltip="Return face owner. "];
+}

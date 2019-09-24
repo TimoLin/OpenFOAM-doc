@@ -1,0 +1,22 @@
+digraph "initGeometry"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node63 [label="initGeometry",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node63 -> Node64 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node64 [label="Foam::regionCoupledPolyPatch\l::initGeometry",height=0.2,width=0.4,color="black",URL="$a25186.html#a633b37f544e6c45c018011729ee1f7da",tooltip="Initialise the calculation of the patch geometry. "];
+  Node63 -> Node65 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node65 [label="Foam::regionCoupledWallPoly\lPatch::initGeometry",height=0.2,width=0.4,color="black",URL="$a25190.html#a633b37f544e6c45c018011729ee1f7da",tooltip="Initialise the calculation of the patch geometry. "];
+  Node63 -> Node66 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node66 [label="Foam::mappedPolyPatch\l::initGeometry",height=0.2,width=0.4,color="black",URL="$a25106.html#a633b37f544e6c45c018011729ee1f7da",tooltip="Initialise the calculation of the patch geometry. "];
+  Node63 -> Node67 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node67 [label="Foam::mappedWallPolyPatch\l::initGeometry",height=0.2,width=0.4,color="black",URL="$a25114.html#a633b37f544e6c45c018011729ee1f7da",tooltip="Initialise the calculation of the patch geometry. "];
+  Node63 -> Node68 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node68 [label="Foam::cyclicAMIPolyPatch\l::initGeometry",height=0.2,width=0.4,color="red",URL="$a24946.html#a633b37f544e6c45c018011729ee1f7da",tooltip="Initialise the calculation of the patch geometry. "];
+  Node63 -> Node70 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node70 [label="Foam::cyclicPolyPatch\l::initGeometry",height=0.2,width=0.4,color="black",URL="$a27434.html#a633b37f544e6c45c018011729ee1f7da",tooltip="Initialise the calculation of the patch geometry. "];
+  Node63 -> Node71 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node71 [label="Foam::oldCyclicPolyPatch\l::initGeometry",height=0.2,width=0.4,color="black",URL="$a27450.html#a633b37f544e6c45c018011729ee1f7da",tooltip="Initialise the calculation of the patch geometry. "];
+}

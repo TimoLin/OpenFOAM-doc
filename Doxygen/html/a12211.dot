@@ -1,0 +1,37 @@
+digraph "src/OpenFOAM/primitives/direction/direction.H"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node2 [label="src/OpenFOAM/primitives\l/direction/direction.H",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="src/OpenFOAM/algorithms\l/indexedOctree/labelBits.H",height=0.2,width=0.4,color="red",URL="$a08393.html"];
+  Node2 -> Node125 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node125 [label="src/OpenFOAM/dimensioned\lTypes/dimensionedType\l/dimensionedType.H",height=0.2,width=0.4,color="red",URL="$a09374.html"];
+  Node2 -> Node3005 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3005 [label="src/OpenFOAM/fields\l/FieldFields/FieldField\l/FieldField.H",height=0.2,width=0.4,color="red",URL="$a09473.html"];
+  Node2 -> Node3137 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3137 [label="src/OpenFOAM/fields\l/Fields/Field/Field.H",height=0.2,width=0.4,color="red",URL="$a09575.html"];
+  Node2 -> Node3970 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3970 [label="src/OpenFOAM/meshes\l/treeBoundBox/treeBoundBox.H",height=0.2,width=0.4,color="red",URL="$a12128.html"];
+  Node2 -> Node4548 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4548 [label="src/OpenFOAM/primitives\l/ints/label/label.H",height=0.2,width=0.4,color="red",URL="$a12371.html"];
+  Node4548 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 -> Node5996 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5996 [label="src/OpenFOAM/primitives\l/ints/uLabel/uLabel.H",height=0.2,width=0.4,color="red",URL="$a12410.html"];
+  Node2 -> Node5960 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5960 [label="src/OpenFOAM/primitives\l/Scalar/doubleScalar/doubleScalar.H",height=0.2,width=0.4,color="red",URL="$a12503.html"];
+  Node2 -> Node5991 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5991 [label="src/OpenFOAM/primitives\l/Scalar/floatScalar/floatScalar.H",height=0.2,width=0.4,color="red",URL="$a12509.html"];
+  Node2 -> Node5705 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5705 [label="src/OpenFOAM/primitives\l/VectorSpace/VectorSpace.H",height=0.2,width=0.4,color="red",URL="$a12863.html"];
+  Node5705 -> Node125 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5705 -> Node3005 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5705 -> Node3137 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 -> Node3571 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3571 [label="src/parallel/decompose\l/decompositionMethods\l/hierarchGeomDecomp/hierarchGeom\lDecomp.H",height=0.2,width=0.4,color="red",URL="$a13001.html"];
+  Node2 -> Node5989 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5989 [label="applications/utilities\l/mesh/advanced/selectCells\l/edgeStats.H",height=0.2,width=0.4,color="black",URL="$a17825.html"];
+  Node2 -> Node3620 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3620 [label="applications/utilities\l/postProcessing/miscellaneous\l/postChannel/channelIndex.H",height=0.2,width=0.4,color="black",URL="$a19358.html"];
+}

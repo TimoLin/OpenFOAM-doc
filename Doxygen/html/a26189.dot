@@ -1,0 +1,15 @@
+digraph "OFstream"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node0 [label="OFstream",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="firebrick4",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="OFstreamAllocator",height=0.2,width=0.4,color="black",URL="$a26186.html",tooltip="A std::ostream with ability to handle compressed files. "];
+  Node2 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="OSstream",height=0.2,width=0.4,color="red",URL="$a26290.html",tooltip="Generic output stream. "];
+  Node0 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="ensightFile",height=0.2,width=0.4,color="red",URL="$a21298.html",tooltip="Ensight output with specialized write() for strings, integers and floats. Correctly handles binary wr..."];
+  Node0 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="OBJstream",height=0.2,width=0.4,color="black",URL="$a29606.html",tooltip="OFstream which keeps track of vertices. "];
+}

@@ -1,0 +1,23 @@
+digraph "reactionRateFlameArea"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2 [label="reactionRateFlameArea",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" omega_" ,fontname="FreeSans"];
+  Node3 [label="GeometricField\< scalar,\l fvPatchField, volMesh \>",height=0.2,width=0.4,color="red",URL="$a22434.html"];
+  Node21 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mesh_" ,fontname="FreeSans"];
+  Node21 [label="fvMesh",height=0.2,width=0.4,color="red",URL="$a22766.html",tooltip="Mesh data needed to do the Finite Volume discretisation. "];
+  Node49 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" combModel_" ,fontname="FreeSans"];
+  Node49 [label="combustionModel",height=0.2,width=0.4,color="red",URL="$a21230.html",tooltip="Base class for combustion models. "];
+  Node21 -> Node49 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mesh_" ,fontname="FreeSans"];
+  Node33 -> Node49 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" coeffs_" ,fontname="FreeSans"];
+  Node33 [label="dictionary",height=0.2,width=0.4,color="red",URL="$a26014.html",tooltip="A list of keyword definitions, which are a keyword followed by any number of values (e..."];
+  Node33 -> Node33 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" null" ,fontname="FreeSans"];
+  Node26 -> Node49 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" modelType_" ,fontname="FreeSans"];
+  Node26 [label="word",height=0.2,width=0.4,color="red",URL="$a28258.html",tooltip="A class for handling words, derived from string. "];
+  Node26 -> Node26 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" null" ,fontname="FreeSans"];
+  Node33 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" coeffDict_" ,fontname="FreeSans"];
+  Node26 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" fuel_" ,fontname="FreeSans"];
+}

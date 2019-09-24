@@ -1,0 +1,15 @@
+digraph "size"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node892 [label="size",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node892 -> Node893 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node893 [label="boundingSpheres",height=0.2,width=0.4,color="red",URL="$a25258.html#a4f9baf018af105a4cd6d9c008d4d04ec",tooltip="Get bounding spheres (centre and radius squared). Any point. "];
+  Node893 -> Node892 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node892 -> Node895 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node895 [label="Foam::distributedTriSurface\lMesh::distribute",height=0.2,width=0.4,color="red",URL="$a28642.html#a30b981a389a43e4853d4dec45e4e5edb",tooltip="Set bounds of surface. Bounds currently set as list of. "];
+  Node892 -> Node905 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node905 [label="regions",height=0.2,width=0.4,color="black",URL="$a25258.html#ab9fb56ec22f93cbc341f0b051e83f872",tooltip="Names of regions. "];
+}

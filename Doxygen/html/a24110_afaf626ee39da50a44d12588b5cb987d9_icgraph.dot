@@ -1,0 +1,13 @@
+digraph "calcCoupled"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node132 [label="calcCoupled",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node132 -> Node133 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node133 [label="clone",height=0.2,width=0.4,color="black",URL="$a24110.html#ac7eaa8b220cc46ce90a03b7fc312138e",tooltip="Construct and return a clone. "];
+  Node132 -> Node134 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node134 [label="~NonSphereDragForce",height=0.2,width=0.4,color="black",URL="$a24110.html#a7c511b09cb7d9eec2b442a7659ac5a7a",tooltip="Destructor. "];
+  Node134 -> Node133 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

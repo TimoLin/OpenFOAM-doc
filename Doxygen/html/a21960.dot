@@ -1,0 +1,22 @@
+digraph "SRFModel"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node18 [label="SRFModel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node19 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19 [label="IOdictionary",height=0.2,width=0.4,color="red",URL="$a26158.html",tooltip="IOdictionary is derived from dictionary and IOobject to give the dictionary automatic IO functionalit..."];
+  Node27 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node27 [label="dictionary",height=0.2,width=0.4,color="red",URL="$a26014.html",tooltip="A list of keyword definitions, which are a keyword followed by any number of values (e..."];
+  Node27 -> Node27 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" null" ,fontname="FreeSans"];
+  Node40 -> Node18 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mesh_" ,fontname="FreeSans"];
+  Node40 [label="fvMesh",height=0.2,width=0.4,color="red",URL="$a22766.html",tooltip="Mesh data needed to do the Finite Volume discretisation. "];
+  Node27 -> Node18 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" SRFModelCoeffs_" ,fontname="FreeSans"];
+  Node54 -> Node18 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" origin_\nomega_" ,fontname="FreeSans"];
+  Node54 [label="dimensioned\< vector \>",height=0.2,width=0.4,color="red",URL="$a26366.html"];
+  Node56 -> Node18 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" axis_" ,fontname="FreeSans"];
+  Node56 [label="Vector\< scalar \>",height=0.2,width=0.4,color="red",URL="$a28442.html"];
+  Node62 -> Node18 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" Urel_" ,fontname="FreeSans"];
+  Node62 [label="GeometricField\< Type,\l PatchField, GeoMesh \>",height=0.2,width=0.4,color="red",URL="$a22434.html",tooltip="Generic GeometricField class. "];
+}

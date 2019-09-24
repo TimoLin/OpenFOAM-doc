@@ -1,0 +1,33 @@
+digraph "write"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node17022 [label="write",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node17022 -> Node17023 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17023 [label="Foam::TimePaths::caseConstant",height=0.2,width=0.4,color="black",URL="$a26354.html#aa79b9d2d4d4634d84d82294c8e3fdc64",tooltip="Return constant name for the case. "];
+  Node17023 -> Node17024 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17024 [label="Foam::TimePaths::constant",height=0.2,width=0.4,color="black",URL="$a26354.html#ab16cfc6e7be33ff5683a856ae077433c",tooltip="Return constant name. "];
+  Node17024 -> Node17023 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17022 -> Node17025 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17025 [label="Foam::TimePaths::caseSystem",height=0.2,width=0.4,color="black",URL="$a26354.html#ac6d4082a58417d8307bf4a969df642d0",tooltip="Return system name for the case. "];
+  Node17025 -> Node17026 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17026 [label="Foam::TimePaths::system",height=0.2,width=0.4,color="black",URL="$a26354.html#aa71c1aaf0f9ddefd39d5ff4061ec6386",tooltip="Return system name. "];
+  Node17026 -> Node17025 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17022 -> Node17024 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17022 -> Node17027 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17027 [label="getMasterPoints",height=0.2,width=0.4,color="red",URL="$a24662.html#ab7f36dd5e2a0f638f316332f5e355ea6",tooltip="Determine master point for subset of points. If coupled. "];
+  Node17022 -> Node17110 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17110 [label="Foam::IOobject::instance",height=0.2,width=0.4,color="black",URL="$a26142.html#acac6de003b420b848571b5064e50ed89"];
+  Node17022 -> Node17111 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17111 [label="s",height=0.2,width=0.4,color="black",URL="$a18905.html#abb9c4233033fad2ad0206cd4adad3b9f"];
+  Node17022 -> Node17026 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17022 -> Node17112 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17112 [label="Foam::IOobject::time",height=0.2,width=0.4,color="red",URL="$a26142.html#a1ed86245b170b9f651f62650b1827500",tooltip="Return time. "];
+  Node17022 -> Node17114 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17114 [label="Foam::Time::timeName",height=0.2,width=0.4,color="black",URL="$a26350.html#ad9d86fef6eca18797c786726cf925179",tooltip="Return time name of given scalar time. "];
+  Node17022 -> Node17115 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17115 [label="Foam::regIOobject::\lwrite",height=0.2,width=0.4,color="red",URL="$a26334.html#ad48b7b943e88478c15879659cce7aebc",tooltip="Write using setting from DB. "];
+  Node17115 -> Node17112 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

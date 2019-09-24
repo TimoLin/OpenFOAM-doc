@@ -1,0 +1,18 @@
+digraph "gSumProd"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node67257 [label="gSumProd",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node67257 -> Node67258 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node67258 [label="gSumCmptProd",height=0.2,width=0.4,color="red",URL="$a21124.html#a0fa4576d96a3ebfaa220dae6ea9ae623"];
+  Node67258 -> Node67262 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node67262 [label="reduce",height=0.2,width=0.4,color="red",URL="$a21124.html#a7ffd6af4acc2eb9ba72ee296b5ecda23"];
+  Node67258 -> Node67280 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node67280 [label="Foam::UPstream::msgType",height=0.2,width=0.4,color="black",URL="$a26270.html#ae5b8fe6652f6320aa6c7f5c44b6f01b7",tooltip="Message tag of standard messages. "];
+  Node67257 -> Node67280 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node67257 -> Node67262 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node67257 -> Node67284 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node67284 [label="sumProd",height=0.2,width=0.4,color="red",URL="$a21124.html#a979afd950a7170a95b83c6e5e9550ff2"];
+}

@@ -1,0 +1,27 @@
+digraph "checkFaceFlatness"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node15165 [label="checkFaceFlatness",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node15165 -> Node15166 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15166 [label="checkConcaveCells",height=0.2,width=0.4,color="red",URL="$a27530.html#ae024f89be90207f16cd17d354101d75d",tooltip="Check for concave cells by the planes of faces. "];
+  Node15166 -> Node15167 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15167 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node15166 -> Node15170 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15170 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node15166 -> Node15171 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15171 [label="Foam::HashSet::insert",height=0.2,width=0.4,color="black",URL="$a25690.html#a49f0753d9652681fc3a81f59951a0ad7",tooltip="Insert a new entry. "];
+  Node15166 -> Node15172 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15172 [label="Foam::reduce",height=0.2,width=0.4,color="red",URL="$a21124.html#a7ffd6af4acc2eb9ba72ee296b5ecda23"];
+  Node15172 -> Node15167 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15165 -> Node15167 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15165 -> Node15211 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15211 [label="Foam::exit",height=0.2,width=0.4,color="red",URL="$a21124.html#a06ca7250d8e89caf05243ec094843642"];
+  Node15165 -> Node15171 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15165 -> Node15170 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15165 -> Node15192 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15192 [label="Foam::min",height=0.2,width=0.4,color="black",URL="$a21124.html#a253e112ad2d56d96230ff39ea7f442dc"];
+  Node15165 -> Node15172 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

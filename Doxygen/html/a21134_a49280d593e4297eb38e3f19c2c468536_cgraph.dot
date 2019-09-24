@@ -1,0 +1,17 @@
+digraph "laplacian"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node16488 [label="laplacian",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node16488 -> Node16489 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16489 [label="Foam::IOobject::instance",height=0.2,width=0.4,color="black",URL="$a26142.html#acac6de003b420b848571b5064e50ed89"];
+  Node16488 -> Node16490 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16490 [label="laplacian",height=0.2,width=0.4,color="red",URL="$a21134.html#ac75bff389d0405149b204b0d7ac214cd"];
+  Node16490 -> Node16491 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16491 [label="Foam::DimensionedField\l::mesh",height=0.2,width=0.4,color="black",URL="$a26390.html#a8f1110830348a1448a14ab5e3cf47e3b",tooltip="Return mesh. "];
+  Node16488 -> Node16491 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16488 -> Node16540 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16540 [label="Foam::dimensioned::name",height=0.2,width=0.4,color="black",URL="$a26366.html#ade4113569ef0db70665fded275a5e38e",tooltip="Return const reference to name. "];
+}

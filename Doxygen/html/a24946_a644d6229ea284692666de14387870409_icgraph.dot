@@ -1,0 +1,14 @@
+digraph "initOrder"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1140 [label="initOrder",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1140 -> Node1141 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1141 [label="calcGeometry",height=0.2,width=0.4,color="black",URL="$a24946.html#aa87953b847e1d3217ab9791b38f7743e",tooltip="Calculate the patch geometry. "];
+  Node1140 -> Node1142 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1142 [label="clone",height=0.2,width=0.4,color="black",URL="$a24946.html#afff6d4f7511147e0c8a4b8a5448296ec",tooltip="Construct and return a clone, resetting the face list. "];
+  Node1140 -> Node1143 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1143 [label="Foam::cyclicACMIPolyPatch\l::initOrder",height=0.2,width=0.4,color="red",URL="$a24926.html#a644d6229ea284692666de14387870409",tooltip="Initialize ordering for primitivePatch. Does not. "];
+}

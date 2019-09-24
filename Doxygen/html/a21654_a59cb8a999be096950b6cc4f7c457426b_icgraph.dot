@@ -1,0 +1,14 @@
+digraph "setRefinement"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4749 [label="setRefinement",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4749 -> Node4750 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4750 [label="consistentSlowRefinement2",height=0.2,width=0.4,color="red",URL="$a21654.html#aeb8716163dcd0280ef71a13d2f7814a8",tooltip="Like consistentSlowRefinement but uses different meshWave. "];
+  Node4750 -> Node4754 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4754 [label="level0EdgeLength",height=0.2,width=0.4,color="black",URL="$a21654.html#a5038ef57fdb5e24db3472bc037c5a270",tooltip="Typical edge length between unrefined points. "];
+  Node4754 -> Node4750 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4749 -> Node4754 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

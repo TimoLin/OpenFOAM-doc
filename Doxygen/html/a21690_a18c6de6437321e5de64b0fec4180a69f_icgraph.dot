@@ -1,0 +1,16 @@
+digraph "storeSplit"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1189 [label="storeSplit",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1189 -> Node1190 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1190 [label="parentIndex",height=0.2,width=0.4,color="red",URL="$a21690.html#a4eed19cdbc97968a63b0109384f138e1",tooltip="Get parent of cell. "];
+  Node1190 -> Node1189 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1189 -> Node1200 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1200 [label="Foam::hexRef8::setRefinement",height=0.2,width=0.4,color="red",URL="$a21654.html#a59cb8a999be096950b6cc4f7c457426b",tooltip="Insert refinement. All selected cells will be split into 8. "];
+  Node1189 -> Node1201 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1201 [label="writeDebug",height=0.2,width=0.4,color="red",URL="$a21690.html#a229cff31748bb7e631ba7d39c7e7d45f",tooltip="Debug write. "];
+  Node1201 -> Node1190 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

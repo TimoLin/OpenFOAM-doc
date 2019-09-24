@@ -1,0 +1,18 @@
+digraph "reactingMixture&lt; ThermoType &gt;"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="reactingMixture\< ThermoType \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="speciesTable",height=0.2,width=0.4,color="red",URL="$a28242.html",tooltip="A wordList with hashed indices for faster lookup by name. "];
+  Node6 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="autoPtr\< chemistryReader\l\< ThermoType \> \>",height=0.2,width=0.4,color="red",URL="$a25958.html"];
+  Node8 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="multiComponentMixture\l\< ThermoType \>",height=0.2,width=0.4,color="red",URL="$a30146.html",tooltip="Foam::multiComponentMixture. "];
+  Node10 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="PtrList\< Reaction\<\l ThermoType \> \>",height=0.2,width=0.4,color="red",URL="$a25914.html"];
+  Node0 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12 [label="singleStepReactingMixture\l\< ThermoType \>",height=0.2,width=0.4,color="black",URL="$a30154.html",tooltip="Single step reacting mixture. "];
+}

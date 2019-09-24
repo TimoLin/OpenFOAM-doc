@@ -1,0 +1,18 @@
+digraph "calc"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node157 [label="calc",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node157 -> Node158 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node158 [label="calcHeatTransfer",height=0.2,width=0.4,color="black",URL="$a23938.html#a9711bb19790732f1dc84ccaf43f6fe7a",tooltip="Calculate new particle temperature. "];
+  Node157 -> Node159 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node159 [label="Foam::pow4",height=0.2,width=0.4,color="red",URL="$a21124.html#aa0ae321d4861170e35fbb938636a4f40"];
+  Node157 -> Node163 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node163 [label="Pr",height=0.2,width=0.4,color="black",URL="$a39152.html#a1db7a9e58e450e6ddc830a30f0674a02"];
+  Node157 -> Node164 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node164 [label="Foam::Re",height=0.2,width=0.4,color="red",URL="$a21124.html#affa366970bcbe0f7ccf7c85557a3e12b"];
+  Node157 -> Node167 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node167 [label="Foam::fvc::Su",height=0.2,width=0.4,color="black",URL="$a21134.html#ac92e296062b7b025a96b82351c1d9b89"];
+}

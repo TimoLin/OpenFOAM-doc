@@ -1,0 +1,18 @@
+digraph "exit"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node22234 [label="exit",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node22234 -> Node22235 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22235 [label="commsType",height=0.2,width=0.4,color="black",URL="$a26270.html#a196281c32ccd82813f46c7cfc6af4668",tooltip="Set the communications type of the stream. "];
+  Node22234 -> Node22236 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22236 [label="Foam::error::exit",height=0.2,width=0.4,color="red",URL="$a26082.html#a8e05d3ad7f8730ff9a8bab5360fd7854",tooltip="Exit : can be called for any error to exit program. "];
+  Node22234 -> Node25658 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node25658 [label="Foam::IOerror::exit",height=0.2,width=0.4,color="red",URL="$a26086.html#a8e05d3ad7f8730ff9a8bab5360fd7854",tooltip="Exit : can be called for any error to exit program. "];
+  Node22234 -> Node24838 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node24838 [label="Foam::ParRunControl\l::runPar",height=0.2,width=0.4,color="red",URL="$a26666.html#a725ed7fe19411eb63ad9aaffe72b4c51"];
+  Node22234 -> Node25660 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node25660 [label="Foam::ParRunControl\l::~ParRunControl",height=0.2,width=0.4,color="black",URL="$a26666.html#a6f91ecfa7c88831967bd07929545faaa"];
+}

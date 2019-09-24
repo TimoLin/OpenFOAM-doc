@@ -1,0 +1,19 @@
+digraph "src/OpenFOAM/global/constants/electromagnetic/electromagneticConstants.H"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node98 [label="src/OpenFOAM/global\l/constants/electromagnetic\l/electromagneticConstants.H",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node98 -> Node99 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node99 [label="src/lagrangian/intermediate\l/submodels/Kinematic/ParticleForces\l/Paramagnetic/ParamagneticForce.C",height=0.2,width=0.4,color="black",URL="$a05882.html"];
+  Node98 -> Node100 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node100 [label="src/OpenFOAM/global\l/constants/atomic/atomicConstants.C",height=0.2,width=0.4,color="red",URL="$a10208.html"];
+  Node98 -> Node103 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node103 [label="src/OpenFOAM/global\l/constants/constants.H",height=0.2,width=0.4,color="red",URL="$a10217.html"];
+  Node98 -> Node174 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node174 [label="src/OpenFOAM/global\l/constants/electromagnetic\l/electromagneticConstants.C",height=0.2,width=0.4,color="red",URL="$a10226.html"];
+  Node98 -> Node175 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node175 [label="src/OpenFOAM/global\l/constants/fundamental\l/fundamentalConstants.C",height=0.2,width=0.4,color="red",URL="$a10232.html",tooltip="Fundamental dimensioned constants. "];
+  Node98 -> Node176 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node176 [label="src/OpenFOAM/global\l/constants/physicoChemical\l/physicoChemicalConstants.C",height=0.2,width=0.4,color="red",URL="$a10241.html"];
+}

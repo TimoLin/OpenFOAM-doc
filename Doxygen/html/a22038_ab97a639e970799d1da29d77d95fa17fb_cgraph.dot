@@ -1,0 +1,17 @@
+digraph "initInterfaceMatrixUpdate"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node497 [label="initInterfaceMatrixUpdate",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node497 -> Node498 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node498 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node497 -> Node541 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node541 [label="Foam::lduInterfaceField\l::updatedMatrix",height=0.2,width=0.4,color="black",URL="$a26870.html#afe936c8ecb023df2a02ce52444387948",tooltip="Whether matrix has been updated. "];
+  Node497 -> Node542 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node542 [label="updateInterfaceMatrix",height=0.2,width=0.4,color="red",URL="$a22038.html#a4144bb27e8739ab5a673b3da1e245e17",tooltip="Update result field based on interface functionality. "];
+  Node542 -> Node541 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node497 -> Node544 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node544 [label="write",height=0.2,width=0.4,color="black",URL="$a19709.html#a8f30b3c2179b03a7acf273e9dea43342"];
+}

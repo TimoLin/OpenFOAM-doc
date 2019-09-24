@@ -1,0 +1,17 @@
+digraph "solverDict"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node245 [label="solverDict",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node245 -> Node246 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node246 [label="Foam::MULES::correct",height=0.2,width=0.4,color="black",URL="$a21136.html#ac7b999a799e287ef0c06fcfc32422bc2"];
+  Node245 -> Node247 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node247 [label="Foam::MULES::implicitSolve",height=0.2,width=0.4,color="red",URL="$a21136.html#af3ebc5af31512182ee43a56e994f4aaf"];
+  Node245 -> Node250 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node250 [label="Foam::MULES::limiterCorr",height=0.2,width=0.4,color="red",URL="$a21136.html#a38e5d08438513810310daf8913dc4917"];
+  Node250 -> Node251 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node251 [label="Foam::MULES::LTScorrect",height=0.2,width=0.4,color="red",URL="$a21136.html#abac1678d5bd46c2d98f675468ac34f1a"];
+  Node245 -> Node251 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

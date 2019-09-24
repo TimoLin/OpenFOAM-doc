@@ -1,0 +1,34 @@
+digraph "calcGeometry"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node17 [label="calcGeometry",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node17 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node17 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20 [label="Foam::exit",height=0.2,width=0.4,color="red",URL="$a21124.html#a06ca7250d8e89caf05243ec094843642"];
+  Node17 -> Node65 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node65 [label="Foam::PrimitivePatch\l::faceCentres",height=0.2,width=0.4,color="black",URL="$a27538.html#a3f2a4d64417ede063b140fd1b65fa591",tooltip="Return face centres for patch. "];
+  Node17 -> Node66 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node66 [label="Foam::gAverage",height=0.2,width=0.4,color="red",URL="$a21124.html#ab45e56189711a2e5cdd381a0e2b6cc5c"];
+  Node66 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17 -> Node84 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node84 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node17 -> Node85 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node85 [label="Foam::magSqr",height=0.2,width=0.4,color="black",URL="$a21124.html#ae6fff2c6981e6d9618aa5038e69def6e"];
+  Node17 -> Node86 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node86 [label="Foam::max",height=0.2,width=0.4,color="black",URL="$a21124.html#ac993e906cf2774ae77e666bc24e81733"];
+  Node17 -> Node87 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node87 [label="Foam::name",height=0.2,width=0.4,color="red",URL="$a21124.html#adcb0df2bd4953cb6bb390272d8263c3a",tooltip="Return a string representation of a complex. "];
+  Node17 -> Node90 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node90 [label="Foam::returnReduce",height=0.2,width=0.4,color="red",URL="$a21124.html#a8d528a67d2a9c6fe4fb94bc86872624b"];
+  Node17 -> Node94 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node94 [label="Foam::rotationTensor",height=0.2,width=0.4,color="red",URL="$a21124.html#a1be81720bcafb843826c32024fe5fbe3"];
+  Node94 -> Node85 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17 -> Node97 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node97 [label="Foam::sign",height=0.2,width=0.4,color="red",URL="$a21124.html#a221fd301d6c49c5bd4a6c0f5ccb893b2"];
+  Node17 -> Node98 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node98 [label="wedgePolyPatch",height=0.2,width=0.4,color="black",URL="$a27470.html#a98b3567680498238b568a42f4dfe1394",tooltip="Construct from components. "];
+}

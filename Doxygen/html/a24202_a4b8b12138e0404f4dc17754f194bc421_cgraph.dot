@@ -1,0 +1,20 @@
+digraph "clone"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node9 [label="clone",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="active",height=0.2,width=0.4,color="black",URL="$a24202.html#ad9735e23cb0888fb98e1c5893aecff7e",tooltip="Flag to indicate whether model activates the surface film model. "];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="transferParcel",height=0.2,width=0.4,color="black",URL="$a24202.html#af3f1c3e45a0819d21913ec81e6de7525",tooltip="Transfer parcel from cloud to surface film. "];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12 [label="setParcelProperties",height=0.2,width=0.4,color="black",URL="$a24202.html#ae253ff856b154377813cd2e54bbfd38d",tooltip="Set parcel properties. "];
+  Node9 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13 [label="info",height=0.2,width=0.4,color="black",URL="$a24202.html#a89318aa2ab2853dcdc58dc2481f6a2c1",tooltip="Write surface film info to stream. "];
+  Node9 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14 [label="~NoSurfaceFilm",height=0.2,width=0.4,color="black",URL="$a24202.html#a2a1b818773a0a0d2c2a5f434fd0f0926",tooltip="Destructor. "];
+}

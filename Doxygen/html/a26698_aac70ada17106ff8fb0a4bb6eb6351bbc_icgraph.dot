@@ -1,0 +1,16 @@
+digraph "writeTable"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node523 [label="writeTable",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node523 -> Node524 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node524 [label="Foam::operator\<\<",height=0.2,width=0.4,color="black",URL="$a21124.html#a7aba24cde279aa1cfb3564ad9ccaab00"];
+  Node523 -> Node525 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node525 [label="Foam::rawGraph::write",height=0.2,width=0.4,color="red",URL="$a26718.html#a03cc376c8661af0d3eec43496ceec4b6",tooltip="Write graph in appropriate format. "];
+  Node523 -> Node527 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node527 [label="Foam::jplotGraph::write",height=0.2,width=0.4,color="red",URL="$a26714.html#a03cc376c8661af0d3eec43496ceec4b6",tooltip="Write graph in appropriate format. "];
+  Node523 -> Node529 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node529 [label="Foam::graph::writer\l::~writer",height=0.2,width=0.4,color="black",URL="$a26706.html#a9d6923f77d39f29d6cb3b20078a8fd84",tooltip="Destructor. "];
+}

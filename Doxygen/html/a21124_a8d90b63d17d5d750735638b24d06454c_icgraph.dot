@@ -1,0 +1,22 @@
+digraph "add"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node66192 [label="add",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node66192 -> Node66193 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node66193 [label="Foam::BinSum::add",height=0.2,width=0.4,color="black",URL="$a25882.html#a41e0562e8ef5c2d57c1ffe19c3f9d6fc"];
+  Node66192 -> Node66194 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node66194 [label="Foam::BinSum::BinSum",height=0.2,width=0.4,color="black",URL="$a25882.html#a0418d57b79311830c02a326d7ff1dea7",tooltip="Construct given min, max, delta and data. "];
+  Node66192 -> Node66195 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node66195 [label="Foam::dictionary::lookup\lOrAddDefault",height=0.2,width=0.4,color="red",URL="$a26014.html#aadafaae6847668979f5ce540f62d6e62",tooltip="Find and return a T, if not found return the given. "];
+  Node66192 -> Node66328 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node66328 [label="Foam::NamedEnum\< direction\lType, 3 \>::names",height=0.2,width=0.4,color="black",URL="$a25998.html#a7350da3a0edd92cd11e6c479c9967dc8"];
+  Node66192 -> Node66329 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node66329 [label="Foam::dictionary::parent",height=0.2,width=0.4,color="red",URL="$a26014.html#aa61b91b31f7894b612502ff4803891d5",tooltip="Return the parent dictionary. "];
+  Node66192 -> Node66395 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node66395 [label="stabilise",height=0.2,width=0.4,color="black",URL="$a21124.html#aad840398bfc1f7568110b83229ffad34"];
+  Node66192 -> Node66396 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node66396 [label="sumProd",height=0.2,width=0.4,color="black",URL="$a21124.html#a5b480f6156c25bef4de87d86094e87ea"];
+}

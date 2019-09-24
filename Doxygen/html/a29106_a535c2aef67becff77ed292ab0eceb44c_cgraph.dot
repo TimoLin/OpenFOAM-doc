@@ -1,0 +1,44 @@
+digraph "info"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node385 [label="info",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node385 -> Node386 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node386 [label="Foam::polyMesh::boundaryMesh",height=0.2,width=0.4,color="black",URL="$a27410.html#a9f2b68c134340291eda6197f47f25484",tooltip="Return boundary mesh. "];
+  Node385 -> Node387 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node387 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node385 -> Node389 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node389 [label="Foam::subModelBase\l::getBaseProperty",height=0.2,width=0.4,color="red",URL="$a28266.html#a41226518e41630b40bc405485e0ac9e0",tooltip="Retrieve generic property from the base model. "];
+  Node385 -> Node439 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node439 [label="Foam::indent",height=0.2,width=0.4,color="red",URL="$a21124.html#ae297c57ea5b952a8bc9e4f30f7ea8701",tooltip="Indent stream. "];
+  Node385 -> Node441 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node441 [label="Foam::regionModels\l::surfaceFilmModels\l::injectionModel::injectedMass\lTotal",height=0.2,width=0.4,color="red",URL="$a29102.html#a451a7543ece7df75ef44a02ee5ff034c",tooltip="Return the total mass injected. "];
+  Node385 -> Node461 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node461 [label="Foam::regionModels\l::regionModel::intCoupledPatchIDs",height=0.2,width=0.4,color="red",URL="$a28998.html#aecf92ee7f756d6e3c713b358b054c10c",tooltip="Return the list of patch IDs internally coupled with the. "];
+  Node385 -> Node463 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node463 [label="Foam::Pstream::listCombine\lGather",height=0.2,width=0.4,color="red",URL="$a26250.html#a8c0e5044dc4a942cf62b06797c3a743f"];
+  Node463 -> Node387 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node463 -> Node446 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node446 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+  Node385 -> Node466 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node466 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node385 -> Node467 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node467 [label="Foam::IOobject::name",height=0.2,width=0.4,color="black",URL="$a26142.html#acc80e00a8ac919288fb55bd14cc88bf6",tooltip="Return name. "];
+  Node385 -> Node468 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node468 [label="Foam::PtrList\< injection\lModel \>::operator[]",height=0.2,width=0.4,color="black",URL="$a25914.html#a92eab3a97cd59afdf63a26b0a90642a9",tooltip="Return element const reference. "];
+  Node385 -> Node469 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node469 [label="Foam::regionModels\l::surfaceFilmModels\l::filmSubModelBase::outputTime",height=0.2,width=0.4,color="red",URL="$a29050.html#a59fd6e5492ff7a07bf267713f0338fa1",tooltip="Flag to indicate when to write a property. "];
+  Node385 -> Node473 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node473 [label="Foam::regionModels\l::surfaceFilmModels\l::filmSubModelBase::owner",height=0.2,width=0.4,color="black",URL="$a29050.html#a9002aeea87356bb78bf0dabcf1f745d8",tooltip="Return const access to the owner surface film model. "];
+  Node385 -> Node474 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node474 [label="Foam::regionModels\l::surfaceFilmModels\l::injectionModel::patchInjected\lMassTotals",height=0.2,width=0.4,color="black",URL="$a29102.html#af7a6099e632d0210e88239d0f1b405a4",tooltip="Accumulate the total mass injected for the patches into the. "];
+  Node385 -> Node475 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node475 [label="Foam::regionModels\l::regionModel::regionMesh",height=0.2,width=0.4,color="red",URL="$a28998.html#a89a37969c20983ee143c612486ce5313",tooltip="Return the region mesh database. "];
+  Node385 -> Node482 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node482 [label="Foam::subModelBase\l::setBaseProperty",height=0.2,width=0.4,color="red",URL="$a28266.html#aecf0c52e2c20bd4d404fe6f58a8e4784",tooltip="Add generic property to the base model. "];
+  Node385 -> Node446 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node385 -> Node485 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node485 [label="Foam::PtrList::size",height=0.2,width=0.4,color="black",URL="$a25914.html#a47b3bf30da1eb3ab8076b5fbe00e0494",tooltip="Return the number of elements in the PtrList. "];
+}

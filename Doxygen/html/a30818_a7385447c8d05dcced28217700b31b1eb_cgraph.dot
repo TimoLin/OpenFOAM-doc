@@ -1,0 +1,32 @@
+digraph "alphat"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node819 [label="alphat",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node819 -> Node820 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node820 [label="alphaEff",height=0.2,width=0.4,color="black",URL="$a30818.html#ac0cc195242d455ea246acb3bd701d000",tooltip="Return the effective turbulence thermal diffusivity. "];
+  Node819 -> Node821 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node821 [label="alphat",height=0.2,width=0.4,color="black",URL="$a30818.html#a0503152b53bc320b7656ba486cbd69da",tooltip="Return the turbulence thermal diffusivity. "];
+  Node819 -> Node822 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node822 [label="boundaryField",height=0.2,width=0.4,color="black",URL="$a38171.html#add1ce21d07963eec9c9e492fa6bf5c4a"];
+  Node819 -> Node823 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node823 [label="correct",height=0.2,width=0.4,color="black",URL="$a30818.html#aa4d8a8ca44f2b13f84ba64733f6e0252",tooltip="Solve the turbulence equations and correct the turbulence viscosity. "];
+  Node819 -> Node824 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node824 [label="devRhoReff",height=0.2,width=0.4,color="black",URL="$a30818.html#a496050215c3d9dae5f127566bef25f44",tooltip="Return the effective stress tensor including the laminar stress. "];
+  Node819 -> Node825 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node825 [label="divDevRhoReff",height=0.2,width=0.4,color="black",URL="$a30818.html#a5aa856f58a20c92df9b763ee10543d7a",tooltip="Return the source term for the momentum equation. "];
+  Node819 -> Node826 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node826 [label="epsilon",height=0.2,width=0.4,color="black",URL="$a30818.html#a9259555bfd1948ca5889cde3d9f32c44",tooltip="Return the turbulence kinetic energy dissipation rate. "];
+  Node819 -> Node827 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node827 [label="k",height=0.2,width=0.4,color="black",URL="$a30818.html#a513c40f9ed37e2baed10984c3c4c57a9",tooltip="Return the turbulence kinetic energy. "];
+  Node819 -> Node828 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node828 [label="kappaEff",height=0.2,width=0.4,color="black",URL="$a30818.html#a572f0c18e5d4875b4713af9d10bed74a",tooltip="Return the effective turbulence temperature diffusivity. "];
+  Node819 -> Node829 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node829 [label="R",height=0.2,width=0.4,color="black",URL="$a30818.html#a58fc44a6638c1794d267ee2beaa50512",tooltip="Return the Reynolds stress tensor. "];
+  Node819 -> Node830 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node830 [label="read",height=0.2,width=0.4,color="black",URL="$a30818.html#a2eeeaebe7e52f5d842385ce0b177150d",tooltip="Read LESProperties or RASProperties dictionary. "];
+  Node819 -> Node831 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node831 [label="rhoEpsilonEff",height=0.2,width=0.4,color="red",URL="$a30818.html#aff1a13b5af411eb10e8b6fefc2781fcc",tooltip="Return the laminar+turbulence kinetic energy dissipation rate. "];
+}

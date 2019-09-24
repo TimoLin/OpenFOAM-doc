@@ -1,0 +1,13 @@
+digraph "hs"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node182 [label="hs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node182 -> Node183 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node183 [label="ha",height=0.2,width=0.4,color="red",URL="$a30362.html#a94fe7b61e38a21bcb5f8787a013210bf",tooltip="Absolute Enthalpy [J/kmol]. "];
+  Node183 -> Node187 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node187 [label="typeName",height=0.2,width=0.4,color="black",URL="$a30362.html#a561f535eabff4d94fd999c48df4443bd",tooltip="Return the instantiated type name. "];
+  Node182 -> Node187 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

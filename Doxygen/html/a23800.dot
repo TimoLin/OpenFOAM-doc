@@ -1,0 +1,16 @@
+digraph "MPPICCloud&lt; CloudType &gt;"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node27 [label="MPPICCloud\< CloudType \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node28 -> Node27 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node28 [label="CloudType",height=0.2,width=0.4,color="red",URL="$a23686.html",tooltip="Templated base class for dsmc cloud. "];
+  Node59 -> Node27 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" isotropyModel_" ,fontname="FreeSans"];
+  Node59 [label="autoPtr\< Foam::IsotropyModel\l\< Foam::MPPICCloud\< CloudType \> \> \>",height=0.2,width=0.4,color="red",URL="$a25958.html"];
+  Node61 -> Node27 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" dampingModel_" ,fontname="FreeSans"];
+  Node61 [label="autoPtr\< Foam::DampingModel\l\< Foam::MPPICCloud\< CloudType \> \> \>",height=0.2,width=0.4,color="red",URL="$a25958.html"];
+  Node62 -> Node27 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" packingModel_" ,fontname="FreeSans"];
+  Node62 [label="autoPtr\< Foam::PackingModel\l\< Foam::MPPICCloud\< CloudType \> \> \>",height=0.2,width=0.4,color="red",URL="$a25958.html"];
+}

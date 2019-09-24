@@ -1,0 +1,35 @@
+digraph "dict"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node314 [label="dict",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node314 -> Node315 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node315 [label="a",height=0.2,width=0.4,color="black",URL="$a30050.html#a91dacadf2671ee7cd929cd83a147c33b",tooltip="Absorption coefficient (net) "];
+  Node314 -> Node316 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node316 [label="aCont",height=0.2,width=0.4,color="black",URL="$a30050.html#ace18b83f2647f21524aa32889f66afca",tooltip="Absorption coefficient for continuous phase. "];
+  Node314 -> Node317 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node317 [label="aDisp",height=0.2,width=0.4,color="black",URL="$a30050.html#a283b8a5b1acbb2990ba2ac67f8291f43",tooltip="Absorption coefficient for dispersed phase. "];
+  Node314 -> Node318 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node318 [label="bands",height=0.2,width=0.4,color="black",URL="$a30050.html#a1fc44e35212d61c165c22e9bb0e12c7f",tooltip="Const access to the bands - defaults to Vector2D::one for grey. "];
+  Node314 -> Node319 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node319 [label="correct",height=0.2,width=0.4,color="black",URL="$a30050.html#ace1e4d280e9c6418ef506515d26bc533",tooltip="Correct absorption coefficients. "];
+  Node314 -> Node320 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node320 [label="e",height=0.2,width=0.4,color="black",URL="$a30050.html#a14354b894128f0d1a4a23af11d02cb8e",tooltip="Emission coefficient (net) "];
+  Node314 -> Node321 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node321 [label="E",height=0.2,width=0.4,color="black",URL="$a30050.html#a350f1718c89e80b8e3901c2011c539c7",tooltip="Emission contribution (net) "];
+  Node314 -> Node322 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node322 [label="eCont",height=0.2,width=0.4,color="black",URL="$a30050.html#ab58c27229f7c40e4e0feb83ae587d288",tooltip="Return emission coefficient for continuous phase. "];
+  Node314 -> Node323 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node323 [label="ECont",height=0.2,width=0.4,color="red",URL="$a30050.html#ad3e4df8e89f5fe319c25297f235ecb1f",tooltip="Emission contribution for continuous phase. "];
+  Node314 -> Node328 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node328 [label="eDisp",height=0.2,width=0.4,color="black",URL="$a30050.html#aa708579a0138d5dd5143dbad79fc2cdb",tooltip="Return emission coefficient for dispersed phase. "];
+  Node314 -> Node329 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node329 [label="EDisp",height=0.2,width=0.4,color="red",URL="$a30050.html#a3d31b49db92aace5de1a9a9595cffc0c",tooltip="Emission contribution for dispersed phase. "];
+  Node314 -> Node330 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node330 [label="isGrey",height=0.2,width=0.4,color="black",URL="$a30050.html#a1be36e75e69adae65b65f7186ea65b65",tooltip="Flag for whether the absorption/emission is for a grey gas. "];
+  Node330 -> Node319 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node314 -> Node331 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node331 [label="nBands",height=0.2,width=0.4,color="black",URL="$a30050.html#a89e22110c48092761ee01a9bee201d50",tooltip="Const access to the number of bands - defaults to 1 for grey. "];
+}

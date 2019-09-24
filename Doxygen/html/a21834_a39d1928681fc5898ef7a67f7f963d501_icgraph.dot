@@ -1,0 +1,14 @@
+digraph "ignite"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node13 [label="ignite",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14 [label="ignited",height=0.2,width=0.4,color="black",URL="$a21834.html#a741d10cdca68f361498ddfbc49f8c25d",tooltip="Has the mixture been ignited? "];
+  Node14 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15 [label="igniting",height=0.2,width=0.4,color="black",URL="$a21834.html#af39abda4a4fcaf50ca1d59982a2b9b3d",tooltip="Are any of the ignition site currently igniting. "];
+  Node15 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

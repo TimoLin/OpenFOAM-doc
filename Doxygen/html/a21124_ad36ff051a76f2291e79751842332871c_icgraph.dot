@@ -1,0 +1,14 @@
+digraph "LUsolve"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node110917 [label="LUsolve",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node110917 -> Node110918 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node110918 [label="Foam::radiation::viewFactor\l::calculate",height=0.2,width=0.4,color="black",URL="$a30046.html#afe1d8348c24e6589bc7c0b3f689316a7",tooltip="Solve system of equation(s) "];
+  Node110917 -> Node110919 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node110919 [label="LUBacksubstitute",height=0.2,width=0.4,color="black",URL="$a21124.html#aeb35fc3a3480ded0f564d2110c7f3f07",tooltip="LU back-substitution with given source, returning the solution. "];
+  Node110917 -> Node110920 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node110920 [label="Foam::simpleMatrix\l::LUsolve",height=0.2,width=0.4,color="red",URL="$a27074.html#af0ef730dc0afff3dd70215c280fefc38",tooltip="Solve the matrix using LU decomposition with pivoting. "];
+}

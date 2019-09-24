@@ -1,0 +1,45 @@
+digraph "updateCoeffs"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node567 [label="updateCoeffs",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node567 -> Node568 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node568 [label="Foam::GeometricField\l::boundaryField",height=0.2,width=0.4,color="black",URL="$a22434.html#a3c6c1a789b48ea0c5e8bff64f9c14f2d",tooltip="Return reference to GeometricBoundaryField. "];
+  Node567 -> Node569 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node569 [label="Foam::fvPatchField::db",height=0.2,width=0.4,color="black",URL="$a22354.html#a65cc75d9f80b1df5c3184fb2274a97f1",tooltip="Return local objectRegistry. "];
+  Node567 -> Node570 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node570 [label="evaluate",height=0.2,width=0.4,color="red",URL="$a30730.html#a96dc99388e664182349d72cdca254c20",tooltip="Evaluate the patchField. "];
+  Node567 -> Node572 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node572 [label="Foam::fvPatch::faceCells",height=0.2,width=0.4,color="red",URL="$a22870.html#afbfac825732ef2770fff4261b4e930e9",tooltip="Return faceCells. "];
+  Node567 -> Node576 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node576 [label="Foam::fvPatch::index",height=0.2,width=0.4,color="red",URL="$a22870.html#a4a438520bb14406481732edc13c119c7",tooltip="Return the index of this patch in the fvBoundaryMesh. "];
+  Node567 -> Node578 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node578 [label="Foam::compressible\l::turbulenceModel::k",height=0.2,width=0.4,color="black",URL="$a30818.html#a513c40f9ed37e2baed10984c3c4c57a9",tooltip="Return the turbulence kinetic energy. "];
+  Node567 -> Node579 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node579 [label="Foam::log",height=0.2,width=0.4,color="black",URL="$a21124.html#a6e89590da9859ad497977e08f110d4b5"];
+  Node567 -> Node580 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node580 [label="Foam::objectRegistry\l::lookupObject",height=0.2,width=0.4,color="red",URL="$a26326.html#a8b49296f8410366342c524250612c2aa",tooltip="Lookup and return the object of the given Type. "];
+  Node580 -> Node580 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node567 -> Node634 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node634 [label="Foam::compressible\l::turbulenceModel::mu",height=0.2,width=0.4,color="red",URL="$a30818.html#a54025d7e9635694b562bfb981e31e6da",tooltip="Return the laminar viscosity. "];
+  Node567 -> Node636 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node636 [label="Foam::fvPatchField\l::patch",height=0.2,width=0.4,color="black",URL="$a22354.html#aca0923a4611f6166ffd8fa14d81864a4",tooltip="Return patch. "];
+  Node567 -> Node637 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node637 [label="Foam::pow025",height=0.2,width=0.4,color="red",URL="$a21124.html#af8d7dc24dfce32ee37c1210e616966e1"];
+  Node567 -> Node638 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node638 [label="Foam::pow4",height=0.2,width=0.4,color="red",URL="$a21124.html#aa0ae321d4861170e35fbb938636a4f40"];
+  Node567 -> Node639 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node639 [label="Foam::compressible\l::turbulenceModel::rho",height=0.2,width=0.4,color="black",URL="$a30818.html#a85451bc9acf825ab1d3c3c143714bc38",tooltip="Access function to density field. "];
+  Node567 -> Node640 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node640 [label="Foam::sqr",height=0.2,width=0.4,color="red",URL="$a21124.html#a277dc11c581d53826ab5090b08f3b17b"];
+  Node567 -> Node641 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node641 [label="Foam::sqrt",height=0.2,width=0.4,color="red",URL="$a21124.html#a8616bd62eebf2342a80222fecb1bda71"];
+  Node567 -> Node642 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node642 [label="Foam::fvPatchField\l::updateCoeffs",height=0.2,width=0.4,color="black",URL="$a22354.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node567 -> Node643 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node643 [label="Foam::fvPatchField\l::updated",height=0.2,width=0.4,color="black",URL="$a22354.html#adb515d6ca9be66613efaaeb72c9709db",tooltip="Return true if the boundary condition has already been updated. "];
+  Node567 -> Node644 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node644 [label="Foam::compressible\l::turbulenceModel::y",height=0.2,width=0.4,color="black",URL="$a30818.html#a152c527a6b3137685b03893a7a3a73eb",tooltip="Return the near wall distances. "];
+}

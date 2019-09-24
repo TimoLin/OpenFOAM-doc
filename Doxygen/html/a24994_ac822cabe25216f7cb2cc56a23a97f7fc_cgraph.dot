@@ -1,0 +1,24 @@
+digraph "~coordinateRotation"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="~coordinateRotation",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="clear",height=0.2,width=0.4,color="black",URL="$a24994.html#a5eeb94d22b8366d1b68d0614384802fe",tooltip="Reset rotation to an identity rotation. "];
+  Node0 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="e1",height=0.2,width=0.4,color="black",URL="$a24994.html#a99cb9f87cdbfdf08e2edc33fa1c422f6",tooltip="Return local Cartesian x-axis. "];
+  Node0 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="e2",height=0.2,width=0.4,color="black",URL="$a24994.html#a507f012051f84905aa7eea281e2c2a83",tooltip="Return local Cartesian y-axis. "];
+  Node0 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="e3",height=0.2,width=0.4,color="black",URL="$a24994.html#aff26808ebb9e6a37876e0650b2855f14",tooltip="Return local Cartesian z-axis. "];
+  Node0 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="R",height=0.2,width=0.4,color="black",URL="$a24994.html#a917fdd8a301433346eff02c955c3e190",tooltip="Return local-to-global transformation tensor. "];
+  Node0 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="Rtr",height=0.2,width=0.4,color="black",URL="$a24994.html#a488c301d81000ec9e7ffb09bb4059e2e",tooltip="Return global-to-local transformation tensor. "];
+  Node0 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="Tr",height=0.2,width=0.4,color="black",URL="$a24994.html#a17142cfb40e419109f40431e7eece4d1",tooltip="Return local-to-global transformation tensor. "];
+  Node0 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="updateCells",height=0.2,width=0.4,color="black",URL="$a24994.html#aba419d8fb7c656ce09fb98960830a3ea",tooltip="Update the rotation for a list of cells. "];
+}

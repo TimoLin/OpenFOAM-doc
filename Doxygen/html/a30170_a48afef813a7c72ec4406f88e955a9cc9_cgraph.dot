@@ -1,0 +1,22 @@
+digraph "Tu"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node18 [label="Tu",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node18 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19 [label="heu",height=0.2,width=0.4,color="black",URL="$a30170.html#a32861976ba11f656b19ddff1514d50d3",tooltip="Unburnt gas enthalpy [J/kg]. "];
+  Node18 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20 [label="mub",height=0.2,width=0.4,color="red",URL="$a30170.html#a137322f19ab882eac1c464ee6d2cd492",tooltip="Dynamic viscosity of burnt gas [kg/ms]. "];
+  Node18 -> Node23 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23 [label="muu",height=0.2,width=0.4,color="red",URL="$a30170.html#a4f03629c9ed341e6da7f802c664a92c4",tooltip="Dynamic viscosity of unburnt gas [kg/ms]. "];
+  Node18 -> Node24 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node24 [label="psib",height=0.2,width=0.4,color="red",URL="$a30170.html#ac49f78169c0e4109cd267da5fd6cb010",tooltip="Burnt gas compressibility [s^2/m^2]. "];
+  Node18 -> Node25 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node25 [label="psiu",height=0.2,width=0.4,color="red",URL="$a30170.html#ad16848d4c09938807a1b46d9e57c30ff",tooltip="Unburnt gas compressibility [s^2/m^2]. "];
+  Node18 -> Node26 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node26 [label="Foam::T",height=0.2,width=0.4,color="red",URL="$a21124.html#ae57fda0abb14bb0944947c463c6e09d4"];
+  Node18 -> Node31 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node31 [label="Tb",height=0.2,width=0.4,color="black",URL="$a30170.html#a96b8c2b2e63487dc5e33694a84705563",tooltip="Burnt gas temperature [K]. "];
+}

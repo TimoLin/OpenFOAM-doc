@@ -1,0 +1,12 @@
+digraph "rank"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node42 [label="rank",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node42 -> Node43 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node43 [label="Foam::processorGAMGInterface\lField::processorGAMGInterfaceField",height=0.2,width=0.4,color="black",URL="$a27018.html#a7380bda03c95c3ff6c425c04a9671151",tooltip="Construct from GAMG interface and fine level interface field. "];
+  Node42 -> Node44 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node44 [label="processorLduInterfaceField",height=0.2,width=0.4,color="black",URL="$a26874.html#a84246dcb2da3a0d89ca6eba95b3bbf29",tooltip="Construct given coupled patch. "];
+}

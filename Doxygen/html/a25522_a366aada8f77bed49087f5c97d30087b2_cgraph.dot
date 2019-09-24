@@ -1,0 +1,17 @@
+digraph "intersect"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node76 [label="intersect",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node76 -> Node77 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node77 [label="Foam::SortableList\l::indices",height=0.2,width=0.4,color="black",URL="$a25918.html#a28bce53bb8731da2b5f7a7cfb9ae2167",tooltip="Return the list of sorted indices. Updated every sort. "];
+  Node76 -> Node78 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node78 [label="intersect",height=0.2,width=0.4,color="red",URL="$a25522.html#a6f3f2c96d8b164f0f6c9eef08d310923",tooltip="Does triangle intersect plane. Return bool and set intersection segment. "];
+  Node78 -> Node79 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node79 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node76 -> Node79 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node76 -> Node85 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node85 [label="Foam::SortableList\l::sort",height=0.2,width=0.4,color="red",URL="$a25918.html#a47fdc9eea42b6975cdc835bb2e08810e",tooltip="(stable) sort the list (if changed after construction time) "];
+}

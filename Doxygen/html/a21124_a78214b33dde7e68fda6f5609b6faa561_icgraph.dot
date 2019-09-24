@@ -1,0 +1,20 @@
+digraph "scientific"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node21349 [label="scientific",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node21349 -> Node21350 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21350 [label="Foam::ensightAsciiStream\l::ensightAsciiStream",height=0.2,width=0.4,color="black",URL="$a31682.html#a6054ae07085594d55ff34bd164120b33",tooltip="Construct from components. "];
+  Node21349 -> Node21351 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21351 [label="Foam::ensightFile::\lensightFile",height=0.2,width=0.4,color="black",URL="$a21298.html#a858a1ca0d59570412df29b0d4370676c",tooltip="Construct from pathname. "];
+  Node21349 -> Node21352 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21352 [label="if",height=0.2,width=0.4,color="black",URL="$a18827.html#a845ed54de93926ce4702da9469c2b35f"];
+  Node21349 -> Node21353 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21353 [label="Foam::functionObjectFile\l::initStream",height=0.2,width=0.4,color="red",URL="$a26122.html#a8d019a3b75a52575f1d86ca11bba1d93",tooltip="Initialise the output stream for writing. "];
+  Node21349 -> Node21383 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21383 [label="Foam::NamedEnum\< direction\lType, 3 \>::names",height=0.2,width=0.4,color="black",URL="$a25998.html#a7350da3a0edd92cd11e6c479c9967dc8"];
+  Node21349 -> Node21384 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21384 [label="Foam::ensightSetWriter\l::write",height=0.2,width=0.4,color="red",URL="$a21858.html#ae25e717f0b4f16f583638020a1a090ec",tooltip="General entry point for writing. "];
+}

@@ -1,0 +1,48 @@
+digraph "typeName"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node67 [label="typeName",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node67 -> Node68 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node68 [label="cp",height=0.2,width=0.4,color="black",URL="$a30378.html#a68cc4116ee1e7f03181ae4ec51672064",tooltip="Heat capacity at constant pressure [J/(kmol K)]. "];
+  Node68 -> Node69 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node69 [label="ha",height=0.2,width=0.4,color="black",URL="$a30378.html#a94fe7b61e38a21bcb5f8787a013210bf",tooltip="Absolute Enthalpy [J/kmol]. "];
+  Node69 -> Node70 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node70 [label="hs",height=0.2,width=0.4,color="black",URL="$a30378.html#af7e93c786c1bd6230616e0c98e58a977",tooltip="Sensible enthalpy [J/kmol]. "];
+  Node70 -> Node69 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node70 -> Node71 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node71 [label="hc",height=0.2,width=0.4,color="black",URL="$a30378.html#a48b5aa9f120c527f409a7321c6d1a4e3",tooltip="Chemical enthalpy [J/kmol]. "];
+  Node71 -> Node72 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node72 [label="s",height=0.2,width=0.4,color="red",URL="$a30378.html#a44ae09d155460df28a7f53fa22450c69",tooltip="Entropy [J/(kmol K)]. "];
+  Node67 -> Node69 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node67 -> Node71 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node67 -> Node74 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node74 [label="highCpCoeffs",height=0.2,width=0.4,color="black",URL="$a30378.html#a913cbc54bd05ff249a0aa0e01b2b10ff",tooltip="Return const access to the high temperature poly coefficients. "];
+  Node67 -> Node70 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node67 -> Node75 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node75 [label="limit",height=0.2,width=0.4,color="red",URL="$a30378.html#a1db1b345559ac8b85bba6c587dcc1264",tooltip="Limit the temperature to be in the range Tlow_ to Thigh_. "];
+  Node75 -> Node80 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node80 [label="Foam::T",height=0.2,width=0.4,color="red",URL="$a21124.html#ae57fda0abb14bb0944947c463c6e09d4"];
+  Node67 -> Node85 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node85 [label="lowCpCoeffs",height=0.2,width=0.4,color="black",URL="$a30378.html#ada11db8461ee2f05edcb74a1de83cf68",tooltip="Return const access to the low temperature poly coefficients. "];
+  Node85 -> Node68 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node67 -> Node86 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node86 [label="operator+=",height=0.2,width=0.4,color="red",URL="$a30378.html#af0306f4b29cac7ce5c566452f2650d52"];
+  Node67 -> Node137 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node137 [label="operator-=",height=0.2,width=0.4,color="red",URL="$a30378.html#a106463e36ba9193a64f372d6aa64b5ca"];
+  Node137 -> Node74 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node137 -> Node85 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node137 -> Node72 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node67 -> Node72 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node67 -> Node80 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node67 -> Node138 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node138 [label="Tcommon",height=0.2,width=0.4,color="black",URL="$a30378.html#a772de6a15d37845b776abfbc02131c4f",tooltip="Return const access to the common temperature. "];
+  Node67 -> Node139 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node139 [label="Thigh",height=0.2,width=0.4,color="black",URL="$a30378.html#a8d600621efe406cc0acb868267a9a8a4",tooltip="Return const access to the high temperature limit. "];
+  Node67 -> Node140 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node140 [label="Tlow",height=0.2,width=0.4,color="black",URL="$a30378.html#a56bba5452c4a7049728700d85e138921",tooltip="Return const access to the low temperature limit. "];
+  Node67 -> Node141 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node141 [label="write",height=0.2,width=0.4,color="red",URL="$a30378.html#a78cec3e4ecac4a89a3ad8d38f2ad21f5",tooltip="Write to Ostream. "];
+}

@@ -1,0 +1,21 @@
+digraph "operator="
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2376 [label="operator=",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2376 -> Node2377 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2377 [label="Foam::abort",height=0.2,width=0.4,color="red",URL="$a21124.html#a447107a607d03e417307c203fa5fb44b"];
+  Node2376 -> Node2420 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2420 [label="binWidth",height=0.2,width=0.4,color="black",URL="$a24386.html#ad9bbd10b0f8997f516074985000f91c7"];
+  Node2376 -> Node2421 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2421 [label="Foam::IOstream::check",height=0.2,width=0.4,color="red",URL="$a26226.html#a367eb3425fc4e8270e2aa961df8ac8a5",tooltip="Check IOstream status for given operation. "];
+  Node2376 -> Node2427 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2427 [label="d",height=0.2,width=0.4,color="black",URL="$a38951.html#aa182a9055736468dd160f12649a01fd1"];
+  Node2376 -> Node2428 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2428 [label="Foam::operator\<\<",height=0.2,width=0.4,color="red",URL="$a21124.html#ae86a76a63deefbe1a4490c873ad8e1b2"];
+  Node2428 -> Node2421 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2376 -> Node2430 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2430 [label="Foam::HashTable\< T,\l label, Hash\< label\l \> \>::operator=",height=0.2,width=0.4,color="black",URL="$a25702.html#ab08fb00d67b7f3aeca707447df8580c5",tooltip="Assignment. "];
+}

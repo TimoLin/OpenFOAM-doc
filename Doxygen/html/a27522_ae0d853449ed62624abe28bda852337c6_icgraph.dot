@@ -1,0 +1,12 @@
+digraph "checkParallelSync"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2244 [label="checkParallelSync",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2244 -> Node2245 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2245 [label="Foam::ZoneMesh\< cellZone,\l polyMesh \>::checkDefinition",height=0.2,width=0.4,color="black",URL="$a27522.html#a039ec44911bfb8cd28ffd27a600e6fc5",tooltip="Check zone definition. Return true if in error. "];
+  Node2244 -> Node2246 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2246 [label="Foam::ZoneMesh\< cellZone,\l polyMesh \>::mesh",height=0.2,width=0.4,color="black",URL="$a27522.html#ac41d1bc48208a47ffceb25d417eea442",tooltip="Return the mesh reference. "];
+}

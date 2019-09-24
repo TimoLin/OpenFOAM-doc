@@ -1,0 +1,14 @@
+digraph "read"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node532 [label="read",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node532 -> Node533 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node533 [label="New",height=0.2,width=0.4,color="red",URL="$a21754.html#a2b2f903003567628689b2cd91cd947c2",tooltip="Select constructed from filename (explicit extension) "];
+  Node532 -> Node583 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node583 [label="transfer",height=0.2,width=0.4,color="red",URL="$a21754.html#a5c3a0d1aaac0c6ce7128a5a97b3d1425",tooltip="Transfer the contents of the argument and annul the argument. "];
+  Node532 -> Node585 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node585 [label="write",height=0.2,width=0.4,color="red",URL="$a21754.html#ac93279b51e2eb12dc1a54daf46bbca98",tooltip="Write to file. "];
+}

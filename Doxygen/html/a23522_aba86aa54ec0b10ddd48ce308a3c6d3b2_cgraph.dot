@@ -1,0 +1,16 @@
+digraph "writeData"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node40 [label="writeData",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node40 -> Node41 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node41 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node40 -> Node43 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node43 [label="Foam::indent",height=0.2,width=0.4,color="red",URL="$a21124.html#ae297c57ea5b952a8bc9e4f30f7ea8701",tooltip="Indent stream. "];
+  Node40 -> Node45 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node45 [label="Foam::dictionary::write",height=0.2,width=0.4,color="red",URL="$a26014.html#a88f27121631c7efb7153e9bf16759345",tooltip="Write dictionary, normally with sub-dictionary formatting. "];
+  Node45 -> Node41 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node45 -> Node43 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,22 @@
+digraph "read"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node326 [label="read",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node326 -> Node327 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node327 [label="energyScalingFunction",height=0.2,width=0.4,color="black",URL="$a24418.html#a36d7516d8f476d78f3d31cef5938ab97",tooltip="Construct from components. "];
+  Node326 -> Node328 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node328 [label="energyScalingFunctionProperties",height=0.2,width=0.4,color="black",URL="$a24418.html#a26211543d1c9b9e1fa30d3b6ae54e8f3"];
+  Node326 -> Node329 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node329 [label="Foam::energyScalingFunctions\l::noScaling::read",height=0.2,width=0.4,color="red",URL="$a24426.html#a0702ebe49b3b28f5ed59b5a082c4f2f7",tooltip="Read dictionary. "];
+  Node326 -> Node331 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node331 [label="Foam::energyScalingFunctions\l::shifted::read",height=0.2,width=0.4,color="red",URL="$a24430.html#a0702ebe49b3b28f5ed59b5a082c4f2f7",tooltip="Read dictionary. "];
+  Node326 -> Node333 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node333 [label="Foam::energyScalingFunctions\l::shiftedForce::read",height=0.2,width=0.4,color="red",URL="$a24434.html#a0702ebe49b3b28f5ed59b5a082c4f2f7",tooltip="Read dictionary. "];
+  Node326 -> Node335 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node335 [label="Foam::energyScalingFunctions\l::sigmoid::read",height=0.2,width=0.4,color="red",URL="$a24438.html#a0702ebe49b3b28f5ed59b5a082c4f2f7",tooltip="Read dictionary. "];
+  Node326 -> Node337 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node337 [label="Foam::energyScalingFunctions\l::doubleSigmoid::read",height=0.2,width=0.4,color="red",URL="$a24422.html#a0702ebe49b3b28f5ed59b5a082c4f2f7",tooltip="Read dictionary. "];
+}

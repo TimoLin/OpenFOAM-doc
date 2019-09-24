@@ -1,0 +1,18 @@
+digraph "cmptSum"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node129199 [label="cmptSum",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node129199 -> Node129200 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node129200 [label="Foam::primitiveMeshTools\l::cellClosedness",height=0.2,width=0.4,color="red",URL="$a27534.html#a14b7d320d846c69e1e404e9937f5d63c",tooltip="Generate cell openness and cell ascpect ratio field. "];
+  Node129199 -> Node129233 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node129233 [label="cmptAv",height=0.2,width=0.4,color="black",URL="$a21124.html#a8230f9f148507c3d3351f887eb189459"];
+  Node129199 -> Node129234 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node129234 [label="cmptMin",height=0.2,width=0.4,color="black",URL="$a21124.html#a874f7a58758cd8c979855afb4baf8d2b"];
+  Node129199 -> Node129235 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node129235 [label="Foam::polyMesh::nGeometricD",height=0.2,width=0.4,color="red",URL="$a27410.html#a13bdd7dac9c1c63be5f5ad4f4bcf2f63",tooltip="Return the number of valid geometric dimensions in the mesh. "];
+  Node129199 -> Node129337 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node129337 [label="Foam::polyMesh::nSolutionD",height=0.2,width=0.4,color="red",URL="$a27410.html#a6ffa9b9f19aa26f2870ebdd6c80d729a",tooltip="Return the number of valid solved-for dimensions in the mesh. "];
+}

@@ -1,0 +1,12 @@
+digraph "autoMap"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node21 [label="autoMap",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node21 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22 [label="Foam::fixedJumpAMIFvPatch\lField\< scalar \>::clone",height=0.2,width=0.4,color="black",URL="$a22106.html#a6dfbb046cc414bcb0ee27a1646815537",tooltip="Construct and return a clone setting internal field reference. "];
+  Node21 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23 [label="Foam::fixedJumpAMIFvPatch\lField\< scalar \>::jump",height=0.2,width=0.4,color="black",URL="$a22106.html#ab394b249d92968a32840683d596d42ff",tooltip="Return the \"jump\" across the patch. "];
+}

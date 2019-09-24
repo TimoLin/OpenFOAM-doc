@@ -1,0 +1,19 @@
+digraph "compound"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="compound",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="isCompound",height=0.2,width=0.4,color="black",URL="$a26310.html#a5526b1ed4c0af8c93b921751f9beec9d",tooltip="Return true if name is a compound type. "];
+  Node0 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="Foam::name",height=0.2,width=0.4,color="red",URL="$a21124.html#adcb0df2bd4953cb6bb390272d8263c3a",tooltip="Return a string representation of a complex. "];
+  Node0 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="New",height=0.2,width=0.4,color="red",URL="$a26310.html#a25edcfdc601d8f20a0924b57f88a3e6e",tooltip="Select null constructed. "];
+  Node0 -> Node49 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node49 [label="Foam::token::type",height=0.2,width=0.4,color="black",URL="$a26306.html#acc719f52fcbac7cb134576dc93632867"];
+  Node0 -> Node50 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node50 [label="~compound",height=0.2,width=0.4,color="black",URL="$a26310.html#ac72ea01a0ab1a180124806a8f76fe8df",tooltip="Destructor. "];
+  Node50 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

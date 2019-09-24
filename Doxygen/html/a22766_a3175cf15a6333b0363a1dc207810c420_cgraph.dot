@@ -1,0 +1,22 @@
+digraph "thisDb"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2960 [label="thisDb",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2960 -> Node2961 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2961 [label="boundary",height=0.2,width=0.4,color="black",URL="$a22766.html#a1fc8b179063cf5d6805da64ff1975126",tooltip="Return reference to boundary mesh. "];
+  Node2960 -> Node2962 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2962 [label="Foam::fvBoundaryMesh\l::interfaces",height=0.2,width=0.4,color="red",URL="$a22762.html#a20477f4d4a6c680f9e7b7c1cdd7fd31e",tooltip="Return a list of pointers for each patch. "];
+  Node2960 -> Node2965 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2965 [label="interfaces",height=0.2,width=0.4,color="black",URL="$a22766.html#a9c7fa7830073e60b4ab1696f1fff3d25",tooltip="Return a list of pointers for each patch. "];
+  Node2960 -> Node2966 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2966 [label="lduAddr",height=0.2,width=0.4,color="black",URL="$a22766.html#a34272ff26844ff8137cf0a5ac5c98227",tooltip="Return ldu addressing. "];
+  Node2960 -> Node2967 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2967 [label="Foam::IOobject::name",height=0.2,width=0.4,color="black",URL="$a26142.html#acc80e00a8ac919288fb55bd14cc88bf6",tooltip="Return name. "];
+  Node2960 -> Node2968 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2968 [label="name",height=0.2,width=0.4,color="black",URL="$a22766.html#acc80e00a8ac919288fb55bd14cc88bf6",tooltip="Return reference to name. "];
+  Node2960 -> Node2969 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2969 [label="Foam::polyMesh::thisDb",height=0.2,width=0.4,color="black",URL="$a27410.html#a5f5bc984783118ded801fa381b2a4719",tooltip="Return the object registry. "];
+}

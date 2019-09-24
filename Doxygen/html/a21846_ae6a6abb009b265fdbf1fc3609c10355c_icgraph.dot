@@ -1,0 +1,16 @@
+digraph "scalarCoord"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node191 [label="scalarCoord",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node191 -> Node192 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node192 [label="curveDist",height=0.2,width=0.4,color="black",URL="$a21846.html#ad509879467b346fff142751c948e243f",tooltip="Cumulative distance. "];
+  Node191 -> Node193 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node193 [label="hasVectorAxis",height=0.2,width=0.4,color="red",URL="$a21846.html#a2f0fc64ec6269a2507d97fee350acbb9",tooltip="Is axis specification a vector. "];
+  Node193 -> Node192 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node193 -> Node194 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node194 [label="Foam::writer\< Foam\l::SphericalTensor \>\l::writeCoord",height=0.2,width=0.4,color="black",URL="$a21878.html#abd9a0cfafd67aa71d798173ce0ce02f6"];
+  Node191 -> Node194 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

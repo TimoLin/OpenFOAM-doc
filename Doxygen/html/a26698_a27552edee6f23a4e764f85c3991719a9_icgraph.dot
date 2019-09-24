@@ -1,0 +1,24 @@
+digraph "y"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node152 [label="y",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node152 -> Node153 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node153 [label="Foam::noiseFFT::Ldelta",height=0.2,width=0.4,color="black",URL="$a28950.html#aa006839e84c20a155216a5d02d421d33",tooltip="Return the one-third-octave-band PFL spectrum. "];
+  Node153 -> Node154 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node154 [label="Foam::noiseFFT::Lf",height=0.2,width=0.4,color="black",URL="$a28950.html#a4748682baa06f01b536cb5b9ded29388",tooltip="Return the narrow-band PFL (pressure-fluctuation level) spectrum. "];
+  Node154 -> Node153 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node154 -> Node155 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node155 [label="Foam::noiseFFT::Lsum",height=0.2,width=0.4,color="black",URL="$a28950.html#a711abed373f9e29e9cd2e662148793e7",tooltip="Return the total PFL as the sum of Lf over all frequencies. "];
+  Node152 -> Node154 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node152 -> Node156 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node156 [label="Foam::engineValve::lift",height=0.2,width=0.4,color="red",URL="$a21826.html#a3f2011ba1a4551db1639dcc7f6be1586",tooltip="Return valve lift given crank angle in degrees. "];
+  Node152 -> Node155 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node152 -> Node161 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node161 [label="Foam::noiseFFT::Pdelta",height=0.2,width=0.4,color="black",URL="$a28950.html#a95558b83262f0d5c31d21d8c60f4ab8f",tooltip="Return the one-third-octave-band pressure spectrum. "];
+  Node161 -> Node153 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node152 -> Node162 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node162 [label="x",height=0.2,width=0.4,color="black",URL="$a26698.html#a151cf05df99366f9920e3c0dfc793acc"];
+}

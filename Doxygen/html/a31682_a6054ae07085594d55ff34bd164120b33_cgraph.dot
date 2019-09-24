@@ -1,0 +1,15 @@
+digraph "ensightAsciiStream"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="ensightAsciiStream",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 [label="Foam::OSstream::precision",height=0.2,width=0.4,color="black",URL="$a26290.html#a74bc37758ffb63d86025a0ca596e9039",tooltip="Get precision of output field. "];
+  Node0 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="Foam::scientific",height=0.2,width=0.4,color="black",URL="$a21124.html#a78214b33dde7e68fda6f5609b6faa561"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="Foam::IOstream::setf",height=0.2,width=0.4,color="red",URL="$a26226.html#a1666889b5cd4293d18eace0e70fa8a7a",tooltip="Set flags of stream. "];
+  Node0 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,16 @@
+digraph "correct"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node920 [label="correct",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node920 -> Node921 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node921 [label="alphat",height=0.2,width=0.4,color="black",URL="$a30818.html#a7385447c8d05dcced28217700b31b1eb",tooltip="Return the turbulence thermal diffusivity for a patch. "];
+  Node920 -> Node922 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node922 [label="Foam::compressible\l::laminar::correct",height=0.2,width=0.4,color="red",URL="$a30814.html#a3ae44b28050c3aa494c1d8e18cf618c1",tooltip="Correct the laminar viscosity. "];
+  Node920 -> Node925 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node925 [label="Foam::compressible\l::RASModel::correct",height=0.2,width=0.4,color="red",URL="$a30758.html#a3ae44b28050c3aa494c1d8e18cf618c1",tooltip="Solve the turbulence equations and correct the turbulence viscosity. "];
+  Node920 -> Node945 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node945 [label="Foam::compressible\l::LESModel::correct",height=0.2,width=0.4,color="black",URL="$a30634.html#a4f67b3ab06ec329ec02fa14d5f15d8f2",tooltip="Correct Eddy-Viscosity and related properties. "];
+}

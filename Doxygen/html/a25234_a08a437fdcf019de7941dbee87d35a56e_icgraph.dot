@@ -1,0 +1,18 @@
+digraph "getRegion"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node361 [label="getRegion",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node361 -> Node362 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node362 [label="Foam::refinementSurfaces\l::findAllHigherIntersections",height=0.2,width=0.4,color="red",URL="$a24686.html#a2ddfa4de0fa7882bd33975fe7d96acbf",tooltip="Find all intersections of edge. Unsorted order. "];
+  Node361 -> Node367 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node367 [label="findNearest",height=0.2,width=0.4,color="black",URL="$a25234.html#a56f136c4af107d7abb5490b08e3fd0ac",tooltip="Find nearest, normal and region. Can be overridden with. "];
+  Node361 -> Node368 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node368 [label="Foam::refinementSurfaces\l::findNearestIntersection",height=0.2,width=0.4,color="red",URL="$a24686.html#acf97c614655ec4074abaa9c582fff90f",tooltip="Find intersection nearest to the endpoints. surface1,2 are. "];
+  Node361 -> Node385 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node385 [label="Foam::searchableSurfaceWith\lGaps::getRegion",height=0.2,width=0.4,color="red",URL="$a25254.html#a293529d2b9916fb913c2b1bf66ba1a6e",tooltip="From a set of points and indices get the region. "];
+  Node361 -> Node365 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node365 [label="Foam::refinementSurfaces\l::setMinLevelFields",height=0.2,width=0.4,color="red",URL="$a24686.html#ad4b11621a132f1dc63549c371e1afdcd",tooltip="Calculate minLevelFields. "];
+}

@@ -1,0 +1,28 @@
+digraph "objectPath"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node18823 [label="objectPath",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node18823 -> Node18824 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18824 [label="filePath",height=0.2,width=0.4,color="red",URL="$a26142.html#a698f54dd16f5ec2931aeff16fd4878c8",tooltip="Return complete path + object name if the file exists. "];
+  Node18823 -> Node18837 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18837 [label="headerOk",height=0.2,width=0.4,color="red",URL="$a26142.html#a9d4879c850ce41d945ff77e788de3a23",tooltip="Read and check header info. "];
+  Node18823 -> Node18840 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18840 [label="name",height=0.2,width=0.4,color="black",URL="$a26142.html#acc80e00a8ac919288fb55bd14cc88bf6",tooltip="Return name. "];
+  Node18823 -> Node18841 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18841 [label="path",height=0.2,width=0.4,color="black",URL="$a26142.html#abe7b9078c8e7356c6131b70a8f729372",tooltip="Return complete path. "];
+  Node18823 -> Node18842 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18842 [label="readHeader",height=0.2,width=0.4,color="red",URL="$a26142.html#acc5353ca76293212d9dba8a82c0d9a44",tooltip="Read header. "];
+  Node18842 -> Node18840 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18842 -> Node19133 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19133 [label="writeHeader",height=0.2,width=0.4,color="red",URL="$a26142.html#ae7d7d31a4ff63361dd3f6490835938e8",tooltip="Write header. "];
+  Node18823 -> Node19134 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19134 [label="writeBanner",height=0.2,width=0.4,color="black",URL="$a26142.html#a02fe83a3242334d79d9798f542c1b780",tooltip="Write the standard OpenFOAM file/dictionary banner. "];
+  Node18823 -> Node19135 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19135 [label="writeDivider",height=0.2,width=0.4,color="black",URL="$a26142.html#ab9dfd1788c127840b478e7c3b95b2e51",tooltip="Write the standard file section divider. "];
+  Node18823 -> Node19136 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19136 [label="writeEndDivider",height=0.2,width=0.4,color="black",URL="$a26142.html#a310cb6482f458ab224dee0f892e99dc1",tooltip="Write the standard end file divider. "];
+  Node18823 -> Node19133 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

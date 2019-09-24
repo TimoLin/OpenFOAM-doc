@@ -1,0 +1,18 @@
+digraph "name"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node6 [label="name",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="end",height=0.2,width=0.4,color="black",URL="$a28862.html#aaf81d3fdaf258088d7692fa70cece087",tooltip="Execute at the final time-loop, used for cleanup. "];
+  Node6 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="execute",height=0.2,width=0.4,color="red",URL="$a28862.html#a61af3e60b94ae3e748f6fbac1e794af7",tooltip="Execute, check existence of abort file and take action. "];
+  Node6 -> Node33 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node33 [label="read",height=0.2,width=0.4,color="red",URL="$a28862.html#aa9b8764750bd9ff67ca32b6551dc7847",tooltip="Read the dictionary settings. "];
+  Node6 -> Node314 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node314 [label="timeSet",height=0.2,width=0.4,color="black",URL="$a28862.html#a9637c56f3ddc45f3ce62ec07dbe2228f",tooltip="Called when time was set at the end of the Time::operator++. "];
+  Node6 -> Node315 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node315 [label="write",height=0.2,width=0.4,color="black",URL="$a28862.html#aac759501cf6c7895a70eecbef0226ae1",tooltip="Execute, check existence of abort file and take action. "];
+}

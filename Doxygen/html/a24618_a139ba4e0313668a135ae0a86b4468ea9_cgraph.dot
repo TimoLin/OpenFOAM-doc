@@ -1,0 +1,18 @@
+digraph "doRefine"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node570 [label="doRefine",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node570 -> Node571 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node571 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node570 -> Node573 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node573 [label="Foam::refinementParameters\l::findCells",height=0.2,width=0.4,color="red",URL="$a24638.html#af2728099813df8ba8e59e0f5e27e8e11",tooltip="Checks that cells are in mesh. Returns cells they are in. "];
+  Node573 -> Node620 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node620 [label="Foam::primitiveMesh\l::nCells",height=0.2,width=0.4,color="black",URL="$a27530.html#a13b94bdb0926552bf78ad5210a73a3d5"];
+  Node573 -> Node571 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node570 -> Node620 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node570 -> Node601 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node601 [label="Foam::UPstream::parRun",height=0.2,width=0.4,color="black",URL="$a26270.html#adbb27f04b5705440fb8b09f278059011",tooltip="Is this a parallel run? "];
+}

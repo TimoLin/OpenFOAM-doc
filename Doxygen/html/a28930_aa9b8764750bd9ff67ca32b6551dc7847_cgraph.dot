@@ -1,0 +1,23 @@
+digraph "read"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1005 [label="read",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1005 -> Node1006 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1006 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node1005 -> Node1008 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1008 [label="forAllConstIter",height=0.2,width=0.4,color="red",URL="$a38141.html#ae21e2836509b0fa7f7cedf6493b11b09"];
+  Node1005 -> Node1308 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1308 [label="Foam::HashSet::insert",height=0.2,width=0.4,color="black",URL="$a25690.html#a49f0753d9652681fc3a81f59951a0ad7",tooltip="Insert a new entry. "];
+  Node1005 -> Node1309 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1309 [label="Foam::dictionary::lookup\lOrDefault",height=0.2,width=0.4,color="red",URL="$a26014.html#a69ee064dcc6d649df523e02e5c242922",tooltip="Find and return a T,. "];
+  Node1309 -> Node1006 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1005 -> Node1312 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1312 [label="Foam::polyBoundaryMesh\l::patchSet",height=0.2,width=0.4,color="red",URL="$a27402.html#abe10e35312c29750b51357d9058ca8be",tooltip="Return the set of patch IDs corresponding to the given names. "];
+  Node1312 -> Node1006 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1312 -> Node1308 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1005 -> Node1144 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1144 [label="Foam::type",height=0.2,width=0.4,color="red",URL="$a21124.html#aec48583af672626378f501eb9fc32cd1",tooltip="Return the file type: DIRECTORY or FILE. "];
+}

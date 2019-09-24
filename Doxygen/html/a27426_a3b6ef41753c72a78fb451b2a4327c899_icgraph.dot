@@ -1,0 +1,24 @@
+digraph "reverseT"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node663 [label="reverseT",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node663 -> Node664 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node664 [label="Foam::cyclicFvPatch\l::reverseT",height=0.2,width=0.4,color="red",URL="$a22802.html#a3b6ef41753c72a78fb451b2a4327c899",tooltip="Return neighbour-cell transformation tensor. "];
+  Node663 -> Node666 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node666 [label="Foam::processorFvPatch\l::reverseT",height=0.2,width=0.4,color="black",URL="$a22826.html#a3b6ef41753c72a78fb451b2a4327c899",tooltip="Return neighbour-cell transformation tensor. "];
+  Node663 -> Node667 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node667 [label="Foam::cyclicAMIFvPatch\l::reverseT",height=0.2,width=0.4,color="red",URL="$a22810.html#a3b6ef41753c72a78fb451b2a4327c899",tooltip="Return neighbour-cell transformation tensor. "];
+  Node663 -> Node669 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node669 [label="Foam::cyclicAMIPointPatch\l::reverseT",height=0.2,width=0.4,color="red",URL="$a24938.html#a145548d15ede47292d35fc5dcc50aa3d",tooltip="Return neighbour-cell transformation tensor. "];
+  Node663 -> Node671 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node671 [label="Foam::cyclicPointPatch\l::reverseT",height=0.2,width=0.4,color="red",URL="$a27278.html#a145548d15ede47292d35fc5dcc50aa3d",tooltip="Return neighbour-cell transformation tensor. "];
+  Node663 -> Node673 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node673 [label="Foam::cyclicACMIPointPatch\l::reverseT",height=0.2,width=0.4,color="red",URL="$a24918.html#a145548d15ede47292d35fc5dcc50aa3d",tooltip="Return neighbour-cell transformation tensor. "];
+  Node663 -> Node675 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node675 [label="Foam::cyclicACMIFvPatch\l::reverseT",height=0.2,width=0.4,color="red",URL="$a22806.html#a3b6ef41753c72a78fb451b2a4327c899",tooltip="Return neighbour-cell transformation tensor. "];
+  Node663 -> Node677 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node677 [label="Foam::processorCyclicPoly\lPatch::reverseT",height=0.2,width=0.4,color="red",URL="$a27458.html#a3b6ef41753c72a78fb451b2a4327c899",tooltip="Return neighbour-cell transformation tensor. "];
+}

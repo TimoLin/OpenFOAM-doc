@@ -1,0 +1,25 @@
+digraph "y"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node19 [label="y",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node19 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node20 [label="Foam::eigenVectors",height=0.2,width=0.4,color="black",URL="$a21124.html#a6189bbf2242e8854df6f0a7dce5d5c26"];
+  Node19 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node21 [label="Foam::operator &",height=0.2,width=0.4,color="black",URL="$a21124.html#aaea740458be6b73c73846bd8827de17a",tooltip="Inner-product between a spherical tensor and a vector. "];
+  Node19 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node22 [label="Foam::operator*",height=0.2,width=0.4,color="black",URL="$a21124.html#a7e6806ec1bcc02bebb8b7de43df5612b",tooltip="Outer-product between two vectors. "];
+  Node19 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node23 [label="Foam::Vector2D\< scalar\l \>::perp",height=0.2,width=0.4,color="black",URL="$a28454.html#a2b9fe5b997567538e1e4442d0f866ccd",tooltip="perp dot product (dot product with perpendicular vector) "];
+  Node19 -> Node24 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node24 [label="Foam::sqr",height=0.2,width=0.4,color="black",URL="$a21124.html#af4809dafd7b46552655fe0aa541f1bd9"];
+  Node19 -> Node25 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node25 [label="Foam::Tensor2D::Tensor2D",height=0.2,width=0.4,color="black",URL="$a28390.html#a29640d64cf55b847fd12f27b241621e2",tooltip="Construct given the two vectors. "];
+  Node19 -> Node26 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node26 [label="Foam::CV2D::toPoint",height=0.2,width=0.4,color="black",URL="$a31594.html#a87ce8309f75fe7a311333ec7626712b8"];
+  Node26 -> Node27 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node27 [label="Foam::CV2D::toPoint3D",height=0.2,width=0.4,color="black",URL="$a31594.html#a9ed36b286144b9d39a90456da03d75dd"];
+  Node19 -> Node27 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

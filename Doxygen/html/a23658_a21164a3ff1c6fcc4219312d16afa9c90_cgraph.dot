@@ -1,0 +1,23 @@
+digraph "clone"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node53 [label="clone",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node53 -> Node54 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node54 [label="erfInv",height=0.2,width=0.4,color="red",URL="$a23658.html#a31ffd6a096a2003dff272251dc6fd926"];
+  Node53 -> Node62 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node62 [label="maxValue",height=0.2,width=0.4,color="black",URL="$a23658.html#a6fe5ffd01d2a36f96228dc68682431bf",tooltip="Return the maximum value. "];
+  Node53 -> Node63 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node63 [label="meanValue",height=0.2,width=0.4,color="black",URL="$a23658.html#a0272fc28e271b84940ee851c385650ea",tooltip="Return the mean value. "];
+  Node53 -> Node64 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node64 [label="minValue",height=0.2,width=0.4,color="black",URL="$a23658.html#af648e1dd81dcfda4924705b96bcaf264",tooltip="Return the minimum value. "];
+  Node53 -> Node65 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node65 [label="normal",height=0.2,width=0.4,color="red",URL="$a23658.html#ade6a859c0b37d5dcc257655763e28449",tooltip="Construct from components. "];
+  Node53 -> Node109 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node109 [label="sample",height=0.2,width=0.4,color="red",URL="$a23658.html#a523eae27d84403d08bdca843c0679d8a",tooltip="Sample the distributionModel. "];
+  Node109 -> Node54 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node53 -> Node114 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node114 [label="~normal",height=0.2,width=0.4,color="black",URL="$a23658.html#a9e11ab55fc5604df244dc2a837e7eb1e",tooltip="Destructor. "];
+}

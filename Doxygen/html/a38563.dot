@@ -1,0 +1,30 @@
+digraph "applications/solvers/multiphase/twoPhaseEulerFoam/twoPhaseSystem/phaseModel/phaseModel.H"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node312 [label="applications/solvers\l/multiphase/twoPhaseEulerFoam\l/twoPhaseSystem/phaseModel\l/phaseModel.H",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node312 -> Node313 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node313 [label="applications/solvers\l/multiphase/compressibleMultiphase\lInterFoam/multiphaseMixtureThermo\l/multiphaseMixtureThermo.H",height=0.2,width=0.4,color="red",URL="$a20309.html"];
+  Node312 -> Node315 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node315 [label="applications/solvers\l/multiphase/multiphaseEuler\lFoam/interfacialModels/dragModels\l/dragModel/dragModel.H",height=0.2,width=0.4,color="black",URL="$a38612.html"];
+  Node312 -> Node316 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node316 [label="applications/solvers\l/multiphase/multiphaseEuler\lFoam/interfacialModels/heatTransfer\lModels/heatTransferModel/heatTransferModel.H",height=0.2,width=0.4,color="black",URL="$a39695.html"];
+  Node312 -> Node317 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node317 [label="applications/solvers\l/multiphase/multiphaseEuler\lFoam/multiphaseSystem/diameterModels\l/diameterModel/diameterModel.H",height=0.2,width=0.4,color="black",URL="$a38732.html"];
+  Node312 -> Node318 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node318 [label="applications/solvers\l/multiphase/multiphaseEuler\lFoam/multiphaseSystem/multiphase\lSystem.H",height=0.2,width=0.4,color="red",URL="$a20540.html"];
+  Node312 -> Node320 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node320 [label="applications/solvers\l/multiphase/twoPhaseEulerFoam\l/phaseCompressibleTurbulenceModels\l/kineticTheoryModels/kineticTheoryModel\l/kineticTheoryModel.H",height=0.2,width=0.4,color="black",URL="$a20891.html"];
+  Node312 -> Node321 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node321 [label="applications/solvers\l/multiphase/twoPhaseEulerFoam\l/phaseCompressibleTurbulenceModels\l/phasePressureModel/phasePressureModel.H",height=0.2,width=0.4,color="black",URL="$a20954.html"];
+  Node312 -> Node322 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node322 [label="applications/solvers\l/multiphase/twoPhaseEulerFoam\l/twoPhaseSystem/BlendedInterfacial\lModel/blendingMethods/blendingMethod\l/blendingMethod.H",height=0.2,width=0.4,color="red",URL="$a20969.html"];
+  Node312 -> Node406 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node406 [label="applications/solvers\l/multiphase/twoPhaseEulerFoam\l/twoPhaseSystem/diameterModels\l/diameterModel/diameterModel.H",height=0.2,width=0.4,color="red",URL="$a38735.html"];
+  Node312 -> Node417 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node417 [label="applications/solvers\l/multiphase/twoPhaseEulerFoam\l/twoPhaseSystem/phasePair\l/phasePair/phasePair.H",height=0.2,width=0.4,color="red",URL="$a21032.html"];
+  Node417 -> Node419 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node419 [label="applications/solvers\l/multiphase/twoPhaseEulerFoam\l/twoPhaseSystem/twoPhaseSystem.H",height=0.2,width=0.4,color="red",URL="$a21047.html"];
+  Node312 -> Node419 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

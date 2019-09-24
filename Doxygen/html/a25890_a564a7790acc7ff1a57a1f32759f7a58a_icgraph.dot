@@ -1,0 +1,16 @@
+digraph "capacity"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node15 [label="capacity",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node15 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16 [label="Foam::primitiveMesh\l::cellEdges",height=0.2,width=0.4,color="black",URL="$a27530.html#aa8f3c979c238982d15fd48beb8c76ca9",tooltip="cellEdges using cells, pointFaces, edges, pointEdges "];
+  Node15 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17 [label="Foam::primitiveMesh\l::cellPoints",height=0.2,width=0.4,color="black",URL="$a27530.html#a1c13020694d048dc396cd4b8662de467",tooltip="cellPoints using cells "];
+  Node15 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 [label="Foam::primitiveMesh\l::faceEdges",height=0.2,width=0.4,color="black",URL="$a27530.html#af9a5126a3f71ac85ea1e7883b2fadc15",tooltip="faceEdges using pointFaces, edges, pointEdges "];
+  Node15 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19 [label="Foam::primitiveMesh\l::pointPoints",height=0.2,width=0.4,color="black",URL="$a27530.html#a934d2a22a229b43067995d81d8422bb9",tooltip="pointPoints using edges, pointEdges "];
+}

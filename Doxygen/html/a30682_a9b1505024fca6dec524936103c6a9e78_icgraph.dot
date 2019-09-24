@@ -1,0 +1,24 @@
+digraph "epsilon"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1779 [label="epsilon",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1779 -> Node1780 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1780 [label="createAveragingWeights",height=0.2,width=0.4,color="black",URL="$a30682.html#a7e3f26a2eb2d1d475fca3c80c5fa26f0",tooltip="Create the averaging weights for cells which are bounded by. "];
+  Node1780 -> Node1781 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1781 [label="updateCoeffs",height=0.2,width=0.4,color="black",URL="$a30682.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node1781 -> Node1782 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1782 [label="~epsilonWallFunctionFvPatch\lScalarField",height=0.2,width=0.4,color="black",URL="$a30682.html#a98881bea9b62755b180a80471c61424e",tooltip="Destructor. "];
+  Node1779 -> Node1779 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1779 -> Node1783 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1783 [label="epsilonPatch",height=0.2,width=0.4,color="red",URL="$a30682.html#a0b7034c05195f30b871972d758d7dadd",tooltip="Helper function to return non-const access to an epsilon patch. "];
+  Node1783 -> Node1779 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1783 -> Node1786 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1786 [label="setMaster",height=0.2,width=0.4,color="black",URL="$a30682.html#af62f4355fcee4da87dbdf3b365d3d73a",tooltip="Set the master patch - master is responsible for updating all. "];
+  Node1786 -> Node1781 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1779 -> Node1786 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1779 -> Node1781 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1779 -> Node1782 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

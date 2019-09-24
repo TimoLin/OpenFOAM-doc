@@ -1,0 +1,14 @@
+digraph "faceCellCentres"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node5251 [label="faceCellCentres",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node5251 -> Node5252 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5252 [label="Foam::primitiveMesh\l::cellCentres",height=0.2,width=0.4,color="red",URL="$a27530.html#a7300aee2989c6ec70e39436816461902"];
+  Node5251 -> Node5313 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5313 [label="faceCells",height=0.2,width=0.4,color="red",URL="$a27478.html#afbfac825732ef2770fff4261b4e930e9",tooltip="Return face-cell addressing. "];
+  Node5251 -> Node5316 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5316 [label="Foam::polyBoundaryMesh\l::mesh",height=0.2,width=0.4,color="red",URL="$a27402.html#ae78c91f8ff731c07ccc4351d9fe861ba",tooltip="Return the mesh reference. "];
+}

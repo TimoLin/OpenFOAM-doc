@@ -1,0 +1,20 @@
+digraph "src/OpenFOAM/db/dictionary/functionEntries/includeIfPresentEntry" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="FreeSans"];
+  edge [ labelfontsize="10", labelfontname="FreeSans"];
+  subgraph clusterdir_02d80f093374efbc333e223ddfd028a9 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="functionEntries" fontname="FreeSans", fontsize="10", URL="dir_02d80f093374efbc333e223ddfd028a9.html"]
+  dir_5613fa7158c6f15d658c68d3c1d20314 [shape=box, label="includeIfPresentEntry", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_5613fa7158c6f15d658c68d3c1d20314.html"];
+  }
+  dir_466e4f5b4cc1582939ab4ceba36098d8 [shape=box label="IOstreams" color="red" URL="dir_466e4f5b4cc1582939ab4ceba36098d8.html"];
+  dir_97107bb83a2a5bbfad7ddd584e3f301c [shape=box label="runTimeSelection" color="red" URL="dir_97107bb83a2a5bbfad7ddd584e3f301c.html"];
+  dir_e4557854e8fe4e7131667e8e6a3048f5 [shape=box label="includeEntry" URL="dir_e4557854e8fe4e7131667e8e6a3048f5.html"];
+  dir_466e4f5b4cc1582939ab4ceba36098d8->dir_97107bb83a2a5bbfad7ddd584e3f301c [headlabel="1", labeldistance=1.5 headhref="dir_001825_001840.html"];
+  dir_5613fa7158c6f15d658c68d3c1d20314->dir_466e4f5b4cc1582939ab4ceba36098d8 [headlabel="1", labeldistance=1.5 headhref="dir_001799_001825.html"];
+  dir_5613fa7158c6f15d658c68d3c1d20314->dir_97107bb83a2a5bbfad7ddd584e3f301c [headlabel="1", labeldistance=1.5 headhref="dir_001799_001840.html"];
+  dir_5613fa7158c6f15d658c68d3c1d20314->dir_e4557854e8fe4e7131667e8e6a3048f5 [headlabel="1", labeldistance=1.5 headhref="dir_001799_001797.html"];
+  dir_97107bb83a2a5bbfad7ddd584e3f301c->dir_466e4f5b4cc1582939ab4ceba36098d8 [headlabel="2", labeldistance=1.5 headhref="dir_001840_001825.html"];
+  dir_e4557854e8fe4e7131667e8e6a3048f5->dir_466e4f5b4cc1582939ab4ceba36098d8 [headlabel="1", labeldistance=1.5 headhref="dir_001797_001825.html"];
+  dir_e4557854e8fe4e7131667e8e6a3048f5->dir_97107bb83a2a5bbfad7ddd584e3f301c [headlabel="1", labeldistance=1.5 headhref="dir_001797_001840.html"];
+}

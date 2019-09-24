@@ -1,0 +1,20 @@
+digraph "note"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node9983 [label="note",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node9983 -> Node9984 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9984 [label="Foam::regIOobject::read",height=0.2,width=0.4,color="red",URL="$a26334.html#af816873151ddb0126e98bb2f914d8ed5",tooltip="Read object. "];
+  Node9983 -> Node11290 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11290 [label="Foam::meshReader::warnDuplicates",height=0.2,width=0.4,color="red",URL="$a21326.html#a2638db035b2a192cbe57e864292f2823",tooltip="Warn about repeated names. "];
+  Node9983 -> Node12044 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12044 [label="Foam::fileFormats::\ledgeMeshFormat::write",height=0.2,width=0.4,color="black",URL="$a21758.html#ac93279b51e2eb12dc1a54daf46bbca98",tooltip="Write edgeMesh with a mimicked IOobject header. "];
+  Node9983 -> Node11292 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11292 [label="Foam::boundaryRegion\l::writeDict",height=0.2,width=0.4,color="red",URL="$a21338.html#a5e0e3f6379801645b054898461a759fb",tooltip="Write constant/boundaryRegion for later reuse. "];
+  Node9983 -> Node11298 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11298 [label="Foam::cellTable::writeDict",height=0.2,width=0.4,color="red",URL="$a21342.html#ac541ca9cdaa39c51c673abb39b0ed033",tooltip="write constant/cellTable for later reuse "];
+  Node9983 -> Node11360 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11360 [label="writeHeader",height=0.2,width=0.4,color="black",URL="$a26142.html#a9ee0b27f25db9fc7ba06426c302f8a45",tooltip="Write header. Allow override of type. "];
+}

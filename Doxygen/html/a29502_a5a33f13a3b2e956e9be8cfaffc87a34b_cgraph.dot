@@ -1,0 +1,31 @@
+digraph "restrain"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node233 [label="restrain",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node233 -> Node234 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node234 [label="Foam::acos",height=0.2,width=0.4,color="black",URL="$a21124.html#af1788b4e662ef398105742fd8bc861fc"];
+  Node233 -> Node235 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node235 [label="Foam::sixDoFRigidBodyMotion\l::centreOfRotation",height=0.2,width=0.4,color="red",URL="$a29530.html#ac69bb45c63cd2a8b38afc3ea65090515",tooltip="Return the current centre of rotation. "];
+  Node233 -> Node237 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node237 [label="Foam::endl",height=0.2,width=0.4,color="red",URL="$a21124.html#a2db8fe02a0d3909e9351bb4275b23ce4",tooltip="Add newline and flush stream. "];
+  Node233 -> Node239 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node239 [label="Foam::mag",height=0.2,width=0.4,color="black",URL="$a21124.html#a929da2a3fdcf3dacbbe0487d3a330dae"];
+  Node233 -> Node240 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node240 [label="Foam::min",height=0.2,width=0.4,color="black",URL="$a21124.html#a253e112ad2d56d96230ff39ea7f442dc"];
+  Node233 -> Node241 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node241 [label="Foam::sixDoFRigidBodyMotion\l::omega",height=0.2,width=0.4,color="red",URL="$a29530.html#a82d25f29aa98277a0f9e7db54a5f7eee",tooltip="Return the angular velocity in the global frame. "];
+  Node233 -> Node246 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node246 [label="Foam::sixDoFRigidBodyMotion\l::orientation",height=0.2,width=0.4,color="black",URL="$a29530.html#a228c3ca986a5f34cf19ef679f8d80906",tooltip="Return the orientation tensor, Q. "];
+  Node233 -> Node247 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node247 [label="read",height=0.2,width=0.4,color="red",URL="$a29502.html#affa21705bb326eaf3c87a5c6c1e56f3b",tooltip="Update properties from given dictionary. "];
+  Node247 -> Node239 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node233 -> Node300 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node300 [label="Foam::sixDoFRigidBodyMotion\l::report",height=0.2,width=0.4,color="black",URL="$a29530.html#a1538c196c66305d82ca5d146cf37067a",tooltip="Return the report Switch. "];
+  Node233 -> Node301 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node301 [label="Foam::rotationTensor",height=0.2,width=0.4,color="red",URL="$a21124.html#a1be81720bcafb843826c32024fe5fbe3"];
+  Node233 -> Node305 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node305 [label="Foam::sign",height=0.2,width=0.4,color="red",URL="$a21124.html#a221fd301d6c49c5bd4a6c0f5ccb893b2"];
+}

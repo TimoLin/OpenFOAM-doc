@@ -1,0 +1,14 @@
+digraph "coupledPatchMeshEdgeMap"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1944 [label="coupledPatchMeshEdgeMap",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1944 -> Node1945 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1945 [label="coupledPatchMeshEdges",height=0.2,width=0.4,color="red",URL="$a27334.html#aa00f3e08eda303a5809080b2474441b3",tooltip="Return map from coupledPatch edges to mesh edges. "];
+  Node1944 -> Node2004 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2004 [label="Foam::HashTable::insert",height=0.2,width=0.4,color="black",URL="$a25702.html#a5eee1e0e199ad59b9cb3916cd42156e0",tooltip="Insert a new hashedEntry. "];
+  Node1944 -> Node2005 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2005 [label="Foam::List::size",height=0.2,width=0.4,color="black",URL="$a25694.html#a8a5f6fa29bd4b500caf186f60245b384",tooltip="Override size to be inconsistent with allocated storage. "];
+}

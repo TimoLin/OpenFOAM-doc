@@ -1,0 +1,44 @@
+digraph "~polyMeshFilterSettings"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2 [label="~polyMeshFilterSettings",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="collapseEdgesCoeffDict",height=0.2,width=0.4,color="black",URL="$a21602.html#a95f69fa35e867989bec0c6d4402763cf"];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="collapseFacesCoeffDict",height=0.2,width=0.4,color="black",URL="$a21602.html#ab3ef2d8ce8faa8340b00247e0d3610ca"];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="controlMeshQuality",height=0.2,width=0.4,color="black",URL="$a21602.html#a1b70208045da1d57f62e87a0d34af597"];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="edgeReductionFactor",height=0.2,width=0.4,color="black",URL="$a21602.html#a73e96ff9149bca21648de60ca0a60f34"];
+  Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="faceReductionFactor",height=0.2,width=0.4,color="black",URL="$a21602.html#a68ec84e4bc7b6a6ad91a3394251b1327"];
+  Node2 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="initialFaceLengthFactor",height=0.2,width=0.4,color="black",URL="$a21602.html#a66db24de261ea3db82f23cca708a9169"];
+  Node2 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="maxCos",height=0.2,width=0.4,color="black",URL="$a21602.html#a423905d5ec768cefac5bc0c96bea6043"];
+  Node2 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="maxIterations",height=0.2,width=0.4,color="black",URL="$a21602.html#a4100a88ff73eca4f9ce3e3396414acce"];
+  Node2 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="maxPointErrorCount",height=0.2,width=0.4,color="black",URL="$a21602.html#a1025991f98958fb050d427ec9c83bf99"];
+  Node2 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12 [label="maxSmoothIters",height=0.2,width=0.4,color="black",URL="$a21602.html#a47021eca57b3a49322603631c7fbd7b8"];
+  Node2 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13 [label="meshQualityCoeffDict",height=0.2,width=0.4,color="black",URL="$a21602.html#ac47b40dd6ba7caacd4ec398b8cfcad40"];
+  Node2 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14 [label="minLen",height=0.2,width=0.4,color="black",URL="$a21602.html#a1200f9bd6d6516158e2fc93c1507ce19"];
+  Node2 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15 [label="writeSettings",height=0.2,width=0.4,color="red",URL="$a21602.html#a2a6219ff1676c3caa814d59e9aacedae",tooltip="Write the settings to a stream. "];
+  Node15 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

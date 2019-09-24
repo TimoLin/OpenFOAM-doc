@@ -1,0 +1,16 @@
+digraph "setFilterContext"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node797 [label="setFilterContext",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node797 -> Node798 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node798 [label="addCreateFile",height=0.2,width=0.4,color="red",URL="$a26070.html#a6d270b8740a9f41b1b6dfb91cdc6c4bd",tooltip="Add a file to create with its contents. Will not be filtered. "];
+  Node798 -> Node800 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node800 [label="codeDirName",height=0.2,width=0.4,color="black",URL="$a26070.html#a03583b008e55aa52fecb01f0df03b665",tooltip="Return the code-dirname. "];
+  Node797 -> Node800 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node797 -> Node803 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node803 [label="reset",height=0.2,width=0.4,color="red",URL="$a26070.html#a5fe40a6007c13edae2b46c47d7a0c3c7",tooltip="Clear files and reset variables to specified context. "];
+  Node803 -> Node800 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

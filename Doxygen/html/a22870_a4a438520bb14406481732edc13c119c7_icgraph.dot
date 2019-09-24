@@ -1,0 +1,44 @@
+digraph "index"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node478 [label="index",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node478 -> Node479 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node479 [label="Foam::compressible\l::epsilonLowReWallFunction\lFvPatchScalarField::calculate",height=0.2,width=0.4,color="red",URL="$a30678.html#a9b10d949afa36a0fe772c66e94719865",tooltip="Calculate the epsilon and G. "];
+  Node478 -> Node481 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node481 [label="Foam::compressible\l::epsilonWallFunctionFvPatch\lScalarField::calculate",height=0.2,width=0.4,color="red",URL="$a30682.html#a9b10d949afa36a0fe772c66e94719865",tooltip="Calculate the epsilon and G. "];
+  Node478 -> Node490 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node490 [label="Foam::compressible\l::omegaWallFunctionFvPatch\lScalarField::calculate",height=0.2,width=0.4,color="red",URL="$a30726.html#a198ab1edcd6a58e1f422febaac58dacc",tooltip="Calculate the omega and G. "];
+  Node478 -> Node499 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node499 [label="Cf",height=0.2,width=0.4,color="red",URL="$a22870.html#accde3bfd6f67a9d6a201edbcbbe12a19",tooltip="Return face centres. "];
+  Node478 -> Node508 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node508 [label="deltaCoeffs",height=0.2,width=0.4,color="red",URL="$a22870.html#ae7fa6a37605868b9c425d10de6415f00",tooltip="Return the face - cell distance coeffient. "];
+  Node508 -> Node509 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node509 [label="Foam::filmPyrolysisRadiative\lCoupledMixedFvPatchScalarField\l::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a28982.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node508 -> Node511 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node511 [label="Foam::totalFlowRateAdvective\lDiffusiveFvPatchScalarField\l::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a30794.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node478 -> Node519 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node519 [label="magSf",height=0.2,width=0.4,color="red",URL="$a22870.html#a9a7c95d3e0cb6fd08cd82a30b92ec106",tooltip="Return face area magnitudes. "];
+  Node519 -> Node535 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node535 [label="Foam::externalCoupledTemperature\lMixedFvPatchScalarField::transferData",height=0.2,width=0.4,color="red",URL="$a30778.html#aaead10f96672ca2a1e5c291111cebf1e",tooltip="Transfer data for external source. "];
+  Node519 -> Node511 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node478 -> Node539 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node539 [label="Sf",height=0.2,width=0.4,color="red",URL="$a22870.html#af93b93b841156265e8007a71b07f4ab4",tooltip="Return face area vectors. "];
+  Node478 -> Node535 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node478 -> Node541 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node541 [label="Foam::energyJumpAMIFvPatch\lScalarField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a29742.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients. "];
+  Node478 -> Node543 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node543 [label="Foam::energyJumpFvPatchScalar\lField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a29738.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients. "];
+  Node478 -> Node511 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node478 -> Node545 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node545 [label="Foam::compressible\l::RASModels::fWallFunction\lFvPatchScalarField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a30686.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node478 -> Node547 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node547 [label="Foam::compressible\l::RASModels::v2WallFunction\lFvPatchScalarField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a30730.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node478 -> Node549 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node549 [label="Foam::compressible\l::kLowReWallFunctionFvPatch\lScalarField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a30690.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node478 -> Node509 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node478 -> Node551 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node551 [label="weights",height=0.2,width=0.4,color="red",URL="$a22870.html#a9df29dd3da8e7d332ca135dce0cffa58",tooltip="Return patch weighting factors. "];
+}

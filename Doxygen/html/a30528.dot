@@ -1,0 +1,16 @@
+digraph "alphaContactAngleFvPatchScalarField"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node6 [label="alphaContactAngleFvPatch\lScalarField",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node7 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="zeroGradientFvPatchScalar\lField",height=0.2,width=0.4,color="grey75"];
+  Node7 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="fixedGradientFvPatchScalar\lField",height=0.2,width=0.4,color="grey75"];
+  Node9 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" limitControlNames_" ,fontname="FreeSans"];
+  Node9 [label="NamedEnum\< limitControls, 4 \>",height=0.2,width=0.4,color="red",URL="$a25998.html"];
+}

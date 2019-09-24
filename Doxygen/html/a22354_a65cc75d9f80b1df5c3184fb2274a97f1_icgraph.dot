@@ -1,0 +1,28 @@
+digraph "db"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node761 [label="db",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node761 -> Node762 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node762 [label="Foam::basicThermo::\llookupThermo",height=0.2,width=0.4,color="black",URL="$a29734.html#a1a973e5b42d222c61500a0d68386822d"];
+  Node761 -> Node763 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node763 [label="Foam::externalCoupledTemperature\lMixedFvPatchScalarField::transferData",height=0.2,width=0.4,color="red",URL="$a30778.html#aaead10f96672ca2a1e5c291111cebf1e",tooltip="Transfer data for external source. "];
+  Node761 -> Node767 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node767 [label="Foam::totalFlowRateAdvective\lDiffusiveFvPatchScalarField\l::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a30794.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node761 -> Node769 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node769 [label="Foam::compressible\l::RASModels::fWallFunction\lFvPatchScalarField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a30686.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node761 -> Node771 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node771 [label="Foam::compressible\l::RASModels::v2WallFunction\lFvPatchScalarField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a30730.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node761 -> Node773 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node773 [label="Foam::compressible\l::kLowReWallFunctionFvPatch\lScalarField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a30690.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node761 -> Node775 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node775 [label="Foam::porousBafflePressure\lFvPatchField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a30826.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node761 -> Node777 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node777 [label="Foam::compressible\l::epsilonWallFunctionFvPatch\lScalarField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a30682.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node761 -> Node779 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node779 [label="Foam::compressible\l::omegaWallFunctionFvPatch\lScalarField::updateCoeffs",height=0.2,width=0.4,color="red",URL="$a30726.html#a7e24eafac629d3733181cd942d4c902f",tooltip="Update the coefficients associated with the patch field. "];
+  Node761 -> Node781 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node781 [label="~fvPatchField",height=0.2,width=0.4,color="black",URL="$a22354.html#ae4f4531d4430899f01306957cb8b36be",tooltip="Destructor. "];
+}

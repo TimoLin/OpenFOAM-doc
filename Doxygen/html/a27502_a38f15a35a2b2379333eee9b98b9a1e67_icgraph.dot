@@ -1,0 +1,14 @@
+digraph "getMasterPoints"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node10494 [label="getMasterPoints",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node10494 -> Node10495 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10495 [label="Foam::meshRefinement\l::printMeshInfo",height=0.2,width=0.4,color="red",URL="$a24662.html#a5f2793031a24693c73d09dfecd26debb",tooltip="Print some mesh stats. "];
+  Node10494 -> Node10501 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10501 [label="syncEdgePositions",height=0.2,width=0.4,color="black",URL="$a27502.html#a0855467e61ed50e1853e9d586d9c2fc9",tooltip="Synchronize locations on selected edges. "];
+  Node10494 -> Node10502 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10502 [label="Foam::medialAxisMeshMover\l::~medialAxisMeshMover",height=0.2,width=0.4,color="black",URL="$a24654.html#a03eb6ed57214533ca9c7282a850b1ea3"];
+}

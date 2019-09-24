@@ -1,0 +1,22 @@
+digraph "readBool"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node112956 [label="readBool",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node112956 -> Node112957 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node112957 [label="Foam::extrudePatchMesh\l::extrudePatchMesh",height=0.2,width=0.4,color="red",URL="$a21446.html#ada5aee048de4d025b44660aca99d21a6",tooltip="Construct from mesh, patch and dictionary. "];
+  Node112956 -> Node112959 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node112959 [label="Foam::KinematicParcel\l::KinematicParcel",height=0.2,width=0.4,color="black",URL="$a23878.html#aadba6bb876f56b3c332b7f76c49c600a",tooltip="Construct from Istream. "];
+  Node112956 -> Node112960 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node112960 [label="Foam::porosityModel\l::read",height=0.2,width=0.4,color="red",URL="$a21918.html#a6ce0c64db98eb6144d363dbfc86104eb",tooltip="Read porosity dictionary. "];
+  Node112956 -> Node112964 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node112964 [label="Foam::fv::option::read",height=0.2,width=0.4,color="red",URL="$a23446.html#a6ce0c64db98eb6144d363dbfc86104eb",tooltip="Read source dictionary. "];
+  Node112956 -> Node112994 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node112994 [label="Foam::PackedList\< 2\l \>::readValue",height=0.2,width=0.4,color="black",URL="$a25938.html#a7b3c04e15f66e8dd39552c0999ba2d6b"];
+  Node112956 -> Node112995 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node112995 [label="Foam::compressible\l::thermalBaffleFvPatchScalar\lField::rmap",height=0.2,width=0.4,color="red",URL="$a29186.html#a713277715ccc0a5ef466b0516d44731f",tooltip="Reverse map the given fvPatchField onto this fvPatchField. "];
+  Node112956 -> Node112999 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node112999 [label="Foam::compressible\l::thermalBaffleFvPatchScalar\lField::write",height=0.2,width=0.4,color="red",URL="$a29186.html#a293fdfec8bdfbd5c3913ab4c9f3454ff",tooltip="Write. "];
+}

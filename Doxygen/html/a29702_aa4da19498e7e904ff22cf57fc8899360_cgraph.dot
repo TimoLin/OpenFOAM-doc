@@ -1,0 +1,18 @@
+digraph "storedZones"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node423 [label="storedZones",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node423 -> Node424 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node424 [label="Foam::MeshedSurfaceIOAllocator\l::storedIOZones",height=0.2,width=0.4,color="black",URL="$a29578.html#ad588ffc8b79f669ddf3c227f0426f32f",tooltip="Non-const access to the zones. "];
+  Node423 -> Node425 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node425 [label="updateFacesRef",height=0.2,width=0.4,color="red",URL="$a29702.html#af39711fff65cd9c05a11aa5725252dac",tooltip="Update references to storedFaces. "];
+  Node423 -> Node428 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node428 [label="updatePointsRef",height=0.2,width=0.4,color="red",URL="$a29702.html#a04625629155b5d11981c378c6f954592",tooltip="Update references to storedPoints. "];
+  Node423 -> Node432 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node432 [label="updateRefs",height=0.2,width=0.4,color="red",URL="$a29702.html#a6f719c5aaff7ed498bd8bf5e8dfa5380",tooltip="Update references to storedPoints/storedFaces. "];
+  Node432 -> Node428 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node432 -> Node425 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}
